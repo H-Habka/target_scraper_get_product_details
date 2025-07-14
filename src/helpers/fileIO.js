@@ -23,7 +23,7 @@ export function saveToCSVAndExcel(productRow, variants = [], extraImages = []) {
     fs.mkdirSync(outputDir, { recursive: true });
   }
 
-  // Prepare main product data
+  // Prepare worksheet data
   const worksheetData = [];
   
   // Add main product row (first variant)
