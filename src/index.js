@@ -17,8 +17,8 @@ import { saveToCSVAndExcel } from './helpers/fileIO.js';
 
   for (const url of urls) {
     try {
-      const { productRow, extraImages, variants } = await extractTargetProductData(page, url);
-      await saveToCSVAndExcel(productRow, extraImages, variants);
+     const { productRow, extraImages, variants, option1Name, option2Name } = await extractTargetProductData(page, url);
+     await saveToCSVAndExcel(productRow, extraImages, variants, option1Name, option2Name);
       console.log('✅ Saved:', url);
     } catch (err) {
       console.error('❌ Failed:', err.message);

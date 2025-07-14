@@ -28,7 +28,7 @@ export async function extractPrice(page) {
     const originalPriceText = await page.$eval('span.h-text-line-through', el => el.textContent);
     originalPrice = parsePrice(originalPriceText);
   } catch {
-    originalPrice = null; // Optional
+    originalPrice = null;
   }
 
   return {
@@ -37,6 +37,7 @@ export async function extractPrice(page) {
   };
 }
 
+// Helper functions
 async function getMainImageSrc(page) {
   try {
     return await page.$eval('.CarouselDesktopmainImgBlock .ZoomControllermainImage', img => img.src);
@@ -45,20 +46,20 @@ async function getMainImageSrc(page) {
   }
 }
 
-async function waitForImageChange(page, oldImage, timeout = 20000) {
+async function waitForImageLoad(page, timeout = 10000) {
   try {
-    await page.waitForFunction(
-      (prevImage) => {
-        const img = document.querySelector('.CarouselDesktopmainImgBlock .ZoomControllermainImage')?.src;
-        return img && img !== prevImage;
-      },
-      { timeout },
-      oldImage
-    );
-    return true;
-  } catch {
-    return false;
+    await page.waitForFunction(() => {
+      const img = document.querySelector('.CarouselDesktopmainImgBlock .ZoomControllermainImage');
+      return img && img.complete && img.naturalWidth > 0;
+    }, { timeout });
+  } catch (error) {
+    console.warn('Image load timeout exceeded');
   }
+}
+
+async function extractBaseSKU(url) {
+  const match = url.match(/preselect=(\d+)/);
+  return match ? match[1] : extractSKU(url);
 }
 
 async function extractVariants(page) {
@@ -134,13 +135,8 @@ async function extractVariants(page) {
 
     return variantsData;
   } catch (error) {
-    console.log('No variants found or error extracting variants:', error.message);
-    return {
-      option1Name: 'Color',
-      option2Name: 'Size',
-      colors: [],
-      sizes: []
-    };
+    console.log('No variants found:', error.message);
+    return null;
   }
 }
 
@@ -152,81 +148,96 @@ export async function extractTargetProductData(page, url) {
 
     // 1. Extract basic identifiers
     const handle = formatHandleFromUrl(url);
-    const baseSKU = extractSKU(url);
+    const baseSKU = await extractBaseSKU(url);
     const title = await extractTitle(page, handle);
 
     // 2. Extract pricing data
     const { currentPrice, originalPrice } = await extractPrice(page);
     const { variantPrice, compareAtPrice } = calculatePrices(currentPrice, originalPrice);
 
-    // 3. Extract variants
-    const variants = await extractVariants(page);
+    // 3. Extract all images for main product
+    const imageHandles = await extractImages(page);
+    let mainImage = imageHandles[0] || '';
+
+    // 4. Extract variants if they exist
+    const variantsData = await extractVariants(page);
     const allVariants = [];
-    let mainImage = await getMainImageSrc(page);
+    let option1Name = '';
+    let option2Name = '';
 
-    // Process Size Group first if exists
-    const sizeGroup = variants.sizes.find(s => s.label === 'Boys' || s.label === 'Girls');
-    if (sizeGroup && !sizeGroup.isSelected) {
-      await sizeGroup.anchor.click();
-      await page.waitForTimeout(2000);
-      // Re-extract after size group change
-      return await extractTargetProductData(page, url);
-    }
+    if (variantsData) {
+      option1Name = variantsData.option1Name;
+      option2Name = variantsData.option2Name;
 
-    // Process Color variants
-    for (const color of variants.colors) {
-      let variantImage = mainImage;
-      let variantPrice = currentPrice;
-
-      if (!color.isSelected && color.href) {
-        const oldImage = await getMainImageSrc(page);
-        await color.anchor.click();
-        await waitForImageChange(page, oldImage);
-        await page.waitForTimeout(2000);
-        
-        variantImage = await getMainImageSrc(page);
-        const priceData = await extractPrice(page);
-        variantPrice = priceData.currentPrice;
+      // Process Size Group first if exists
+      const sizeGroup = variantsData.sizes.find(s => s.label === 'Boys' || s.label === 'Girls');
+      if (sizeGroup && !sizeGroup.isSelected) {
+        await sizeGroup.anchor.click();
+        await page.waitForTimeout(3000);
+        // Re-extract after size group change
+        return await extractTargetProductData(page, url);
       }
 
-      allVariants.push({
-        Handle: handle,
-        "Option1 Name": variants.option1Name,
-        "Option1 Value": color.label,
-        "Option2 Name": variants.option2Name,
-        "Option2 Value": '',
-        "Variant Price": variantPrice,
-        "Variant Compare At Price": compareAtPrice,
-        "Variant Image": color.variantImage,
-        "Image Src": variantImage,
-        "Variant SKU": `${baseSKU}-${color.label.replace(/\s+/g, '-')}`
-      });
+      // Process Color variants
+      for (const color of variantsData.colors) {
+        let variantImages = [];
+        let variantPrice = currentPrice;
+        let variantSKU = baseSKU;
+
+        if (!color.isSelected && color.href) {
+          const oldImage = await getMainImageSrc(page);
+          await color.anchor.click();
+          await page.waitForTimeout(2000);
+          await waitForImageLoad(page);
+          
+          // Verify image actually changed
+          const newImage = await getMainImageSrc(page);
+          if (newImage && newImage !== oldImage) {
+            const priceData = await extractPrice(page);
+            variantPrice = priceData.currentPrice;
+            variantImages = await extractImages(page);
+          }
+        } else {
+          variantImages = imageHandles;
+        }
+
+        allVariants.push({
+          Handle: handle,
+          "Option1 Name": option1Name,
+          "Option1 Value": color.label,
+          "Option2 Name": option2Name,
+          "Option2 Value": '',
+          "Variant Price": variantPrice,
+          "Variant Compare At Price": compareAtPrice,
+          "Variant Image": color.variantImage,
+          "Image Src": variantImages[0] || mainImage,
+          "Variant SKU": variantSKU
+        });
+      }
+
+      // Process Size variants
+      for (const size of variantsData.sizes) {
+        if (size.label === 'Boys' || size.label === 'Girls') continue;
+
+        allVariants.push({
+          Handle: handle,
+          "Option1 Name": option1Name,
+          "Option1 Value": variantsData.colors[0]?.label || '',
+          "Option2 Name": option2Name,
+          "Option2 Value": size.label,
+          "Variant Price": currentPrice,
+          "Variant Compare At Price": compareAtPrice,
+          "Variant Image": '',
+          "Image Src": mainImage,
+          "Variant SKU": baseSKU
+        });
+      }
     }
 
-    // Process Size variants
-    for (const size of variants.sizes) {
-      if (size.label === 'Boys' || size.label === 'Girls') continue;
-
-      allVariants.push({
-        Handle: handle,
-        "Option1 Name": variants.option1Name,
-        "Option1 Value": variants.colors[0]?.label || '',
-        "Option2 Name": variants.option2Name,
-        "Option2 Value": size.label,
-        "Variant Price": currentPrice,
-        "Variant Compare At Price": compareAtPrice,
-        "Variant Image": '',
-        "Image Src": variants.colors[0] ? allVariants.find(v => v["Option1 Value"] === variants.colors[0].label)?.["Image Src"] || mainImage : mainImage,
-        "Variant SKU": `${baseSKU}-${size.label.replace(/\s+/g, '-')}`
-      });
-    }
-
-    // 4. Extract other product data
+    // 5. Compile product data
     const breadcrumbs = await extractBreadcrumbs(page);
     const description = await getDescription(page);
-    const imageHandles = await extractImages(page);
 
-    // 5. Compile main product data
     const productRow = {
       Handle: handle,
       Title: title,
@@ -239,7 +250,7 @@ export async function extractTargetProductData(page, url) {
       "Original Price": originalPrice,
       "Variant Price": variantPrice,
       "Variant Compare At Price": compareAtPrice,
-      "Image Src": imageHandles[0] || "",
+      "Image Src": mainImage,
       ...DEFAULT_VALUES,
       "product.metafields.custom.original_product_url": url,
     };
@@ -252,7 +263,9 @@ export async function extractTargetProductData(page, url) {
     return { 
       productRow, 
       extraImages,
-      variants: allVariants.length ? allVariants : [productRow] // Fallback to main product if no variants
+      variants: allVariants.length ? allVariants : [productRow],
+      option1Name,
+      option2Name
     };
   } catch (error) {
     console.error(`❌ Error processing ${url}:`, error.message);
