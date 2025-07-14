@@ -37,15 +37,203 @@ export async function extractPrice(page) {
   };
 }
 
-// Extract SKU from page content
-async function extractSKUFromPage(page) {
+// Helper functions
+async function getMainImageSrc(page) {
   try {
-    return await page.$eval('[data-test="product-item-number"]', el =>
-      el.innerText.replace('Item Number (DPCI):', '').trim()
-    );
+    return await page.$eval('.CarouselDesktopmainImgBlock .ZoomControllermainImage', img => img.src);
   } catch {
     return '';
   }
+}
+
+async function waitForImageChange(page, oldImage, timeout = 10000) {
+  try {
+    await page.waitForFunction(
+      (prevImage) => {
+        const img = document.querySelector('.CarouselDesktopmainImgBlock .ZoomControllermainImage');
+        return img && img.src !== prevImage;
+      },
+      { timeout },
+      oldImage
+    );
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+async function safeClick(page, selector, timeout = 5000) {
+  try {
+    await page.waitForSelector(selector, { 
+      visible: true,
+      timeout: timeout 
+    });
+    const element = await page.$(selector);
+    await element.evaluate(el => el.scrollIntoView({block: "center"}));
+    await page.waitForTimeout(500); // Additional stabilization
+    await element.click();
+    return true;
+  } catch (error) {
+    console.warn(`Click failed on selector ${selector}:`, error.message);
+    return false;
+  }
+}
+
+async function extractVariants(page) {
+  try {
+    const variantSection = await page.waitForSelector(
+      `div[data-module-type="ProductDetailVariationSelector"]`,
+      { timeout: 8000, state: 'attached' }
+    );
+
+    const variantTitles = await variantSection.$$eval(
+      "div.h-margin-a-module-gap > div",
+      (variantsItem) => {
+        return variantsItem.map((item) => {
+          return item.querySelector("div:nth-child(1) > span")?.innerText?.trim();
+        }).filter(Boolean);
+      }
+    );
+
+    const variantItemWrapper = await variantSection.$$(
+      "div.h-margin-a-module-gap > div"
+    );
+
+    const variantsData = {
+      option1Name: variantTitles[0] || 'Color',
+      option2Name: variantTitles[1] || 'Size',
+      colors: [],
+      sizes: []
+    };
+
+    for (const item of variantItemWrapper) {
+      const variantTitleHandle = await item.$("div:nth-child(1) > span");
+      const variantTitle = variantTitleHandle ? 
+        await variantTitleHandle.evaluate(el => el.innerText.trim()) : '';
+
+      const anchors = await item.$$("div > ul > li > a");
+      
+      for (const anchor of anchors) {
+        const variantData = await anchor.evaluate((el) => {
+          const span = el.querySelector("span");
+          let label = span ? span.innerText.trim() : null;
+          
+          const img = el.querySelector("img");
+          if (!label && img && img.alt) {
+            label = img.alt.trim();
+          }
+
+          const isSelected = el.getAttribute("aria-label")?.includes("selected");
+          const variantImage = img?.src || null;
+          
+          return { 
+            label, 
+            isSelected, 
+            variantImage,
+            href: el.href,
+            selector: 'div > ul > li > a' // Store selector for later use
+          };
+        });
+
+        variantData.anchor = anchor;
+
+        if (variantTitle.toLowerCase().includes('color')) {
+          variantsData.colors.push(variantData);
+        } 
+        else if (variantTitle.toLowerCase().includes('size') && variantTitle !== 'Size Group') {
+          variantsData.sizes.push(variantData);
+        }
+        else if (variantTitle === 'Size Group') {
+          if (variantData.label === 'Boys' || variantData.label === 'Girls') {
+            variantsData.sizes.push(variantData);
+          }
+        }
+      }
+    }
+
+    return variantsData;
+  } catch (error) {
+    console.log('Variant extraction failed:', error.message);
+    return null;
+  }
+}
+
+async function getVariantSKUFromURL(page) {
+  return await page.evaluate(() => {
+    const url = new URL(window.location.href);
+    return url.pathname.split('-').pop().replace('/', '');
+  });
+}
+
+async function extractVariantData(page) {
+  const currentSKU = await getVariantSKUFromURL(page);
+  const { currentPrice, originalPrice } = await extractPrice(page);
+  const images = await extractImages(page);
+  const mainImage = images[0] || '';
+  
+  return {
+    sku: currentSKU,
+    price: currentPrice,
+    compareAtPrice: originalPrice,
+    mainImage,
+    allImages: images
+  };
+}
+
+async function processColorVariants(page, variantsData) {
+  const results = [];
+  const selectedColor = variantsData.colors.find(c => c.isSelected);
+  
+  // First collect all non-selected colors
+  for (const color of variantsData.colors) {
+    if (color.isSelected) continue;
+    
+    const oldImage = await getMainImageSrc(page);
+    const oldSKU = await getVariantSKUFromURL(page);
+    
+    // Use safeClick with the stored selector
+    const clicked = await safeClick(page, color.selector);
+    if (!clicked) continue;
+    
+    // Wait for both SKU and image to change
+    await Promise.all([
+      page.waitForFunction(
+        (sku) => {
+          const url = new URL(window.location.href);
+          const currentSKU = url.pathname.split('-').pop().replace('/', '');
+          return currentSKU !== sku;
+        },
+        {},
+        oldSKU
+      ),
+      waitForImageChange(page, oldImage)
+    ]);
+    
+    const variantData = await extractVariantData(page);
+    results.push({
+      ...variantData,
+      color: color.label,
+      colorImage: color.variantImage
+    });
+    
+    // Return to selected color
+    if (selectedColor) {
+      await safeClick(page, selectedColor.selector);
+      await page.waitForTimeout(2000);
+    }
+  }
+  
+  // Then collect selected color data (no need to click)
+  if (selectedColor) {
+    const variantData = await extractVariantData(page);
+    results.unshift({
+      ...variantData,
+      color: selectedColor.label,
+      colorImage: selectedColor.variantImage
+    });
+  }
+  
+  return results;
 }
 
 export async function extractTargetProductData(page, url) {
@@ -54,158 +242,110 @@ export async function extractTargetProductData(page, url) {
     console.info("✅ Page loaded, waiting for stability...");
     await page.waitForTimeout(3000);
 
+    // Extract base product info
     const handle = formatHandleFromUrl(url);
+    const title = await extractTitle(page, handle);
     const breadcrumbs = await extractBreadcrumbs(page);
     const description = await getDescription(page);
-    const imageHandles = await extractImages(page);
+    const variantsData = await extractVariants(page);
 
-    const { currentPrice, originalPrice } = await extractPrice(page);
-    const { variantPrice, compareAtPrice } = calculatePrices(currentPrice, originalPrice);
-    const title = await extractTitle(page, handle);
-    const sku = extractSKU(url);
+    // Process variants
+    let colorVariants = [];
+    let sizeVariants = [];
+    let variantImagesMap = {};
+    
+    if (variantsData) {
+      // Handle Size Group first
+      const sizeGroup = variantsData.sizes.find(s => s.label === 'Boys' || s.label === 'Girls');
+      if (sizeGroup && !sizeGroup.isSelected) {
+        await safeClick(page, sizeGroup.selector);
+        await page.waitForTimeout(3000);
+        return await extractTargetProductData(page, url);
+      }
 
-    const productRow = {
-      Handle: handle,
-      Title: title,
-      "Body (HTML)": description,
-      Vendor: DEFAULT_VALUES.VENDOR,
-      Type: breadcrumbs.split(',').pop()?.trim() || DEFAULT_VALUES.TYPE,
-      Tags: breadcrumbs,
-      "Variant SKU": sku,
-      "Cost per item": currentPrice,
-      "Original Price": originalPrice,
-      "Variant Price": variantPrice,
-      "Variant Compare At Price": compareAtPrice,
-      "Image Src": imageHandles[0] || "",
-      ...DEFAULT_VALUES,
-      "product.metafields.custom.original_product_url": url,
+      // Process Color Variants
+      colorVariants = await processColorVariants(page, variantsData);
+
+      // Create variant images mapping
+      variantImagesMap = colorVariants.reduce((acc, variant) => {
+        acc[variant.sku] = variant.colorImage || variant.mainImage;
+        return acc;
+      }, {});
+
+      // Process Size Variants
+      sizeVariants = variantsData.sizes
+        .filter(s => !['Boys', 'Girls'].includes(s.label))
+        .map(size => ({
+          sku: colorVariants[0]?.sku ||  getVariantSKUFromURL(page),
+          price: colorVariants[0]?.price || 0,
+          compareAtPrice: colorVariants[0]?.compareAtPrice || 0,
+          mainImage: colorVariants[0]?.mainImage || '',
+          color: colorVariants[0]?.color || '',
+          colorImage: colorVariants[0]?.colorImage || '',
+          size: size.label
+        }));
+    }
+
+    // Compile final data
+    const allVariants = [...colorVariants, ...sizeVariants];
+    const uniqueImages = [...new Set(allVariants.flatMap(v => v.allImages || []))];
+
+    return {
+      productRow: {
+        Handle: handle,
+        Title: title,
+        "Body (HTML)": description,
+        Vendor: DEFAULT_VALUES.VENDOR,
+        Type: breadcrumbs.split(',').pop()?.trim() || DEFAULT_VALUES.TYPE,
+        Tags: breadcrumbs,
+        Published: true,
+        "Option1 Name": variantsData?.option1Name || 'Color',
+        "Option2 Name": variantsData?.option2Name || 'Size',
+        "Variant Grams": 0,
+        "Variant Inventory Tracker": "shopify",
+        "Variant Inventory Policy": "deny",
+        "Variant Fulfillment Service": "manual",
+        "Variant Requires Shipping": true,
+        "Variant Taxable": true,
+        "Gift Card": false,
+        "Google Shopping / Gender": "female",
+        ...DEFAULT_VALUES,
+        "original_prodect_url": url,
+        "variants_skus_images_mapper": JSON.stringify(variantImagesMap)
+      },
+      variants: allVariants.map((variant, index) => ({
+        Handle: handle,
+        "Variant SKU": variant.sku,
+        "Option1 Value": variant.color,
+        "Option2 Value": variant.size || '',
+        "Variant Price": variant.price,
+        "Variant Compare At Price": variant.compareAtPrice,
+        "Image Src": index === 0 ? uniqueImages.join(', ') : variant.mainImage,
+        "Image Position": index + 1,
+        "Variant Image": variant.colorImage,
+        "Cost per item": variant.price * 0.8, // Assuming 20% margin
+        Status: "active"
+      })),
+      extraImages: uniqueImages.slice(1).map((src, index) => ({
+        Handle: handle,
+        "Image Src": src,
+        "Image Position": index + 2
+      }))
     };
-
-    const extraImages = imageHandles.slice(1).map(src => ({
-      Handle: handle,
-      "Image Src": src
-    }));
-
-    const variantRows = await extractVariants(page, handle);
-
-    return { productRow, extraImages, variantRows };
   } catch (error) {
     console.error(`❌ Error processing ${url}:`, error.message);
     throw error;
   }
 }
 
-async function extractVariants(page, baseHandle) {
-  const variantRows = [];
-  try {
-    const variantSection = await page.$(`div[data-module-type="ProductDetailVariationSelector"]`);
-    if (!variantSection) return [];
-
-    const variantItemWrapper = await variantSection.$$('div.h-margin-a-module-gap > div');
-    const anchorsPerVariant = {};
-
-    for (const item of variantItemWrapper) {
-      const titleHandle = await item.$('div:nth-child(1) > span');
-      const variantTitle = titleHandle ? await titleHandle.evaluate(el => el.innerText.trim()) : '';
-
-      const anchors = await item.$$('div > ul > li > a');
-      const anchorsDetails = [];
-
-      for (const anchor of anchors) {
-        const detail = await anchor.evaluate(el => {
-          const span = el.querySelector('span');
-          let label = span ? span.innerText.trim() : null;
-          const img = el.querySelector('img');
-          if (!label && img?.alt) label = img.alt.trim();
-          const isSelected = el.getAttribute('aria-label')?.includes('selected');
-          return { label, isSelected, swatchImage: img?.src || '' };
-        });
-        anchorsDetails.push({ ...detail, anchor });
-      }
-
-      anchorsPerVariant[variantTitle] = anchorsDetails;
-    }
-
-    // Handle Size Group selection first
-    if (anchorsPerVariant["Size Group"]?.length) {
-      const sizeGroup = anchorsPerVariant["Size Group"].find(item => ["Girls", "Boys"].includes(item.label));
-      if (sizeGroup && !sizeGroup.isSelected) {
-        await sizeGroup.anchor.click();
-        await page.waitForTimeout(2000);
-      }
-    }
-
-    // Handle Color Variants
-    if (anchorsPerVariant["Color"]) {
-      for (const color of anchorsPerVariant["Color"]) {
-        if (!color.isSelected) {
-          const oldImage = await page.$eval('div.styles_zoomableImage__R_OOf img', img => img.src).catch(() => '');
-          await color.anchor.click();
-
-          await page.waitForFunction(prev => {
-            const img = document.querySelector('div.styles_zoomableImage__R_OOf img')?.src;
-            return img && img !== prev;
-          }, oldImage, { timeout: 15000 });
-
-          await page.waitForTimeout(2000);
-        }
-
-        const variantSKU = await extractSKUFromPage(page);
-        const { currentPrice, originalPrice } = await extractPrice(page);
-        const mainImage = await page.$eval('div.styles_zoomableImage__R_OOf img', img => img.src).catch(() => '');
-
-        variantRows.push({
-          Handle: baseHandle,
-          "Option1 Name": "Color",
-          "Option1 Value": color.label,
-          "Option2 Name": "",
-          "Option2 Value": "",
-          "Variant SKU": variantSKU,
-          "Cost per item": currentPrice,
-          "Original Price": originalPrice,
-          "Image Src": mainImage,
-          "Variant Swatch Image": color.swatchImage
-        });
-      }
-    }
-
-    // Handle Size Variants (no image)
-    if (anchorsPerVariant["Size"]) {
-      for (const size of anchorsPerVariant["Size"]) {
-        if (!size.isSelected) {
-          await size.anchor.click();
-          await page.waitForTimeout(1500);
-        }
-
-        const variantSKU = await extractSKUFromPage(page);
-        const { currentPrice, originalPrice } = await extractPrice(page);
-
-        variantRows.push({
-          Handle: baseHandle,
-          "Option1 Name": "",
-          "Option1 Value": "",
-          "Option2 Name": "Size",
-          "Option2 Value": size.label,
-          "Variant SKU": variantSKU,
-          "Cost per item": currentPrice,
-          "Original Price": originalPrice,
-          "Image Src": "",
-          "Variant Swatch Image": size.swatchImage || ""
-        });
-      }
-    }
-
-    return variantRows;
-  } catch (err) {
-    console.warn("⚠️ Variant extraction failed:", err.message);
-    return [];
-  }
-}
 
 // Helper: extract title
 async function extractTitle(page, fallbackTitle) {
   try {
-    return await page.$eval('h1[data-test="product-title"]', el => el.textContent.trim());
+    return await page.$eval(
+      'h1[data-test="product-title"]',
+      el => el.textContent.trim()
+    );
   } catch {
     return fallbackTitle?.replace(/_/g, " ") || "";
   }
@@ -214,7 +354,8 @@ async function extractTitle(page, fallbackTitle) {
 // Helper: extract breadcrumbs
 async function extractBreadcrumbs(page) {
   try {
-    return await page.$$eval('a[data-test="@web/Breadcrumbs/BreadcrumbLink"]',
+    return await page.$$eval(
+      'a[data-test="@web/Breadcrumbs/BreadcrumbLink"]',
       anchors => anchors.map(a => a.textContent.trim()).filter(Boolean).join(",")
     );
   } catch {
@@ -222,10 +363,11 @@ async function extractBreadcrumbs(page) {
   }
 }
 
-// Helper: extract images
+// Helper: extract all images
 async function extractImages(page) {
   try {
-    return await page.$$eval('div.styles_zoomableImage__R_OOf img',
+    return await page.$$eval(
+      'div.styles_zoomableImage__R_OOf img',
       imgs => imgs.map(img => img.src).filter(Boolean)
     );
   } catch {
