@@ -1,55 +1,20 @@
-import {
-  formatHandleFromUrl,
-  extractSKU,
-  calculatePrices,
-} from "./formatters.js";
 import { getDescription } from "./description.js";
-import { SELECTORS, DEFAULT_VALUES } from "./constants.js";
+import {
+  calculatePrices,
+  extractSKU,
+  formatHandleFromUrl,
+} from "./formatters.js";
 import { gotoTargetWithRetries } from "./gotoWithRetries.js";
+import {
+  extractBreadcrumbs,
+  extractMainImage,
+  extractPrice,
+  extractTitle,
+  getVariantKey,
+  handleCollectVariants,
+} from "./index.js";
 
-/**
- * Extract price from page safely
- */
-export async function extractPrice(page) {
-  function parsePrice(text) {
-    const cleaned = text.replace(/[^\d.]/g, "");
-    const value = parseFloat(cleaned);
-    return isNaN(value) ? null : value;
-  }
-
-  let currentPrice = null;
-  let originalPrice = null;
-
-  try {
-    await page.waitForSelector('span[data-test="product-price"]', {
-      timeout: 8000,
-    });
-    const currentPriceText = await page.$eval(
-      'span[data-test="product-price"]',
-      (el) => el.textContent
-    );
-    currentPrice = parsePrice(currentPriceText);
-  } catch (err) {
-    console.warn("⚠️ Could not extract current price:", err.message);
-  }
-
-  try {
-    const originalPriceText = await page.$eval(
-      "span.h-text-line-through",
-      (el) => el.textContent
-    );
-    originalPrice = parsePrice(originalPriceText);
-  } catch {
-    originalPrice = null; // Optional
-  }
-
-  return {
-    currentPrice: currentPrice ?? 0,
-    originalPrice,
-  };
-}
-
-export async function extractTargetProductData(page, url) {
+export async function extractTargetProductData(page, url, extraTags) {
   try {
     await gotoTargetWithRetries(page, url);
     console.info("✅ Page loaded, waiting for stability...");
@@ -57,60 +22,95 @@ export async function extractTargetProductData(page, url) {
 
     // 1. Extract basic identifiers
     const handle = formatHandleFromUrl(url);
-    const sku = extractSKU(url);
-    const title = await extractTitle(page, handle);
-
-    // 2. Extract pricing data
-    const { currentPrice, originalPrice } = await extractPrice(page);
-    const { variantPrice, compareAtPrice } = calculatePrices(
-      currentPrice,
-      originalPrice
-    );
-
-    // 3. Extract other product data
     const breadcrumbs = await extractBreadcrumbs(page);
     const description = await getDescription(page);
-    const imageHandles = await extractImages(page);
+    const title = await extractTitle(page, handle);
 
-    console.log("first phase Done");
+    let anchorsPerVariant;
 
-    const variantSection = await page.waitForSelector(
-      `div[data-module-type="ProductDetailVariationSelector"]`
-    );
+    anchorsPerVariant = await handleCollectVariants({ page });
 
-    const variantsOptions = await variantSection.$$eval(
-      "div.h-margin-a-module-gap > div",
-      (variantsItem) => {
-        return variantsItem.map((item) => {
-          const variantTitle = item
-            .querySelector("div:nth-child(1) > span")
-            ?.innerText?.trim();
-          return { variantTitle };
-        });
+    if (
+      anchorsPerVariant["Size Group"] &&
+      anchorsPerVariant["Size Group"].length
+    ) {
+      for (const { label, isSelected, anchor } of anchorsPerVariant[
+        "Size Group"
+      ]) {
+        if (label === "Boys" || label === "Girls") {
+          if (!isSelected) {
+            await anchor.click();
+            anchorsPerVariant = await handleCollectVariants({ page });
+          }
+        }
       }
-    );
+    }
 
-    const variantItemWrapper = await variantSection.$$(
-      "div.h-margin-a-module-gap > div"
-    );
+    const colorKey = getVariantKey(anchorsPerVariant, "Color");
+    const sizeKey = getVariantKey(anchorsPerVariant, "Size");
 
-    const anchorsPerVariant = {};
+    if (anchorsPerVariant[colorKey]) {
+      if (!anchorsPerVariant[colorKey]?.[0]?.isSelected) {
+        let oldMainImage = await extractMainImage({ page });
 
-    for (const item of variantItemWrapper) {
-      // Get the title by evaluating in the page context
-      const variantTitleHandle = await item.$("div:nth-child(1) > span");
-      let variantTitle = "";
-      if (variantTitleHandle) {
-        variantTitle = await variantTitleHandle.evaluate((el) =>
-          el.innerText.trim()
+        await anchorsPerVariant[colorKey]?.[0]?.anchor?.click();
+        await page.waitForFunction(
+          (prevMainImage) => {
+            const currMainImage = document.querySelector(
+              `div[data-test="image-gallery-item-0"] img`
+            )?.src;
+            if (currMainImage !== prevMainImage) return true;
+            return false;
+          },
+          oldMainImage,
+          { timeout: 10000 }
+        );
+        anchorsPerVariant = await handleCollectVariants({ page });
+      }
+    }
+    if (anchorsPerVariant[sizeKey]) {
+      const anchorsToLoopOn = anchorsPerVariant[sizeKey];
+      if (!anchorsToLoopOn?.[0]?.isSelected) {
+        await anchorsToLoopOn?.[0]?.anchor?.click();
+        await page.waitForFunction(
+          (oldUrl) => window.location.href !== oldUrl,
+          {},
+          page.url()
         );
       }
+    }
 
-      const anchors = await item.$$("div > ul > li > a");
-      const anchorsDetails = [];
+    const allVariants = [];
 
-      for (const anchor of anchors) {
-        const detail = await anchor.evaluate((el) => {
+    if (anchorsPerVariant[colorKey]) {
+      for (const colorVariant of anchorsPerVariant[colorKey]) {
+        if (!colorVariant?.isSelected) {
+          let oldMainImage = await extractMainImage({ page });
+
+          await colorVariant?.anchor?.click();
+          await page.waitForFunction(
+            (prevMainImage) => {
+              const currMainImage = document.querySelector(
+                `div[data-test="image-gallery-item-0"] img`
+              )?.src;
+              if (
+                currMainImage &&
+                prevMainImage &&
+                currMainImage !== prevMainImage
+              )
+                return true;
+              return false;
+            },
+            oldMainImage,
+            { timeout: 10000 }
+          );
+        }
+
+        const mainImage = await extractMainImage({ page });
+
+        anchorsPerVariant = await handleCollectVariants({ page });
+
+        const colorVariantLabel = await colorVariant.anchor.evaluate((el) => {
           // Try to get text from a span inside <a>
           const span = el.querySelector("span");
           let label = span ? span.innerText.trim() : null;
@@ -121,110 +121,163 @@ export async function extractTargetProductData(page, url) {
             label = img.alt.trim();
           }
 
-          const isSelected = el
-            .getAttribute("aria-label")
-            ?.includes("selected");
-
-          return { label, isSelected };
+          return label;
         });
-        anchorsDetails.push(detail);
-      }
 
-      anchorsPerVariant[variantTitle] = anchorsDetails.map((item, index) => {
-        return { ...item, anchor: anchors[index] };
-      });
-    }
+        colorVariant.label = colorVariantLabel;
 
-    console.log(anchorsPerVariant);
+        if (anchorsPerVariant[sizeKey]) {
+          const anchorsToLoopOn = anchorsPerVariant[sizeKey];
+          for (const sizeVariant of anchorsToLoopOn) {
+            await sizeVariant.anchor.click();
+            await page.waitForFunction(
+              (oldUrl) => window.location.href !== oldUrl,
+              {},
+              page.url()
+            );
+            const sku = extractSKU(page.url());
 
-    if (
-      anchorsPerVariant["Size Group"] &&
-      anchorsPerVariant["Size Group"].length
-    ) {
-      for (const { label, isSelected, anchor } of anchorsPerVariant[
-        "Size Group"
-      ]) {
-        if (label === "Boys") {
-          if (!isSelected) {
-            await anchor.click();
-            // Note You Have to reread variant
+            const sizeVariantLabel = await sizeVariant.anchor.evaluate((el) => {
+              // Try to get text from a span inside <a>
+              const span = el.querySelector("span");
+              let label = span ? span.innerText.trim() : null;
+
+              // If there's an <img> inside <a>, get its alt text
+              const img = el.querySelector("img");
+              if (!label && img && img.alt) {
+                label = img.alt.trim();
+              }
+
+              return label;
+            });
+
+            sizeVariant.label = sizeVariantLabel;
+
+            console.log(
+              `${colorVariant.label} -- ${sizeVariant.label} -- ${sku}`
+            );
+
+            const { currentPrice, originalPrice } = await extractPrice(page);
+            const { variantPrice, compareAtPrice, costPerItem } =
+              calculatePrices(currentPrice, originalPrice);
+
+            allVariants.push({
+              color: colorVariant.label,
+              size: sizeVariant.label,
+              sku,
+              variantPrice,
+              compareAtPrice,
+              costPerItem,
+              mainImage,
+            });
           }
+        }
+      }
+    } else {
+      if (anchorsPerVariant[sizeKey]) {
+        const anchorsToLoopOn = anchorsPerVariant[sizeKey];
+        const mainImage = await extractMainImage({ page });
+        for (const sizeVariant of anchorsToLoopOn) {
+          await sizeVariant.anchor.click();
+          await page.waitForFunction(
+            (oldUrl) => window.location.href !== oldUrl,
+            {},
+            page.url()
+          );
+          const sku = extractSKU(page.url());
+
+          const label = await sizeVariant.anchor.evaluate((el) => {
+            // Try to get text from a span inside <a>
+            const span = el.querySelector("span");
+            let label = span ? span.innerText.trim() : null;
+
+            // If there's an <img> inside <a>, get its alt text
+            const img = el.querySelector("img");
+            if (!label && img && img.alt) {
+              label = img.alt.trim();
+            }
+
+            return label;
+          });
+
+          sizeVariant.label = label;
+
+          console.log(`${sizeVariant.label} -- ${sku}`);
+
+          const { currentPrice, originalPrice } = await extractPrice(page);
+          const { variantPrice, compareAtPrice, costPerItem } = calculatePrices(
+            currentPrice,
+            originalPrice
+          );
+
+          allVariants.push({
+            color: null,
+            size: sizeVariant.label,
+            sku,
+            variantPrice,
+            compareAtPrice,
+            costPerItem,
+            mainImage,
+          });
         }
       }
     }
 
-    if (anchorsPerVariant["Color"]) {
-      for (const colorVariant of anchorsPerVariant["Color"]) {
-        await colorVariant.anchor.click();
-        await page.waitForTimeout(4000);
-      }
+    const allShopifyRows = [];
+
+    let option1Name = "";
+    let option2Name = "";
+
+    const hasColor = !!anchorsPerVariant[colorKey];
+    const hasSize = !!anchorsPerVariant[sizeKey];
+
+    if (hasColor && hasSize) {
+      option1Name = "Color";
+      option2Name = "Size";
+    } else if (hasColor) {
+      option1Name = "Color";
+      option2Name = "";
+    } else if (hasSize) {
+      option1Name = "Size";
+      option2Name = "";
+    } else {
+      option1Name = "";
+      option2Name = "";
     }
-    await page.waitForTimeout(2000);
 
-    // 4. Compile main product row
-    const productRow = {
-      Handle: handle,
-      Title: title,
-      "Body (HTML)": description,
-      Vendor: DEFAULT_VALUES.VENDOR,
-      Type: breadcrumbs.split(",").pop()?.trim() || DEFAULT_VALUES.TYPE,
-      Tags: breadcrumbs,
-      "Variant SKU": sku,
-      "Cost per item": currentPrice,
-      "Original Price": originalPrice,
-      "Variant Price": variantPrice,
-      "Variant Compare At Price": compareAtPrice,
-      "Image Src": imageHandles[0] || "",
-      ...DEFAULT_VALUES,
-      "product.metafields.custom.original_product_url": url,
-    };
+    const finalProductTags = [
+      ...new Set([...breadcrumbs.split(","), ...extraTags.split(", ")]),
+    ].join(", ");
 
-    const extraImages = imageHandles.slice(1).map((src) => ({
-      Handle: handle,
-      "Image Src": src,
-    }));
+    for (let index = 0; index < allVariants.length; index++) {
+      const variant = allVariants[index];
+      allShopifyRows.push({
+        Handle: handle,
+        Title: index === 0 ? title : "",
+        "Body (HTML)": index === 0 ? description : "",
+        "Variant SKU": variant.sku || "",
+        "Option1 Name": index === 0 ? option1Name : "",
+        "Option1 Value": variant?.[option1Name?.toLocaleLowerCase()] || "",
+        "Option2 Name": index === 0 ? option2Name : "",
+        "Option2 Value": variant?.[option2Name?.toLocaleLowerCase()] || "",
+        "Cost per item": variant.costPerItem || "",
+        "Variant Price": variant.variantPrice || "",
+        // "Variant Compare At Price": variant.compareAtPrice || "",
+        "Variant Image": variant.mainImage || "",
+        "Image Src": index === 0 ? variant.mainImage : "",
+        "Variant Fulfillment Service": "manual",
+        "Variant Inventory Policy": "deny",
+        "Variant Inventory Tracker": "shopify",
+        Type: index === 0 ? "USA Products" : "",
+        Vendor: index === 0 ? "Target" : "",
+        Tags: index === 0 ? finalProductTags : "",
+        original_product_url: index === 0 ? url : "",
+      });
+    }
 
-    return { productRow, extraImages };
+    return allShopifyRows;
   } catch (error) {
     console.error(`❌ Error processing ${url}:`, error.message);
     throw error;
-  }
-}
-
-// Helper: extract title
-async function extractTitle(page, fallbackTitle) {
-  try {
-    return await page.$eval('h1[data-test="product-title"]', (el) =>
-      el.textContent.trim()
-    );
-  } catch {
-    return fallbackTitle?.replace(/_/g, " ") || "";
-  }
-}
-
-// Helper: extract breadcrumbs
-async function extractBreadcrumbs(page) {
-  try {
-    return await page.$$eval(
-      'a[data-test="@web/Breadcrumbs/BreadcrumbLink"]',
-      (anchors) =>
-        anchors
-          .map((a) => a.textContent.trim())
-          .filter(Boolean)
-          .join(",")
-    );
-  } catch {
-    return "";
-  }
-}
-
-// Helper: extract all images
-async function extractImages(page) {
-  try {
-    return await page.$$eval("div.styles_zoomableImage__R_OOf img", (imgs) =>
-      imgs.map((img) => img.src).filter(Boolean)
-    );
-  } catch {
-    return [];
   }
 }
