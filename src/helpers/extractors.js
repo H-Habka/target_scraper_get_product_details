@@ -213,7 +213,8 @@ export async function extractTargetProductData(page, url, extraTags) {
           Type: index === 0 ? "USA Products" : "",
           Vendor: index === 0 ? "Target" : "",
           Tags: index === 0 ? finalProductTags : "",
-          original_product_url: index === 0 ? url : "",
+          "product.metafields.custom.original_prodect_url":
+            index === 0 ? url : "",
         });
       }
     }
