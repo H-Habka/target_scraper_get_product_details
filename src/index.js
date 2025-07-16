@@ -1,6 +1,7 @@
 import { launchBrowser } from "./helpers/browser.js";
 import { extractTargetProductData } from "./helpers/extractors.js";
 import { saveToCSVAndExcel } from "./helpers/fileIO.js";
+import "dotenv/config";
 
 (async () => {
   const browser = await launchBrowser();
