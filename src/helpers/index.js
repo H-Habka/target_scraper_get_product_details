@@ -85,6 +85,7 @@ export async function handleCollectVariants({ page }) {
   );
   const anchorsPerVariant = {};
 
+  let variantOrder = 1;
   for (const item of variantItemWrapper) {
     // Get the title by evaluating in the page context
     const variantTitleHandle = await item.$("div:nth-child(1) > span");
@@ -107,20 +108,17 @@ export async function handleCollectVariants({ page }) {
       anchorsDetails.push(detail);
     }
 
-    anchorsPerVariant[variantTitle] = anchorsDetails.map((item, index) => {
-      return { ...item, anchor: anchors[index] };
-    });
+    anchorsPerVariant[variantTitle] = {
+      items: anchorsDetails.map((item, index) => {
+        return { ...item, anchor: anchors[index] };
+      }),
+      order: variantOrder,
+    };
+
+    variantOrder++;
   }
 
   return anchorsPerVariant;
-}
-
-export function getVariantKey(obj, key) {
-  if (!obj) return undefined;
-  const foundKey = Object.keys(obj).find(
-    (k) => k.toLowerCase() === key.toLowerCase()
-  );
-  return foundKey;
 }
 
 export function generateCompareAtPrice({ variantPrice }) {
@@ -129,4 +127,68 @@ export function generateCompareAtPrice({ variantPrice }) {
   const randomPercent = min + Math.random() * (max - min);
   const compareAtPrice = Math.round(variantPrice * (1 + randomPercent));
   return compareAtPrice;
+}
+
+export async function waitForImageChangeCheck({ page, anchorToClick }) {
+  let oldMainImage = await extractMainImage({ page });
+
+  if (anchorToClick) {
+    await anchorToClick.evaluate((el) => el.scrollIntoView());
+  }
+
+  await anchorToClick?.click();
+  await page.waitForFunction(
+    (prevMainImage) => {
+      const currMainImage = document.querySelector(
+        `div[data-test="image-gallery-item-0"] img`
+      )?.src;
+      if (currMainImage !== prevMainImage) return true;
+      return false;
+    },
+    oldMainImage,
+    { timeout: 10000 }
+  );
+}
+
+export async function waitForUrlChange({ page }) {
+  await page.waitForFunction(
+    (oldUrl) => window.location.href !== oldUrl,
+    {},
+    page.url()
+  );
+}
+
+export async function extractLabel({ anchor }) {
+  const sizeVariantLabel = await anchor.evaluate((el) => {
+    // Try to get text from a span inside <a>
+    const span = el.querySelector("span");
+    let label = span ? span.innerText.trim() : null;
+
+    // If there's an <img> inside <a>, get its alt text
+    const img = el.querySelector("img");
+    if (!label && img && img.alt) {
+      label = img.alt.trim();
+    }
+
+    return label;
+  });
+
+  return sizeVariantLabel;
+}
+
+export async function selectCorrectSizeGroup({ page, sizeGroupAnchors }) {
+  if (sizeGroupAnchors?.items && sizeGroupAnchors?.items.length) {
+    for (const { label, isSelected, anchor } of sizeGroupAnchors?.items) {
+      if (["boys", "girls", "kids"].includes(label?.toLowerCase())) {
+        if (!isSelected) {
+          await anchor.click();
+          anchorsPerVariant = await handleCollectVariants({ page });
+        }
+      }
+    }
+  }
+}
+
+export function capitalizeFirst(str = "") {
+  return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
 }

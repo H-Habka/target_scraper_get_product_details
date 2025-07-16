@@ -6,12 +6,16 @@ import {
 } from "./formatters.js";
 import { gotoTargetWithRetries } from "./gotoWithRetries.js";
 import {
+  capitalizeFirst,
   extractBreadcrumbs,
+  extractLabel,
   extractMainImage,
   extractPrice,
   extractTitle,
-  getVariantKey,
   handleCollectVariants,
+  selectCorrectSizeGroup,
+  waitForImageChangeCheck,
+  waitForUrlChange,
 } from "./index.js";
 
 export async function extractTargetProductData(page, url, extraTags) {
@@ -20,150 +24,119 @@ export async function extractTargetProductData(page, url, extraTags) {
     console.info("✅ Page loaded, waiting for stability...");
     await page.waitForTimeout(3000);
 
-    // 1. Extract basic identifiers
+    // 1. Extract core product info
     const handle = formatHandleFromUrl(url);
     const breadcrumbs = await extractBreadcrumbs(page);
     const description = await getDescription(page);
     const title = await extractTitle(page, handle);
 
-    let anchorsPerVariant;
+    // 2. Collect variants and handle Size Group if present
+    let anchorsPerVariant = await handleCollectVariants({ page });
+    await selectCorrectSizeGroup({
+      page,
+      sizeGroupAnchors: anchorsPerVariant["Size Group"],
+    });
 
-    anchorsPerVariant = await handleCollectVariants({ page });
+    // 3. Detect actual master/slave variant keys (ignore "Size Group")
+    const variantKeysOrdered = Object.entries(anchorsPerVariant)
+      .filter(([key]) => key !== "Size Group")
+      .sort((a, b) => a[1].order - b[1].order)
+      .map(([key]) => key);
 
-    if (
-      anchorsPerVariant["Size Group"] &&
-      anchorsPerVariant["Size Group"].length
-    ) {
-      for (const { label, isSelected, anchor } of anchorsPerVariant[
-        "Size Group"
-      ]) {
-        if (label === "Boys" || label === "Girls") {
-          if (!isSelected) {
-            await anchor.click();
-            anchorsPerVariant = await handleCollectVariants({ page });
-          }
-        }
-      }
-    }
-
-    const colorKey = getVariantKey(anchorsPerVariant, "Color");
-    const sizeKey = getVariantKey(anchorsPerVariant, "Size");
-
-    if (anchorsPerVariant[colorKey]) {
-      if (!anchorsPerVariant[colorKey]?.[0]?.isSelected) {
-        let oldMainImage = await extractMainImage({ page });
-
-        await anchorsPerVariant[colorKey]?.[0]?.anchor?.click();
-        await page.waitForFunction(
-          (prevMainImage) => {
-            const currMainImage = document.querySelector(
-              `div[data-test="image-gallery-item-0"] img`
-            )?.src;
-            if (currMainImage !== prevMainImage) return true;
-            return false;
-          },
-          oldMainImage,
-          { timeout: 10000 }
-        );
-        anchorsPerVariant = await handleCollectVariants({ page });
-      }
-    }
-    if (anchorsPerVariant[sizeKey]) {
-      const anchorsToLoopOn = anchorsPerVariant[sizeKey];
-      if (!anchorsToLoopOn?.[0]?.isSelected) {
-        await anchorsToLoopOn?.[0]?.anchor?.click();
-        await page.waitForFunction(
-          (oldUrl) => window.location.href !== oldUrl,
-          {},
-          page.url()
-        );
-      }
-    }
+    const masterKey = variantKeysOrdered[0]; // e.g. "Color" or "Size"
+    const slaveKey = variantKeysOrdered[1]; // e.g. "Size" or undefined
 
     const allVariants = [];
 
-    if (anchorsPerVariant[colorKey]) {
-      for (const colorVariant of anchorsPerVariant[colorKey]) {
-        if (!colorVariant?.isSelected) {
-          let oldMainImage = await extractMainImage({ page });
-
-          await colorVariant?.anchor?.click();
-          await page.waitForFunction(
-            (prevMainImage) => {
-              const currMainImage = document.querySelector(
-                `div[data-test="image-gallery-item-0"] img`
-              )?.src;
-              if (
-                currMainImage &&
-                prevMainImage &&
-                currMainImage !== prevMainImage
-              )
-                return true;
-              return false;
-            },
-            oldMainImage,
-            { timeout: 10000 }
-          );
+    // 4. Handle NO variant case
+    if (!masterKey) {
+      // No variants: just one default product row
+      const mainImage = await extractMainImage({ page });
+      const sku = extractSKU(page.url());
+      const { currentPrice, originalPrice } = await extractPrice(page);
+      const { variantPrice, compareAtPrice, costPerItem } = calculatePrices(
+        currentPrice,
+        originalPrice
+      );
+      allVariants.push({
+        sku,
+        variantPrice,
+        compareAtPrice,
+        costPerItem,
+        mainImage,
+      });
+    } else {
+      // 5. Master loop
+      for (const masterVariant of anchorsPerVariant[masterKey]?.items ?? []) {
+        // Click master variant if not selected
+        if (!masterVariant?.isSelected) {
+          if (masterKey.toLowerCase() === "color") {
+            await waitForImageChangeCheck({
+              anchorToClick: masterVariant.anchor,
+              page,
+            });
+          } else {
+            await masterVariant.anchor.click();
+            await waitForUrlChange({ page });
+          }
         }
 
-        const mainImage = await extractMainImage({ page });
-
+        // Always update variants after master changes
         anchorsPerVariant = await handleCollectVariants({ page });
 
-        const colorVariantLabel = await colorVariant.anchor.evaluate((el) => {
-          // Try to get text from a span inside <a>
-          const span = el.querySelector("span");
-          let label = span ? span.innerText.trim() : null;
-
-          // If there's an <img> inside <a>, get its alt text
-          const img = el.querySelector("img");
-          if (!label && img && img.alt) {
-            label = img.alt.trim();
-          }
-
-          return label;
+        // Fetch master label and main image (after color change)
+        const masterLabel = await extractLabel({
+          anchor: masterVariant.anchor,
         });
+        let mainImage = await extractMainImage({ page });
 
-        colorVariant.label = colorVariantLabel;
+        // 6. Slave loop, if present
+        if (slaveKey && anchorsPerVariant[slaveKey]) {
+          for (
+            let slaveIndex = 0;
+            slaveIndex < anchorsPerVariant[slaveKey].items.length;
+            slaveIndex++
+          ) {
+            const slaveVariant = anchorsPerVariant[slaveKey].items[slaveIndex];
 
-        if (anchorsPerVariant[sizeKey]) {
-          const anchorsToLoopOn = anchorsPerVariant[sizeKey];
-          for (const sizeVariant of anchorsToLoopOn) {
-            await sizeVariant.anchor.click();
-            await page.waitForFunction(
-              (oldUrl) => window.location.href !== oldUrl,
-              {},
-              page.url()
-            );
-            const sku = extractSKU(page.url());
+            // Scroll container for first slave variant to avoid out-of-view click
+            if (slaveIndex === 0 && slaveVariant.anchor) {
+              await slaveVariant.anchor.evaluate((el) => {
+                if (el?.parentElement?.parentElement?.scrollTo) {
+                  el.parentElement.parentElement.scrollTo(0, 0);
+                }
+              });
+              await page.waitForTimeout(100); // Small delay for stability
+            }
 
-            const sizeVariantLabel = await sizeVariant.anchor.evaluate((el) => {
-              // Try to get text from a span inside <a>
-              const span = el.querySelector("span");
-              let label = span ? span.innerText.trim() : null;
-
-              // If there's an <img> inside <a>, get its alt text
-              const img = el.querySelector("img");
-              if (!label && img && img.alt) {
-                label = img.alt.trim();
+            if (slaveKey.toLowerCase() === "color") {
+              try {
+                await waitForImageChangeCheck({
+                  anchorToClick: slaveVariant.anchor,
+                  page,
+                });
+              } catch (err) {
+                page.waitForTimeout(1000);
               }
+              mainImage = await extractMainImage({ page });
+            } else {
+              await slaveVariant.anchor.click();
+              await waitForUrlChange({ page });
+            }
 
-              return label;
+            // Fetch slave label
+            const slaveLabel = await extractLabel({
+              anchor: slaveVariant.anchor,
             });
 
-            sizeVariant.label = sizeVariantLabel;
-
-            console.log(
-              `${colorVariant.label} -- ${sizeVariant.label} -- ${sku}`
-            );
-
+            const sku = extractSKU(page.url());
             const { currentPrice, originalPrice } = await extractPrice(page);
             const { variantPrice, compareAtPrice, costPerItem } =
               calculatePrices(currentPrice, originalPrice);
 
             allVariants.push({
-              color: colorVariant.label,
-              size: sizeVariant.label,
+              [masterKey.toLowerCase()]: masterLabel,
+              [slaveKey.toLowerCase()]: slaveLabel,
               sku,
               variantPrice,
               compareAtPrice,
@@ -171,48 +144,16 @@ export async function extractTargetProductData(page, url, extraTags) {
               mainImage,
             });
           }
-        }
-      }
-    } else {
-      if (anchorsPerVariant[sizeKey]) {
-        const anchorsToLoopOn = anchorsPerVariant[sizeKey];
-        const mainImage = await extractMainImage({ page });
-        for (const sizeVariant of anchorsToLoopOn) {
-          await sizeVariant.anchor.click();
-          await page.waitForFunction(
-            (oldUrl) => window.location.href !== oldUrl,
-            {},
-            page.url()
-          );
+        } else {
+          // No slave, just push master variant
           const sku = extractSKU(page.url());
-
-          const label = await sizeVariant.anchor.evaluate((el) => {
-            // Try to get text from a span inside <a>
-            const span = el.querySelector("span");
-            let label = span ? span.innerText.trim() : null;
-
-            // If there's an <img> inside <a>, get its alt text
-            const img = el.querySelector("img");
-            if (!label && img && img.alt) {
-              label = img.alt.trim();
-            }
-
-            return label;
-          });
-
-          sizeVariant.label = label;
-
-          console.log(`${sizeVariant.label} -- ${sku}`);
-
           const { currentPrice, originalPrice } = await extractPrice(page);
           const { variantPrice, compareAtPrice, costPerItem } = calculatePrices(
             currentPrice,
             originalPrice
           );
-
           allVariants.push({
-            color: null,
-            size: sizeVariant.label,
+            [masterKey.toLowerCase()]: masterLabel,
             sku,
             variantPrice,
             compareAtPrice,
@@ -223,56 +164,58 @@ export async function extractTargetProductData(page, url, extraTags) {
       }
     }
 
-    const allShopifyRows = [];
-
-    let option1Name = "";
-    let option2Name = "";
-
-    const hasColor = !!anchorsPerVariant[colorKey];
-    const hasSize = !!anchorsPerVariant[sizeKey];
-
-    if (hasColor && hasSize) {
-      option1Name = "Color";
-      option2Name = "Size";
-    } else if (hasColor) {
-      option1Name = "Color";
-      option2Name = "";
-    } else if (hasSize) {
-      option1Name = "Size";
-      option2Name = "";
-    } else {
-      option1Name = "";
-      option2Name = "";
-    }
+    // 7. Shopify rows mapping
+    const option1Name = masterKey || "";
+    const option2Name = slaveKey || "";
 
     const finalProductTags = [
-      ...new Set([...breadcrumbs.split(","), ...extraTags.split(", ")]),
-    ].join(", ");
+      ...new Set([
+        ...breadcrumbs.split(","),
+        ...(extraTags ? extraTags.split(", ") : []),
+      ]),
+    ]
+      .map((tag) => tag.replace(/,/g, ";").trim())
+      .filter(Boolean)
+      .join(", ");
+    const chunkSize = 100; // Shopify limit
+    const chunks = [];
+    for (let i = 0; i < allVariants.length; i += chunkSize) {
+      chunks.push(allVariants.slice(i, i + chunkSize));
+    }
 
-    for (let index = 0; index < allVariants.length; index++) {
-      const variant = allVariants[index];
-      allShopifyRows.push({
-        Handle: handle,
-        Title: index === 0 ? title : "",
-        "Body (HTML)": index === 0 ? description : "",
-        "Variant SKU": variant.sku || "",
-        "Option1 Name": index === 0 ? option1Name : "",
-        "Option1 Value": variant?.[option1Name?.toLocaleLowerCase()] || "",
-        "Option2 Name": index === 0 ? option2Name : "",
-        "Option2 Value": variant?.[option2Name?.toLocaleLowerCase()] || "",
-        "Cost per item": variant.costPerItem || "",
-        "Variant Price": variant.variantPrice || "",
-        // "Variant Compare At Price": variant.compareAtPrice || "",
-        "Variant Image": variant.mainImage || "",
-        "Image Src": index === 0 ? variant.mainImage : "",
-        "Variant Fulfillment Service": "manual",
-        "Variant Inventory Policy": "deny",
-        "Variant Inventory Tracker": "shopify",
-        Type: index === 0 ? "USA Products" : "",
-        Vendor: index === 0 ? "Target" : "",
-        Tags: index === 0 ? finalProductTags : "",
-        original_product_url: index === 0 ? url : "",
-      });
+    const allShopifyRows = [];
+    for (let chunkIndex = 0; chunkIndex < chunks.length; chunkIndex++) {
+      const variantsChunk = chunks[chunkIndex];
+      // Create a unique handle per chunk
+      const chunkHandle =
+        chunkIndex === 0 ? handle : `${handle}-${chunkIndex + 1}`;
+      const chunkTitle =
+        chunkIndex === 0 ? title : `${title} (Part ${chunkIndex + 1})`;
+      for (let index = 0; index < variantsChunk.length; index++) {
+        const variant = variantsChunk[index];
+        allShopifyRows.push({
+          Handle: chunkHandle,
+          Title: index === 0 ? chunkTitle : "",
+          "Body (HTML)": index === 0 ? description : "",
+          "Variant SKU": variant.sku || "",
+          "Option1 Name": index === 0 ? capitalizeFirst(option1Name) : "",
+          "Option1 Value": variant?.[option1Name?.toLowerCase()] || "",
+          "Option2 Name": index === 0 ? capitalizeFirst(option2Name) : "",
+          "Option2 Value": variant?.[option2Name?.toLowerCase()] || "",
+          "Cost per item": variant.costPerItem || "",
+          "Variant Price": variant.variantPrice || "",
+          // ... other fields ...
+          "Variant Image": variant.mainImage || "",
+          "Image Src": index === 0 ? variant.mainImage : "",
+          "Variant Fulfillment Service": "manual",
+          "Variant Inventory Policy": "deny",
+          "Variant Inventory Tracker": "shopify",
+          Type: index === 0 ? "USA Products" : "",
+          Vendor: index === 0 ? "Target" : "",
+          Tags: index === 0 ? finalProductTags : "",
+          original_product_url: index === 0 ? url : "",
+        });
+      }
     }
 
     return allShopifyRows;
