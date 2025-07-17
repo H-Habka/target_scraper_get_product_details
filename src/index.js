@@ -1932,6 +1932,8 @@ import "dotenv/config";
 
   let allShopifyRows = [];
   let failedUrls = [];
+  let currentIndex = 0;
+  const total = urls.length;
 
   for (const urlEntry of urls) {
     let url, extraTags;
@@ -1950,7 +1952,13 @@ import "dotenv/config";
     try {
       const shopifyRows = await extractTargetProductData(page, url, extraTags);
       allShopifyRows.push(...shopifyRows);
-      console.log("✅ Processed:", url);
+      currentIndex++;
+      console.log(
+        `✅ One Success - Progress: ${currentIndex}/${total} (${(
+          (currentIndex / total) *
+          100
+        ).toFixed(1)}%)`
+      );
     } catch (err) {
       console.error("❌ Failed:", url, err.message);
       failedUrls.push({ url, tags: extraTags });

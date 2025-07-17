@@ -9,7 +9,7 @@ export async function gotoTargetWithRetries(page, url, retries = 3) {
 
   for (let i = 0; i <= retries; i++) {
     try {
-      console.log(`🌐 Loading (attempt ${i+1}/${retries+1}): ${url}`);
+      console.log(`🌐 Loading URL (attempt ${i+1}/${retries+1})}`);
       
       await page.goto(url, {
         waitUntil: 'domcontentloaded',
