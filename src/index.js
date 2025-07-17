@@ -21,2004 +21,2980 @@ import "dotenv/config";
 
   const urls = [
     {
-      url: "https://www.target.com/p/girls-corduroy-tracksuit-sets-hoodie-tracksuits-girls-athletic-sets-2-piece-sport-outfits-hoodie-sweatshirts-with-bootcut-pants/-/A-1003854003",
-      tags: "Athletic Wear Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/capezio-classics-wrap-top-girls/-/A-83927906",
-      tags: "Athletic Wrap Shirts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/zenzi-girls-short-puff-sleeve-a-line-dress-cream/-/A-93067232",
-      tags: "Babydoll Dresses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/levi-39-s-174-girls-39-sleeveless-smocked-floral-dress-light-wash/-/A-93018546",
-      tags: "Babydoll Dresses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/2bunnies-girls-organza-puff-sleeve-babydoll-dress/-/A-93788533",
-      tags: "Babydoll Dresses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/zenzi-girls-39-dress-blush-pink/-/A-94493159",
-      tags: "Babydoll Dresses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lands-end-kids-smocked-flutter-sleeve-tank-dress/-/A-91762557",
-      tags: "Babydoll Dresses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/jackalo-long-sleeved-button-down-woven-dress-acorn/-/A-93603358",
-      tags: "Babydoll Dresses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-witch-costume-for-girls-kids-fairytale-witch-halloween-costume-dress-up-with-hat-halloween-witch-dress/-/A-93035059",
-      tags: "Babydoll Dresses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/kids-organic-sleeveless-beetle-print-jersey-dress-jackalo/-/A-1002304509",
-      tags: "Babydoll Dresses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/jackalo-sleeveless-button-down-woven-dress-dark-olive/-/A-93603368",
-      tags: "Babydoll Dresses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-16-two-pocket-backpack-cat-jack/-/A-94438868",
-      tags: "Backpacks, Girl",
-    },
-    {
-      url: "https://www.target.com/p/kids-39-11-34-mini-shearling-bear-backpack-cat-38-jack-8482-cream-brown/-/A-91577398",
-      tags: "Backpacks, Girl",
-    },
-    {
-      url: "https://www.target.com/p/kids-39-mini-faux-shearling-backpack-art-class-8482-black/-/A-91577718",
-      tags: "Backpacks, Girl",
-    },
-    {
-      url: "https://www.target.com/p/champion-center-backpack/-/A-94337707",
-      tags: "Backpacks, Girl",
-    },
-    {
-      url: "https://www.target.com/p/kids-39-mini-adaptive-smiley-quilted-backpack-cat-38-jack-8482/-/A-92585476",
-      tags: "Backpacks, Girl",
-    },
-    {
-      url: "https://www.target.com/p/champion-estate-backpack/-/A-94337706",
-      tags: "Backpacks, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-18-two-pocket-backpack-art-class/-/A-94438875",
-      tags: "Backpacks, Girl",
-    },
-    {
-      url: "https://www.target.com/p/kids-bronwyn-ballet-flats-art-class-brown/-/A-94268903",
-      tags: "Ballet Flats, Girl",
-    },
-    {
-      url: "https://www.target.com/p/kids-kaira-buckle-ballet-flats-art-class-red/-/A-94268902",
-      tags: "Ballet Flats, Girl",
-    },
-    {
-      url: "https://www.target.com/p/kids-stud-ballet-flats-art-class-black/-/A-94268908",
-      tags: "Ballet Flats, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-strapless-bra-art-class-8482-beige-black/-/A-94328444",
-      tags: "Bandeau Bras, Girl",
-    },
-    {
-      url: "https://www.target.com/p/women-s-dance-bra-by-silky-dance-convertible-bra-clear-straps/-/A-1003237186",
-      tags: "Bandeau Bras, Girl",
-    },
-    {
-      url: "https://www.target.com/p/kids-39-spider-man-flat-brim-baseball-hat-red/-/A-54436497",
-      tags: "Baseball Hats, Girl",
-    },
-    {
-      url: "https://www.target.com/p/kids-39-super-mario-baseball-hat-red/-/A-89618531",
-      tags: "Baseball Hats, Girl",
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-groovy-flower-smiley-face-youth-foam-trucker-hat/-/A-1002726107",
-      tags: "Baseball Hats, Girl",
-    },
-    {
-      url: "https://www.target.com/p/hello-kitty-embroidered-canvas-cotton-twill-dad-hat/-/A-85297369",
-      tags: "Baseball Hats, Girl",
-    },
-    {
-      url: "https://www.target.com/p/sonic-the-hedgehog-shake-glitter-patch-youth-purple-sparkle-traditional-adjustable-hat/-/A-1003098829",
-      tags: "Baseball Hats, Girl",
-    },
-    {
-      url: "https://www.target.com/p/parker-kids-co-ball-cap/-/A-1003289574",
-      tags: "Baseball Hats, Girl",
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-keepin-it-cool-truck-youth-foam-trucker-hat/-/A-1002657536",
-      tags: "Baseball Hats, Girl",
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-being-a-princess-is-exhausting-youth-foam-trucker-hat/-/A-1002657496",
-      tags: "Baseball Hats, Girl",
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-make-someone-smile-today-youth-foam-trucker-hat/-/A-1002726103",
-      tags: "Baseball Hats, Girl",
-    },
-    {
-      url: "https://www.target.com/p/parker-kids-co-ball-cap-sports-patches-bundle/-/A-1003805048",
-      tags: "Baseball Hats, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lands-end-kids-peruvian-hat/-/A-91084610",
-      tags: "Beanies, Girl",
-    },
-    {
-      url: "https://www.target.com/p/c-c-kids-one-size-fits-most-fuzzy-lined-solid-cable-knit-winter-beanie/-/A-93876321",
-      tags: "Beanies, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-hello-kitty-ruched-waist-skirt-red/-/A-94365246",
-      tags: "Bell Skirts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-stitch-ruched-waist-skirt-cream/-/A-94365265",
-      tags: "Bell Skirts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-ruffle-mini-skirt-art-class/-/A-94021777",
-      tags: "Bell Skirts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-ribbed-bike-shorts-cat-38-jack-8482/-/A-93278913",
-      tags: "Bike Shorts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/-/A-94811075",
-      tags: "Bike Shorts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-long-bike-shorts-art-class/-/A-93460932",
-      tags: "Bike Shorts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-disney-stitch-bike-shorts-blue/-/A-94431062",
-      tags: "Bike Shorts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-squishmallows-bike-shorts-pastel/-/A-94431057",
-      tags: "Bike Shorts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-hello-kitty-bike-shorts-black/-/A-94431041",
-      tags: "Bike Shorts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-bike-shorts-art-class/-/A-93460934",
-      tags: "Bike Shorts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lands-end-kids-tough-cotton-bike-shorts/-/A-87254598",
-      tags: "Bike Shorts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girl-s-convention-wear-lily-shorts-2-tone-danznmotion-25401c/-/A-1003191522",
-      tags: "Bike Shorts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girl-s-shorts-skirt-danz-n-motion-21412a-sheer-for-ballet-or-modern/-/A-1003121809",
-      tags: "Bike Shorts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lands-end-kids-active-bike-shorts/-/A-1002038183",
-      tags: "Bike Shorts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/deux-par-deux-girl-crinkle-biker-short-with-flower-mesh-skirt-lilac-with-white-flowers/-/A-1002802529",
-      tags: "Bike Shorts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/dragonwing-ava-v-waist-compression-shorts/-/A-1001547080",
-      tags: "Bike Shorts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/mightly-girls-fair-trade-organic-cotton-bike-shorts-3-pack-rainbow-stripe-combo-medium/-/A-1004369066",
-      tags: "Bike Shorts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/deux-par-deux-girl-crinkle-biker-short-with-flower-mesh-skirt-light-old-pink-12-years/-/A-1002802602",
-      tags: "Bike Shorts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/mightly-girls-fair-trade-organic-cotton-bike-shorts-3-pack-navy-stripe-combo-x-small/-/A-1004369081",
-      tags: "Bike Shorts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/mightly-girls-fair-trade-organic-cotton-bike-shorts-3-pack-navy-stripe-combo-large/-/A-1004369070",
-      tags: "Bike Shorts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/mightly-girls-fair-trade-organic-cotton-bike-shorts-3-pack-navy-stripe-combo-xx-large/-/A-1004369064",
-      tags: "Bike Shorts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/mightly-girls-fair-trade-organic-cotton-bike-shorts-3-pack-navy-stripe-combo-x-large/-/A-1004369076",
-      tags: "Bike Shorts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/mightly-girls-fair-trade-organic-cotton-bike-shorts-3-pack-navy-stripe-combo-small/-/A-1004369079",
-      tags: "Bike Shorts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/deux-par-deux-girl-printed-athletic-biker-short-black-pink-and-multicolored-butterflies/-/A-1003635993",
-      tags: "Bike Shorts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/deux-par-deux-girl-organic-cotton-biker-short-legging-black/-/A-1003486286",
-      tags: "Bike Shorts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/eg-pro-enduro-flex-girl-s-compression-short-graded-inseam/-/A-1001398303",
-      tags: "Bike Shorts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-dance-brushstrokes-biketard-cat-jack/-/A-93574120",
-      tags: "Biketards, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-gymnastics-jewel-biketard-cat-38-jack-8482-black/-/A-89665710",
-      tags: "Biketards, Girl",
-    },
-    {
-      url: "https://www.target.com/p/destira-rainbow-blaze-unitard/-/A-1001740505",
-      tags: "Biketards, Girl",
-    },
-    {
-      url: "https://www.target.com/p/destira-over-the-rainbow-unitard/-/A-1001740401",
-      tags: "Biketards, Girl",
-    },
-    {
-      url: "https://www.target.com/p/destira-catlandia-unitard/-/A-1001388020",
-      tags: "Biketards, Girl",
-    },
-    {
-      url: "https://www.target.com/p/destira-bear-y-chill-unitard/-/A-1001740393",
-      tags: "Biketards, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-stars-and-stripes-bikini-set-art-class-8482-navy-blue/-/A-94268744",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-seaside-shine-solid-bikini-set-art-class-black/-/A-92160489",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-cross-my-heart-bikini-set-cat-38-jack-8482/-/A-94372818",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-pumeria-bloom-bikini-set-art-class-8482/-/A-94264761",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-under-sea-amazon-bikini-set-cat-38-jack-8482-pink/-/A-94290655",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-visit-the-eastside-leaf-printed-bikini-set-art-class/-/A-92160495",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-sunkissed-striped-bikini-set-art-class-8482/-/A-93114876",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-leopard-spot-printed-bikini-set-cat-38-jack-8482-black/-/A-92304680",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-a-trip-to-paradise-floral-printed-bikini-set-art-class-8482/-/A-93114814",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-island-vacay-floral-bikini-set-cat-jack-black/-/A-94302359",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-strawberries-printed-bikini-set-cat-38-jack-8482-green/-/A-93323616",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-floral-printed-bikini-set-art-class-8482/-/A-92240856",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-summer-dusk-bikini-set-art-class-8482-black/-/A-94302362",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-summer-times-bikini-set-art-class-blue/-/A-94224220",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-seashell-printed-bikini-set-cat-38-jack-8482-purple/-/A-93114849",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-floral-printed-swim-bikini-swimwear-set-art-class-8482/-/A-93323411",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-smiling-daisy-floral-printed-bikini-set-art-class-8482/-/A-92304683",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-summer-skies-bikini-set-art-class-8482/-/A-94396719",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-abstract-tropical-jungle-flowers-bikini-set-art-class-8482/-/A-92304685",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-park-to-pool-solid-bikini-set-cat-38-jack-8482-teal-green/-/A-93323614",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-polka-dots-bikini-set-cat-38-jack-8482-blue/-/A-92240883",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-teen-summer-striped-bikini-set-art-class/-/A-92160492",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-solid-bikini-set-art-class-8482-purple/-/A-92240886",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-hand-drawn-chettah-printed-bikini-set-art-class-8482/-/A-92304681",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-striped-bikini-set-cat-38-jack-8482-blue/-/A-93114875",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-wave-printed-bikini-set-cat-38-jack-8482-aqua-green/-/A-92161233",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-floral-printed-bikini-set-cat-38-jack-8482/-/A-92240855",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-simple-daisy-floral-printed-bikini-set-cat-38-jack-8482-pink/-/A-93323410",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-striped-bikini-set-cat-38-jack-8482/-/A-92241055",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-seaside-shine-solid-bikini-set-art-class-purple/-/A-92160491",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-mosaic-design-bikini-set-cat-38-jack-8482/-/A-92240880",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-bikini-set-cat-jack/-/A-92280680",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-shady-days-bikini-skirt-set-cat-38-jack-8482/-/A-94302371",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-solid-paradise-cove-bikini-set-art-class-8482-black/-/A-93111981",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-happy-camper-striped-bikini-set-cat-38-jack-8482-blue/-/A-94302360",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-gingham-summer-bikini-set-art-class-8482-black/-/A-94268754",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-carribean-cutie-bikini-set-art-class-8482-coral-pink/-/A-93114850",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-palm-springs-bikini-set-art-class-8482/-/A-94268746",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-geo-daisy-bikini-and-dress-cover-up-set-art-class-8482/-/A-94268748",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-zebra-bikini-set-art-class-8482-pink/-/A-94268749",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-i-heart-it-solid-bikini-set-cat-jack/-/A-94223617",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-happy-wildlife-bikini-set-art-class-8482-brown/-/A-94567279",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-tropical-wilderness-swimwear-set-cat-38-jack-8482/-/A-94302358",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-cherry-party-bikini-set-art-class-8482/-/A-94302363",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-watercolor-hibiscus-bikini-set-cat-38-jack-8482-purple/-/A-94290654",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-39-sweet-pineapple-39-printed-bikini-set-cat-38-jack-8482/-/A-94268747",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-ride-the-wave-solid-bikini-set-art-class-8482/-/A-93971131",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-39-dreamy-tropical-39-floral-printed-bikini-set-cat-38-jack-8482/-/A-94268745",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-miami-boho-bikini-set-art-class-8482/-/A-94302355",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-hello-kitty-striped-and-bow-printed-bikini-set-red-white/-/A-93306671",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-tea-at-the-pool-floral-printed-bikini-set-art-class-8482-off-white/-/A-93323412",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-tie-dye-bikini-set-art-class/-/A-94214968",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-beach-house-striped-bikini-set-cat-38-jack-8482/-/A-94268753",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-bird-friends-bikini-set-cat-jack-8482-yellow/-/A-94302354",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/disney-princess-anna-elsa-girls-tankini-top-and-bikini-bottom-swim-set-toddler-to-little-kid/-/A-86946052",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-pier-gaze-bikini-set-cat-jack/-/A-94214971",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/rufflebutts-girls-long-sleeve-zipper-rash-guard-bikini/-/A-91255015",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lands-end-kids-wrap-front-bikini-swimsuit-set/-/A-91347855",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/disney-minnie-mouse-baby-girls-racerback-tankini-top-and-bikini-bottom-swim-set-little-kid/-/A-86945212",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/patpat-disney-princess-ariel-girl-s-swimwear-sets-ruffle-sleeve-summer-pool-beach-sport-blue-swimsuit/-/A-1004245899",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/bluey-bingo-bluey-girls-lace-up-back-tankini-top-and-bikini-bottom-swim-set-little-kid/-/A-89485140",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/go-coco-little-girls-2-piece-strappy-detail-camikini-swimsuit-sets/-/A-1003354901",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/disney-frozen-kids-toddler-girl-3pcs-elsa-and-anna-sunproof-ruffles-bikini-swimsuit-with-cover-up-set-swimwear-sets/-/A-1003927071",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/rufflebutts-girls-long-sleeve-rash-guard-bikini/-/A-91267490",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/rufflebutts-girls-long-sleeve-zipper-rash-guard-2-piece/-/A-88271094",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/go-coco-little-girls-2-piece-one-shoulder-bikini-swimsuit-sets/-/A-1003405839",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/andy-evan-kids-bikini/-/A-88358082",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/rufflebutts-girls-flounce-bikini/-/A-91255147",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/rufflebutts-girls-upf50-sun-protected-scallop-hem-long-sleeve-rash-guard-bikini/-/A-1001533348",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/disney-mickey-mouse-boys-swim-trunks-nautical-stripe-summer-beach-swimwear-drawstring-waist-board-shorts/-/A-1004399482",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/rufflebutts-girls-long-sleeve-rash-guard-bikini/-/A-91269897",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/andy-evan-kids-pink-crochet-print-strappy-back-swimsuit/-/A-1001718534",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/andy-evan-kids-purple-strappy-back-swimsuit/-/A-1001718501",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/disney-moana-girls-tankini-swimsuit-set-one-shoulder-bow-top-and-tropical-skirted-bottom-orange-yellow-two-piece-swimwear-set/-/A-1004593251",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/rufflebutts-girls-upf50-skirted-flutter-long-sleeve-rash-guard-bikini/-/A-1001818080",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/rufflebutts-toddler-girls-long-sleeve-rash-guard-bikini/-/A-91267484",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lands-end-kids-long-sleeve-top-bikini-set-swimsuit/-/A-1002654843",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/andy-evan-toddler-floral-print-bikini-w-headband/-/A-1001782215",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/wild-waves-leopard-two-piece-swimsuit-mia-belle-girls/-/A-1004643489",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/rufflebutts-girls-upf50-seersucker-short-sleeve-ruffle-rash-guard-bikini/-/A-1002893003",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/dragonwing-capri-one-shoulder-bikini/-/A-1003560981",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/rufflebutts-toddler-girls-flounce-bikini/-/A-91255135",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/star-wars-the-child-girls-rash-guard-and-bikini-bottom-little-kid-to-big-kid/-/A-86944797",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/dragonwing-barbados-bikini/-/A-1004035672",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/rufflebutts-toddler-girls-upf50-skirted-flutter-long-sleeve-rash-guard-bikini/-/A-1001818068",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-minnie-mouse-2pc-swim-set-disney-store/-/A-89790759",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/dragonwing-key-west-bikini/-/A-1003561037",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/rufflebutts-baby-girls-flounce-bikini/-/A-91255168",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/dragonwing-maui-bikini/-/A-1003561113",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/rufflebutts-toddler-girls-long-sleeve-rash-guard-bikini/-/A-91267495",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/deux-par-deux-girl-printed-two-piece-swimsuit-navy-and-yellow-and-pink-flowers-5-6-years/-/A-1004178175",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/deux-par-deux-girl-printed-two-piece-swimsuit-with-frills-white-pink-and-green-flowers-13-years/-/A-1004178180",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/dragonwing-santorini-bikini/-/A-1003561001",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/dragonwing-bali-bikini/-/A-1003560987",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/dragonwing-aruba-bikini/-/A-1003488021",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/patpat-family-matching-multicolor-dinosaur-print-swim-trunks-shorts-and-ruffle-two-piece-swimsuit/-/A-1002520476",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/kiko-max-infant-toddler-girls-2-piece-ruffled-top-bikini-swimsuit-sets/-/A-1002468541",
-      tags: "Bikini Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-solid-bikini-swim-bottom-art-class-heather-black/-/A-92240889",
-      tags: "Bikini Swim Bottoms, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-solid-bikini-swim-bottom-art-class-8482-black/-/A-92240888",
-      tags: "Bikini Swim Bottoms, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-tie-dye-design-bikini-swim-bottom-art-class-8482/-/A-92241058",
-      tags: "Bikini Swim Bottoms, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-ombre-design-bikini-swim-bottom-art-class-8482/-/A-92240881",
-      tags: "Bikini Swim Bottoms, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-days-of-tropics-swimsuit-bottom-art-class-8482-black/-/A-94302370",
-      tags: "Bikini Swim Bottoms, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-hi-aloha-swimsuit-bottom-art-class-8482-pink/-/A-94302368",
-      tags: "Bikini Swim Bottoms, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-ebony-tropical-floral-printed-bikini-swim-bottom-art-class-8482-black/-/A-92240854",
-      tags: "Bikini Swim Bottoms, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-solid-bikini-swim-bottom-art-class-8482-coral-orange/-/A-92240890",
-      tags: "Bikini Swim Bottoms, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lands-end-kids-swim-bikini-bottoms/-/A-86529472",
-      tags: "Bikini Swim Bottoms, Girl",
-    },
-    {
-      url: "https://www.target.com/p/city-threads-usa-made-girls-upf-50-swim-briefs/-/A-91372403",
-      tags: "Bikini Swim Bottoms, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lands-end-kids-slim-swim-bikini-bottoms/-/A-86530190",
-      tags: "Bikini Swim Bottoms, Girl",
-    },
-    {
-      url: "https://www.target.com/p/city-threads-usa-made-girls-ruffle-upf-50-swim-briefs/-/A-92206310",
-      tags: "Bikini Swim Bottoms, Girl",
-    },
-    {
-      url: "https://www.target.com/p/city-threads-usa-made-girls-extra-coverage-lined-upf-50-swim-briefs/-/A-92206300",
-      tags: "Bikini Swim Bottoms, Girl",
-    },
-    {
-      url: "https://www.target.com/p/city-threads-usa-made-upf-50-printed-girls-swim-briefs/-/A-91533440",
-      tags: "Bikini Swim Bottoms, Girl",
-    },
-    {
-      url: "https://www.target.com/p/city-threads-usa-made-recycled-nylon-upf-50-girls-swim-brief/-/A-92487884",
-      tags: "Bikini Swim Bottoms, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-solid-bikini-swim-top-art-class-8482/-/A-92240895",
-      tags: "Bikini Swim Tops, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-floral-printed-bikini-swim-top-art-class-8482-black/-/A-92240857",
-      tags: "Bikini Swim Tops, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-ombre-design-bikini-swim-top-art-class-8482/-/A-92240882",
-      tags: "Bikini Swim Tops, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-solid-bikini-swim-top-art-class-8482-coral-orange/-/A-92240891",
-      tags: "Bikini Swim Tops, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-tropical-floral-printed-bikini-swim-top-art-class-black/-/A-92160494",
-      tags: "Bikini Swim Tops, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-cruise-time-swimsuit-top-art-class-8482-black/-/A-94302369",
-      tags: "Bikini Swim Tops, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-tropical-island-swimsuit-top-art-class-8482-pink/-/A-94302367",
-      tags: "Bikini Swim Tops, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-sun-seeker-ditsy-solid-bikini-swim-top-art-class-black/-/A-89206622",
-      tags: "Bikini Swim Tops, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lands-end-kids-chlorine-resistant-criss-cross-bikini-top/-/A-1002511757",
-      tags: "Bikini Swim Tops, Girl",
-    },
-    {
-      url: "https://www.target.com/p/city-threads-usa-made-girls-upf-50-bikini-swim-top/-/A-91547437",
-      tags: "Bikini Swim Tops, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-39-sun-seeker-39-zebra-striped-bikini-swim-top-art-class-8482-black/-/A-89205798",
-      tags: "Bikini Swim Tops, Girl",
-    },
-    {
-      url: "https://www.target.com/p/city-threads-usa-made-upf-50-girls-flounce-bikini-top/-/A-92094189",
-      tags: "Bikini Swim Tops, Girl",
-    },
-    {
-      url: "https://www.target.com/p/city-threads-usa-made-recycled-nylon-upf-50-girls-bikini-top/-/A-92499692",
-      tags: "Bikini Swim Tops, Girl",
-    },
-    {
-      url: "https://www.target.com/p/city-threads-usa-made-girls-upf-50-printed-bikini-swim-top/-/A-91826601",
-      tags: "Bikini Swim Tops, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-10pk-cotton-bikini-underwear-cat-jack/-/A-85347862",
-      tags: "Bikini Underwear, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-5pk-bikini-underwear-art-class-8482-pink/-/A-93277904",
-      tags: "Bikini Underwear, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-14pk-39-floral-39-cotton-bikini-cat-38-jack-8482/-/A-89872521",
-      tags: "Bikini Underwear, Girl",
-    },
-    {
-      url: "https://www.target.com/p/hanes-originals-girls-5pk-supersoft-bikini-underwear/-/A-89957810",
-      tags: "Bikini Underwear, Girl",
-    },
-    {
-      url: "https://www.target.com/p/hanes-girls-4pk-tween-seamless-bikini-underwear-blue-pink/-/A-93666770",
-      tags: "Bikini Underwear, Girl",
-    },
-    {
-      url: "https://www.target.com/p/fruit-of-the-loom-girls-39-14pk-cotton-bikini-underwear/-/A-90860140",
-      tags: "Bikini Underwear, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-moana-2-7pk-bikini-underwear/-/A-92199305",
-      tags: "Bikini Underwear, Girl",
-    },
-    {
-      url: "https://www.target.com/p/hanes-originals-girls-5pk-tween-bikini-underwear-colors-may-vary/-/A-93666773",
-      tags: "Bikini Underwear, Girl",
-    },
-    {
-      url: "https://www.target.com/p/fruit-of-the-loom-girls-39-6pk-breathable-bikini/-/A-94482970",
-      tags: "Bikini Underwear, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lucky-me-ryleigh-girls-organic-cotton-bikini-underwear-multiple-colors-and-sizes-7-pack/-/A-1002279633",
-      tags: "Bikini Underwear, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lucky-me-hazel-girls-micromodal-bikini-underwear-multiple-colors-and-sizes-6-pack/-/A-1002422251",
-      tags: "Bikini Underwear, Girl",
-    },
-    {
-      url: "https://www.target.com/p/andy-evan-toddler-girls-eight-pack-bikini-brief/-/A-91386423",
-      tags: "Bikini Underwear, Girl",
-    },
-    {
-      url: "https://www.target.com/p/fruit-of-the-loom-girl-s-assorted-cotton-bikini-underwear-10-pack/-/A-90915449",
-      tags: "Bikini Underwear, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lucky-me-erica-girls-organic-cotton-bikini-underwear-multi-color-multiple-sizes-6-pack/-/A-94063975",
-      tags: "Bikini Underwear, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lucky-me-ava-girls-bikini-underwear-multi-color-multiple-sizes-6-pack/-/A-93797108",
-      tags: "Bikini Underwear, Girl",
-    },
-    {
-      url: "https://www.target.com/p/posh-peanut-posh-peanut-vintage-pink-rose-3-pack-brief-set/-/A-1001574566",
-      tags: "Bikini Underwear, Girl",
-    },
-    {
-      url: "https://www.target.com/p/city-threads-usa-made-girls-organic-cotton-brief/-/A-90990123",
-      tags: "Bikini Underwear, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-astrid-school-blazer-charcoal-gray/-/A-91487278",
-      tags: "Blazers, Girl",
-    },
-    {
-      url: "https://www.target.com/p/hope-henry-girls-organic-french-terry-contrast-trim-cardigan-kids/-/A-1000901494",
-      tags: "Blazers, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girl-s-jane-velvet-coat-vignette/-/A-1001251673",
-      tags: "Blazers, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-short-sleeve-scoop-neck-super-soft-t-shirt-art-class/-/A-93487782",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-short-sleeve-eyelet-top-cat-38-jack-8482/-/A-92974692",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-short-sleeve-embroidered-button-down-shirt-cat-jack-white/-/A-94131171",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-short-sleeve-lace-trim-t-shirt-art-class/-/A-93371035",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lands-end-kids-flutter-sleeve-tiered-peasant-top/-/A-91658601",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/french-toast-school-uniform-girls-long-sleeve-peter-pan-collar-blouse/-/A-92449298",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lands-end-kids-pattern-smocked-tank-top/-/A-87826485",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lands-end-kids-short-sleeve-smocked-woven-top/-/A-1002458584",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-ruffle-puff-sleeve-blouse-short-hollow-out-sleeve-t-shirt-round-neck-solid-casual-top/-/A-1002565407",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/french-toast-school-uniform-girls-short-sleeve-peter-pan-collar-blouse/-/A-92365700",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/rufflebutts-girls-knit-long-sleeve-ruffle-layering-tee/-/A-94069398",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lands-end-kids-short-sleeve-smock-flutter-top/-/A-1002458737",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/rufflebutts-girls-high-low-ruffle-tunic/-/A-93173628",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lands-end-kids-woven-eyelet-top/-/A-1002458567",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/hope-henry-girls-short-sleeve-knit-top-with-tulip-sleeves-kids/-/A-90586013",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/deux-par-deux-girl-crinkle-short-sleeve-top-white/-/A-1003330448",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lands-end-kids-plus-short-sleeve-eyelet-ruffle-sleeve-top/-/A-88835184",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/deux-par-deux-girl-crinkle-jersey-tunic-with-embroidery-dark-old-pink/-/A-1004040329",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/rufflebutts-toddler-girls-high-low-ruffle-tunic/-/A-93173598",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/rufflebutts-toddler-girl-waffle-knit-long-sleeve-bow-back-top/-/A-89954543",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/deux-par-deux-girl-bi-material-organic-cotton-top-with-puff-sleeve-pink-flowers-on-cream-background/-/A-1003328857",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-tie-front-knot-tops-with-ruffle-sleeve-plaid-tops-tie-front-blouse-short-sleeve-button-down-shirts-for-toddler-girls/-/A-92446753",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-cute-tops-peter-pan-collar-with-cute-bow-puff-short-sleeve-kids-fashion-shirts-summer-top-keyhole-tops-girls-blouse-white-3-4t/-/A-92364677",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-puff-sleeve-blouse-round-neck-ruffle-sleeve-shirts-girls-shirts/-/A-93726314",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girl-floral-long-full-sleeve-dress-cozmo/-/A-1002669242",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-button-down-tops-peter-pan-collar-short-sleeve-blouse-with-ruffled-trim-puff-sleeve-tops-butterfly-collar-shirts-for-girls-pink-3-4t/-/A-92364717",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/rufflebutts-toddler-girls-knit-ruffle-tiered-tunic/-/A-1004497872",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/rufflebutts-girls-knit-ruffle-tiered-tunic/-/A-1004497862",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girl-smocked-top-cheryl-creations/-/A-1004815996",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girl-new-york-sequin-top-mia/-/A-1004815904",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girl-flutter-sleeve-top-mia-s/-/A-1004223448",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/deux-par-deux-girl-printed-seersucker-blouse-with-frills-pink-flowers-on-cream-background/-/A-1004049857",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/deux-par-deux-girl-organic-cotton-tunic-with-frill-and-print-yellow-and-flamingo/-/A-1004049822",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girl-garden-boho-blouse-cozmo/-/A-1003530737",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/deux-par-deux-girl-organic-cotton-top-with-applique-pink-with-sparkling-butterfly/-/A-1003330462",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/deux-par-deux-girl-sleeveless-top-with-front-tie-black-and-sparkling-pink/-/A-1003330426",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/deux-par-deux-girl-printed-tunic-top-multicolored/-/A-1003326927",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/deux-par-deux-girl-printed-organic-cotton-tunic-top-small-turquoise-flowers/-/A-1003325145",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girl-flutter-sleeve-top-mia/-/A-1003278120",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/deux-par-deux-girl-puff-sleeve-top-pink-and-white-checks/-/A-1003246903",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girl-gauze-round-collar-blouse-cozmo/-/A-1003070687",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girl-floral-top-saltwater-luxe/-/A-1003070668",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girl-cecilia-ruffle-collar-blouse-early-sunday/-/A-1002771398",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girl-balloon-sleeve-top-good-girl/-/A-1001931307",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lands-end-kids-short-sleeve-side-tie-graphic-tee/-/A-1001829029",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girl-santa-mesh-top-sterling-kreek/-/A-1001537484",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girl-floral-long-sleeve-top-petit-confection/-/A-1001401254",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girl-toddler-s-star-printed-chiffon-blouse-petit-confection/-/A-1001376767",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girl-toddler-s-eyelet-tunic-petit-confection/-/A-1001376715",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girl-just-like-mama-lace-sleeve-top-southern-grace/-/A-1001355096",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girl-rosette-tunic-petit-confection/-/A-1001354885",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girl-tangled-v-neck-basics-shirt-southern-grace/-/A-1001354869",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girl-s-peyton-ribbed-velour-ruffle-top-vignette/-/A-1001251691",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girl-s-ruffled-cotton-blouse-mayoral/-/A-1001251591",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girl-s-plaid-flannel-top-southern-grace/-/A-1000916408",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-liberty-long-sleeve-tunic-petit-confection/-/A-1000915999",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-circle-printed-ruffle-tunic-copenhagen-delights/-/A-1000916164",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-paisley-print-tunic-petit-confection/-/A-1000916038",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-lemons-smocked-set-petit-confection/-/A-1000916060",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-floral-long-sleeve-blouse-petit-confection/-/A-1000916045",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-cap-sleeve-top-petit-confection/-/A-1000916020",
-      tags: "Blouses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-rosette-ruffle-dress-art-class-8482-purple/-/A-94486495",
-      tags: "Bodycon Dresses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/patpat-girl-s-sleeveless-bodycon-dress-halter-neck-pencil-cami-midi-basi-dresses-4-12-year/-/A-1003324029",
-      tags: "Bodycon Dresses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-tennis-dress-golf-outfit-sets-sleeveless-tank-top-skirt-with-shorts-pockets/-/A-1002551653",
-      tags: "Bodycon Dresses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/2bunnies-tween-teen-girls-bodycon-ruched-spaghetti-strap-metallic-mini-dress/-/A-1004530054",
-      tags: "Bodycon Dresses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/2bunnies-tween-teen-girls-bodycon-ruched-spaghetti-strap-metallic-mini-dress/-/A-1004529619",
-      tags: "Bodycon Dresses, Girl",
-    },
-    {
-      url: "https://www.target.com/p/barbie-girls-french-terry-varsity-bomber-jacket-little-kid-to-big/-/A-89709664",
-      tags: "Bomber Jackets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/disney-minnie-mouse-frozen-lilo-stitch-girls-varsity-bomber-jacket-toddler-to-big-kid/-/A-91798974",
-      tags: "Bomber Jackets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/2bunnies-girls-magic-ombre-sequin-bomber-jacket/-/A-93788529",
-      tags: "Bomber Jackets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/barbie-girls-varsity-bomber-jacket-little-kid-to-big-kid/-/A-93002344",
-      tags: "Bomber Jackets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/2bunnies-girls-mystic-mermaid-sequin-bomber-jacket/-/A-1002280575",
-      tags: "Bomber Jackets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/pokemon-girls-french-terry-varsity-bomber-jacket-little-kid-to-big-kid/-/A-1000762918",
-      tags: "Bomber Jackets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/2bunnies-girls-ombre-sequin-bomber-jacket/-/A-93281300",
-      tags: "Bomber Jackets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/marvel-spider-man-spider-gwen-girls-varsity-bomber-jacket-little-kid-to-big/-/A-91798948",
-      tags: "Bomber Jackets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/2bunnies-girls-amethyst-dream-sequin-bomber-jacket/-/A-1001636320",
-      tags: "Bomber Jackets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/2bunnies-girls-candy-shimmer-sequin-bomber-jacket/-/A-93788550",
-      tags: "Bomber Jackets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/2bunnies-girls-aurora-gradient-sequin-bomber-jacket/-/A-1001835921",
-      tags: "Bomber Jackets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/2bunnies-girls-fiesta-glow-ombre-sparkle-sequin-bomber-jacket/-/A-1001835956",
-      tags: "Bomber Jackets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/2bunnies-girls-spectrum-sparkle-sequin-bomber-jacket/-/A-1001647460",
-      tags: "Bomber Jackets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/2bunnies-girls-seashell-glow-sequin-bomber-jacket/-/A-1001835918",
-      tags: "Bomber Jackets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/ctm-kids-wide-band-bonnet/-/A-92149645",
-      tags: "Bonnets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/u-p-d-inc-kid-s-lilo-stitch-20-piece-hair-accesory-set/-/A-1004386693",
-      tags: "Bonnets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/u-p-d-inc-kid-s-lilo-stich-hair-brush-and-accessory-set/-/A-1004386691",
-      tags: "Bonnets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/studio-3-little-big-girls-4-pack-cotton-activewear-biker-shorts-set/-/A-1003791044",
-      tags: "Bottom Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/studio-3-little-big-girls-4-pack-active-fleece-jogger-sweatpants/-/A-1000170415",
-      tags: "Bottom Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/studio-3-little-big-girl-s-3-pack-velour-jogger-sweatpants-sets/-/A-1000020854",
-      tags: "Bottom Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/disney-princess-ariel-belle-rapunzel-moana-girls-4-pack-bike-shorts-toddler-to-big-kid/-/A-88398096",
-      tags: "Bottom Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/disney-toddler-little-girl-s-1-piece-or-2-piece-tutu-skirt-with-legging-sets/-/A-92501926",
-      tags: "Bottom Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/little-girls-golf-tennis-sports-round-neck-sleeveless-athletic-active-dress-with-safety-inner-pockets-shorts/-/A-1002526507",
-      tags: "Bottom and Accessory Sets, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-squishmallows-4pk-boxer-briefs/-/A-89283961",
-      tags: "Boxer Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-hello-kitty-38-friends-4pk-underwear/-/A-92199306",
-      tags: "Boxer Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-disney-princess-boxer-briefs/-/A-94580981",
-      tags: "Boxer Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-4pk-bluey-boxer-briefs/-/A-94580976",
-      tags: "Boxer Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-garfield-4pk-underwear/-/A-91270935",
-      tags: "Boxer Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-beetlejuice-4pk-underwear/-/A-92199307",
-      tags: "Boxer Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lucky-me-layla-girls-dance-shorts-3-pack-size-7-8y-color-rainforest/-/A-1000401116",
-      tags: "Boxer Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/kids-3pk-seamless-boxer-shorts-art-class-black-gray-white/-/A-87557448",
-      tags: "Boxer Shorts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/kids-3pk-seamless-boxer-shorts-art-class-blue-pink-blush-pink/-/A-87557447",
-      tags: "Boxer Shorts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-stitch-4pk-athletic-shorts-underwear/-/A-93717500",
-      tags: "Boy Shorts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-10pk-heart-striped-cotton-boy-shorts-cat-jack/-/A-89872519",
-      tags: "Boy Shorts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-barbie-4pk-underwear/-/A-90021730",
-      tags: "Boy Shorts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/champion-girls-39-5pk-authentic-originals-boyshort-underwear/-/A-94618847",
-      tags: "Boy Shorts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/hanes-girls-4pk-boyshort-period-underwear-moderate-protection-colors-may-vary/-/A-93666769",
-      tags: "Boy Shorts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/just-love-seamless-panties-for-girls-underwear-pack-of-6/-/A-92168972",
-      tags: "Boy Shorts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/fruit-of-the-loom-girl-s-heather-boy-short-underwear-assorted-14-pack/-/A-90988914",
-      tags: "Boy Shorts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lucky-me-sophie-girls-shorties-underwear-multiple-colors-and-sizes-3-pack/-/A-1001324035",
-      tags: "Boy Shorts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lucky-me-annika-girls-boyshorts-underwear-pastel-size-9-10/-/A-93796064",
-      tags: "Boy Shorts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/city-threads-girls-soft-cotton-boyshort-underwear-usa-made-comfortable-kids-toddlers-undies/-/A-1001031367",
-      tags: "Boy Shorts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/ctm-girl-s-colorful-boy-short-underwear-5-pack/-/A-1004620786",
-      tags: "Boy Shorts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lucky-me-jada-girls-bike-shorts-multi-color-multiple-sizes-3-pack/-/A-93947632",
-      tags: "Boy Shorts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-3pk-cotton-cami-bra-cat-jack-gray-white-black/-/A-51042296",
-      tags: "Bralettes, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-3pk-cotton-cami-bra-cat-jack-pink-white-beige/-/A-51042298",
-      tags: "Bralettes, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-seamless-bra-2pk-cat-jack-white-tan/-/A-51109802",
-      tags: "Bralettes, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-microfiber-bonded-bra-art-class-beige/-/A-84011420",
-      tags: "Bralettes, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-microfiber-bonded-bra-art-class-pink/-/A-84011367",
-      tags: "Bralettes, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-2pk-soft-cup-bralette-cat-38-jack-8482/-/A-94328445",
-      tags: "Bralettes, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-2pk-seamless-bra-cat-38-jack-8482-pink-white/-/A-90781604",
-      tags: "Bralettes, Girl",
-    },
-    {
-      url: "https://www.target.com/p/maidenform-girls-2pk-seamfree-lace-back-padded-crop-bra-white/-/A-53059847",
-      tags: "Bralettes, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-2pk-seamless-bra-cat-jack/-/A-79386151",
-      tags: "Bralettes, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-2pk-fits-all-triangle-bra-art-class-8482-sand-beige-rose-red/-/A-94328447",
-      tags: "Bralettes, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-seamless-bra-2pk-cat-jack-153-gray-black/-/A-51109810",
-      tags: "Bralettes, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-2pk-fits-all-triangle-bra-art-class-8482-white-tan/-/A-94328448",
-      tags: "Bralettes, Girl",
-    },
-    {
-      url: "https://www.target.com/p/just-love-girls-bras-pack-of-4-comfortable-and-stylish-training-bras-for-girls/-/A-1002778594",
-      tags: "Bralettes, Girl",
-    },
-    {
-      url: "https://www.target.com/p/fruit-of-the-loom-girls-soft-and-smooth-training-bra-3-pack/-/A-89032334",
-      tags: "Bralettes, Girl",
-    },
-    {
-      url: "https://www.target.com/p/just-love-girls-bras-pack-of-6/-/A-1002779097",
-      tags: "Bralettes, Girl",
-    },
-    {
-      url: "https://www.target.com/p/mightly-girls-fair-trade-organic-cotton-bralettes-3-pack/-/A-1004010302",
-      tags: "Bralettes, Girl",
-    },
-    {
-      url: "https://www.target.com/p/mightly-girls-fair-trade-organic-cotton-bralettes-3-pack/-/A-1004372487",
-      tags: "Bralettes, Girl",
-    },
-    {
-      url: "https://www.target.com/p/mightly-girls-fair-trade-organic-cotton-bralettes-3-pack/-/A-1004372486",
-      tags: "Bralettes, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-wire-free-molded-back-closure-bra-art-class-8482/-/A-94328449",
-      tags: "Bralettes, Girl",
-    },
-    {
-      url: "https://www.target.com/p/city-threads-soft-100-cotton-training-bra-2-pack-usa-made/-/A-1004692562",
-      tags: "Bralettes, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-solid-2pk-seamless-bra-art-class-beige/-/A-84306156",
-      tags: "Bramis, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-2pk-cotton-shelf-bra-cami-cat-38-jack-8482/-/A-90781599",
-      tags: "Bramis, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-2pk-seamless-ruched-bra-art-class-8482/-/A-90781603",
-      tags: "Bramis, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-2pk-39-floral-39-seamless-ruched-bra-art-class-8482-white/-/A-89872520",
-      tags: "Bramis, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-seamless-knit-bramis-art-class-8482/-/A-93082794",
-      tags: "Bramis, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-10pk-cotton-briefs-cat-jack/-/A-88019645",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-14pk-39-bows-39-cotton-briefs-underwear-cat-38-jack-8482-purple/-/A-93278089",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-disney-princess-7pk-underwear/-/A-79753030",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-lilo-38-stitch-7pk-100-cotton-underwear/-/A-94436252",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/hanes-girls-6pk-pure-microfiber-briefs-colors-may-vary/-/A-87446335",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/fruit-of-the-loom-girls-6pk-seamless-briefs-colors-may-vary/-/A-84003223",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-squishmallows-7pk-briefs/-/A-91270936",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-7pk-underwear/-/A-84855594",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/hanes-girls-12pk-butterfly-and-dot-cotton-briefs/-/A-94482975",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-bluey-7pk-underwear/-/A-87694978",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/fruit-of-the-loom-girls-14pk-classic-briefs-colors-may-vary/-/A-81316370",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-disney-frozen-7pk-underwear/-/A-79753044",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-hello-kitty-7pk-briefs/-/A-90021737",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-gabby-39-s-dollhouse-briefs/-/A-94580983",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-disney-the-little-mermaid-ariel-7pk-underwear/-/A-88505156",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/care-bears-7pk-100-cotton-underwear/-/A-94472229",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/fruit-of-the-loom-girls-6pk-comfort-stretch-briefs-colors-may-vary/-/A-84062960",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-my-little-pony-7pk-underwear/-/A-82426277",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-disney-inside-out-7pk-underwear/-/A-91254473",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-paw-patrol-7pk-underwear/-/A-83699542",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/fruit-of-the-loom-girls-39-6pk-micro-mesh-briefs-colors-may-vary/-/A-90860163",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-pokemon-7pk-underwear/-/A-82082784",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-trolls-poppy-7pk-boxer-briefs/-/A-89251636",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-mario-7pk-underwear/-/A-82082782",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/fruit-of-the-loom-girls-39-5pk-briefs/-/A-93666777",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-smurfs-7pk-underwear/-/A-93717499",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/hanes-girls-10pk-cotton-stretch-brief-underwear-colors-may-vary/-/A-93666775",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/fruit-of-the-loom-girls-39-4pk-briefs/-/A-93666780",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/hanes-moves-girls-4pk-breathable-stretch-brief-underwear-colors-may-vary/-/A-93666774",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/champion-girls-39-5pk-authentic-originals-briefs/-/A-94618844",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/andy-evan-toddler-girls-eight-pack-bikini-brief/-/A-91386447",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/andy-evan-toddler-girls-eight-pack-bikini-brief/-/A-91386432",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/fruit-of-the-loom-girl-s-eversoft-brief-underwear-6-pack/-/A-90988970",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-adaptive-2pk-star-briefs-cat-jack-pink/-/A-84796727",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/fruit-of-the-loom-girl-s-low-rise-briefs-underwear-10-pack/-/A-90508097",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lucky-me-sophie-girls-brief-underwear-multiple-colors-and-sizes-6-pack/-/A-1002280438",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-adaptive-2pk-heart-briefs-cat-jack-salmon-pink/-/A-84796725",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lucky-me-gracie-girls-organic-cotton-briefs-multiple-colors-multiple-sizes-7-pack/-/A-93859476",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/textiel-trade-girl-s-winnie-the-pooh-assorted-briefs-3-pack/-/A-1001655137",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lucky-me-jamie-girls-performance-briefs-underwear-multiple-sizes-and-colors-7-pack/-/A-1001736890",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/capezio-team-basics-brief-girls/-/A-83927917",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/capezio-foundations-brief-girls/-/A-84644752",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/fruit-of-the-loom-girl-s-hipster-style-underwear-10-pack/-/A-90508085",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/fruit-of-the-loom-girls-eversoft-hipster-underwear-10-pack/-/A-1002611986",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/city-threads-usa-made-girls-soft-cotton-brief/-/A-90831967",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-6-pack-underwears-ultra-smooth-and-soft-cotton/-/A-1003467717",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lucky-me-bella-girls-briefs-underwear-multiple-colors-and-sizes-comfyseam-3-pack/-/A-1001783579",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/textiel-trade-toddler-girl-s-disney-minnie-mouse-briefs-4-pack/-/A-93525231",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/textiel-trade-toddler-girl-s-winnie-the-pooh-assorted-briefs-3-pack/-/A-1001655134",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-watercolor-butterfly-girls-3-piece-brief-set-posh-peanut/-/A-1002890410",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/fruit-of-the-loom-toddler-girls-eversoft-brief-underwear-10-pack/-/A-1002611769",
-      tags: "Briefs, Girl",
-    },
-    {
-      url: "https://www.target.com/p/jessica-simpson-little-big-girls-heavyweight-overall-insulated-snowsuit/-/A-93763297",
-      tags: "Bunting Snowsuits, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-short-sleeve-button-down-shirt-cat-jack-lilac-purple/-/A-94131170",
-      tags: "Button Down Shirts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-minnie-mouse-gauze-cabana-top-pink/-/A-94431148",
-      tags: "Button Down Shirts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-moana-gauze-cabana-top-orange/-/A-94431147",
-      tags: "Button Down Shirts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-bluey-cabana-top-teal-blue/-/A-94431143",
-      tags: "Button Down Shirts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lands-end-kids-long-sleeve-ruffled-peter-pan-collar-knit-shirt/-/A-87825215",
-      tags: "Button Down Shirts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/french-toast-school-uniform-girls-short-sleeve-fitted-oxford-shirt-feminine-fit/-/A-92365087",
-      tags: "Button Down Shirts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lands-end-school-uniform-kids-short-sleeve-oxford-dress-shirt/-/A-87149350",
-      tags: "Button Down Shirts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/disney-lilo-stitch-minnie-mouse-girls-hawaiian-button-down-shirt-little-kid-to-big/-/A-92751988",
-      tags: "Button Down Shirts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lands-end-school-uniform-kids-long-sleeve-oxford-dress-shirt/-/A-88500775",
-      tags: "Button Down Shirts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/french-toast-school-uniform-girls-long-sleeve-fitted-oxford-shirt-feminine-fit/-/A-92365241",
-      tags: "Button Down Shirts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lands-end-school-uniform-kids-short-sleeve-peter-pan-collar-broadcloth-shirt/-/A-88498641",
-      tags: "Button Down Shirts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/disney-mickey-mouse-hawaiian-matching-family-hawaiian-button-down-shirt-little-kid-to-big/-/A-91789885",
-      tags: "Button Down Shirts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-sleeveless-plaid-button-down-shirt-summer-crop-tops-tie-knot-ruffle-sleeve-shirt-blouse-3-12y/-/A-1002473948",
-      tags: "Button Down Shirts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/hello-kitty-button-down-dress-shirt-sizes-2t-14-16/-/A-1001387194",
-      tags: "Button Down Shirts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lands-end-school-uniform-kids-piped-peter-pan-collar-broadcloth-shirt/-/A-88500806",
-      tags: "Button Down Shirts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/barbie-girls-hawaiian-button-down-dress-shirt-little-kid-to-big/-/A-92751993",
-      tags: "Button Down Shirts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/disney-lion-king-simba-nala-timon-pumbaa-mufasa-zazu-matching-family-hawaiian-button-down-shirt-toddler-to-big-kid/-/A-91080143",
-      tags: "Button Down Shirts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/sesame-street-big-bird-cookie-monster-elmo-oscar-the-grouch-matching-family-hawaiian-button-down-shirt-infant-to-little-kid/-/A-91080185",
-      tags: "Button Down Shirts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/john-deere-animals-t-shirt/-/A-1002274462",
-      tags: "Button Down Shirts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-ruffle-button-down-shirts-short-sleeve-school-tops-plaid-blouse-4-13y/-/A-1002833173",
-      tags: "Button Down Shirts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lands-end-school-uniform-kids-no-gape-short-sleeve-stretch-shirt/-/A-88500760",
-      tags: "Button Down Shirts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lands-end-school-uniform-kids-no-gape-long-sleeve-stretch-shirt/-/A-88500895",
-      tags: "Button Down Shirts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/disney-lilo-stitch-girls-flannel-button-down-shirt-little-kid-to-big-kid-sizes-4-14-16/-/A-1001159829",
-      tags: "Button Down Shirts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-summer-crop-tops-long-sleeve-button-down-shirt-for-girl-3-12y/-/A-1002881863",
-      tags: "Button Down Shirts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lands-end-kids-long-sleeve-flannel-shirt/-/A-93168217",
-      tags: "Button Down Shirts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lands-end-kids-short-sleeve-poplin-camp-shirt/-/A-87826934",
-      tags: "Button Down Shirts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lands-end-kids-gathered-waist-tunic-top/-/A-87687750",
-      tags: "Button Down Shirts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/andy-evan-toddler-pink-plaid-shacket/-/A-89854616",
-      tags: "Button Down Shirts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/mykids-usa-solid-color-single-breasted-design-square-collar-tops-in-summer/-/A-1003707295",
-      tags: "Button Down Shirts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-short-sleeve-peter-pan-blouse-puff-sleeve-button-down-shirt-school-uniform-blouse-3-12-years/-/A-1003249034",
-      tags: "Button Down Shirts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-long-sleeve-ruffle-plaid-shirts-front-button-down-shirts-for-girls-waist-knot-plaid-shirts/-/A-1000028950",
-      tags: "Button Down Shirts, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-cami-top-cat-38-jack-8482/-/A-93300728",
-      tags: "Camisoles, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-graphic-cami-art-class/-/A-94600922",
-      tags: "Camisoles, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-babydoll-woven-cami-art-class/-/A-94600945",
-      tags: "Camisoles, Girl",
-    },
-    {
-      url: "https://www.target.com/p/hanes-girls-5pk-camisole-white-gray-pink/-/A-50302682",
-      tags: "Camisoles, Girl",
-    },
-    {
-      url: "https://www.target.com/p/fruit-of-the-loom-girls-5pk-cami-colors-may-vary/-/A-87446270",
-      tags: "Camisoles, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-pointelle-strappy-cami-art-class/-/A-94775222",
-      tags: "Camisoles, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-peplum-gauze-tank-top-cat-38-jack-8482-blue/-/A-94472209",
-      tags: "Camisoles, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lucky-me-emma-girls-camisoles-multiple-colors-and-sizes-3-pack/-/A-1002425452",
-      tags: "Camisoles, Girl",
-    },
-    {
-      url: "https://www.target.com/p/city-threads-girls-sparkly-lined-camisole/-/A-1004493859",
-      tags: "Camisoles, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girl-pinch-front-wide-strap-princess-leotard-motionwear/-/A-1003530815",
-      tags: "Camisoles, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girl-piera-camisole-crop-top-bloch/-/A-1002246014",
-      tags: "Camisoles, Girl",
-    },
-    {
-      url: "https://www.target.com/p/kids-39-adaptive-cape-cat-38-jack-8482-yellow/-/A-90968792",
-      tags: "Capes, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-button-front-sweater-vest-cat-38-jack-8482/-/A-94472220",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-long-uniform-cardigan-cat-jack/-/A-84938046",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-crew-neck-cable-uniform-cardigan-sweater-cat-jack/-/A-84938066",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/toddler-girls-crew-neck-cable-knit-uniform-sweater-cat-jack/-/A-87039443",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-pointelle-cardigan-cat-38-jack-8482/-/A-94472253",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-long-sleeve-ribbed-cardigan-sweater-cat-38-jack-8482/-/A-94472219",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-button-front-cardigan-sweater-cat-38-jack-8482/-/A-90532627",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-open-knit-flyaway-cardigan-art-class/-/A-93146677",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-feather-weight-flyaway-cardigan-sweater-art-class/-/A-93146673",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lands-end-school-uniform-kids-cotton-modal-cardigan-sweater/-/A-86738581",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/french-toast-school-uniform-girls-crewneck-sweater-cardigan/-/A-92657729",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/andy-evan-kids-girls-ombre-stripe-cardigan/-/A-93590642",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-long-sleeve-cardigan-sweater-crew-neck-uniform-knit-sweater-button-down-ruffle/-/A-1002516350",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lands-end-kids-button-front-cable-cardigan/-/A-87686433",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/mi-amore-gigi-bottom-down-sweater/-/A-94072144",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/mi-amore-gigi-bottom-down-sweater/-/A-94041155",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lands-end-school-uniform-kids-cotton-modal-zip-front-cardigan-sweater/-/A-89281514",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-oversized-long-sleeve-cardigan-open-front-lantern-sleeve-knit-sweater-with-pockets/-/A-1002548934",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/cardigan-for-girls-open-front-sweater-long-sleeve-loose-fit-sweater-jacket/-/A-1000555999",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girl-s-long-cardigans-lightweight-sweater-knit-cardigan-open-frontlong-sleeve-shacket-for-fall-longline-cardigan-with-side-pockets-khaki-xl/-/A-1001094467",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/hope-henry-girls-organic-long-sleeve-scallop-detail-cardigan-sweater-kids/-/A-1000872830",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-open-front-cardigan-midi-length-long-sleeve-knit-sweater-school-uniform-sweater-outwears-with-pockets-5-14-years/-/A-1002591924",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-long-sleeve-cardigan-sweaters-open-front-cable-knit-chunky-cardigans-kids-oversized-cute-outerwear-coat/-/A-1002723693",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-sweater-cardigan-open-front-longline-sweater-cable-knit-sweater-long-sleeve-color-block-sweater-ground-m/-/A-1000669749",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-open-front-long-sleeve-cardigan-color-block-knit-oversized-kids-sweaters-cardigan-coat/-/A-1002553175",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girl-s-open-front-cardigan-long-sleeve-knit-sweaters-kids-lightweight-cute-casual-loose-outerwear-coats-with-pockets/-/A-1002725053",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/hope-henry-girls-ruffle-sleeve-sweater-vest-kids/-/A-86458851",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girl-kids-retro-striped-cardigan-the-blueberry-hill/-/A-1001116512",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/mi-amore-gigi-pink-bottom-down-sweater/-/A-94041144",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-cable-knit-sweater-cardigan-front-button-cardigan-with-side-pockets-above-knee-cardigan-for-girls-winter-knitwear-khaki-xl/-/A-1001378416",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/hope-henry-girls-organic-cropped-special-detail-sweater-cardigan-kids/-/A-1000872797",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girl-cable-knit-cardigan-with-pockets-open-front-sweater-outwear-long-sleeve-sweater-cardigan-kids-winter-outfits/-/A-1001378592",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lands-end-school-uniform-kids-cotton-modal-button-front-cardigan-sweater/-/A-89281535",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/rufflebutts-girls-lightweight-pointelle-cardigan/-/A-1003239947",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/hope-henry-girls-scallop-edge-mesh-dot-cardigan-kids/-/A-90585971",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girl-s-crochet-cover-up-cardigan-summer-lightweight-long-sleeve-soft-cardigans/-/A-1002810787",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/deux-par-deux-girl-printed-reversible-full-zip-athletic-cardigan-pink-blue-and-butterflies/-/A-1002991981",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/hope-henry-girls-organic-chevron-cable-cardigan-sweater-kids/-/A-92936746",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/hope-henry-girls-organic-cropped-milano-stitch-dressy-cardigan-soft-white-scallop-edge-xx-small/-/A-93416208",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/deux-par-deux-girl-printed-french-terry-hoodie-cardigan-pink-multicolored-gummies/-/A-1002991828",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/deux-par-deux-girl-printed-french-terry-hoodie-cardigan-lilac-tropical-and-pink-flamingos/-/A-1002991963",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/hope-henry-girls-pointelle-bow-cardigan-kids/-/A-90586059",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/deux-par-deux-girl-printed-french-terry-hoodie-cardigan-pink-and-coral-houses/-/A-1002991861",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/deux-par-deux-girl-pointelle-knit-cardigan-sweater-white/-/A-1002991990",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/lands-end-school-uniform-kids-cotton-modal-sweater-vest/-/A-89281470",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girl-s-open-front-cardigan-long-sleeve-knit-sweaters-kids-solid-cute-casual-loose-outerwear-coats-with-pockets/-/A-1004830318",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/mykids-usa-baby-girl-solid-color-hollow-carved-design-cherry-patched-cardigan/-/A-1004644389",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/mykids-usa-baby-girl-floral-embroidered-pattern-single-breasted-design-knit-cardigan/-/A-1004606856",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/children-s-cardigan-sweaters-long-sleeve-cable-knit-button-down-casual-chunky-outwear-coats-with-pocket/-/A-1004368640",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-open-front-cardigan-sweater-kids-causal-long-sleeve-crewneck-knit-outerwear-coat/-/A-1004193777",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girl-kid-s-tiffany-sweater-vignette-us7/-/A-1003530649",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/deux-par-deux-girl-printed-french-terry-hoodie-cardigan-pink-flowers-on-white-background/-/A-1002991771",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/deux-par-deux-girl-pointelle-knit-cardigan-sweater-black/-/A-1002991749",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girl-fringe-cardigan-rylee-cru/-/A-1002669048",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girl-floral-puff-sleeve-sweatshirt-happy-prince/-/A-1001401267",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girl-s-kenzie-cardigan-sweater-vignette/-/A-1001251550",
-      tags: "Cardigans, Girl",
-    },
-    {
-      url: "https://www.target.com/p/girls-39-pull-on-wide-leg-cargo-pants-cat-38-jack-8482/-/A-94492235",
+      url: "https://www.target.com/p/girls-mid-rise-wide-leg-cargo-jeans-art-class/-/A-92955225",
       tags: "Cargo Pants, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-straight-leg-cargo-pant-art-class/-/A-93342590",
+      tags: "Cargo Pants, Girl",
+    },
+    {
+      url: "https://www.target.com/p/levi-s-girls-parachute-cargo-pants-olive-green/-/A-94405043",
+      tags: "Cargo Pants, Girl",
+    },
+    {
+      url: "https://www.target.com/p/levi-s-girls-wide-leg-cargo-pants-olive-green/-/A-94708627",
+      tags: "Cargo Pants, Girl",
+    },
+    {
+      url: "https://www.target.com/p/levi-s-girls-denim-parachute-cargo-pants-light-wash/-/A-93018543",
+      tags: "Cargo Pants, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-39-adaptive-woven-cargo-pull-on-pants-cat-38-jack-8482-sage-green/-/A-94600613",
+      tags: "Cargo Pants, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-39-sweater-shorts-cat-38-jack-8482/-/A-93964116",
+      tags: "Cargo Shorts, Girl",
+    },
+    {
+      url: "https://www.target.com/p/lands-end-kids-utility-cargo-shorts/-/A-1001828886",
+      tags: "Cargo Shorts, Girl",
+    },
+    {
+      url: "https://www.target.com/p/lands-end-kids-woven-utility-shorts/-/A-1002177438",
+      tags: "Cargo Shorts, Girl",
+    },
+    {
+      url: "https://www.target.com/p/kids-39-adaptive-2pk-tank-bodysuit-with-abdominal-access-cat-38-jack-8482-white-gray/-/A-91192320",
+      tags: "Child Bodysuits, Girl",
+    },
+    {
+      url: "https://www.target.com/p/star-wars-princess-leia-r2-d2-baby-girls-2-pack-zip-up-sleep-n-play-coveralls-newborn-to-infant/-/A-87049147",
+      tags: "Child Bodysuits, Girl",
+    },
+    {
+      url: "https://www.target.com/p/kids-adaptive-long-sleeve-bodysuit-with-abdominal-access-cat-jack/-/A-85722382",
+      tags: "Child Bodysuits, Girl",
+    },
+    {
+      url: "https://www.target.com/p/kids-adaptive-short-sleeve-bodysuit-with-abdominal-access-cat-jack/-/A-85722383",
+      tags: "Child Bodysuits, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-leotard-by-danz-n-motion-2465c-kennedy-ribbed-high-neck-classic/-/A-1002825437",
+      tags: "Child Bodysuits, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girl-sarabande-leotard-wear-moi/-/A-1001401196",
+      tags: "Child Bodysuits, Girl",
+    },
+    {
+      url: "https://www.target.com/p/barbie-baby-girls-3-pack-bodysuits-newborn-to-infant/-/A-93856542",
+      tags: "Child Bodysuits, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girl-pirouette-leotard-wear-moi/-/A-1001401371",
+      tags: "Child Bodysuits, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girl-cabriole-tank-leotard-wear-moi/-/A-1001401376",
+      tags: "Child Bodysuits, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girl-garcia-mesh-bodice-leotard-bloch-12/-/A-1003530655",
+      tags: "Child Bodysuits, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girl-kendra-mesh-back-leotard-bloch-6x-7/-/A-1003530692",
+      tags: "Child Bodysuits, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girl-primrose-cross-back-leotard-bloch/-/A-1003530788",
+      tags: "Child Bodysuits, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girl-laryisa-halterneck-leotard-bloch/-/A-1003530767",
+      tags: "Child Bodysuits, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girl-kendra-mesh-back-leotard-bloch/-/A-1003530672",
+      tags: "Child Bodysuits, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girl-mirella-paisley-camisole-leotard-bloch/-/A-1003530652",
+      tags: "Child Bodysuits, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girl-ladies-zip-tank-camo-leotard-bodysuit-bloch/-/A-1002669098",
+      tags: "Child Bodysuits, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girl-ladies-maya-lace-print-tank-leotard-bodysuit-bloch/-/A-1002669060",
+      tags: "Child Bodysuits, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girl-ladies-boat-neck-mesh-back-leotard-bodysuit-bloch/-/A-1002669059",
+      tags: "Child Bodysuits, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girl-ladies-high-neck-halter-leotard-bodysuit-bloch/-/A-1002669068",
+      tags: "Child Bodysuits, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girl-ladies-mock-neck-halter-leotard-bodysuit-bloch/-/A-1002669067",
+      tags: "Child Bodysuits, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girl-ladies-adalia-camo-boat-neck-cap-sleeve-leotard-bloch/-/A-1002669045",
+      tags: "Child Bodysuits, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girl-ladies-halter-leotard-bodysuit-bloch/-/A-1002669032",
+      tags: "Child Bodysuits, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girl-concerto-camisole-leotard-wear-moi/-/A-1001401349",
+      tags: "Child Bodysuits, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girl-concerto-camisole-leotard-wear-moi/-/A-1001401337",
+      tags: "Child Bodysuits, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girl-concerto-camisole-leotard-wear-moi/-/A-1001401334",
+      tags: "Child Bodysuits, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girl-pirouette-leotard-wear-moi/-/A-1001401311",
+      tags: "Child Bodysuits, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girl-garcia-mesh-bodice-leotard-bloch/-/A-1001401303",
+      tags: "Child Bodysuits, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girl-liberty-ribbed-bodysuit-petit-confection/-/A-1001376613",
+      tags: "Child Bodysuits, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girl-floral-embroidered-footies-petit-confection/-/A-1001354879",
+      tags: "Child Bodysuits, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girl-kids-love-love-love-long-sleeve-bodysuit-sweet-wink/-/A-1001116294",
+      tags: "Child Bodysuits, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girl-kids-my-first-valentine-s-day-long-sleeve-bodysuit-sweet-wink/-/A-1001116282",
+      tags: "Child Bodysuits, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-straight-fit-uniform-pants-cat-jack/-/A-88012859",
+      tags: "Chino Pants, Girl",
+    },
+    {
+      url: "https://www.target.com/p/toddler-girls-skinny-slim-fit-uniform-chino-pants-cat-jack/-/A-87044862",
+      tags: "Chino Pants, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-39-quick-dry-straight-fit-uniform-pants-cat-38-jack-8482-navy-blue/-/A-90221753",
+      tags: "Chino Pants, Girl",
+    },
+    {
+      url: "https://www.target.com/p/galaxy-authentic-girl-s-super-stretch-pencil-skinny-uniform-pants/-/A-93320084",
+      tags: "Chino Pants, Girl",
+    },
+    {
+      url: "https://www.target.com/p/lands-end-school-uniform-kids-active-performance-chino-pants/-/A-92889680",
+      tags: "Chino Pants, Girl",
+    },
+    {
+      url: "https://www.target.com/p/galaxy-authentic-3-pack-girl-s-super-stretch-pencil-skinny-uniform-pants/-/A-93370821",
+      tags: "Chino Pants, Girl",
+    },
+    {
+      url: "https://www.target.com/p/french-toast-school-uniform-girls-skinny-fit-stretch-twill-pant/-/A-92384897",
+      tags: "Chino Pants, Girl",
+    },
+    {
+      url: "https://www.target.com/p/lands-end-kids-stretch-pencil-pants/-/A-91378884",
+      tags: "Chino Pants, Girl",
+    },
+    {
+      url: "https://www.target.com/p/french-toast-school-uniform-girls-straight-fit-stretch-twill-pant/-/A-92384555",
+      tags: "Chino Pants, Girl",
+    },
+    {
+      url: "https://www.target.com/p/lands-end-kids-woven-pull-on-utility-cargo-pants/-/A-93027682",
+      tags: "Chino Pants, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-uniform-chino-shorts-cat-jack/-/A-85402704",
+      tags: "Chino Shorts, Girl",
+    },
+    {
+      url: "https://www.target.com/p/toddler-girls-uniform-chino-shorts-cat-jack/-/A-87041973",
+      tags: "Chino Shorts, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-39-patch-pocket-twill-bermuda-shorts-cat-38-jack-8482-white/-/A-94408556",
+      tags: "Chino Shorts, Girl",
+    },
+    {
+      url: "https://www.target.com/p/lands-end-lands-end-kids-pull-on-shorts/-/A-88500959",
+      tags: "Chino Shorts, Girl",
+    },
+    {
+      url: "https://www.target.com/p/french-toast-school-uniform-boys-flat-front-stretch-twill-short/-/A-92572853",
+      tags: "Chino Shorts, Girl",
+    },
+    {
+      url: "https://www.target.com/p/lands-end-school-uniform-kids-stretch-chino-bermuda-shorts/-/A-87148230",
+      tags: "Chino Shorts, Girl",
+    },
+    {
+      url: "https://www.target.com/p/french-toast-school-uniform-boys-pull-on-twill-short/-/A-92384298",
+      tags: "Chino Shorts, Girl",
+    },
+    {
+      url: "https://www.target.com/p/lands-end-kids-plain-front-blend-chino-shorts/-/A-86739538",
+      tags: "Chino Shorts, Girl",
+    },
+    {
+      url: "https://www.target.com/p/lands-end-lands-end-school-uniform-kids-active-chino-shorts/-/A-87673647",
+      tags: "Chino Shorts, Girl",
+    },
+    {
+      url: "https://www.target.com/p/lands-end-little-kids-slim-plain-front-blend-chino-shorts/-/A-86739549",
+      tags: "Chino Shorts, Girl",
+    },
+    {
+      url: "https://www.target.com/p/french-toast-school-uniform-boys-flat-front-stretch-performance-short/-/A-92384191",
+      tags: "Chino Shorts, Girl",
+    },
+    {
+      url: "https://www.target.com/p/french-toast-school-uniform-girls-stretch-twill-bermuda-short/-/A-92572942",
+      tags: "Chino Shorts, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-smocked-waist-tiered-circle-skirt-art-class/-/A-94151935",
+      tags: "Circle Skirts, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-stitch-tiered-skirt-the-disney-collection-by-cat-jack-cream/-/A-94439683",
+      tags: "Circle Skirts, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-smocked-waist-tiered-skort-art-class/-/A-94340877",
+      tags: "Circle Skirts, Girl",
+    },
+    {
+      url: "https://www.target.com/p/city-threads-usa-made-cotton-soft-girls-jersey-twirly-skirt/-/A-91855820",
+      tags: "Circle Skirts, Girl",
+    },
+    {
+      url: "https://www.target.com/p/city-threads-usa-made-girls-novelty-circle-skirt/-/A-1003417822",
+      tags: "Circle Skirts, Girl",
+    },
+    {
+      url: "https://www.target.com/p/dragonwing-harmony-skirt/-/A-1001647400",
+      tags: "Circle Skirts, Girl",
+    },
+    {
+      url: "https://www.target.com/p/kids-39-tate-clogs-cat-38-jack-8482/-/A-94293377",
+      tags: "Clogs, Girl",
+    },
+    {
+      url: "https://www.target.com/p/kids-39-tate-clogs-cat-38-jack-8482-brown/-/A-94293389",
+      tags: "Clogs, Girl",
+    },
+    {
+      url: "https://www.target.com/p/women-s-dance-bra-by-silky-dance-convertible-bra-clear-straps-mocha-child-8-12/-/A-1003237179",
+      tags: "Convertible Bras, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-39-short-sleeve-top-and-slip-dress-cat-38-jack-8482/-/A-92974696",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/toddler-girls-americana-star-knit-tank-shorts-set-cat-jack-red/-/A-94161290",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/toddler-girls-2pc-bluey-americana-tank-top-and-skort-set-red-white-blue/-/A-94065288",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/toddler-girls-2pc-bluey-strawberry-top-skort-set-ivory/-/A-93726539",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/toddler-girls-palm-printed-top-skort-set-cat-jack/-/A-94161257",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-39-short-sleeve-top-38-slip-dress-cat-38-jack-8482/-/A-94579584",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/toddler-girls-2pc-bluey-lemon-gauze-tank-top-and-shorts-set-orange/-/A-94065372",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/toddler-girls-2pc-hello-kitty-short-sleeve-t-shirt-and-shorts-set-pink/-/A-93871070",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/toddler-girls-2pc-disney-minnie-mouse-americana-short-sleeve-t-shirt-and-shorts-set-red-white-blue/-/A-94065312",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/toddler-girls-2pc-disney-minnie-mouse-top-skort-set-pink/-/A-93726616",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/toddler-girls-2pc-disney-ariel-the-little-mermaid-top-skort-set-white/-/A-93726522",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/toddler-girls-2pc-barbie-short-sleeve-t-shirt-and-shorts-set-purple/-/A-93871072",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/toddler-girls-2pc-disney-princess-peplum-top-biker-shorts-set-green/-/A-94643152",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/toddler-girls-2pc-disney-minnie-mouse-peplum-top-biker-shorts-set-pink/-/A-93726613",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/hello-kitty-square-neck-t-shirt-and-skirt-outfit-set/-/A-1003497827",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/modern-moments-by-gerber-toddler-girls-2-piece-top-and-shorts-set/-/A-1001974161",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/sesame-street-elmo-girls-t-shirt-and-french-terry-shorts-outfit-set-toddler/-/A-87762864",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/gerber-toddler-girls-shirt-shorts-set-2-piece/-/A-91012765",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/bluey-girls-t-shirt-and-french-terry-shorts-outfit-set-little-kid/-/A-87357309",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/hello-kitty-t-shirt-and-french-terry-dolphin-shorts-outfit-set/-/A-1003146454",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-square-neck-t-shirt-and-skirt-outfit-set/-/A-1002902592",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/modern-moments-by-gerber-baby-girls-4-piece-flutter-sleeve-top-and-shorts-set/-/A-1001942637",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/bluey-girls-t-shirt-and-french-terry-shorts-outfit-set-toddler/-/A-90888254",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/modern-moments-by-gerber-toddler-girls-2-piece-sweater-knit-hoodie-set/-/A-1001819081",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-mickey-mouse-minnie-mouse-t-shirt-and-shorts-outfit-set-toddler-to-big-kid/-/A-87280794",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/hello-kitty-sanrio-girls-short-sleeve-shirt-and-skirt-2-piece-set-for-big-kids-size-10/-/A-1003488297",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/patpat-disney-mickey-mouse-friends-minnie-toddler-girl-outfit-ruffle-sleeve-t-shirt-and-striped-leggings-girls-clothing-sets/-/A-1003984819",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/hello-kitty-ribbed-t-shirt-and-shorts-outfit-set/-/A-1001924551",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/bluey-girls-t-shirt-and-french-terry-shorts-outfit-set-toddler/-/A-87357314",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/barbie-french-terry-t-shirt-and-shorts-outfit-set-sizes-2t-14-16/-/A-1002443548",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-girls-short-sleeve-t-shirt-and-shorts-set-for-toddlers-and-big-kids/-/A-1003488272",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-lilo-stitch-french-terry-cropped-drop-shoulder-t-shirt-and-skirt-outfit-set/-/A-1002541270",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/barbie-girls-velour-sweatshirt-and-jogger-pants-outfit-set-little-kid-to-big-kid/-/A-94111072",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/mickey-mouse-friends-minnie-mouse-lilo-stitch-princess-winnie-the-pooh-girls-t-shirt-and-french-terry-shorts-outfit-set-toddler/-/A-89241907",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-ribbed-tank-top-and-french-terry-shorts-outfit-set/-/A-1002119632",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-girls-square-neck-t-shirt-and-smocked-skirt-outfit-set-toddler/-/A-1002902589",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-lilo-stitch-descendants-evie-uma-girls-t-shirt-and-french-terry-shorts-outfit-set-toddler-to-big-kid/-/A-87295682",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/marvel-spidey-and-his-amazing-friends-ribbed-t-shirt-and-shorts-outfit-set/-/A-1001924562",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/sesame-street-elmo-baby-girls-t-shirt-and-french-terry-shorts-outfit-set-infant/-/A-87762857",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-t-shirt-and-leggings-outfit-set-infant-to-little-kid/-/A-87280677",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/modern-moments-by-gerber-toddler-girls-2-piece-ruffle-top-and-shorts-set-medium-rose-bouquet/-/A-1002425773",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/harry-potter-baby-girls-bodysuit-pants-and-headband-3-piece-outfit-set-newborn-to-infant/-/A-89647392",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/bluey-coco-floral-girls-t-shirt-and-tulle-mesh-skirt-little-kid-to-big-kid/-/A-90750100",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/bluey-t-shirt-and-twill-shorts-outfit-set-sizes-2t-10-12/-/A-1002119635",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-moana-princess-frozen-rapunzel-jasmine-belle-girls-t-shirt-tulle-skirt-and-scrunchie-3-piece-outfit-set-toddler/-/A-87274006",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/hello-kitty-sanrio-girls-2-piece-short-sleeve-t-shirt-and-bike-shorts-set-for-big-kids/-/A-1003316768",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/hello-kitty-hooded-cosplay-tank-top-and-french-terry-dolphin-shorts-outfit-set/-/A-1003528856",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/mickey-mouse-friends-minnie-mouse-lilo-stitch-princess-winnie-the-pooh-baby-girls-t-shirt-and-french-terry-shorts-outfit-set-infant/-/A-89241906",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-disney-junior-french-terry-t-shirt-and-shorts-outfit-set-sizes-12-months-14-16/-/A-1002443505",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-lilo-stitch-descendants-evie-uma-girls-t-shirt-and-french-terry-shorts-outfit-set-toddler-to-big-kid/-/A-87295681",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/hello-kitty-t-shirt-and-chambray-shorts-outfit-set-sizes-4-14-16/-/A-1002541152",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/modern-moments-by-gerber-toddler-girls-4-piece-drop-shoulder-top-and-shorts-set/-/A-1001974180",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/barbie-girls-t-shirt-and-leggings-outfit-set-little-kid-to-big-kid/-/A-92721355",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/modern-moments-by-gerber-mommy-me-toddler-and-adult-2-piece-top-and-cropped-pants-set/-/A-1002428029",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/barbie-french-terry-cropped-drop-shoulder-t-shirt-and-skirt-outfit-set/-/A-1002542155",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-moana-princess-frozen-ariel-minnie-mouse-baby-girls-tank-top-and-french-terry-shorts-infant-to-little-kid/-/A-88283061",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/marvel-spider-man-ghost-spider-girls-cosplay-tank-top-dolphin-active-and-french-terry-shorts-toddler-to-big-kid/-/A-89083412",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/hello-kitty-scuba-cheerleader-tank-top-and-pleated-skirt/-/A-1003737917",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/bluey-bingo-girls-t-shirt-and-shorts-outfit-set-toddler-to-big-kid/-/A-89807044",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/barbie-ribbed-tank-top-and-french-terry-shorts-outfit-set/-/A-1002195079",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-moana-winnie-the-pooh-lion-king-pixar-toy-story-lilo-stitch-t-shirt-shorts-outfit-set-little-kid-to-big-kid/-/A-87289814",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-junior-cropped-boxy-t-shirt-and-bike-shorts-outfit-set/-/A-1002541431",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/bluey-bingo-coco-snickers-girls-t-shirt-and-chambray-shorts-outfit-set-little-kid/-/A-91080191",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/monster-jam-grave-digger-megalodon-sparkle-smash-drop-shoulder-t-shirt-and-bike-shorts-outfit-set/-/A-1002471260",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/hello-kitty-girls-t-shirt-and-short-set-for-toddler-little-and-big-kids-multicolor/-/A-1003316729",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/rothschild-little-big-girls-ski-jacket-and-snowbib-snowsuit-sets/-/A-94133417",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/ms-rachel-girls-t-shirt-and-leggings-outfit-set-toddler/-/A-1004238768",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/hello-kitty-sanrio-girls-short-sleeve-shirt-and-skirt-2-piece-set-for-big-kids-size-10/-/A-1003488289",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-baby-girls-ribbed-bodysuit-jogger-pants-and-headband-3-piece-outfit-set-newborn-to-infant/-/A-1003699163",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/barbie-french-terry-drop-shoulder-t-shirt-and-dolphin-shorts-outfit-set-sizes-2t-14-16/-/A-1001890905",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/patpat-disney-frozen-elsa-princess-toddler-girl-s-2-piece-outfits-sleeveless-tie-knot-tank-top-summer-short-coordinate-sets/-/A-1003952865",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/bluey-girls-t-shirt-and-french-terry-shorts-outfit-set-little-kid/-/A-90888253",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/ms-rachel-girls-fleece-crossover-sweatshirt-and-jogger-pants-outfit-set-toddler/-/A-93847126",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-moana-princess-frozen-rapunzel-jasmine-belle-girls-t-shirt-tulle-skirt-and-scrunchie-3-piece-outfit-set-little-kid-to-big-kid/-/A-87274002",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/barbie-girls-fleece-hoodie-and-leggings-outfit-set-little-kid-to-big-kid/-/A-87384308",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-lilo-stitch-french-terry-drop-shoulder-pullover-sweatshirt-t-shirt-and-shorts-3-piece-outfit-set-sizes-4t-10-12/-/A-1003418412",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-t-shirt-and-crop-top-shorts-outfit-set/-/A-1001887677",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/barbie-girls-fleece-sweatshirt-and-jogger-pants-outfit-set-little-kid-to-big-kid/-/A-93161077",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/hello-kitty-french-terry-drop-shoulder-pullover-sweatshirt-ribbed-t-shirt-and-shorts-3-piece-outfit-set-sizes-4t-10-12/-/A-1002879340",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-princess-moana-frozen-girls-short-sleeve-shirt-and-tulle-skirt-with-headband-set-for-toddler-and-big-kids-size-3t/-/A-1003920590",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-tank-top-and-twill-shorts-outfit-set-infant-to-little-kid/-/A-87262661",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/mickey-mouse-friends-minnie-mouse-lilo-stitch-princess-winnie-the-pooh-girls-t-shirt-and-french-terry-shorts-outfit-set-little-kid-to-big-kid/-/A-89241905",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/paw-patrol-ribbed-peplum-t-shirt-and-shorts-outfit-set/-/A-1002541131",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-moana-girls-2-piece-shirt-and-shorts-set-for-toddler-and-big-kids/-/A-1003316878",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/l-o-l-surprise-fierce-bhaddie-flipside-unity-girls-crossover-fleece-sweatshirt-leggings-outfit-set-little-kid-to-big-kid/-/A-87276376",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-mickey-mouse-minnie-mouse-t-shirt-and-shorts-outfit-set-toddler-to-big-kid/-/A-87280787",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/harry-potter-baby-girls-ribbed-bodysuit-jogger-pants-and-headband-3-piece-outfit-set-newborn-to-infant/-/A-1003699185",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/dreamworks-gabby-s-dollhouse-girls-short-sleeve-t-shirt-and-legging-pants-set-for-toddlers-to-big-kids/-/A-1004381415",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/hello-kitty-square-neck-tank-top-and-shorts-outfit-set/-/A-1003005609",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-baby-girls-t-shirt-and-shorts-outfit-set-infant-to-toddler/-/A-89483605",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-girls-fleece-pullover-hoodie-and-pants-outfit-set-toddler-to-little-kid/-/A-90022574",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/hello-kitty-girls-fleece-boxy-sweatshirt-crop-top-and-jogger-pants-outfit-set-little-kid-to-big-kid/-/A-1001188497",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-lilo-stitch-girls-t-shirt-and-leggings-outfit-set-little-kid-to-big-kid/-/A-89258259",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-girls-tank-top-and-shorts-toddler-to-big-kid/-/A-89268210",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-frozen-princess-anna-elsa-girls-sweatshirt-and-leggings-outfit-set-little-kid-to-big-kid/-/A-88659990",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-t-shirt-and-shorts-outfit-set-infant-to-little-kid/-/A-87197464",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-moana-princess-frozen-ariel-minnie-mouse-baby-girls-tank-top-and-french-terry-shorts-infant-to-little-kid/-/A-88283059",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-princess-floral-girls-peplum-t-shirt-and-french-terry-shorts-outfit-set-toddler/-/A-87232356",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-lilo-stitch-girls-tank-top-and-pleated-skort-outfit-set-toddler-to-big-kid/-/A-92000265",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-princess-minnie-mouse-frozen-elsa-anna-girls-long-sleeve-shirt-vest-and-legging-pants-set-for-toddler-and-little-kids/-/A-1001307103",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-little-mermaid-peplum-fleece-sweatshirt-and-and-leggings-outfit-set-sizes-2t-10-12/-/A-93164418",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/bluey-girls-matching-family-tank-top-and-shorts-outfit-set-little-kid-to-big-kid/-/A-91284821",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/barbie-girls-tank-top-and-pleated-skort-outfit-set-little-kid-to-big-kid/-/A-92000268",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/barbie-t-shirt-and-crop-top-shorts-outfit-set/-/A-1001917689",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/bluey-boys-bluey-bingo-vintage-drop-shoulder-t-shirt-and-shorts-outfit-set-toddler-to-little-kid/-/A-92103804",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/barbie-jersey-athletic-tank-top-and-shorts-outfit-set/-/A-1002768851",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-girls-french-terry-drop-shoulder-t-shirt-and-dolphin-shorts-outfit-set-little-kid/-/A-91799028",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-t-shirt-french-terry-shorts-and-scrunchie-3-piece-outfit-set-infant-to-big-kid/-/A-87252861",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/star-wars-the-mandalorian-the-child-girls-t-shirt-and-leggings-outfit-set-little-kid/-/A-87195300",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/barbie-boxy-drop-shoulder-t-shirt-and-mesh-tulle-skort/-/A-1003210457",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/bluey-ribbed-t-shirt-and-shorts-outfit-set-sizes-2t-10-12/-/A-93438733",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/l-o-l-surprise-aqua-opal-q-t-pearl-q-t-girls-t-shirt-skirt-and-bag-3-piece-outfit-set-little-kid-to-big-kid/-/A-91427378",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-lilo-stitch-girls-french-terry-tank-top-shirt-dolphin-and-active-shorts-little-kid-to-big-kid/-/A-89003446",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/harry-potter-hedwig-owl-girls-fleece-sweatshirt-and-pleated-skirt-little-kid-to-big-kid/-/A-89895366",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/strawberry-shortcake-square-neck-t-shirt-and-skirt-outfit-set/-/A-1003757653",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-frozen-princess-anna-elsa-baby-girls-t-shirt-and-shorts-outfit-set-toddler/-/A-89299150",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/barbie-girls-metallic-print-t-shirt-and-tulle-mesh-skirt-little-kid-to-big-kid/-/A-93131233",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/bluey-bingo-coco-snickers-girls-t-shirt-and-chambray-shorts-outfit-set-toddler/-/A-91080227",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/barbie-girls-2fer-drop-shoulder-fleece-sweatshirt-and-leggings-outfit-set-little-kid-to-big-kid/-/A-1000558464",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-frozen-queen-elsa-little-girls-cosplay-gown-and-headband-7-8/-/A-85236466",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/bluey-girls-square-neck-t-shirt-and-skirt-little-kid-to-big-kid/-/A-92302291",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/barbie-girls-t-shirt-and-french-terry-shorts-outfit-set-toddler-to-big-kid/-/A-89603115",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-princess-frozen-little-mermaid-t-shirt-leggings-and-scrunchie-3-piece-outfit-set-infant-to-big-kid/-/A-87908624",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/bluey-girls-fleece-sweatshirt-and-jogger-pants-set-little-kid-to-big-kid/-/A-90567410",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/l-o-l-surprise-girls-sweatshirt-and-pants-set-for-little-and-big-girls/-/A-1001297837",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-princess-floral-girls-peplum-t-shirt-and-french-terry-shorts-outfit-set-little-kid-to-big-kid/-/A-87232361",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/paw-patrol-everest-skye-girls-pullover-crossover-fleece-hoodie-and-leggings-outfit-set-toddler-to-little-kid/-/A-85411004",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-girl-s-frozen-2-elsa-anna-and-olaf-graphic-printed-shirt-and-shorts-coordinates-set-blue-and-gray-size-2t/-/A-92538703",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/rocky-thermal-underwear-for-girls-long-johns-fleece-lined-set-shirt-pants-base-layer/-/A-93253190",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-winnie-the-pooh-minnie-mouse-lilo-stitch-peplum-t-shirt-and-bike-shorts-outfit-set-newborn-to-big-kid/-/A-91127474",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/star-wars-the-child-baby-girls-french-terry-snap-short-overalls-t-shirt-and-headband-3-piece-outfit-set-newborn-to-infant/-/A-87499703",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/hello-kitty-girls-velour-drop-shoulder-sweatshirt-and-jogger-pants-outfit-set-little-kid-to-big-kid/-/A-1000179133",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/patpat-girls-skirt-sets-tank-tops-and-pleated-skirts-2-piece-outfits-sleeveless-tops-school-uniform-skirts-clothing-sets/-/A-1003334178",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-lilo-stitch-descendants-evie-uma-girls-t-shirt-and-french-terry-shorts-outfit-set-toddler-to-big-kid/-/A-1003146230",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/kids-girls-tennis-golf-dress-outfit-sleeveless-dress-with-pockets-athletic-skorts-and-polo-tank-top-sets/-/A-1002515889",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-moana-winnie-the-pooh-lion-king-pixar-toy-story-lilo-stitch-t-shirt-shorts-outfit-set-little-kid-to-big-kid/-/A-87289820",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-frozen-elsa-anna-frozen-girls-t-shirt-and-leggings-outfit-set-infant-to-little-kid/-/A-89496796",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/strawberry-shortcake-girls-square-neck-t-shirt-and-smocked-skirt-outfit-set-toddler/-/A-1003757658",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-girls-crewneck-sweater-and-pants-set-for-infant-toddlers-and-big-kids/-/A-1001307593",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-princess-mulan-rapunzel-jasmine-ariel-belle-cinderella-tiana-tinker-girls-pullover-hoodie-legging-toddler-to-big-kid/-/A-85048667",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/gerber-toddler-girls-2-piece-shirt-and-shorts-set/-/A-1002302788",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-disney-junior-t-shirt-and-mesh-shorts-outfit-set-sizes-2t-14-16/-/A-1000384993",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/barbie-tank-top-satin-skirt-and-crossbody-bag-3-piece-outfit-set-sizes-2t-14-16/-/A-1001387281",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/hello-kitty-t-shirt-and-bike-shorts-outfit-set/-/A-1001924912",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/barbie-girls-fleece-sweatshirt-and-jogger-pants-outfit-set-toddler/-/A-93161073",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-lilo-stitch-minnie-mouse-girls-fleece-sweatshirt-and-jogger-pants-little-kid-to-big-kid/-/A-88156138",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/barbie-cropped-boxy-t-shirt-and-bike-shorts-outfit-set/-/A-1002541598",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/l-o-l-surprise-queen-bee-fierce-unity-girls-fleece-sweatshirt-and-jogger-pants-set-little-kid-to-big-kid/-/A-85123620",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-girls-fleece-zip-up-hoodie-and-jogger-pants-set-little-kid-to-big-kid/-/A-88155652",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-princess-minnie-mouse-winnie-the-pooh-rapunzel-eeyore-piglet-fleece-sweatshirt-and-pants-set-infant-to-little-kid/-/A-89618331",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-mickey-mouse-minnie-mouse-t-shirt-and-shorts-outfit-set-toddler-to-big-kid/-/A-87280790",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/hello-kitty-sanrio-girls-2-piece-short-sleeve-t-shirt-and-shorts-set-for-little-and-big-kids/-/A-1003316788",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/bluey-floral-girls-t-shirt-and-leggings-outfit-set-little-kid-to-big-kid/-/A-92672200",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-girls-t-shirt-and-leggings-outfit-set-toddler/-/A-88282632",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-baby-girls-pullover-fleece-sweatshirt-and-leggings-outfit-set-infant-to-toddler/-/A-87255187",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/barbie-girls-fleece-hoodie-and-leggings-outfit-set-toddler/-/A-87384305",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-moana-princess-frozen-ariel-minnie-mouse-baby-girls-tank-top-and-french-terry-shorts-infant-to-little-kid/-/A-88283060",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-disney-junior-ribbed-t-shirt-and-french-terry-shorts-outfit-set/-/A-1002119487",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-daisy-duck-donald-duck-goofy-pluto-girls-fleece-sweatshirt-leggings-outfit-set-toddler-to-little-kid/-/A-92781787",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-girls-fleece-sweatshirt-and-leggings-outfit-set-toddler/-/A-1000133350",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/the-smurfs-girls-t-shirt-and-french-terry-shorts-outfit-set-toddler/-/A-1002725996",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/barbie-girls-t-shirt-and-leggings-outfit-set-toddler/-/A-92721303",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/hello-kitty-girls-fleece-sweatshirt-and-skirt-toddler-to-big-kid/-/A-89895349",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/sesame-street-big-bird-cookie-monster-elmo-girls-pullover-t-shirt-and-leggings-outfit-set-toddler/-/A-89487855",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/bluey-girls-fleece-sweatshirt-and-jogger-pants-set-toddler/-/A-90567408",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-encanto-mirabel-girls-pullover-fleece-hoodie-and-leggings-outfit-set-little-kid-to-big-kid/-/A-88164827",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/mickey-mouse-friends-minnie-toddler-girls-hoodie-leggings-heather-grey/-/A-84921101",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/barbie-t-shirt-and-twill-skirt/-/A-1003006314",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-daisy-duck-donald-duck-goofy-pluto-girls-fleece-sweatshirt-leggings-outfit-set-toddler-to-little-kid/-/A-90023919",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/dreamworks-gabby-s-dollhouse-pandy-paws-cakey-cat-mercat-girls-pullover-sweatshirt-leggings-outfit-toddler-to-little-kid/-/A-87403848",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-moana-winnie-the-pooh-lion-king-pixar-toy-story-lilo-stitch-t-shirt-shorts-outfit-set-little-kid-to-big-kid/-/A-88327283",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/l-o-l-surprise-diva-drag-racer-bon-bon-fierce-fleece-pullover-hoodie-and-leggings-outfit-set-little-kid-to-big-kid/-/A-85236713",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-classics-minnie-mouse-lilo-stitch-winnie-the-pooh-princess-ariel-tinker-bell-t-shirt-shorts-infant-to-little-kid/-/A-90554587",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/barbie-girls-t-shirt-and-flare-pants-outfit-set-little-kid-to-big-kid/-/A-1000179610",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-baby-girls-t-shirt-and-shorts-outfit-set-infant-to-toddler/-/A-89483601",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/gerber-baby-and-toddler-girls-gauze-dress-diaper-cover-set-2-piece/-/A-90991628",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-girls-fleece-sweatshirt-and-leggings-outfit-set-little-kid-to-big-kid/-/A-1000133352",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-girls-long-sleeve-shirt-and-legging-pants-set-for-toddlers-and-big-kids/-/A-1001307544",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/patpat-little-toddler-girls-clothes-butterfly-sleeveless-dress-top-and-floral-print-short-set-girls-outfits-3-8y/-/A-1003323846",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-lilo-stitch-little-mermaid-ariel-floral-girls-t-shirt-and-french-terry-shorts-outfit-set-little-kid-to-big-kid/-/A-90888309",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/bluey-bingo-bluey-girls-fleece-hoodie-and-leggings-outfit-set-little-kid-to-big-kid/-/A-85171894",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/city-threads-girls-usa-made-soft-cozy-thermal-2-piece-long-johns/-/A-90509865",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/spongebob-squarepants-t-shirt-and-french-terry-shorts-outfit-set/-/A-1002541446",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/hello-kitty-girls-tank-top-and-skirt-little-kid-to-big-kid/-/A-93870939",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/dreamworks-gabby-s-dollhouse-girls-short-sleeve-t-shirt-and-french-terry-shorts-set-for-toddler-and-big-kids/-/A-1003316892",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/barbie-girls-t-shirt-and-shorts-outfit-set-little-kid-to-big-kid/-/A-1001925093",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/patpat-girls-clothes-2pcs-3d-short-sleeve-crop-top-unicorn-girl-bell-bottom-summer-outfit-toddler-to-big-kids-3-8y/-/A-1003290121",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-39-adaptive-long-sleeve-striped-pullover-and-knit-cargo-pants-set-cat-38-jack-8482-navy-blue/-/A-93574472",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/gabby-s-dollhouse-gabby-pandy-paws-girls-zip-up-fleece-hoodie-t-shirt-and-leggings-3-piece-outfit-set-toddler-to-big-kid/-/A-88155695",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/dc-comics-justice-league-wonder-woman-girls-tank-top-and-dolphin-active-french-terry-shorts-little-kid-to-big-kid/-/A-88825519",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-encanto-mirabel-luisa-isabela-girls-pullover-fleece-sweatshirt-and-leggings-outfit-set-toddler/-/A-87384333",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/mykids-usa-summer-baby-kids-girls-plaid-shirt-and-shorts-clothing-set/-/A-1003174663",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-lilo-stitch-girls-5-piece-mix-and-match-outfit-set-with-2-tops-leggings-shorts-scrunchie-for-big-kids/-/A-1004025238",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-daisy-duck-donald-duck-goofy-pluto-girls-fleece-sweatshirt-leggings-outfit-set-toddler-to-little-kid/-/A-90023924",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/hello-kitty-little-girl-s-2-piece-fashion-top-and-dolphin-shorts-sets/-/A-92779303",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-girls-peplum-t-shirt-and-leggings-outfit-set-toddler-to-little-kid/-/A-89414223",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/paw-patrol-rubble-marshall-chase-girls-t-shirt-and-leggings-outfit-set-toddler/-/A-87195717",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-princess-frozen-little-mermaid-t-shirt-leggings-and-scrunchie-3-piece-outfit-set-infant-to-big-kid/-/A-87908627",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/paw-patrol-nickelodeon-girls-mix-and-match-5-piece-outfit-set-with-tops-leggings-shorts-scrunchie-for-toddler-and-big-kid/-/A-1004025246",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-disney-junior-t-shirt-and-skirt/-/A-1002119583",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-baby-girls-t-shirt-and-leggings-outfit-set-infant/-/A-88282634",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-frozen-moana-princess-rapunzel-snow-white-raya-and-the-last-dragon-baby-girls-peplum-t-shirt-and-french-terryshorts-outfit-set-infant/-/A-87232365",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/patpat-l-o-l-surprise-toddler-kid-girls-2pcs-character-print-top-with-mesh-tutu-skirt-outfit-set/-/A-1002839479",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-girls-velour-zip-up-sequin-hoodie-t-shirt-and-flared-pants-set-for-toddler-to-big-kids/-/A-1001307095",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/imagikids-birthday-girl-outfit-t-shirt-tulle-tutu-skirt-headband-satin-sash-set-little-kid-to-big-kid-sizes/-/A-1004220678",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/bluey-coco-floral-girls-t-shirt-and-leggings-outfit-set-toddler-to-big-kid/-/A-90320472",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/gerber-toddler-girls-3-piece-shirt-and-shorts-set/-/A-1002332804",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/star-wars-drop-shoulder-t-shirt-and-bike-shorts-outfit-set/-/A-1002471274",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/barbie-girls-peplum-t-shirt-and-shorts-outfit-set-little-kid-to-big-kid/-/A-91318373",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/pinkfong-baby-shark-girls-t-shirt-and-leggings-outfit-set-toddler/-/A-88335641",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/pinkfong-baby-shark-baby-girls-graphic-t-shirt-shorts-set-white-blue/-/A-85257160",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/imagikids-girls-short-sleeve-t-shirt-and-chambray-shorts-2-piece-outfit-set-toddler-sizes/-/A-1003757793",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/gerber-baby-and-toddler-girls-2-piece-knit-sweater-pant-set/-/A-89651384",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/kensie-little-girl-s-2-piece-french-terry-cropped-top-and-tulle-skirt-sets/-/A-93003121",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/paw-patrol-skye-july-4th-girls-peplum-t-shirt-and-twill-shorts-outfit-set-little-kid-to-big-kid/-/A-91427312",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-frozen-princess-anna-elsa-baby-girls-t-shirt-and-shorts-outfit-set-little-kid/-/A-89299151",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/bluey-girls-square-neck-t-shirt-and-skirt-toddler/-/A-92302281",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/marvel-avengers-spider-man-graphic-t-shirt-leggings/-/A-85069770",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/star-wars-the-child-girls-t-shirt-and-leggings-outfit-set-toddler/-/A-85039022",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-descendants-girls-slip-v-neck-satin-dress-and-drop-shoulder-t-shirt-outfit-set-little-kid-to-big-kid/-/A-94071452",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-lilo-stitch-t-shirt-and-skirt-sizes-2t-14-16/-/A-1002725736",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/marvel-spider-man-spider-gwen-girls-graphic-t-shirt-tulle-skirt-and-headband-3-piece-outfit-set-toddler-to-big-kid/-/A-88298263",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-frozen-princess-moana-little-mermaid-floral-girls-t-shirt-and-leggings-outfit-set-toddler-to-big-kid/-/A-87245920",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/hello-kitty-sanrio-girls-2-piece-short-sleeve-t-shirt-and-shorts-set-for-little-and-big-kids/-/A-1003316796",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/gerber-baby-and-toddler-girls-2-piece-sweatshirt-active-pant-set/-/A-89651399",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/kickoff-thermal-underwear-for-kids-thermals-top-bottom-set-girls-thermal-underwear-set-kids-long-underwear-base-layer-kids-pajamas/-/A-1001263594",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-lilo-stitch-minnie-mouse-girls-t-shirt-and-flare-pants-outfit-set-little-kid-to-big-kid/-/A-1000179420",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-french-terry-sweatshirt-and-shorts-infant-to-big-kid/-/A-90801565",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-princess-minnie-mouse-winnie-the-pooh-rapunzel-eeyore-piglet-fleece-sweatshirt-and-pants-set-infant-to-little-kid/-/A-89618328",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/mickey-mouse-friends-minnie-little-girls-hoodie-leggings-heather-grey/-/A-84921124",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-frozen-princess-anna-elsa-girls-sweatshirt-and-leggings-outfit-set-toddler/-/A-88659989",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-t-shirt-french-terry-shorts-and-scrunchie-3-piece-outfit-set-infant-to-big-kid/-/A-87252857",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/patpat-girls-summer-outfits-animal-print-t-shirt-short-sleeve-top-and-leopard-print-biker-kids-clothing-sets-3-8y/-/A-1003290145",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-princess-girls-short-sleeve-t-shirt-and-french-terry-shorts-set-for-toddler-and-big-kids/-/A-1003316912",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-mickey-mouse-t-shirt-and-leggings-outfit-set-infant-to-big-kid/-/A-92302295",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/gerber-baby-toddler-girls-fleece-set-2-piece/-/A-92918604",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/gerber-toddler-girls-dress-top-and-legging-matching-set-3-piece/-/A-93419740",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-nightmare-before-christmas-fleece-hoodie-leggings-set/-/A-85703106",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-winnie-the-pooh-floral-girls-peplum-tank-top-and-cotton-gauze-pants-outfit-set-little-kid-to-big-kid/-/A-92950142",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-baby-girls-t-shirt-and-shorts-outfit-set-infant-to-toddler/-/A-88068226",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-girls-jumpsuit-and-fleece-shrug-outfit-set-little-kid-to-big-kid/-/A-92954439",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-princess-moana-frozen-girls-short-sleeve-shirt-and-tulle-skirt-with-headband-set-for-toddler-and-big-kids-size-3t/-/A-1003920602",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/marvel-avengers-spider-man-spider-gwen-captain-america-miles-morales-girls-cosplay-t-shirt-and-leggings-toddler-to-little-kid/-/A-89489636",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-lilo-stitch-minnie-mouse-girls-pullover-hoodie-woobie-and-flare-pants-outfit-set-little-kid-to-big-kid/-/A-1000179071",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/spongebob-squarepants-ribbed-t-shirt-and-french-terry-shorts-outfit-set/-/A-1002034849",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/marvel-spider-man-ghost-spider-girls-cosplay-tank-top-dolphin-active-and-french-terry-shorts-toddler-to-big-kid/-/A-89083414",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-frozen-elsa-anna-frozen-girls-t-shirt-and-leggings-outfit-set-infant-to-little-kid/-/A-89496794",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-princess-mulan-rapunzel-jasmine-ariel-belle-cinderella-tiana-tinker-girls-pullover-hoodie-legging-toddler-to-big-kid/-/A-85048674",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/dreamworks-gabby-s-dollhouse-pandy-paws-girls-fleece-sweatshirt-and-pants-set-little-kid-to-big-kid/-/A-88155849",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-encanto-isabela-luisa-mirabel-sequin-pullover-fleece-hoodie-and-leggings-outfit-set-little-kid-to-big-kid/-/A-88256279",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-little-girls-jersey-athletic-tank-top-and-shorts-outfit-set-red-minnie-mouse-7-8/-/A-1002188082",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/l-o-l-surprise-fierce-girls-t-shirt-and-flare-pants-outfit-set-little-kid-to-big-kid/-/A-1000179387",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/jurassic-world-jurassic-park-t-rex-girls-fleece-pullover-hoodie-and-jogger-pants-set-little-kid-to-big-kid/-/A-87357034",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/hello-kitty-girls-pullover-fleecehoodie-and-leggings-outfit-set-toddler-to-big-kid/-/A-89979855",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/l-o-l-surprise-queen-bee-girls-jumpsuit-and-fleece-shrug-outfit-set-little-kid-to-big-kid/-/A-92954438",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-frozen-elsa-girls-fleece-hoodie-and-leggings-outfit-set-little-kid-to-big-kid/-/A-89712939",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/star-wars-the-mandalorian-star-wars-the-child-girls-fleece-sweatshirt-and-leggings-outfit-set-little-kid-to-big-kid/-/A-85052062",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/scooby-doo-scooby-doo-girls-cosplay-t-shirt-dress-and-leggings-outfit-set-little-kid-to-big-kid/-/A-87740799",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-wish-asha-star-girls-fleece-sweatshirt-and-pants-set-toddler-to-little-kid/-/A-90005492",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/marvel-avengers-spider-man-graphic-t-shirt-leggings/-/A-85069769",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/mixed-up-clothing-girls-tiered-tunic-and-legging-set-purple-multicolor-stripe/-/A-93409799",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/paw-patrol-skye-girls-pullover-fleece-sweatshirt-and-leggings-outfit-set-little-kid-to-big-kid/-/A-87132511",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/rothschild-little-big-girls-design-ski-jacket-and-snowbib-snowsuit-sets/-/A-1000122722",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-moana-girls-t-shirt-and-leggings-outfit-set-toddler/-/A-1004220666",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/dc-comics-justice-league-wonder-woman-girls-costume-t-shirt-tulle-skirt-headband-and-cape-4-piece-set-toddler/-/A-85415729",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/modern-moments-by-gerber-toddler-girls-2-piece-sweater-set/-/A-1001816395",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-girls-peplum-t-shirt-and-leggings-outfit-set-toddler-to-little-kid/-/A-89414225",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-wish-asha-star-girls-fleece-pullover-hoodie-and-jogger-pants-set-little-kid-to-big-kid/-/A-90541194",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/star-wars-the-mandalorian-the-child-girls-t-shirt-and-leggings-outfit-set-toddler/-/A-87195304",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/nickelodeon-paw-patrol-skye-everest-girls-cosplay-tulle-costume-dress-and-tights-infant-to-little-kid/-/A-89713033",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/marvel-spider-man-t-shirt-and-chambray-shorts-outfit-set-sizes-2t-10-12/-/A-1002741476",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-moana-girls-t-shirt-and-leggings-outfit-set-little-kid-to-big-kid/-/A-1004220659",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/rothschild-little-big-girls-foil-print-ski-jacket-and-snowbib-snowsuit-sets/-/A-94251173",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/sesame-street-elmo-abby-cadabby-t-shirt-tulle-skirt-and-scrunchie-3-piece-outfit-set-infant-to-little-kid/-/A-87095086",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/harry-potter-gryffindor-harry-potter-girls-t-shirt-tulle-skirt-and-headband-3-piece-outfit-set-little-kid-to-big-kid/-/A-87280243",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-encanto-mirabel-girls-t-shirt-and-leggings-outfit-set-toddler/-/A-89471595",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-t-shirt-and-shorts-outfit-set-infant-to-little-kid/-/A-87197469",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/the-smurfs-t-shirt-and-french-terry-shorts-outfit-set/-/A-1002726000",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/andy-evan-toddler-white-gingerbread-fair-isle-sweater-jegging-set/-/A-94072678",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/andy-evan-toddler-full-eyelash-sweater-w-lurex-star-graphic-legging-set/-/A-1000031525",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-frozen-princess-girls-fleece-sweatshirt-and-leggings-outfit-set-little-kid-to-big-kid/-/A-93670428",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-girls-sequin-pullover-fleece-hoodie-leggings-outfit-set-toddler-to-big-kid/-/A-88335418",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/andy-evan-toddler-lurex-sweater-w-ombre-smiley-graphic-legging-set/-/A-93732711",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/bluey-girls-t-shirt-and-dolphin-active-french-terry-shorts-outfit-set-toddler-to-little-kid/-/A-88993083",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/mi-amore-gigi-little-and-big-girls-graphic-interchangeable-3d-star-top-faux-leather-skirt-set/-/A-1000080131",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/teenage-mutant-ninja-turtles-t-shirt-and-chambray-shorts-outfit-set-sizes-2t-10-12/-/A-1002304966",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/gabby-s-dollhouse-little-girls-raglan-sweatshirt-leggings-set-white/-/A-85562315",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/marvel-spider-man-ghost-spider-girls-t-shirt-and-leggings-outfit-set-little-kid-to-big-kid/-/A-87276304",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/peppa-pig-girls-pullover-crossover-fleece-sweatshirt-and-leggings-outfit-set-little-kid/-/A-87294122",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-girls-t-shirt-and-leggings-outfit-set-little-kid-to-big-kid/-/A-88282633",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/mi-amore-gigi-ice-cream-interchangeable-top-tutu-skirt-set/-/A-94088276",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/hello-kitty-girls-t-shirt-and-short-set-for-infant-toddler-little-and-big-girls-pink/-/A-1003316720",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/marvel-spider-gwen-girls-fleece-sweatshirt-and-pants-set-little-kid-to-big-kid/-/A-88155855",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-lion-king-simba-nala-big-girls-pullover-fleece-hoodie-and-leggings-outfit-set-yellow-white-10-12/-/A-85050394",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-fleece-pullover-sweatshirt-pants-set-gray/-/A-85315903",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/sesame-street-big-bird-cookie-monster-elmo-girls-pullover-t-shirt-and-leggings-outfit-set-little-kid/-/A-89487854",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-frozen-princess-anna-elsa-girls-zip-up-vest-puffer-t-shirt-and-leggings-3-piece-outfit-set-toddler/-/A-88290025",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/star-wars-the-child-t-shirt-and-french-terry-shorts-outfit-set-blue-pink/-/A-87610274",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-junior-girls-velour-zip-up-hoodie-and-jogger-pants-outfit-set-little-kid-to-big-kid-sizes-2t-14-16/-/A-93048754",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-nightmare-before-christmas-sally-jack-skellington-girls-t-shirt-and-leggings-outfit-set-toddler-to-little-kid/-/A-87197637",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/andy-evan-toddler-teal-jersey-dress-w-rainbow-graphic-dress-set/-/A-93286411",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/mi-amore-gigi-ruffle-top-and-velvet-bell-bottom-pant-set/-/A-94229738",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/bluey-girls-zip-up-t-shirt-and-jogger-fleece-pants-3-piece-toddler-to-big-kid/-/A-90630903",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/pinkfong-mommy-shark-baby-shark-girls-french-terry-pullover-hoodie-poly-hair-felt-teeth-fin-on-hat-costume-and-leggings-outfit-set-little-kid/-/A-87677066",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-zip-up-vest-puffer-t-shirt-and-leggings-3-piece-outfit-set-infant-to-big-kid/-/A-87660664",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-zip-up-vest-puffer-t-shirt-and-leggings-3-piece-outfit-set-infant-to-big-kid/-/A-87660661",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/hello-kitty-sanrio-girls-mix-and-match-4-piece-outfit-set-with-2-tops-leggings-and-shorts-for-big-kids/-/A-1004381444",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/roaring-fun-leopard-print-top-and-ruffle-short-set-mia-belle-girls/-/A-1004605887",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/perfect-little-patriot-stars-top-and-striped-short-set-mia-belle-girls/-/A-1004342336",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/rosewood-linen-ruffle-halter-top-and-skirt-set-mia-belle-girls/-/A-1004605298",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/marvel-spider-man-spider-gwen-girls-graphic-t-shirt-tulle-skirt-and-headband-3-piece-outfit-set-toddler-to-big-kid/-/A-88298268",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/bluey-t-shirt-and-leggings-outfit-set-sizes-2t-10-12/-/A-1001314949",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/dreamworks-gabby-s-dollhouse-pandy-paws-gabby-girls-t-shirt-and-leggings-outfit-set-little-kid-to-big-kid/-/A-87113783",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-frozen-elsa-girls-fleece-hoodie-and-leggings-outfit-set-toddler/-/A-89712938",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/harry-potter-t-shirt-and-bike-shorts-outfit-set/-/A-1001924525",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/gerber-toddler-girls-tops-and-pant-3-piece-set/-/A-93385622",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/peppa-pig-girls-graphic-t-shirt-and-shorts-set-little-kid-to-big-kid/-/A-87131618",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-baby-girls-fleece-sweatshirt-and-leggings-outfit-set-infant/-/A-1000133351",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-zip-up-vest-puffer-t-shirt-and-leggings-3-piece-outfit-set-infant-to-big-kid/-/A-87660666",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/marvel-moon-girl-and-devil-dinosaur-girls-t-shirt-and-bike-shorts-outfit-set-little-kid-to-big-kid/-/A-89240704",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/mickey-mouse-friends-minnie-baby-girls-hoodie-leggings-heather-grey/-/A-84921104",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/my-little-pony-pinkie-pie-rainbow-dash-girls-t-shirt-and-bike-shorts-outfit-set-toddler/-/A-89713615",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-t-shirt-french-terry-shorts-and-scrunchie-3-piece-outfit-set-infant-to-big-kid/-/A-87252854",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-lilo-stitch-the-aristocats-minnie-mouse-girls-t-shirt-and-skirt-little-kid-to-big-kid/-/A-92950062",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/patpat-l-o-l-surprise-toddler-kids-girls-clothes-2pcs-outfits-ruffle-sleeveless-top-and-plaid-print-shorts-set/-/A-1002845946",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/paw-patrol-marshall-girls-cosplay-t-shirt-dress-and-leggings-outfit-set-little-kid/-/A-87741720",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-girls-fleece-sweatshirt-and-leggings-outfit-set-toddler-to-big-kid/-/A-89767678",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/patpat-girls-2-piece-floral-flower-hawaiian-outfits-crop-top-and-short-sets-girls-summer-outfits-size-4-8y/-/A-1003290129",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-princess-little-girl-s-3-piece-vest-long-sleeve-top-and-legging-sets/-/A-92993098",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/dc-comics-robin-girls-cosplay-t-shirt-dress-leggings-and-cape-3-piece-little-kid-to-big-kid/-/A-87764829",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-princess-snow-white-girls-short-sleeve-t-shirt-and-french-terry-shorts-set-for-toddler-and-big-kids/-/A-1003316901",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-princess-anna-elsa-frozen-girls-graphic-t-shirt-and-leggings-outfit-set-toddler-to-big-kid/-/A-89496790",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/paw-patrol-rubble-marshall-chase-girls-t-shirt-and-leggings-outfit-set-little-kid-to-big-kid/-/A-87195713",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/star-wars-the-mandalorian-baby-grogu-hoodie-leggings/-/A-85038464",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-lilo-stitch-winnie-the-pooh-minnie-mouse-mickey-mouse-girls-velour-sweatshirt-and-jogger-pants-outfit-set-little-kid-to-big-kid/-/A-1000179386",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-t-shirt-and-shorts-outfit-set-infant-to-little-kid/-/A-90291383",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/dreamworks-gabby-s-dollhouse-pandy-paws-kitty-fairy-girls-tank-top-and-shorts-outfit-set-little-kid-to-big-kid/-/A-88296603",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-t-shirt-and-leggings-outfit-set-infant-to-big-kid/-/A-85011895",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/harry-potter-hedwig-owl-girls-t-shirt-and-french-terry-shorts-outfit-set-little-kid-to-big-kid/-/A-89083059",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/mixed-up-clothing-girls-tiered-tunic-and-legging-set-white-black-hello/-/A-93409800",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/barbie-girls-velour-matching-family-zip-up-hoodie-pants-outfit-set-adult/-/A-89832170",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/hello-kitty-toddler-little-big-girls-3-piece-hoodie-tee-legging-sets/-/A-1002862506",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/paw-patrol-girls-fleece-cosplay-pullover-hoodie-and-jogger-pants-outfit-set-little-kid-to-big-kid/-/A-93438426",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/jurassic-world-jurassic-park-t-rex-girls-fleece-pullover-hoodie-and-jogger-pants-set-toddler/-/A-87357041",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/peppa-pig-girls-fleece-hoodie-and-leggings-outfit-set/-/A-87196400",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/dreamworks-gabby-s-dollhouse-pandy-paws-cakey-cat-mercat-girls-pullover-sweatshirt-leggings-outfit-toddler-to-little-kid/-/A-87403853",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/red-gingham-bow-peplum-top-and-navy-biker-short-set-mia-belle-girls/-/A-1004457479",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-girls-boxy-t-shirt-and-flare-pants-outfit-set-little-kid-to-big-kid/-/A-93871273",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/l-o-l-surprise-neon-qt-bon-bon-diva-queen-bee-touchdown-roller-sk8er-t-shirt-and-leggings-outfit-set-toddler-to-big-kid/-/A-88164420",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-baby-girls-t-shirt-and-chambray-shorts-outfit-set-infant-to-big-kid/-/A-93783172",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-t-shirt-and-leggings-outfit-set/-/A-1003827000",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-peplum-t-shirt-and-bike-shorts-outfit-set-infant-to-big-kid/-/A-89133940",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/imagikids-girls-short-sleeve-t-shirt-and-chambray-shorts-2-piece-outfit-set-little-kid-to-big-kid-sizes/-/A-1003757791",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-girls-crossover-tank-top-dolphin-and-french-terry-shorts-little-kid-to-big-kid/-/A-93164313",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-christmas-little-girls-fleece-sweatshirt-legging-set-red/-/A-85124224",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-winnie-the-pooh-t-shirt-and-pants-newborn-to-toddler/-/A-91503064",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-encanto-mirabel-luisa-isabella-girls-t-shirt-and-shorts-outfit-set-toddler-to-big-kid/-/A-86508087",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/bluey-bingo-bluey-girls-t-shirt-leggings-and-scrunchie-3-piece-outfit-set-toddler-to-little-kid/-/A-85147748",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/mi-amore-gigi-top-and-velvet-bell-bottom-pant-set/-/A-94229741",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-encanto-mirabel-luisa-isabela-girls-pullover-fleece-sweatshirt-and-leggings-outfit-set-little-kid/-/A-87384329",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/marvel-spider-gwen-ghost-spider-girls-short-sleeve-t-shirt-and-french-terry-shorts-set-for-big-kids/-/A-1003316817",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-princess-minnie-mouse-winnie-the-pooh-rapunzel-eeyore-piglet-fleece-sweatshirt-and-pants-set-infant-to-little-kid/-/A-89619224",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/dreamworks-trolls-little-girls-2-piece-long-sleeve-top-and-legging-sets/-/A-93634904",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/mi-amore-gigi-unicorn-accessory-top-and-skirt-set/-/A-1000080129",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/blippi-girls-2-piece-hoodie-and-pant-sets-for-toddlers-and-little-kids-peach/-/A-1001307528",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/smartest-apple-puff-sleeve-top-and-skort-set-mia-belle-girls/-/A-1004233799",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/seaside-sunset-bow-legging-set-mia-belle-girls/-/A-1004365054",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-disney-junior-boxy-drop-shoulder-t-shirt-and-mesh-tulle-skort/-/A-1002768556",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-descendants-uma-audrey-evie-minnie-mouse-girls-t-shirt-skirt-and-headband-3-piece-outfit-set-toddler-to-big-kid/-/A-87245373",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/twirl-in-lilacs-tweed-blazer-and-tutu-skirt-set-mia-belle-girls/-/A-1002577049",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/confident-little-diva-halter-tweed-top-and-short-set-mia-belle-girls/-/A-1002460220",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/peppa-pig-pullover-long-sleeve-graphic-t-shirt-leggings-pink-purple/-/A-87290840",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/ms-rachel-baby-girls-fleece-crossover-sweatshirt-and-jogger-pants-outfit-set-infant/-/A-93847122",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-princess-moana-frozen-girls-short-sleeve-shirt-and-tulle-skirt-with-headband-set-for-toddler-and-big-kids-size-3t/-/A-1003920596",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-princess-mulan-rapunzel-jasmine-ariel-belle-cinderella-tiana-tinker-girls-pullover-hoodie-legging-toddler-to-big-kid/-/A-85048668",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/mi-amore-gigi-interchangeable-heart-ruffle-top-plaid-skirt-with-sock-set/-/A-94229747",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-frozen-minnie-mouse-little-mermaid-elsa-princess-anna-peplum-t-shirt-shorts-scrunchie-3-pc-set-infant-to-big-kid/-/A-88148692",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/mykids-usa-cute-and-versatile-two-piece-set-flowers-printed-top-and-solid-color-pants-for-baby-girls-and-toddlers/-/A-1002889002",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/andy-evan-toddler-navy-terry-sweatshirt-dress-set/-/A-93286430",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/mickey-mouse-friends-minnie-mouse-girls-t-shirt-and-leggings-outfit-set-little-kid/-/A-88290896",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/andy-evan-toddler-oatmeal-purple-ombre-striped-sweater-legging-set/-/A-93720226",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/paw-patrol-everest-girls-cosplay-costume-t-shirt-mesh-skirt-tulle-cape-and-mask-4-piece-outfit-set-toddler-to-big-kid/-/A-87281312",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-frozen-short-sleeve-top-and-tulle-skirt-with-headband-set-blue-3t/-/A-1003488311",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-t-shirt-and-bike-shorts-outfit-set/-/A-1001924951",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/l-o-l-surprise-big-girl-s-3-piece-t-shirt-tank-top-and-short-sets/-/A-92725465",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-frozen-minnie-mouse-little-mermaid-elsa-princess-anna-peplum-t-shirt-shorts-scrunchie-3-pc-set-infant-to-big-kid/-/A-89191818",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-waffle-knit-t-shirt-and-shorts-outfit-set/-/A-1002195087",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/hello-kitty-girls-fleece-boxy-sweatshirt-crop-top-and-flare-pants-outfit-set-little-kid-to-big-kid/-/A-1001176615",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-girls-boxy-tee-t-shirt-and-pleated-skort-little-kid-to-big-kid/-/A-92749761",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/schoolgirl-chic-puff-sleeve-top-and-striped-skort-set-mia-belle-girls/-/A-1004233805",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-junior-french-terry-zip-up-hoodie-and-pants-outfit-set-little-kid-to-big-kid/-/A-1002541375",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/garfield-girls-t-shirt-and-dolphin-french-terry-shorts-outfit-set-little-kid-to-big-kid/-/A-92302310",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/andy-evan-kids-terry-button-up-set/-/A-1002208635",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/andy-evan-toddler-purple-long-sleeve-top-w-skirt-set/-/A-93286442",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/mickey-mouse-friends-minnie-mouse-girls-pullover-fleece-hoodie-t-shirt-and-leggings-3-piece-outfit-set-little-kid-to-big-kid/-/A-87668270",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/gabby-s-dollhouse-gabby-pandy-paws-girls-zip-up-fleece-hoodie-t-shirt-and-leggings-3-piece-outfit-set-toddler-to-big-kid/-/A-88155691",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/paw-patrol-girls-tank-top-skirt-and-bag-3-piece-outfit-set-little-kid-to-big-kid/-/A-92779810",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/star-wars-the-mandalorian-baby-grogu-hoodie-leggings/-/A-85038469",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-girls-t-shirt-and-tulle-skirt-little-kid/-/A-90113067",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/blippi-and-meekah-girls-2-piece-sweatshirt-and-pant-sets-for-toddlers-and-little-kids-purple/-/A-1001307533",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girl-s-skirt-sets-summer-bow-frilled-neck-ruffle-sleeve-tops-solid-fishtail-mini-short-skirt/-/A-1002517139",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-encanto-mirabel-girls-t-shirt-and-leggings-outfit-set-little-kid/-/A-89471596",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/dc-comics-justice-league-wonder-woman-girls-tank-top-and-dolphin-active-french-terry-shorts-toddler/-/A-88825514",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-the-little-mermaid-princess-cinderella-girls-t-shirt-leggings-and-headband-3-piece-outfit-set-toddler-to-little-kid/-/A-88226808",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/mixed-up-clothing-girls-tiered-tunic-and-legging-set-red-multicolor/-/A-93409801",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/andy-evan-kids-terry-short-set/-/A-1002537397",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-nightmare-before-christmas-fleece-hoodie-leggings-set/-/A-85703111",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-winnie-the-pooh-t-shirt-and-pants-newborn-to-toddler/-/A-89601377",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/star-wars-the-mandalorian-star-wars-the-child-girls-fleece-sweatshirt-and-leggings-outfit-set-toddler/-/A-85052071",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/mixed-up-clothing-girl-paises-legging-set/-/A-1001314461",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/andy-evan-kids-blue-woven-buttondown-and-shorts-set/-/A-1002208626",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-frozen-minnie-mouse-little-mermaid-elsa-princess-anna-peplum-t-shirt-shorts-scrunchie-3-pc-set-infant-to-big-kid/-/A-88148698",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-princess-t-shirt-and-twill-skirt/-/A-1003006505",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/pinkfong-baby-shark-girls-t-shirt-and-leggings-outfit-set-little-kid/-/A-88335643",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/star-wars-the-child-girls-t-shirt-and-leggings-outfit-set-little-kid-to-big-kid/-/A-85039017",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/pinkfong-baby-shark-baby-girls-t-shirt-and-leggings-outfit-set-infant/-/A-88335659",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/hello-kitty-fleece-drop-shoulder-sweatshirt-and-jogger-pants-outfit-set/-/A-1004317105",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-princess-girls-metallic-print-t-shirt-and-flare-pants-toddler-to-big-kid/-/A-92182674",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-tennis-golf-outfit-sets-sleeveless-tank-top-side-slit-skorts-with-pockets/-/A-1002518763",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/patpat-girls-pants-sets-two-pieces-kids-sleeveless-printing-floral-t-shirt-and-bike-shorts-outfit-set-5-9-years/-/A-1003334172",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/sesame-street-elmo-girls-t-shirt-and-french-terry-shorts-outfit-set-little-kid/-/A-87762859",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/care-bears-t-shirt-and-french-terry-shorts-outfit-set/-/A-1002594936",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/mi-amore-gigi-plaid-skirt-and-top-with-vest-set/-/A-1000080115",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/andy-evan-kids-girls-raglan-tee-short-pj-set/-/A-1002208652",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-girls-peplum-t-shirt-and-leggings-outfit-set-toddler-to-little-kid/-/A-89666233",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/spongebob-squarepants-boxy-drop-shoulder-t-shirt-and-mesh-tulle-skort/-/A-1002683938",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/dc-comics-justice-league-wonder-woman-girls-costume-t-shirt-tulle-skirt-headband-and-cape-4-piece-set-little-kid-to-big-kid/-/A-85415724",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/mi-amore-gigi-bell-ruffle-top-and-velvet-bell-bottom-pant-set/-/A-1000080112",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/mixed-up-clothing-girls-burda-tunic-short-set-blazing-yellow-animal-arabesque/-/A-93161555",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/star-wars-the-mandalorian-the-child-baby-girls-t-shirt-and-leggings-outfit-set-infant/-/A-87195303",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/andy-evan-toddler-girls-dino-sweater-set/-/A-88068795",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/dc-comics-justice-league-wonder-woman-graphic-t-shirt-shorts-wonder-woman/-/A-87244360",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/star-wars-the-child-girls-graphic-t-shirt-shorts-and-scrunchie-3-piece-outfit-set/-/A-85168299",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-encanto-mirabel-girls-tank-top-and-tulle-skirt-toddler-to-big-kid/-/A-88329545",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/rufflebutts-girls-upf50-active-dress-bike-short-set/-/A-1002889765",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/mi-amore-gigi-rock-graphic-top-with-skirt-set/-/A-94229746",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/wizard-of-oz-matching-family-t-shirt-and-gingham-dress-outfit-set/-/A-1001188462",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girl-s-2-piece-outfits-sleeveless-tiered-ruffle-blouse-top-and-shorts-set-summer-clothing-set/-/A-1002518973",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-princess-ariel-girls-tank-top-and-active-retro-dolphin-shorts-toddler-to-big-kid/-/A-89005321",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/blush-pink-ruffle-sleeve-belted-skirt-set-mia-belle-girls/-/A-1002460226",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/nickelodeon-toddler-little-girl-s-jojo-siwa-t-shirt-and-capri-legging-sets/-/A-92511155",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-frozen-princess-anna-elsa-baby-girls-t-shirt-and-shorts-outfit-set-infant/-/A-89299149",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-vampirina-toddler-little-girl-s-2-piece-t-shirt-and-legging-set/-/A-92555254",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-2-piece-outfits-white-blouse-ruffle-long-sleeve-button-down-shirt-and-pleated-skirt-3-12y/-/A-1002528242",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/mi-amore-gigi-gymnastic-interchangeable-star-top-tutu-skirt-set/-/A-94229753",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/minecraft-t-shirt-and-chambray-shorts-outfit-set-sizes-4-14-16/-/A-1003021068",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/mickey-mouse-friends-minnie-mouse-baby-girls-peplum-t-shirt-and-leggings-outfit-set-infant/-/A-89249902",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/andy-evan-toddler-pink-fruit-print-tank-and-shorts-set/-/A-1002208641",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/andy-evan-kids-girls-pointelle-tee-short-pj-set/-/A-1002544145",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/mixed-up-clothing-girls-burda-tunic-short-set-sodalite-blue-jacquard-stripe/-/A-93161548",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/mi-amore-gigi-plaid-skirt-and-flutter-sleeve-top-with-vest-set/-/A-1000080126",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/dreamworks-trolls-poppy-girls-fleece-sweatshirt-and-leggings-outfit-set-little-kid-to-big-kid/-/A-85120700",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/sesame-street-waffle-knit-t-shirt-and-shorts-outfit-set/-/A-1002195126",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/andy-evan-toddler-crochet-scallop-top-shorts-set/-/A-1002543374",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/sesame-street-big-bird-cookie-monster-elmo-baby-girls-pullover-t-shirt-and-leggings-outfit-set-infant/-/A-89487853",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/sky-blue-ruffle-sleeve-belted-skirt-set-mia-belle-girls/-/A-1002468013",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/miraculous-ladybug-big-girls-french-terry-pullover-t-shirt-jogger-and-pants-red-black-14-16/-/A-87244309",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/miraculous-cat-noir-ladybug-girls-dolphin-active-shorts-leggings-tank-top-and-t-shirt-4-piece-outfit-set-little-kid-to-big-kid/-/A-87247480",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-incredibles-violet-cosplay-costume-t-shirt-dress-leggings-and-headband-3-piece-set-newborn-to-toddler/-/A-89770511",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/sesame-street-ribbed-t-shirt-and-shorts-outfit-set/-/A-1001924904",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/star-wars-the-mandalorian-baby-yoda-little-girls-fleece-sweatshirt-pants-set-pink/-/A-85052206",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-girls-fur-french-terry-sweatshirt-and-leggings-outfit-set-toddler-to-little-kid/-/A-88228859",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/my-little-pony-pinkie-pie-girls-short-sleeve-t-shirt-and-french-terry-shorts-set-for-big-kids-size-5/-/A-1004381426",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/my-little-pony-pinkie-pie-girls-2-piece-long-sleeve-shirt-and-french-terry-pants-set-for-big-kids-size-12/-/A-1004381431",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/mi-amore-gigi-double-ruffle-top-and-velvet-bell-bottom-pant-set/-/A-1000088195",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/mi-amore-gigi-top-and-velvet-bell-bottom-fashion-pant-set/-/A-1000080114",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/mi-amore-gigi-flutter-sleeve-top-and-velvet-bell-bottom-pant-set/-/A-1000078829",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/mi-amore-gigi-lace-top-faux-leather-legging-set/-/A-94240176",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/boys-t-shirts-sets-co-ords-sets-shorts-sets-graphic-shirts-drwastring-shorts-with-pockets/-/A-93725929",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/andy-evan-kids-pink-navy-smiley-crewneck-flare-legging-set/-/A-93590678",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/p-s-from-aeropostale-little-girls-2-piece-short-sleeve-top-short-set/-/A-92779296",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/harry-potter-gryffindor-hufflepuff-ravenclaw-t-shirt-and-leggings-outfit-set-little-kid-to-big-kid/-/A-88238046",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/sky-blue-linen-halter-top-and-skirt-set-mia-belle-girls/-/A-1004643382",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/tropical-breeze-hi-lo-tunic-and-legging-set-mia-belle-girls/-/A-1004642516",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/sage-oasis-lace-top-and-ruffle-pants-set-mia-belle-girls/-/A-1004642349",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/indigo-bloom-smocked-top-skirt-set-mia-belle-girls/-/A-1004605738",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/sandy-stroll-striped-one-shoulder-top-and-palazzo-pants-set-mia-belle-girls/-/A-1004605732",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/cherry-blossom-gingham-top-and-ruffle-skort-set-mia-belle-girls/-/A-1004605226",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/apple-of-my-eye-top-and-paperbag-short-set-mia-belle-girls/-/A-1004578862",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/sweet-strawberry-top-and-denim-skirt-set-mia-belle-girls/-/A-1004457517",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-princess-cinderella-girls-2-piece-shirt-and-french-terry-pants-set-for-toddler-and-big-kids/-/A-1004381506",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-princess-cinderella-girls-short-sleeve-t-shirt-and-french-terry-shorts-set-for-toddler-and-big-kids/-/A-1004381493",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-girls-2-piece-long-sleeve-shirt-and-pants-set-for-infant-toddler-and-big-kids/-/A-1004381485",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-girls-short-sleeve-t-shirt-and-french-terry-shorts-set-for-infant-toddler-and-big-kids/-/A-1004381469",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/polka-dot-ruffle-top-and-ruffle-shorts-set-mia-belle-girls/-/A-1004365317",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/elegant-cream-daisy-top-and-short-set-mia-belle-girls/-/A-1004365201",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/sway-my-way-lace-top-and-ruffle-palazzo-pants-set-mia-belle-girls/-/A-1004365042",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/rose-garden-one-shoulder-top-and-palazzo-pants-set-mia-belle-girls/-/A-1004363159",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/live-love-learn-tutu-skirt-set-mia-belle-girls/-/A-1004233787",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/apply-ever-after-ruffle-top-and-legging-set-mia-belle-girls/-/A-1004233726",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/little-miss-perfect-plaid-skort-set-mia-belle-girls/-/A-1004233663",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/ola-otter-co-ord-set-breezy-daisy-green/-/A-1004191134",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/cozeeme-modal-girls-layette-t-shirt-and-jogger-pants-play-set-outfit-little-kid/-/A-1004135065",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/cozeeme-modal-girls-layette-t-shirt-and-jogger-pants-play-set-outfit-toddler/-/A-1004135063",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/cozeeme-modal-baby-girls-layette-t-shirt-and-jogger-pants-play-set-outfit-newborn-to-infant/-/A-1004135056",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-lilo-stitch-girls-short-sleeve-t-shirt-and-french-terry-shorts-set-for-big-kids/-/A-1004025230",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/fuchsia-floral-ruffle-top-and-mint-blossom-shorts-set-mia-belle-girls/-/A-1003867444",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/golden-bloom-eyelet-puff-sleeve-top-and-ruffle-shorts-set-mia-belle-girls/-/A-1003843725",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/boho-charm-smocked-top-and-skirt-set-mia-belle-girls/-/A-1003836804",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/mykids-usa-baby-solid-color-bow-patched-sweater-with-pants-sets/-/A-1003787067",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/bluey-t-shirt-and-ribbed-flare-leggings-outfit-set/-/A-1003757837",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/3-piece-organic-toddler-girls-summer-bundle/-/A-1003742044",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/mykids-usa-baby-girl-striped-pattern-bow-tie-design-belted-tops-combo-shorts-swimwear/-/A-1003705964",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/biker-shorts-shirt-set-mama-s-girl-charlie-lou-baby/-/A-1003296476",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/organic-2-piece-waffle-tee-and-shorts-set/-/A-1003193730",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-chambray-blouse-and-short-set-mint-green-striped/-/A-1003104317",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-printed-tunic-and-solid-leggings-set-pink-and-coral-flowers/-/A-1003032481",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/ola-otter-co-ord-set-gummy-birds/-/A-1003029812",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-printed-terry-tank-top-and-shorts-set-vibrant/-/A-1003028787",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-printed-tank-top-and-short-muslin-set-with-frills/-/A-1003028508",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/nickelodeon-dora-the-explorer-cosplay-t-shirt-and-french-terry-shorts-outfit-set-sizes-2t-7-8/-/A-1002999760",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/rufflebutts-toddler-girls-dotted-tulle-dress-rufflebutt-set/-/A-1002893196",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/mykids-usa-sweet-and-versatile-two-piece-set-round-neck-fleece-top-and-pants-for-baby-girls-and-toddlers/-/A-1002889206",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/mykids-usa-cute-and-versatile-two-piece-set-flowers-embroidered-collar-top-and-solid-color-pants-for-baby-girls-and-toddlers/-/A-1002889178",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/xoxo-embroidered-sweater-and-heart-patch-tutu-skirt-set-mia-belle-girls/-/A-1002839656",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-color-blocking-round-neck-ribbed-waist-sport-shorts-dress-set/-/A-1002807697",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-tennis-dress-golf-outfit-sets-sleeveless-tank-top-skirt-with-shorts-pockets/-/A-1002761779",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/andy-evan-toddler-pink-crochet-top-shorts-set/-/A-1002542572",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/andy-evan-kids-white-rib-knit-tank-and-skirt-set/-/A-1002542222",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/andy-evan-toddler-pink-gingham-jersey-top-shorts-set/-/A-1002539849",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/organic-cotton-hoodie-jogger-set-pink-charlie-lou-baby/-/A-1002113113",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/rufflebutts-girls-active-tennis-dress-and-bike-short-set/-/A-1001544553",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/mixed-up-clothing-girl-juegos-legging-set/-/A-1001314455",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/andy-evan-kids-holiday-green-ribbed-knit-tee-skirt-set/-/A-1000154665",
+      tags: "Coordinate Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-solid-short-sleeve-cover-up-dress-cat-jack/-/A-92241047",
+      tags: "Cover Ups, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-39-solid-cover-up-bottom-cat-38-jack-8482-black/-/A-92240892",
+      tags: "Cover Ups, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-39-red-terry-zip-up-swimsuit-cover-up-cat-38-jack-8482-coral-red/-/A-94302372",
+      tags: "Cover Ups, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-solid-cover-up-pants-art-class/-/A-91942378",
+      tags: "Cover Ups, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-floral-printed-cover-up-dress-cat-jack/-/A-92240858",
+      tags: "Cover Ups, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-striped-cover-up-dress-cat-jack-pink/-/A-92241056",
+      tags: "Cover Ups, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-cover-up-dress-art-class/-/A-91942379",
+      tags: "Cover Ups, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-39-solid-cover-up-bottom-art-class-8482-black/-/A-92240896",
+      tags: "Cover Ups, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-solid-cover-up-dress-cat-jack/-/A-92241050",
+      tags: "Cover Ups, Girl",
+    },
+    {
+      url: "https://www.target.com/p/rufflebutts-girls-terry-full-zip-cover-up/-/A-88348936",
+      tags: "Cover Ups, Girl",
+    },
+    {
+      url: "https://www.target.com/p/bluey-girls-loop-terry-cloth-hooded-zip-up-swim-cover-up-little-kid-to-big-kid/-/A-1001871623",
+      tags: "Cover Ups, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-junior-girls-loop-terry-cloth-hooded-zip-up-swim-cover-up-little-kid-to-big-kid/-/A-1001854251",
+      tags: "Cover Ups, Girl",
+    },
+    {
+      url: "https://www.target.com/p/rufflebutts-girls-terry-cover-up/-/A-88348855",
+      tags: "Cover Ups, Girl",
+    },
+    {
+      url: "https://www.target.com/p/rufflebutts-tassel-kaftan-cover-up/-/A-88348852",
+      tags: "Cover Ups, Girl",
+    },
+    {
+      url: "https://www.target.com/p/lands-end-kids-terry-pullover-cover-up/-/A-86529889",
+      tags: "Cover Ups, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-crochet-beach-cover-up-lightweight-u-neck-kids-swimwear-above-knee-beach-cover-up-for-girls-beachwear-tops/-/A-92364594",
+      tags: "Cover Ups, Girl",
+    },
+    {
+      url: "https://www.target.com/p/lands-end-kids-short-sleeve-mesh-cover-up/-/A-1002038229",
+      tags: "Cover Ups, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-beach-cover-ups-short-sleeve-boho-crochet-beach-dress-lightweight-sweater-cover-ups-for-girls-bathing-suits/-/A-1003853837",
+      tags: "Cover Ups, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girl-s-v-neck-short-sleeve-beach-dress-summer-swimsuit-bikini-cover-up/-/A-1002550742",
+      tags: "Cover Ups, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-swim-cover-up-crochet-swimsuits-kids-swimwear-beachwear-tops/-/A-1002514992",
+      tags: "Cover Ups, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-swimsuit-cover-up-kids-fashion-open-front-swimwear-swiss-polka-dot-summer-beach-dress/-/A-1002550732",
+      tags: "Cover Ups, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-crochet-beach-cover-ups-round-neck-above-knee-length-cover-up-sheer-dress/-/A-93725947",
+      tags: "Cover Ups, Girl",
+    },
+    {
+      url: "https://www.target.com/p/andy-evan-toddler-flower-hooded-terry-cover-up/-/A-1001718395",
+      tags: "Cover Ups, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-round-neck-mesh-fabric-short-sleeve-swim-dress-cover-up-summer-casual-dress/-/A-1002807826",
+      tags: "Cover Ups, Girl",
+    },
+    {
+      url: "https://www.target.com/p/andy-evan-kids-purple-terry-caftan-cover-up/-/A-1001718445",
+      tags: "Cover Ups, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-cable-knit-swim-cover-up-cami-dress-short-beach-dress-for-swimsuits-and-bikinis/-/A-1002530230",
+      tags: "Cover Ups, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-sheer-cover-dress-for-tube-tops-crochet-beach-cover-ups-sleeveless-spaghetti-strap-sheer-beach-sheer-cover-up/-/A-93555406",
+      tags: "Cover Ups, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-swim-cover-up-crochet-bathing-suit-cover-ups-short-sleeve-summer-beach-dress/-/A-1003062464",
+      tags: "Cover Ups, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girl-little-remi-knitted-mini-dress-peixoto/-/A-1003278050",
+      tags: "Cover Ups, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-39-10pk-crew-socks-cat-38-jack-8482-white/-/A-93276950",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/hanes-premium-girls-39-pure-5pk-crew-socks-white/-/A-89957812",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/kids-6pk-crew-socks-all-in-motion/-/A-89823447",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-39-6pk-ruffle-crew-socks-cat-38-jack-8482-white/-/A-94482971",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-39-4pk-ribbed-crew-socks-cat-38-jack-8482-white-pink/-/A-93276949",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-39-4pk-animal-and-heart-super-soft-crew-socks-cat-jack/-/A-94472264",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-39-2pk-39-cherry-39-mid-crew-socks-art-class-8482-heather-gray/-/A-93276874",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-39-2pk-striped-crew-socks-art-class-8482/-/A-94567260",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/hanes-girls-4pk-absolute-active-crew-socks-white/-/A-93666806",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-39-pokemon-3pk-mid-crew-socks/-/A-93717551",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-39-4pk-cable-knit-bow-crew-socks-cat-38-jack-8482-black-pink-gray/-/A-94482968",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-39-6pk-striped-crew-socks-all-in-motion-8482-white/-/A-94472265",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-39-hello-kitty-3pk-mid-crew-socks-blue/-/A-93717550",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-39-2pk-striped-crew-socks-art-class-8482-navy-blue-gray/-/A-94567262",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-39-2pk-striped-crew-socks-art-class-8482-maroon-red/-/A-94567261",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-39-2pk-pumpkin-halloween-crew-socks-cat-38-jack-8482/-/A-94482972",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/champion-girls-6pk-crew-socks-white/-/A-94651545",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/the-lakeside-collection-kids-8-pk-super-soft-cozy-socks-girls-icon-fuzzy-sock-slippers-8-pieces/-/A-93623294",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/poppy-playtime-kids-kissy-missy-character-design-crew-socks-for-boys-and-girls-pink/-/A-90211892",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-kids-basic-soft-rayon-from-bamboo-anklet-socks/-/A-1003517565",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/everything-legwear-girls-valentines-berry-cute-2-pair-crew-socks/-/A-1004068532",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-girl-s-kitty-cats-fuzzy-mid-cut-socks-2-pack-gray-one-size/-/A-1003460805",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/ctm-girl-s-solid-colored-soft-uniform-knee-high-socks-1-pair/-/A-90098914",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-leopard-girls-fuzzy-non-skid-socks-2-pair-black-one-size/-/A-1003460788",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-polka-point-girls-cotton-blend-knee-socks/-/A-1003363959",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/textiel-trade-kid-s-winnie-the-pooh-fun-day-sneaker-socks-4-pack/-/A-1003286391",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-rainbow-patch-kids-cotton-blend-crew-sock/-/A-1003455278",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-girls-2-pair-pack-fuzzy-heart-non-skid-socks/-/A-1003403156",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/textiel-trade-girl-s-disney-frozen-anna-elsa-and-olaf-soft-socks-3-pack/-/A-93554230",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/textiel-trade-girl-s-nickelodeon-paw-patrol-skye-power-crew-novelty-socks-3-pack/-/A-92518673",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-metallic-sport-stripe-cotton-blend-crew-sock/-/A-1003455288",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-girls-tie-dye-popsicle-knee-high-socks/-/A-1003366744",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-girls-hello-summer-knee-high-socks/-/A-1003366222",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-girls-step-and-shimmer-ruffle-anklet-socks/-/A-1003453109",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-girls-inspo-athletic-crew-socks/-/A-1003456159",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-girls-two-tone-varsity-stripe-crew-socks/-/A-1003455613",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/ctm-girl-s-super-soft-slouch-socks-1-pair/-/A-90099014",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-girls-checkered-heart-crew-socks/-/A-1003455781",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-girls-ziggy-double-ring-cotton-blend-anklet-sock/-/A-1003455383",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-girls-fuzzy-heart-crew-socks/-/A-1003455438",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/textiel-trade-kid-s-disney-miraculous-ladybug-and-cat-noir-crew-socks-4-pack/-/A-93563952",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-girls-ribbed-cotton-blend-multi-graffiti-hearts-knee-sock/-/A-1003329491",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-girls-tennis-star-crew-socks/-/A-1003455467",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-rockin-robots-girls-knee-socks/-/A-1003364114",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-distressed-wash-denim-cherries-girls-knee-high-sock/-/A-1003336283",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-write-on-camp-kids-cotton-blend-knee-high-socks-3-pack/-/A-1003336549",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-peek-a-boo-sheer-floral-girls-cotton-blend-crew-socks/-/A-1003453705",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-distressed-wash-denim-look-girls-knee-high-socks/-/A-1003336289",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-unicorn-girls-fuzzy-non-skid-socks-2-pair-fuchsia-one-size/-/A-1003460748",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/textiel-trade-girl-s-frozen-themed-novelty-crew-socks-pack-of-3/-/A-1002280753",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/textiel-trade-girl-s-minnie-mouse-fun-day-fluffy-socks-2-pairs/-/A-1003286439",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-neon-stitched-heart-cotton-blend-knee-high-sock/-/A-1003402908",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-girl-s-sport-rib-heart-crew-socks-winter-white-2/-/A-1003455767",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-girls-ribbed-stretch-cotton-tennis-smiley-face-knee-sock-white-4/-/A-1003460683",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-retro-tie-dye-girls-cotton-blend-knee-high-socks/-/A-1003400392",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-girls-ribbed-bow-knee-high-socks/-/A-1003452087",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-girls-graffiti-star-knee-high-socks/-/A-1003402616",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-girls-color-block-stripe-crew-socks/-/A-1003456090",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-girl-musical-notes-bamboo-crew-socks/-/A-1003336691",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-girls-acid-wash-cotton-blend-knee-high-socks/-/A-1003336297",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-girls-air-brush-winking-smiley-cotton-blend-knee-high-sock/-/A-1003402951",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-girls-pearl-burst-cotton-blend-crew-socks/-/A-1003335214",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-girls-rubber-smiley-face-cotton-rich-knee-sock/-/A-1003334377",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/st-patrick-s-day-born-lucky-youth-3-pack-crew-socks/-/A-91018118",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-girls-tie-dye-graffiti-shapes-knee-high-socks/-/A-1003460815",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-girls-ribbed-stretch-cotton-graffiti-play-knee-sock/-/A-1003460671",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-distressed-wash-denim-stars-girls-knee-high-sock-black-4/-/A-1003460519",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-girls-vintage-stripe-cotton-blend-knee-high-socks/-/A-1003403015",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-polar-bear-girls-fuzzy-mid-cut-socks/-/A-1003403118",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-girls-stretch-cotton-splatter-paint-knee-sock-white-12/-/A-1003460634",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/little-love-bug-company-standard-knee-high-socks/-/A-1003631822",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-girl-s-lol-athletic-crew-socks/-/A-1003456137",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-girls-single-heart-logo-crew-socks/-/A-1003455599",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-girls-window-pane-sheer-cotton-blend-socks/-/A-1003453677",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-fluffy-trio-pom-pom-cotton-blend-crew-socks/-/A-1003453638",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-girls-black-tie-affair-cotton-blend-crew-socks/-/A-1003453551",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-girls-pointelle-cotton-blend-knee-high-sock/-/A-1003451559",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-girls-2-pair-pack-i-woke-up-like-this-knee-high-socks-assorted/-/A-1003430559",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-girls-open-work-shimmer-cotton-blend-knee-high-socks/-/A-1003400154",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-girls-ribbed-shimmer-knee-high-socks/-/A-1003399854",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-girls-embroidered-bicycle-knee-high-socks/-/A-1003368172",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-girls-glitzy-sunglasses-knee-high-socks/-/A-1003366165",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-girls-busy-bee-glitter-cotton-knee-high-socks/-/A-1003365650",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-fruity-fun-watermelon-girls-cotton-blend-knee-high-socks/-/A-1003364045",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-tidy-little-bow-girls-cotton-blend-knee-socks/-/A-1003336888",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-she-shimmers-girls-cotton-blend-knee-socks/-/A-1003336880",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-jewel-mosaic-girls-combed-cotton-knee-high-socks/-/A-1003336768",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-gingham-heart-girls-cotton-blend-knee-high-sock/-/A-1003336488",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-cotton-blend-ruler-knee-high-socks/-/A-1003336477",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-girls-crystal-bear-knee-high-socks/-/A-1003336455",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-velvet-bow-cotton-blend-knee-high-sock/-/A-1003336438",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-v-stripe-lurex-cotton-blend-knee-high-socks/-/A-1003336410",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-fuzzy-stripe-cotton-blend-knee-high-socks/-/A-1003336398",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-striped-bee-cotton-blend-knee-high-sock/-/A-1003336341",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-jeweled-smiley-face-cotton-blend-knee-high-socks/-/A-1003336327",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-starry-night-jeweled-girls-combed-cotton-crew-socks/-/A-1003335223",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-feathery-combed-cotton-faux-pearl-girls-crew-socks/-/A-1003335201",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-string-of-pearls-girls-cotton-blend-crew-socks/-/A-1003335189",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/hearts-galore-cozy-sock/-/A-1003334834",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-girls-snowflake-plush-lined-cozy-socks/-/A-1003334805",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-girls-ribbed-cotton-blend-graffiti-camp-knee-sock/-/A-1003334446",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-girls-ribbed-cotton-blend-heart-and-stripes-knee-sock/-/A-1003334358",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-girls-stretch-cotton-multi-stripe-m-graphic-knee-sock/-/A-1003329553",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/memoi-girls-fuzzy-smiley-face-knee-high-socks/-/A-1003329273",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/iridescent-balloon-dog-knee-high/-/A-1003329068",
+      tags: "Crew Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-denim-vest-art-class/-/A-92955212",
+      tags: "Denim Vests, Girl",
+    },
+    {
+      url: "https://www.target.com/p/disney-toddler-little-girls-2-pack-minnie-mouse-casual-fashion-dresses/-/A-1003764881",
+      tags: "Dress Sets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-39-6pk-scallop-ankle-socks-cat-38-jack-8482/-/A-90873438",
+      tags: "Dress Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-3pk-bobby-socks-cat-jack-153-white-navy-black/-/A-51258242",
+      tags: "Dress Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/kids-3pk-dress-socks-cat-jack-navy/-/A-79468027",
+      tags: "Dress Socks, Girl",
+    },
+    {
+      url: "https://www.target.com/p/rokka-rolla-girls-ultra-light-packable-down-jacket/-/A-90227524",
+      tags: "Duck Jackets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/rokka-rolla-girls-ultra-light-real-down-packable-jacket/-/A-92874883",
+      tags: "Duck Jackets, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-39-quilted-floral-duffel-bag-art-class-8482-blue/-/A-94435113",
+      tags: "Duffel Bags, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-39-quilted-floral-duffel-bag-art-class-8482-red/-/A-94435110",
+      tags: "Duffel Bags, Girl",
+    },
+    {
+      url: "https://www.target.com/p/mi-amore-gigi-red-plaid-satin-bow-holiday-dress/-/A-93502341",
+      tags: "Empire Waist Dresses, Girl",
+    },
+    {
+      url: "https://www.target.com/p/hope-henry-heirloom-girls-organic-short-sleeve-puff-sleeve-party-dress-kids/-/A-1000871958",
+      tags: "Empire Waist Dresses, Girl",
+    },
+    {
+      url: "https://www.target.com/p/hope-henry-girls-organic-sleeveless-crochet-detail-empire-waist-seersucker-dress-kids/-/A-1002929817",
+      tags: "Empire Waist Dresses, Girl",
+    },
+    {
+      url: "https://www.target.com/p/girls-39-astrid-long-sleeve-empire-waist-dress-sky-blue/-/A-91487287",
+      tags: "Empire Waist Dresses, Girl",
+    },
+    {
+      url: "https://www.target.com/p/mykids-usa-baby-girl-flower-mesh-overlay-design-bow-tie-vest-dress-birthday-formal-dress/-/A-1004578693",
+      tags: "Empire Waist Dresses, Girl",
+    },
+    {
+      url: "https://www.target.com/p/mykids-usa-baby-girls-solid-round-collar-design-sleeveless-dress-in-summer/-/A-1004385966",
+      tags: "Empire Waist Dresses, Girl",
     },
   ];
 
@@ -2053,6 +3029,13 @@ import "dotenv/config";
       );
     } catch (err) {
       console.error("❌ Failed:", url, err.message);
+      currentIndex++;
+      console.log(
+        `❌ One Failed - Progress: ${currentIndex}/${total} (${(
+          (currentIndex / total) *
+          100
+        ).toFixed(1)}%)`
+      );
       failedUrls.push({ url, tags: extraTags });
     }
   }
