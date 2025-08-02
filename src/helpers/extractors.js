@@ -168,15 +168,10 @@ export async function extractTargetProductData(page, url, extraTags) {
     const option1Name = masterKey || "";
     const option2Name = slaveKey || "";
 
-    const finalProductTags = [
-      ...new Set([
-        ...breadcrumbs.split(","),
-        ...(extraTags ? extraTags.split(", ") : []),
-      ]),
-    ]
-      .map((tag) => tag.replace(/,/g, ";").trim())
-      .filter(Boolean)
-      .join(", ");
+    const baseTags = "clothes";
+    const finalProductTags = extraTags
+      ? `${baseTags}, ${extraTags.trim()}`
+      : baseTags;
     const chunkSize = 100; // Shopify limit
     const chunks = [];
     for (let i = 0; i < allVariants.length; i += chunkSize) {
