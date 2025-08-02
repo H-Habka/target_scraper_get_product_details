@@ -5302,13 +5302,19 @@ import "dotenv/config";
   const total = urls.length;
 
   for (const urlEntry of urls) {
-    let url, extraTags;
+    let params;
     if (typeof urlEntry === "string") {
-      url = urlEntry;
-      extraTags = "";
+      params = {
+        url: urlEntry,
+        extraTags: "",
+        filters: {}
+      };
     } else if (typeof urlEntry === "object" && urlEntry.url) {
-      url = urlEntry.url;
-      extraTags = urlEntry.tags || "";
+      params = {
+        url: urlEntry.url,
+        extraTags: urlEntry.tags || "",
+        filters: urlEntry.filters || {}
+      };
     } else {
       console.warn("❌ Invalid urlEntry:", urlEntry);
       failedUrls.push(urlEntry);
@@ -5316,7 +5322,7 @@ import "dotenv/config";
     }
 
     try {
-      const shopifyRows = await extractTargetProductData(page, url, extraTags);
+      const shopifyRows = await extractTargetProductData(page, params);
       allShopifyRows.push(...shopifyRows);
       currentIndex++;
       console.log(
@@ -5334,7 +5340,7 @@ import "dotenv/config";
           100
         ).toFixed(1)}%)`
       );
-      failedUrls.push({ url, tags: extraTags });
+      failedUrls.push({ url: params.url, tags: params.extraTags });
     }
   }
 

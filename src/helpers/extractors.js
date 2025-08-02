@@ -18,7 +18,8 @@ import {
   waitForUrlChange,
 } from "./index.js";
 
-export async function extractTargetProductData(page, url, extraTags) {
+export async function extractTargetProductData(page, params) {
+  const { url, extraTags = "", filters = {} } = params;
   try {
     await gotoTargetWithRetries(page, url);
     console.info("✅ Page loaded, waiting for stability...");
@@ -210,6 +211,10 @@ export async function extractTargetProductData(page, url, extraTags) {
           Tags: index === 0 ? finalProductTags : "",
           "product.metafields.custom.original_prodect_url":
             index === 0 ? url : "",
+          "product.metafields.custom.brand":
+            index === 0 ? (filters.brand || "") : "",
+          "product.metafields.custom.item_type":
+            index === 0 ? (filters.type || "") : "",
         });
       }
     }
