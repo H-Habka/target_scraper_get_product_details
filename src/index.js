@@ -6057,7 +6057,7 @@ import { saveToCSVAndExcel } from "./helpers/fileIO.js";
         ).toFixed(1)}%)`
       );
     } catch (err) {
-      console.error("❌ Failed:", url, err.message);
+      console.error("❌ Failed:", params.url, err.message);
       currentIndex++;
       console.log(
         `❌ One Failed - Progress: ${currentIndex}/${total} (${(
