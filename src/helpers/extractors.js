@@ -173,6 +173,11 @@ export async function extractTargetProductData(page, params) {
     const finalProductTags = extraTags
       ? `${baseTags}, ${extraTags.trim()}`
       : baseTags;
+
+    // Generate unique timestamp suffix for handle
+    const timestamp = Date.now();
+    const uniqueHandle = `${handle}-${timestamp}`;
+
     const chunkSize = 100; // Shopify limit
     const chunks = [];
     for (let i = 0; i < allVariants.length; i += chunkSize) {
@@ -184,7 +189,7 @@ export async function extractTargetProductData(page, params) {
       const variantsChunk = chunks[chunkIndex];
       // Create a unique handle per chunk
       const chunkHandle =
-        chunkIndex === 0 ? handle : `${handle}-${chunkIndex + 1}`;
+        chunkIndex === 0 ? uniqueHandle : `${uniqueHandle}-${chunkIndex + 1}`;
       const chunkTitle =
         chunkIndex === 0 ? title : `${title} (Part ${chunkIndex + 1})`;
       for (let index = 0; index < variantsChunk.length; index++) {
@@ -212,9 +217,9 @@ export async function extractTargetProductData(page, params) {
           "product.metafields.custom.original_prodect_url":
             index === 0 ? url : "",
           "product.metafields.custom.brand":
-            index === 0 ? (filters.brand || "") : "",
+            index === 0 ? filters.brand || "" : "",
           "product.metafields.custom.item_type":
-            index === 0 ? (filters.type || "") : "",
+            index === 0 ? filters.type || "" : "",
         });
       }
     }
