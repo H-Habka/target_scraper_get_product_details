@@ -20,7003 +20,7003 @@ import { saveToCSVAndExcel } from "./helpers/fileIO.js";
 
   const urls = [
     {
-      url: "https://www.target.com/p/boys-short-sleeve-relaxed-fit-t-shirt-cat-jack/-/A-93032344",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Target Brands, Tops",
-      filters: {
-        brand: "Target\n¬ brands",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-short-sleeve-basketball-hoop-graphic-t-shirt-cat-jack-blue/-/A-94493160",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Target Brands, Tops",
-      filters: {
-        brand: "Target\n¬ brands",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-39-short-sleeve-space-bulldog-graphic-t-shirt-cat-38-jack-8482-beige/-/A-94650209",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Target Brands, Tops",
-      filters: {
-        brand: "Target\n¬ brands",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-short-sleeve-varsity-baseball-graphic-t-shirt-cat-jack-blue/-/A-94632207",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Target Brands, Tops",
-      filters: {
-        brand: "Target\n¬ brands",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-39-short-sleeve-relaxed-fit-t-shirt-cat-38-jack-8482/-/A-94582922",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Target Brands, Tops",
-      filters: {
-        brand: "Target\n¬ brands",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-short-sleeve-printed-jersey-cat-jack/-/A-94614202",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Target Brands, Tops",
-      filters: {
-        brand: "Target\n¬ brands",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-short-sleeve-halloween-glow-in-the-dark-monster-fangs-graphic-t-shirt-cat-jack-black/-/A-94619144",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Target Brands, Tops",
-      filters: {
-        brand: "Target\n¬ brands",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-short-sleeve-cassette-tape-graphic-t-shirt-cat-jack-black/-/A-94619141",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Target Brands, Tops",
-      filters: {
-        brand: "Target\n¬ brands",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-short-sleeve-big-sky-graphic-t-shirt-cat-jack-olive-green/-/A-94619139",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Target Brands, Tops",
-      filters: {
-        brand: "Target\n¬ brands",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-39-short-sleeve-39-brain-freeze-39-graphic-t-shirt-cat-38-jack-8482-purple/-/A-94417021",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Target Brands, Tops",
-      filters: {
-        brand: "Target\n¬ brands",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-39-short-sleeve-miami-drift-team-graphic-t-shirt-cat-38-jack-dark-8482-dark-green/-/A-94650208",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Target Brands, Tops",
-      filters: {
-        brand: "Target\n¬ brands",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-short-sleeve-burger-planet-graphic-t-shirt-cat-jack-black/-/A-94619140",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Target Brands, Tops",
-      filters: {
-        brand: "Target\n¬ brands",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-short-sleeve-west-coast-california-graphic-t-shirt-cat-jack-khaki/-/A-94619146",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Target Brands, Tops",
-      filters: {
-        brand: "Target\n¬ brands",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-short-sleeve-dinosaur-graphic-t-shirt-cat-jack-brown/-/A-94619138",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Target Brands, Tops",
-      filters: {
-        brand: "Target\n¬ brands",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-39-short-sleeve-halloween-dogs-graphic-t-shirt-cat-38-jack-8482-cream/-/A-94650207",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Target Brands, Tops",
-      filters: {
-        brand: "Target\n¬ brands",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-short-sleeve-pasta-graphic-t-shirt-cat-jack-gray/-/A-94619142",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Target Brands, Tops",
-      filters: {
-        brand: "Target\n¬ brands",
-      },
-    },
-    {
-      url: "https://www.target.com/p/kids-2pk-adaptive-short-sleeve-graphic-t-shirt-cat-38-jack-8482/-/A-94638343",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Target Brands, Tops",
-      filters: {
-        brand: "Target\n¬ brands",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-short-sleeve-bird-graphic-t-shirt-cat-jack-bright-turquoise-blue/-/A-94493190",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Target Brands, Tops",
-      filters: {
-        brand: "Target\n¬ brands",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-short-sleeve-graphic-t-shirt-cat-jack-pink/-/A-94663043",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Target Brands, Tops",
-      filters: {
-        brand: "Target\n¬ brands",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-39-short-sleeve-skateboard-dino-graphic-t-shirt-cat-38-jack-8482-red/-/A-93276692",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Target Brands, Tops",
-      filters: {
-        brand: "Target\n¬ brands",
-      },
-    },
-    {
-      url: "https://www.target.com/p/kids-39-adaptive-short-sleeve-graphic-t-shirt-cat-38-jack-8482/-/A-93574669",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Target Brands, Tops",
-      filters: {
-        brand: "Target\n¬ brands",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-39-short-sleeve-explore-nature-graphic-t-shirt-cat-38-jack-8482-brown/-/A-94650206",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Target Brands, Tops",
-      filters: {
-        brand: "Target\n¬ brands",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-short-sleeve-gameplay-graphic-t-shirt-cat-jack-blue/-/A-94663045",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Target Brands, Tops",
-      filters: {
-        brand: "Target\n¬ brands",
-      },
-    },
-    {
-      url: "https://www.target.com/p/kids-39-adaptive-short-sleeve-graphic-t-shirt-cat-38-jack-8482-cream-m/-/A-94567048",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Target Brands, Tops",
-      filters: {
-        brand: "Target\n¬ brands",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-39-short-sleeve-relaxed-fit-t-shirt-cat-38-jack-8482/-/A-94582922",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Target Brands, Tops",
-      filters: {
-        brand: "Target\n¬ brands",
-      },
-    },
-    {
-      url: "https://www.target.com/p/kids-39-adaptive-short-sleeve-graphic-t-shirt-cat-38-jack-8482-cream-l/-/A-94567049",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Target Brands, Tops",
-      filters: {
-        brand: "Target\n¬ brands",
-      },
-    },
-    {
-      url: "https://www.target.com/p/kids-2pk-adaptive-short-sleeve-graphic-t-shirt-cat-38-jack-8482/-/A-94638343",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Target Brands, Tops",
-      filters: {
-        brand: "Target\n¬ brands",
-      },
-    },
-    {
-      url: "https://www.target.com/p/kids-39-adaptive-short-sleeve-graphic-t-shirt-cat-38-jack-8482-cream-xl/-/A-94567050",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Target Brands, Tops",
-      filters: {
-        brand: "Target\n¬ brands",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-short-sleeve-printed-t-shirt-cat-jack-light-brown/-/A-94833984",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Target Brands, Tops",
-      filters: {
-        brand: "Target\n¬ brands",
-      },
-    },
-    {
-      url: "https://www.target.com/p/kids-2pk-adaptive-short-sleeve-graphic-t-shirt-cat-38-jack-8482/-/A-94638342",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Target Brands, Tops",
-      filters: {
-        brand: "Target\n¬ brands",
-      },
-    },
-    {
-      url: "https://www.target.com/p/kids-adaptive-halloween-graphic-t-shirt-cat-jack-purple/-/A-94638340",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Target Brands, Tops",
-      filters: {
-        brand: "Target\n¬ brands",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-short-sleeve-t-shirt-art-class/-/A-94473760",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Target Brands, Tops",
-      filters: {
-        brand: "Target\n¬ brands",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-cutoff-tank-top-art-class/-/A-94189986",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Target Brands, Tops",
-      filters: {
-        brand: "Target\n¬ brands",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-short-sleeve-graphic-t-shirt-all-in-motion/-/A-94471835",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Target Brands, Tops",
-      filters: {
-        brand: "Target\n¬ brands",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-venice-beach-graphic-tank-top-art-class-gray/-/A-94257271",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Target Brands, Tops",
-      filters: {
-        brand: "Target\n¬ brands",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-101-dalmatians-tic-tac-toe-grid-of-puppies-short-sleeve-graphic-t-shirt/-/A-1000822232",
-      tags: "101 Dalmatians, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "101 Dalmatians",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-101-dalmatians-brothers-make-the-best-friends-short-sleeve-graphic-t-shirt/-/A-1000847350",
-      tags: "101 Dalmatians, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "101 Dalmatians",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-one-hundred-and-one-dalmatians-dog-family-in-squares-t-shirt/-/A-85637043",
-      tags: "101 Dalmatians, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "101 Dalmatians",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-101-dalmatians-collage-of-dalmatian-family-short-sleeve-graphic-t-shirt/-/A-1000822233",
-      tags: "101 Dalmatians, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "101 Dalmatians",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-one-hundred-and-one-dalmatians-pongo-and-perdita-t-shirt/-/A-85823466",
-      tags: "101 Dalmatians, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "101 Dalmatians",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-one-hundred-and-one-dalmatians-yes-i-need-all-these-dogs-t-shirt/-/A-89508212",
-      tags: "101 Dalmatians, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "101 Dalmatians",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-one-hundred-and-one-dalmatians-the-whole-family-t-shirt/-/A-85823756",
-      tags: "101 Dalmatians, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "101 Dalmatians",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-one-hundred-and-one-dalmatians-patch-in-the-pocket-t-shirt/-/A-85823924",
-      tags: "101 Dalmatians, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "101 Dalmatians",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-one-hundred-and-one-dalmatians-puppy-dalmatian-love-t-shirt/-/A-85574350",
-      tags: "101 Dalmatians, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "101 Dalmatians",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-one-hundred-and-one-dalmatians-retro-poster-t-shirt/-/A-85824063",
-      tags: "101 Dalmatians, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "101 Dalmatians",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-one-hundred-and-one-dalmatians-the-whole-family-of-dogs-t-shirt/-/A-85637087",
-      tags: "101 Dalmatians, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "101 Dalmatians",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-one-hundred-and-one-dalmatians-life-is-better-with-dogs-t-shirt/-/A-85637074",
-      tags: "101 Dalmatians, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "101 Dalmatians",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-one-hundred-and-one-dalmatians-classic-red-logo-t-shirt/-/A-85823961",
-      tags: "101 Dalmatians, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "101 Dalmatians",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-101-dalmatians-friends-fur-life-short-sleeve-graphic-t-shirt/-/A-1000847525",
-      tags: "101 Dalmatians, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "101 Dalmatians",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-101-dalmatians-daddy-s-lil-bestie-short-sleeve-graphic-t-shirt/-/A-1000847288",
-      tags: "101 Dalmatians, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "101 Dalmatians",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-101-dalmatians-spring-flowers-short-sleeve-graphic-t-shirt/-/A-1000822319",
-      tags: "101 Dalmatians, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "101 Dalmatians",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-101-dalmatians-mommy-s-lil-bestie-short-sleeve-graphic-t-shirt/-/A-1000847195",
-      tags: "101 Dalmatians, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "101 Dalmatians",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-one-hundred-and-one-dalmatians-home-is-where-the-puppies-are-t-shirt/-/A-85637036",
-      tags: "101 Dalmatians, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "101 Dalmatians",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-one-hundred-and-one-dalmatians-london-couple-t-shirt/-/A-85823403",
-      tags: "101 Dalmatians, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "101 Dalmatians",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-101-dalmatians-spring-flowers/-/A-1000821971",
-      tags: "101 Dalmatians, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "101 Dalmatians",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-101-dalmatians-collage-of-dalmatian-family/-/A-1000821958",
-      tags: "101 Dalmatians, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "101 Dalmatians",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-101-dalmatians-tic-tac-toe-grid-of-puppies/-/A-1000821980",
-      tags: "101 Dalmatians, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "101 Dalmatians",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-101-dalmatians-friends-fur-life/-/A-1000847447",
-      tags: "101 Dalmatians, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "101 Dalmatians",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-101-dalmatians-brothers-make-the-best-friends/-/A-1000847335",
-      tags: "101 Dalmatians, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "101 Dalmatians",
-      },
-    },
-    {
-      url: "https://www.target.com/p/youth-4-pack-holiday-movie-tees-a-christmas-story-polar-express-elf-frosty-the-snowman/-/A-90019130",
-      tags: "A Christmas Story, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "A Christmas Story",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bioworld-a-christmas-story-random-scattered-icons-youth-red-graphic-tee/-/A-87884965",
-      tags: "A Christmas Story, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "A Christmas Story",
-      },
-    },
-    {
-      url: "https://www.target.com/p/a-christmas-tee-ralphie-diamond-portrait-art-crew-neck-short-sleeve-navy-blue-boy-s-t-shirt/-/A-91217512",
-      tags: "A Christmas Story, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "A Christmas Story",
-      },
-    },
-    {
-      url: "https://www.target.com/p/a-christmas-story-oh-fudge-boy-s-heather-grey-t-shirt/-/A-84705973",
-      tags: "A Christmas Story, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "A Christmas Story",
-      },
-    },
-    {
-      url: "https://www.target.com/p/a-christmas-story-ralphie-biting-soap-poster-art-crew-neck-short-sleeve-white-boy-s-t-shirt/-/A-90060809",
-      tags: "A Christmas Story, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "A Christmas Story",
-      },
-    },
-    {
-      url: "https://www.target.com/p/five-nights-at-freddy-s-holiday-stocking-boy-s-black-t-shirt/-/A-85354095",
-      tags: "A Nightmare on Elm Street, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "A Nightmare on Elm Street",
-      },
-    },
-    {
-      url: "https://www.target.com/p/five-nights-at-freddy-s-santa-freddy-boy-s-black-t-shirt/-/A-85352670",
-      tags: "A Nightmare on Elm Street, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "A Nightmare on Elm Street",
-      },
-    },
-    {
-      url: "https://www.target.com/p/five-nights-at-freddy-s-freddy-fazbear-and-friends-boy-s-black-t-shirt/-/A-85354562",
-      tags: "A Nightmare on Elm Street, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "A Nightmare on Elm Street",
-      },
-    },
-    {
-      url: "https://www.target.com/p/five-nights-at-freddy-s-freddy-face-split-boy-s-black-t-shirt/-/A-85353242",
-      tags: "A Nightmare on Elm Street, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "A Nightmare on Elm Street",
-      },
-    },
-    {
-      url: "https://www.target.com/p/fnaf-sister-location-characters-boy-s-black-t-shirt/-/A-85355637",
-      tags: "A Nightmare on Elm Street, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "A Nightmare on Elm Street",
-      },
-    },
-    {
-      url: "https://www.target.com/p/five-nights-at-freddy-s-freddy-fazbear-split-boy-s-black-t-shirt/-/A-85352458",
-      tags: "A Nightmare on Elm Street, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "A Nightmare on Elm Street",
-      },
-    },
-    {
-      url: "https://www.target.com/p/ac-dc-angus-young-playing-guitar-youth-black-graphic-youth-crew-neck-long-sleeve-tee/-/A-88861464",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/acdc-monochrome-angus-young-big-red-lightning-youth-athletic-heather-gray-crew-neck-tee/-/A-88813978",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/acdc-rock-or-bust-boy-s-short-sleeve-t-shirt-lounge-shorts-combo-set/-/A-91836535",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/acdc-rock-band-americana-logo-boy-s-navy-t-shirt/-/A-85451038",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/acdc-rock-band-logo-youth-boys-black-short-sleeve-graphic-tee-shirt/-/A-84941797",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/youth-rock-let-there-be-rock-classic-vintage-acdc-shirt-boys-graphic-tee/-/A-88297376",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/acdc-high-voltage-youth-boy-s-navy-t-shirt/-/A-84713953",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/acdc-red-angus-young-silhouette-youth-red-short-sleeve-crew-neck-tee/-/A-89177100",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-about-to-rock-tour-t-shirt/-/A-1004637380",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-back-in-black-logo-t-shirt/-/A-1004637405",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/acdc-angus-young-silhouette-in-red-lightning-bolt-youth-white-short-sleeve-crew-neck-tee/-/A-89177108",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/acdc-angus-young-limited-color-youth-black-short-sleeve-crew-neck-tee/-/A-89177205",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/acdc-let-there-be-rock-youth-black-t-shirt/-/A-86218511",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-3-up-splatter-drips-t-shirt/-/A-1004637641",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/acdc-thunderbolt-icon-crew-neck-short-sleeve-royal-blue-boy-s-t-shirt/-/A-90119762",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-roses-logo-t-shirt/-/A-1004637758",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/acdc-boys-white-crew-neck-short-sleeve-t-shirt/-/A-1004429857",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/let-there-be-rock-acdc-youth-boy-s-red-t-shirt/-/A-86467341",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/let-there-be-rock-acdc-youth-boy-s-white-t-shirt/-/A-86467320",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-back-in-black-t-shirt/-/A-1004637109",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-repeat-logo-band-t-shirt/-/A-1004637558",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-fire-bolt-t-shirt/-/A-1004634826",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/acdc-1978-world-tour-pop-art-logo-crew-neck-short-sleeve-boys-black-t-shirt/-/A-88144829",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-tie-dye-logo-t-shirt/-/A-1004634527",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-tie-dye-logo-t-shirt/-/A-1004634527",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-tie-dye-bolt-t-shirt-red-medium/-/A-1004634437",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/ac-dc-world-tour-1979-navy-blue-boy-s-short-sleeve-t-shirt/-/A-85450899",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/acdc-black-ice-crew-neck-short-sleeve-boy-s-black-t-shirt/-/A-89764346",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-hand-drawn-logo-t-shirt/-/A-1004637225",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/ac-dc-leopard-bolt-kids-t-shirt-for-youth-black-medium/-/A-1002226260",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-ac-dc-powerage-t-shirt/-/A-1004637121",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-fire-logo-t-shirt/-/A-1004637027",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/let-there-be-rock-acdc-youth-boy-s-charcoal-t-shirt/-/A-86467360",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/ac-dc-let-there-be-rock-navy-boy-s-short-sleeve-t-shirt/-/A-88886478",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/acdc-let-there-be-rock-youth-athletic-heather-t-shirt/-/A-86219133",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/acdc-world-tour-flags-youth-black-t-shirt/-/A-87450613",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/ac-dc-struck-kids-t-shirt-for-youth-black-medium/-/A-1002226223",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-sketch-bolt-t-shirt/-/A-1004637686",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/ac-dc-skewed-checkerboard-bolt-kids-t-shirt-for-youth-white-medium/-/A-1002226305",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-highway-world-tour-79-t-shirt-black-x-small/-/A-1004637798",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-jailbreak-white-t-shirt/-/A-1004637358",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-live-t-shirt/-/A-1004637690",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-blow-up-your-video-t-shirt/-/A-1004637250",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-live-t-shirt/-/A-1004637681",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-salute-t-shirt/-/A-1004637531",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-highway-mono-black-t-shirt/-/A-1004636609",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-tour-emblem-t-shirt/-/A-1004637575",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-ballbreaker-t-shirt/-/A-1004637482",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-outline-logo-black-t-shirt/-/A-1004637504",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-pwr-up-logo-t-shirt-black-small/-/A-1004634550",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-salute-t-shirt/-/A-1004637531",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-logo-tour-t-shirt/-/A-1004637007",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-blow-up-your-video-t-shirt/-/A-1004637250",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-back-in-black-t-shirt/-/A-1004637337",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-logo-raglan-t-shirt/-/A-1004636811",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-50-logo-t-shirt/-/A-1004636604",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-back-in-black-t-shirt/-/A-1004637563",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-jailbreak-white-t-shirt/-/A-1004637358",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-one-way-put-t-shirt/-/A-1004634767",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-salute-t-shirt/-/A-1004637445",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-1979-world-tour-t-shirt/-/A-1004637170",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-stamp-poster-t-shirt/-/A-1004636679",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-highway-to-hell-emblem-t-shirt/-/A-1004637267",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-let-there-be-rock-tour-t-shirt/-/A-1004637659",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-high-voltage-1976-t-shirt/-/A-1004637626",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-live-50-t-shirt/-/A-1004637185",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-tour-1979-poster-t-shirt/-/A-1004637135",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-neon-bolt-t-shirt/-/A-1004634774",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-plaid-logo-t-shirt-black-x-large/-/A-1004634487",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-logo-raglan-t-shirt/-/A-1004636805",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-tour-emblem-t-shirt/-/A-1004637589",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-tour-emblem-t-shirt/-/A-1004637575",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-pwr-up-logo-t-shirt-black-x-small/-/A-1004634554",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-high-voltage-1976-t-shirt/-/A-1004637626",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-jailbreak-white-t-shirt/-/A-1004637358",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-plaid-logo-t-shirt-black-x-large/-/A-1004634487",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-let-there-be-rock-tour-t-shirt/-/A-1004637659",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-logo-distress-t-shirt/-/A-1004637115",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-back-in-black-t-shirt/-/A-1004637563",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-highway-mono-t-shirt/-/A-1004637014",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-highway-mono-black-t-shirt/-/A-1004636609",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-logo-stack-t-shirt/-/A-1004636983",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-tour-emblem-t-shirt/-/A-1004637575",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-one-way-put-t-shirt/-/A-1004634767",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-checkerboard-gradient-logo-t-shirt/-/A-1004634508",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-back-in-black-t-shirt/-/A-1004637337",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-50-logo-t-shirt/-/A-1004636604",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-my-friends-t-shirt/-/A-1004634785",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-acdc-paisley-logo-t-shirt/-/A-1004634514",
-      tags: "AC/DC, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "AC/DC",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-aaahh-real-monsters-characters-eggster-t-shirt/-/A-1002734965",
-      tags: "Aaahh!!! Real Monsters, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aaahh!!! Real Monsters",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-aaahh-real-monsters-group-hearts-t-shirt/-/A-85565251",
-      tags: "Aaahh!!! Real Monsters, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aaahh!!! Real Monsters",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-adventure-time-feelin-lucky-bmo-t-shirt/-/A-90779571",
-      tags: "Adventure Time, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Adventure Time",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-adventure-time-shamrock-jake-t-shirt/-/A-90779249",
-      tags: "Adventure Time, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Adventure Time",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-adventure-time-finn-and-jake-box-t-shirt/-/A-85155418",
-      tags: "Adventure Time, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Adventure Time",
-      },
-    },
-    {
-      url: "https://www.target.com/p/aeropostale-boys-34-nyc-graphic-t-shirt/-/A-1004776720",
-      tags: "Aeropostale, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aeropostale",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-aladdin-80s-genie-performance-tee/-/A-87529218",
-      tags: "Aladdin, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aladdin",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-aladdin-friend-trio-performance-tee/-/A-91641999",
-      tags: "Aladdin, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aladdin",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-aladdin-sand-tiger-cave-performance-tee/-/A-87529344",
-      tags: "Aladdin, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aladdin",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-aladdin-rajah-are-you-kitten-me-t-shirt/-/A-91642127",
-      tags: "Aladdin, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aladdin",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-aladdin-magic-carpet-ride-wave-t-shirt/-/A-87529427",
-      tags: "Aladdin, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aladdin",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-aladdin-jafar-good-to-be-bad-t-shirt/-/A-87529293",
-      tags: "Aladdin, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aladdin",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-aladdin-rajah-easy-tiger-t-shirt/-/A-91642140",
-      tags: "Aladdin, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aladdin",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-aladdin-genie-grin-small-t-shirt/-/A-91642431",
-      tags: "Aladdin, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aladdin",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-aladdin-genie-applause-sign-t-shirt/-/A-87529467",
-      tags: "Aladdin, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aladdin",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-aladdin-crew-dance-t-shirt/-/A-91642461",
-      tags: "Aladdin, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aladdin",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-aladdin-expressions-of-genie-t-shirt/-/A-91642697",
-      tags: "Aladdin, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aladdin",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-aladdin-genie-badge-performance-tee/-/A-89598995",
-      tags: "Aladdin, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aladdin",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-aladdin-make-your-own-magic-t-shirt/-/A-91641870",
-      tags: "Aladdin, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aladdin",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-aladdin-90-s-spring-break-genie-t-shirt/-/A-87529290",
-      tags: "Aladdin, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aladdin",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-aladdin-genie-grin-t-shirt/-/A-91642571",
-      tags: "Aladdin, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aladdin",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-aladdin-lago-and-flamingo-t-shirt/-/A-91641982",
-      tags: "Aladdin, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aladdin",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-aladdin-jasmine-don-t-be-basic-t-shirt/-/A-91642446",
-      tags: "Aladdin, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aladdin",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-aladdin-a-whole-new-world-t-shirt/-/A-91642126",
-      tags: "Aladdin, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aladdin",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-aladdin-whole-new-world-heart-couple-t-shirt/-/A-91642672",
-      tags: "Aladdin, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aladdin",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-aladdin-visit-agrabah-it-s-a-whole-new-world-t-shirt/-/A-91642061",
-      tags: "Aladdin, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aladdin",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-aladdin-cosmic-dreamer-t-shirt/-/A-91641907",
-      tags: "Aladdin, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aladdin",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-aladdin-on-a-magic-carpet-ride-t-shirt/-/A-91642583",
-      tags: "Aladdin, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aladdin",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-aladdin-agrabah-cave-of-wonders-t-shirt/-/A-91642174",
-      tags: "Aladdin, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aladdin",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-aladdin-cave-of-wonder-agrabah-t-shirt/-/A-91642280",
-      tags: "Aladdin, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aladdin",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-aladdin-jasmine-don-t-be-basic-t-shirt/-/A-91642446",
-      tags: "Aladdin, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aladdin",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-alice-in-wonderland-did-someone-say-party-performance-tee/-/A-85824146",
-      tags: "Alice in Wonderland, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Alice in Wonderland",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-alice-in-wonderland-alice-curiouser-and-curiouser-performance-tee/-/A-85633133",
-      tags: "Alice in Wonderland, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Alice in Wonderland",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-alice-in-wonderland-alice-in-colorful-scary-forest-performance-tee/-/A-85633316",
-      tags: "Alice in Wonderland, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Alice in Wonderland",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-alice-in-wonderland-cartoon-alice-portrait-performance-tee/-/A-85633401",
-      tags: "Alice in Wonderland, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Alice in Wonderland",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-alice-in-wonderland-caterpillar-who-are-you-performance-tee/-/A-85823849",
-      tags: "Alice in Wonderland, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Alice in Wonderland",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-alice-in-wonderland-cheshire-cat-we-re-all-mad-here-performance-tee/-/A-85824230",
-      tags: "Alice in Wonderland, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Alice in Wonderland",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-alice-in-wonderland-not-all-there-cheshire-cat-performance-tee/-/A-85633127",
-      tags: "Alice in Wonderland, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Alice in Wonderland",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-alice-in-wonderland-any-road-will-take-you-there-the-white-rabbit-t-shirt/-/A-85633406",
-      tags: "Alice in Wonderland, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Alice in Wonderland",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-alice-in-wonderland-map-of-cheshire-cat-paw-prints-t-shirt/-/A-85633152",
-      tags: "Alice in Wonderland, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Alice in Wonderland",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-alice-in-wonderland-alice-and-mad-hatter-party-t-shirt/-/A-85637109",
-      tags: "Alice in Wonderland, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Alice in Wonderland",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-alice-in-wonderland-did-someone-say-party-t-shirt/-/A-85824208",
-      tags: "Alice in Wonderland, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Alice in Wonderland",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-alice-in-wonderland-cheshire-cat-pocket-sketch-t-shirt/-/A-85823832",
-      tags: "Alice in Wonderland, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Alice in Wonderland",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-alice-in-wonderland-artistic-alice-long-hair-tea-party-performance-tee/-/A-85633373",
-      tags: "Alice in Wonderland, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Alice in Wonderland",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-alice-in-wonderland-the-white-rabbit-sorry-i-m-late-t-shirt/-/A-85637097",
-      tags: "Alice in Wonderland, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Alice in Wonderland",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-alice-in-wonderland-cheshire-cat-we-re-all-mad-here-t-shirt/-/A-85824251",
-      tags: "Alice in Wonderland, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Alice in Wonderland",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-alice-in-wonderland-cheshire-cat-we-re-all-mad-here-square-t-shirt/-/A-85823944",
-      tags: "Alice in Wonderland, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Alice in Wonderland",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-alice-in-wonderland-i-can-t-be-bothered-says-absolem-t-shirt/-/A-85633395",
-      tags: "Alice in Wonderland, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Alice in Wonderland",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-alice-in-wonderland-cheshire-cat-we-re-all-mad-here-colorful-t-shirt/-/A-85824217",
-      tags: "Alice in Wonderland, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Alice in Wonderland",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-alice-in-wonderland-i-am-not-myself-silhouette-performance-tee/-/A-85824029",
-      tags: "Alice in Wonderland, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Alice in Wonderland",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-alice-in-wonderland-alice-the-white-rabbit-color-outlines-t-shirt/-/A-85637103",
-      tags: "Alice in Wonderland, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Alice in Wonderland",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-alice-in-wonderland-mad-hatter-time-for-tea-outline-t-shirt/-/A-85824115",
-      tags: "Alice in Wonderland, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Alice in Wonderland",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-alice-in-wonderland-alice-in-bottle-mirror-poster-t-shirt/-/A-85637028",
-      tags: "Alice in Wonderland, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Alice in Wonderland",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-alice-in-wonderland-cheshire-cat-pocket-sketch-performance-tee/-/A-85823964",
-      tags: "Alice in Wonderland, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Alice in Wonderland",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-alice-in-wonderland-artistic-alice-long-hair-tea-party-t-shirt/-/A-85633368",
-      tags: "Alice in Wonderland, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Alice in Wonderland",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-alice-in-wonderland-distressed-group-shot-t-shirt/-/A-85824314",
-      tags: "Alice in Wonderland, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Alice in Wonderland",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-alice-in-wonderland-alice-and-the-talking-flowers-t-shirt/-/A-85633197",
-      tags: "Alice in Wonderland, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Alice in Wonderland",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-alice-in-wonderland-alice-in-colorful-scary-forest-t-shirt/-/A-85633347",
-      tags: "Alice in Wonderland, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Alice in Wonderland",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-alice-in-wonderland-retro-movie-poster-t-shirt/-/A-85823925",
-      tags: "Alice in Wonderland, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Alice in Wonderland",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-alice-in-wonderland-mad-hatter-time-for-tea-t-shirt/-/A-85823913",
-      tags: "Alice in Wonderland, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Alice in Wonderland",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-alice-in-wonderland-alice-lost-stuck-in-a-bottle-t-shirt/-/A-85637035",
-      tags: "Alice in Wonderland, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Alice in Wonderland",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-alice-in-wonderland-a-very-merry-unbirthday-t-shirt/-/A-85824122",
-      tags: "Alice in Wonderland, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Alice in Wonderland",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-alice-in-wonderland-i-am-not-myself-silhouette-t-shirt/-/A-85824056",
-      tags: "Alice in Wonderland, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Alice in Wonderland",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-alice-in-wonderland-i-can-t-be-bothered-says-absolem-performance-tee/-/A-85633412",
-      tags: "Alice in Wonderland, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Alice in Wonderland",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-alice-in-wonderland-we-re-all-mad-here-trippy-performance-tee/-/A-87811426",
-      tags: "Alice in Wonderland, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Alice in Wonderland",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-alice-in-wonderland-alice-oh-dear-cried-so-much-t-shirt/-/A-85633226",
-      tags: "Alice in Wonderland, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Alice in Wonderland",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-short-sleeve-graphic-t-shirt-all-in-motion/-/A-94471835",
-      tags: "All In Motion, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "All In Motion",
-      },
-    },
-    {
-      url: "https://www.target.com/p/andy-evan-toddler-long-sleeve-two-fer-graphic-tee-shirt/-/A-93166968",
-      tags: "Andy & Evan, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Andy & Evan",
-      },
-    },
-    {
-      url: "https://www.target.com/p/andy-evan-toddler-halloween-dino-graphic-twofer-tee/-/A-1005060931",
-      tags: "Andy & Evan, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Andy & Evan",
-      },
-    },
-    {
-      url: "https://www.target.com/p/andy-evan-toddler-heather-grey-jersey-hooded-tee/-/A-93280885",
-      tags: "Andy & Evan, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Andy & Evan",
-      },
-    },
-    {
-      url: "https://www.target.com/p/andy-evan-toddler-long-sleeve-raglan-color-blocked-alphabet-tee/-/A-1005060932",
-      tags: "Andy & Evan, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Andy & Evan",
-      },
-    },
-    {
-      url: "https://www.target.com/p/wakko-and-yakko-youth-tshirt-boys-graphic-tee/-/A-84707120",
-      tags: "Animaniacs, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Animaniacs",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-ant-man-and-the-wasp-quantumania-movie-logo-white-t-shirt/-/A-89016757",
-      tags: "Ant-Man, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Ant-Man",
-      },
-    },
-    {
-      url: "https://www.target.com/p/aquaman-logo-trap-graphics-boy-s-navy-t-shirt/-/A-85450817",
-      tags: "Aquaman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aquaman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-aquaman-king-shark-ride-t-shirt/-/A-92917056",
-      tags: "Aquaman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aquaman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/aquaman-savior-of-the-seas-boy-s-navy-t-shirt/-/A-85450811",
-      tags: "Aquaman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aquaman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/aquaman-fight-for-justice-boy-s-heather-grey-t-shirt/-/A-84706842",
-      tags: "Aquaman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aquaman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/justice-league-movie-aquaman-throne-boy-s-navy-tee/-/A-85451118",
-      tags: "Aquaman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aquaman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-aquaman-and-the-lost-kingdom-retro-action-pose-t-shirt/-/A-90058464",
-      tags: "Aquaman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aquaman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/justice-league-movie-aquaman-emblem-boy-s-navy-t-shirt/-/A-85783079",
-      tags: "Aquaman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aquaman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-aquaman-and-the-lost-kingdom-retro-window-poster-t-shirt/-/A-90058273",
-      tags: "Aquaman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aquaman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-aquaman-and-the-lost-kingdom-black-manta-portrait-t-shirt/-/A-90058577",
-      tags: "Aquaman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aquaman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/justice-league-movie-aquaman-logo-and-trident-boy-s-navy-t-shirt/-/A-85783125",
-      tags: "Aquaman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aquaman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-aquaman-trident-shape-t-shirt/-/A-92917224",
-      tags: "Aquaman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aquaman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-aquaman-king-ocean-rain-t-shirt/-/A-92917206",
-      tags: "Aquaman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aquaman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-aquaman-king-trident-t-shirt/-/A-92913448",
-      tags: "Aquaman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aquaman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-aquaman-king-swimming-shape-t-shirt/-/A-92916856",
-      tags: "Aquaman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aquaman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-aquaman-king-bubbles-t-shirt/-/A-92913486",
-      tags: "Aquaman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aquaman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-aquaman-king-water-shape-t-shirt/-/A-92917151",
-      tags: "Aquaman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aquaman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-aquaman-and-the-lost-kingdom-shiny-emblem-t-shirt/-/A-90058315",
-      tags: "Aquaman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aquaman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-aquaman-and-the-lost-kingdom-black-manta-distressed-surf-t-shirt/-/A-90058579",
-      tags: "Aquaman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aquaman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-aquaman-king-ocean-shadow-t-shirt/-/A-92917408",
-      tags: "Aquaman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aquaman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-aquaman-and-the-lost-kingdom-shiny-trident-t-shirt/-/A-90058328",
-      tags: "Aquaman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aquaman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-aquaman-trident-king-swimming-t-shirt/-/A-92917513",
-      tags: "Aquaman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aquaman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-aquaman-king-of-atlantis-t-shirt/-/A-92913611",
-      tags: "Aquaman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Aquaman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-cutoff-tank-top-art-class/-/A-94189986",
-      tags: "Art Class, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Art Class",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-short-sleeve-t-shirt-art-class/-/A-94473760",
-      tags: "Art Class, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Art Class",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-avatar-the-way-of-water-jake-sully-face-logo-t-shirt/-/A-89015922",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Avatar",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-avatar-the-way-of-water-tulkun-ride-logo-t-shirt/-/A-89016041",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Avatar",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-avatar-the-way-of-water-neytiri-half-face-logo-t-shirt/-/A-89015789",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Avatar",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-avatar-neytiri-pandora-night-scene-t-shirt/-/A-87692141",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Avatar",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-avatar-great-leonopteryx-badge-t-shirt/-/A-87692125",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Avatar",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-avatar-pandora-diagrams-t-shirt/-/A-87692251",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Avatar",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-avatar-the-way-of-water-ilus-portrait-t-shirt/-/A-89015821",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Avatar",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-avatar-panopyras-scene-t-shirt/-/A-87692225",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Avatar",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-avatar-the-world-of-pandora-t-shirt/-/A-87692576",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Avatar",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-avatar-the-way-of-water-pandora-flying-logo-t-shirt/-/A-89015885",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Avatar",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-avatar-discover-pandora-t-shirt/-/A-87692235",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Avatar",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-avatar-pandora-panopyra-and-woodsprites-diagram-t-shirt/-/A-87692105",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Avatar",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-avatar-great-leonopteryx-pandora-planet-t-shirt/-/A-87692136",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Avatar",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-avatar-the-way-of-water-neytiri-face-logo-t-shirt/-/A-89015966",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Avatar",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-avatar-the-way-of-water-great-leonopteryx-silhouette-scenic-logo-t-shirt/-/A-89016093",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Avatar",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-avatar-the-way-of-water-ilu-logo-t-shirt/-/A-89015925",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Avatar",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-avatar-neytiri-a-world-like-no-other-t-shirt/-/A-87692499",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Avatar",
-      },
-    },
-    {
-      url: "https://www.target.com/p/avatar-the-last-airbender-sokka-aang-katara-3-pack-t-shirts-little-kid-to-big-kid/-/A-85275713",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-appa-flying-long-sleeve-graphic-t-shirt/-/A-1000428482",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-aang-arrows-long-sleeve-graphic-t-shirt/-/A-1000429360",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-toph-long-sleeve-graphic-t-shirt/-/A-1000425661",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-trio-long-sleeve-graphic-t-shirt/-/A-1000425286",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-aang-happy-flying-long-sleeve-graphic-t-shirt/-/A-1000429221",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-aang-crest-long-sleeve-graphic-t-shirt/-/A-1000430032",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-nations-symbols-long-sleeve-graphic-t-shirt/-/A-1000426831",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-elements-harmony-long-sleeve-graphic-t-shirt/-/A-1000427418",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-sokka-aang-katara-long-sleeve-graphic-t-shirt/-/A-1000426291",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-appa-hungry-long-sleeve-graphic-t-shirt/-/A-1000428479",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-aang-group-long-sleeve-graphic-t-shirt/-/A-1000429258",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-aang-airbending-long-sleeve-graphic-t-shirt/-/A-1000429757",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-aang-ink-splatter-long-sleeve-graphic-t-shirt/-/A-1000428805",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-aang-momo-kanji-long-sleeve-graphic-t-shirt/-/A-1000428646",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-aang-wind-long-sleeve-graphic-t-shirt/-/A-1000428547",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-momo-cute-long-sleeve-graphic-t-shirt/-/A-1000426505",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-four-elements-square-long-sleeve-graphic-t-shirt/-/A-1000429840",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-sokka-nope-long-sleeve-graphic-t-shirt/-/A-1000425828",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-four-elements-inverse-long-sleeve-graphic-t-shirt/-/A-1000427102",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-four-elements-long-sleeve-graphic-t-shirt/-/A-1000427333",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-zuko-fire-nation-long-sleeve-graphic-t-shirt/-/A-1000424720",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-aang-2005-long-sleeve-graphic-t-shirt/-/A-1000429883",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-boomerang-guy-long-sleeve-graphic-t-shirt/-/A-1000427727",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-boomerang-guy-long-sleeve-graphic-t-shirt/-/A-1000427727",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-four-nations-long-sleeve-graphic-t-shirt/-/A-1000427049",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-moon-and-ocean-spirit-koi-long-sleeve-graphic-t-shirt/-/A-1000426468",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-aang-sitting-avatar-state-long-sleeve-graphic-t-shirt/-/A-1000424772",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-same-roots-long-sleeve-graphic-t-shirt/-/A-1000429856",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-aang-momo-happy-long-sleeve-graphic-t-shirt/-/A-1000429077",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-katara-and-aang-grid-long-sleeve-graphic-t-shirt/-/A-1000429865",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-avatar-state-aang-long-sleeve-graphic-t-shirt/-/A-1000428071",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-cute-appa-yip-yip-long-sleeve-graphic-t-shirt/-/A-1000427429",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-battle-face-long-sleeve-graphic-t-shirt/-/A-1000428038",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-aang-swirl-long-sleeve-graphic-t-shirt/-/A-1000428474",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-jasmine-dragon-tea-long-sleeve-graphic-t-shirt/-/A-1000426873",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-toph-melon-lord-long-sleeve-graphic-t-shirt/-/A-1000425606",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-trio-squad-long-sleeve-graphic-t-shirt/-/A-1000425448",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-avatar-the-last-airbender-aang-and-penguins-t-shirt/-/A-87693707",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-air-water-earth-fire-grid-short-sleeve-graphic-t-shirt/-/A-93834518",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-avatar-state-aang-short-sleeve-graphic-t-shirt/-/A-1000427964",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-toph-aang-katara-zuko-four-elements-short-sleeve-graphic-t-shirt/-/A-93834434",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-appa-hungry-short-sleeve-graphic-t-shirt/-/A-1001733228",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-toph-melon-lord-short-sleeve-graphic-t-shirt/-/A-93834488",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-toph-short-sleeve-graphic-t-shirt/-/A-1000425706",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-trio-short-sleeve-graphic-t-shirt/-/A-1000425611",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-aang-and-momo-short-sleeve-graphic-t-shirt/-/A-93834609",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-aang-sokka-katara-trio-short-sleeve-graphic-t-shirt/-/A-93834419",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-better-place-short-sleeve-graphic-t-shirt/-/A-1000430019",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-zuko-katara-aang-toph-nation-elements-short-sleeve-graphic-t-shirt/-/A-93834430",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-appa-katara-sokka-aang-momo-flying-short-sleeve-graphic-t-shirt/-/A-93834583",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-aang-punch-short-sleeve-graphic-t-shirt/-/A-93834604",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-aang-wind-short-sleeve-graphic-t-shirt/-/A-1000428535",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-aang-momo-kanji-short-sleeve-graphic-t-shirt/-/A-1000428666",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-staff-short-sleeve-graphic-t-shirt/-/A-1000425691",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-momo-cute-short-sleeve-graphic-t-shirt/-/A-1000426757",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-aang-arrows-short-sleeve-graphic-t-shirt/-/A-1000429981",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-elements-harmony-short-sleeve-graphic-t-shirt/-/A-1000427439",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-sokka-nope-not-today-short-sleeve-graphic-t-shirt/-/A-93834411",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-jasmine-dragon-tea-short-sleeve-graphic-t-shirt/-/A-1000426864",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-aang-swirl-short-sleeve-graphic-t-shirt/-/A-1000428616",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-aang-airbending-short-sleeve-graphic-t-shirt/-/A-1000429647",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-prince-zuko-fire-nation-short-sleeve-graphic-t-shirt/-/A-93834420",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-four-elements-short-sleeve-graphic-t-shirt/-/A-1001733044",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-aang-and-katara-elements-grid-short-sleeve-graphic-t-shirt/-/A-93834616",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-cute-appa-yip-yip-short-sleeve-graphic-t-shirt/-/A-1001733279",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-aang-crest-short-sleeve-graphic-t-shirt/-/A-1000430034",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-aang-2005-short-sleeve-graphic-t-shirt/-/A-93834614",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-trio-squad-short-sleeve-graphic-t-shirt/-/A-1000425316",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-aang-ink-splatter-short-sleeve-graphic-t-shirt/-/A-1000428916",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-same-roots-short-sleeve-graphic-t-shirt/-/A-1000429900",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-zuko-calming-tea-short-sleeve-graphic-t-shirt/-/A-1000424950",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-trio-squad-short-sleeve-graphic-t-shirt/-/A-1000425316",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-nations-symbols-short-sleeve-graphic-t-shirt/-/A-1000426893",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-sokka-just-a-guy-with-a-boomerang-short-sleeve-graphic-t-shirt/-/A-93834574",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-aang-happy-flying-short-sleeve-graphic-t-shirt/-/A-1000429161",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-fire-nation-short-sleeve-graphic-t-shirt/-/A-1000427631",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-water-tribe-short-sleeve-graphic-t-shirt/-/A-93834408",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-four-elements-short-sleeve-graphic-t-shirt/-/A-93834431",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-zuko-calming-tea-short-sleeve-graphic-t-shirt/-/A-1000424950",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-moon-and-ocean-spirit-koi-short-sleeve-graphic-t-shirt/-/A-1000426457",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-avatar-the-last-airbender-classic-logo-circle-silhouette-t-shirt/-/A-87693868",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-four-elements/-/A-1000587723",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-momo-cute/-/A-1000587633",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-aang-sitting-avatar-state/-/A-1000587531",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-same-roots/-/A-1000587852",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-sokka-nope/-/A-1000587595",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-four-nations/-/A-1000587672",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-aang-happy-flying/-/A-1000587804",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-aang-swirl/-/A-1000587814",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-aang-ink-splatter/-/A-1000587751",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-cute-appa-yip-yip/-/A-1000587744",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-boomerang-guy/-/A-1000587713",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-zuko-fire-nation/-/A-1000587552",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-jasmine-dragon-tea/-/A-1000587662",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-sokka-aang-katara/-/A-1000587605",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-aang-happy-flying/-/A-1000587804",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-moon-and-ocean-spirit-koi/-/A-1000587628",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-aang-sitting-avatar-state/-/A-1000587531",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-sokka-aang-katara/-/A-1000587605",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-sokka-nope/-/A-1000587595",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-trio-squad/-/A-1000587562",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-zuko-calming-tea/-/A-1000587557",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-appa-hungry/-/A-1000587772",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-four-nations/-/A-1000587672",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-avatar-the-last-airbender-boomerang-guy/-/A-1000587713",
-      tags: "Avatar, Boys’ Clothing, Graphic Tees, Kids’ Clothing, The Last Airbender, Tops",
-      filters: {
-        brand: "Avatar: The Last Airbender",
-      },
-    },
-    {
-      url: "https://www.target.com/p/seven-times-six-marvel-boys-superhero-inspired-block-letter-logo-design-t-shirt-black/-/A-1003836731",
-      tags: "Avengers, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Avengers",
-      },
-    },
-    {
-      url: "https://www.target.com/p/marvel-avengers-boys-hulk-iron-man-captain-america-jersey-t-shirt-tee/-/A-91166439",
-      tags: "Avengers, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Avengers",
-      },
-    },
-    {
-      url: "https://www.target.com/p/seven-times-six-marvel-big-boys-avengers-character-grid-8-bit-pixel-art-t-shirt-red/-/A-1000995716",
-      tags: "Avengers, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Avengers",
-      },
-    },
-    {
-      url: "https://www.target.com/p/marvel-avengers-captain-america-black-panther-iron-man-short-sleeve-graphic-t-shirt/-/A-1001856858",
-      tags: "Avengers, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Avengers",
-      },
-    },
-    {
-      url: "https://www.target.com/p/marvel-eternals-avengers-shang-chi-and-the-legend-of-the-ten-rings-2-pack-t-shirts-little-kid-to-big-kid/-/A-1001926054",
-      tags: "Avengers, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Avengers",
-      },
-    },
-    {
-      url: "https://www.target.com/p/marvel-boys-avengers-in-action-character-group-kids-long-sleeve-t-shirt/-/A-92507087",
-      tags: "Avengers, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Avengers",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-marvel-avengers-endgame-cap-smudged-shield-t-shirt/-/A-85815965",
-      tags: "Avengers, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Avengers",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bauer-youth-short-sleeve-t-shirt-m-c-vintage-large/-/A-89831027",
-      tags: "BAUER Hockey, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "BAUER Hockey",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bauer-youth-short-sleeve-t-shirt-m-c-vintage-small/-/A-89831038",
-      tags: "BAUER Hockey, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "BAUER Hockey",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bauer-youth-short-sleeve-t-shirt-m-c-vintage-x-large/-/A-89831041",
-      tags: "BAUER Hockey, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "BAUER Hockey",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-back-to-the-future-delorean-cartoon-performance-tee/-/A-85153757",
-      tags: "Back to the Future, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Back to the Future",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-back-to-the-future-delorean-cartoon-t-shirt/-/A-79783080",
-      tags: "Back to the Future, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Back to the Future",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-back-to-the-future-part-3-character-pose-t-shirt/-/A-82354155",
-      tags: "Back to the Future, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Back to the Future",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-back-to-the-future-retro-delorean-poster-t-shirt/-/A-86177141",
-      tags: "Back to the Future, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Back to the Future",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-back-to-the-future-part-2-electric-delorean-t-shirt/-/A-82353034",
-      tags: "Back to the Future, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Back to the Future",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-back-to-the-future-retro-marty-mcfly-poster-t-shirt/-/A-82356849",
-      tags: "Back to the Future, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Back to the Future",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-back-to-the-future-delorean-schematic-print-t-shirt/-/A-86176242",
-      tags: "Back to the Future, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Back to the Future",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-backstreet-boys-blue-glowing-circle-t-shirt/-/A-1002997063",
-      tags: "Backstreet Boys, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Backstreet Boys",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-backstreet-boys-group-signatures-distressed-t-shirt/-/A-92917346",
-      tags: "Backstreet Boys, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Backstreet Boys",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-backstreet-boys-blue-millennium-t-shirt/-/A-1002997169",
-      tags: "Backstreet Boys, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Backstreet Boys",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-bambi-movie-cover-title-poster-performance-tee/-/A-86126501",
-      tags: "Bambi, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bambi",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-bambi-twitterpated-love-advice-performance-tee/-/A-86126484",
-      tags: "Bambi, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bambi",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-bambi-choose-kindness-t-shirt/-/A-90374954",
-      tags: "Bambi, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bambi",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-bambi-happy-easter-thumper-performance-tee/-/A-86126596",
-      tags: "Bambi, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bambi",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-bambi-happy-easter-thumper-t-shirt/-/A-86126830",
-      tags: "Bambi, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bambi",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-bambi-movie-logo-with-flower-and-thumper-performance-tee/-/A-86126509",
-      tags: "Bambi, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bambi",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-bambi-friend-to-all-animals-t-shirt/-/A-86127212",
-      tags: "Bambi, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bambi",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-bambi-prince-of-the-forest-t-shirt/-/A-86127245",
-      tags: "Bambi, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bambi",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-bambi-classic-floral-movie-title-poster-t-shirt/-/A-86127239",
-      tags: "Bambi, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bambi",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-bambi-movie-cover-title-poster-t-shirt/-/A-86127196",
-      tags: "Bambi, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bambi",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-bambi-portrait-of-flower-t-shirt/-/A-86127207",
-      tags: "Bambi, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bambi",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-bambi-name-stack-pose-t-shirt/-/A-86127237",
-      tags: "Bambi, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bambi",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-bambi-face-portrait-t-shirt/-/A-86126544",
-      tags: "Bambi, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bambi",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-bambi-friends-square-t-shirt/-/A-90375741",
-      tags: "Bambi, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bambi",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-bambi-artistic-friends-of-the-forest-t-shirt/-/A-86126706",
-      tags: "Bambi, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bambi",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-bambi-failine-thumper-flower-character-boxes-t-shirt/-/A-86126574",
-      tags: "Bambi, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bambi",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-bambi-thumper-line-art-t-shirt/-/A-86126865",
-      tags: "Bambi, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bambi",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-bambi-happy-easter-thumper-t-shirt/-/A-1002737702",
-      tags: "Bambi, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bambi",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-39-barbie-kenough-short-sleeve-graphic-t-shirt-black/-/A-89823607",
-      tags: "Barbie, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Barbie",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-cracked-bat-logo-youth-athletic-heather-graphic-tee/-/A-85730770",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-vintage-graphic-youth-boy-s-black-long-sleeve-shirt/-/A-85581124",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dc-comics-boys-batman-vapor-bat-signal-graphic-print-t-shirt-kids/-/A-91927503",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-hero-logo-4pk-crew-neck-short-sleeve-youth-boy-s-t-shirts/-/A-88220630",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/youth-boys-batman-3-pc-hoodie-jogger-t-shirt-combo/-/A-90021882",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-comics-poster-boy-s-heather-grey-long-sleeve-shirt/-/A-85731642",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-batman-american-flag-oval-t-shirt/-/A-1004374189",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/justice-league-chibi-batman-colorful-shadow-boy-s-heather-grey-long-sleeve-shirt/-/A-85731630",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-the-dark-knight-line-art-boy-s-athletic-heather-long-sleeve-shirt/-/A-86316449",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-dripping-mask-logo-boy-s-athletic-heather-long-sleeve-shirt/-/A-86316453",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-batman-american-batman-t-shirt/-/A-1004374376",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/kids-batman-cityscape-detective-comics-t-shirt/-/A-1002858738",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-kicking-shark-s-face-youth-navy-blue-graphic-tee/-/A-85729697",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-sweetride-youth-athletic-heather-graphic-tee/-/A-85730199",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/youth-boys-navy-blue-batman-symbol-gotham-city-skyline-graphic-tee-shirt/-/A-84941147",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-distressed-bat-logo-youth-athletic-heather-graphic-tee/-/A-85730535",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/youth-boys-dc-comic-book-batman-repeat-text-athletic-grey-graphic-tee-shirt/-/A-84941757",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-stitch-character-and-title-boys-athletic-heather-graphic-tee/-/A-85729043",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-i-get-to-stay-up-late-youth-royal-blue-graphic-tee/-/A-85729982",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-character-silhouette-youth-charcoal-gray-graphic-tee/-/A-84941186",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-colorful-images-and-logos-youth-navy-blue-graphic-tee/-/A-85729221",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-cosplay-costume-youth-athletic-gray-graphic-tee/-/A-85730811",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-classic-emblem-youth-athletic-gray-graphic-tee/-/A-85729192",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-never-mess-with-a-superhero-youth-navy-blue-graphic-tee/-/A-85730173",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dc-comic-book-batman-corner-placement-youth-boys-heather-grey-graphic-tee-shirt/-/A-84942022",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-geometric-superhero-youth-charcoal-graphic-tee/-/A-85730168",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-no-te-metas-con-un-superheroe-youth-athletic-gray-graphic-tee/-/A-85729685",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-dripping-logo-trap-graphics-boy-s-athletic-heather-t-shirt/-/A-85730363",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-scrambled-classic-logo-youth-athletic-gray-graphic-tee/-/A-85729516",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dc-league-of-super-pets-batman-and-ace-silhouettes-boy-s-athletic-heather-tee/-/A-87217709",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-game-over-diagonal-graphic-youth-boy-s-royal-blue-t-shirt/-/A-87450428",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-melting-bat-signal-youth-black-short-sleeve-crew-neck-tee/-/A-90060797",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-pixel-art-youth-boys-athletic-heather-gray-t-shirt/-/A-85729650",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-youth-boy-cosplay-t-shirt-with-detachable-cape/-/A-1004206478",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/justice-league-batman-and-comrades-boy-s-navy-t-shirt/-/A-85450705",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-core-character-inside-triangle-youth-boy-s-charcoal-t-shirt/-/A-85351964",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-robin-costume-boy-s-red-cosplay/-/A-84707050",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-nocturnal-hero-boy-s-royal-blue-t-shirt/-/A-86102445",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-hidden-costume-tear-boy-s-charcoal-t-shirt/-/A-85729922",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-joker-bat-splatter-boy-s-navy-blue-t-shirt/-/A-84707148",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-cosplay-boy-s-athletic-heather-t-shirt/-/A-85729152",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-dynamic-team-up-youth-boy-s-athletic-heather-gray-t-shirt/-/A-87450538",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-americana-logo-boy-s-royal-blue-t-shirt/-/A-86062498",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-cosplay-boy-s-charcoal-t-shirt/-/A-85730833",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-half-art-boy-s-heather-grey-t-shirt/-/A-85354560",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-joker-and-batman-face-collage-art-boy-s-charcoal-heather-t-shirt/-/A-86062448",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-pixel-logo-boy-s-charcoal-t-shirt/-/A-85353801",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-dark-knight-boy-s-charcoal-t-shirt/-/A-85730703",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-curved-text-youth-boy-s-navy-t-shirt/-/A-85351998",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-arkham-origins-damaged-suit-boy-s-navy-t-shirt/-/A-85729078",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-chibi-batman-crew-neck-short-sleeve-athletic-heather-boy-s-t-shirt/-/A-88043047",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-man-in-mask-boy-s-charcoal-heather-t-shirt/-/A-86062571",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-the-dark-knight-boy-s-navy-t-shirt/-/A-85783101",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-core-stacked-characters-youth-boy-s-royal-blue-t-shirt/-/A-85352056",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/youth-boys-batman-80th-anniversary-short-sleeve-t-shirt/-/A-84706818",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-joker-with-playing-cards-boy-s-white-t-shirt/-/A-84707073",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-robin-and-nightwing-geometrical-design-youth-boy-s-athletic-heather-gray-t-shirt/-/A-87450532",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-joker-costume-boy-s-black-cosplay/-/A-88297456",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-arkham-origins-text-logo-boy-s-heather-grey-t-shirt/-/A-85730964",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-bat-signal-pattern-youth-black-short-sleeve-crew-neck-tee/-/A-90067273",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-bat-signal-logo-checkered-background-boy-s-navy-blue-t-shirt/-/A-85353070",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-core-the-dark-knight-on-black-short-sleeve-youth-t-shirt/-/A-1005197029",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-capedcrusader-youth-boys-athletic-heather-gray-t-shirt/-/A-85730051",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-core-doodle-logo-w-text-on-black-short-sleeve-youth-t-shirt/-/A-1005131112",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-core-text-on-superhero-character-on-black-t-shirt-short-sleeve-youth-t-shirt/-/A-1005197092",
-      tags: "Batman, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Batman",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-battlebots-it-s-robot-fighting-time-t-shirt/-/A-85993357",
-      tags: "BattleBots, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "BattleBots",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-battlebots-white-logo-t-shirt/-/A-85993180",
-      tags: "BattleBots, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "BattleBots",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-battlebots-most-ruthless-competitors-t-shirt/-/A-85992960",
-      tags: "BattleBots, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "BattleBots",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-battlebots-bot-fan-t-shirt/-/A-85993024",
-      tags: "BattleBots, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "BattleBots",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-battlebots-i-like-big-bots-that-will-not-die-t-shirt/-/A-85992990",
-      tags: "BattleBots, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "BattleBots",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-battlebots-red-and-blue-logo-t-shirt/-/A-85993298",
-      tags: "BattleBots, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "BattleBots",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-battlebots-silver-and-blue-logo-stack-t-shirt/-/A-85993315",
-      tags: "BattleBots, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "BattleBots",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-battlebots-whiplash-sawblaze-and-rotator-t-shirt/-/A-85993388",
-      tags: "BattleBots, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "BattleBots",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-battlebots-jackpot-sawblaze-and-lock-jaw-t-shirt/-/A-85993148",
-      tags: "BattleBots, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "BattleBots",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-battlebots-blue-neon-robots-t-shirt/-/A-85993343",
-      tags: "BattleBots, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "BattleBots",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-battlebots-retro-robot-collage-t-shirt/-/A-85993474",
-      tags: "BattleBots, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "BattleBots",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-beauty-and-the-beast-hashtag-furball-t-shirt/-/A-91642303",
-      tags: "Beauty and the Beast, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Beauty and the Beast",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-beauty-and-the-beast-beast-t-shirt/-/A-91642684",
-      tags: "Beauty and the Beast, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Beauty and the Beast",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-beauty-and-the-beast-character-silhouette-t-shirt/-/A-91642507",
-      tags: "Beauty and the Beast, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Beauty and the Beast",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-beauty-and-the-beast-chip-large-portrait-t-shirt/-/A-91641806",
-      tags: "Beauty and the Beast, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Beauty and the Beast",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-beauty-and-the-beast-halloween-beast-costume-t-shirt/-/A-1001940969",
-      tags: "Beauty and the Beast, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Beauty and the Beast",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-beauty-and-the-beast-cartoon-belle-t-shirt/-/A-91641780",
-      tags: "Beauty and the Beast, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Beauty and the Beast",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-beauty-and-the-beast-distressed-gaston-flex-t-shirt/-/A-91642585",
-      tags: "Beauty and the Beast, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Beauty and the Beast",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-beauty-and-the-beast-sketch-profile-t-shirt/-/A-91642706",
-      tags: "Beauty and the Beast, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Beauty and the Beast",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-beauty-and-the-beast-stare-t-shirt/-/A-91642642",
-      tags: "Beauty and the Beast, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Beauty and the Beast",
-      },
-    },
-    {
-      url: "https://www.target.com/p/beetlejuice-chibi-strange-and-unusual-youth-athletic-gray-graphic-tee/-/A-87252687",
-      tags: "Beetlejuice, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Beetlejuice",
-      },
-    },
-    {
-      url: "https://www.target.com/p/beetlejuice-animated-series-lydia-and-beetlejuice-youth-boy-s-athletic-gray-t-shirt/-/A-85351903",
-      tags: "Beetlejuice, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Beetlejuice",
-      },
-    },
-    {
-      url: "https://www.target.com/p/beetlejuice-classic-movie-youth-boys-character-text-navy-blue-t-shirt/-/A-84706802",
-      tags: "Beetlejuice, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Beetlejuice",
-      },
-    },
-    {
-      url: "https://www.target.com/p/beetlejuice-the-ghost-with-the-most-boy-s-athletic-heather-t-shirt/-/A-87215580",
-      tags: "Beetlejuice, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Beetlejuice",
-      },
-    },
-    {
-      url: "https://www.target.com/p/beetlejuice-animated-series-lady-lydia-youth-boy-s-royal-blue-t-shirt/-/A-85352163",
-      tags: "Beetlejuice, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Beetlejuice",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-beetlejuice-ghost-with-the-most-silhouette-t-shirt/-/A-92783354",
-      tags: "Beetlejuice, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Beetlejuice",
-      },
-    },
-    {
-      url: "https://www.target.com/p/beetlejuice-animated-series-lydia-beetlejuice-crew-neck-short-sleeve-navy-blue-boy-s-t-shirt/-/A-88868076",
-      tags: "Beetlejuice, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Beetlejuice",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-beetlejuice-it-s-showtime-repeat-t-shirt/-/A-92783549",
-      tags: "Beetlejuice, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Beetlejuice",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-betty-boop-all-american-t-shirt/-/A-1004374175",
-      tags: "Betty Boop, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Betty Boop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-betty-boop-all-american-biker-t-shirt/-/A-1004374124",
-      tags: "Betty Boop, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Betty Boop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-betty-boop-all-american-t-shirt/-/A-1004374219",
-      tags: "Betty Boop, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Betty Boop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/seven-times-six-beyblade-burst-boys-spinner-tops-graphic-character-grid-t-shirt-blue/-/A-91166643",
-      tags: "Beyblade, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Beyblade",
-      },
-    },
-    {
-      url: "https://www.target.com/p/beyblade-burst-boys-spinner-tops-t-shirt/-/A-91166531",
-      tags: "Beyblade, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Beyblade",
-      },
-    },
-    {
-      url: "https://www.target.com/p/beyblade-burst-boys-4-spinner-tops-design-fafnir-let-it-rip-t-shirt-beyblade-let-it-rip/-/A-84295150",
-      tags: "Beyblade, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Beyblade",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-big-hero-6-hello-i-am-baymax-t-shirt/-/A-82357752",
-      tags: "Big Hero 6, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Big Hero 6",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-big-hero-6-baymax-excuse-me-t-shirt/-/A-82358609",
-      tags: "Big Hero 6, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Big Hero 6",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-big-hero-6-valentine-s-baymax-likes-hugs-t-shirt/-/A-86926740",
-      tags: "Big Hero 6, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Big Hero 6",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-big-hero-6-hero-hexagon-t-shirt/-/A-85089265",
-      tags: "Big Hero 6, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Big Hero 6",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-big-hero-6-group-hug-t-shirt/-/A-85088616",
-      tags: "Big Hero 6, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Big Hero 6",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-big-hero-6-holiday-hugs-from-son-t-shirt/-/A-84867038",
-      tags: "Big Hero 6, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Big Hero 6",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-big-hero-6-holiday-hugs-from-daughter-t-shirt/-/A-84868337",
-      tags: "Big Hero 6, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Big Hero 6",
-      },
-    },
-    {
-      url: "https://www.target.com/p/seven-times-six-pac-man-t-shirt-boy-s-video-game-grid-short-sleeve-tee-retro-graphic-print-blue/-/A-1004331405",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/seven-times-six-naruto-shippuden-boys-anime-sasuke-kakashi-raised-print-kids-t-shirt-tee-blue/-/A-1004477031",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/superman-logo-with-american-eagle-seal-crew-neck-long-sleeve-black-youth-tee/-/A-89387624",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/usagi-yojimbo-with-gen-and-sanshobo-key-art-youth-black-long-sleeve-tee/-/A-90370362",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/seven-times-six-playstation-boys-shirt-video-game-control-raised-graphic-kids-t-shirt-black/-/A-91272975",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/football-season-game-day-4-pack-of-youth-boy-s-short-sleeve-tees/-/A-1002538605",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/minecraft-game-boy-s-graphic-print-kids-t-shirt/-/A-92496711",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/superman-metropolis-all-american-athletics-crew-neck-long-sleeve-black-youth-tee/-/A-89387619",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/usagi-yojimbo-mounted-horse-key-art-youth-black-crew-neck-sweatshirt/-/A-91215775",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/helicopters-youth-boys-royal-blue-graphic-tee/-/A-88310244",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/skull-with-camo-trap-graphics-youth-navy-blue-graphic-tee/-/A-86448773",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/big-wheels-trucks-youth-boys-dark-navy-graphic-tee/-/A-88310645",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/ultra-robotix-youth-boys-black-graphic-tee/-/A-88310501",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/pac-man-boy-s-game-action-graphic-print-t-shirt/-/A-91166488",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/gamer-youth-royal-blue-short-sleeve-crew-neck-tee/-/A-89238460",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/kids-halloween-crying-skull-trick-or-treat-youth-charcoal-short-sleeve-crew-neck-tee/-/A-87973941",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/monster-truck-and-flames-background-youth-royal-blue-short-sleeve-crew-neck-tee/-/A-89238473",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/eat-sleep-game-repeat-youth-crew-neck-short-sleeve-tee/-/A-93692591",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/sweets-bunny-with-candy-basket-boy-s-crew-neck-short-sleeve-tee/-/A-1004620983",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/gulf-of-mexico-forever-vintage-skeleton-youth-crew-neck-short-sleeve-tee/-/A-1002589734",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/monster-trucks-youth-royal-blue-short-sleeve-crew-neck-tee/-/A-89258778",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/gulf-of-mexico-wave-text-youth-crew-neck-short-sleeve-tee/-/A-1002589993",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/planes-dream-big-youth-oatmeal-heather-short-sleeve-crew-neck-tee/-/A-89258670",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/skateboard-decks-youth-red-short-sleeve-crew-neck-tee/-/A-89238485",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/fit-as-a-fiddle-violin-youth-crew-neck-short-sleeve-tee/-/A-93692908",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/kids-halloween-ghoulish-face-youth-white-short-sleeve-crew-neck-tee/-/A-87974298",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/soccer-play-love-live-youth-charcoal-short-sleeve-crew-neck-tee/-/A-89258434",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/gamer-born-4-it-youth-charcoal-gray-short-sleeve-crew-neck-tee/-/A-89479026",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/cutest-turkey-in-town-youth-crew-neck-short-sleeve-tee/-/A-1000885017",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/grill-eat-repeat-football-youth-crew-neck-short-sleeve-tee/-/A-93230334",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/coolest-turkey-in-town-youth-crew-neck-short-sleeve-tee/-/A-1000884544",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/where-s-the-pie-youth-crew-neck-short-sleeve-tee/-/A-1000884655",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/be-sweet-candy-cane-youth-crew-neck-short-sleeve-tee/-/A-1000884380",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/monster-trucks-power-out-youth-heather-gray-short-sleeve-crew-neck-tee/-/A-89258722",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/monster-truck-feelin-wheely-awesome-youth-white-short-sleeve-crew-neck-tee/-/A-89238498",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/baseball-bingo-youth-oatmeal-heather-short-sleeve-crew-neck-tee/-/A-89258729",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/candy-cane-cutie-youth-crew-neck-short-sleeve-tee/-/A-1000884356",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/gulf-of-mexico-always-forever-youth-crew-neck-short-sleeve-tee/-/A-1002589823",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/santa-s-favorite-snow-way-snow-flakes-youth-red-short-sleeve-crew-neck-tee/-/A-89007801",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/black-chibi-cat-youth-crew-neck-short-sleeve-tee/-/A-1000885231",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/big-brother-bears-boy-s-crew-neck-short-sleeve-tee/-/A-1004620855",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/skateboard-shred-it-youth-white-short-sleeve-crew-neck-tee/-/A-89291085",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/eat-sleep-game-repeat-youth-crew-neck-short-sleeve-tee/-/A-93692665",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/gulf-of-mexico-always-forever-youth-crew-neck-short-sleeve-tee/-/A-1002590044",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/monster-trucks-smashing-it-youth-charcoal-short-sleeve-crew-neck-tee/-/A-89238456",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/skate-skull-and-skateboards-youth-athletic-gray-short-sleeve-crew-neck-tee/-/A-89290599",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/chibi-white-cat-youth-crew-neck-short-sleeve-tee/-/A-1000885179",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/perfect-spirals-flaming-football-youth-short-sleeve-tee/-/A-93114982",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/perfect-spirals-flaming-football-youth-short-sleeve-tee/-/A-93115106",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/go-sports-but-where-s-the-food-kids-crew-neck-short-sleeve-tee/-/A-93519730",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/big-brother-knight-boy-s-crew-neck-short-sleeve-tee/-/A-1002507209",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/kids-halloween-cartoon-ghosts-equally-ghosty-youth-white-short-sleeve-crew-neck-tee/-/A-87973912",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/kids-halloween-bats-the-way-i-like-it-unisex-youth-navy-blue-short-sleeve-crew-neck-tee/-/A-87973974",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/let-me-give-you-a-pizza-my-mind-youth-heather-gray-short-sleeve-crew-neck-tee/-/A-89238513",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/seven-times-six-minecraft-video-game-t-shirt-boys-creeper-blaze-bee-llama-character-tee-blue/-/A-1003386297",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/gulf-of-mexico-forever-sunset-wave-youth-crew-neck-short-sleeve-tee/-/A-1002589851",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/kids-halloween-side-profile-witch-you-put-a-spell-on-me-unisex-youth-white-short-sleeve-crew-neck-tee/-/A-87973980",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/labbing-touch-grass-gamer-nerd-youth-crew-neck-short-sleeve-tee/-/A-1002521704",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/sweet-strawberries-youth-crew-neck-short-sleeve-tee/-/A-1000884237",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dinosaur-roaring-with-palm-trees-youth-denim-heather-short-sleeve-crew-neck-tee/-/A-89258803",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/pawsitive-bear-youth-crew-neck-short-sleeve-tee/-/A-1000885123",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dino-t-rex-and-palm-trees-youth-charcoal-short-sleeve-crew-neck-tee/-/A-89258401",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/planes-break-barriers-youth-charcoal-short-sleeve-crew-neck-tee/-/A-89258415",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/kids-halloween-apothecary-bottles-youth-charcoal-short-sleeve-crew-neck-tee/-/A-87973955",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/gulf-of-mexico-black-and-white-wave-youth-crew-neck-short-sleeve-tee/-/A-1002589701",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/gamer-level-up-youth-athletic-heather-short-sleeve-crew-neck-tee/-/A-89258657",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/oversized-cat-face-youth-crew-neck-short-sleeve-tee/-/A-1000885233",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/skater-peace-sign-youth-royal-blue-short-sleeve-crew-neck-tee/-/A-89238519",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/born-to-game-forced-to-work-youth-crew-neck-short-sleeve-tee/-/A-1002521660",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/kids-halloween-shrugging-skeleton-heck-youth-navy-blue-short-sleeve-crew-neck-tee/-/A-87974312",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/gulf-of-mexico-palm-tree-youth-crew-neck-short-sleeve-tee/-/A-1002589778",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/no-time-for-homework-too-many-missions-youth-heather-gray-short-sleeve-crew-neck-tee/-/A-89238510",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/basketball-swish-nothing-but-net-youth-royal-blue-short-sleeve-crew-neck-tee/-/A-89258665",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/kids-halloween-three-ghosts-waddup-boo-unisex-youth-charcoal-gray-short-sleeve-crew-neck-tee/-/A-87973936",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/fish-out-of-water-youth-crew-neck-short-sleeve-tee/-/A-93692949",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/just-here-for-the-snacks-youth-black-short-sleeve-crew-neck-tee/-/A-89238481",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/kids-halloween-peace-sign-grim-reaper-creepin-it-real-unisex-youth-black-short-sleeve-crew-neck-tee/-/A-87973968",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/kids-halloween-coffin-on-crescent-moon-youth-black-short-sleeve-crew-neck-tee/-/A-87973921",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/will-do-chores-for-cheese-youth-navy-blue-short-sleeve-crew-neck-tee/-/A-89258421",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/planes-captain-youth-red-short-sleeve-crew-neck-tee/-/A-89258719",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/trucks-red-lightning-youth-charcoal-gray-short-sleeve-crew-neck-tee/-/A-89479031",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/family-is-a-gift-youth-natural-crew-neck-short-sleeve-tee-small/-/A-1000999129",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/big-brother-monster-truck-boy-s-crew-neck-short-sleeve-tee/-/A-1004620790",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/beary-sweet-youth-crew-neck-short-sleeve-tee/-/A-1000885075",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/padel-paladin-youth-crew-neck-short-sleeve-tee/-/A-93686184",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/parking-lot-pioneer-old-west-wagon-football-cowboy-youth-short-sleeve-tee/-/A-93115144",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/thinking-cat-youth-crew-neck-short-sleeve-tee/-/A-1000885266",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hold-your-horses-humor-youth-crew-neck-short-sleeve-tee/-/A-93692623",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bear-hug-youth-crew-neck-short-sleeve-tee/-/A-1000885196",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/labbing-touch-grass-gamer-nerd-youth-crew-neck-short-sleeve-tee/-/A-1002521788",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/all-buff-no-fluff-gym-rat-youth-crew-neck-short-sleeve-tee/-/A-93691920",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/beary-cute-teddy-bear-boy-s-crew-neck-short-sleeve-tee/-/A-1004621339",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/padel-tennis-racket-rhapsody-youth-crew-neck-short-sleeve-tee/-/A-93686271",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/give-thanks-turkey-pumpkin-youth-crew-neck-short-sleeve-tee/-/A-1000884482",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/parking-lot-pioneer-old-west-wagon-football-cowboy-youth-short-sleeve-tee/-/A-93115023",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/rip-gulf-of-mexico-1607-2025-youth-crew-neck-short-sleeve-tee/-/A-1002589938",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/teddy-dreams-boy-s-crew-neck-short-sleeve-tee/-/A-1004621323",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/rip-gulf-of-mexico-1607-2025-youth-crew-neck-short-sleeve-tee/-/A-1002589938",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/big-brother-monster-truck-boy-s-crew-neck-short-sleeve-tee/-/A-1004620790",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/padel-tennis-racket-rhapsody-youth-crew-neck-short-sleeve-tee/-/A-93686271",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/born-to-game-forced-to-work-youth-crew-neck-short-sleeve-tee/-/A-1002521687",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/butterfly-youth-crew-neck-short-sleeve-tee/-/A-1000884404",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bear-hug-youth-crew-neck-short-sleeve-tee/-/A-1000885196",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/just-fall-things-pumpkin-spice-latte-youth-crew-neck-short-sleeve-tee/-/A-1000884993",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/monster-truck-you-make-my-heart-go-vrrrroommhhh-youth-red-short-sleeve-tee/-/A-1003808171",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/american-football-tailgating-society-youth-crew-neck-short-sleeve-tee/-/A-93230371",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/go-sports-but-where-s-the-food-youth-crew-neck-short-sleeve-tee/-/A-93230408",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/so-unbearable-youth-crew-neck-short-sleeve-tee/-/A-1000885151",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/all-buff-no-fluff-gym-rat-youth-crew-neck-short-sleeve-tee/-/A-93691920",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/beary-cute-teddy-bear-boy-s-crew-neck-short-sleeve-tee/-/A-1004621339",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/disc-ace-frisbee-disc-youth-crew-neck-short-sleeve-tee/-/A-93686146",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/in-tailgating-we-trust-american-flag-and-spatula-youth-short-sleeve-tee/-/A-93115065",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/keep-calm-and-respawn-controller-youth-crew-neck-short-sleeve-tee/-/A-93692961",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/rip-gulf-of-mexico-1607-2025-youth-crew-neck-short-sleeve-tee/-/A-1002589939",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/labbing-touch-grass-gamer-nerd-youth-crew-neck-short-sleeve-tee/-/A-1002521788",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/give-thanks-turkey-pumpkin-youth-crew-neck-short-sleeve-tee/-/A-1000884482",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/thinking-cat-youth-crew-neck-short-sleeve-tee/-/A-1000885266",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/parking-lot-pioneer-old-west-wagon-football-cowboy-youth-short-sleeve-tee/-/A-93115023",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/kids-halloween-dapper-ghost-with-gangster-ghost-here-lies-my-will-to-live-youth-black-short-sleeve-crew-neck-tee/-/A-88142105",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dino-wild-one-youth-white-short-sleeve-crew-neck-tee/-/A-89258652",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/gamer-game-over-max-dps-youth-white-short-sleeve-crew-neck-tee/-/A-89258775",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dino-you-re-dino-mite-youth-heather-gray-short-sleeve-crew-neck-tee/-/A-89258705",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dino-apex-predator-youth-black-short-sleeve-crew-neck-tee/-/A-89258438",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dino-wild-one-youth-white-short-sleeve-crew-neck-tee/-/A-89258652",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/beast-mode-youth-black-short-sleeve-crew-neck-tee/-/A-89238475",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/santa-s-favorite-mostly-nice-sometimes-naughty-string-lights-youth-black-short-sleeve-crew-neck-tee/-/A-89007819",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/st-patrick-s-day-lucky-crew-neck-short-sleeve-white-youth-t-shirt/-/A-88493123",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/valentine-s-day-candy-hearts-crew-neck-short-sleeve-athletic-heather-youth-t-shirt/-/A-88492756",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bunny-bros-the-hunt-is-on-crew-neck-short-sleeve-athletic-heather-boy-s-t-shirt/-/A-89007650",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/santa-s-favorite-christmas-kid-crew-neck-short-sleeve-charcoal-heather-unisex-youth-t-shirt/-/A-88918883",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/st-patrick-s-day-good-luck-charm-crew-neck-short-sleeve-gray-heather-youth-t-shirt/-/A-88492852",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/valentine-s-day-too-cool-heart-crew-neck-short-sleeve-white-youth-t-shirt/-/A-88493109",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/santa-s-favorite-hashtag-nice-crew-neck-short-sleeve-athletic-heather-unisex-youth-t-shirt/-/A-88918780",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bunny-bros-sketch-bunny-ears-crew-neck-short-sleeve-charcoal-boy-s-t-shirt/-/A-88918783",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/kids-halloween-cute-cartoon-symbols-crew-neck-short-sleeve-natural-unisex-youth-t-shirt/-/A-88713285",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/kids-halloween-that-s-a-wrap-crew-neck-short-sleeve-natural-unisex-youth-t-shirt/-/A-88713303",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/1st-day-of-1st-grade-on-navy-short-sleeve-youth-t-shirt/-/A-1005196936",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/school-items-first-day-of-school-5th-grade-on-white-short-sleeve-youth-t-shirt/-/A-1005196907",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/st-patrick-s-day-lucky-rainbow-crew-neck-short-sleeve-white-youth-t-shirt/-/A-88493101",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/born-to-lurk-forced-to-stop-youth-black-crew-neck-short-sleeve-t-shirt/-/A-1003808202",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/turtle-i-steal-hearts-youth-black-crew-neck-short-sleeve-t-shirt/-/A-1004158554",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/santa-s-favorite-best-elf-crew-neck-short-sleeve-athletic-heather-unisex-youth-t-shirt/-/A-88918858",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bunny-bros-boss-bunny-crew-neck-short-sleeve-boys-white-t-shirt/-/A-89007705",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bunny-with-easter-egg-stay-calm-and-hop-on-youth-boy-s-white-crew-neck-short-sleeve-t-shirt/-/A-1003192916",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/i-speak-fluent-sharkasm-boy-s-royal-blue-t-shirt/-/A-86196079",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/t-rex-with-pumpkin-bucket-youth-black-crew-neck-short-sleeve-t-shirt/-/A-1004779547",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/turtle-i-steal-hearts-youth-black-crew-neck-short-sleeve-t-shirt/-/A-1004158554",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/1st-day-of-3rd-grade-on-white-short-sleeve-youth-t-shirt/-/A-1005196951",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/1st-day-of-1st-grade-on-navy-short-sleeve-youth-t-shirt/-/A-1005196936",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/born-to-lurk-forced-to-stop-youth-black-crew-neck-short-sleeve-t-shirt/-/A-1003808202",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/kids-halloween-cute-cartoon-symbols-crew-neck-short-sleeve-natural-unisex-youth-t-shirt/-/A-88713285",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/st-patrick-s-day-clover-leaf-crew-neck-short-sleeve-navy-youth-t-shirt/-/A-88492979",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/count-t-rex-youth-black-crew-neck-short-sleeve-t-shirt/-/A-1003808192",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/valentine-s-day-too-cute-crew-neck-short-sleeve-navy-youth-t-shirt/-/A-88492982",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/st-patrick-s-day-lucky-rainbow-crew-neck-short-sleeve-white-youth-t-shirt/-/A-88493101",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/ears-up-eggs-out-youth-boy-s-athletic-heather-crew-neck-short-sleeve-t-shirt/-/A-1003192824",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/rawr-means-i-love-you-in-dinosaur-youth-black-crew-neck-short-sleeve-t-shirt/-/A-1004342803",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/kids-tee-first-day-as-a-4th-grader-on-athletic-heather-tee/-/A-1005196996",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bunny-with-easter-egg-stay-calm-and-hop-on-youth-boy-s-white-crew-neck-short-sleeve-t-shirt/-/A-1003192916",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/v-day-love-cookies-crew-neck-short-sleeve-royal-blue-youth-t-shirt/-/A-88713204",
-      tags: "Bioworld, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bioworld",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-black-adam-godly-power-t-shirt/-/A-87444071",
-      tags: "Black Adam, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Black Adam",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-black-adam-antihero-glowing-body-t-shirt/-/A-87444286",
-      tags: "Black Adam, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Black Adam",
-      },
-    },
-    {
-      url: "https://www.target.com/p/black-adam-superhero-thunderbolt-logo-crew-neck-short-sleeve-navy-men-s-t-shirt/-/A-88032972",
-      tags: "Black Adam, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Black Adam",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-black-adam-group-shot-t-shirt/-/A-87444012",
-      tags: "Black Adam, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Black Adam",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-black-adam-superheroes-from-jsa-t-shirt/-/A-87443769",
-      tags: "Black Adam, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Black Adam",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-black-adam-faces-of-justice-t-shirt/-/A-87444201",
-      tags: "Black Adam, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Black Adam",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-black-adam-atom-body-t-shirt/-/A-87444335",
-      tags: "Black Adam, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Black Adam",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-black-adam-hawk-helmet-t-shirt/-/A-87443968",
-      tags: "Black Adam, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Black Adam",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-black-adam-lightening-logo-t-shirt/-/A-87116096",
-      tags: "Black Adam, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Black Adam",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-black-adam-grey-and-gold-portrait-stare-t-shirt/-/A-87444017",
-      tags: "Black Adam, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Black Adam",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-black-adam-justice-shapes-and-bolts-t-shirt/-/A-87443929",
-      tags: "Black Adam, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Black Adam",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-black-adam-jsa-badge-t-shirt/-/A-87444139",
-      tags: "Black Adam, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Black Adam",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-black-adam-justice-cover-t-shirt/-/A-87444127",
-      tags: "Black Adam, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Black Adam",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-black-adam-triple-hero-box-t-shirt/-/A-87443794",
-      tags: "Black Adam, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Black Adam",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-black-adam-triangle-strategy-t-shirt/-/A-87443904",
-      tags: "Black Adam, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Black Adam",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-black-adam-electricity-antihero-t-shirt/-/A-87444196",
-      tags: "Black Adam, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Black Adam",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-black-adam-man-vs-myth-t-shirt/-/A-87443830",
-      tags: "Black Adam, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Black Adam",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-black-panther-action-pose-logo-t-shirt/-/A-92235506",
-      tags: "Black Panther, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Black Panther",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-marvel-black-panther-2018-ember-mask-t-shirt/-/A-79711349",
-      tags: "Black Panther, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Black Panther",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-black-panther-wakanda-forever-namor-imperius-rex-portrait-t-shirt/-/A-87793509",
-      tags: "Black Panther, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Black Panther",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-black-panther-wakanda-forever-metallic-movie-logo-t-shirt/-/A-87793884",
-      tags: "Black Panther, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Black Panther",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-black-panther-wakanda-forever-white-panther-icon-t-shirt/-/A-87793685",
-      tags: "Black Panther, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Black Panther",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-black-panther-wakanda-forever-metallic-wakanda-avengers-logo-t-shirt/-/A-87794122",
-      tags: "Black Panther, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Black Panther",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-black-panther-wakanda-forever-character-portrait-triangles-t-shirt/-/A-87793797",
-      tags: "Black Panther, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Black Panther",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-black-panther-wakanda-forever-attuma-logo-t-shirt/-/A-87793705",
-      tags: "Black Panther, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Black Panther",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-black-panther-wakanda-forever-okoye-shuri-and-nakia-portraits-t-shirt/-/A-87793876",
-      tags: "Black Panther, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Black Panther",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-black-panther-wakanda-forever-shuri-action-pose-t-shirt/-/A-87794233",
-      tags: "Black Panther, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Black Panther",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-black-panther-wakanda-forever-lord-m-baku-standing-tall-t-shirt/-/A-87793546",
-      tags: "Black Panther, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Black Panther",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-black-panther-wakanda-forever-attuma-portrait-t-shirt/-/A-87794058",
-      tags: "Black Panther, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Black Panther",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-black-panther-wakanda-forever-panther-logo-t-shirt/-/A-87794175",
-      tags: "Black Panther, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Black Panther",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-black-panther-wakanda-forever-namora-portrait-t-shirt/-/A-87794405",
-      tags: "Black Panther, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Black Panther",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-black-panther-wakanda-forever-neon-symbols-t-shirt/-/A-87793790",
-      tags: "Black Panther, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Black Panther",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-black-panther-wakanda-forever-m-baku-ornate-logo-t-shirt/-/A-87793492",
-      tags: "Black Panther, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Black Panther",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-blippi-christmas-togetherness-t-shirt/-/A-89659905",
-      tags: "Blippi, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Blippi",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bioworld-blockbuster-make-it-a-blockbuster-night-youth-black-short-sleeve-crew-neck-tee/-/A-89177111",
-      tags: "Blockbuster, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Blockbuster",
-      },
-    },
-    {
-      url: "https://www.target.com/p/blockbuster-be-kind-rewind-junior-s-gray-short-sleeve-tee-shirt/-/A-90119664",
-      tags: "Blockbuster, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Blockbuster",
-      },
-    },
-    {
-      url: "https://www.target.com/p/blockbuster-ticket-stack-junior-s-navy-blue-short-sleeve-tee-shirt/-/A-90119888",
-      tags: "Blockbuster, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Blockbuster",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bioworld-blockbuster-be-kind-rewind-youth-black-short-sleeve-crew-neck-tee/-/A-89177211",
-      tags: "Blockbuster, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Blockbuster",
-      },
-    },
-    {
-      url: "https://www.target.com/p/blockbuster-six-logos-junior-s-navy-blue-short-sleeve-tee-shirt/-/A-90119879",
-      tags: "Blockbuster, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Blockbuster",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bioworld-blockbuster-multicolor-logo-youth-white-short-sleeve-crew-neck-tee/-/A-89177085",
-      tags: "Blockbuster, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Blockbuster",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bioworld-blockbuster-black-and-white-logo-youth-black-short-sleeve-crew-neck-tee/-/A-89177122",
-      tags: "Blockbuster, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Blockbuster",
-      },
-    },
-    {
-      url: "https://www.target.com/p/blockbuster-four-panels-logo-junior-s-black-short-sleeve-tee-shirt/-/A-90119793",
-      tags: "Blockbuster, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Blockbuster",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-blow-pop-charms-lollipop-t-shirt/-/A-88557111",
-      tags: "Blow Pop, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Blow Pop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-blow-pop-bubble-gum-emblem-t-shirt/-/A-88556249",
-      tags: "Blow Pop, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Blow Pop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-blow-pop-that-s-a-blow-pop-art-t-shirt/-/A-88557431",
-      tags: "Blow Pop, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Blow Pop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-blow-pop-bubble-gum-logo-t-shirt/-/A-88556264",
-      tags: "Blow Pop, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Blow Pop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/blue-beetle-shining-armor-junior-s-black-short-sleeve-crew-neck-tee/-/A-90119590",
-      tags: "Blue Beetle, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Blue Beetle",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-blue-beetle-retro-character-t-shirt/-/A-92328052",
-      tags: "Blue Beetle, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Blue Beetle",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bluey-mom-dad-bingo-matching-family-t-shirt-adult/-/A-88170675",
-      tags: "Bluey, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bluey",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bluey-bingo-3-pack-graphic-t-shirts-toddler-to-big-kid/-/A-85699363",
-      tags: "Bluey, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bluey",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-39-wrap-short-sleeve-graphic-t-shirt-slate-gray/-/A-92185948",
-      tags: "Bluey, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bluey",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-39-bluey-mineral-wash-tank-top-blue/-/A-94408549",
-      tags: "Bluey, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bluey",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bluey-mom-dad-bingo-girls-t-shirt-little-kid-to-adult/-/A-88810593",
-      tags: "Bluey, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bluey",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-39-bluey-woven-button-up-shirt-white/-/A-93623622",
-      tags: "Bluey, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bluey",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bluey-bingo-chilli-mom-bandit-dad-long-sleeve-matching-family-t-shirt-toddler-to-adult/-/A-88820038",
-      tags: "Bluey, Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bluey",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-bruce-lee-retro-collage-t-shirt/-/A-1003697284",
-      tags: "Boys’ Clothing, Bruce Lee, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Bruce Lee",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-chin-up-halloween-jack-o-lantern-face-t-shirt/-/A-84265041",
-      tags: "Boys’ Clothing, CHIN UP Apparel, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "CHIN UP Apparel",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-chin-up-halloween-creepin-real-skeleton-t-shirt/-/A-84088160",
-      tags: "Boys’ Clothing, CHIN UP Apparel, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "CHIN UP Apparel",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-chin-up-christmas-fleece-navidad-t-shirt/-/A-90168382",
-      tags: "Boys’ Clothing, CHIN UP Apparel, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "CHIN UP Apparel",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-candy-land-king-kandy-t-shirt/-/A-92917563",
-      tags: "Boys’ Clothing, Candy Land, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Candy Land",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-candy-land-frostine-and-king-kandy-birthday-t-shirt/-/A-92912868",
-      tags: "Boys’ Clothing, Candy Land, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Candy Land",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-candy-land-sweet-castle-t-shirt/-/A-92916316",
-      tags: "Boys’ Clothing, Candy Land, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Candy Land",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-candy-land-this-is-my-mr-mint-costume-t-shirt/-/A-92917164",
-      tags: "Boys’ Clothing, Candy Land, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Candy Land",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-candy-land-official-striped-logo-t-shirt/-/A-92914731",
-      tags: "Boys’ Clothing, Candy Land, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Candy Land",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-candy-land-this-is-my-princess-lolly-costume-t-shirt/-/A-92917446",
-      tags: "Boys’ Clothing, Candy Land, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Candy Land",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-candy-land-mr-mint-birthday-boy-t-shirt/-/A-92916635",
-      tags: "Boys’ Clothing, Candy Land, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Candy Land",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-care-bears-retro-america-cares-bear-t-shirt/-/A-92225293",
-      tags: "Boys’ Clothing, Care Bears, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Care Bears",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-care-bears-distressed-feelin-lucky-t-shirt/-/A-1002301848",
-      tags: "Boys’ Clothing, Care Bears, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Care Bears",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-care-bears-st-patrick-s-day-good-luck-bear-emblem-t-shirt/-/A-88747044",
-      tags: "Boys’ Clothing, Care Bears, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Care Bears",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-care-bears-merry-christmas-cheer-bear-t-shirt/-/A-92226137",
-      tags: "Boys’ Clothing, Care Bears, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Care Bears",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-care-bears-st-patrick-s-day-good-luck-bear-born-lucky-t-shirt/-/A-88745708",
-      tags: "Boys’ Clothing, Care Bears, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Care Bears",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-care-bears-st-patrick-s-day-good-luck-bear-born-lucky-rainbow-t-shirt/-/A-90778416",
-      tags: "Boys’ Clothing, Care Bears, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Care Bears",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-care-bears-st-patrick-s-day-good-luck-bear-shamrocker-poster-t-shirt/-/A-88747050",
-      tags: "Boys’ Clothing, Care Bears, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Care Bears",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-care-bears-camping-bears-t-shirt/-/A-88716427",
-      tags: "Boys’ Clothing, Care Bears, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Care Bears",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-care-bears-freedom-crew-t-shirt/-/A-92225346",
-      tags: "Boys’ Clothing, Care Bears, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Care Bears",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-care-bears-sweet-celebrations-bear-it-s-my-birthday-t-shirt/-/A-92225049",
-      tags: "Boys’ Clothing, Care Bears, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Care Bears",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-care-bears-st-patrick-s-day-good-luck-bear-and-funshine-bear-lucky-t-shirt/-/A-90778438",
-      tags: "Boys’ Clothing, Care Bears, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Care Bears",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-care-bears-earth-day-everyday-forest-friend-bear-t-shirt/-/A-1002736825",
-      tags: "Boys’ Clothing, Care Bears, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Care Bears",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-care-bears-hoppy-easter-funshine-t-shirt/-/A-1002736849",
-      tags: "Boys’ Clothing, Care Bears, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Care Bears",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-care-bears-distressed-christmas-crew-t-shirt/-/A-90166671",
-      tags: "Boys’ Clothing, Care Bears, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Care Bears",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-care-bears-christmas-grumpy-bear-beary-merry-t-shirt/-/A-89660289",
-      tags: "Boys’ Clothing, Care Bears, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Care Bears",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-care-bears-christmas-wreath-bears-t-shirt/-/A-89660287",
-      tags: "Boys’ Clothing, Care Bears, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Care Bears",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-care-bears-halloween-trick-or-sweet-t-shirt/-/A-89930006",
-      tags: "Boys’ Clothing, Care Bears, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Care Bears",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-care-bears-expert-egg-finder-t-shirt/-/A-88717429",
-      tags: "Boys’ Clothing, Care Bears, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Care Bears",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-care-bears-pumpkin-spice-season-t-shirt/-/A-91914922",
-      tags: "Boys’ Clothing, Care Bears, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Care Bears",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-care-bears-st-patrick-s-day-born-lucky-t-shirt/-/A-90778202",
-      tags: "Boys’ Clothing, Care Bears, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Care Bears",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-care-bears-valentine-s-day-love-a-lot-bear-and-share-bear-love-t-shirt/-/A-90648283",
-      tags: "Boys’ Clothing, Care Bears, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Care Bears",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-care-bears-valentine-s-day-love-a-lot-bear-and-share-bear-would-you-be-mine-t-shirt/-/A-90648301",
-      tags: "Boys’ Clothing, Care Bears, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Care Bears",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-care-bears-halloween-trick-or-sweet-bear-creep-it-real-t-shirt/-/A-92226218",
-      tags: "Boys’ Clothing, Care Bears, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Care Bears",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-care-bears-st-patrick-s-day-good-luck-bear-green-rainbow-arch-t-shirt/-/A-90778403",
-      tags: "Boys’ Clothing, Care Bears, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Care Bears",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-care-bears-halloween-trick-or-treat-cheer-bear-mummy-t-shirt/-/A-89929975",
-      tags: "Boys’ Clothing, Care Bears, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Care Bears",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-care-bears-nature-is-our-future-harmony-bear-t-shirt/-/A-91246242",
-      tags: "Boys’ Clothing, Care Bears, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Care Bears",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-care-bears-st-patrick-s-day-good-luck-bear-green-rainbow-arch-t-shirt/-/A-90778403",
-      tags: "Boys’ Clothing, Care Bears, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Care Bears",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-care-bears-some-bunny-cares-t-shirt/-/A-88717451",
-      tags: "Boys’ Clothing, Care Bears, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Care Bears",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-care-bears-bedtime-bear-quiet-night-t-shirt/-/A-92225878",
-      tags: "Boys’ Clothing, Care Bears, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Care Bears",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-care-bears-pumpkin-spice-season-t-shirt/-/A-91914922",
-      tags: "Boys’ Clothing, Care Bears, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Care Bears",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-care-bears-st-patrick-s-day-born-lucky-t-shirt/-/A-90778202",
-      tags: "Boys’ Clothing, Care Bears, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Care Bears",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-care-bears-friends-giving-t-shirt/-/A-89577133",
-      tags: "Boys’ Clothing, Care Bears, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Care Bears",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-care-bears-valentine-s-day-love-a-lot-bear-and-share-bear-would-you-be-mine-t-shirt/-/A-90648301",
-      tags: "Boys’ Clothing, Care Bears, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Care Bears",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-care-bears-grumpy-bear-stay-frosty-t-shirt/-/A-92225126",
-      tags: "Boys’ Clothing, Care Bears, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Care Bears",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-care-bears-grumpy-bear-team-america-82-t-shirt/-/A-92225255",
-      tags: "Boys’ Clothing, Care Bears, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Care Bears",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-care-bears-earth-day-everyday-forest-friend-bear-t-shirt/-/A-91246492",
-      tags: "Boys’ Clothing, Care Bears, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Care Bears",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-care-bears-halloween-trick-or-sweet-bear-creep-it-real-t-shirt/-/A-92226218",
-      tags: "Boys’ Clothing, Care Bears, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Care Bears",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-care-bears-floral-night-t-shirt/-/A-1002736786",
-      tags: "Boys’ Clothing, Care Bears, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Care Bears",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-care-bears-bedtime-take-it-easy-t-shirt/-/A-1002738029",
-      tags: "Boys’ Clothing, Care Bears, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Care Bears",
-      },
-    },
-    {
-      url: "https://www.target.com/p/disney-boy-s-3-pack-lightning-mcqueen-cars-graphic-tees-red-size-2t/-/A-93231173",
-      tags: "Boys’ Clothing, Cars, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cars",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-cars-lightning-mcqueen-portrait-t-shirt/-/A-79711600",
-      tags: "Boys’ Clothing, Cars, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cars",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-cars-lightning-mcqueen-drag-racing-performance-tee/-/A-87572681",
-      tags: "Boys’ Clothing, Cars, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cars",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-cars-lightning-mcqueen-american-flag-race-t-shirt/-/A-86835481",
-      tags: "Boys’ Clothing, Cars, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cars",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-cars-lightning-mcqueen-wake-up-awesome-t-shirt/-/A-82353407",
-      tags: "Boys’ Clothing, Cars, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cars",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-cars-doc-hudson-portrait-t-shirt/-/A-82354482",
-      tags: "Boys’ Clothing, Cars, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cars",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-cars-lightning-mcqueen-car-number-95-t-shirt/-/A-79592824",
-      tags: "Boys’ Clothing, Cars, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cars",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-cars-van-gogh-mcqueen-t-shirt/-/A-87572772",
-      tags: "Boys’ Clothing, Cars, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cars",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-cars-lightning-mcqueen-drag-racing-t-shirt/-/A-87572812",
-      tags: "Boys’ Clothing, Cars, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cars",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-cars-christmas-mater-wishes-t-shirt/-/A-81931655",
-      tags: "Boys’ Clothing, Cars, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cars",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-cars-mater-tractor-tippin-t-shirt/-/A-87572728",
-      tags: "Boys’ Clothing, Cars, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cars",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-cars-tow-mater-portrait-t-shirt/-/A-82354719",
-      tags: "Boys’ Clothing, Cars, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cars",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-courage-the-cowardly-dog-st-patrick-s-day-clover-t-shirt/-/A-90778854",
-      tags: "Boys’ Clothing, Cartoon Network, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cartoon Network",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-dexter-s-laboratory-valentine-s-day-conversation-hearts-t-shirt/-/A-90719126",
-      tags: "Boys’ Clothing, Cartoon Network, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cartoon Network",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-dexter-s-laboratory-st-patrick-s-day-pinch-if-you-dare-t-shirt/-/A-90779075",
-      tags: "Boys’ Clothing, Cartoon Network, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cartoon Network",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-case-ih-youth-long-sleeve-t-shirt-long-sleeve-graphic-t-shirt/-/A-1003970484",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-logo-tone-short-sleeve-graphic-t-shirt/-/A-1000162055",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-american-flag-farmall-tractor-silhouette-short-sleeve-graphic-t-shirt/-/A-1000161963",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-american-flag-short-sleeve-graphic-t-shirt/-/A-1000162171",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-magnum-power-short-sleeve-graphic-t-shirt/-/A-1000161395",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-magnum-diagram-short-sleeve-graphic-t-shirt/-/A-1000162281",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-red-zone-magnum-short-sleeve-graphic-t-shirt/-/A-1000162211",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-big-magnum-short-sleeve-graphic-t-shirt/-/A-1000162158",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-case-if-it-ain-t-red-short-sleeve-graphic-t-shirt/-/A-1000162575",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-farmall-forever-short-sleeve-graphic-t-shirt/-/A-1000161772",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-patriotic-farmall-short-sleeve-graphic-t-shirt/-/A-1000161801",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-ih-horizontal-short-sleeve-graphic-t-shirt/-/A-1000162560",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-magnum-powerdrive-short-sleeve-graphic-t-shirt/-/A-1000161506",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-i-m-a-classic-short-sleeve-graphic-t-shirt/-/A-1000162555",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-save-a-horse-ride-a-tractor-short-sleeve-graphic-t-shirt/-/A-1000161501",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-square-logo-short-sleeve-graphic-t-shirt/-/A-1000162198",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-logo-stencil-short-sleeve-graphic-t-shirt/-/A-1000162854",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-farming-plowing-playing-short-sleeve-graphic-t-shirt/-/A-1000162645",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-vintage-farmall-quality-tractors-short-sleeve-graphic-t-shirt/-/A-1000162079",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-magnum-tractor-prints-short-sleeve-graphic-t-shirt/-/A-1000161881",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-red-zone-steiger-quad-short-sleeve-graphic-t-shirt/-/A-1000162340",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-this-is-my-farming-shirt-short-sleeve-graphic-t-shirt/-/A-1000161415",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-barn-hair-don-t-care-short-sleeve-graphic-t-shirt/-/A-1000744141",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-country-patriotic-mn-short-sleeve-graphic-t-shirt/-/A-1000162358",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-if-i-m-not-farming-im-hunting-short-sleeve-graphic-t-shirt/-/A-1000162064",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-red-white-blue-tie-dye-logo-short-sleeve-graphic-t-shirt/-/A-1000161790",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-case-ih-kid-short-sleeve-graphic-t-shirt/-/A-1000162097",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-will-trade-sister-for-tractor-short-sleeve-graphic-t-shirt/-/A-1000743933",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-magnum-stars-and-stripes-short-sleeve-graphic-t-shirt/-/A-1000162951",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-american-made-1993-short-sleeve-graphic-t-shirt/-/A-1000161511",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-farmall-tractor-american-made-short-sleeve-graphic-t-shirt/-/A-1000162941",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-ih-1468-v8-short-sleeve-graphic-t-shirt/-/A-1000162180",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-farmall-brand-short-sleeve-graphic-t-shirt/-/A-1000161476",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-grow-your-own-seedlings-short-sleeve-graphic-t-shirt/-/A-1000161934",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-born-to-farm-flag-short-sleeve-graphic-t-shirt/-/A-1000162132",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-circle-ih-logo-distressed-short-sleeve-graphic-t-shirt/-/A-1000162679",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-daddy-s-little-tractor-princess-short-sleeve-graphic-t-shirt/-/A-1000743902",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-king-of-the-row-red-power-short-sleeve-graphic-t-shirt/-/A-1000161829",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-baseball-harvester-short-sleeve-graphic-t-shirt/-/A-1000162602",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-my-other-car-seat-short-sleeve-graphic-t-shirt/-/A-1000743911",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-magnum-outline-short-sleeve-graphic-t-shirt/-/A-1000162961",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-country-patriotic-in-short-sleeve-graphic-t-shirt/-/A-1000162387",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-future-farmer-short-sleeve-graphic-t-shirt/-/A-1000161464",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-work-smart-play-smart-short-sleeve-graphic-t-shirt/-/A-1000161872",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-magnum-streamline-short-sleeve-graphic-t-shirt/-/A-1000161746",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-country-patriotic-ia-short-sleeve-graphic-t-shirt/-/A-1000162454",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-country-patriotic-al-short-sleeve-graphic-t-shirt/-/A-1000162270",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-farmall-ag-department-short-sleeve-graphic-t-shirt/-/A-1000162117",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-grow-your-own-luck-short-sleeve-graphic-t-shirt/-/A-1000162946",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-all-fired-up-short-sleeve-graphic-t-shirt/-/A-1000162024",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-rise-and-farm-short-sleeve-graphic-t-shirt/-/A-1000161433",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-country-patriotic-in-short-sleeve-graphic-t-shirt/-/A-1000162387",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-magnum-streamline-short-sleeve-graphic-t-shirt/-/A-1000161746",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-shred-some-acres-short-sleeve-graphic-t-shirt/-/A-1000161294",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-baseball-harvester-short-sleeve-graphic-t-shirt/-/A-1000162602",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-country-patriotic-oh-short-sleeve-graphic-t-shirt/-/A-1000162956",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-keep-it-strong-keep-it-rural-short-sleeve-graphic-t-shirt/-/A-1000161856",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-grow-your-own-seedlings-short-sleeve-graphic-t-shirt/-/A-1000161934",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-born-to-farm-flag-short-sleeve-graphic-t-shirt/-/A-1000162132",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-circle-ih-logo-distressed-short-sleeve-graphic-t-shirt/-/A-1000162679",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-magnum-comic-strip-short-sleeve-graphic-t-shirt/-/A-1000162352",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-meet-me-in-the-field-short-sleeve-graphic-t-shirt/-/A-1000161451",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-magnum-short-sleeve-graphic-t-shirt/-/A-1000161378",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-daddy-s-little-tractor-princess-short-sleeve-graphic-t-shirt/-/A-1000743902",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-straight-outta-the-barn-short-sleeve-graphic-t-shirt/-/A-1000162501",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-ih-circle-logo-short-sleeve-graphic-t-shirt/-/A-1000162508",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-country-patriotic-ar-short-sleeve-graphic-t-shirt/-/A-1000162467",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-magnum-outline-short-sleeve-graphic-t-shirt/-/A-1000162961",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-case-ih-future-farmer-short-sleeve-graphic-t-shirt/-/A-1000161464",
-      tags: "Boys’ Clothing, Case IH, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Case IH",
-      },
-    },
-    {
-      url: "https://www.target.com/p/castore-red-bull-racing-f1-kids-graphic-bull-t-shirt/-/A-1003066160",
-      tags: "Boys’ Clothing, Castore, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Castore",
-      },
-    },
-    {
-      url: "https://www.target.com/p/castore-red-bull-racing-f1-kids-large-front-logo-t-shirt/-/A-1003024142",
-      tags: "Boys’ Clothing, Castore, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Castore",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-short-sleeve-relaxed-fit-t-shirt-cat-jack/-/A-93032344",
-      tags: "Boys’ Clothing, Cat & Jack, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cat & Jack",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-short-sleeve-basketball-hoop-graphic-t-shirt-cat-jack-blue/-/A-94493160",
-      tags: "Boys’ Clothing, Cat & Jack, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cat & Jack",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-39-short-sleeve-space-bulldog-graphic-t-shirt-cat-38-jack-8482-beige/-/A-94650209",
-      tags: "Boys’ Clothing, Cat & Jack, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cat & Jack",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-short-sleeve-varsity-baseball-graphic-t-shirt-cat-jack-blue/-/A-94632207",
-      tags: "Boys’ Clothing, Cat & Jack, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cat & Jack",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-39-short-sleeve-relaxed-fit-t-shirt-cat-38-jack-8482/-/A-94582922",
-      tags: "Boys’ Clothing, Cat & Jack, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cat & Jack",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-short-sleeve-printed-jersey-cat-jack/-/A-94614202",
-      tags: "Boys’ Clothing, Cat & Jack, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cat & Jack",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-short-sleeve-halloween-glow-in-the-dark-monster-fangs-graphic-t-shirt-cat-jack-black/-/A-94619144",
-      tags: "Boys’ Clothing, Cat & Jack, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cat & Jack",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-short-sleeve-cassette-tape-graphic-t-shirt-cat-jack-black/-/A-94619141",
-      tags: "Boys’ Clothing, Cat & Jack, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cat & Jack",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-short-sleeve-big-sky-graphic-t-shirt-cat-jack-olive-green/-/A-94619139",
-      tags: "Boys’ Clothing, Cat & Jack, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cat & Jack",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-39-short-sleeve-39-brain-freeze-39-graphic-t-shirt-cat-38-jack-8482-purple/-/A-94417021",
-      tags: "Boys’ Clothing, Cat & Jack, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cat & Jack",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-39-short-sleeve-miami-drift-team-graphic-t-shirt-cat-38-jack-dark-8482-dark-green/-/A-94650208",
-      tags: "Boys’ Clothing, Cat & Jack, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cat & Jack",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-short-sleeve-burger-planet-graphic-t-shirt-cat-jack-black/-/A-94619140",
-      tags: "Boys’ Clothing, Cat & Jack, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cat & Jack",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-short-sleeve-west-coast-california-graphic-t-shirt-cat-jack-khaki/-/A-94619146",
-      tags: "Boys’ Clothing, Cat & Jack, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cat & Jack",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-short-sleeve-dinosaur-graphic-t-shirt-cat-jack-brown/-/A-94619138",
-      tags: "Boys’ Clothing, Cat & Jack, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cat & Jack",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-39-short-sleeve-halloween-dogs-graphic-t-shirt-cat-38-jack-8482-cream/-/A-94650207",
-      tags: "Boys’ Clothing, Cat & Jack, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cat & Jack",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-short-sleeve-pasta-graphic-t-shirt-cat-jack-gray/-/A-94619142",
-      tags: "Boys’ Clothing, Cat & Jack, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cat & Jack",
-      },
-    },
-    {
-      url: "https://www.target.com/p/kids-2pk-adaptive-short-sleeve-graphic-t-shirt-cat-38-jack-8482/-/A-94638343",
-      tags: "Boys’ Clothing, Cat & Jack, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cat & Jack",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-short-sleeve-bird-graphic-t-shirt-cat-jack-bright-turquoise-blue/-/A-94493190",
-      tags: "Boys’ Clothing, Cat & Jack, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cat & Jack",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-short-sleeve-graphic-t-shirt-cat-jack-pink/-/A-94663043",
-      tags: "Boys’ Clothing, Cat & Jack, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cat & Jack",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-39-short-sleeve-skateboard-dino-graphic-t-shirt-cat-38-jack-8482-red/-/A-93276692",
-      tags: "Boys’ Clothing, Cat & Jack, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cat & Jack",
-      },
-    },
-    {
-      url: "https://www.target.com/p/kids-39-adaptive-short-sleeve-graphic-t-shirt-cat-38-jack-8482/-/A-93574669",
-      tags: "Boys’ Clothing, Cat & Jack, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cat & Jack",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-39-short-sleeve-explore-nature-graphic-t-shirt-cat-38-jack-8482-brown/-/A-94650206",
-      tags: "Boys’ Clothing, Cat & Jack, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cat & Jack",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-short-sleeve-gameplay-graphic-t-shirt-cat-jack-blue/-/A-94663045",
-      tags: "Boys’ Clothing, Cat & Jack, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cat & Jack",
-      },
-    },
-    {
-      url: "https://www.target.com/p/kids-39-adaptive-short-sleeve-graphic-t-shirt-cat-38-jack-8482-cream-m/-/A-94567048",
-      tags: "Boys’ Clothing, Cat & Jack, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cat & Jack",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-39-short-sleeve-skateboard-dino-graphic-t-shirt-cat-38-jack-8482-red/-/A-93276692",
-      tags: "Boys’ Clothing, Cat & Jack, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cat & Jack",
-      },
-    },
-    {
-      url: "https://www.target.com/p/kids-39-adaptive-short-sleeve-graphic-t-shirt-cat-38-jack-8482-cream-l/-/A-94567049",
-      tags: "Boys’ Clothing, Cat & Jack, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cat & Jack",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-short-sleeve-printed-jersey-cat-jack/-/A-94614202",
-      tags: "Boys’ Clothing, Cat & Jack, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cat & Jack",
-      },
-    },
-    {
-      url: "https://www.target.com/p/kids-39-adaptive-short-sleeve-graphic-t-shirt-cat-38-jack-8482-cream-xl/-/A-94567050",
-      tags: "Boys’ Clothing, Cat & Jack, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cat & Jack",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-short-sleeve-printed-t-shirt-cat-jack-light-brown/-/A-94833984",
-      tags: "Boys’ Clothing, Cat & Jack, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cat & Jack",
-      },
-    },
-    {
-      url: "https://www.target.com/p/kids-2pk-adaptive-short-sleeve-graphic-t-shirt-cat-38-jack-8482/-/A-94638342",
-      tags: "Boys’ Clothing, Cat & Jack, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cat & Jack",
-      },
-    },
-    {
-      url: "https://www.target.com/p/kids-adaptive-halloween-graphic-t-shirt-cat-jack-purple/-/A-94638340",
-      tags: "Boys’ Clothing, Cat & Jack, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cat & Jack",
-      },
-    },
-    {
-      url: "https://www.target.com/p/champion-kids-signature-graphic-t-shirt/-/A-94609779",
-      tags: "Boys’ Clothing, Champion, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Champion",
-      },
-    },
-    {
-      url: "https://www.target.com/p/champion-boys-graphic-t-shirt/-/A-94609775",
-      tags: "Boys’ Clothing, Champion, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Champion",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-general-motors-chevy-camaro-ss-retro-cruising-circle-t-shirt/-/A-86096682",
-      tags: "Boys’ Clothing, Chevrolet, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Chevrolet",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-general-motors-floral-corvette-t-shirt/-/A-1002736007",
-      tags: "Boys’ Clothing, Chevrolet, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Chevrolet",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-general-motors-american-firebird-t-shirt/-/A-1004387764",
-      tags: "Boys’ Clothing, Chevrolet, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Chevrolet",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-general-motors-ready-to-ride-t-shirt/-/A-1004387053",
-      tags: "Boys’ Clothing, Chevrolet, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Chevrolet",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-general-motors-seasons-greetings-logo-t-shirt/-/A-90164779",
-      tags: "Boys’ Clothing, Chevrolet, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Chevrolet",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-general-motors-chevy-country-logo-t-shirt/-/A-1004401877",
-      tags: "Boys’ Clothing, Chevrolet, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Chevrolet",
-      },
-    },
-    {
-      url: "https://www.target.com/p/chuck-e-cheese-youth-royal-blue-t-shirt/-/A-87482023",
-      tags: "Boys’ Clothing, Chuck E. Cheese's, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Chuck E. Cheese's",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-chuck-e-cheese-birthday-boy-t-shirt/-/A-1003696287",
-      tags: "Boys’ Clothing, Chuck E. Cheese's, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Chuck E. Cheese's",
-      },
-    },
-    {
-      url: "https://www.target.com/p/chuck-e-cheese-chuck-in-red-circle-crew-neck-short-sleeve-royal-blue-boy-s-t-shirt/-/A-90468640",
-      tags: "Boys’ Clothing, Chuck E. Cheese's, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Chuck E. Cheese's",
-      },
-    },
-    {
-      url: "https://www.target.com/p/chuck-e-cheese-happy-chuck-crew-neck-short-sleeve-athletic-heather-boy-s-t-shirt/-/A-90663993",
-      tags: "Boys’ Clothing, Chuck E. Cheese's, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Chuck E. Cheese's",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-chuck-e-cheese-it-s-my-6th-birthday-t-shirt/-/A-1003696361",
-      tags: "Boys’ Clothing, Chuck E. Cheese's, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Chuck E. Cheese's",
-      },
-    },
-    {
-      url: "https://www.target.com/p/chuck-e-cheese-jumping-chuck-e-crew-neck-short-sleeve-navy-blue-boy-s-t-shirt/-/A-91071026",
-      tags: "Boys’ Clothing, Chuck E. Cheese's, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Chuck E. Cheese's",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-chuck-e-cheese-it-s-my-5th-birthday-t-shirt/-/A-1003696046",
-      tags: "Boys’ Clothing, Chuck E. Cheese's, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Chuck E. Cheese's",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-chuck-e-cheese-it-s-my-7th-birthday-t-shirt/-/A-1003696392",
-      tags: "Boys’ Clothing, Chuck E. Cheese's, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Chuck E. Cheese's",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-chuck-e-cheese-it-s-my-8th-birthday-t-shirt/-/A-1003696389",
-      tags: "Boys’ Clothing, Chuck E. Cheese's, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Chuck E. Cheese's",
-      },
-    },
-    {
-      url: "https://www.target.com/p/chucky-men-s-child-s-play-t-shirt-front-and-back-print-and-rubber-patch-good-guy-official-merchandise-horror-tee-black-rubber/-/A-1004497651",
-      tags: "Boys’ Clothing, Chucky, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Chucky",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-cinderella-just-shine-t-shirt/-/A-91641949",
-      tags: "Boys’ Clothing, Cinderella, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cinderella",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-cinderella-i-heart-being-a-princess-t-shirt/-/A-91642643",
-      tags: "Boys’ Clothing, Cinderella, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cinderella",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-cinderella-floral-princess-and-friends-t-shirt/-/A-91641718",
-      tags: "Boys’ Clothing, Cinderella, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cinderella",
-      },
-    },
-    {
-      url: "https://www.target.com/p/cobra-kai-black-cobra-youth-basic-black-graphic-tee/-/A-84941882",
-      tags: "Boys’ Clothing, Cobra Kai, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cobra Kai",
-      },
-    },
-    {
-      url: "https://www.target.com/p/cobra-kai-strike-first-strike-hard-crew-neck-long-sleeve-black-youth-tee/-/A-89522882",
-      tags: "Boys’ Clothing, Cobra Kai, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cobra Kai",
-      },
-    },
-    {
-      url: "https://www.target.com/p/cobra-kai-never-dies-crew-neck-long-sleeve-black-youth-tee/-/A-89522842",
-      tags: "Boys’ Clothing, Cobra Kai, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cobra Kai",
-      },
-    },
-    {
-      url: "https://www.target.com/p/cobra-kai-black-snake-icon-boy-s-athletic-heather-t-shirt/-/A-87945233",
-      tags: "Boys’ Clothing, Cobra Kai, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cobra Kai",
-      },
-    },
-    {
-      url: "https://www.target.com/p/strike-first-cobra-kai-tv-show-series-youth-boys-black-graphic-tee/-/A-84941970",
-      tags: "Boys’ Clothing, Cobra Kai, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cobra Kai",
-      },
-    },
-    {
-      url: "https://www.target.com/p/cobra-kai-eagle-fang-karate-youth-boy-s-red-graphic-tee/-/A-84941971",
-      tags: "Boys’ Clothing, Cobra Kai, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cobra Kai",
-      },
-    },
-    {
-      url: "https://www.target.com/p/cobra-kai-eagle-fang-karate-youth-white-short-sleeve-tee/-/A-92548342",
-      tags: "Boys’ Clothing, Cobra Kai, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cobra Kai",
-      },
-    },
-    {
-      url: "https://www.target.com/p/cobra-kai-3-miyagi-do-dojo-sunset-art-navy-youth-boys-short-sleeve-shirt/-/A-85019550",
-      tags: "Boys’ Clothing, Cobra Kai, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cobra Kai",
-      },
-    },
-    {
-      url: "https://www.target.com/p/cobra-kai-team-no-mercy-dojo-youth-boy-s-white-t-shirt/-/A-87944648",
-      tags: "Boys’ Clothing, Cobra Kai, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cobra Kai",
-      },
-    },
-    {
-      url: "https://www.target.com/p/cobra-kai-if-you-re-not-strong-on-the-inside-boy-s-red-t-shirt/-/A-87945315",
-      tags: "Boys’ Clothing, Cobra Kai, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cobra Kai",
-      },
-    },
-    {
-      url: "https://www.target.com/p/cobra-kai-all-valley-2018-diaz-vs-keene-youth-boy-s-red-t-shirt/-/A-87945366",
-      tags: "Boys’ Clothing, Cobra Kai, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cobra Kai",
-      },
-    },
-    {
-      url: "https://www.target.com/p/cobra-kai-double-yellow-cobra-youth-boy-s-black-t-shirt/-/A-87944578",
-      tags: "Boys’ Clothing, Cobra Kai, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Cobra Kai",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-coca-cola-unity-square-lyrics-logo-t-shirt/-/A-1004407646",
-      tags: "Boys’ Clothing, Coca-Cola, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Coca-Cola",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-coco-floral-skull-t-shirt/-/A-92378944",
-      tags: "Boys’ Clothing, Coco, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Coco",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-coco-miguel-skeleton-t-shirt/-/A-82354522",
-      tags: "Boys’ Clothing, Coco, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Coco",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-coco-ernesto-remember-me-t-shirt/-/A-87572804",
-      tags: "Boys’ Clothing, Coco, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Coco",
-      },
-    },
-    {
-      url: "https://www.target.com/p/converse-boys-short-sleeve-all-star-logo-graphic-t-shirt-gray/-/A-94300126",
-      tags: "Boys’ Clothing, Converse, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Converse",
-      },
-    },
-    {
-      url: "https://www.target.com/p/converse-boys-high-top-logo-graphic-t-shirt-beige/-/A-94300136",
-      tags: "Boys’ Clothing, Converse, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Converse",
-      },
-    },
-    {
-      url: "https://www.target.com/p/converse-boys-short-sleeve-converse-athletics-printed-t-shirt-cream/-/A-94300123",
-      tags: "Boys’ Clothing, Converse, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Converse",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-country-casuals-chicken-pet-that-poops-breakfast-short-sleeve-graphic-t-shirt/-/A-1004188593",
-      tags: "Boys’ Clothing, Country Casuals, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Country Casuals",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-country-casuals-country-roads-take-me-home-short-sleeve-graphic-t-shirt/-/A-1004188735",
-      tags: "Boys’ Clothing, Country Casuals, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Country Casuals",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-country-casuals-life-is-better-with-cows-short-sleeve-graphic-t-shirt/-/A-1004188662",
-      tags: "Boys’ Clothing, Country Casuals, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Country Casuals",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-country-casuals-live-life-gate-open-short-sleeve-graphic-t-shirt/-/A-1004188590",
-      tags: "Boys’ Clothing, Country Casuals, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Country Casuals",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boys-country-casuals-get-piggy-with-it-short-sleeve-graphic-t-shirt/-/A-1004188530",
-      tags: "Boys’ Clothing, Country Casuals, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Country Casuals",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-crayola-hello-2nd-grade-t-shirt/-/A-93074806",
-      tags: "Boys’ Clothing, Crayola, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Crayola",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-crayola-your-true-colors-are-beautiful-t-shirt/-/A-93075102",
-      tags: "Boys’ Clothing, Crayola, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Crayola",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-crayola-animal-print-crayon-label-t-shirt/-/A-93075232",
-      tags: "Boys’ Clothing, Crayola, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Crayola",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-crayola-happy-100-days-of-school-t-shirt/-/A-93074910",
-      tags: "Boys’ Clothing, Crayola, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Crayola",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-crayola-rainbows-are-rad-t-shirt/-/A-93075149",
-      tags: "Boys’ Clothing, Crayola, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Crayola",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-crayola-100-colorful-days-of-school-t-shirt/-/A-93074723",
-      tags: "Boys’ Clothing, Crayola, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Crayola",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-crayola-classic-black-logo-t-shirt/-/A-93074801",
-      tags: "Boys’ Clothing, Crayola, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Crayola",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-crayola-be-bold-like-a-rainbow-t-shirt/-/A-92650246",
-      tags: "Boys’ Clothing, Crayola, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Crayola",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-crayola-easter-egg-stra-colorful-t-shirt/-/A-91248197",
-      tags: "Boys’ Clothing, Crayola, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Crayola",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-crayola-floral-logo-t-shirt/-/A-91246635",
-      tags: "Boys’ Clothing, Crayola, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Crayola",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-crayola-first-day-of-school-t-shirt/-/A-93074839",
-      tags: "Boys’ Clothing, Crayola, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Crayola",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-crayola-hello-1st-grade-t-shirt/-/A-93074817",
-      tags: "Boys’ Clothing, Crayola, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Crayola",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-crayola-neon-carrot-for-the-easter-bunny-t-shirt/-/A-91248478",
-      tags: "Boys’ Clothing, Crayola, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Crayola",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-crayola-spring-into-action-t-shirt/-/A-91248551",
-      tags: "Boys’ Clothing, Crayola, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Crayola",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-crayola-hello-pre-k-t-shirt/-/A-93074851",
-      tags: "Boys’ Clothing, Crayola, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Crayola",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-crayola-hello-3rd-grade-t-shirt/-/A-93074761",
-      tags: "Boys’ Clothing, Crayola, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Crayola",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-crayola-radical-color-t-shirt/-/A-93075442",
-      tags: "Boys’ Clothing, Crayola, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Crayola",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-crayola-bootiful-colors-t-shirt/-/A-93075981",
-      tags: "Boys’ Clothing, Crayola, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Crayola",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-crayola-pumpkin-spice-everything-nice-t-shirt/-/A-93075693",
-      tags: "Boys’ Clothing, Crayola, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Crayola",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-crayola-easter-duckling-hatch-t-shirt/-/A-91248210",
-      tags: "Boys’ Clothing, Crayola, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Crayola",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-crayola-arcade-machine-t-shirt/-/A-93075423",
-      tags: "Boys’ Clothing, Crayola, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Crayola",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-crayola-rainbow-colors-logo-t-shirt/-/A-93075412",
-      tags: "Boys’ Clothing, Crayola, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Crayola",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-crayola-trick-or-treat-t-shirt/-/A-93075894",
-      tags: "Boys’ Clothing, Crayola, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Crayola",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boy-s-crayola-easter-hop-along-baby-bunny-pink-t-shirt/-/A-91248582",
-      tags: "Boys’ Clothing, Crayola, Graphic Tees, Kids’ Clothing, Tops",
-      filters: {
-        brand: "Crayola",
-      },
-    },
-    {
-      url: "https://www.target.com/p/youth-happy-4th-of-jawly-tshirt-funny-4th-of-july-shark-independence-day-graphic-tee-crazy-dog-youth-t-shirt/-/A-93855948",
+      url: "https://www.target.com/p/youth-funny-t-shirts-problem-child-sarcastic-graphic-novelty-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1003093725",
       tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
       filters: {
         brand: "Crazy Dog T-Shirts, Inc.",
       },
     },
     {
-      url: "https://www.target.com/p/youth-lets-eat-kids-punctuation-saves-lives-tshirt-funny-dinosaur-grammar-police-graphic-tee-crazy-dog-youth-t-shirt/-/A-93855242",
+      url: "https://www.target.com/p/youth-funny-t-shirts-powered-by-macaroni-and-cheese-sarcastic-food-graphic-novelty-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1004290295",
       tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
       filters: {
         brand: "Crazy Dog T-Shirts, Inc.",
       },
     },
     {
-      url: "https://www.target.com/p/youth-youre-killing-me-smalls-t-shirt-funny-vintage-baseball-graphic-tee-kids-crazy-dog-youth-t-shirt/-/A-94055390",
+      url: "https://www.target.com/p/youth-cuter-version-of-dad-tshirt-funny-son-family-boy-graphic-novelty-tee-crazy-dog-youth-t-shirt/-/A-93855435",
       tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
       filters: {
         brand: "Crazy Dog T-Shirts, Inc.",
       },
     },
     {
-      url: "https://www.target.com/p/youth-mama-s-boy-tshirt-funny-halloween-horror-movie-hockey-mask-graphic-tee-crazy-dog-youth-t-shirt/-/A-93898532",
+      url: "https://www.target.com/p/youth-funny-t-shirts-powered-by-butter-noodles-sarcastic-food-graphic-novelty-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1003095243",
       tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
       filters: {
         brand: "Crazy Dog T-Shirts, Inc.",
       },
     },
     {
-      url: "https://www.target.com/p/youth-team-kids-table-tshirt-funny-thanksgiving-christmas-dinner-holiday-graphic-tee-crazy-dog-youth-t-shirt/-/A-93903236",
+      url: "https://www.target.com/p/youth-funny-t-shirts-usa-popsicle-sarcastic-fourth-of-july-graphic-novelty-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1004288215",
       tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
       filters: {
         brand: "Crazy Dog T-Shirts, Inc.",
       },
     },
     {
-      url: "https://www.target.com/p/youth-christmas-baking-team-tshirt-funny-xmas-party-family-novelty-graphic-tee-for-kids-crazy-dog-youth-t-shirt/-/A-93984912",
+      url: "https://www.target.com/p/youth-funny-t-shirts-angry-but-up-for-ice-cream-sarcastic-dessert-graphic-novelty-tee-for-kids-crazy-dog-youth-t-shirt-black-xl/-/A-1004289584",
       tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
       filters: {
         brand: "Crazy Dog T-Shirts, Inc.",
       },
     },
     {
-      url: "https://www.target.com/p/youth-funny-t-shirts-tiny-food-critic-sarcastic-graphic-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1003094920",
+      url: "https://www.target.com/p/youth-funny-t-shirts-not-a-fan-of-baths-sarcastic-kitten-graphic-novelty-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1001527344",
       tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
       filters: {
         brand: "Crazy Dog T-Shirts, Inc.",
       },
     },
     {
-      url: "https://www.target.com/p/youth-christmas-morning-squad-tshirt-funny-xmas-party-family-novelty-graphic-tee-for-kids-crazy-dog-youth-t-shirt/-/A-93984944",
+      url: "https://www.target.com/p/youth-funny-t-shirts-grandma-told-me-i-could-sarcastic-graphic-novelty-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1003093311",
       tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
       filters: {
         brand: "Crazy Dog T-Shirts, Inc.",
       },
     },
     {
-      url: "https://www.target.com/p/youth-funny-t-shirts-powered-by-chicken-nuggets-sarcastic-food-graphic-novelty-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1003092140",
+      url: "https://www.target.com/p/youth-funny-t-shirts-father-and-son-baseball-partners-for-life-sarcastic-fathers-day-graphic-tee-for-kids-crazy-dog-youth-t-shirt-red-xl/-/A-1004289829",
       tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
       filters: {
         brand: "Crazy Dog T-Shirts, Inc.",
       },
     },
     {
-      url: "https://www.target.com/p/youth-funny-t-shirts-future-engineer-sarcastic-graphic-novelty-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1004289935",
+      url: "https://www.target.com/p/youth-funny-t-shirts-father-and-son-hockey-partners-for-life-sarcastic-fathers-day-graphic-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1004289654",
       tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
       filters: {
         brand: "Crazy Dog T-Shirts, Inc.",
       },
     },
     {
-      url: "https://www.target.com/p/youth-funny-t-shirts-picky-eaters-club-sarcastic-food-graphic-novelty-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1003095790",
+      url: "https://www.target.com/p/youth-funny-t-shirts-auntie-told-me-i-could-sarcastic-graphic-novelty-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1003093319",
       tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
       filters: {
         brand: "Crazy Dog T-Shirts, Inc.",
       },
     },
     {
-      url: "https://www.target.com/p/youth-funny-t-shirts-i-get-my-charm-from-my-dad-sarcastic-graphic-novelty-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1004290676",
+      url: "https://www.target.com/p/youth-funny-t-shirts-future-lawyer-sarcastic-graphic-novelty-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1004289990",
       tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
       filters: {
         brand: "Crazy Dog T-Shirts, Inc.",
       },
     },
     {
-      url: "https://www.target.com/p/youth-funny-t-shirts-future-fire-fighter-sarcastic-fire-truck-graphic-novelty-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1004289995",
+      url: "https://www.target.com/p/youth-funny-t-shirts-future-teacher-sarcastic-pencil-graphic-novelty-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1004289336",
       tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
       filters: {
         brand: "Crazy Dog T-Shirts, Inc.",
       },
     },
     {
-      url: "https://www.target.com/p/youth-hold-my-juice-box-funny-cute-apple-juicebox-graphic-novelty-tee-for-kids-crazy-dog-youth-t-shirt/-/A-93982042",
+      url: "https://www.target.com/p/youth-funny-t-shirts-future-doctor-sarcastic-stethoscope-graphic-novelty-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1004289916",
       tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
       filters: {
         brand: "Crazy Dog T-Shirts, Inc.",
       },
     },
     {
-      url: "https://www.target.com/p/youth-funny-t-shirts-father-and-son-fishing-partners-for-life-sarcastic-fathers-day-graphic-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1004289832",
+      url: "https://www.target.com/p/youth-no-mistletoe-needed-tshirt-funny-christmas-kiss-graphic-novelty-tee-for-children-crazy-dog-youth-t-shirt/-/A-93983092",
       tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
       filters: {
         brand: "Crazy Dog T-Shirts, Inc.",
       },
     },
     {
-      url: "https://www.target.com/p/youth-son-of-a-nutcracker-tshirt-funny-christmas-holiday-spirit-graphic-tee-crazy-dog-youth-t-shirt/-/A-93900774",
+      url: "https://www.target.com/p/youth-funny-t-shirts-future-police-officer-sarcastic-cop-graphic-novelty-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1004289943",
       tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
       filters: {
         brand: "Crazy Dog T-Shirts, Inc.",
       },
     },
     {
-      url: "https://www.target.com/p/youth-funny-t-shirts-if-we-get-in-trouble-its-my-grandpas-fault-sarcastic-graphic-novelty-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1003093621",
+      url: "https://www.target.com/p/youth-hulk-mode-on-t-shirt-funny-nerdy-tee-graphic-top-for-kids-hilarious-crazy-dog-youth-t-shirt/-/A-94061593",
       tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
       filters: {
         brand: "Crazy Dog T-Shirts, Inc.",
       },
     },
     {
-      url: "https://www.target.com/p/youth-funny-t-shirts-sarcastic-it-was-dads-idea-graphic-novelty-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1003092619",
+      url: "https://www.target.com/p/youth-funny-t-shirts-please-be-patient-im-9-years-old-sarcastic-graphic-novelty-birthday-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1003094879",
       tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
       filters: {
         brand: "Crazy Dog T-Shirts, Inc.",
       },
     },
     {
-      url: "https://www.target.com/p/youth-funny-t-shirts-father-and-son-football-partners-for-life-sarcastic-fathers-day-graphic-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1004289794",
+      url: "https://www.target.com/p/youth-funny-t-shirts-please-be-patient-im-8-years-old-sarcastic-graphic-novelty-birthday-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1003095921",
       tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
       filters: {
         brand: "Crazy Dog T-Shirts, Inc.",
       },
     },
     {
-      url: "https://www.target.com/p/youth-dad-joke-survivor-tshirt-funny-fathers-day-son-daughter-hilarious-graphic-novelty-tee-crazy-dog-youth-t-shirt/-/A-93897875",
+      url: "https://www.target.com/p/youth-funny-t-shirts-please-be-patient-im-7-years-old-sarcastic-graphic-novelty-birthday-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1003095991",
       tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
       filters: {
         brand: "Crazy Dog T-Shirts, Inc.",
       },
     },
     {
-      url: "https://www.target.com/p/youth-funny-t-shirts-dont-make-me-call-my-mimi-sarcastic-graphic-novelty-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1003092787",
+      url: "https://www.target.com/p/youth-funny-t-shirts-please-be-patient-im-5-years-old-sarcastic-graphic-novelty-birthday-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1003096034",
       tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
       filters: {
         brand: "Crazy Dog T-Shirts, Inc.",
       },
     },
     {
-      url: "https://www.target.com/p/youth-funny-t-shirts-hip-hoppin-sarcastic-danicing-bunny-graphic-novelty-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1003094564",
+      url: "https://www.target.com/p/youth-funny-t-shirts-please-be-patient-im-6-years-old-sarcastic-graphic-novelty-birthday-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1003095926",
       tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
       filters: {
         brand: "Crazy Dog T-Shirts, Inc.",
       },
     },
     {
-      url: "https://www.target.com/p/youth-funny-t-shirts-meet-me-in-the-ball-pit-sarcastic-metal-music-graphic-novelty-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1003096412",
+      url: "https://www.target.com/p/youth-eat-sleep-fish-t-shirt-funny-fishing-tee-cool-graphic-fun-crazy-for-kids-crazy-dog-youth-t-shirt/-/A-94059552",
       tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
       filters: {
         brand: "Crazy Dog T-Shirts, Inc.",
       },
     },
     {
-      url: "https://www.target.com/p/youth-funny-t-shirts-powered-by-peanut-butter-and-jelly-sarcastic-pb-j-graphic-novelty-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1003095860",
+      url: "https://www.target.com/p/youth-explaining-to-my-parents-that-i-cant-pause-an-online-game-t-shirt-funny-video-gamer-equations-joke-tee-for-kids-crazy-dog-youth-t-shirt/-/A-94034323",
       tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
       filters: {
         brand: "Crazy Dog T-Shirts, Inc.",
       },
     },
     {
-      url: "https://www.target.com/p/youth-funny-t-shirts-fun-sized-sarcastic-candy-bar-graphic-novelty-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1003095289",
+      url: "https://www.target.com/p/youth-camping-is-in-tents-t-shirt-funny-intense-outdoors-hiking-camp-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1000012713",
       tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
       filters: {
         brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/kids-shark-hierarchy-t-shirt-funny-youth-sharks-shirt-i-love-sharks-tee-crazy-dog-youth-t-shirt/-/A-94059719",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-whats-snack-a-lackin-t-shirt-funny-snacktime-treat-tee-for-kids-crazy-dog-youth-t-shirt/-/A-94040484",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-dill-with-it-t-shirt-funny-pickles-deal-with-it-vegetable-joke-tee-for-kids-crazy-dog-youth-t-shirt/-/A-94026414",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-the-chemistry-of-bacon-t-shirt-funny-periodic-table-tee-for-kids-crazy-dog-youth-t-shirt/-/A-94059223",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-fitness-tacos-t-shirt-funny-workout-mexican-food-lovers-joke-tee-for-kids-crazy-dog-youth-t-shirt/-/A-94030480",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-kids-table-club-tshirt-funny-thanksgiving-dinner-turkey-hand-tee-crazy-dog-youth-t-shirt/-/A-93903269",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-my-dog-thinks-im-cool-t-shirt-funny-cute-puppy-pet-lover-tee-for-kids-crazy-dog-youth-t-shirt/-/A-94030287",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-gourmet-boogers-t-shirt-funny-nose-picking-joke-tee-for-kids-crazy-dog-youth-t-shirt/-/A-94037574",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-ive-been-goodish-this-year-tshirt-funny-christmas-holiday-party-tee-crazy-dog-youth-t-shirt/-/A-93741154",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-the-nice-ish-elf-t-shirt-funny-good-behavior-xmas-elves-joke-tee-for-kids-crazy-dog-youth-t-shirt/-/A-94033691",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-ask-me-about-my-lion-flip-t-shirt-funny-crazy-cat-flipover-tee-for-kids-crazy-dog-youth-t-shirt/-/A-93741016",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-i-like-dogs-and-maybe-3-people-t-shirt-funny-pet-puppy-animal-lover-tee-for-kids-crazy-dog-youth-t-shirt/-/A-94040512",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-cutest-turkey-at-the-table-t-shirt-funny-cute-thanksgiving-dinner-joke-tee-for-kids-crazy-dog-youth-t-shirt/-/A-94033749",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-gingerbread-house-construction-crew-t-shirt-funny-xmas-treat-joke-tee-for-kids-crazy-dog-youth-t-shirt/-/A-94039895",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-nearly-feral-t-shirt-funny-untamed-wild-animal-joke-tee-for-kids-crazy-dog-youth-t-shirt/-/A-94027540",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-of-course-i-talk-to-myself-sometimes-i-need-expert-advice-t-shirt-funny-joke-tee-for-kids-crazy-dog-youth-t-shirt/-/A-94036185",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-tree-rex-tshirt-funny-christmas-t-rex-dinosaur-tee-for-kids-crazy-dog-youth-t-shirt/-/A-93772652",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-ive-got-your-back-t-shirt-funny-halloween-skeleton-spine-joke-tee-for-kids-crazy-dog-youth-t-shirt/-/A-93739300",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-stud-muffins-baked-goods-t-shirt-funny-bakery-joke-tee-for-kids-crazy-dog-youth-t-shirt/-/A-94036048",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-zombies-eat-brains-don-t-worry-you-re-safe-t-shirt-funny-dumb-undead-insult-tee-for-kids-crazy-dog-youth-t-shirt/-/A-94033665",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-bacon-chemistry-t-shirt-funny-science-preiodic-table-tee-for-kids-crazy-dog-youth-t-shirt/-/A-93740552",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-ask-me-about-my-penguin-tshirt-funny-flip-up-tee-for-kids-crazy-dog-youth-t-shirt/-/A-93740669",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-thats-a-horrible-idea-what-time-t-shirt-funny-mischief-trouble-maker-joke-tee-for-kids-crazy-dog-youth-t-shirt/-/A-94034368",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-pumpkin-pi-t-shirt-funny-math-shirt-pie-tee-thanksgiving-tee-for-kids-crazy-dog-youth-t-shirt/-/A-93852574",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-im-why-we-cant-have-nice-things-t-shirt-funny-trouble-maker-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1000012729",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-ask-me-about-my-goat-funny-animal-flip-shirt-cool-costume-tee-for-kids-crazy-dog-youth-t-shirt/-/A-93740903",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-whats-snack-a-lackin-t-shirt-funny-snacktime-treat-tee-for-kids-crazy-dog-youth-t-shirt/-/A-94040484",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-i-came-i-saw-i-forgot-what-i-was-doing-t-shirt-funny-short-term-memory-joke-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1000012707",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-stud-muffins-baked-goods-t-shirt-funny-bakery-joke-tee-for-kids-crazy-dog-youth-t-shirt/-/A-94036048",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-ask-me-about-my-trex-t-shirt-funny-cool-dinosaur-flip-graphic-print-kids-crazy-dog-youth-t-shirt/-/A-94234539",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-eat-sleep-game-repeat-t-shirt-funny-nerdy-gamer-tee-for-kids-crazy-dog-youth-t-shirt/-/A-94030484",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-ive-got-your-back-t-shirt-funny-halloween-skeleton-spine-joke-tee-for-kids-crazy-dog-youth-t-shirt/-/A-93739300",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-professional-patience-testing-co-t-shirt-funny-joke-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1000014924",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-cutest-turkey-at-the-table-t-shirt-funny-cute-thanksgiving-dinner-joke-tee-for-kids-crazy-dog-youth-t-shirt/-/A-94033749",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-coolest-kid-t-shirt-funny-cute-ice-cold-popsicle-sweet-treat-tee-for-young-kids-crazy-dog-youth-t-shirt/-/A-94035459",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-iron-science-t-shirt-cool-shirts-novelty-kids-funny-t-shirt-graphic-design-crazy-dog-youth-t-shirt/-/A-94060115",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-glowing-ghost-glow-in-the-dark-tshirt-cool-halloween-costume-tee-crazy-dog-youth-t-shirt/-/A-93548518",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-never-tired-t-shirt-funny-young-endless-energy-joke-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1000007729",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-i-like-dogs-and-maybe-3-people-t-shirt-funny-pet-puppy-animal-lover-tee-for-kids-crazy-dog-youth-t-shirt/-/A-94040512",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-5-out-of-4-people-struggle-with-math-t-shirt-funny-nerdy-school-joke-tee-for-kids-crazy-dog-youth-t-shirt/-/A-94034511",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-oldest-child-i-make-the-rules-t-shirt-funny-sarcastic-sibling-novelty-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1000192277",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-im-here-youre-welcome-t-shirt-funny-ego-joke-tee-for-kids-crazy-dog-youth-t-shirt/-/A-94030476",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-dont-grow-up-its-a-trap-t-shirt-funny-young-childhood-joke-tee-for-kids-crazy-dog-youth-t-shirt/-/A-94034517",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-name-the-triangles-funny-math-t-shirts-sarcasm-novelty-i-love-math-tee-humor-crazy-dog-youth-t-shirt/-/A-93740969",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-ask-me-about-my-raptor-flip-t-shirt-dinosaur-funny-kids-cool-tee-crazy-dog-youth-t-shirt/-/A-93854498",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-tree-rex-tshirt-funny-christmas-t-rex-dinosaur-tee-for-kids-crazy-dog-youth-t-shirt/-/A-93772652",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-coolest-kid-t-shirt-funny-cute-ice-cold-popsicle-sweet-treat-tee-for-young-kids-crazy-dog-youth-t-shirt/-/A-94035459",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-thats-a-horrible-idea-what-time-t-shirt-funny-mischief-trouble-maker-joke-tee-for-kids-crazy-dog-youth-t-shirt/-/A-94034368",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-candy-taste-tester-t-shirt-funny-halloween-trick-or-treat-lovers-tee-for-kids-crazy-dog-youth-t-shirt/-/A-94029133",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-kids-table-club-tshirt-funny-thanksgiving-dinner-turkey-hand-tee-crazy-dog-youth-t-shirt/-/A-93903269",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-ask-me-about-my-giraffe-t-shirt-animal-zoo-flip-tee-for-kids-crazy-dog-youth-t-shirt/-/A-93740627",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-funny-t-shirts-i-love-it-when-my-mom-lets-me-play-video-games-sarcastic-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1003096654",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-another-fine-day-ruined-by-responsibility-t-shirt-funny-adulting-obligation-joke-tee-for-kids-crazy-dog-youth-t-shirt/-/A-94035987",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-birthday-dude-all-day-long-t-shirt-funny-awesome-celebration-party-tee-for-kids-crazy-dog-youth-t-shirt/-/A-94031450",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-expert-tree-climber-t-shirt-funny-adventurous-exploring-tee-for-kids-crazy-dog-youth-t-shirt/-/A-94037671",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-dont-grow-up-its-a-trap-t-shirt-funny-young-childhood-joke-tee-for-kids-crazy-dog-youth-t-shirt/-/A-94034517",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-have-a-magical-christmas-tshirt-funny-unicorn-tee-for-kids-crazy-dog-youth-t-shirt/-/A-93773904",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-innocent-until-proven-guilty-t-shirt-funny-court-defense-bad-behavior-joke-tee-for-kids-crazy-dog-youth-t-shirt/-/A-94037554",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-of-course-i-talk-to-myself-sometimes-i-need-expert-advice-t-shirt-funny-joke-tee-for-kids-crazy-dog-youth-t-shirt/-/A-94036185",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-the-naughty-elf-t-shirt-funny-bad-behavior-xmas-elves-joke-tee-for-kids-crazy-dog-youth-t-shirt/-/A-94040197",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-ask-me-about-squatch-t-shirt-funny-sarcastic-bigfoot-flip-tee-for-kids-crazy-dog-youth-t-shirt/-/A-93799404",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-you-cant-scare-me-i-have-a-crazy-mom-t-shirt-funny-insane-mother-joke-tee-for-kids-crazy-dog-youth-t-shirt/-/A-94034773",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-brother-bear-t-shirt-cute-funny-family-sibling-tee-cool-for-kids-crazy-dog-youth-t-shirt/-/A-93771988",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-eh-team-canada-t-shirt-funny-canadian-shirts-kids-novelty-t-shirt-hilarious-crazy-dog-youth-t-shirt/-/A-94057383",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-santa-jaws-funny-holiday-shark-christmas-cool-novelty-t-shirt-for-kids-crazy-dog-youth-t-shirt/-/A-93740477",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-stand-back-science-funny-shirts-cool-humorous-nerdy-t-shirts-for-geeks-crazy-dog-youth-t-shirt/-/A-94060407",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-i-dont-have-the-time-or-the-crayons-to-explain-this-to-you-t-shirt-funny-joke-tee-for-kids-crazy-dog-youth-t-shirt/-/A-93980636",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-ask-me-about-my-wolf-awesome-flip-shirt-for-kids-crazy-dog-youth-t-shirt/-/A-93740385",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-dont-make-me-call-grandma-t-shirt-funny-saying-hilarious-shirt-for-kids-crazy-dog-youth-t-shirt/-/A-93897596",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-worlds-okayest-brother-shirt-funny-t-shirt-big-brother-novelty-gift-fun-crazy-dog-youth-t-shirt/-/A-94057202",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-ask-me-why-im-jawsome-cool-movie-great-white-shark-shirt-costume-for-kids-crazy-dog-youth-t-shirt/-/A-93741195",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-save-the-narwhals-tshirt-funny-narwhal-unicorn-shirt-for-kids-crazy-dog-youth-t-shirt/-/A-94061191",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-if-zombies-chase-us-i-m-tripping-you-funny-halloween-tshirt-for-kids-crazy-dog-youth-t-shirt/-/A-94058961",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-ask-me-why-i-like-full-moons-awesome-werewolf-t-shirt-costume-for-kids-crazy-dog-youth-t-shirt/-/A-93740826",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-ask-me-about-jaws-cool-movie-flip-shirt-for-kids-crazy-dog-youth-t-shirt/-/A-93741000",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-pumpkin-face-t-shirt-funny-halloween-shirt-for-kids-crazy-dog-youth-t-shirt/-/A-94056710",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-little-bear-cute-gift-for-children-brother-funny-novelty-family-t-shirt-crazy-dog-youth-t-shirt/-/A-93756604",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-dont-make-me-call-grandma-t-shirt-funny-saying-hilarious-shirt-for-kids-crazy-dog-youth-t-shirt/-/A-93897596",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-funny-t-shirts-gamer-skull-sarcastic-video-games-graphic-tee-for-kids-crazy-dog-youth-t-shirt/-/A-94060206",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-funny-t-shirts-rockin-the-kid-life-sarcastic-graphic-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1000014710",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-funny-t-shirts-it-was-grandpas-idea-sarcastic-graphic-tee-for-kids-crazy-dog-youth-t-shirt/-/A-94062375",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-funny-t-shirts-awesome-like-my-dad-sarcastic-fathers-lovers-graphic-novelty-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1001525358",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-funny-t-shirts-awesome-like-my-grandpa-sarcastic-grandfather-lovers-graphic-novelty-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1001526859",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-funny-t-shirts-official-christmas-cookie-tester-sarcastic-xmas-graphic-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1001525823",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-funny-t-shirts-all-wound-up-sarcastic-toy-graphic-novelty-tee-for-kids-crazy-dog-youth-t-shirt/-/A-94062278",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-funny-t-shirts-santas-little-helper-funny-christmas-graphic-novelty-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1000083935",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-funny-t-shirts-awesome-like-my-mom-sarcastic-mothers-lovers-graphic-novelty-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1001526729",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-funny-t-shirts-dear-santa-i-regret-nothing-sarcastic-christmas-graphic-novelty-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1001525738",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-funny-t-shirts-side-hustle-sarcastic-graphic-novelty-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1004288906",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-funny-t-shirts-sarcastic-fourth-of-july-popsicle-graphic-novetly-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1004287840",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/cousin-squad-youth-t-shirt-funny-family-reunion-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1000014676",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-the-cool-cousin-club-t-shirt-funny-extended-family-cousins-joke-tee-for-kids-crazy-dog-youth-t-shirt/-/A-94060807",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-funny-t-shirts-proud-supporter-of-snowdays-sarcastic-winter-season-novelty-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1001525558",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/kids-i-love-sharks-t-shirt-classic-youth-shark-bite-shirt-shark-tee-crazy-dog-youth-t-shirt/-/A-94063720",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-ask-me-why-i-m-lazy-t-shirt-funny-flipup-zoo-animal-sloth-tee-for-kids-crazy-dog-youth-t-shirt/-/A-93741094",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-t-shirts-i-clover-shenanigans-funny-st-patricks-day-tee-for-kids-crazy-dog-youth-t-shirt/-/A-94029429",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-brother-squad-t-shirt-funny-awesome-bro-sibling-joke-tee-for-kids-crazy-dog-youth-t-shirt/-/A-94063784",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-funny-t-shirts-veggies-one-star-sarcastic-vegetables-food-review-novelty-tee-for-kids-crazy-dog-youth-t-shirt/-/A-94235103",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-funny-t-shirts-proud-supporter-of-snowdays-sarcastic-winter-season-novelty-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1001525558",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-funny-t-shirts-on-my-moms-last-nerve-sarcastic-novelty-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1001526164",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-funny-t-shirts-on-my-dads-last-nerve-sarcastic-novelty-tee-for-kids-crazy-dog-youth-t-shirt/-/A-1001525649",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/find-x-youth-t-shirt-funny-variable-student-classroom-math-teacher-tee-for-kids-crazy-dog-youth-t-shirt/-/A-94057206",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-heart-throb-t-shirt-cute-valentines-day-t-shirts-for-kids-crazy-dog-youth-t-shirt/-/A-94039347",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-santa-jaws-funny-holiday-shark-christmas-cool-novelty-t-shirt-for-kids-crazy-dog-youth-t-shirt/-/A-93740477",
+      tags: "Boys’ Clothing, Crazy Dog T-Shirts, Inc., Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Crazy Dog T-Shirts, Inc.",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-cuphead-happy-pose-performance-tee/-/A-86081283",
+      tags: "Boys’ Clothing, Cuphead, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Cuphead",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-cuphead-red-and-blue-best-friends-performance-tee/-/A-1001000900",
+      tags: "Boys’ Clothing, Cuphead, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Cuphead",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-cuphead-smile-and-wave-distressed-performance-tee/-/A-86081207",
+      tags: "Boys’ Clothing, Cuphead, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Cuphead",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-cuphead-happy-pose-t-shirt/-/A-82372981",
+      tags: "Boys’ Clothing, Cuphead, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Cuphead",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-husky-cuphead-best-friend-mugman/-/A-87574396",
+      tags: "Boys’ Clothing, Cuphead, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Cuphead",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-cuphead-brawl-is-brewing-t-shirt/-/A-86081070",
+      tags: "Boys’ Clothing, Cuphead, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Cuphead",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-cuphead-smile-portrait-t-shirt/-/A-86081059",
+      tags: "Boys’ Clothing, Cuphead, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Cuphead",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-cuphead-grim-matchstick-in-fiery-frolic-poster-t-shirt/-/A-86081244",
+      tags: "Boys’ Clothing, Cuphead, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Cuphead",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-cuphead-red-and-blue-best-friends-t-shirt/-/A-1000127783",
+      tags: "Boys’ Clothing, Cuphead, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Cuphead",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-cuphead-tough-cup-est-1930-t-shirt/-/A-86081048",
+      tags: "Boys’ Clothing, Cuphead, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Cuphead",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-cuphead-vintage-circle-t-shirt/-/A-82342288",
+      tags: "Boys’ Clothing, Cuphead, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Cuphead",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-cuphead-friendly-hello-cuphead-t-shirt/-/A-86081304",
+      tags: "Boys’ Clothing, Cuphead, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Cuphead",
+      },
+    },
+    {
+      url: "https://www.target.com/p/superman-flying-chibi-superman-boy-s-grey-long-sleeve-shirt/-/A-85782358",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-suicide-squad-movie-juniors-white-long-sleeve-shirt/-/A-84095538",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/dc-league-of-super-pets-characters-and-title-logo-youth-black-crew-neck-sweatshirt/-/A-86393845",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-dc-redwhite-blue-t-shirt/-/A-1004374114",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-dc-usa-banner-t-shirt/-/A-1004374328",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-dc-jla-american-shield-t-shirt/-/A-1004374373",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-dc-american-heroine-t-shirt/-/A-1004374382",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/dc-comics-justice-league-batman-joker-riddler-3-pack-t-shirts-little-kid-to-big-kid/-/A-89767316",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/dc-comics-justice-league-batman-2-pack-t-shirts-little-kid-to-big-kid/-/A-87668180",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/dc-comics-justice-league-batman-superman-the-flash-4-pack-long-sleeve-t-shirts-little-kid-to-big/-/A-84994604",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/dc-comics-t-shirt-sizes-2t-14-16/-/A-1001719953",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/justice-league-movie-superhero-group-boy-s-royal-blue-t-shirt/-/A-85450685",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/dc-comics-justice-league-sound-effects-youth-boys-t-shirt/-/A-85867515",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-batman-logo-retro-caped-crusader-t-shirt/-/A-86926583",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/teen-titans-go-it-s-go-time-youth-red-graphic-tee/-/A-85730367",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/teen-titans-go-it-s-go-time-youth-red-graphic-tee/-/A-85729758",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/dc-league-of-super-pets-characters-in-circle-youth-red-graphic-tee/-/A-86383579",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/teen-titans-go-selfie-youth-navy-blue-graphic-tee/-/A-85730757",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/tom-and-jerry-classic-characters-youth-red-graphic-tee/-/A-85729639",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/teen-titans-go-gameface-youth-royal-blue-graphic-tee/-/A-85730806",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/dc-league-of-super-pets-krypto-ace-youth-royal-blue-graphic-tee/-/A-86383266",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-superman-classic-logo-performance-tee/-/A-87698279",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-boys-teen-titans-go-tshirt-superhero-clothing/-/A-84706894",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/shazam-captain-marvel-youth-red-graphic-tee-medium/-/A-84209802",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/shazam-captain-marvel-youth-red-graphic-tee-xs/-/A-84209799",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/shazam-captain-marvel-youth-red-graphic-tee-large/-/A-84209803",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/shazam-captain-marvel-youth-red-graphic-tee-small/-/A-84209801",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/shazam-captain-marvel-youth-red-graphic-tee-xl/-/A-84209804",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/teen-titans-go-heropose-youth-navy-blue-graphic-tee/-/A-85730874",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-batman-artistic-red-white-graffiti-performance-tee/-/A-85667425",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-batman-valentine-s-day-harley-quinn-mad-love-t-shirt/-/A-85577273",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-flash-classic-logo-t-shirt/-/A-82370175",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-batman-ready-for-action-performance-tee/-/A-85667464",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/teen-titans-go-character-panels-boy-s-royal-blue-t-shirt/-/A-85451205",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-batman-christmas-sweater-t-shirt/-/A-85565332",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/teen-titans-go-jagged-character-squares-boy-s-royal-blue-t-shirt/-/A-85782234",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/batman-number-00-boy-s-heather-grey-t-shirt/-/A-85352258",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-batman-hero-and-sidekick-spotted-t-shirt/-/A-87698469",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/youth-boys-teen-titans-go-shirt-dc-comics-apparel/-/A-84706771",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/teen-titans-go-characters-and-logo-boy-s-royal-blue-t-shirt/-/A-85782233",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-superman-hero-costume-t-shirt/-/A-81495559",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-batman-red-and-black-silhouette-side-profile-t-shirt/-/A-85667490",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/batman-comic-book-cover-boy-s-red-t-shirt/-/A-85351819",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/teen-titans-go-character-art-boy-s-navy-blue-t-shirt/-/A-85730042",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-batman-bat-signal-portrait-t-shirt/-/A-89405406",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/teen-titans-go-it-s-go-time-boy-s-navy-t-shirt/-/A-85782915",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-batman-silhouette-portrait-t-shirt/-/A-85667514",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-batman-red-batcycle-performance-tee/-/A-85667495",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-batman-nightwing-logo-t-shirt/-/A-83988063",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-batman-dark-knight-halloween-costume-t-shirt/-/A-87698177",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-flash-white-lightning-bolt-stamp-t-shirt/-/A-89052220",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-flash-speedster-silhouette-t-shirt/-/A-89053682",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-flash-bold-red-logo-superhero-t-shirt/-/A-89053713",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/justice-league-movie-superhero-team-and-logos-boy-s-red-t-shirt/-/A-85451467",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-batman-st-patrick-s-day-shenanigans-squad-t-shirt/-/A-85895112",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-batman-st-patrick-s-day-riddler-who-is-the-luckiest-of-them-all-t-shirt/-/A-85894074",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-batman-batmobile-headlights-i-am-the-shadows-t-shirt/-/A-85667473",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-superman-ripped-costume-t-shirt/-/A-81495954",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-superman-valentine-s-day-dad-is-my-hero-t-shirt/-/A-85577355",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-batman-city-of-gotham-t-shirt/-/A-85667552",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-batman-robin-the-boy-wonder-t-shirt/-/A-87697106",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/teen-titans-cyborg-beast-boy-robin-youth-boys-red-t-shirt/-/A-85730897",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-batman-caped-crusader-logo-t-shirt/-/A-82373154",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-superman-all-american-hero-t-shirt/-/A-87698222",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/teen-titans-go-fresh-boy-s-navy-t-shirt/-/A-85451182",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-flash-speedster-run-t-shirt/-/A-89051665",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/teen-titans-go-let-s-party-momma-boy-s-heather-grey-t-shirt/-/A-85355307",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/justice-league-onfleek-boy-s-royal-blue-t-shirt/-/A-85782612",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/justice-league-movie-heroes-and-emblems-boy-s-navy-t-shirt/-/A-85782968",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/teen-titans-go-character-grid-character-art-split-image-boy-s-navy-t-shirt/-/A-85783039",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-flash-comics-book-superheroes-t-shirt/-/A-89053691",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-batman-in-the-light-poster-t-shirt/-/A-85667527",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-batman-in-the-light-poster-t-shirt/-/A-85667527",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-wonder-woman-pastel-newspaper-t-shirt/-/A-89405352",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/teen-titans-go-the-best-don-t-rest-boy-s-navy-t-shirt/-/A-85451219",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-batman-batarang-logo-t-shirt/-/A-85667547",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/batman-kaaapoooow-landing-boy-s-heather-grey-t-shirt/-/A-85355409",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/dc-comic-youth-boys-justice-league-superheroes-onfleek-navy-tshirt/-/A-86102975",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-batman-guardian-of-gotham-t-shirt/-/A-83988537",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-batman-hero-pose-t-shirt/-/A-85667475",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-batman-christmas-light-swing-t-shirt/-/A-85565722",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-batman-black-and-white-silhouette-t-shirt/-/A-85667565",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-batman-batcycle-in-the-shadows-t-shirt/-/A-85667358",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-batman-red-shadows-t-shirt/-/A-85667468",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-flash-file-logo-t-shirt/-/A-89052057",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/teen-titans-go-it-s-go-time-main-characters-boy-s-navy-t-shirt/-/A-85783097",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-superman-classic-logo-t-shirt/-/A-87697112",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-flash-time-travel-lightning-bolt-t-shirt/-/A-89053411",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-wonder-woman-american-comic-book-cover-t-shirt/-/A-89405164",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-superman-my-hero-t-shirt/-/A-90648086",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-batman-black-armor-batarang-t-shirt/-/A-85667524",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-flash-to-do-list-t-shirt/-/A-82351461",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-batman-dark-knight-tarot-t-shirt/-/A-89580289",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-flash-speedster-red-silhouette-t-shirt/-/A-89052596",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-batman-st-patrick-s-day-joker-here-for-the-shenanigans-t-shirt/-/A-85894639",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/batman-half-art-boy-s-heather-grey-t-shirt/-/A-85355732",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-flash-heroes-classic-blue-emblems-t-shirt/-/A-89053184",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/dc-comics-youth-boys-shazam-text-lightning-bolt-short-sleeve-t-shirt/-/A-84209840",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-superman-man-of-steel-beveled-logo-t-shirt/-/A-86088557",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-superman-st-patrick-s-day-pinch-proof-man-of-steel-t-shirt/-/A-85895387",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-superman-st-patrick-s-day-who-needs-luck-t-shirt/-/A-85894912",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/justice-league-superhero-logos-boy-s-royal-blue-t-shirt/-/A-85782334",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-batman-st-patrick-s-day-cloverfield-bat-logo-t-shirt/-/A-85894805",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-flash-multiverse-logo-t-shirt/-/A-89053451",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-batman-ready-for-action-t-shirt/-/A-85667363",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-batman-moonlit-batmobile-t-shirt/-/A-85667486",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/batman-dark-knight-line-art-boy-s-heather-grey-t-shirt/-/A-85351895",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-batman-logo-vintage-t-shirt/-/A-79712082",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-batman-st-patrick-s-day-pinch-proof-t-shirt/-/A-85894154",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-superman-st-patrick-s-day-pinch-proof-logo-t-shirt/-/A-85895056",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-wonder-woman-distressed-poster-t-shirt/-/A-89405448",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-flash-black-official-logo-t-shirt/-/A-89051781",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-wonder-woman-retro-my-hero-t-shirt/-/A-90648154",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-wonder-woman-action-pose-t-shirt/-/A-89405390",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/dc-comics-justice-league-photobomb-youth-boys-t-shirt/-/A-86013043",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-batman-catwoman-my-cat-is-my-valentine-t-shirt/-/A-85577432",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-batman-joker-ha-ha-t-shirt/-/A-83988605",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/batman-flying-bats-logo-boy-s-heather-grey-t-shirt/-/A-85352661",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-superman-birthday-boy-super-logo-t-shirt/-/A-89404776",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-batman-valentine-s-day-all-the-clues-lead-to-you-t-shirt/-/A-85577235",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-batman-valentine-s-day-all-the-clues-lead-to-you-t-shirt/-/A-85577235",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/batman-geometric-art-boy-s-heather-grey-t-shirt/-/A-85352469",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/dc-league-of-super-pets-character-panels-youth-t-shirt/-/A-86102788",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-batman-caped-crusader-t-shirt/-/A-87698173",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-batman-gotham-s-hero-t-shirt/-/A-83988758",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/justice-league-heroes-in-combat-boy-s-navy-t-shirt/-/A-85783113",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-flash-speedster-stacked-logo-t-shirt/-/A-89053482",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-batman-ready-to-strike-t-shirt/-/A-87698393",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/justice-league-movie-superhero-charge-boy-s-royal-blue-t-shirt/-/A-85782621",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/justice-league-movie-group-character-art-boy-s-navy-t-shirt/-/A-85783164",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-superman-hero-break-barriers-t-shirt/-/A-84634820",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-flash-gold-lightning-emblem-t-shirt/-/A-89052819",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-flash-animated-logo-t-shirt/-/A-89052602",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-justice-league-boxed-in-heroes-boy-s-navy-t-shirt/-/A-87614662",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-superman-christmas-lights-t-shirt/-/A-85565377",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-batman-joker-sweater-t-shirt/-/A-85565371",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-batman-scarecrow-tarot-t-shirt/-/A-89580326",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-batman-artistic-red-white-graffiti-t-shirt/-/A-85667471",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-flash-superheroes-silhouettes-t-shirt/-/A-89052257",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-flash-past-present-and-future-superheroes-t-shirt/-/A-89052417",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-batman-red-shadow-poster-t-shirt/-/A-85667500",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/black-adam-inside-gold-thunderbolt-youth-boys-navy-t-shirt/-/A-87056977",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/justice-league-charging-superheroes-youth-navy-blue-t-shirt/-/A-86459999",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-flash-triple-gold-logo-t-shirt/-/A-89053286",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-flash-distressed-superheroes-team-t-shirt/-/A-89051708",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/justice-league-superhero-team-art-boy-s-charcoal-heather-t-shirt/-/A-85782435",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/justice-league-movie-shield-logo-boy-s-navy-t-shirt/-/A-85783120",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-batman-gotham-silhouette-t-shirt/-/A-85667537",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-flash-animated-yellow-logo-t-shirt/-/A-89052631",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-flash-speedster-barry-allen-logo-t-shirt/-/A-89052519",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/black-adam-silhouette-with-thunderbolt-youth-boys-royal-blue-t-shirt/-/A-87057018",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/dc-league-of-super-pets-movie-characters-youth-white-t-shirt/-/A-86103869",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-flash-large-lightning-bolt-stamp-t-shirt/-/A-89052076",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-batman-christmas-joker-naughty-t-shirt/-/A-81924106",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-flash-vibrate-your-molecules-t-shirt/-/A-89053191",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/bioworld-black-adam-movie-leaping-through-lightning-bolt-youth-boys-heather-gray-t-shirt/-/A-87056889",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/justice-league-movie-group-art-boy-s-red-t-shirt/-/A-85782424",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/bioworld-black-adam-movie-grayscale-lightning-bolt-portrait-youth-boys-heather-gray-t-shirt/-/A-87056916",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-batman-joker-tarot-t-shirt/-/A-89580431",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-flash-time-travel-logo-t-shirt/-/A-89052817",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-batman-christmas-naughty-penguin-t-shirt/-/A-81924302",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-batman-catwoman-poster-t-shirt/-/A-85667608",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-flash-keep-phasing-t-shirt/-/A-89052560",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-wonder-woman-moms-are-everyday-heroes-t-shirt/-/A-88790092",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-batman-on-the-naughty-list-t-shirt/-/A-85565880",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-batman-riddler-back-to-back-t-shirt/-/A-85667368",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/justice-league-movie-superhero-logo-slate-boy-s-navy-t-shirt/-/A-85783069",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-batman-st-patrick-s-day-riddler-who-needs-luck-distressed-t-shirt/-/A-85895525",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/justice-league-pixel-characters-boy-s-navy-t-shirt/-/A-85782950",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-batman-christmas-merry-mayhem-t-shirt/-/A-81924098",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-flash-supergirl-sky-flight-t-shirt/-/A-89052149",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-suicide-squad-peacemaker-poster-t-shirt/-/A-84254429",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-wonder-woman-comic-book-cover-t-shirt/-/A-89405374",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-wonder-woman-power-sketches-t-shirt/-/A-89405300",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-flash-speedster-barry-allen-silhouette-t-shirt/-/A-89052530",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-batman-batgirl-city-crouch-t-shirt/-/A-92915222",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-flash-don-t-confuse-quote-t-shirt/-/A-89052448",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-flash-past-present-and-future-collage-t-shirt/-/A-89052118",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-flash-lightning-bolt-title-movie-t-shirt/-/A-89052415",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-flash-don-t-confuse-motion-t-shirt/-/A-89053597",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-suicide-squad-savant-poster-t-shirt/-/A-84254528",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-flash-triple-red-logo-t-shirt/-/A-89053208",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-flash-two-idiot-kids-quote-t-shirt/-/A-89053049",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-batman-riddler-tarot-t-shirt/-/A-89580183",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-flash-multiverse-curved-logo-t-shirt/-/A-89052948",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-flash-heroes-classic-emblems-t-shirt/-/A-89053545",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-batman-christmas-sleigh-the-hero-t-shirt/-/A-81924130",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-flash-saving-the-future-and-the-past-lighting-bolt-t-shirt/-/A-89051911",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-flash-multiverse-chronobowl-t-shirt/-/A-89052151",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-justice-league-distressed-lightning-logo-t-shirt/-/A-1001414348",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/dc-comics-justice-league-teamup-boys-t-shirt/-/A-86012979",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/bioworld-black-adam-movie-name-logo-youth-boys-heather-gray-t-shirt/-/A-87056981",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/bioworld-black-adam-movie-character-group-in-lightning-bolt-youth-boys-red-t-shirt/-/A-87056926",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/justice-league-movie-united-we-stand-boy-s-royal-blue-t-shirt/-/A-85782298",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/justice-league-movie-join-the-league-boy-s-navy-t-shirt/-/A-85783184",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/dc-comics-anime-bobblehead-justice-league-youth-boys-t-shirt/-/A-86012998",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/dc-comics-t-shirt-sizes-2t-14-16/-/A-1001719953",
+      tags: "Boys’ Clothing, DC Comics, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC Comics",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-dc-league-of-super-pets-superman-and-krypto-walk-o-clock-t-shirt/-/A-87423910",
+      tags: "Boys’ Clothing, DC League of Super-Pets, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC League of Super-Pets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-dc-league-of-super-pets-krypto-superman-s-best-friend-t-shirt/-/A-87423511",
+      tags: "Boys’ Clothing, DC League of Super-Pets, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC League of Super-Pets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-dc-league-of-super-pets-super-powered-pack-panels-t-shirt/-/A-87424692",
+      tags: "Boys’ Clothing, DC League of Super-Pets, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC League of Super-Pets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-dc-league-of-super-pets-krypto-super-dog-t-shirt/-/A-87424719",
+      tags: "Boys’ Clothing, DC League of Super-Pets, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC League of Super-Pets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-dc-league-of-super-pets-super-squad-t-shirt/-/A-87423459",
+      tags: "Boys’ Clothing, DC League of Super-Pets, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC League of Super-Pets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-dc-league-of-super-pets-battle-ready-poster-t-shirt/-/A-87423129",
+      tags: "Boys’ Clothing, DC League of Super-Pets, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC League of Super-Pets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-dc-league-of-super-pets-activate-group-panels-t-shirt/-/A-87423836",
+      tags: "Boys’ Clothing, DC League of Super-Pets, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC League of Super-Pets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-dc-league-of-super-pets-tighten-your-collars-panels-t-shirt/-/A-87423031",
+      tags: "Boys’ Clothing, DC League of Super-Pets, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC League of Super-Pets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-dc-league-of-super-pets-merton-how-fast-can-you-go-t-shirt/-/A-87424164",
+      tags: "Boys’ Clothing, DC League of Super-Pets, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC League of Super-Pets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-dc-league-of-super-pets-rule-the-world-lulu-badge-t-shirt/-/A-87424219",
+      tags: "Boys’ Clothing, DC League of Super-Pets, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC League of Super-Pets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-dc-league-of-super-pets-cartoon-krypto-and-ace-dreams-t-shirt/-/A-87423777",
+      tags: "Boys’ Clothing, DC League of Super-Pets, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC League of Super-Pets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-dc-league-of-super-pets-krypto-solar-paw-punch-t-shirt/-/A-87423194",
+      tags: "Boys’ Clothing, DC League of Super-Pets, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC League of Super-Pets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-dc-league-of-super-pets-colorful-hero-logos-t-shirt/-/A-87423670",
+      tags: "Boys’ Clothing, DC League of Super-Pets, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC League of Super-Pets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-dc-league-of-super-pets-superman-emblem-cutouts-t-shirt/-/A-87422603",
+      tags: "Boys’ Clothing, DC League of Super-Pets, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC League of Super-Pets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-dc-league-of-super-pets-colorful-title-t-shirt/-/A-87423607",
+      tags: "Boys’ Clothing, DC League of Super-Pets, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC League of Super-Pets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-dc-league-of-super-pets-superman-s-best-friend-flying-krypto-t-shirt/-/A-87422656",
+      tags: "Boys’ Clothing, DC League of Super-Pets, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC League of Super-Pets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-dc-league-of-super-pets-kneel-before-lulu-poster-t-shirt/-/A-87423398",
+      tags: "Boys’ Clothing, DC League of Super-Pets, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC League of Super-Pets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-dc-league-of-super-pets-chromatic-super-power-pack-t-shirt/-/A-87423143",
+      tags: "Boys’ Clothing, DC League of Super-Pets, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC League of Super-Pets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/dc-x-sonic-chaos-controller-t-shirt/-/A-93802711",
+      tags: "Boys’ Clothing, DC X Sonic the Hedgehog, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC X Sonic the Hedgehog",
+      },
+    },
+    {
+      url: "https://www.target.com/p/dc-x-sonic-from-the-shadows-yellow-outline-youth-crew-neck-short-sleeve-t-shirt/-/A-93802733",
+      tags: "Boys’ Clothing, DC X Sonic the Hedgehog, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "DC X Sonic the Hedgehog",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-daniel-tiger-grrific-daniel-tiger-long-sleeve-graphic-t-shirt/-/A-1000749634",
+      tags: "Boys’ Clothing, Daniel Tiger, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Daniel Tiger",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-daniel-tiger-group-hi-neighbor-long-sleeve-graphic-t-shirt/-/A-1000749820",
+      tags: "Boys’ Clothing, Daniel Tiger, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Daniel Tiger",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-daniel-tiger-books-are-a-hoot-long-sleeve-graphic-t-shirt/-/A-1000749590",
+      tags: "Boys’ Clothing, Daniel Tiger, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Daniel Tiger",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-daniel-tiger-daniel-line-art-long-sleeve-graphic-t-shirt/-/A-1000749705",
+      tags: "Boys’ Clothing, Daniel Tiger, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Daniel Tiger",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-daniel-tiger-a-royal-hello-long-sleeve-graphic-t-shirt/-/A-1000749431",
+      tags: "Boys’ Clothing, Daniel Tiger, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Daniel Tiger",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-daniel-tiger-yippee-skippy-jodi-platypus-long-sleeve-graphic-t-shirt/-/A-1000749463",
+      tags: "Boys’ Clothing, Daniel Tiger, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Daniel Tiger",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-daniel-tiger-meow-meow-katerina-kittycat-long-sleeve-graphic-t-shirt/-/A-1000749311",
+      tags: "Boys’ Clothing, Daniel Tiger, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Daniel Tiger",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-daniel-tiger-boomerific-kids-kids-long-sleeve-t-shirt-long-sleeve-graphic-t-shirt/-/A-1000749765",
+      tags: "Boys’ Clothing, Daniel Tiger, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Daniel Tiger",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-daniel-tiger-books-are-a-hoot-short-sleeve-graphic-t-shirt/-/A-1000749694",
+      tags: "Boys’ Clothing, Daniel Tiger, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Daniel Tiger",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-daniel-tiger-grrific-daniel-tiger-short-sleeve-graphic-t-shirt/-/A-1000749344",
+      tags: "Boys’ Clothing, Daniel Tiger, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Daniel Tiger",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-daniel-tiger-meow-meow-katerina-kittycat-short-sleeve-graphic-t-shirt/-/A-1000749687",
+      tags: "Boys’ Clothing, Daniel Tiger, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Daniel Tiger",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-daniel-tiger-a-royal-hello-short-sleeve-graphic-t-shirt/-/A-1000749589",
+      tags: "Boys’ Clothing, Daniel Tiger, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Daniel Tiger",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-daniel-tiger-group-hi-neighbor-short-sleeve-graphic-t-shirt/-/A-1000749177",
+      tags: "Boys’ Clothing, Daniel Tiger, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Daniel Tiger",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-daniel-tiger-yippee-skippy-jodi-platypus-short-sleeve-graphic-t-shirt/-/A-1000749273",
+      tags: "Boys’ Clothing, Daniel Tiger, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Daniel Tiger",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-daniel-tiger-daniel-line-art-short-sleeve-graphic-t-shirt/-/A-1000749563",
+      tags: "Boys’ Clothing, Daniel Tiger, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Daniel Tiger",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-daniel-tiger-boomerific-youth-short-sleeve-t-shirt-short-sleeve-graphic-t-shirt/-/A-1000749451",
+      tags: "Boys’ Clothing, Daniel Tiger, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Daniel Tiger",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-david-bowie-earthling-t-shirt/-/A-88540154",
+      tags: "Boys’ Clothing, David Bowie, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "David Bowie",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-descendants-villain-kids-t-shirt/-/A-85823938",
+      tags: "Boys’ Clothing, Descendants, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Descendants",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-descendants-the-rise-of-red-i-m-a-rebel-t-shirt/-/A-93078858",
+      tags: "Boys’ Clothing, Descendants, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Descendants",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-descendants-chloe-royal-vibes-t-shirt/-/A-93078976",
+      tags: "Boys’ Clothing, Descendants, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Descendants",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-the-descendants-fight-for-the-future-t-shirt/-/A-93078990",
+      tags: "Boys’ Clothing, Descendants, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Descendants",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-design-by-humans-dark-forest-skull-by-sitchko-t-shirt/-/A-88803598",
+      tags: "Boys’ Clothing, Design by Humans, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Design by Humans",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-design-by-humans-summer-smile-by-radiomode-t-shirt/-/A-84033699",
+      tags: "Boys’ Clothing, Design by Humans, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Design by Humans",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-design-by-humans-mother-s-day-sunflower-mom-by-fridayfusion-t-shirt/-/A-88931740",
+      tags: "Boys’ Clothing, Design by Humans, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Design by Humans",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-design-by-humans-cool-waves-on-a-lonely-beach-by-quilimo-t-shirt/-/A-87026258",
+      tags: "Boys’ Clothing, Design by Humans, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Design by Humans",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-design-by-humans-sketchy-owl-skull-by-dinny-t-shirt/-/A-88800010",
+      tags: "Boys’ Clothing, Design by Humans, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Design by Humans",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-design-by-humans-little-floating-ghost-by-nebenzu-t-shirt/-/A-88801083",
+      tags: "Boys’ Clothing, Design by Humans, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Design by Humans",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-design-by-humans-skeleton-yoga-by-huebucket-t-shirt/-/A-88799573",
+      tags: "Boys’ Clothing, Design by Humans, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Design by Humans",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-design-by-humans-halloween-dad-mom-daughter-adult-costume-unicorn-security-by-minhminh-t-shirt/-/A-84143482",
+      tags: "Boys’ Clothing, Design by Humans, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Design by Humans",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-design-by-humans-blood-moon-lake-mountain-by-ndtank-t-shirt/-/A-87024897",
+      tags: "Boys’ Clothing, Design by Humans, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Design by Humans",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-design-by-humans-fox-by-loujah-t-shirt/-/A-92052109",
+      tags: "Boys’ Clothing, Design by Humans, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Design by Humans",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-design-by-humans-summer-vibes-by-clingcling-t-shirt/-/A-86986851",
+      tags: "Boys’ Clothing, Design by Humans, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Design by Humans",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-design-by-humans-mountain-bear-by-radiomode-t-shirt/-/A-86817333",
+      tags: "Boys’ Clothing, Design by Humans, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Design by Humans",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-design-by-humans-wild-bear-scratching-tree-by-radiomode-t-shirt/-/A-87027142",
+      tags: "Boys’ Clothing, Design by Humans, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Design by Humans",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-design-by-humans-cat-pumpkin-pile-by-awkwarddragon-t-shirt/-/A-88801468",
+      tags: "Boys’ Clothing, Design by Humans, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Design by Humans",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-design-by-humans-winya-no-89-by-winya-t-shirt/-/A-88803034",
+      tags: "Boys’ Clothing, Design by Humans, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Design by Humans",
+      },
+    },
+    {
+      url: "https://www.target.com/p/despicable-me-minions-3-pack-t-shirts-toddler-to-big-kid/-/A-1001926112",
+      tags: "Boys’ Clothing, Despicable Me, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-minions-ready-for-the-weekend-t-shirt/-/A-87186600",
+      tags: "Boys’ Clothing, Despicable Me, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-father-s-day-1-dad-performance-tee/-/A-87406562",
+      tags: "Boys’ Clothing, Despicable Me, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-minions-elements-t-shirt/-/A-87186774",
+      tags: "Boys’ Clothing, Despicable Me, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-world-s-best-dad-gru-and-minions-performance-tee/-/A-86502209",
+      tags: "Boys’ Clothing, Despicable Me, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-christmas-carols-minons-banana-t-shirt/-/A-81931594",
+      tags: "Boys’ Clothing, Despicable Me, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-minions-fiesta-t-shirt/-/A-85155557",
+      tags: "Boys’ Clothing, Despicable Me, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-minions-sk8-or-die-t-shirt/-/A-87188102",
+      tags: "Boys’ Clothing, Despicable Me, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-ugly-christmas-minons-banana-t-shirt/-/A-81881838",
+      tags: "Boys’ Clothing, Despicable Me, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-minions-dracula-t-shirt/-/A-84808677",
+      tags: "Boys’ Clothing, Despicable Me, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-minion-emotion-periodic-table-t-shirt/-/A-87188785",
+      tags: "Boys’ Clothing, Despicable Me, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-minion-good-to-be-king-t-shirt/-/A-82355423",
+      tags: "Boys’ Clothing, Despicable Me, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-minions-one-in-a-minion-color-pop-out-t-shirt/-/A-85156065",
+      tags: "Boys’ Clothing, Despicable Me, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-minions-mummy-t-shirt/-/A-1000140826",
+      tags: "Boys’ Clothing, Despicable Me, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-christmas-up-to-snow-good-t-shirt/-/A-81929845",
+      tags: "Boys’ Clothing, Despicable Me, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-metal-rock-unicorn-t-shirt/-/A-87191207",
+      tags: "Boys’ Clothing, Despicable Me, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-minions-1-villian-t-shirt/-/A-87188217",
+      tags: "Boys’ Clothing, Despicable Me, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-minions-cupid-s-wingman-valentine-s-t-shirt/-/A-82191065",
+      tags: "Boys’ Clothing, Despicable Me, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-christmas-good-minion-t-shirt/-/A-81882021",
+      tags: "Boys’ Clothing, Despicable Me, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-christmas-minions-be-good-next-year-t-shirt/-/A-81882769",
+      tags: "Boys’ Clothing, Despicable Me, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-minion-brochachos-t-shirt/-/A-87188279",
+      tags: "Boys’ Clothing, Despicable Me, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-minion-belt-in-crazy-t-shirt/-/A-87188901",
+      tags: "Boys’ Clothing, Despicable Me, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-gru-lightbulb-t-shirt/-/A-87191004",
+      tags: "Boys’ Clothing, Despicable Me, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-gru-plans-to-steal-moon-t-shirt/-/A-87188285",
+      tags: "Boys’ Clothing, Despicable Me, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-minion-trouble-t-shirt/-/A-87188603",
+      tags: "Boys’ Clothing, Despicable Me, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-minion-yearbook-t-shirt/-/A-87191272",
+      tags: "Boys’ Clothing, Despicable Me, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-minions-worlds-best-dad-t-shirt/-/A-87188000",
+      tags: "Boys’ Clothing, Despicable Me, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-minion-lunch-hang-out-t-shirt/-/A-87187850",
+      tags: "Boys’ Clothing, Despicable Me, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-minion-trouble-maker-t-shirt/-/A-82351941",
+      tags: "Boys’ Clothing, Despicable Me, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-christmas-minion-i-tried-t-shirt/-/A-81929794",
+      tags: "Boys’ Clothing, Despicable Me, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-minions-chill-floatie-t-shirt/-/A-84265895",
+      tags: "Boys’ Clothing, Despicable Me, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-world-s-best-dad-gru-and-minions-t-shirt/-/A-86503066",
+      tags: "Boys’ Clothing, Despicable Me, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-minion-my-opinion-t-shirt/-/A-87190217",
+      tags: "Boys’ Clothing, Despicable Me, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-minion-party-animal-t-shirt/-/A-87188999",
+      tags: "Boys’ Clothing, Despicable Me, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-father-s-day-1-dad-t-shirt/-/A-82783825",
+      tags: "Boys’ Clothing, Despicable Me, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-minion-bad-choices-t-shirt/-/A-82359915",
+      tags: "Boys’ Clothing, Despicable Me, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-father-s-day-one-in-a-minion-dad-t-shirt/-/A-82783571",
+      tags: "Boys’ Clothing, Despicable Me, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-christmas-minions-good-next-year-t-shirt/-/A-81931509",
+      tags: "Boys’ Clothing, Despicable Me, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-minion-today-cancelled-t-shirt/-/A-87190044",
+      tags: "Boys’ Clothing, Despicable Me, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-gru-genius-2010-t-shirt/-/A-87190175",
+      tags: "Boys’ Clothing, Despicable Me, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-3-minion-worker-strike-t-shirt/-/A-87189413",
+      tags: "Boys’ Clothing, Despicable Me 3, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me 3",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-3-minion-small-but-fierce-t-shirt/-/A-87186682",
+      tags: "Boys’ Clothing, Despicable Me 3, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me 3",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-3-villain-brothers-t-shirt/-/A-87188618",
+      tags: "Boys’ Clothing, Despicable Me 3, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me 3",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-4-mega-minions-heroes-aren-t-born-they-re-made-t-shirt/-/A-93527644",
+      tags: "Boys’ Clothing, Despicable Me 4, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me 4",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-4-mega-minion-mel-unstoppable-unbreakable-t-shirt/-/A-93527692",
+      tags: "Boys’ Clothing, Despicable Me 4, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me 4",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-4-avl-dream-team-t-shirt/-/A-93528055",
+      tags: "Boys’ Clothing, Despicable Me 4, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me 4",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-4-mega-minions-poster-t-shirt/-/A-93527632",
+      tags: "Boys’ Clothing, Despicable Me 4, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me 4",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-4-mega-minion-jerry-t-shirt/-/A-93527980",
+      tags: "Boys’ Clothing, Despicable Me 4, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me 4",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-despicable-me-4-mega-minion-dave-t-shirt/-/A-93527650",
+      tags: "Boys’ Clothing, Despicable Me 4, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Despicable Me 4",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-39-mickey-mouse-short-sleeve-graphic-t-shirt-disney-store/-/A-90170781",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-sibling-tee-long-sleeve-graphic-t-shirt/-/A-1000251447",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-birthday-boy-long-sleeve-graphic-t-shirt/-/A-1000185561",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-birthday-boy-spotlight-long-sleeve-graphic-t-shirt/-/A-1000187383",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-long-sleeve-graphic-t-shirt/-/A-1000335655",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-donald-duck-long-sleeve-graphic-t-shirt/-/A-1000335879",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-long-sleeve-graphic-t-shirt/-/A-1000335293",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-squad-grid-long-sleeve-graphic-t-shirt/-/A-1000246071",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-dr-teeth-the-electric-mayhem-tour-long-sleeve-graphic-t-shirt/-/A-1000296694",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-the-aristocats-long-sleeve-graphic-t-shirt/-/A-1000376233",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-sweet-style-long-sleeve-graphic-t-shirt/-/A-1000336187",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-pattern-silhouette-long-sleeve-graphic-t-shirt/-/A-93699917",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-donald-duck-skater-ride-slide-long-sleeve-graphic-t-shirt/-/A-93699897",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-long-sleeve-graphic-t-shirt/-/A-1000335984",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-sketched-long-sleeve-graphic-t-shirt/-/A-1000336018",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-long-sleeve-graphic-t-shirt/-/A-1000336204",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-goofy-it-s-my-birthday-long-sleeve-graphic-t-shirt/-/A-94078767",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-standard-sports-long-sleeve-graphic-t-shirt/-/A-1000323013",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-long-sleeve-graphic-t-shirt/-/A-1000336258",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-the-nightmare-before-christmas-long-sleeve-graphic-t-shirt/-/A-1000373059",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-with-flowers-butterflies-long-sleeve-graphic-t-shirt/-/A-1000336101",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-goofy-pluto-donald-skate-crew-long-sleeve-graphic-t-shirt/-/A-93699913",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-checker-frame-long-sleeve-graphic-t-shirt/-/A-1000247918",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-little-brother-long-sleeve-graphic-t-shirt/-/A-1000251569",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-make-way-it-s-my-birthday-long-sleeve-graphic-t-shirt/-/A-1000186053",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-long-sleeve-graphic-t-shirt/-/A-1000336281",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-i-m-cool-like-that-long-sleeve-graphic-t-shirt/-/A-1000248473",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-long-sleeve-graphic-t-shirt/-/A-1000336367",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-promoted-big-brother-long-sleeve-graphic-t-shirt/-/A-1000251562",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-different-letters-long-sleeve-graphic-t-shirt/-/A-1000336055",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-one-day-at-a-time-long-sleeve-graphic-t-shirt/-/A-1000269292",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-pluto-snacks-long-sleeve-graphic-t-shirt/-/A-1000336265",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mickey-mickey-mouse-long-sleeve-graphic-t-shirt/-/A-1000336371",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-the-coolest-kid-long-sleeve-graphic-t-shirt/-/A-1000245467",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-long-sleeve-graphic-t-shirt/-/A-1000335885",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-hugs-his-puppy-long-sleeve-graphic-t-shirt/-/A-1000336054",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-i-m-just-here-for-recess-long-sleeve-graphic-t-shirt/-/A-1000243842",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-let-the-shenanigans-begin-long-sleeve-graphic-t-shirt/-/A-1000248582",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-donald-goofy-and-pluto-besties-forever-long-sleeve-graphic-t-shirt/-/A-94080433",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-sticker-group-long-sleeve-graphic-t-shirt/-/A-1000269417",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-long-sleeve-graphic-t-shirt/-/A-1000335900",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-standard-sports-long-sleeve-graphic-t-shirt/-/A-1000323047",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-feelin-silly-long-sleeve-graphic-t-shirt/-/A-1000249025",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-awesome-big-brother-long-sleeve-graphic-t-shirt/-/A-1000251629",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-long-sleeve-graphic-t-shirt/-/A-1000336242",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-long-sleeve-graphic-t-shirt/-/A-1000335614",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-city-sketch-long-sleeve-graphic-t-shirt/-/A-93699992",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-standard-sports-long-sleeve-graphic-t-shirt/-/A-1000323283",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-long-sleeve-graphic-t-shirt/-/A-1000336067",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-chalk-drawing-long-sleeve-graphic-t-shirt/-/A-1000336213",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-no-pants-no-problem-long-sleeve-graphic-t-shirt/-/A-1000246408",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-long-sleeve-graphic-t-shirt/-/A-1000335937",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-best-brother-long-sleeve-graphic-t-shirt/-/A-1000251695",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-sword-in-the-stone-character-group-long-sleeve-graphic-t-shirt/-/A-1000280444",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-long-sleeve-graphic-t-shirt/-/A-1000336005",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-long-sleeve-graphic-t-shirt/-/A-1000335992",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-jump-long-sleeve-graphic-t-shirt/-/A-1000269379",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-1st-grade-squad-long-sleeve-graphic-t-shirt/-/A-1000244779",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-making-moves-long-sleeve-graphic-t-shirt/-/A-1000336102",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-minnie-pluto-donald-long-sleeve-graphic-t-shirt/-/A-1000335958",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-birthday-boy-donald-long-sleeve-graphic-t-shirt/-/A-1000187518",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-standard-sports-long-sleeve-graphic-t-shirt/-/A-1000323218",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-character-group-rainbow-flower-long-sleeve-graphic-t-shirt/-/A-1000269303",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-total-legends-long-sleeve-graphic-t-shirt/-/A-1000245201",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-big-brother-long-sleeve-graphic-t-shirt/-/A-1000251595",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-school-is-cool-long-sleeve-graphic-t-shirt/-/A-1000243312",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-sketch-pattern-long-sleeve-graphic-t-shirt/-/A-1000247448",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-kindergarten-squad-long-sleeve-graphic-t-shirt/-/A-1000243725",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-wake-up-be-cool-be-kind-repeat-long-sleeve-graphic-t-shirt/-/A-1000336387",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-the-nightmare-before-christmas-long-sleeve-graphic-t-shirt/-/A-1000373147",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-crew-camping-badges-long-sleeve-graphic-t-shirt/-/A-1000335805",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-minnie-goofy-donald-duck-daisy-pluto-photo-long-sleeve-graphic-t-shirt/-/A-1000336026",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-long-sleeve-graphic-t-shirt/-/A-1000335652",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-long-sleeve-graphic-t-shirt/-/A-1000336041",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-celebration-long-sleeve-graphic-t-shirt/-/A-1000297233",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-birthday-kid-long-sleeve-graphic-t-shirt/-/A-1000187864",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-long-sleeve-graphic-t-shirt/-/A-1000336130",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-oh-boy-easters-here-long-sleeve-graphic-t-shirt/-/A-1000226701",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-minnie-kiss-long-sleeve-graphic-t-shirt/-/A-1000269363",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-doodle-long-sleeve-graphic-t-shirt/-/A-1000336094",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-long-sleeve-graphic-t-shirt/-/A-1000336042",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-classic-sketch-long-sleeve-graphic-t-shirt/-/A-1000336385",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-superstar-pose-long-sleeve-graphic-t-shirt/-/A-1000335241",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-just-got-a-lot-cooler-pre-k-long-sleeve-graphic-t-shirt/-/A-1000243828",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-long-sleeve-graphic-t-shirt/-/A-1000335477",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-1st-grade-out-of-this-world-long-sleeve-graphic-t-shirt/-/A-1000245018",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-long-sleeve-graphic-t-shirt/-/A-1000335915",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-watch-this-long-sleeve-graphic-t-shirt/-/A-1000246858",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-long-sleeve-graphic-t-shirt/-/A-1000335629",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-just-too-cool-retro-long-sleeve-graphic-t-shirt/-/A-1000376084",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-minnie-together-in-neon-long-sleeve-graphic-t-shirt/-/A-1000335878",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-springtime-smiles-long-sleeve-graphic-t-shirt/-/A-1000226697",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-long-sleeve-graphic-t-shirt/-/A-1000335889",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-long-sleeve-graphic-t-shirt/-/A-1000336177",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-standard-sports-long-sleeve-graphic-t-shirt/-/A-1000323268",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-run-long-sleeve-graphic-t-shirt/-/A-1000269265",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-long-sleeve-graphic-t-shirt/-/A-1000335354",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-bunny-kisses-easter-wishes-long-sleeve-graphic-t-shirt/-/A-1000227281",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-long-sleeve-graphic-t-shirt/-/A-1000335829",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-standard-sports-long-sleeve-graphic-t-shirt/-/A-1000322950",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-long-sleeve-graphic-t-shirt/-/A-1000336421",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-long-sleeve-graphic-t-shirt/-/A-1000335872",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-dr-teeth-the-electric-mayhem-tour-long-sleeve-graphic-t-shirt/-/A-1000296838",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-long-sleeve-graphic-t-shirt/-/A-1000335889",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-original-stay-true-long-sleeve-graphic-t-shirt/-/A-1000336189",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-daisy-duck-long-sleeve-graphic-t-shirt/-/A-1000335978",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-straight-outta-bermuda-long-sleeve-graphic-t-shirt/-/A-1000280394",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-easter-cuties-long-sleeve-graphic-t-shirt/-/A-1000227144",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-long-sleeve-graphic-t-shirt/-/A-1000335220",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-minnie-long-sleeve-graphic-t-shirt/-/A-1000335467",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-birthday-icons-long-sleeve-graphic-t-shirt/-/A-1000185612",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-beauty-in-bloom-long-sleeve-graphic-t-shirt/-/A-1000226897",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-standard-sports-long-sleeve-graphic-t-shirt/-/A-1000323389",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-just-too-cool-retro-long-sleeve-graphic-t-shirt/-/A-1000376084",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-long-sleeve-graphic-t-shirt/-/A-1000335963",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-long-sleeve-graphic-t-shirt/-/A-1000336177",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-oh-boy-long-sleeve-graphic-t-shirt/-/A-1000269291",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-long-sleeve-graphic-t-shirt/-/A-1000335942",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-point-to-the-future-long-sleeve-graphic-t-shirt/-/A-1000269285",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-class-goof-long-sleeve-graphic-t-shirt/-/A-1000244570",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-long-sleeve-graphic-t-shirt/-/A-1000335942",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-figaro-hugs-long-sleeve-graphic-t-shirt/-/A-1000336278",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-little-brother-big-heart-long-sleeve-graphic-t-shirt/-/A-1000251581",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-pre-k-out-of-this-world-long-sleeve-graphic-t-shirt/-/A-1000243789",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-long-sleeve-graphic-t-shirt/-/A-1000335509",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-just-too-cool-retro-long-sleeve-graphic-t-shirt/-/A-1000376084",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-long-sleeve-graphic-t-shirt/-/A-1000335829",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-preschool-squad-long-sleeve-graphic-t-shirt/-/A-1000243462",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-minnie-minnie-mouse-long-sleeve-graphic-t-shirt/-/A-1000335470",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-blowing-bubbles-everywhere-long-sleeve-graphic-t-shirt/-/A-1000336192",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-member-of-the-brother-club-long-sleeve-graphic-t-shirt/-/A-1000251610",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-classic-sketch-long-sleeve-graphic-t-shirt/-/A-1000336385",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-long-sleeve-graphic-t-shirt/-/A-1000335354",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-long-sleeve-graphic-t-shirt/-/A-1000335835",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-did-someone-say-recess-long-sleeve-graphic-t-shirt/-/A-1000244654",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-minnie-long-sleeve-graphic-t-shirt/-/A-1000335953",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-dr-teeth-long-winded-tour-long-sleeve-graphic-t-shirt/-/A-1000296892",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-sword-in-the-stone-long-sleeve-graphic-t-shirt/-/A-1000280500",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-friends-long-sleeve-graphic-t-shirt/-/A-1000335237",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-pluto-collage-long-sleeve-graphic-t-shirt/-/A-1000269274",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-long-sleeve-graphic-t-shirt/-/A-1000336042",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-long-sleeve-graphic-t-shirt/-/A-1000336177",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-the-nightmare-before-christmas-long-sleeve-graphic-t-shirt/-/A-1000373009",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-you-can-do-hard-things-long-sleeve-graphic-t-shirt/-/A-1000269378",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-ready-for-school-long-sleeve-graphic-t-shirt/-/A-1000243151",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-straight-outta-bermuda-long-sleeve-graphic-t-shirt/-/A-1000280394",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-long-sleeve-graphic-t-shirt/-/A-1000336042",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-friends-long-sleeve-graphic-t-shirt/-/A-1000335237",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-blowing-bubbles-everywhere-long-sleeve-graphic-t-shirt/-/A-1000336192",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-just-too-cool-retro-long-sleeve-graphic-t-shirt/-/A-1000376084",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-long-sleeve-graphic-t-shirt/-/A-1000336071",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-oh-boy-easter-is-here-long-sleeve-graphic-t-shirt/-/A-1000226826",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-did-someone-say-recess-long-sleeve-graphic-t-shirt/-/A-1000244654",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-run-long-sleeve-graphic-t-shirt/-/A-1000269265",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-class-goof-long-sleeve-graphic-t-shirt/-/A-1000244570",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-superstar-pose-long-sleeve-graphic-t-shirt/-/A-1000335241",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-long-sleeve-graphic-t-shirt/-/A-1000335829",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-pluto-long-sleeve-graphic-t-shirt/-/A-1000335275",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-long-sleeve-graphic-t-shirt/-/A-1000336421",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-standard-sports-long-sleeve-graphic-t-shirt/-/A-1000323389",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-long-sleeve-graphic-t-shirt/-/A-1000335915",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-dr-teeth-the-electric-mayhem-tour-long-sleeve-graphic-t-shirt/-/A-1000296838",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/disney-toy-story-pixar-t-shirt-sets-woody-buzz-lightyear-jessie-rex-hamm-mrpotato-forky-slinky-dog-toddler-birthday-kids-clothes/-/A-1002267640",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/disney-onward-boy-s-ian-and-barley-let-the-quest-begin-t-shirt-kids/-/A-91166628",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/disney-the-emperor-s-new-groove-kuzco-bring-it-on-distressed-t-shirt-kids/-/A-91810269",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/disney-pixar-cars-tow-mater-lightning-mcqueen-3-pack-t-shirts-infant-to-big-kid/-/A-92513224",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/disney-mickey-mouse-goofy-donald-duck-3-pack-graphic-t-shirts-little-kid-to-big-kid/-/A-87246047",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/disney-pixar-toy-story-buzz-lightyear-woody-2-pack-t-shirts-little-kid-to-big-kid/-/A-87419684",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/disney-mickey-mouse-goofy-donald-duck-3-pack-graphic-t-shirts-little-kid-to-big-kid/-/A-87246047",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-39-stitch-surfing-mineral-wash-tank-top-orange/-/A-94431033",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/disney-lion-guard-lion-king-simba-timon-pumbaa-rafiki-3-pack-t-shirts-toddler-to-big-kid/-/A-87218859",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/disney-mickey-mouse-pluto-donald-duck-goofy-4-pack-t-shirts-little-kid-to-big-kid/-/A-85431929",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-nightmare-before-christmas-hoodie-nightmare-before-christmas-jack-skellington-cosplay-dress-up-costume-hoodie/-/A-1000106584",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-indiana-jones-classic-shirt-indiana-jones-harrison-ford-indiana-jones-tie-dye-t-shirt/-/A-1000107247",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-this-is-my-disney-shirt-t-shirt/-/A-85824102",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/sonic-the-hedgehog-game-on-youth-royal-blue-graphic-tee/-/A-85352523",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/sega-sonic-the-hedgehog-game-face-youth-navy-blue-graphic-tee/-/A-85351744",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/sonic-the-hedgehog-totally-awesome-youth-royal-blue-graphic-tee/-/A-85352845",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-eat-sleep-repeat-performance-tee/-/A-85637774",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-sibling-tee-short-sleeve-graphic-t-shirt/-/A-1000251141",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-classic-d-letter-pocket-print-performance-tee/-/A-85637588",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/big-hero-6-short-sleeve-graphic-t-shirt/-/A-93207792",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-short-sleeve-graphic-t-shirt/-/A-1000289095",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-kindergarten-out-of-this-world-short-sleeve-graphic-t-shirt/-/A-1000243917",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-pluto-snacks-short-sleeve-graphic-t-shirt/-/A-1000337990",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-aristocats-kittens-climbing-pocket-badge-performance-tee/-/A-85633122",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-short-sleeve-graphic-t-shirt/-/A-1000289068",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-donald-duck-short-sleeve-graphic-t-shirt/-/A-1000337935",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-this-is-my-lucky-shirt-performance-tee/-/A-85761108",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-the-coolest-kid-short-sleeve-graphic-t-shirt/-/A-1000245481",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-short-sleeve-graphic-t-shirt/-/A-1000337852",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-promoted-big-brother-short-sleeve-graphic-t-shirt/-/A-1000251234",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-pluto-donald-duck-mickey-goofy-short-sleeve-graphic-t-shirt/-/A-1000337672",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-hashtag-mood-short-sleeve-graphic-t-shirt/-/A-1000337801",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-candy-logo-performance-tee/-/A-85574329",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mickey-mickey-mouse-short-sleeve-graphic-t-shirt/-/A-1000337845",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-red-camo-logo-performance-tee/-/A-85637751",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-donald-pluto-chip-and-dale-christmas-grid-short-sleeve-graphic-t-shirt/-/A-94102663",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-big-hero-6-baymax-would-you-like-a-hug-short-sleeve-graphic-t-shirt/-/A-93834750",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-just-a-kid-who-loves-truck-short-sleeve-graphic-t-shirt/-/A-94102684",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-big-hero-6-baymax-grid-short-sleeve-graphic-t-shirt/-/A-93207770",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-goofy-short-sleeve-graphic-t-shirt/-/A-1000289250",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-baymax-i-am-not-fast-short-sleeve-graphic-t-shirt/-/A-93834781",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-short-sleeve-graphic-t-shirt/-/A-1000289318",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-short-sleeve-graphic-t-shirt/-/A-1000288983",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-big-brother-short-sleeve-graphic-t-shirt/-/A-1000251324",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-1st-grade-out-of-this-world-short-sleeve-graphic-t-shirt/-/A-1000244952",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-hugs-his-puppy-short-sleeve-graphic-t-shirt/-/A-1000337726",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-goofy-donald-mickey-pluto-stickers-short-sleeve-graphic-t-shirt/-/A-1000269487",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-pluto-short-sleeve-graphic-t-shirt/-/A-1000289371",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-donald-duck-short-sleeve-graphic-t-shirt/-/A-1000289254",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-sketch-pattern-short-sleeve-graphic-t-shirt/-/A-1000247519",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-obsessed-performance-tee/-/A-85637737",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-sketched-short-sleeve-graphic-t-shirt/-/A-1000337986",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-short-sleeve-graphic-t-shirt/-/A-1000337443",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-squad-grid-short-sleeve-graphic-t-shirt/-/A-1000245809",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-squad-grid-short-sleeve-graphic-t-shirt/-/A-1000245809",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-up-valentine-s-day-again-short-sleeve-graphic-t-shirt/-/A-94099080",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-short-sleeve-graphic-t-shirt/-/A-1000336634",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-best-pals-mickey-short-sleeve-graphic-t-shirt/-/A-1000251398",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-little-brother-short-sleeve-graphic-t-shirt/-/A-1000251294",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-birthday-kid-short-sleeve-graphic-t-shirt/-/A-1001736424",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-standard-sports-short-sleeve-graphic-t-shirt/-/A-1000323428",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-standard-sports-short-sleeve-graphic-t-shirt/-/A-1000323291",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-birthday-boy-short-sleeve-graphic-t-shirt/-/A-1000185585",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-figaro-hugs-short-sleeve-graphic-t-shirt/-/A-1000337637",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-short-sleeve-graphic-t-shirt/-/A-1000336889",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-total-legends-short-sleeve-graphic-t-shirt/-/A-1000245161",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-big-hero-6-squad-short-sleeve-graphic-t-shirt/-/A-93834747",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-dinos-are-my-favorite-short-sleeve-graphic-t-shirt/-/A-94102726",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-short-sleeve-graphic-t-shirt/-/A-1000338120",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-short-sleeve-graphic-t-shirt/-/A-1000337609",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/disney-pinocchio-short-sleeve-graphic-t-shirt/-/A-94155839",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-short-sleeve-graphic-t-shirt/-/A-1000288894",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-goofy-it-s-my-birthday-short-sleeve-graphic-t-shirt/-/A-1001736393",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-short-sleeve-graphic-t-shirt/-/A-1000337976",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-birthday-boy-spotlight-short-sleeve-graphic-t-shirt/-/A-1001736464",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-pluto-collage-short-sleeve-graphic-t-shirt/-/A-1000269681",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-standard-sports-short-sleeve-graphic-t-shirt/-/A-1000323316",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-pluto-short-sleeve-graphic-t-shirt/-/A-1000336770",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-standard-sports-short-sleeve-graphic-t-shirt/-/A-1000323316",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-short-sleeve-graphic-t-shirt/-/A-1000337874",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-birthday-boy-spotlight-short-sleeve-graphic-t-shirt/-/A-1001736464",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-easily-distracted-by-dinosaurs-short-sleeve-graphic-t-shirt/-/A-94102812",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-short-sleeve-graphic-t-shirt/-/A-1000337485",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-member-of-the-brother-club-short-sleeve-graphic-t-shirt/-/A-1000251288",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-endless-sunshine-short-sleeve-graphic-t-shirt/-/A-1000227119",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-short-sleeve-graphic-t-shirt/-/A-1000289237",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-best-brother-short-sleeve-graphic-t-shirt/-/A-1000251522",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-different-letters-short-sleeve-graphic-t-shirt/-/A-1000337848",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-let-the-shenanigans-begin-short-sleeve-graphic-t-shirt/-/A-1000248792",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-minnie-goofy-donald-duck-daisy-pluto-photo-short-sleeve-graphic-t-shirt/-/A-1000337650",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-short-sleeve-graphic-t-shirt/-/A-1000338165",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-classic-multicolored-logo-performance-tee/-/A-85824053",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/disney-pinocchio-stickers-short-sleeve-graphic-t-shirt/-/A-1000026986",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-short-sleeve-graphic-t-shirt/-/A-1000289121",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-tie-dye-logo-performance-tee/-/A-85637718",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-simple-white-logo-performance-tee/-/A-85637604",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-standard-sports-short-sleeve-graphic-t-shirt/-/A-1000323453",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-the-fox-and-the-hound-double-trouble-short-sleeve-graphic-t-shirt/-/A-1000018282",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-play-all-day-pixels-short-sleeve-graphic-t-shirt/-/A-1000375922",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-wake-up-be-cool-be-kind-repeat-short-sleeve-graphic-t-shirt/-/A-1000338076",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-faces-lion-king-grid-short-sleeve-graphic-t-shirt/-/A-1000254035",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-little-brother-big-heart-short-sleeve-graphic-t-shirt/-/A-1000251371",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-short-sleeve-graphic-t-shirt/-/A-1000289426",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-awesome-big-brother-short-sleeve-graphic-t-shirt/-/A-1000251632",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-no-pants-no-problem-short-sleeve-graphic-t-shirt/-/A-1000246381",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-playdate-material-short-sleeve-graphic-t-shirt/-/A-1000246026",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-birthday-boy-donald-short-sleeve-graphic-t-shirt/-/A-1001736487",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-bunny-kisses-easter-wishes-short-sleeve-graphic-t-shirt/-/A-1000227193",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-short-sleeve-graphic-t-shirt/-/A-1000289354",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-short-sleeve-graphic-t-shirt/-/A-1000288890",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-chalk-drawing-short-sleeve-graphic-t-shirt/-/A-1000337950",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-raya-and-the-last-dragon-short-sleeve-graphic-t-shirt/-/A-1000312210",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-blowing-bubbles-everywhere-short-sleeve-graphic-t-shirt/-/A-1000338025",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-jump-short-sleeve-graphic-t-shirt/-/A-1000269552",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-birthday-icons-short-sleeve-graphic-t-shirt/-/A-1000185504",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-short-sleeve-graphic-t-shirt/-/A-1000337996",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-feelin-silly-short-sleeve-graphic-t-shirt/-/A-1000248977",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/disney-short-sleeve-graphic-t-shirt/-/A-93022947",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-run-short-sleeve-graphic-t-shirt/-/A-1000269447",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-dr-teeth-long-winded-tour-short-sleeve-graphic-t-shirt/-/A-1000296536",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-making-moves-short-sleeve-graphic-t-shirt/-/A-1000338152",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-crew-camping-badges-short-sleeve-graphic-t-shirt/-/A-1000336554",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-short-sleeve-graphic-t-shirt/-/A-1000337686",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-short-sleeve-graphic-t-shirt/-/A-1000338301",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-short-sleeve-graphic-t-shirt/-/A-1000289071",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-short-sleeve-graphic-t-shirt/-/A-1000289137",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-short-sleeve-graphic-t-shirt/-/A-1000337760",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-short-sleeve-graphic-t-shirt/-/A-1000289072",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/disney-pinocchio-nothin-but-trouble-short-sleeve-graphic-t-shirt/-/A-94156075",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-standard-sports-short-sleeve-graphic-t-shirt/-/A-1000323487",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-big-trucks-loads-of-fun-short-sleeve-graphic-t-shirt/-/A-94103027",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-short-sleeve-graphic-t-shirt/-/A-1000337758",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-big-hero-6-hello-i-am-baymax-short-sleeve-graphic-t-shirt/-/A-93207772",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-standard-sports-short-sleeve-graphic-t-shirt/-/A-1000323329",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-crew-short-sleeve-graphic-t-shirt/-/A-1000337473",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-short-sleeve-graphic-t-shirt/-/A-1000338260",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-sweet-style-short-sleeve-graphic-t-shirt/-/A-1000338063",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-i-m-just-here-for-recess-short-sleeve-graphic-t-shirt/-/A-1000243850",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-festive-christmas-logo-performance-tee/-/A-85761021",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-1st-grade-squad-short-sleeve-graphic-t-shirt/-/A-1000244657",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-daisy-duck-short-sleeve-graphic-t-shirt/-/A-1000289293",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-hey-watch-this-short-sleeve-graphic-t-shirt/-/A-1000248068",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-leopard-print-logo-performance-tee/-/A-85637665",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-in-the-clouds-short-sleeve-graphic-t-shirt/-/A-1000337985",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-up-dug-my-dog-is-my-valentine-short-sleeve-graphic-t-shirt/-/A-94099258",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-i-m-cool-like-that-short-sleeve-graphic-t-shirt/-/A-1000248472",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-standard-sports-short-sleeve-graphic-t-shirt/-/A-1000323184",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-oh-boy-short-sleeve-graphic-t-shirt/-/A-1000269448",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-pluto-short-sleeve-graphic-t-shirt/-/A-1000337671",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-short-sleeve-graphic-t-shirt/-/A-1000337643",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-raya-and-the-last-dragon-short-sleeve-graphic-t-shirt/-/A-1000312143",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-checker-frame-short-sleeve-graphic-t-shirt/-/A-1000247881",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-short-sleeve-graphic-t-shirt/-/A-1000337849",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-standard-sports-short-sleeve-graphic-t-shirt/-/A-1000323299",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-short-sleeve-graphic-t-shirt/-/A-1000337428",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-sticker-look-short-sleeve-graphic-t-shirt/-/A-1000269893",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-standard-sports-short-sleeve-graphic-t-shirt/-/A-1000323491",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-short-sleeve-graphic-t-shirt/-/A-1000289179",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-aristocats-duchess-and-o-malley-night-sky-performance-tee/-/A-85824382",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-hot-cocoa-and-cozy-sweaters-performance-tee/-/A-85761306",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-kindergarten-squad-short-sleeve-graphic-t-shirt/-/A-1000243687",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-original-stay-true-short-sleeve-graphic-t-shirt/-/A-1000338289",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-raya-and-the-last-dragon-short-sleeve-graphic-t-shirt/-/A-1000312129",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-standard-sports-short-sleeve-graphic-t-shirt/-/A-1000323406",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-dr-teeth-the-electric-mayhem-tour-short-sleeve-graphic-t-shirt/-/A-1000296673",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-raya-and-the-last-dragon-short-sleeve-graphic-t-shirt/-/A-1000312145",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-oh-boy-easters-here-short-sleeve-graphic-t-shirt/-/A-1000226801",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-pre-k-out-of-this-world-short-sleeve-graphic-t-shirt/-/A-1000243660",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-minnie-pluto-donald-short-sleeve-graphic-t-shirt/-/A-1000337455",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-springtime-smiles-short-sleeve-graphic-t-shirt/-/A-1000226642",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-you-can-do-hard-things-short-sleeve-graphic-t-shirt/-/A-1000269545",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-short-sleeve-graphic-t-shirt/-/A-1000336625",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-classic-sketch-short-sleeve-graphic-t-shirt/-/A-1000338164",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-short-sleeve-graphic-t-shirt/-/A-1000337514",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-short-sleeve-graphic-t-shirt/-/A-1000337514",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-did-someone-say-recess-short-sleeve-graphic-t-shirt/-/A-1000244277",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-standard-sports-short-sleeve-graphic-t-shirt/-/A-1000323215",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-short-sleeve-graphic-t-shirt/-/A-1000336625",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-short-sleeve-graphic-t-shirt/-/A-1000336622",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-big-hero-6-best-flame-bro-short-sleeve-graphic-t-shirt/-/A-93834760",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-dr-teeth-the-electric-mayhem-tour-short-sleeve-graphic-t-shirt/-/A-1000296482",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-later-alligator-short-sleeve-graphic-t-shirt/-/A-1000246730",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-raya-and-the-last-dragon-short-sleeve-graphic-t-shirt/-/A-1000312117",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-springtime-smiles-short-sleeve-graphic-t-shirt/-/A-1000226642",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-oh-boy-easter-is-here-short-sleeve-graphic-t-shirt/-/A-1000226828",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-neon-outlined-short-sleeve-graphic-t-shirt/-/A-1000336726",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-short-sleeve-graphic-t-shirt/-/A-1000337622",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-raya-and-the-last-dragon-short-sleeve-graphic-t-shirt/-/A-1000312149",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-doodle-short-sleeve-graphic-t-shirt/-/A-1000338141",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-with-flowers-butterflies-short-sleeve-graphic-t-shirt/-/A-1000338222",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-dr-teeth-the-electric-mayhem-tour-short-sleeve-graphic-t-shirt/-/A-1000296673",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-preschool-squad-short-sleeve-graphic-t-shirt/-/A-1000243318",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-short-sleeve-graphic-t-shirt/-/A-1000336689",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-minnie-short-sleeve-graphic-t-shirt/-/A-1000337482",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-pre-k-out-of-this-world-short-sleeve-graphic-t-shirt/-/A-1000243660",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-raya-and-the-last-dragon-short-sleeve-graphic-t-shirt/-/A-1000312193",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-raya-and-the-last-dragon-short-sleeve-graphic-t-shirt/-/A-1000312185",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-short-sleeve-graphic-t-shirt/-/A-1000338247",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-short-sleeve-graphic-t-shirt/-/A-1000336739",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-oh-boy-easters-here-short-sleeve-graphic-t-shirt/-/A-1000226801",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-sticker-group-short-sleeve-graphic-t-shirt/-/A-1000269664",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-sword-in-the-stone-short-sleeve-graphic-t-shirt/-/A-1000280494",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-just-too-cool-retro-short-sleeve-graphic-t-shirt/-/A-1000376243",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-together-fur-ever-mickey-pluto-short-sleeve-graphic-t-shirt/-/A-1000269495",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-minnie-together-in-neon-short-sleeve-graphic-t-shirt/-/A-1000337881",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-preschool-squad-short-sleeve-graphic-t-shirt/-/A-1000243318",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-short-sleeve-graphic-t-shirt/-/A-1000337622",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-pattern-collage-short-sleeve-graphic-t-shirt/-/A-1000337757",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-raya-and-the-last-dragon-short-sleeve-graphic-t-shirt/-/A-1000312129",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-springtime-smiles-short-sleeve-graphic-t-shirt/-/A-1000226642",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-oh-boy-easter-is-here-short-sleeve-graphic-t-shirt/-/A-1000226828",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-just-got-a-lot-cooler-pre-k-short-sleeve-graphic-t-shirt/-/A-1000244168",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-short-sleeve-graphic-t-shirt/-/A-1000337832",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-dr-teeth-the-electric-mayhem-tour-short-sleeve-graphic-t-shirt/-/A-1000296673",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-raya-and-the-last-dragon-short-sleeve-graphic-t-shirt/-/A-1000312227",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-minnie-short-sleeve-graphic-t-shirt/-/A-1000336648",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-nothing-unoriginal-about-me-short-sleeve-graphic-t-shirt/-/A-1000246582",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-short-sleeve-graphic-t-shirt/-/A-1000288858",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-is-a-fashion-icon-short-sleeve-graphic-t-shirt/-/A-1000338181",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-minnie-short-sleeve-graphic-t-shirt/-/A-1000337482",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-doing-my-thing-short-sleeve-graphic-t-shirt/-/A-1000337944",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-later-alligator-short-sleeve-graphic-t-shirt/-/A-1000246730",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-just-too-cool-retro-short-sleeve-graphic-t-shirt/-/A-1000376243",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-awesome-little-brother-short-sleeve-graphic-t-shirt/-/A-1000251461",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-preschool-squad-short-sleeve-graphic-t-shirt/-/A-1000243318",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-short-sleeve-graphic-t-shirt/-/A-1000336739",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-pre-k-out-of-this-world-short-sleeve-graphic-t-shirt/-/A-1000243660",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-class-goof-short-sleeve-graphic-t-shirt/-/A-1000244969",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-oh-boy-easters-here-short-sleeve-graphic-t-shirt/-/A-1000226801",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-short-sleeve-graphic-t-shirt/-/A-1000336709",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-character-group-rainbow-flower-short-sleeve-graphic-t-shirt/-/A-1000269567",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-doodle-short-sleeve-graphic-t-shirt/-/A-1000338141",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-short-sleeve-graphic-t-shirt/-/A-1000337832",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-daisy-duck-short-sleeve-graphic-t-shirt/-/A-1000338078",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-short-sleeve-graphic-t-shirt/-/A-1000338247",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-later-alligator-short-sleeve-graphic-t-shirt/-/A-1000246730",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-short-sleeve-graphic-t-shirt/-/A-1000338277",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-39-stitch-woven-button-up-shirt-aqua-green/-/A-93623636",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-squad-t-shirt/-/A-91883291",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-classic-d-letter-pocket-print-t-shirt/-/A-85637485",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-z-o-m-b-i-e-s-zed-and-addison-t-shirt/-/A-86126818",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-aristocats-kitten-strut-movie-logo-t-shirt/-/A-85633265",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-elio-ooooo-smile-t-shirt/-/A-1003560015",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-retro-logo-t-shirt/-/A-85637670",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-tie-dye-logo-t-shirt/-/A-85637622",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-classic-multicolored-logo-t-shirt/-/A-85824276",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-festive-christmas-logo-t-shirt/-/A-85761026",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-classic-multicolored-logo-t-shirt/-/A-85824276",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-princess-distressed-close-up-poster-t-shirt/-/A-89176717",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-xmas-snow-white-and-the-seven-dwarves-heigh-ho-t-shirt/-/A-85446503",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-up-wilderness-explorer-badge-t-shirt/-/A-87573566",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-red-camo-logo-t-shirt/-/A-85637768",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-aristocats-kitten-strut-movie-logo-t-shirt/-/A-85633265",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-fun-together-t-shirt/-/A-91641810",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-wish-star-birthday-boy-t-shirt/-/A-90059066",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-aristocats-duchess-it-s-the-little-things-in-life-t-shirt/-/A-90983541",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-up-easter-dug-boing-boing-boing-t-shirt/-/A-91247415",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-candy-logo-t-shirt/-/A-85574385",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-elio-bff-duo-t-shirt/-/A-1003560019",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-aristocats-duchess-and-o-malley-silhouette-t-shirt/-/A-85824155",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-princess-trio-doodles-t-shirt/-/A-91641856",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-elio-squad-adventures-t-shirt/-/A-1003559751",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-rainbow-logo-t-shirt/-/A-85637629",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-wish-movie-logo-t-shirt/-/A-90058985",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-cruella-fashion-sketch-t-shirt/-/A-83440298",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-aristocats-kittens-climbing-pocket-badge-t-shirt/-/A-90983696",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-aristocats-my-cat-is-my-valentine-t-shirt/-/A-85563237",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-simple-logo-t-shirt/-/A-89482113",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-strange-world-splat-drip-logo-t-shirt/-/A-87798114",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-i-heart-logo-t-shirt/-/A-85637657",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-kim-possible-team-possible-t-shirt/-/A-86926449",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-in-my-disney-era-t-shirt/-/A-91883260",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-this-is-my-lucky-shirt-t-shirt/-/A-85761053",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-up-easter-dug-boing-boing-boing-t-shirt/-/A-91247415",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-red-and-green-plaid-logo-t-shirt/-/A-85761143",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-st-patrick-s-day-dopey-dance-t-shirt/-/A-1002301340",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-strange-world-splat-hang-in-there-t-shirt/-/A-87798488",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-strange-world-let-s-go-make-history-t-shirt/-/A-87798703",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-oliver-company-christmas-oliver-t-shirt/-/A-89660513",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-rainbow-stack-t-shirt/-/A-85637747",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-princess-easter-eggs-t-shirt/-/A-91247720",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-gargoyles-goliath-let-s-ride-t-shirt/-/A-86126835",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-pinocchio-make-a-splash-valentine-t-shirt/-/A-90647858",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-up-wilderness-explorer-badge-t-shirt/-/A-87573566",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-cruella-crowns-logo-t-shirt/-/A-83438278",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-simple-white-logo-t-shirt/-/A-85637689",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-aristocats-marie-in-a-bed-of-flowers-cuteness-stare-t-shirt/-/A-85633180",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-obsessed-t-shirt/-/A-85637611",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-hot-cocoa-and-cozy-sweaters-t-shirt/-/A-85761245",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-cruella-house-logo-t-shirt/-/A-83440124",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-cruella-pocket-emblem-t-shirt/-/A-83437772",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-strange-world-comic-book-cover-t-shirt/-/A-87798026",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-wish-star-birthday-wishes-t-shirt/-/A-90059143",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-wish-valentino-birthday-g-o-a-t-t-shirt/-/A-90059115",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-strange-world-splat-drip-logo-t-shirt/-/A-87798114",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-wish-star-birthday-wishes-t-shirt/-/A-90059143",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-wish-valentino-birthday-g-o-a-t-t-shirt/-/A-90059115",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-tiana-and-cinderella-dance-t-shirt/-/A-91641728",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-cruella-pocket-emblem-t-shirt/-/A-83437772",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-strange-world-avalonia-venture-beyond-t-shirt/-/A-87798005",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-life-s-a-fairytale-t-shirt/-/A-91642117",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-kim-possible-so-not-the-drama-t-shirt/-/A-86926527",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-aristocats-everybody-wants-to-be-a-cat-t-shirt/-/A-90983544",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-strange-world-clade-family-comic-strips-t-shirt/-/A-87798910",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-kim-possible-mission-kim-t-shirt/-/A-86926571",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-elio-space-silhouette-t-shirt/-/A-1003560010",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-wish-asha-wishing-for-adventure-t-shirt/-/A-90059093",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-strange-world-avalonia-geographic-society-t-shirt/-/A-87798701",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-aristocats-duchess-and-thomas-love-in-paris-t-shirt/-/A-85554622",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-kim-possible-retro-wave-rufus-t-shirt/-/A-86926781",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-cruella-house-of-baroness-icon-logo-t-shirt/-/A-83439341",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-cruella-lipstick-logo-t-shirt/-/A-83441764",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-disney-princess-trio-doodles-t-shirt/-/A-91641856",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-kim-possible-call-me-beep-me-kim-t-shirt/-/A-86926735",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-aristocats-classic-blue-logo-t-shirt/-/A-85824268",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boy-s-cruella-distressed-red-lips-logo-t-shirt/-/A-83441483",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-sketched/-/A-1000672798",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/disney-pixar-toy-story-pixar-cars-mickey-mouse-buzz-lightyear-lightning-mcqueen-birthday-baby-t-shirt-little-kid-to-big-kid/-/A-87293244",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/disney-pixar-toy-story-pixar-cars-mickey-mouse-buzz-lightyear-lightning-mcqueen-birthday-baby-t-shirt-little-kid-to-big-kid/-/A-87293244",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/disney-pixar-toy-story-buzz-lightyear-2-pack-t-shirts-little-kid-to-big-kid/-/A-88322010",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/disney-mickey-mouse-graphic-t-shirt-toddler-to-big-kid/-/A-87294947",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-no-pants-no-problem/-/A-1000590901",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-1st-grade-squad/-/A-1000590475",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-let-the-shenanigans-begin/-/A-1000591224",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-checker-frame/-/A-1000591170",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-pluto/-/A-1000672810",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-standard-sports/-/A-1000671055",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse/-/A-1000672877",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-minnie-minnie-mouse/-/A-1000672853",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-i-m-cool-like-that/-/A-1000591244",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-oh-boy-easter-is-here/-/A-1000597586",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-is-a-fashion-icon/-/A-1000672900",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-standard-sports/-/A-1000671100",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-pluto-snacks/-/A-1000672919",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-together-fur-ever-mickey-pluto/-/A-1000623463",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-standard-sports/-/A-1000671142",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse/-/A-1000672953",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-kindergarten-squad/-/A-1000590403",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-standard-sports/-/A-1000671105",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-standard-sports/-/A-1000671070",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-total-legends/-/A-1000590708",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-minnie/-/A-1000672944",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse/-/A-1000672818",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-feelin-silly/-/A-1000591274",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-different-letters/-/A-1000672843",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-pluto-donald-duck-mickey-goofy/-/A-1000672905",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse/-/A-1000672895",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-oh-boy/-/A-1000623446",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-minnie-goofy-donald-duck-daisy-pluto-photo/-/A-1000672807",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-standard-sports/-/A-1000671100",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse/-/A-1000672877",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-squad-grid/-/A-1000590792",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-school-is-cool/-/A-1000590346",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-standard-sports/-/A-1000671110",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-standard-sports/-/A-1000671055",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-standard-sports/-/A-1000671142",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-pre-k-out-of-this-world/-/A-1000590362",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-oh-boy-easter-is-here/-/A-1000597586",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-oh-boy-easters-here/-/A-1000597572",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-blowing-bubbles-everywhere/-/A-1000672848",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-sticker-group/-/A-1000623474",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-did-someone-say-recess/-/A-1000590457",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse/-/A-1000672952",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-kindergarten-out-of-this-world/-/A-1000590416",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-minnie/-/A-1000672944",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse/-/A-1000672933",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-standard-sports/-/A-1000671075",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-bunny-kisses-easter-wishes/-/A-1000597596",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-just-got-a-lot-cooler-pre-k/-/A-1000590390",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-endless-sunshine/-/A-1000597588",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-standard-sports/-/A-1000671053",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-donald-duck-goofy/-/A-1000672839",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse/-/A-1000672910",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-standard-sports/-/A-1000671070",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-making-moves/-/A-1000672941",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-dr-teeth-long-winded-tour/-/A-1000654405",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-pluto-collage/-/A-1000623462",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-standard-sports/-/A-1000671105",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-just-too-cool-retro/-/A-1000722839",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-standard-sports/-/A-1000671093",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-nothing-unoriginal-about-me/-/A-1000590914",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse/-/A-1000672832",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-the-coolest-kid/-/A-1000590735",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-pluto/-/A-1000672810",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse/-/A-1000672953",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse-multicolored-grid/-/A-1000672809",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse/-/A-1000672826",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-watch-this/-/A-1000591063",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-the-aristocats/-/A-1000723047",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-playdate-material/-/A-1000722813",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-the-aristocats/-/A-1000723047",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-mickey-mouse-sketched/-/A-1000672798",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-minnie-mouse/-/A-1000672818",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-kindergarten-squad/-/A-1000590403",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
+      },
+    },
+    {
+      url: "https://www.target.com/p/boys-disney-1st-grade-out-of-this-world/-/A-1000590481",
+      tags: "Boys’ Clothing, Disney, Graphic Tees, Kids’ Clothing, Tops",
+      filters: {
+        brand: "Disney",
       },
     },
   ];
