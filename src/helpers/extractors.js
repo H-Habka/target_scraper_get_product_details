@@ -174,9 +174,10 @@ export async function extractTargetProductData(page, params) {
       ? `${baseTags}, ${extraTags.trim()}`
       : baseTags;
 
-    // Generate unique timestamp suffix for handle
-    const timestamp = Date.now();
-    const uniqueHandle = `${handle}-${timestamp}`;
+    // Generate unique handle using SKU instead of timestamp
+    const firstVariant = allVariants[0];
+    const skuSuffix = firstVariant?.sku ? `-${firstVariant.sku}` : `-${Date.now()}`;
+    const uniqueHandle = `${handle}${skuSuffix}`;
 
     const chunkSize = 100; // Shopify limit
     const chunks = [];
