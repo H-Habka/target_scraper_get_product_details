@@ -20,6954 +20,7003 @@ import { saveToCSVAndExcel } from "./helpers/fileIO.js";
 
   const urls = [
     {
-      url: "https://www.target.com/p/tasty-peach-kekitsu-eating-sweets-crew-neck-long-sleeve-athletic-heather-youth-tee/-/A-91498819",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tasty Peach Studios, Tops",
+      url: "https://www.target.com/p/girls-39-uniform-polo-t-shirt-all-in-motion-8482/-/A-94579754",
+      tags: "Athletic Polo Shirts, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops",
       filters: {
-        brand: "Tasty Peach Studios",
+        type: "Athletic Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/tee-luv-kids-smokey-bear-only-you-can-prevent-wildfires-youth-t-shirt/-/A-1002533362",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tee Luv, Tops",
+      url: "https://www.target.com/p/rufflebutts-girls-high-low-ruffle-tunic/-/A-93173628",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops",
       filters: {
-        brand: "Tee Luv",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/tee-luv-kids-yo-mtv-raps-youth-t-shirt/-/A-1002667383",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tee Luv, Tops",
+      url: "https://www.target.com/p/rufflebutts-girls-knit-long-sleeve-ruffle-layering-tee/-/A-94069398",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops, T-shirts, Tee Undershirts",
       filters: {
-        brand: "Tee Luv",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/tee-luv-tee-luv-kids-teenage-mutant-ninja-turtles-t-shirt-grass-green-large/-/A-1002535413",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tee Luv, Tops",
+      url: "https://www.target.com/p/girls-short-sleeve-embroidered-button-down-shirt-cat-jack-white/-/A-94131171",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops",
       filters: {
-        brand: "Tee Luv",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/tee-luv-tee-luv-kids-patrick-star-face-t-shirt-pink-x-large/-/A-1002616522",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tee Luv, Tops",
+      url: "https://www.target.com/p/girls-39-short-sleeve-eyelet-top-cat-38-jack-8482/-/A-92974692",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops",
       filters: {
-        brand: "Tee Luv",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/tee-luv-tee-luv-kids-spongebob-squarepants-face-youth-t-shirt-banana-yellow-medium/-/A-1002616464",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tee Luv, Tops",
+      url: "https://www.target.com/p/girls-long-sleeve-pointelle-t-shirt-cat-jack/-/A-94661693",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops",
       filters: {
-        brand: "Tee Luv",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/teen-titans-robin-youth-red-graphic-tee/-/A-88346602",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teen Titans, Tops",
+      url: "https://www.target.com/p/girls-short-sleeve-scoop-neck-super-soft-t-shirt-art-class/-/A-93487782",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops",
       filters: {
-        brand: "Teen Titans",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/seven-times-six-teen-titans-go-boys-terrific-trio-t-shirt/-/A-1004477080",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teen Titans Go!, Tops",
+      url: "https://www.target.com/p/hope-henry-girls-short-sleeve-knit-top-with-tulip-sleeves-kids/-/A-90586013",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops",
       filters: {
-        brand: "Teen Titans Go!",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-battle-tycoon-group-long-sleeve-graphic-t-shirt/-/A-1004936285",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/girls-ruffle-puff-sleeve-blouse-short-hollow-out-sleeve-t-shirt-round-neck-solid-casual-top/-/A-1002565407",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-peace-love-pizza-long-sleeve-graphic-t-shirt/-/A-1000593157",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/girls-cute-tops-peter-pan-collar-with-cute-bow-puff-short-sleeve-kids-fashion-shirts-summer-top-keyhole-tops-girls-blouse/-/A-92364672",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops, T-shirts",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-life-liberty-pursuit-of-pizza-long-sleeve-graphic-t-shirt/-/A-1000593346",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/deux-par-deux-girl-crinkle-jersey-tunic-with-embroidery-dark-old-pink/-/A-1004040329",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops, Peasant Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-turtle-power-americana-long-sleeve-graphic-t-shirt/-/A-1000720361",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/girl-floral-long-full-sleeve-dress-cozmo/-/A-1002669242",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops, T-shirts",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-born-raised-usa-long-sleeve-graphic-t-shirt/-/A-1000720592",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/deux-par-deux-girl-printed-organic-cotton-tunic-top-small-turquoise-flowers/-/A-1003325145",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops, T-shirts",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-battle-tycoon-do-you-even-game-bro-long-sleeve-graphic-t-shirt/-/A-1004936304",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/deux-par-deux-girl-puff-sleeve-top-pink-and-white-checks/-/A-1003246903",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops, T-shirts",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-usa-turtles-long-sleeve-graphic-t-shirt/-/A-1000593395",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/deux-par-deux-girl-printed-seersucker-blouse-with-frills-pink-flowers-on-cream-background/-/A-1004049857",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-red-white-turtle-power-long-sleeve-graphic-t-shirt/-/A-1000720397",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/girl-santa-mesh-top-sterling-kreek/-/A-1001537484",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-battle-tycoon-sewer-long-sleeve-graphic-t-shirt/-/A-1004936237",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/deux-par-deux-girl-printed-tunic-top-multicolored/-/A-1003326927",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops, Peasant Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-shells-and-stripes-long-sleeve-graphic-t-shirt/-/A-1000593087",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/deux-par-deux-girl-sleeveless-top-with-front-tie-black-and-sparkling-pink/-/A-1003330426",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-battle-tycoon-achievement-unlocked-long-sleeve-graphic-t-shirt/-/A-1004936384",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/girl-flutter-sleeve-top-mia-s/-/A-1004223448",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-usa-raphael-long-sleeve-graphic-t-shirt/-/A-1000592983",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/girls-circle-printed-ruffle-tunic-copenhagen-delights/-/A-1000916164",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/teenage-mutant-ninja-turtles-4th-of-july-headshot-kids-t-shirt-for-youth-athletic-heather-x-large/-/A-1001848798",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/girls-floral-long-sleeve-blouse-petit-confection/-/A-1000916045",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/teenage-mutant-ninja-turtles-american-heroes-4th-of-july-kids-t-shirt-for-youth-light-blue-small/-/A-1001848814",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/girl-floral-long-sleeve-top-petit-confection/-/A-1001401254",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/teenage-mutant-ninja-turtles-4th-of-july-shells-and-stripes-kids-t-shirt-for-youth-white-large/-/A-1001848789",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/girl-cecilia-ruffle-collar-blouse-early-sunday/-/A-1002771398",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-love-4th-of-july-t-shirt/-/A-1004374148",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/girl-magnolia-top-set-proper/-/A-1004473770",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops, T-shirts",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/teenage-mutant-ninja-turtles-leonardo-michelangelo-raphael-3-pack-athletic-t-shirts-little-kid-to-big-kid/-/A-87042005",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/girl-magnolia-top-set-proper/-/A-1004473755",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops, T-shirts",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-teenage-mutant-ninja-turtles-6th-birthday-pizza-party-t-shirt/-/A-82369702",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/girls-cap-sleeve-top-petit-confection/-/A-1000916020",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-teenage-mutant-ninja-turtles-best-friend-shot-performance-tee/-/A-87573067",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/girl-toddler-s-star-printed-chiffon-blouse-petit-confection/-/A-1001376767",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-teenage-mutant-ninja-turtles-best-friend-shot-t-shirt/-/A-82366617",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/girl-toddler-s-eyelet-tunic-petit-confection/-/A-1001376715",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-teenage-mutant-ninja-turtles-5th-birthday-pizza-party-t-shirt/-/A-79782886",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/girl-flutter-sleeve-top-mia/-/A-1003278120",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops, T-shirts",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/boys-39-teenage-mutant-ninja-turtles-hooded-long-sleeve-graphic-t-shirt-green/-/A-92185942",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/girls-paisley-print-tunic-petit-confection/-/A-1000916038",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-teenage-mutant-ninja-turtles-brick-jump-performance-tee/-/A-87572874",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/lands-end-kids-plus-short-sleeve-eyelet-ruffle-sleeve-top/-/A-88835184",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-usa-turtles-short-sleeve-graphic-t-shirt/-/A-1000434991",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/lands-end-kids-short-sleeve-smock-flutter-top/-/A-1002458737",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-teenage-mutant-ninja-turtles-turtle-power-circle-performance-tee/-/A-87572952",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/lands-end-kids-woven-eyelet-top/-/A-1002458567",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops, Button Down Shirts",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-peace-love-pizza-short-sleeve-graphic-t-shirt/-/A-1000434456",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/lands-end-kids-flutter-sleeve-tiered-peasant-top/-/A-91658601",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-usa-raphael-short-sleeve-graphic-t-shirt/-/A-1000433265",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/lands-end-kids-short-sleeve-smocked-woven-top/-/A-1002458584",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-life-liberty-pursuit-of-pizza-short-sleeve-graphic-t-shirt/-/A-1000434711",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/rufflebutts-toddler-girls-high-low-ruffle-tunic/-/A-93173598",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-red-white-turtle-power-short-sleeve-graphic-t-shirt/-/A-1000498006",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/girls-tie-front-knot-tops-with-ruffle-sleeve-plaid-tops-tie-front-blouse-short-sleeve-button-down-shirts-for-toddler-girls/-/A-92446753",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops, Button Down Shirts",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-born-raised-usa-short-sleeve-graphic-t-shirt/-/A-1000497980",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/rufflebutts-toddler-girls-knit-ruffle-tiered-tunic/-/A-1004497872",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-shells-and-stripes-short-sleeve-graphic-t-shirt/-/A-1000434062",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/rufflebutts-toddler-girl-waffle-knit-long-sleeve-bow-back-top/-/A-89954543",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops, T-shirts",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-battle-tycoon-sewer-short-sleeve-graphic-t-shirt/-/A-1004936371",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/rufflebutts-girls-knit-ruffle-tiered-tunic/-/A-1004497862",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-turtle-power-americana-short-sleeve-graphic-t-shirt/-/A-1000497823",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/girls-puff-sleeve-blouse-round-neck-ruffle-sleeve-shirts-girls-shirts/-/A-93726314",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-teenage-mutant-ninja-turtles-distressed-retro-striped-brothers-t-shirt/-/A-90168198",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/strawberry-shortcake-berry-knit-top/-/A-92998450",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-teenage-mutant-ninja-turtles-leonardo-face-t-shirt/-/A-84645569",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/deux-par-deux-girl-crinkle-short-sleeve-top-white/-/A-1003330448",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-teenage-mutant-ninja-turtles-michelangelo-face-t-shirt/-/A-85155836",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/lands-end-kids-smocked-long-sleeve-knit-shirt/-/A-1004939322",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-teenage-mutant-ninja-turtles-michelangelo-costume-t-shirt/-/A-81495613",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/girl-s-peyton-ribbed-velour-ruffle-top-vignette/-/A-1001251691",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-teenage-mutant-ninja-turtles-halloween-rad-to-the-bone-t-shirt/-/A-89580737",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/girl-balloon-sleeve-top-good-girl/-/A-1001931307",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-teenage-mutant-ninja-turtles-donatello-face-t-shirt/-/A-82371711",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/girl-s-ruffled-cotton-blouse-mayoral/-/A-1001251591",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-teenage-mutant-ninja-turtles-ugly-christmas-sweater-t-shirt/-/A-85445932",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/gender-neutral-fleur-chiffon-ruffle-blouse-grade-gather/-/A-1001050609",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-teenage-mutant-ninja-turtles-keep-the-earth-green-t-shirt/-/A-88715913",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/girl-s-plaid-flannel-top-southern-grace/-/A-1000916408",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-teenage-mutant-ninja-turtles-4th-birthday-pizza-party-t-shirt/-/A-79782926",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/girl-tangled-v-neck-basics-shirt-southern-grace/-/A-1001354869",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-teenage-mutant-ninja-turtles-shadow-heroes-t-shirt/-/A-85153746",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/girl-just-like-mama-lace-sleeve-top-southern-grace/-/A-1001355096",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-teenage-mutant-ninja-turtles-donatello-costume-t-shirt/-/A-81495598",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/deux-par-deux-girl-bi-material-organic-cotton-top-with-puff-sleeve-pink-flowers-on-cream-background/-/A-1003328857",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-teenage-mutant-ninja-turtles-raphael-costume-t-shirt/-/A-81495541",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/deux-par-deux-girl-organic-cotton-tunic-with-frill-and-print-yellow-and-flamingo/-/A-1004049822",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops, Peasant Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-teenage-mutant-ninja-turtles-they-re-lean-they-re-green-t-shirt/-/A-90166672",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/girl-polly-ruffle-collar-blouse-set-proper/-/A-1004473721",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-teenage-mutant-ninja-turtles-st-patrick-s-day-michelangelo-shamrock-fill-t-shirt/-/A-85893910",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/lands-end-kids-long-sleeve-ruffled-peter-pan-collar-knit-shirt/-/A-87825215",
+      tags: "Button Down Shirts, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops, Polo Shirts",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Button Down Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-teenage-mutant-ninja-turtles-st-patrick-s-day-raphael-don-t-push-your-luck-t-shirt/-/A-85893983",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/girls-short-sleeve-peter-pan-blouse-puff-sleeve-button-down-shirt-school-uniform-blouse-3-12-years/-/A-1003249034",
+      tags: "Button Down Shirts, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops, Polo Shirts",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Button Down Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-teenage-mutant-ninja-turtles-candy-hearts-t-shirt/-/A-85565898",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/ola-otter-relaxed-fit-shirt-tiger-tale-blue/-/A-1004191061",
+      tags: "Button Down Shirts, Girls’ Clothing, Kids’ Clothing, Shirts & Polos, Tops, Polo Shirts",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Button Down Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-teenage-mutant-ninja-turtles-7th-birthday-pizza-party-t-shirt/-/A-82373467",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/mafoose-youth-casual-short-sleeve-core-blend-jersey-knit-collar-polo-t-shirt/-/A-1003149895",
+      tags: "Girls’ Clothing, Jerseys, Kids’ Clothing, Shirts & Polos, Tops, Polo Shirts",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Jerseys",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-teenage-mutant-ninja-turtles-luck-of-the-ninja-t-shirt/-/A-1002302924",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/clique-addison-youth-polo/-/A-86053930",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-teenage-mutant-ninja-turtles-happy-easter-cute-best-friends-t-shirt/-/A-88718119",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/lands-end-school-uniform-kids-short-sleeve-interlock-polo-shirt/-/A-86739688",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-teenage-mutant-ninja-turtles-heroes-in-a-half-shell-group-shot-t-shirt/-/A-92378198",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/girls-39-short-sleeve-jersey-uniform-polo-shirt-cat-38-jack-8482-white/-/A-90221751",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-battle-tycoon-group-raglan-graphic-t-shirt/-/A-1004936226",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/girls-short-sleeve-pique-uniform-polo-shirt-cat-jack/-/A-85251186",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-turtle-power-americana/-/A-1000720539",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/girls-39-short-sleeve-uniform-performance-polo-shirt-cat-38-jack-8482/-/A-94436197",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-usa-turtles/-/A-1000593386",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/girls-short-sleeve-interlock-uniform-polo-shirt-cat-jack/-/A-87922544",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-born-raised-usa/-/A-1000720505",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/lands-end-school-uniform-kids-short-sleeve-feminine-fit-interlock-polo-shirt/-/A-86739279",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops, T-shirts",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-usa-raphael/-/A-1000593066",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/french-toast-school-uniform-co-ed-short-sleeve-pique-polo/-/A-92365141",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-peace-love-pizza/-/A-1000593167",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/lands-end-school-uniform-kids-long-sleeve-feminine-fit-interlock-polo-shirt/-/A-86738601",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-shells-and-stripes/-/A-1000593103",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/girls-long-sleeve-interlock-uniform-polo-shirt-cat-jack/-/A-88923983",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-red-white-turtle-power/-/A-1000720469",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/lands-end-school-uniform-kids-short-sleeve-rapid-dry-polo-shirt/-/A-86739690",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-life-liberty-pursuit-of-pizza/-/A-1000593308",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/lands-end-school-uniform-kids-long-sleeve-mesh-polo-shirt/-/A-86738997",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops, T-shirts",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-battle-tycoon-do-you-even-game-bro-raglan-graphic-t-shirt/-/A-1004936251",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Teenage Mutant Ninja Turtles, Tops",
+      url: "https://www.target.com/p/lands-end-school-uniform-kids-short-sleeve-mesh-polo-shirt/-/A-86739181",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops",
       filters: {
-        brand: "Teenage Mutant Ninja Turtles",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-addams-family-cousin-itt-party-animal-t-shirt/-/A-84645514",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Addams Family, Tops",
+      url: "https://www.target.com/p/levi-s-girls-short-sleeve-polo-shirt/-/A-94708618",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops",
       filters: {
-        brand: "The Addams Family",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-addams-family-pugsley-fire-in-the-hole-t-shirt/-/A-85026257",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Addams Family, Tops",
+      url: "https://www.target.com/p/lands-end-kids-short-sleeve-peter-pan-collar-polo-shirt/-/A-86739142",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops",
       filters: {
-        brand: "The Addams Family",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-addams-family-theatrical-poster-t-shirt/-/A-82369330",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Addams Family, Tops",
+      url: "https://www.target.com/p/lands-end-school-uniform-big-kids-short-sleeve-banded-bottom-polo-shirt/-/A-87885328",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops",
       filters: {
-        brand: "The Addams Family",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-addams-family-wednesday-i-am-smiling-t-shirt/-/A-85154431",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Addams Family, Tops",
+      url: "https://www.target.com/p/lands-end-school-uniform-kids-short-sleeve-feminine-fit-rapid-dry-polo-shirt/-/A-1003951355",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops",
       filters: {
-        brand: "The Addams Family",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-addams-family-portrait-panels-t-shirt/-/A-85026198",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Addams Family, Tops",
+      url: "https://www.target.com/p/lands-end-school-uniform-kids-long-sleeve-rapid-dry-polo-shirt/-/A-93009863",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops",
       filters: {
-        brand: "The Addams Family",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/boys-the-bad-guys-mr-wolf-and-friends-silhouettes-long-sleeve-graphic-t-shirt/-/A-1004828877",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Bad Guys, Tops",
+      url: "https://www.target.com/p/lands-end-school-uniform-kids-long-sleeve-feminine-fit-rapid-dry-polo-shirt/-/A-1003944875",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops",
       filters: {
-        brand: "The Bad Guys",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/boys-the-bad-guys-mr-wolf-and-friends-long-sleeve-graphic-t-shirt/-/A-1004829842",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Bad Guys, Tops",
+      url: "https://www.target.com/p/girls-polo-shirts-5-pack-short-sleeve-cotton-uniform-shirts-for-school-casual-daily-wear/-/A-1004866492",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops",
       filters: {
-        brand: "The Bad Guys",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/boys-the-bad-guys-mr-wolf-and-friends-short-sleeve-graphic-t-shirt/-/A-1004829823",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Bad Guys, Tops",
+      url: "https://www.target.com/p/lands-end-school-uniform-kids-husky-short-sleeve-interlock-polo-shirt/-/A-1004219808",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops",
       filters: {
-        brand: "The Bad Guys",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/boys-the-bad-guys-mr-wolf-and-friends-silhouettes-short-sleeve-graphic-t-shirt/-/A-1004829673",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Bad Guys, Tops",
+      url: "https://www.target.com/p/kids-frankie-long-sleeve-polo-shirt-6y-olive-scout/-/A-1001300191",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops",
       filters: {
-        brand: "The Bad Guys",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/boys-the-bad-guys-mr-wolf-and-friends-raglan-graphic-t-shirt/-/A-1004829758",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Bad Guys, Tops",
+      url: "https://www.target.com/p/kids-rodney-long-sleeve-polo-shirt-6y-olive-scout/-/A-1001300143",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops",
       filters: {
-        brand: "The Bad Guys",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/boys-the-bad-guys-mr-wolf-and-friends-silhouettes-raglan-graphic-t-shirt/-/A-1004829721",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Bad Guys, Tops",
+      url: "https://www.target.com/p/castore-mclaren-f1-kids-2025-lando-norris-drivers-polo-shirt/-/A-1002258783",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops",
       filters: {
-        brand: "The Bad Guys",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-emperor-s-new-groove-kronk-squirrel-squeak-t-shirt/-/A-84643453",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Emperor's New Groove, Tops",
+      url: "https://www.target.com/p/red-bull-racing-f1-kid-s-2024-sergio-checo-perez-team-polo-shirt/-/A-92157662",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops",
       filters: {
-        brand: "The Emperor's New Groove",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/the-flash-movie-past-to-future-circle-graphic-crew-neck-long-sleeve-athletic-heather-youth-tee/-/A-89097464",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/automobili-lamborghini-squadra-corse-kids-team-polo-shirt/-/A-1003649645",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/justice-league-batman-flash-green-lantern-superman-boy-s-short-sleeve-performance-swim-tee-boardshorts-combo-set/-/A-92407336",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/castore-alpine-racing-f1-2025-kids-team-polo-shirt/-/A-1002618128",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/flash-comics-panels-boy-s-athletic-heather-long-sleeve-shirt/-/A-85731669",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/castore-mclaren-f1-kids-2025-oscar-piastri-team-drivers-polo-shirt/-/A-1002258585",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops, T-shirts",
       filters: {
-        brand: "The Flash",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/dc-comics-the-flash-youth-boys-athletic-heather-gray-long-sleeve-shirt/-/A-87614953",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/castore-red-bull-racing-f1-kid-s-2025-max-verstappen-team-polo-shirt/-/A-1002208397",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops, T-shirts",
       filters: {
-        brand: "The Flash",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/flash-white-running-silhouette-youth-black-long-sleeve-shirt/-/A-86104526",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/studio-3-little-big-girl-s-4-pack-short-sleeve-soft-jersey-polo-uniform-shirts/-/A-92942211",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/flash-movie-hero-running-youth-athletic-heather-long-sleeve-shirt/-/A-86104518",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/studio-3-little-big-girl-s-4-pack-long-sleeve-soft-jersey-polo-uniform-shirts/-/A-93003130",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/the-flash-movie-character-art-youth-black-sweatshirt/-/A-89097440",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/castore-red-bull-racing-f1-kid-s-2025-team-polo/-/A-1002208352",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/flash-saving-the-future-and-the-past-youth-black-long-sleeve-shirt/-/A-86104505",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/kids-single-pack-long-sleeve-pique-polo/-/A-1002508585",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/the-flash-lightning-bolt-logo-youth-red-graphic-tee/-/A-85729249",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/lands-end-kids-long-sleeve-peter-pan-collar-polo-shirt/-/A-86739170",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/the-flash-christmas-youth-red-graphic-tee/-/A-85731015",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/lands-end-school-uniform-kids-long-sleeve-interlock-polo-shirt/-/A-86738598",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/the-flash-lightning-bolt-emblem-youth-red-graphic-tee/-/A-85730507",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/red-bull-racing-f1-kids-2024-special-edition-america-race-team-polo-shirt/-/A-92043563",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/fast-like-the-flash-youth-red-graphic-tee/-/A-84706775",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/gender-neutral-s-starboard-polo-shirt-me-henry/-/A-1001177765",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/the-flash-supersonic-speed-youth-red-graphic-tee/-/A-84940757",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/gender-neutral-flagstaff-polo-shirt-me-henry/-/A-1001177679",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/the-flash-lightning-bolt-logo-youth-red-graphic-tee/-/A-85729245",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/red-bull-racing-f1-kid-s-2024-max-verstappen-team-polo-shirt/-/A-93226700",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/the-flash-lightning-fast-character-youth-red-graphic-tee/-/A-85731202",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/city-threads-usa-made-cotton-polo-soft-jersey-peter-pan-collar-girls-puff-short-sleeve-tee/-/A-92899738",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/dc-comics-the-flash-superhero-and-lightning-bolt-youth-red-graphic-tee/-/A-86393995",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/french-toast-school-uniform-co-ed-long-sleeve-pique-polo/-/A-92338823",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/the-flash-supersonic-speed-force-youth-red-graphic-tee/-/A-84942312",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/hope-henry-girls-organic-puff-sleeve-jersey-knit-polo-kids/-/A-1001299013",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/the-flash-be-right-back-youth-red-graphic-tee/-/A-85731098",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/french-toast-school-uniform-co-ed-short-sleeve-interlock-polo/-/A-92365977",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/the-flash-why-being-flash-is-awesome-youth-red-graphic-tee/-/A-85730273",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/hanes-girl-ecosmart-jersey-polo-stylish-and-unique-style-2-pack/-/A-1003112094",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/the-flash-delivery-in-a-flash-youth-red-graphic-tee/-/A-85730918",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/red-bull-racing-f1-kid-s-2024-team-polo/-/A-92427574",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/the-flash-lightning-bolt-youth-red-graphic-tee/-/A-88886877",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/city-threads-usa-made-girls-soft-cotton-jersey-peter-pan-collar-short-sleeve-puff-tee/-/A-92899742",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops, T-shirts",
       filters: {
-        brand: "The Flash",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/the-flash-vintage-lightning-and-flame-youth-navy-blue-graphic-tee/-/A-84941209",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/ola-otter-relaxed-fit-shirt-mixed-fruit-multicoloured/-/A-1004191067",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/the-flash-lightning-bolt-logo-youth-red-graphic-tee/-/A-85731265",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/lands-end-kids-long-sleeve-stripe-rugby-shirt/-/A-1004890887",
+      tags: "Girls’ Clothing, Kids’ Clothing, Polo Shirts, Shirts & Polos, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Polo Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/dc-comic-youth-boys-flash-superhero-logo-red-graphic-t-shirt/-/A-86103216",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/lands-end-school-uniform-kids-cotton-modal-cardigan-sweater/-/A-86738581",
+      tags: "Cardigans, Girls’ Clothing, Kids’ Clothing, Sweaters, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Cardigans",
       },
     },
     {
-      url: "https://www.target.com/p/the-flash-movie-running-in-lightning-youth-heather-gray-graphic-tee/-/A-86103959",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/girls-long-uniform-cardigan-cat-jack/-/A-84938046",
+      tags: "Cardigans, Girls’ Clothing, Kids’ Clothing, Sweaters, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Cardigans",
       },
     },
     {
-      url: "https://www.target.com/p/the-flash-movie-running-in-circle-youth-red-graphic-tee/-/A-86103975",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/girls-39-long-sleeve-ribbed-cardigan-sweater-cat-38-jack-8482/-/A-94472219",
+      tags: "Cardigans, Girls’ Clothing, Kids’ Clothing, Sweaters, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Cardigans",
       },
     },
     {
-      url: "https://www.target.com/p/dco-flash-logo-youth-boys-red-t-shirt/-/A-85730285",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/girls-39-button-front-sweater-vest-cat-38-jack-8482/-/A-94472220",
+      tags: "Cardigans, Girls’ Clothing, Kids’ Clothing, Sweaters, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Cardigans",
       },
     },
     {
-      url: "https://www.target.com/p/flash-geometric-art-logo-boy-s-red-t-shirt/-/A-85451665",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/girls-crew-neck-cable-uniform-cardigan-sweater-cat-jack/-/A-84938066",
+      tags: "Cardigans, Girls’ Clothing, Kids’ Clothing, Sweaters, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Cardigans",
       },
     },
     {
-      url: "https://www.target.com/p/the-flash-gold-dripping-logo-youth-boys-red-t-shirt/-/A-85729353",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/girls-39-pointelle-cardigan-cat-38-jack-8482/-/A-94472253",
+      tags: "Cardigans, Girls’ Clothing, Kids’ Clothing, Sweaters, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Cardigans",
       },
     },
     {
-      url: "https://www.target.com/p/the-flash-movie-distressed-edges-character-key-art-crew-neck-short-sleeve-red-boy-s-t-shirt/-/A-89097326",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/girls-39-long-sleeve-pointelle-cardigan-cat-38-jack-8482/-/A-92596121",
+      tags: "Cardigans, Girls’ Clothing, Kids’ Clothing, Sweaters, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Cardigans",
       },
     },
     {
-      url: "https://www.target.com/p/dco-the-flash-you-can-t-catch-me-youth-boys-navy-t-shirt/-/A-85730453",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/girls-39-button-front-cardigan-sweater-cat-38-jack-8482/-/A-90532627",
+      tags: "Cardigans, Girls’ Clothing, Kids’ Clothing, Sweaters, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Cardigans",
       },
     },
     {
-      url: "https://www.target.com/p/five-nights-at-freddy-s-flashlight-characters-boy-s-black-t-shirt/-/A-85450661",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/girls-39-long-sleeve-halloween-cardigan-sweater-cat-38-jack-8482-black/-/A-94472215",
+      tags: "Cardigans, Girls’ Clothing, Kids’ Clothing, Sweaters, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Cardigans",
       },
     },
     {
-      url: "https://www.target.com/p/the-flash-pop-art-squares-boy-s-white-t-shirt/-/A-87523160",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/french-toast-school-uniform-co-ed-v-neck-sweater-cardigan/-/A-92657805",
+      tags: "Cardigans, Girls’ Clothing, Kids’ Clothing, Sweaters, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Cardigans",
       },
     },
     {
-      url: "https://www.target.com/p/the-flash-movie-split-panel-character-art-boy-s-black-t-shirt/-/A-89097228",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/mi-amore-gigi-bottom-down-sweater/-/A-94072144",
+      tags: "Cardigans, Girls’ Clothing, Kids’ Clothing, Sweaters, Tops, Pullover Sweaters",
       filters: {
-        brand: "The Flash",
+        type: "Cardigans",
       },
     },
     {
-      url: "https://www.target.com/p/the-flash-spray-paint-with-graffiti-effect-boy-s-black-t-shirt/-/A-87523239",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/mi-amore-gigi-pink-bottom-down-sweater/-/A-94041144",
+      tags: "Cardigans, Girls’ Clothing, Kids’ Clothing, Sweaters, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Cardigans",
       },
     },
     {
-      url: "https://www.target.com/p/the-flash-movie-character-in-name-text-boy-s-white-t-shirt/-/A-89097325",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/andy-evan-kids-girls-ombre-stripe-cardigan/-/A-93590642",
+      tags: "Cardigans, Girls’ Clothing, Kids’ Clothing, Sweaters, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Cardigans",
       },
     },
     {
-      url: "https://www.target.com/p/the-flash-crimson-comet-graphic-boy-s-red-t-shirt/-/A-85355478",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/french-toast-school-uniform-co-ed-mock-neck-zip-front-sweater/-/A-92657866",
+      tags: "Cardigans, Girls’ Clothing, Kids’ Clothing, Sweaters, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Cardigans",
       },
     },
     {
-      url: "https://www.target.com/p/the-flash-movie-running-superhero-logo-boy-s-red-t-shirt/-/A-87035962",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/lands-end-kids-button-front-cable-cardigan/-/A-87686433",
+      tags: "Cardigans, Girls’ Clothing, Kids’ Clothing, Sweaters, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Cardigans",
       },
     },
     {
-      url: "https://www.target.com/p/flash-the-fastest-man-alive-text-with-doodle-art-youth-boy-s-red-t-shirt/-/A-87450636",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/hope-henry-girls-organic-long-sleeve-scallop-detail-cardigan-sweater-kids/-/A-1000872830",
+      tags: "Cardigans, Girls’ Clothing, Kids’ Clothing, Sweaters, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Cardigans",
       },
     },
     {
-      url: "https://www.target.com/p/the-flash-movie-yellow-and-red-logo-boy-s-royal-blue-t-shirt/-/A-89097122",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/girls-long-sleeve-cardigan-sweaters-open-front-cable-knit-chunky-cardigans-kids-oversized-cute-outerwear-coat/-/A-1002723693",
+      tags: "Cardigans, Girls’ Clothing, Kids’ Clothing, Sweaters, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Cardigans",
       },
     },
     {
-      url: "https://www.target.com/p/the-flash-fake-sequin-logo-boy-s-red-t-shirt/-/A-85354040",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/girls-cable-knit-sweater-cardigan-front-button-cardigan-with-side-pockets-above-knee-cardigan-for-girls-winter-knitwear/-/A-1001378403",
+      tags: "Cardigans, Girls’ Clothing, Kids’ Clothing, Sweaters, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Cardigans",
       },
     },
     {
-      url: "https://www.target.com/p/flash-superhero-logo-boy-s-red-t-shirt/-/A-85352556",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/girl-s-open-front-cardigan-long-sleeve-knit-sweaters-kids-lightweight-cute-casual-loose-outerwear-coats-with-pockets/-/A-1002725053",
+      tags: "Cardigans, Girls’ Clothing, Kids’ Clothing, Sweaters, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Cardigans",
       },
     },
     {
-      url: "https://www.target.com/p/flash-fast-not-last-boy-s-red-t-shirt/-/A-85354129",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/girls-sweater-cardigan-open-front-longline-sweater-cable-knit-sweater-long-sleeve-color-block-sweater/-/A-1000669718",
+      tags: "Cardigans, Girls’ Clothing, Kids’ Clothing, Sweaters, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Cardigans",
       },
     },
     {
-      url: "https://www.target.com/p/the-flash-movie-boxed-in-superhero-boy-s-red-t-shirt/-/A-89097355",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/hope-henry-girls-organic-cropped-special-detail-sweater-cardigan-kids/-/A-1000872797",
+      tags: "Cardigans, Girls’ Clothing, Kids’ Clothing, Sweaters, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Cardigans",
       },
     },
     {
-      url: "https://www.target.com/p/flash-superspeed-run-boy-s-charcoal-t-shirt/-/A-85353574",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/cardigan-for-girls-open-front-sweater-long-sleeve-loose-fit-sweater-jacket/-/A-1000555999",
+      tags: "Cardigans, Girls’ Clothing, Kids’ Clothing, Sweaters, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Cardigans",
       },
     },
     {
-      url: "https://www.target.com/p/the-flash-multiple-flash-boy-s-athletic-heather-t-shirt/-/A-87523212",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/girls-knee-length-cardigan-long-sleeve-open-front-sweater-with-side-pockets/-/A-93726782",
+      tags: "Cardigans, Girls’ Clothing, Kids’ Clothing, Sweaters, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Cardigans",
       },
     },
     {
-      url: "https://www.target.com/p/flash-logo-trap-graphics-youth-navy-t-shirt/-/A-86103791",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/girls-open-front-cardigan-sweater-kids-causal-long-sleeve-crewneck-knit-outerwear-coat/-/A-1004193777",
+      tags: "Cardigans, Girls’ Clothing, Kids’ Clothing, Sweaters, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Cardigans",
       },
     },
     {
-      url: "https://www.target.com/p/the-flash-logo-youth-boys-red-t-shirt/-/A-85730937",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/mykids-usa-baby-girl-solid-color-hollow-carved-design-cherry-patched-cardigan/-/A-1004644389",
+      tags: "Cardigans, Girls’ Clothing, Kids’ Clothing, Sweaters, Tops, Pullover Sweaters",
       filters: {
-        brand: "The Flash",
+        type: "Cardigans",
       },
     },
     {
-      url: "https://www.target.com/p/justice-league-movie-flash-logo-boy-s-red-t-shirt/-/A-85351795",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/boy-s-girl-s-pizza-tree-sweater-holiday-festive-sweater/-/A-1000136994",
+      tags: "Girls’ Clothing, Kids’ Clothing, Poncho Sweaters, Sweaters, Tops, Pullover Sweaters",
       filters: {
-        brand: "The Flash",
+        type: "Poncho Sweaters",
       },
     },
     {
-      url: "https://www.target.com/p/dco-flash-lightning-fast-youth-boys-red-t-shirt/-/A-85730462",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/girls-39-tank-sweater-cat-38-jack-8482/-/A-94131172",
+      tags: "Girls’ Clothing, Kids’ Clothing, Pullover Sweaters, Sweaters, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Pullover Sweaters",
       },
     },
     {
-      url: "https://www.target.com/p/the-flash-comic-book-flash-boy-s-red-t-shirt/-/A-85351983",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/girls-39-short-sleeve-pullover-sweater-cat-38-jack-8482/-/A-94472241",
+      tags: "Girls’ Clothing, Kids’ Clothing, Pullover Sweaters, Sweaters, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Pullover Sweaters",
       },
     },
     {
-      url: "https://www.target.com/p/the-flash-movie-speed-run-boy-s-white-t-shirt/-/A-89097287",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/girls-striped-tank-sweater-cat-jack/-/A-94131167",
+      tags: "Girls’ Clothing, Kids’ Clothing, Pullover Sweaters, Sweaters, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Pullover Sweaters",
       },
     },
     {
-      url: "https://www.target.com/p/flash-speed-force-youth-boy-s-athletic-heather-gray-t-shirt/-/A-87450627",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/girls-39-cable-stitch-varsity-sweater-vest-cat-38-jack-8482/-/A-94472261",
+      tags: "Girls’ Clothing, Kids’ Clothing, Pullover Sweaters, Sweaters, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Pullover Sweaters",
       },
     },
     {
-      url: "https://www.target.com/p/flash-running-pose-boy-s-athletic-heather-t-shirt/-/A-86103865",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/girls-high-neck-sweater-tank-top-art-class/-/A-92955214",
+      tags: "Girls’ Clothing, Kids’ Clothing, Pullover Sweaters, Sweaters, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Pullover Sweaters",
       },
     },
     {
-      url: "https://www.target.com/p/the-flash-movie-boxed-in-flash-logo-boy-s-royal-blue-t-shirt/-/A-89097223",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/girls-short-sleeve-knit-sweater-art-class/-/A-91466609",
+      tags: "Girls’ Clothing, Kids’ Clothing, Pullover Sweaters, Sweaters, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Pullover Sweaters",
       },
     },
     {
-      url: "https://www.target.com/p/flash-superspeed-run-boy-s-navy-blue-t-shirt/-/A-85352959",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/girls-off-the-shoulder-short-sleeve-pullover-sweater-art-class/-/A-92955217",
+      tags: "Girls’ Clothing, Kids’ Clothing, Pullover Sweaters, Sweaters, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Pullover Sweaters",
       },
     },
     {
-      url: "https://www.target.com/p/the-flash-movie-distressed-edges-character-group-poster-art-crew-neck-short-sleeve-boys-black-t-shirt/-/A-89097252",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/girls-striped-halter-sweater-tank-art-class/-/A-94203860",
+      tags: "Girls’ Clothing, Kids’ Clothing, Pullover Sweaters, Sweaters, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Pullover Sweaters",
       },
     },
     {
-      url: "https://www.target.com/p/the-flash-movie-distressed-edges-character-group-poster-art-with-logo-crew-neck-short-sleeve-boys-white-t-shirt/-/A-89097352",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/girls-cable-knit-pullover-sweater-art-class/-/A-94473845",
+      tags: "Girls’ Clothing, Kids’ Clothing, Pullover Sweaters, Sweaters, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Pullover Sweaters",
       },
     },
     {
-      url: "https://www.target.com/p/the-flash-movie-repeat-text-boy-s-black-t-shirt/-/A-89097232",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/xoxo-embroidered-chunky-knit-sweater-mia-belle-girls/-/A-1003893332",
+      tags: "Girls’ Clothing, Kids’ Clothing, Pullover Sweaters, Sweaters, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Pullover Sweaters",
       },
     },
     {
-      url: "https://www.target.com/p/flash-silhouette-art-with-speed-force-youth-boy-s-red-t-shirt/-/A-87450563",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/mykids-usa-baby-solid-color-long-sleeve-pullover-crewneck-hoodies/-/A-1004606784",
+      tags: "Girls’ Clothing, Kids’ Clothing, Pullover Sweaters, Sweaters, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Pullover Sweaters",
       },
     },
     {
-      url: "https://www.target.com/p/flash-superspeed-run-boy-s-red-t-shirt/-/A-85353112",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flash, Tops",
+      url: "https://www.target.com/p/mykids-usa-baby-girl-print-pattern-thin-style-autumn-new-style-shirt/-/A-1004679840",
+      tags: "Girls’ Clothing, Kids’ Clothing, Pullover Sweaters, Sweaters, Tops",
       filters: {
-        brand: "The Flash",
+        type: "Pullover Sweaters",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-flintstones-my-mom-rocks-t-shirt/-/A-89018892",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flintstones, Tops",
+      url: "https://www.target.com/p/mykids-usa-baby-girl-rabbit-print-pattern-crewneck-long-sleeve-comfy-shirt/-/A-1004682844",
+      tags: "Girls’ Clothing, Kids’ Clothing, Pullover Sweaters, Sweaters, Tops",
       filters: {
-        brand: "The Flintstones",
+        type: "Pullover Sweaters",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-flintstones-my-mom-rocks-performance-tee/-/A-91342220",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flintstones, Tops",
+      url: "https://www.target.com/p/mykids-usa-baby-boy-and-girl-solid-color-pullover-design-long-sleeved-tops/-/A-1004815285",
+      tags: "Girls’ Clothing, Kids’ Clothing, Pullover Sweaters, Sweaters, Tops",
       filters: {
-        brand: "The Flintstones",
+        type: "Pullover Sweaters",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-flintstones-barney-happy-st-paddy-s-day-t-shirt/-/A-90778122",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flintstones, Tops",
+      url: "https://www.target.com/p/clearlove-girls-christmas-turtleneck-sweaters-kids-long-sleeve-chunky-knit-pullover-winter-xmas-warm-cute-funny-jumper-tops/-/A-1005185873",
+      tags: "Girls’ Clothing, Kids’ Clothing, Pullover Sweaters, Sweaters, Tops",
       filters: {
-        brand: "The Flintstones",
+        type: "Pullover Sweaters",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-flintstones-fred-pinch-proof-t-shirt/-/A-90778171",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Flintstones, Tops",
+      url: "https://www.target.com/p/mykids-usa-baby-girl-floral-embroidered-pattern-single-breasted-design-knit-cardigan/-/A-1004606856",
+      tags: "Girls’ Clothing, Kids’ Clothing, Pullover Sweaters, Sweaters, Tops",
       filters: {
-        brand: "The Flintstones",
+        type: "Pullover Sweaters",
       },
     },
     {
-      url: "https://www.target.com/p/lost-pet-shark-youth-boys-red-graphic-tee/-/A-85354381",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Good Dinosaur, Tops",
+      url: "https://www.target.com/p/girl-fringed-sweater-mayoral/-/A-94253999",
+      tags: "Girls’ Clothing, Kids’ Clothing, Pullover Sweaters, Sweaters, Tops",
       filters: {
-        brand: "The Good Dinosaur",
+        type: "Pullover Sweaters",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-goonies-skull-map-logo-performance-tee/-/A-87698577",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Goonies, Tops",
+      url: "https://www.target.com/p/girl-s-kenzie-cardigan-sweater-vignette/-/A-1001251550",
+      tags: "Girls’ Clothing, Kids’ Clothing, Pullover Sweaters, Sweaters, Tops",
       filters: {
-        brand: "The Goonies",
+        type: "Pullover Sweaters",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-goonies-skull-map-logo-t-shirt/-/A-86926610",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Goonies, Tops",
+      url: "https://www.target.com/p/mykids-usa-baby-girl-cartoon-print-pattern-loose-pullover-round-neck-hoodies/-/A-1004684592",
+      tags: "Girls’ Clothing, Kids’ Clothing, Pullover Sweaters, Sweaters, Tops",
       filters: {
-        brand: "The Goonies",
+        type: "Pullover Sweaters",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-goonies-artistic-chunk-performance-tee/-/A-1001937561",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Goonies, Tops",
+      url: "https://www.target.com/p/mykids-usa-baby-girl-flower-print-pattern-solid-color-beautiful-hoodies/-/A-1004677490",
+      tags: "Girls’ Clothing, Kids’ Clothing, Pullover Sweaters, Sweaters, Tops",
       filters: {
-        brand: "The Goonies",
+        type: "Pullover Sweaters",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-grim-adventures-of-billy-mandy-pinch-me-i-dare-you-t-shirt/-/A-90778791",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Grim Adventures of Billy&Mandy, Tops",
+      url: "https://www.target.com/p/gender-neutral-unisex-chunky-sweater-kids-oat-children/-/A-1003070163",
+      tags: "Girls’ Clothing, Kids’ Clothing, Pullover Sweaters, Sweaters, Tops",
       filters: {
-        brand: "The Grim Adventures of Billy&Mandy",
+        type: "Pullover Sweaters",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-grim-adventures-of-billy-mandy-good-to-be-green-t-shirt/-/A-90778956",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Grim Adventures of Billy&Mandy, Tops",
+      url: "https://www.target.com/p/deux-par-deux-girl-organic-cotton-sweater-with-fringe-multicolor-stripes/-/A-1003013457",
+      tags: "Girls’ Clothing, Kids’ Clothing, Pullover Sweaters, Sweaters, Tops",
       filters: {
-        brand: "The Grim Adventures of Billy&Mandy",
+        type: "Pullover Sweaters",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-dr-seuss-airbrush-grinch-t-shirt/-/A-90385826",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Grinch, Tops",
+      url: "https://www.target.com/p/girls-christmas-turtleneck-sweaters-kids-long-sleeve-chunky-knit-pullover-tops-for-winter/-/A-1003263061",
+      tags: "Girls’ Clothing, Kids’ Clothing, Pullover Sweaters, Sweaters, Tops",
       filters: {
-        brand: "The Grinch",
+        type: "Pullover Sweaters",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-dr-seuss-christmas-the-grinch-you-re-a-mean-one-portrait-t-shirt/-/A-90199424",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Grinch, Tops",
+      url: "https://www.target.com/p/family-christmas-sweater-crew-neck-reindeer-snowflakes-knitted-pullover-for-women-men-kids/-/A-1000174309",
+      tags: "Girls’ Clothing, Kids’ Clothing, Pullover Sweaters, Sweaters, Tops",
       filters: {
-        brand: "The Grinch",
+        type: "Pullover Sweaters",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-dr-seuss-the-grinch-christmas-be-the-person-t-shirt/-/A-90199900",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Grinch, Tops",
+      url: "https://www.target.com/p/hope-henry-girls-organic-short-sleeve-ruffle-edge-sweater-knit-top-kids/-/A-1001299001",
+      tags: "Girls’ Clothing, Kids’ Clothing, Pullover Sweaters, Sweaters, Tops",
       filters: {
-        brand: "The Grinch",
+        type: "Pullover Sweaters",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-dr-seuss-christmas-don-t-be-a-grinch-t-shirt/-/A-90199840",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Grinch, Tops",
+      url: "https://www.target.com/p/lands-end-kids-meet-and-greet-bow-knit-sweater/-/A-1004848525",
+      tags: "Girls’ Clothing, Kids’ Clothing, Pullover Sweaters, Sweaters, Tops",
       filters: {
-        brand: "The Grinch",
+        type: "Pullover Sweaters",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-dr-seuss-christmas-the-grinch-is-it-too-late-t-shirt/-/A-90199174",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Grinch, Tops",
+      url: "https://www.target.com/p/girls-christmas-pullover-sweater-holiday-knitwear-crew-neck-long-sleeve-sweater-with-festive-pattern/-/A-1001378490",
+      tags: "Girls’ Clothing, Kids’ Clothing, Pullover Sweaters, Sweaters, Tops",
       filters: {
-        brand: "The Grinch",
+        type: "Pullover Sweaters",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-dr-seuss-grinch-birthday-kid-t-shirt/-/A-92649404",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Grinch, Tops",
+      url: "https://www.target.com/p/andy-evan-kids-girls-cable-knit-v-neck-sweater/-/A-93590673",
+      tags: "Girls’ Clothing, Kids’ Clothing, Pullover Sweaters, Sweaters, Tops",
       filters: {
-        brand: "The Grinch",
+        type: "Pullover Sweaters",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-dr-seuss-merry-grinchmas-t-shirt/-/A-90199374",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Grinch, Tops",
+      url: "https://www.target.com/p/girls-short-sleeve-summer-polo-shirt-v-neck-button-down-knit-school-crop-tops/-/A-1003146001",
+      tags: "Girls’ Clothing, Kids’ Clothing, Pullover Sweaters, Sweaters, Tops",
       filters: {
-        brand: "The Grinch",
+        type: "Pullover Sweaters",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-dr-seuss-christmas-the-grinch-you-re-a-mean-one-t-shirt/-/A-90199370",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Grinch, Tops",
+      url: "https://www.target.com/p/hope-henry-girls-organic-long-sleeve-mock-neck-sweater-with-gold-buttons-kids/-/A-92214557",
+      tags: "Girls’ Clothing, Kids’ Clothing, Pullover Sweaters, Sweaters, Tops",
       filters: {
-        brand: "The Grinch",
+        type: "Pullover Sweaters",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-dr-seuss-framed-grinch-painting-t-shirt/-/A-90385068",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Grinch, Tops",
+      url: "https://www.target.com/p/hope-henry-girls-organic-puff-sleeve-ruffle-edge-sweater-kids/-/A-92936798",
+      tags: "Girls’ Clothing, Kids’ Clothing, Pullover Sweaters, Sweaters, Tops",
       filters: {
-        brand: "The Grinch",
+        type: "Pullover Sweaters",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-dr-seuss-grinch-eyes-t-shirt/-/A-90385335",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Grinch, Tops",
+      url: "https://www.target.com/p/hope-henry-girls-bow-sweater-tank-kids/-/A-86524542",
+      tags: "Girls’ Clothing, Kids’ Clothing, Pullover Sweaters, Sweaters, Tops",
       filters: {
-        brand: "The Grinch",
+        type: "Pullover Sweaters",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-dr-seuss-grinch-birthday-boy-t-shirt/-/A-92649652",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Grinch, Tops",
+      url: "https://www.target.com/p/hope-henry-girls-organic-french-collared-keyhole-long-sleeve-sweater-kids/-/A-92936814",
+      tags: "Girls’ Clothing, Kids’ Clothing, Pullover Sweaters, Sweaters, Tops",
       filters: {
-        brand: "The Grinch",
+        type: "Pullover Sweaters",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-dr-seuss-distressed-never-not-grinchy-t-shirt/-/A-90385310",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Grinch, Tops",
+      url: "https://www.target.com/p/hope-henry-girls-long-balloon-sleeve-pointelle-pullover-sweater-kids-xx-small/-/A-89359466",
+      tags: "Girls’ Clothing, Kids’ Clothing, Pullover Sweaters, Sweaters, Tops",
       filters: {
-        brand: "The Grinch",
+        type: "Pullover Sweaters",
       },
     },
     {
-      url: "https://www.target.com/p/boys-the-incredibles-mr-incredible-character-short-sleeve-graphic-t-shirt/-/A-92722816",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Incredibles, Tops",
+      url: "https://www.target.com/p/girls-christmas-knit-pullover-sweaters-turtleneck-kids-long-sleeve-chunky-winter-warm-cute-funny-tops/-/A-1003265692",
+      tags: "Girls’ Clothing, Kids’ Clothing, Pullover Sweaters, Sweaters, Tops",
       filters: {
-        brand: "The Incredibles",
+        type: "Pullover Sweaters",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-incredibles-2-dash-incredible-son-circle-t-shirt/-/A-79592686",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Incredibles, Tops",
+      url: "https://www.target.com/p/christmas-sweater-long-sleeve-crew-neck-knitted-pullover-reindeer-for-kids/-/A-1002830649",
+      tags: "Girls’ Clothing, Kids’ Clothing, Pullover Sweaters, Sweaters, Tops",
       filters: {
-        brand: "The Incredibles",
+        type: "Pullover Sweaters",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-incredibles-2-jack-jack-shake-t-shirt/-/A-1001411803",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Incredibles, Tops",
+      url: "https://www.target.com/p/mykids-usa-baby-solid-color-striped-hem-design-o-neck-knit-sweater/-/A-1004603814",
+      tags: "Girls’ Clothing, Kids’ Clothing, Pullover Sweaters, Sweaters, Tops",
       filters: {
-        brand: "The Incredibles",
+        type: "Pullover Sweaters",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-incredibles-classic-symbol-t-shirt/-/A-94119023",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Incredibles, Tops",
+      url: "https://www.target.com/p/mykids-usa-baby-girl-rabbit-graphic-long-sleeve-cotton-hoodies/-/A-1004336379",
+      tags: "Girls’ Clothing, Kids’ Clothing, Pullover Sweaters, Sweaters, Tops",
       filters: {
-        brand: "The Incredibles",
+        type: "Pullover Sweaters",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-incredibles-2-ugly-christmas-family-t-shirt/-/A-84868453",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Incredibles, Tops",
+      url: "https://www.target.com/p/mykids-usa-baby-solid-color-animal-ear-patch-design-autumn-korean-style-hoodie/-/A-1004602485",
+      tags: "Girls’ Clothing, Kids’ Clothing, Pullover Sweaters, Sweaters, Tops",
       filters: {
-        brand: "The Incredibles",
+        type: "Pullover Sweaters",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-incredibles-classic-logo-t-shirt/-/A-79592755",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Incredibles, Tops",
+      url: "https://www.target.com/p/mykids-usa-baby-berber-fleece-design-button-front-warm-coat-vest/-/A-1004801993",
+      tags: "Girls’ Clothing, Kids’ Clothing, Sweater Tank Tops, Sweaters, Tops",
       filters: {
-        brand: "The Incredibles",
+        type: "Sweater Tank Tops",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-incredibles-2-vintage-jack-jack-emblem-t-shirt/-/A-85153972",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Incredibles, Tops",
+      url: "https://www.target.com/p/lands-end-school-uniform-kids-cotton-modal-fine-gauge-sweater-vest/-/A-89281454",
+      tags: "Girls’ Clothing, Kids’ Clothing, Sweater Vests, Sweaters, Tops",
       filters: {
-        brand: "The Incredibles",
+        type: "Sweater Vests",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-incredibles-edna-mode-never-look-back-t-shirt/-/A-87267455",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Incredibles, Tops",
+      url: "https://www.target.com/p/lands-end-school-uniform-kids-cotton-modal-sweater-vest/-/A-89281470",
+      tags: "Girls’ Clothing, Kids’ Clothing, Sweater Vests, Sweaters, Tops",
       filters: {
-        brand: "The Incredibles",
+        type: "Sweater Vests",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-jetsons-george-feelin-lucky-t-shirt/-/A-90780173",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Jetsons, Tops",
+      url: "https://www.target.com/p/andy-evan-kids-girls-cable-knit-sweater-vest/-/A-93590664",
+      tags: "Girls’ Clothing, Kids’ Clothing, Sweater Vests, Sweaters, Tops",
       filters: {
-        brand: "The Jetsons",
+        type: "Sweater Vests",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-jetsons-george-no-luck-quote-t-shirt/-/A-90778152",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Jetsons, Tops",
+      url: "https://www.target.com/p/lands-end-school-uniform-kids-cotton-modal-v-neck-sweater/-/A-86738947",
+      tags: "Girls’ Clothing, Kids’ Clothing, Sweater Vests, Sweaters, Tops",
       filters: {
-        brand: "The Jetsons",
+        type: "Sweater Vests",
       },
     },
     {
-      url: "https://www.target.com/p/the-juniper-shop-golf-par-tee-varsity-youth-short-sleeve-tee/-/A-1002444042",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
+      url: "https://www.target.com/p/girls-39-strappy-crop-tank-160-top-all-in-motion-8482/-/A-93297429",
+      tags: "Athletic Tank Tops, Girls’ Clothing, Kids’ Clothing, Tanks & Camis, Tops",
       filters: {
-        brand: "The Juniper Shop",
+        type: "Athletic Tank Tops",
       },
     },
     {
-      url: "https://www.target.com/p/the-juniper-shop-talk-football-to-me-ball-youth-long-sleeve-tee/-/A-1001834925",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
+      url: "https://www.target.com/p/girls-39-racerback-160-tank-top-all-in-motion-8482/-/A-94334698",
+      tags: "Athletic Tank Tops, Girls’ Clothing, Kids’ Clothing, Tanks & Camis, Tops",
       filters: {
-        brand: "The Juniper Shop",
+        type: "Athletic Tank Tops",
       },
     },
     {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-wink-rainbow-swirl-youth-tank-top/-/A-1003376575",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
+      url: "https://www.target.com/p/girls-everyday-soft-tank-top-all-in-motion/-/A-94471782",
+      tags: "Athletic Tank Tops, Girls’ Clothing, Kids’ Clothing, Tanks & Camis, Tops",
       filters: {
-        brand: "The Juniper Shop",
+        type: "Athletic Tank Tops",
       },
     },
     {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-be-you-rainbow-circle-youth-tank-top/-/A-1003377640",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
+      url: "https://www.target.com/p/girls-39-everyday-soft-bra-all-in-motion/-/A-91338686",
+      tags: "Athletic Tank Tops, Girls’ Clothing, Kids’ Clothing, Tanks & Camis, Tops",
       filters: {
-        brand: "The Juniper Shop",
+        type: "Athletic Tank Tops",
       },
     },
     {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-your-best-is-enough-floral-youth-tank-top/-/A-1003378014",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
+      url: "https://www.target.com/p/girls-39-seamless-crop-tank-top-all-in-motion-8482/-/A-93070775",
+      tags: "Athletic Tank Tops, Girls’ Clothing, Kids’ Clothing, Tanks & Camis, Tops",
       filters: {
-        brand: "The Juniper Shop",
+        type: "Athletic Tank Tops",
       },
     },
     {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-just-happy-to-be-here-youth-tank-top/-/A-1003377915",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
+      url: "https://www.target.com/p/girls-39-muscle-tank-top-all-in-motion-8482/-/A-94369613",
+      tags: "Athletic Tank Tops, Girls’ Clothing, Kids’ Clothing, Tanks & Camis, Tops",
       filters: {
-        brand: "The Juniper Shop",
+        type: "Athletic Tank Tops",
       },
     },
     {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-cool-summer-ice-cream-pink-youth-tank-top/-/A-1003376387",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
+      url: "https://www.target.com/p/girls-everyday-soft-crop-tank-top-all-in-motion/-/A-93297151",
+      tags: "Athletic Tank Tops, Girls’ Clothing, Kids’ Clothing, Tanks & Camis, Tops",
       filters: {
-        brand: "The Juniper Shop",
+        type: "Athletic Tank Tops",
       },
     },
     {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-be-kind-to-our-planet-rainbow-youth-tank-top/-/A-1003377819",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
+      url: "https://www.target.com/p/destira-sport-tank/-/A-92088857",
+      tags: "Athletic Tank Tops, Girls’ Clothing, Kids’ Clothing, Tanks & Camis, Tops",
       filters: {
-        brand: "The Juniper Shop",
+        type: "Athletic Tank Tops",
       },
     },
     {
-      url: "https://www.target.com/p/the-juniper-shop-red-white-and-cute-popsicle-youth-tank-top/-/A-1003379727",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
+      url: "https://www.target.com/p/capezio-classics-wrap-top-girls/-/A-83927906",
+      tags: "Athletic Wrap Shirts, Girls’ Clothing, Kids’ Clothing, Tanks & Camis, Tops",
       filters: {
-        brand: "The Juniper Shop",
+        type: "Athletic Wrap Shirts",
       },
     },
     {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-self-love-club-wave-youth-tank-top/-/A-1003376677",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
+      url: "https://www.target.com/p/lands-end-kids-pattern-smocked-tank-top/-/A-87826485",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Tanks & Camis, Tops, Tank Tops",
       filters: {
-        brand: "The Juniper Shop",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-let-s-go-dump-truck-youth-tank-top/-/A-1003376150",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
+      url: "https://www.target.com/p/girl-floral-top-saltwater-luxe/-/A-1003070668",
+      tags: "Blouses, Girls’ Clothing, Kids’ Clothing, Tanks & Camis, Tops",
       filters: {
-        brand: "The Juniper Shop",
+        type: "Blouses",
       },
     },
     {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-sunny-honey-youth-tank-top/-/A-1003378068",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
+      url: "https://www.target.com/p/fruit-of-the-loom-girls-5pk-cami-colors-may-vary/-/A-87446270",
+      tags: "Camisoles, Girls’ Clothing, Kids’ Clothing, Tanks & Camis, Tops",
       filters: {
-        brand: "The Juniper Shop",
+        type: "Camisoles",
       },
     },
     {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-cute-little-sunshine-youth-tank-top/-/A-1003376201",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
+      url: "https://www.target.com/p/hanes-girls-5pk-camisole-white-gray-pink/-/A-50302682",
+      tags: "Camisoles, Girls’ Clothing, Kids’ Clothing, Tanks & Camis, Tops",
       filters: {
-        brand: "The Juniper Shop",
+        type: "Camisoles",
       },
     },
     {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-bee-the-change-youth-tank-top/-/A-1003378377",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
+      url: "https://www.target.com/p/girls-39-cami-top-cat-38-jack-8482/-/A-93300728",
+      tags: "Camisoles, Girls’ Clothing, Kids’ Clothing, Tanks & Camis, Tops",
       filters: {
-        brand: "The Juniper Shop",
+        type: "Camisoles",
       },
     },
     {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-arched-varsity-youth-tank-top/-/A-1003378625",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
+      url: "https://www.target.com/p/girls-graphic-cami-art-class/-/A-94600922",
+      tags: "Camisoles, Girls’ Clothing, Kids’ Clothing, Tanks & Camis, Tops",
       filters: {
-        brand: "The Juniper Shop",
+        type: "Camisoles",
       },
     },
     {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-checkered-lightning-distressed-youth-long-sleeve-tee/-/A-1003377491",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
+      url: "https://www.target.com/p/girls-babydoll-woven-cami-art-class/-/A-94600945",
+      tags: "Camisoles, Girls’ Clothing, Kids’ Clothing, Tanks & Camis, Tops",
       filters: {
-        brand: "The Juniper Shop",
+        type: "Camisoles",
       },
     },
     {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-be-you-groovy-youth-long-sleeve-tee/-/A-1003378530",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
+      url: "https://www.target.com/p/girls-pointelle-strappy-cami-art-class/-/A-94775222",
+      tags: "Camisoles, Girls’ Clothing, Kids’ Clothing, Tanks & Camis, Tops",
       filters: {
-        brand: "The Juniper Shop",
+        type: "Camisoles",
       },
     },
     {
-      url: "https://www.target.com/p/the-juniper-shop-football-game-day-stacked-wavy-youth-short-sleeve-tee/-/A-90203445",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
+      url: "https://www.target.com/p/lucky-me-emma-girls-camisoles-multiple-colors-and-sizes-3-pack/-/A-1002425452",
+      tags: "Camisoles, Girls’ Clothing, Kids’ Clothing, Tanks & Camis, Tops, Tank Tops",
       filters: {
-        brand: "The Juniper Shop",
+        type: "Camisoles",
       },
     },
     {
-      url: "https://www.target.com/p/the-juniper-shop-cousin-crew-elf-youth-short-sleeve-tee/-/A-90285372",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
+      url: "https://www.target.com/p/city-threads-girls-sparkly-lined-camisole/-/A-1004493859",
+      tags: "Camisoles, Girls’ Clothing, Kids’ Clothing, Tanks & Camis, Tops",
       filters: {
-        brand: "The Juniper Shop",
+        type: "Camisoles",
       },
     },
     {
-      url: "https://www.target.com/p/the-juniper-shop-rudolph-reindeer-names-youth-short-sleeve-tee/-/A-90145234",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
+      url: "https://www.target.com/p/memoi-3-pack-cotton-blend-lightweight-girl-s-camisoles/-/A-1005220791",
+      tags: "Camisoles, Girls’ Clothing, Kids’ Clothing, Tanks & Camis, Tops",
       filters: {
-        brand: "The Juniper Shop",
+        type: "Camisoles",
       },
     },
     {
-      url: "https://www.target.com/p/the-juniper-shop-distressed-smiley-face-youth-short-sleeve-tee/-/A-90504730",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
+      url: "https://www.target.com/p/deux-par-deux-girl-organic-cotton-tunic-with-frill-and-print-light-orange-and-ice-cream-cone/-/A-1004049849",
+      tags: "Girls’ Clothing, Kids’ Clothing, Peasant Tops, Tanks & Camis, Tops",
       filters: {
-        brand: "The Juniper Shop",
+        type: "Peasant Tops",
       },
     },
     {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-embrace-joy-youth-long-sleeve-tee/-/A-1003376628",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
+      url: "https://www.target.com/p/disney-girl-s-finding-dory-keep-on-swimming-kids-sleeveless-tank-top/-/A-93074158",
+      tags: "Girls’ Clothing, Kids’ Clothing, T-shirts, Tanks & Camis, Tops, Tank Tops",
       filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-gnome-lights-youth-short-sleeve-tee/-/A-90096238",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-never-grow-up-youth-long-sleeve-tee/-/A-1003377388",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-santa-s-little-helper-youth-short-sleeve-tee/-/A-90202798",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-believe-in-the-magic-santa-youth-short-sleeve-tee/-/A-90096230",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-oh-snap-youth-short-sleeve-tee/-/A-90145209",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-football-collage-youth-short-sleeve-tee/-/A-90203468",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-my-deer-youth-short-sleeve-tee/-/A-90293154",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-little-elf-youth-short-sleeve-tee/-/A-90229318",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-reindeer-names-antlers-youth-short-sleeve-tee/-/A-90145267",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-believe-stacked-car-youth-short-sleeve-tee/-/A-90096203",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-giant-snowflake-youth-short-sleeve-tee/-/A-90202793",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-the-world-needs-more-love-youth-long-sleeve-tee/-/A-1003377967",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-let-s-go-dump-truck-youth-long-sleeve-tee/-/A-1003376105",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-you-re-dino-mite-youth-long-sleeve-tee/-/A-1003375839",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-have-the-day-you-deserve-groovy-youth-long-sleeve-tee/-/A-1003377020",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-be-kind-to-our-planet-rainbow-youth-long-sleeve-tee/-/A-1003377786",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-melting-outline-youth-long-sleeve-tee/-/A-1003377526",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-pool-floats-youth-long-sleeve-tee/-/A-1003375938",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-march-vibes-basketball-youth-short-sleeve-tee/-/A-1002399644",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-north-pole-magic-youth-short-sleeve-tee/-/A-90202714",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-i-really-tried-car-youth-short-sleeve-tee/-/A-90137816",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-reindeer-boy-youth-short-sleeve-tee/-/A-90319747",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-having-a-meltdown-snowman-youth-short-sleeve-tee/-/A-90202776",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-jolly-boy-star-youth-short-sleeve-tee/-/A-90293157",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-merry-and-bright-stacked-youth-short-sleeve-tee/-/A-90137855",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-gobble-sunglasses-youth-short-sleeve-tee/-/A-90145155",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-i-m-snow-cute-youth-short-sleeve-tee/-/A-90137801",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-let-s-do-the-yam-thing-youth-short-sleeve-tee/-/A-90047180",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-santa-s-cutest-helper-youth-short-sleeve-tee/-/A-90203509",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-naughty-and-i-know-it-lights-youth-short-sleeve-tee/-/A-90145202",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-i-was-framed-lights-youth-short-sleeve-tee/-/A-90202701",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-let-s-get-tacos-varsity-youth-short-sleeve-tee/-/A-1003379581",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-retro-easter-collage-youth-short-sleeve-tee/-/A-1003378833",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-birthday-dude-bold-youth-long-sleeve-tee/-/A-1003375734",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-bee-the-change-youth-long-sleeve-tee/-/A-1003378461",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-self-love-club-wave-youth-long-sleeve-tee/-/A-1003376812",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-wish-you-were-here-youth-long-sleeve-tee/-/A-1003376785",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-watercolor-flag-coquette-youth-tank-top/-/A-1003379900",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-patriotic-fish-youth-tank-top/-/A-1003380076",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-bruh-paint-drip-distressed-youth-tank-top/-/A-1003378320",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-checkered-lightning-distressed-youth-tank-top/-/A-1003377419",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
+        type: "T-shirts",
       },
     },
     {
       url: "https://www.target.com/p/the-juniper-shop-patriotic-eagle-sunglasses-youth-tank-top/-/A-1003379811",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
+      tags: "Girls’ Clothing, Kids’ Clothing, T-shirts, Tanks & Camis, Tops, Tank Tops",
       filters: {
-        brand: "The Juniper Shop",
+        type: "T-shirts",
       },
     },
     {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-stacked-smiles-youth-tank-top/-/A-1003377593",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
+      url: "https://www.target.com/p/lands-end-kids-short-sleeve-gathered-waist-tunic-top/-/A-1004609088",
+      tags: "Girls’ Clothing, Kids’ Clothing, T-shirts, Tanks & Camis, Tops",
       filters: {
-        brand: "The Juniper Shop",
+        type: "T-shirts",
       },
     },
     {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-don-t-burst-my-bubble-youth-tank-top/-/A-1003378502",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
+      url: "https://www.target.com/p/rabble-gender-neutral-kids-tshirt-with-emojis-expressway-dabblz-bundle/-/A-1002187841",
+      tags: "Girls’ Clothing, Kids’ Clothing, T-shirts, Tanks & Camis, Tops",
       filters: {
-        brand: "The Juniper Shop",
+        type: "T-shirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-smileyworld-born-to-game-forced-to-school-youth-tank-top/-/A-1004645761",
+      tags: "Girls’ Clothing, Kids’ Clothing, T-shirts, Tanks & Camis, Tops",
+      filters: {
+        type: "T-shirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/disney-princess-ariel-cinderella-toddler-girl-character-print-with-ruffled-sleeve-top-t-shirts-tee/-/A-1005106610",
+      tags: "Girls’ Clothing, Kids’ Clothing, T-shirts, Tanks & Camis, Tops",
+      filters: {
+        type: "T-shirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/disney-princess-ariel-cinderella-toddler-girl-character-print-with-ruffled-sleeve-top-t-shirts-tee/-/A-1005106547",
+      tags: "Girls’ Clothing, Kids’ Clothing, T-shirts, Tanks & Camis, Tops",
+      filters: {
+        type: "T-shirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/disney-princess-ariel-cinderella-toddler-girl-character-print-with-ruffled-sleeve-top-t-shirts-tee/-/A-1005155985",
+      tags: "Girls’ Clothing, Kids’ Clothing, T-shirts, Tanks & Camis, Tops",
+      filters: {
+        type: "T-shirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-printed-tank-top-cat-38-jack-8482/-/A-90117845",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
+      filters: {
+        type: "Tank Tops",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-ribbed-tank-top-cat-38-jack-8482/-/A-93300526",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
+      filters: {
+        type: "Tank Tops",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-pointelle-fitted-lace-trim-tank-top-cat-jack/-/A-94781846",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
+      filters: {
+        type: "Tank Tops",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-fitted-ribbed-tank-top-cat-jack/-/A-94576219",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
+      filters: {
+        type: "Tank Tops",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-pointelle-fitted-lace-trim-tank-top-cat-38-jack-8482/-/A-94486581",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
+      filters: {
+        type: "Tank Tops",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-ice-cream-tank-top-cat-38-jack-8482-light-pink/-/A-93574806",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
+      filters: {
+        type: "Tank Tops",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-flip-sequin-tank-top-cat-jack/-/A-94231174",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
+      filters: {
+        type: "Tank Tops",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-ribbed-tank-top-cat-jack/-/A-94688548",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
+      filters: {
+        type: "Tank Tops",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-ribbed-sunglasses-tank-top-cat-jack/-/A-94688544",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
+      filters: {
+        type: "Tank Tops",
+      },
+    },
+    {
+      url: "https://www.target.com/p/fruit-of-the-loom-toddler-girl-s-eversoft-layering-tanks-pack-of-6/-/A-92045558",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
+      filters: {
+        type: "Tank Tops",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-high-neck-ribbed-tank-top-art-class/-/A-94268740",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
+      filters: {
+        type: "Tank Tops",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-disney-stitch-smocked-swing-tank-top-with-tie-straps-blue/-/A-94442301",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
+      filters: {
+        type: "Tank Tops",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-american-flag-striped-graphic-tank-top-art-class-red-off-white/-/A-94340268",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
+      filters: {
+        type: "Tank Tops",
+      },
+    },
+    {
+      url: "https://www.target.com/p/studio-3-little-big-girls-5-pack-everyday-wear-rib-knit-tank-tops/-/A-92545852",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
+      filters: {
+        type: "Tank Tops",
+      },
+    },
+    {
+      url: "https://www.target.com/p/primary-kids-staycool-tank/-/A-1002103597",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
+      filters: {
+        type: "Tank Tops",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-kids-active-crop-tank/-/A-1002041416",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
+      filters: {
+        type: "Tank Tops",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girl-s-tank-top-dance-a-latte-danz-n-motion-23300-child-sizes/-/A-1003688337",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
+      filters: {
+        type: "Tank Tops",
+      },
+    },
+    {
+      url: "https://www.target.com/p/city-threads-usa-made-girls-soft-cotton-camisole/-/A-92159243",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
+      filters: {
+        type: "Tank Tops",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-smileyworld-bruh-paint-drip-distressed-youth-tank-top/-/A-1003378320",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
+      filters: {
+        type: "Tank Tops",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-kids-tie-back-active-tank/-/A-87826960",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
+      filters: {
+        type: "Tank Tops",
       },
     },
     {
       url: "https://www.target.com/p/the-juniper-shop-smileyworld-party-in-the-usa-youth-tank-top/-/A-1003377285",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
       filters: {
-        brand: "The Juniper Shop",
+        type: "Tank Tops",
       },
     },
     {
-      url: "https://www.target.com/p/the-juniper-shop-chill-the-4th-out-youth-tank-top/-/A-1003379739",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-smileyworld-american-babe-youth-tank-top/-/A-1003377077",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
       filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-patriotic-stars-stacked-youth-tank-top/-/A-1003377176",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-the-land-of-the-free-coquette-youth-tank-top/-/A-1003379911",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-keeping-it-reel-fish-youth-tank-top/-/A-1003376075",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-pickleball-love-youth-tank-top/-/A-1003379120",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-handsome-dude-sunglasses-youth-tank-top/-/A-1003376283",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-be-kind-to-our-planet-retro-youth-tank-top/-/A-1003377759",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-cool-summer-ice-cream-blue-youth-tank-top/-/A-1003376366",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-stay-groovy-youth-tank-top/-/A-1003376583",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-main-squeeze-lemon-youth-tank-top/-/A-1003376746",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-melting-outline-youth-tank-top/-/A-1003377580",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-have-the-day-you-deserve-circle-youth-tank-top/-/A-1003376962",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
-      filters: {
-        brand: "The Juniper Shop",
+        type: "Tank Tops",
       },
     },
     {
       url: "https://www.target.com/p/the-juniper-shop-smileyworld-checkered-floral-smile-youth-tank-top/-/A-1003376842",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
       filters: {
-        brand: "The Juniper Shop",
+        type: "Tank Tops",
       },
     },
     {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-checkered-lightning-floral-youth-tank-top/-/A-1003377706",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-pickleball-queen-youth-tank/-/A-1002604242",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
       filters: {
-        brand: "The Juniper Shop",
+        type: "Tank Tops",
       },
     },
     {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-summer-wave-stacked-youth-tank-top/-/A-1003376998",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-pickleball-love-youth-tank/-/A-1002604225",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
       filters: {
-        brand: "The Juniper Shop",
+        type: "Tank Tops",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-smileyworld-just-happy-to-be-here-youth-tank-top/-/A-1003377915",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
+      filters: {
+        type: "Tank Tops",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-coquette-watermelon-bow-summer-chart-youth-tank-top/-/A-1004646675",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
+      filters: {
+        type: "Tank Tops",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-boho-sunshine-state-of-mind-flowers-youth-tank-top/-/A-1004646647",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
+      filters: {
+        type: "Tank Tops",
       },
     },
     {
       url: "https://www.target.com/p/the-juniper-shop-smileyworld-need-space-youth-tank-top/-/A-1003376850",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
       filters: {
-        brand: "The Juniper Shop",
+        type: "Tank Tops",
       },
     },
     {
-      url: "https://www.target.com/p/the-juniper-shop-red-white-and-cool-popsicle-youth-tank-top/-/A-1003379645",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-smileyworld-melting-outline-youth-tank-top/-/A-1003377580",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
       filters: {
-        brand: "The Juniper Shop",
+        type: "Tank Tops",
       },
     },
     {
-      url: "https://www.target.com/p/the-juniper-shop-america-circle-stars-youth-tank-top/-/A-1003379843",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-america-wave-stacked-coquette-youth-tank-top/-/A-1004524856",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
       filters: {
-        brand: "The Juniper Shop",
+        type: "Tank Tops",
       },
     },
     {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-patriotic-star-wink-youth-tank-top/-/A-1003377181",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Juniper Shop, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-smileyworld-cool-summer-ice-cream-blue-youth-tank-top/-/A-1003376366",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
       filters: {
-        brand: "The Juniper Shop",
+        type: "Tank Tops",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-simba-cute-and-courageous-t-shirt/-/A-85753461",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-pickleball-champs-youth-tank/-/A-1002604269",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Tank Tops",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-hakuna-matata-sunset-circle-performance-tee/-/A-85646237",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-smileyworld-bee-the-change-youth-tank-top/-/A-1003378377",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Tank Tops",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-timon-distressed-chill-performance-tee/-/A-85646376",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-smileyworld-be-kind-to-our-planet-retro-youth-tank-top/-/A-1003377759",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Tank Tops",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-hakuna-matata-silhouette-performance-tee/-/A-85646247",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/sol-angeles-kids-sun-surf-tank/-/A-1004108637",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Tank Tops",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-painted-simba-performance-tee/-/A-85646262",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-smileyworld-it-s-a-good-day-to-have-a-good-day-circle-youth-tank-top/-/A-1003377727",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Tank Tops",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-geometric-mufasa-portrait-performance-tee/-/A-85753940",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-smileyworld-have-the-day-you-deserve-circle-youth-tank-top/-/A-1003376962",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Tank Tops",
       },
     },
     {
-      url: "https://www.target.com/p/boys-disney-nala-simba-timon-pumbaa-faces-with-flowers-short-sleeve-graphic-t-shirt/-/A-92864791",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-smileyworld-arched-varsity-youth-tank-top/-/A-1003378625",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Tank Tops",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-hakuna-matata-friends-performance-tee/-/A-85753189",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-little-miss-firecracker-checkered-youth-tank-top/-/A-1003379834",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Tank Tops",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-simba-hakuna-matata-heart-performance-tee/-/A-85554268",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-america-cherries-stripe-youth-tank-top/-/A-1004524765",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Tank Tops",
       },
     },
     {
-      url: "https://www.target.com/p/boys-disney-simba-character-short-sleeve-graphic-t-shirt/-/A-92864835",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/rufflebutts-toddler-girls-active-ruffle-tank-top/-/A-1001544517",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Tank Tops",
       },
     },
     {
-      url: "https://www.target.com/p/boys-disney-retro-simba-circle-short-sleeve-graphic-t-shirt/-/A-92864743",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-smileyworld-wink-rainbow-swirl-youth-tank-top/-/A-1003376575",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Tank Tops",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-character-group-shot-t-shirt/-/A-85753109",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/deux-par-deux-girl-printed-organic-cotton-tank-top/-/A-1003030282",
+      tags: "Girls’ Clothing, Kids’ Clothing, Tank Tops, Tanks & Camis, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Tank Tops",
       },
     },
     {
-      url: "https://www.target.com/p/boys-disney-simba-and-mufasa-remember-who-you-are-short-sleeve-graphic-t-shirt/-/A-92864727",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/girls-39-sandwash-1-2-zip-pullover-sweatshirt-all-in-motion/-/A-91270756",
+      tags: "Athletic Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Athletic Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boys-disney-simba-timon-pumbaa-zazu-silhouettes-with-logo-short-sleeve-graphic-t-shirt/-/A-92864757",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/mizuno-youth-challenger-hoodie/-/A-84755524",
+      tags: "Athletic Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Athletic Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-pride-land-characters-t-shirt/-/A-85753822",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/girls-active-comfort-full-zip-hooded-sweatshirt-all-in-motion/-/A-94739705",
+      tags: "Athletic Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Athletic Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-scar-i-m-surrounded-by-idiots-performance-tee/-/A-85646298",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/girls-modal-french-terry-crewneck-sweatshirt-all-in-motion/-/A-94741248",
+      tags: "Athletic Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Athletic Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-simba-king-in-training-performance-tee/-/A-85646242",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/girls-39-cozy-knit-jacket-all-in-motion-8482/-/A-94579748",
+      tags: "Athletic Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Athletic Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-simba-no-worries-distressed-t-shirt/-/A-85752515",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/vapor-apparel-youth-upf-50-uv-sun-protection-solar-hoodie/-/A-94216434",
+      tags: "Athletic Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops, Athletic T-Shirts",
       filters: {
-        brand: "The Lion King",
+        type: "Athletic Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-hakuna-matata-jungle-sun-performance-tee/-/A-85646437",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/capezio-girl-s-c-est-la-vie-joyeux-mesh-cover-up-child/-/A-1003315333",
+      tags: "Athletic Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Athletic Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-pumbaa-i-m-not-lazy-i-m-saving-energy-performance-tee/-/A-85754046",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/disney-lilo-stitch-girls-fleece-pullover-fur-sweatshirt-little-kid-to-big-kid/-/A-94124599",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-valentine-simba-king-performance-tee/-/A-85646257",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/leveret-kids-long-sleeve-classic-solid-color-sweatshirt/-/A-89567170",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-scar-surrounded-by-idiots-sunset-performance-tee/-/A-85646252",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/disney-lilo-stitch-girls-french-terry-crossover-hoodie-toddler-to-big-kid/-/A-88301140",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-retro-distressed-friends-t-shirt/-/A-85752846",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/bluey-girls-fleece-hoodie-little-kid-to-big-kid/-/A-90498654",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-husky-lion-king-hakuna-matata-silhouette/-/A-87574383",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/lands-end-lands-end-kids-fleece-pullover-hoodie/-/A-87678275",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-simba-ugly-christmas-sweater-print-performance-tee/-/A-87430996",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/bluey-bingo-sweatshirt-infant-to-big-kid/-/A-89790021",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-simba-never-forget-who-you-are-t-shirt/-/A-85752508",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/leveret-kids-long-sleeve-neutral-solid-color-sweatshirt/-/A-89567290",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-simba-sunset-pose-t-shirt/-/A-85646370",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/acdc-dirty-deeds-done-dirt-cheap-youth-black-crew-neck-sweatshirt/-/A-89177260",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-hakuna-matata-means-no-worries-performance-tee/-/A-85646422",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/minecraft-panda-feeding-time-crew-neck-long-sleeve-athletic-heather-boy-s-sweatshirt/-/A-89002045",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-sunset-simba-t-shirt/-/A-85646433",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/dreamworks-gabby-s-dollhouse-pandy-paws-mercat-cakey-cat-girls-french-terry-sweatshirt-toddler-to-big-kid/-/A-91109237",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-simba-hakuna-matata-t-shirt/-/A-85753430",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/disney-lilo-stitch-encanto-minnie-mouse-stitch-isabela-mirabel-girls-fleece-fur-sweatshirt-little-kid-to-big-kid/-/A-88223178",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-painted-simba-t-shirt/-/A-85646421",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/leveret-kids-long-sleeve-boho-solid-color-sweatshirt/-/A-89567038",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-simba-sky-silhouette-t-shirt/-/A-85753228",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/touch-girls-miami-dolphins-ruffled-hoodie-sweatshirt/-/A-1004302920",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-geometric-scar-emblem-t-shirt/-/A-85753525",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/g-iii-sports-girls-cleveland-cavaliers-hoodie-sweatshirt/-/A-1004146001",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-hakuna-matata-friends-t-shirt/-/A-85753223",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/g-iii-sports-girls-michigan-state-spartans-hoodie-sweatshirt/-/A-1004142906",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-decorative-noble-simba-t-shirt/-/A-85645870",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/catalonia-banana-cat-wearable-blanket-hoodie-for-kids-fleece-snuggy-sweatshirt-pullover-4-12-years-kids-gift-for-boys-girls/-/A-91339606",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-retro-simba-on-pride-rock-t-shirt/-/A-85752787",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/disney-mickey-and-friends-kid-girl-character-print-pop-up-ears-hat-with-sequin-covered-pocket-hoodie-sweatshirt/-/A-1005212097",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-retro-hakuna-matata-dance-t-shirt/-/A-85752990",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/converse-girls-pullover-sweatshirt-hoodie/-/A-94687305",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-nala-and-simba-you-are-my-valentine-t-shirt/-/A-90647458",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/cry-babies-magic-tears-girls-child-pocket-sweatshirt-hoodie-pullover-pink/-/A-1000487795",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-hakuna-matata-jungle-sun-t-shirt/-/A-85646436",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/converse-girls-pullover-sweatshirt-french-terry-hoodie/-/A-94687301",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-sunset-pride-rock-pose-t-shirt/-/A-85753338",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/girls-fleece-hoodie-art-class/-/A-93441893",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-ugly-christmas-hakuna-matata-t-shirt/-/A-87430989",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/hello-kitty-fleece-cosplay-pullover-hoodie-sizes-2t-14-16/-/A-1000402971",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-retro-cub-love-t-shirt/-/A-85753043",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/hello-kitty-and-friends-fleece-hoodie-sizes-2t-14-16/-/A-1001012097",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-simba-profile-t-shirt/-/A-85752954",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/hello-kitty-girls-fleece-pullover-hoodie-toddler-to-big-kid/-/A-90042351",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-simba-and-nala-feel-the-love-performance-tee/-/A-85554323",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/barbie-girls-fleece-pullover-hoodie-toddler-to-big-kid/-/A-90042648",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-simba-the-cub-t-shirt/-/A-85752861",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/minecraft-creepers-tnt-long-sleeve-boy-s-reversible-hooded-sweatshirt/-/A-1001387148",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-strong-like-father-mufasa-t-shirt/-/A-84232787",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/ac-dc-monochrome-logo-and-cannon-youth-heather-gray-graphic-hoodie/-/A-88861502",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-simba-splatter-art-t-shirt/-/A-85752569",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/five-nights-at-freddy-s-youth-black-graphic-hoodie/-/A-89522822",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-hakuna-matata-jungle-trio-t-shirt/-/A-85088253",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/scooby-doo-chilling-youth-royal-blue-graphic-hoodie/-/A-89387701",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-retro-pride-rock-line-art-t-shirt/-/A-85753783",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/looney-tunes-bugs-bunny-speech-bubble-what-s-up-doc-youth-heather-gray-graphic-hoodie/-/A-89002183",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-achin-for-some-bacon-t-shirt/-/A-85646364",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/space-jam-squad-youth-royal-blue-hoodie/-/A-86196174",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-cartoon-jungle-friends-t-shirt/-/A-85646432",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/naruto-classic-collegiate-letters-youth-black-graphic-hoodie/-/A-89386804",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-no-worries-besties-performance-tee/-/A-85753570",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/girls-that-girl-lay-lay-princess-slaya-hoodie-gray/-/A-86963405",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-simba-can-t-wait-to-be-king-t-shirt/-/A-85753718",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/looney-tunes-angry-daffy-duck-youth-black-graphic-hoodie/-/A-89001893",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-rafiki-geometric-rainbow-t-shirt/-/A-79783104",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/only-w-s-american-football-youth-long-sleeve-hoodie/-/A-93696492",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-timon-distressed-chill-t-shirt/-/A-85026312",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/minecraft-alex-versus-creeper-youth-black-graphic-hoodie/-/A-89258936",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-simba-and-nala-feel-the-love-t-shirt/-/A-85554554",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/the-void-big-cat-face-youth-girl-s-black-long-sleeve-cosplay-hoodie-with-3d-hoodie/-/A-94153589",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-famous-trio-besties-t-shirt/-/A-85646394",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/marvel-spidey-and-his-amazing-friends-ghost-spider-girls-pullover-hoodie-little-kid/-/A-85036701",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-simba-silhouette-pride-rock-t-shirt/-/A-82355639",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/disney-encanto-mirabel-girls-fleece-pullover-hoodie-toddler-to-big-kid/-/A-88178327",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-scar-i-wouldn-t-trust-me-either-t-shirt/-/A-85752873",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/sesame-street-abby-cadabby-kids-snugible-blanket-hoodie-pillow/-/A-1000384759",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-timon-speaks-fluent-sarcasm-t-shirt/-/A-85754005",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-lucky-arched-distressed-youth-graphic-hoodie/-/A-1002277047",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-savannah-sunset-crew-t-shirt/-/A-85752589",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-embroidered-lucky-clover-youth-graphic-hoodie/-/A-1001890623",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-hakuna-matata-silhouette-t-shirt/-/A-85646278",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-valentines-vibes-youth-graphic-hoodie/-/A-1001743399",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-animal-kingdom-crew-t-shirt/-/A-85646358",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-embroidered-hand-drawn-heart-youth-graphic-hoodie/-/A-1001709749",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-simba-athletic-jersey-t-shirt/-/A-85753111",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-love-flower-youth-graphic-hoodie/-/A-1001743159",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-simba-live-on-the-wild-side-t-shirt/-/A-85753687",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/bear-inspired-cosplay-youth-off-white-oversized-hoodie-with-3d-bear-ears/-/A-93860096",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-mufasa-stripe-profile-t-shirt/-/A-85646352",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-valentine-s-whale-youth-graphic-hoodie/-/A-1001552178",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-simba-paw-movie-poster-t-shirt/-/A-85753533",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/red-bull-racing-f1-kid-s-2024-team-pullover-hoodie/-/A-93226136",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-no-worries-vibrant-sunshine-t-shirt/-/A-85752651",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/tasty-peach-studios-peachy-cafe-youth-girl-tofu-hoodie-with-ears/-/A-1002894406",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-scar-i-m-surrounded-by-idiots-t-shirt/-/A-85646385",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/chibi-cat-meow-youth-girl-s-black-long-sleeve-cosplay-hoodie-with-3d-ears/-/A-94153564",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-simba-jungle-parade-t-shirt/-/A-85646391",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-embroidered-lucky-typewriter-youth-graphic-hoodie/-/A-1002225815",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-no-worries-besties-t-shirt/-/A-85753416",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/paw-patrol-skye-girls-fleece-half-zip-hoodie-little-kid-to-big-kid/-/A-88196088",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-timon-and-pumbaa-all-day-everyday-t-shirt/-/A-85646423",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-embroidered-hand-drawn-heart-youth-graphic-hoodie/-/A-1001709845",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-retro-nope-timon-t-shirt/-/A-85646426",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-game-day-youth-graphic-hoodie/-/A-1001831880",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-simba-and-rafiki-scene-t-shirt/-/A-85753177",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-valentine-rainbow-youth-graphic-hoodie/-/A-1001551931",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-retro-rainbow-94-silhouette-t-shirt/-/A-85753739",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/minecraft-block-kitten-with-block-heart-and-logo-youth-black-graphic-hoodie/-/A-89050955",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-simba-nala-pride-lands-crew-t-shirt/-/A-85753677",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/scooby-doo-the-mystery-machine-youth-black-graphic-hoodie/-/A-89386835",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-distressed-best-friends-group-shot-t-shirt/-/A-85752635",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/the-flash-movie-clipping-image-youth-boys-royal-blue-hoodie/-/A-89097378",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-vintage-sunset-logo-t-shirt/-/A-82356507",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/red-bull-racing-f1-kids-sergio-checo-perez-special-edition-mexico-gp-hoodie/-/A-1001221395",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-simba-cub-life-t-shirt/-/A-85646419",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/pink-floyd-division-bell-adult-black-hoodie/-/A-90274297",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-live-the-king-sketch-t-shirt/-/A-85753888",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/ac-dc-74-jailbreak-album-cover-youth-heather-gray-graphic-hoodie/-/A-88861508",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-timon-achin-for-bacon-t-shirt/-/A-85825778",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/naruto-classic-character-varsity-style-graphic-with-collegiate-text-youth-athletic-heather-hoodie/-/A-89097459",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-nala-and-simba-distressed-t-shirt/-/A-85753873",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/naruto-classic-character-pointing-with-ombre-text-youth-black-graphic-hoodie/-/A-89386898",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-king-s-mane-2019-t-shirt/-/A-85752418",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/naruto-classic-gaara-character-in-action-pose-youth-athletic-heather-hoodie/-/A-89097434",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-groovy-silhouette-logo-performance-tee/-/A-85646418",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-embroidered-choose-happy-smiley-face-youth-hoodie/-/A-1003380720",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-pride-rock-movie-poster-t-shirt/-/A-85753929",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/gulf-of-mexico-black-and-white-wave-youth-long-sleee-hoodie/-/A-1002590637",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-scar-surrounded-by-idiots-sunset-t-shirt/-/A-82358095",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-lucky-retro-stars-youth-graphic-hoodie/-/A-1002277098",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-starry-airbrush-simba-t-shirt/-/A-85753841",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-hey-sugar-pie-stars-youth-graphic-hoodie/-/A-1001551915",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-best-friends-cartoon-t-shirt/-/A-85088719",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/so-unbearable-youth-long-sleeve-hoodie/-/A-1000883436",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-simba-not-worried-bout-a-thing-t-shirt/-/A-85646267",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/disney-lion-king-nala-simba-fleece-hoodie-pink/-/A-87526868",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-no-worries-cartoon-t-shirt/-/A-85753638",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-game-day-stars-youth-graphic-hoodie/-/A-1001823568",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lion-king-greetings-from-pride-rock-t-shirt/-/A-85646294",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/made-with-love-youth-long-sleeve-hoodie/-/A-1002524568",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/seven-times-six-disney-the-lion-king-t-shirt-boys-hakuna-matata-trio-sunrise-silhouette-t-shirt-red/-/A-94214853",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lion King, Tops",
+      url: "https://www.target.com/p/coolest-turkey-in-town-youth-long-sleeve-hoodie/-/A-1000883576",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lion King",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-little-mermaid-flounder-large-portrait-t-shirt/-/A-91641815",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Little Mermaid, Tops",
+      url: "https://www.target.com/p/mykids-usa-baby-solid-color-thickened-autumn-basic-hoodies/-/A-1003660754",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Little Mermaid",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-little-mermaid-ariel-dinglehopper-portrait-t-shirt/-/A-89235428",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Little Mermaid, Tops",
+      url: "https://www.target.com/p/bioworld-sonic-the-hedgehog-knuckles-no-time-for-games-youth-black-hoodie/-/A-89244251",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Little Mermaid",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-little-mermaid-ariel-under-the-sea-quote-t-shirt/-/A-91641977",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Little Mermaid, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-babe-smile-youth-graphic-hoodie/-/A-1001552213",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Little Mermaid",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-little-mermaid-ariel-curious-kind-t-shirt/-/A-89235383",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Little Mermaid, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-embroidered-i-love-you-words-youth-graphic-hoodie/-/A-1001709785",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Little Mermaid",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-little-mermaid-ariel-and-flounder-sea-t-shirt/-/A-91641959",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Little Mermaid, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-shamrock-truck-youth-graphic-hoodie/-/A-1002225582",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Little Mermaid",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-little-mermaid-ariel-part-of-your-world-quote-t-shirt/-/A-91642014",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Little Mermaid, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-hippy-flower-valentine-youth-graphic-hoodie/-/A-1001551937",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Little Mermaid",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-little-mermaid-ariel-and-flounder-friendship-goals-t-shirt/-/A-91642411",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Little Mermaid, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-golf-par-tee-varsity-youth-hoodie/-/A-1003380646",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Little Mermaid",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-little-mermaid-ariel-cartoon-friends-t-shirt/-/A-91642021",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Little Mermaid, Tops",
+      url: "https://www.target.com/p/blockbuster-white-logo-adult-royal-blue-hoodie/-/A-90275417",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Little Mermaid",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-little-mermaid-waves-of-fun-t-shirt/-/A-91641727",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Little Mermaid, Tops",
+      url: "https://www.target.com/p/gulf-of-mexico-wave-text-youth-long-sleee-hoodie/-/A-1002590834",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Little Mermaid",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lord-of-the-rings-fellowship-of-the-ring-gandalf-all-we-have-to-decide-t-shirt/-/A-88119250",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Lord of the Rings, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-pushin-my-luck-youth-graphic-hoodie/-/A-1001890587",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Lord of the Rings",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-muppets-animal-costume-tee-t-shirt/-/A-86126488",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Muppets, Tops",
+      url: "https://www.target.com/p/rip-gulf-of-mexico-1607-2025-youth-long-sleee-hoodie/-/A-1002590792",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Muppets",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-muppets-gonzo-costume-tee-t-shirt/-/A-82208857",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Muppets, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-game-day-football-youth-graphic-hoodie/-/A-1001823722",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Muppets",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boys-the-muppets-dr-teeth-and-the-electric-mayhem-rock-band-short-sleeve-graphic-t-shirt/-/A-92722797",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Muppets, Tops",
+      url: "https://www.target.com/p/castore-mclaren-f1-kids-lando-norris-hoodie/-/A-1005138168",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Muppets",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boys-the-muppets-beaker-and-dr-bunsen-total-overreactor-short-sleeve-graphic-t-shirt/-/A-92722929",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Muppets, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-hugs-and-kisses-youth-graphic-hoodie/-/A-1001551995",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Muppets",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-muppets-kermit-costume-tee-t-shirt/-/A-82209535",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Muppets, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-smileyworld-bee-the-change-youth-hoodie/-/A-1003380471",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Muppets",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-muppets-birthday-boy-t-shirt/-/A-85334728",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Muppets, Tops",
+      url: "https://www.target.com/p/go-sports-but-where-s-the-food-youth-long-sleeve-hoodie/-/A-93696405",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Muppets",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-muppets-boxed-characters-t-shirt/-/A-82206759",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Muppets, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-embroidered-lucky-clover-youth-graphic-hoodie/-/A-1001890688",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Muppets",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-muppets-miss-piggy-karate-t-shirt/-/A-82209519",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Muppets, Tops",
+      url: "https://www.target.com/p/five-nights-at-freddy-s-foxy-and-foxy-silhouette-youth-black-graphic-hoodie/-/A-89522825",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Muppets",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-muppets-gonzo-chili-peppers-t-shirt/-/A-82208299",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Muppets, Tops",
+      url: "https://www.target.com/p/nerdlucks-youth-royal-blue-hoodie/-/A-85295541",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Muppets",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-muppets-electric-mayhem-t-shirt/-/A-85334556",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Muppets, Tops",
+      url: "https://www.target.com/p/ultraman-with-red-filter-and-kanji-logo-youth-black-hoodie/-/A-89244289",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Muppets",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-muppets-ho-ho-holidays-t-shirt/-/A-87471948",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Muppets, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-coquette-hearts-youth-graphic-hoodie/-/A-1001552041",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Muppets",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-muppets-the-animal-made-it-to-the-naughty-list-t-shirt/-/A-87471930",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Muppets, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-alphabet-i-love-you-youth-graphic-hoodie/-/A-1001552114",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Muppets",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-muppets-animal-metal-t-shirt/-/A-82206532",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Muppets, Tops",
+      url: "https://www.target.com/p/padel-paladin-youth-long-sleeve-hoodie/-/A-93696095",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Muppets",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-muppets-animal-party-t-shirt/-/A-82210501",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Muppets, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-embroidered-be-kind-turning-smiles-youth-graphic-hoodie/-/A-1002349961",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Muppets",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-muppets-sam-eagle-work-with-turkeys-t-shirt/-/A-82207107",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Muppets, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-be-mine-bubble-youth-graphic-hoodie/-/A-1001552205",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Muppets",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-muppets-kermit-pop-art-t-shirt/-/A-82206712",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Muppets, Tops",
+      url: "https://www.target.com/p/batman-collegiate-style-logo-youth-black-graphic-hoodie/-/A-89244243",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Muppets",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-muppets-animal-go-wild-t-shirt/-/A-82208933",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Muppets, Tops",
+      url: "https://www.target.com/p/blockbuster-be-kind-rewind-circular-logo-adult-black-hoodie/-/A-90274240",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Muppets",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-muppets-character-panels-t-shirt/-/A-82209947",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Muppets, Tops",
+      url: "https://www.target.com/p/gamer-get-a-life-youth-long-sleeve-hoodie/-/A-1002523005",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Muppets",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-muppets-mood-chart-t-shirt/-/A-86126498",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Muppets, Tops",
+      url: "https://www.target.com/p/parking-lot-pioneer-old-west-wagon-football-cowboy-youth-long-sleeve-hoodie/-/A-93115680",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Muppets",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-muppets-christmas-kermit-and-piggy-hug-t-shirt/-/A-82210337",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Muppets, Tops",
+      url: "https://www.target.com/p/grill-eat-repeat-football-youth-long-sleeve-hoodie/-/A-93696262",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Muppets",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-muppets-periodic-table-t-shirt/-/A-82206729",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Muppets, Tops",
+      url: "https://www.target.com/p/labbing-touch-grass-gamer-nerd-youth-long-sleeve-hoodie/-/A-1002523017",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Muppets",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-muppets-holiday-cheers-t-shirt/-/A-87471902",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Muppets, Tops",
+      url: "https://www.target.com/p/rabble-gender-neutral-hoodie-and-valentines-day-dabblz-bundle/-/A-1001756661",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Muppets",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-muppets-dreaming-of-a-green-christmas-t-shirt/-/A-87471924",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Muppets, Tops",
+      url: "https://www.target.com/p/blockbuster-a-good-movie-is-like-comfort-food-for-your-other-senses-logo-grid-adult-black-hoodie/-/A-90274270",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Muppets",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-muppets-get-your-kermit-on-t-shirt/-/A-1002300669",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Muppets, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-embroidered-love-typewriter-youth-graphic-hoodie/-/A-1001709720",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Muppets",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-this-is-halloween-jack-face-t-shirt/-/A-89875488",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/castore-mclaren-f1-oscar-piastri-kids-driver-hoodie/-/A-1005175510",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-let-s-boogie-portrait-t-shirt/-/A-89875258",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-golf-par-tee-varsity-youth-graphic-hoodie/-/A-1002444188",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-oogie-boogie-ugly-sweater-t-shirt/-/A-87391913",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/castore-mclaren-f1-kids-2025-team-hoodie/-/A-1002258566",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-jack-santa-hat-t-shirt/-/A-89659985",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/in-tailgating-we-trust-american-flag-and-spatula-youth-long-sleeve-hoodie/-/A-93230799",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-character-christmas-tree-t-shirt/-/A-87391930",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/american-football-tailgating-society-youth-long-sleeve-hoodie/-/A-93696365",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-oogie-boogie-roll-the-dice-t-shirt/-/A-89874794",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-embroidered-varsity-love-vibes-youth-graphic-hoodie/-/A-1001709812",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-jack-skellington-santa-hat-logo-t-shirt/-/A-89660050",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/padel-tennis-racket-rhapsody-youth-long-sleeve-hoodie/-/A-93696125",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-christmas-sandy-claws-t-shirt/-/A-89874446",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-tic-tac-heart-youth-graphic-hoodie/-/A-1001551914",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-husky-the-nightmare-before-christmas-emotional-jack-skellington/-/A-87573890",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/sweet-strawberries-youth-long-sleeve-hoodie/-/A-1000883578",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-no-sleep-til-christmas-t-shirt/-/A-87391900",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/be-sweet-candy-cane-youth-long-sleeve-hoodie/-/A-1000883523",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-holiday-vibes-jack-skellington-t-shirt/-/A-89875375",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/hold-your-horses-humor-youth-long-sleeve-hoodie/-/A-93695844",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-jack-skellington-master-of-fear-t-shirt/-/A-87257278",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/gulf-of-mexico-forever-vintage-skeleton-youth-long-sleee-hoodie/-/A-1002590660",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-master-of-fright-t-shirt/-/A-87257155",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-embroidered-be-good-do-good-smiley-face-youth-graphic-hoodie/-/A-1002350012",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-jack-and-sally-on-spiral-hill-t-shirt/-/A-87257169",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/teddy-hugs-youth-long-sleeve-hoodie/-/A-1001313597",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-character-collage-poster-t-shirt/-/A-89874655",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-coquette-valentine-vibes-youth-graphic-hoodie/-/A-1001551926",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-lock-shock-and-barrel-neon-circle-t-shirt/-/A-89874994",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-embroidered-choose-happy-smiley-face-youth-hoodie/-/A-1003380662",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-jack-and-sally-meant-to-be-t-shirt/-/A-87391925",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-be-mine-bold-youth-graphic-hoodie/-/A-1001743166",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-jack-skellington-s-lament-t-shirt/-/A-87257380",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-sweetheart-puff-print-youth-graphic-hoodie/-/A-1001551997",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-jack-skellington-s-world-tour-t-shirt/-/A-89874414",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-love-vibes-checkered-youth-graphic-hoodie/-/A-1001743198",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-long-live-the-pumpkin-king-t-shirt/-/A-87257161",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-pickleball-youth-hoodie/-/A-1003380677",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-halloween-hound-zero-t-shirt/-/A-89875291",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-deer-snowman-scene-youth-graphic-hoodie/-/A-1001551910",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-season-s-creepings-t-shirt/-/A-87392073",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/ultraman-blue-character-silhouette-with-collegiate-style-title-youth-heather-gray-hoodie/-/A-89244296",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-jack-and-oogie-boogie-distressed-t-shirt/-/A-85754047",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/so-unbearable-youth-girl-s-tofu-long-sleeve-cosplay-hoodie-with-3d-ears/-/A-1000024648",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-easter-bunny-we-caught-him-t-shirt/-/A-91247880",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-pickleball-paddles-crossed-youth-hoodie/-/A-1003380702",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-est-1993-neon-rainbow-jack-t-shirt/-/A-89874502",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/thinking-cat-youth-girl-s-black-long-sleeve-cosplay-hoodie-with-3d-ears/-/A-1000024774",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-king-jack-skellington-t-shirt/-/A-87257184",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/lanky-box-cute-characters-long-sleeve-black-youth-hooded-sweatshirt/-/A-91714172",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-pumpkin-king-script-t-shirt/-/A-87257365",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/sonic-the-hedgehog-character-face-long-sleeve-boy-s-blue-hooded-sweatshirt-detachable-fanny-pack/-/A-1000134556",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-jack-and-sally-christmas-portrait-t-shirt/-/A-89875330",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/dog-man-character-posing-youth-royal-blue-long-sleeve-hooded-sweatshirt/-/A-93890671",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-spiral-hill-scene-t-shirt/-/A-89874614",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/lanky-box-boxy-foxy-front-back-graphics-girl-s-cradle-pink-long-sleeve-hooded-sweatshirt/-/A-94199507",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-jack-skellington-king-of-fright-t-shirt/-/A-87257191",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/where-the-wild-things-are-max-i-ll-eat-you-up-youth-navy-long-sleeve-hooded-sweatshirt/-/A-94236736",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-egg-cited-for-easter-t-shirt/-/A-91247933",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/naruto-tonal-character-graphic-long-sleeve-black-youth-hooded-sweatshirt/-/A-90274291",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-lock-shock-and-barrel-t-shirt/-/A-85753032",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/dragon-ball-z-chibi-fighters-long-sleeve-royal-blue-youth-hooded-sweatshirt/-/A-89522930",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-sally-the-scream-queen-t-shirt/-/A-87257310",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/led-zeppelin-black-and-white-band-photo-long-sleeve-athletic-heather-youth-hooded-sweatshirt/-/A-90273798",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-holiday-scares-jack-face-t-shirt/-/A-89874767",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/minecraft-steve-creeper-long-sleeve-black-youth-hooded-sweatshirt/-/A-89765416",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-jack-season-s-creepings-t-shirt/-/A-89874937",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/kawaii-cat-shooting-star-youth-black-long-sleeve-hooded-sweatshirt-with-3d-ears/-/A-93860117",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-scary-christmas-santa-claus-t-shirt/-/A-89874317",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/cobra-kai-all-valley-karate-champion-long-sleeve-black-youth-hooded-sweatshirt/-/A-91217270",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-fright-christmas-jack-and-sally-t-shirt/-/A-89875424",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/coraline-girls-black-long-sleeve-hooded-sweatshirt/-/A-1004432757",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-christmas-believe-jack-and-sally-t-shirt/-/A-89875206",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/naruto-classic-team-seven-long-sleeve-athletic-gray-youth-hooded-sweatshirt/-/A-88756668",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-you-are-such-a-scream-t-shirt/-/A-89874556",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/minecraft-monochrome-creeper-long-sleeve-athletic-heather-youth-hooded-sweatshirt/-/A-89765277",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-sally-s-apothecary-t-shirt/-/A-89874490",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/sonic-the-hedgehog-metal-sonic-long-sleeve-black-youth-hooded-sweatshirt/-/A-89765322",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-deadly-nightshade-sally-t-shirt/-/A-89874513",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/dragon-ball-z-kanji-dragon-ball-all-over-print-long-sleeve-boy-s-black-hooded-sweatshirt/-/A-1000513547",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-jack-and-sally-love-t-shirt/-/A-1001930623",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/polly-pocket-pocket-sized-since-1989-long-sleeve-athletic-heather-youth-hooded-sweatshirt/-/A-92628643",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-jack-good-scares-towards-all-t-shirt/-/A-89875430",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/cobra-kai-strike-first-strike-hard-black-seal-long-sleeve-athletic-heather-youth-hooded-sweatshirt/-/A-92985720",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-scary-bright-tree-t-shirt/-/A-89874322",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/minecraft-creeper-face-long-sleeve-black-youth-hooded-sweatshirt/-/A-90468726",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-easter-bunny-caught-t-shirt/-/A-91247883",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/led-zeppelin-falling-icarus-logo-long-sleeve-black-boy-s-hooded-sweatshirt/-/A-90663893",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-nightmare-before-christmas-oogie-boogie-retro-glitch-t-shirt/-/A-89874219",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Nightmare Before Christmas, Tops",
+      url: "https://www.target.com/p/dragon-ball-z-goku-orange-swirl-background-long-sleeve-black-youth-hooded-sweatshirt/-/A-89522821",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Nightmare Before Christmas",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/polar-express-characters-on-train-crew-neck-short-sleeve-boys-white-t-shirt/-/A-88562006",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Polar Express, Tops",
+      url: "https://www.target.com/p/lanky-box-plush-characters-long-sleeve-athletic-heather-youth-hooded-sweatshirt/-/A-91217247",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Polar Express",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/polar-express-the-things-we-can-t-see-boy-s-red-t-shirt/-/A-85353057",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Polar Express, Tops",
+      url: "https://www.target.com/p/nerf-logo-long-sleeve-royal-blue-boy-s-hooded-sweatshirt/-/A-90275378",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Polar Express",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/polar-express-golden-ticket-crew-neck-short-sleeve-boys-black-t-shirt/-/A-88318451",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Polar Express, Tops",
+      url: "https://www.target.com/p/dragon-ball-goku-kamehameha-blast-youth-black-long-sleeve-hooded-sweatshirt/-/A-93890434",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Polar Express",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/bioworld-polar-express-vectored-train-facade-graphic-youth-black-short-sleeve-crew-neck-tee/-/A-88679634",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Polar Express, Tops",
+      url: "https://www.target.com/p/sonic-the-hedgehog-modern-emerald-club-graphic-long-sleeve-athletic-heather-youth-hooded-sweatshirt/-/A-89723218",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Polar Express",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-polar-express-believe-retro-train-t-shirt/-/A-87433600",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Polar Express, Tops",
+      url: "https://www.target.com/p/tasty-peach-witch-frog-brewing-potion-youth-girl-s-black-long-sleeve-hooded-sweatshirt-with-3d-ears/-/A-1001810596",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Polar Express",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-husky-polar-express-believe-train/-/A-89019090",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Polar Express, Tops",
+      url: "https://www.target.com/p/sesame-street-elmo-star-frame-long-sleeve-royal-adult-blue-hooded-sweatshirt/-/A-93147696",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Polar Express",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-polar-express-all-aboard-quote-t-shirt/-/A-1001940428",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Polar Express, Tops",
+      url: "https://www.target.com/p/spellbound-elian-oracles-magic-is-everywhere-youth-girl-s-royal-blue-long-sleeve-hooded-sweatshirt/-/A-1004162260",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Polar Express",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/space-jam-tune-squad-youth-boys-black-graphic-tee/-/A-85355486",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Powerpuff Girls, Tops",
+      url: "https://www.target.com/p/kawaii-cat-youth-off-white-long-sleeve-hooded-sweatshirt-with-3d-ears/-/A-93859984",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Powerpuff Girls",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-princess-and-the-frog-firefly-five-plus-louis-t-shirt/-/A-91642147",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Princess and the Frog, Tops",
+      url: "https://www.target.com/p/strawberry-bear-youth-black-long-sleeve-hooded-sweatshirt-with-3d-ears/-/A-93859974",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Princess and the Frog",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-princess-and-the-frog-tiana-make-your-own-destiny-t-shirt/-/A-91641705",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Princess and the Frog, Tops",
+      url: "https://www.target.com/p/superman-the-original-man-of-steel-long-sleeve-black-youth-hooded-sweatshirt/-/A-89386904",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Princess and the Frog",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-princess-and-the-frog-tiana-jazz-it-up-t-shirt/-/A-91641665",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Princess and the Frog, Tops",
+      url: "https://www.target.com/p/strawberry-bear-youth-off-white-long-sleeve-hooded-sweatshirt-with-3d-ears/-/A-93859973",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Princess and the Frog",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-simpsons-bart-whatever-t-shirt/-/A-94116289",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Simpsons, Tops",
+      url: "https://www.target.com/p/dragon-ball-z-trunks-cell-saga-long-sleeve-black-youth-hooded-sweatshirt/-/A-89522818",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Simpsons",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-simpsons-skeleton-bart-and-lisa-t-shirt/-/A-90376626",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, The Simpsons, Tops",
+      url: "https://www.target.com/p/teddy-bear-youth-black-long-sleeve-hooded-sweatshirt-with-3d-ears/-/A-93860012",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "The Simpsons",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/thomas-friends-tank-engine-2-pack-t-shirts-little-kid-to-big-kid/-/A-85236492",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Thomas & Friends, Tops",
+      url: "https://www.target.com/p/dragon-ball-z-goku-attack-with-bursting-name-long-sleeve-athletic-heather-youth-hooded-sweatshirt/-/A-89522845",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Thomas & Friends",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/thomas-friends-tank-engine-2-pack-t-shirts-toddler-to-little-kid/-/A-85270918",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Thomas & Friends, Tops",
+      url: "https://www.target.com/p/dragon-ball-z-frieza-long-sleeve-athletic-heather-youth-hooded-sweatshirt/-/A-89765296",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Thomas & Friends",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/tom-jerry-you-can-t-catch-me-youth-athletic-heather-graphic-tee/-/A-85729817",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tom and Jerry, Tops",
+      url: "https://www.target.com/p/no-fear-classic-logo-long-sleeve-youth-black-hooded-sweatshirt/-/A-93653725",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Tom and Jerry",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/tom-jerry-beast-mode-youth-navy-blue-graphic-tee/-/A-85730172",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tom and Jerry, Tops",
+      url: "https://www.target.com/p/yu-gi-oh-dark-magician-puff-print-long-sleeve-black-youth-hooded-sweatshirt/-/A-88756559",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Tom and Jerry",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/tom-jerry-headless-tom-with-jerry-youth-gray-graphic-tee/-/A-85729841",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tom and Jerry, Tops",
+      url: "https://www.target.com/p/polly-pocket-repeat-text-icons-long-sleeve-athletic-heather-youth-hooded-sweatshirt/-/A-92985670",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Tom and Jerry",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-tom-and-jerry-pastel-duo-t-shirt/-/A-87698351",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tom and Jerry, Tops",
+      url: "https://www.target.com/p/kawaii-cat-shooting-star-youth-off-white-long-sleeve-hooded-sweatshirt-with-3d-ears/-/A-93860128",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Tom and Jerry",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-tom-and-jerry-classic-logo-t-shirt/-/A-86926489",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tom and Jerry, Tops",
+      url: "https://www.target.com/p/sesame-street-cookie-monster-enjoy-life-long-sleeve-black-youth-hooded-sweatshirt/-/A-92985729",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Tom and Jerry",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/tom-jerry-brush-art-crew-neck-short-sleeve-royal-blue-boy-s-t-shirt/-/A-88032931",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tom and Jerry, Tops",
+      url: "https://www.target.com/p/led-zeppelin-searchlight-poster-long-sleeve-black-youth-hooded-sweatshirt/-/A-92985796",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Tom and Jerry",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-tom-and-jerry-bring-out-the-hammer-t-shirt/-/A-87698247",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tom and Jerry, Tops",
+      url: "https://www.target.com/p/bear-heart-rainbow-youth-off-white-long-sleeve-hooded-sweatshirt-with-3d-ears/-/A-93859993",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Tom and Jerry",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/tom-jerry-besties-forever-boy-s-navy-t-shirt/-/A-86394098",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tom and Jerry, Tops",
+      url: "https://www.target.com/p/teddy-bear-youth-off-white-long-sleeve-hooded-sweatshirt-with-3d-ears/-/A-93859967",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Tom and Jerry",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/tom-jerry-instagram-pose-boy-s-royal-blue-t-shirt/-/A-85782220",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tom and Jerry, Tops",
+      url: "https://www.target.com/p/naruto-classic-group-character-art-long-sleeve-royal-blue-youth-hooded-sweatshirt/-/A-89840739",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Tom and Jerry",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-tom-and-jerry-stay-chill-duo-t-shirt/-/A-94115070",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tom and Jerry, Tops",
+      url: "https://www.target.com/p/tasty-peach-cute-yellow-face-long-sleeve-athletic-heather-youth-hooded-sweatshirt/-/A-91498866",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Tom and Jerry",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/tom-jerry-besties-forever-retro-text-crew-neck-short-sleeve-navy-boy-s-t-shirt/-/A-88032969",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tom and Jerry, Tops",
+      url: "https://www.target.com/p/batman-line-art-long-sleeve-black-youth-hooded-sweatshirt/-/A-89208454",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Tom and Jerry",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-tom-and-jerry-here-for-the-shenanigans-t-shirt/-/A-90779891",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tom and Jerry, Tops",
+      url: "https://www.target.com/p/naruto-classic-pakkun-adult-black-hooded-sweatshirt/-/A-90274248",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Tom and Jerry",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-tonka-retro-truck-t-shirt/-/A-82885189",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tonka, Tops",
+      url: "https://www.target.com/p/kawaii-cat-youth-black-long-sleeve-hooded-sweatshirt-with-3d-ears/-/A-93859970",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Tonka",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-tonka-tough-like-dad-performance-tee/-/A-86500074",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tonka, Tops",
+      url: "https://www.target.com/p/batman-hero-in-collegiate-text-long-sleeve-black-youth-hooded-sweatshirt/-/A-89208362",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Tonka",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-tonka-elements-of-being-tough-t-shirt/-/A-87692695",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tonka, Tops",
+      url: "https://www.target.com/p/girls-rolling-stones-graphic-sweatshirt-navy-blue/-/A-94269019",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Tonka",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-tonka-truck-chart-t-shirt/-/A-82884945",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tonka, Tops",
+      url: "https://www.target.com/p/girls-39-bluey-colorblock-dreamy-fleece-sweatshirt-aqua-blue/-/A-93529417",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Tonka",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-tonka-built-to-last-t-shirt/-/A-82885091",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tonka, Tops",
+      url: "https://www.target.com/p/girls-39-lilo-stitch-oversized-sweatshirt-oatmeal/-/A-94431065",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Tonka",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-tonka-trencher-blueprint-t-shirt/-/A-82884851",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tonka, Tops",
+      url: "https://www.target.com/p/bluey-bingo-girls-fleece-fur-sweatshirt-toddler-to-big-kid/-/A-90042450",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Tonka",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-tonka-4th-birthday-t-shirt/-/A-82885299",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tonka, Tops",
+      url: "https://www.target.com/p/disney-minnie-mouse-girls-french-terry-oversized-drop-shoulder-sweatshirt-little-kid-to-big/-/A-92749512",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Tonka",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-tonka-i-like-big-trucks-t-shirt/-/A-82884998",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tonka, Tops",
+      url: "https://www.target.com/p/reebok-girls-cowl-neck-yoga-sweatshirt/-/A-1004736239",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Tonka",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-top-gun-logo-distressed-performance-tee/-/A-87102379",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Top Gun, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-merry-puff-print-youth-ultra-soft-graphic-sweatshirt/-/A-93279481",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Top Gun",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-top-gun-fighter-jet-logo-performance-tee/-/A-87100812",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Top Gun, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-christmas-spirits-red-words-youth-ultra-soft-graphic-sweatshirt/-/A-93627566",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Top Gun",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-top-gun-you-are-the-maverick-to-my-goose-performance-tee/-/A-87100655",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Top Gun, Tops",
+      url: "https://www.target.com/p/lands-end-kids-knit-crewneck-sweatshirt/-/A-1001905412",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Top Gun",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-top-gun-american-flag-aviator-sunglasses-logo-performance-tee/-/A-86117848",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Top Gun, Tops",
+      url: "https://www.target.com/p/sesame-street-elmo-abby-cadabby-girls-sweatshirt-little-kid/-/A-87483790",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Top Gun",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-top-gun-circle-of-stars-logo-performance-tee/-/A-87101089",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Top Gun, Tops",
+      url: "https://www.target.com/p/disney-doc-mcstuffins-girls-sweatshirt-little-kid/-/A-88225749",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Top Gun",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-top-gun-talk-to-me-goose-quote-performance-tee/-/A-87100991",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Top Gun, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-coquette-st-nick-s-tree-farm-youth-ultra-soft-graphic-sweatshirt/-/A-93349882",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Top Gun",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-top-gun-negative-ghost-rider-the-pattern-is-full-performance-tee/-/A-87100852",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Top Gun, Tops",
+      url: "https://www.target.com/p/minecraft-block-kitten-with-heart-youth-black-crew-neck-sweatshirt/-/A-89050783",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Top Gun",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-top-gun-maverick-performance-tee/-/A-87101992",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Top Gun, Tops",
+      url: "https://www.target.com/p/mega-man-dr-wily-dr-light-line-art-crew-neck-long-sleeve-black-youth-sweatshirt/-/A-90274838",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Top Gun",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-top-gun-aviator-sunglasses-logo-performance-tee/-/A-87101009",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Top Gun, Tops",
+      url: "https://www.target.com/p/five-nights-at-freddy-s-split-springtrap-crew-neck-long-sleeve-black-youth-sweatshirt/-/A-91543847",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Top Gun",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-top-gun-character-name-stack-performance-tee/-/A-87101239",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Top Gun, Tops",
+      url: "https://www.target.com/p/scooby-doo-paw-print-crew-neck-long-sleeve-black-youth-sweatshirt/-/A-89387576",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Top Gun",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-top-gun-keeping-up-foreign-relations-performance-tee/-/A-87101200",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Top Gun, Tops",
+      url: "https://www.target.com/p/where-the-wild-things-are-max-monsters-youth-black-crew-neck-long-sleeve-sweatshirt/-/A-93890444",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Top Gun",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-top-gun-aviator-sunglasses-reflection-logo-performance-tee/-/A-87102060",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Top Gun, Tops",
+      url: "https://www.target.com/p/minecraft-character-paddling-with-doodle-art-youth-black-crew-neck-sweatshirt/-/A-89258856",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Top Gun",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-top-gun-fightertown-usa-performance-tee/-/A-87101332",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Top Gun, Tops",
+      url: "https://www.target.com/p/scooby-doo-chilling-crew-neck-long-sleeve-athletic-heather-youth-sweatshirt/-/A-89387597",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Top Gun",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-top-gun-fighter-jet-logo-t-shirt/-/A-86117940",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Top Gun, Tops",
+      url: "https://www.target.com/p/harry-potter-hogwarts-school-logo-youth-athletic-heather-sweatshirt/-/A-86104246",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Top Gun",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-top-gun-because-i-was-inverted-performance-tee/-/A-87100729",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Top Gun, Tops",
+      url: "https://www.target.com/p/girls-l-o-l-surprise-faux-shearling-sweatshirt-yellow/-/A-86900639",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Top Gun",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-top-gun-maverick-talk-to-me-goose-t-shirt/-/A-87100996",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Top Gun, Tops",
+      url: "https://www.target.com/p/ultraman-chibi-characters-youth-black-crew-neck-sweatshirt/-/A-89244208",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Top Gun",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-top-gun-negative-ghost-rider-the-pattern-is-full-t-shirt/-/A-87100837",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Top Gun, Tops",
+      url: "https://www.target.com/p/the-juniper-shop-rocket-around-the-christmas-tree-youth-ultra-soft-graphic-sweatshirt/-/A-93627459",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Top Gun",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-top-gun-maverick-codename-patches-t-shirt/-/A-86117835",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Maverick, Tangled, Top Gun, Tops",
+      url: "https://www.target.com/p/acdc-logo-and-angus-young-youth-black-crew-neck-sweatshirt/-/A-89177280",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Top Gun: Maverick",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-top-gun-maverick-distressed-wingman-patch-t-shirt/-/A-86118283",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Maverick, Tangled, Top Gun, Tops",
+      url: "https://www.target.com/p/my-hero-academia-izuku-midoriya-crew-neck-long-sleeve-black-youth-sweatshirt/-/A-92548131",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Top Gun: Maverick",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-character-logo-party-t-shirt/-/A-79592098",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/pink-floyd-triangle-earth-with-airplanes-logo-youth-black-crew-neck-sweatshirt/-/A-88861439",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-infinity-and-beyond-rainbow-t-shirt/-/A-84036005",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/blockbuster-be-kind-rewind-distressed-junior-s-gray-sweatshirt/-/A-90274830",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-squeeze-alien-costume-tee-t-shirt/-/A-79592421",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/bioworld-sonic-the-hedgehog-let-s-roll-modern-street-art-youth-black-crew-neck-sweatshirt/-/A-89244182",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-buzz-woody-rocket-car-performance-tee/-/A-87573990",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/naruto-kakashi-sasuke-crew-neck-long-sleeve-black-youth-sweatshirt/-/A-91898177",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lightyear-buzz-poster-performance-tee/-/A-86745134",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/ultraman-flying-character-crew-neck-long-sleeve-athletic-heather-youth-sweatshirt/-/A-89522708",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-friend-in-me-scene-t-shirt/-/A-79710680",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/the-juniper-shop-candy-cane-cutie-stars-youth-ultra-soft-graphic-sweatshirt/-/A-93302610",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-halloween-boo-squad-t-shirt/-/A-89579162",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/the-juniper-shop-checkered-santa-youth-ultra-soft-graphic-sweatshirt/-/A-93544705",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-pizza-planet-logo-t-shirt/-/A-1001410253",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/the-juniper-shop-coquette-christmas-girly-youth-ultra-soft-graphic-sweatshirt/-/A-93349834",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-pizza-planet-alien-claw-pile-t-shirt/-/A-1001415239",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/the-flash-movie-hexagon-thunderbolt-logo-crew-neck-long-sleeve-black-youth-sweatshirt/-/A-89097398",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-christmas-light-woody-lasso-t-shirt/-/A-84867923",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/nasa-space-flight-seal-crew-neck-long-sleeve-athletic-heather-youth-sweatshirt/-/A-89051138",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-valentine-rex-hugger-performance-tee/-/A-88323727",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/minecraft-franchise-colorful-kitten-with-block-heart-youth-heather-gray-crew-neck-sweatshirt/-/A-89097438",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-rex-cellent-90s-vibe-t-shirt/-/A-85154071",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/the-juniper-shop-valentine-kittens-youth-ultra-soft-graphic-sweatshirt/-/A-1001646887",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-buzz-woody-rocket-car-t-shirt/-/A-87574015",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/my-hero-academia-deku-fighting-stance-crew-neck-long-sleeve-athletic-heather-youth-sweatshirt/-/A-88860995",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-halloween-look-on-the-fright-side-t-shirt/-/A-89930061",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/lands-end-kids-long-sleeve-cozy-ruffle-sweatshirt-top-x-small-black-stars-print/-/A-1000170470",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-iconic-pizza-planet-logo-t-shirt/-/A-85088647",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/sesame-street-characters-checkered-circle-crew-neck-long-sleeve-athletic-heather-youth-sweatshirt/-/A-93148012",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-buzz-woody-portraits-t-shirt/-/A-1001415277",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/blockbuster-black-logo-junior-s-gray-sweatshirt/-/A-90274809",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lightyear-emperor-zurg-distressed-t-shirt/-/A-86744038",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/five-nights-at-freddy-s-foxy-in-a-red-box-youth-black-crew-neck-sweatshirt/-/A-89522926",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-halloween-toy-treats-t-shirt/-/A-84089411",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/girls-39-bluey-faux-shearling-pullover-sweatshirt-coral-pink-light-blue-ivory/-/A-92253715",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-christmas-candy-cane-alien-t-shirt/-/A-84868998",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/the-juniper-shop-i-just-hope-both-teams-have-fun-youth-ultra-soft-graphic-sweatshirt/-/A-1001806117",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-christmas-alien-stocking-t-shirt/-/A-84867690",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/bioworld-sonic-the-hedgehog-graffiti-portrait-youth-black-crew-neck-sweatshirt/-/A-89244163",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-grinning-rex-face-t-shirt/-/A-79712552",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/peppa-pig-girls-french-terry-sweatshirt-toddler-to-little-kid/-/A-89844265",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-little-green-men-catchphrase-t-shirt/-/A-1004164282",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/kids-mickey-mouse-striped-pullover-crewneck-sweatshirt-blue/-/A-93219416",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-ducky-bunny-stick-with-it-motto-t-shirt/-/A-84036211",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/sega-sonic-the-hedgehog-girls-fleece-oversized-drop-shoulder-sweatshirt-little-kid-to-big-kid/-/A-93743475",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-dj-blu-jay-toy-t-shirt/-/A-84035836",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/paw-patrol-marshall-chase-skye-everest-girls-pullover-sweatshirt/-/A-87483765",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-christmas-santa-rex-t-shirt/-/A-81881832",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/five-nights-at-freddy-s-freddy-face-with-orange-border-crew-neck-long-sleeve-black-youth-sweatshirt/-/A-89764917",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-gang-is-all-here-t-shirt/-/A-79712046",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/the-juniper-shop-distressed-smiley-face-youth-graphic-sweatshirt/-/A-90568417",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-retro-best-friend-toys-t-shirt/-/A-85088890",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/the-juniper-shop-pickleball-love-youth-ultra-soft-graphic-sweatshirt/-/A-1002604403",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-christmas-woody-light-lasso-t-shirt/-/A-81559745",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/ultraman-collegiate-text-crew-neck-long-sleeve-black-youth-sweatshirt/-/A-89244234",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-christmas-woody-santa-claus-t-shirt/-/A-84867993",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/flash-superspeed-run-and-logo-youth-black-sweatshirt/-/A-86104259",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lightyear-vintage-buzz-to-infinity-and-beyond-t-shirt/-/A-86743804",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/sesame-street-outdoor-character-group-art-crew-neck-long-sleeve-youth-black-sweatshirt/-/A-93148346",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-lucky-aliens-t-shirt/-/A-1002302915",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/acdc-red-rectangle-logo-crew-neck-long-sleeve-athletic-heather-youth-sweatshirt/-/A-89245498",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-christmas-alien-wreath-t-shirt/-/A-81883442",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/the-juniper-shop-embroidered-hand-drawn-heart-youth-ultra-soft-graphic-sweatshirt/-/A-1001709913",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lightyear-retro-distressed-buzz-and-sox-t-shirt/-/A-86744175",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/star-wars-the-mandalorian-baby-yoda-sweatshirt-pink/-/A-87482870",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-father-s-day-buzz-woody-t-shirt/-/A-86502170",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/minecraft-game-doodles-youth-black-crew-neck-sweatshirt/-/A-89258874",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lightyear-spacesuit-poster-t-shirt/-/A-86743734",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/batman-bruce-wayne-silhouette-on-a-red-background-youth-black-crew-neck-sweatshirt/-/A-89208340",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-three-eyed-alien-friend-t-shirt/-/A-84035980",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/scooby-doo-mystery-gang-youth-black-crew-neck-sweatshirt/-/A-89387637",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-forky-talkin-trash-rainbow-t-shirt/-/A-79591948",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/cobra-kai-team-dojo-graphic-crew-neck-long-sleeve-athletic-heather-youth-sweatshirt/-/A-89245497",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-christmas-santa-aliens-t-shirt/-/A-84868635",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/looney-tunes-bugs-bunny-and-daffy-duck-youth-black-crew-neck-sweatshirt/-/A-89002096",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-buzz-lightyear-star-commblack-and-white-logo-t-shirt/-/A-85154288",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/dragon-ball-super-saiyan-goku-youth-black-sweatshirt/-/A-86104327",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lightyear-zurg-and-lightyear-t-shirt/-/A-86744191",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/looney-tunes-bugs-bunny-what-s-up-doc-youth-heather-gray-crew-neck-sweatshirt/-/A-89002110",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-husky-toy-story-buzz-woody-rocket-car/-/A-87574109",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/growing-up-creepie-have-you-hugged-a-bug-today-crew-neck-long-sleeve-athletic-heather-youth-sweatshirt/-/A-89008576",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-halloween-squeeze-alien-boo-ghosts-t-shirt/-/A-84089876",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/dragon-ball-z-son-goku-crew-neck-long-sleeve-black-youth-sweatshirt/-/A-89008555",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-made-in-the-90s-t-shirt/-/A-84036180",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/scooby-doo-we-ve-got-spirit-crew-neck-long-sleeve-black-youth-sweatshirt/-/A-89387656",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-alien-i-only-have-eyes-for-you-t-shirt/-/A-85554452",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/my-hero-academia-izuku-midoriya-with-title-logo-youth-heather-gray-crew-neck-sweatshirt/-/A-88860974",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-ducky-bunny-stick-with-us-bffs-t-shirt/-/A-84035729",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/stevie-raglan-sweatshirt-navy-rose-color-block/-/A-1004890687",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-valentine-rex-cellent-t-shirt/-/A-85554572",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/the-juniper-shop-team-halftime-distressed-red-youth-ultra-soft-graphic-sweatshirt/-/A-1001806475",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-squad-t-shirt/-/A-1001409929",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/bioworld-sonic-the-hedgehog-street-art-youth-black-crew-neck-sweatshirt/-/A-89244195",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-4-ducky-and-bunny-easter-funday-t-shirt/-/A-91247771",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/the-juniper-shop-embroidered-love-typewriter-youth-ultra-soft-graphic-sweatshirt/-/A-1001709846",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lightyear-buzz-in-space-t-shirt/-/A-86743782",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/the-juniper-shop-lucky-retro-stars-youth-ultra-soft-graphic-sweatshirt/-/A-1002277103",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lightyear-i-m-buzz-lightyear-i-m-always-sure-t-shirt/-/A-86743502",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/the-juniper-shop-tiny-teenager-typewriter-youth-ultra-soft-graphic-sweatshirt/-/A-93792918",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-rex-nervous-t-shirt/-/A-1001414919",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/the-juniper-shop-embroidered-lucky-typewriter-youth-ultra-soft-graphic-sweatshirt/-/A-1002225752",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-halloween-alien-close-encounter-t-shirt/-/A-1001414474",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/the-juniper-shop-in-my-game-day-era-maroon-youth-ultra-soft-graphic-sweatshirt/-/A-1001806402",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-christmas-alien-snow-globe-t-shirt/-/A-81883499",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/gremlins-multicolored-gizmos-youth-black-crew-neck-sweatshirt/-/A-90274691",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lightyear-xl-01-spaceship-blueprints-t-shirt/-/A-86744223",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/naruto-single-color-leaping-naruto-crew-neck-long-sleeve-black-youth-sweatshirt/-/A-90274576",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-christmas-bff-argyle-print-t-shirt/-/A-84867425",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/the-juniper-shop-christmas-spirits-green-words-youth-ultra-soft-graphic-sweatshirt/-/A-93627536",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-toy-story-easter-buzz-lightyear-and-aliens-marshmallow-bunny-army-ahoy-t-shirt/-/A-91247572",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/the-juniper-shop-lucky-vibes-clover-youth-ultra-soft-graphic-sweatshirt/-/A-1002225614",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-lightyear-property-of-star-command-t-shirt/-/A-86743521",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Toy Story",
+      url: "https://www.target.com/p/the-juniper-shop-i-m-just-here-for-the-snacks-disco-youth-ultra-soft-graphic-sweatshirt/-/A-1001805926",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Toy Story",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/transformers-optimus-prime-bumblebee-2-pack-t-shirts-toddler-to-big-kid/-/A-87198804",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/the-juniper-shop-i-am-just-here-for-the-snacks-youth-ultra-soft-graphic-sweatshirt/-/A-1001806626",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/seven-times-six-transformers-boy-s-autobot-decepticon-grid-kids-short-sleeve-t-shirt-black/-/A-93283899",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/the-juniper-shop-charmer-clover-youth-ultra-soft-graphic-sweatshirt/-/A-1001890504",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/transformers-bumblebee-optimus-prime-3-pack-graphic-t-shirts-yellow-blue-black/-/A-87233149",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/where-the-wild-things-are-max-and-monsters-dancing-youth-athletic-heather-crew-neck-long-sleeve-sweatshirt/-/A-1000119148",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-split-bot-logo-t-shirt/-/A-82149770",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/gremlins-gizmo-with-multicolor-names-youth-black-crew-neck-sweatshirt/-/A-90274699",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boys-transformers-earth-spark-short-sleeve-graphic-t-shirt/-/A-1001952423",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/lands-end-kids-long-sleeve-cozy-fleece-ruffle-eyelet-sweatshirt/-/A-1005094042",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boys-transformers-earth-spark-short-sleeve-graphic-t-shirt/-/A-1001952647",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/cobra-kai-eagle-fang-karate-graphic-crew-neck-long-sleeve-black-youth-sweatshirt/-/A-89244193",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boys-transformers-earth-spark-short-sleeve-graphic-t-shirt/-/A-1001952981",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/the-juniper-shop-a-wee-bit-irish-youth-ultra-soft-graphic-sweatshirt/-/A-1001346979",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boys-transformers-earth-spark-short-sleeve-graphic-t-shirt/-/A-1001952531",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/the-juniper-shop-lucky-clover-checkered-youth-ultra-soft-graphic-sweatshirt/-/A-1002532863",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boys-transformers-earth-spark-short-sleeve-graphic-t-shirt/-/A-1001952536",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/the-juniper-shop-heart-throb-small-heart-youth-ultra-soft-graphic-sweatshirt/-/A-1000551735",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boys-transformers-earth-spark-short-sleeve-graphic-t-shirt/-/A-1001952406",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/lands-end-kids-puff-shoulder-crew-neck-sweatshirt/-/A-1005092766",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boys-transformers-earth-spark-short-sleeve-graphic-t-shirt/-/A-1001952855",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/the-juniper-shop-football-season-star-youth-ultra-soft-graphic-sweatshirt/-/A-1001823579",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boys-transformers-earth-spark-short-sleeve-graphic-t-shirt/-/A-1001952620",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/champion-girls-1-4-zip-fleece-pullover-sweatshirt/-/A-94609783",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boys-transformers-earth-spark-short-sleeve-graphic-t-shirt/-/A-1001952457",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/the-juniper-shop-shamrock-and-roll-youth-ultra-soft-graphic-sweatshirt/-/A-1001346961",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boys-transformers-earth-spark-short-sleeve-graphic-t-shirt/-/A-1001952946",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/the-juniper-shop-football-game-day-checkered-toddler-graphic-sweatshirt/-/A-90213709",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boys-transformers-earth-spark-short-sleeve-graphic-t-shirt/-/A-1001952526",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/scooby-doo-mystery-solvers-club-youth-black-crew-neck-sweatshirt/-/A-89387589",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boys-transformers-earth-spark-short-sleeve-graphic-t-shirt/-/A-1001952358",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/naruto-classic-naruto-uzumaki-name-text-and-character-youth-heather-gray-crew-neck-sweatshirt/-/A-89097443",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boys-transformers-earth-spark-short-sleeve-graphic-t-shirt/-/A-1001952955",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/the-juniper-shop-embroidered-i-love-you-words-youth-ultra-soft-graphic-sweatshirt/-/A-1001710052",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boys-transformers-earth-spark-short-sleeve-graphic-t-shirt/-/A-1001952390",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/the-juniper-shop-candy-heart-smile-solid-youth-ultra-soft-graphic-sweatshirt/-/A-1001209368",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boys-transformers-earth-spark-short-sleeve-graphic-t-shirt/-/A-1001952635",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/girl-s-cheerful-on-sparkly-glitter-sweatshirt-southern-grace/-/A-1000916025",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boys-transformers-earth-spark-short-sleeve-graphic-t-shirt/-/A-1001952346",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/the-juniper-shop-in-my-football-era-blue-youth-ultra-soft-graphic-sweatshirt/-/A-1001806180",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boys-transformers-earth-spark-short-sleeve-graphic-t-shirt/-/A-1001952384",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/the-juniper-shop-embroidered-smiley-face-outline-youth-ultra-soft-graphic-sweatshirt/-/A-1002349959",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boys-transformers-earth-spark-short-sleeve-graphic-t-shirt/-/A-1001952929",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/the-juniper-shop-tis-the-season-football-youth-ultra-soft-graphic-sweatshirt/-/A-1001823543",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boys-transformers-earth-spark-short-sleeve-graphic-t-shirt/-/A-1001952919",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/the-juniper-shop-smiley-flowers-with-sunglasses-youth-ultra-soft-graphic-sweatshirt/-/A-1002532982",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boys-transformers-earth-spark-short-sleeve-graphic-t-shirt/-/A-1001952607",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/girls-mickey-mouse-fashion-crewneck-sweatshirt-collegiate-athletic-crewneck-sweatshirt-mickey-minnie-sweatshirt/-/A-1004522261",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boys-transformers-earth-spark-short-sleeve-graphic-t-shirt/-/A-1001952641",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/lands-end-school-uniform-kids-crew-sweatshirt/-/A-86908833",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-optimus-prime-80s-retro-t-shirt/-/A-87692700",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/the-juniper-shop-chase-your-dreams-retro-youth-ultra-soft-graphic-sweatshirt/-/A-1000082867",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-optimus-prime-grid-t-shirt/-/A-92938585",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/the-juniper-shop-tis-the-season-scarecrow-youth-ultra-soft-graphic-sweatshirt/-/A-93302580",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-bumblebee-5th-birthday-t-shirt/-/A-82150046",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/batman-the-caped-crusader-youth-heather-gray-crew-neck-sweatshirt/-/A-89208345",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-autobots-9-square-layout-t-shirt/-/A-92938425",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/gender-neutral-boys-st-ives-gauze-hooded-top-me-henry/-/A-1001177374",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-distressed-optimus-prime-autobot-killer-t-shirt/-/A-92938462",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/the-juniper-shop-happy-go-lucky-smiley-face-youth-ultra-soft-graphic-sweatshirt/-/A-1001890517",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-earthspark-optimus-prime-autobots-logo-t-shirt/-/A-88535942",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/the-juniper-shop-smiley-clover-daisy-youth-ultra-soft-graphic-sweatshirt/-/A-1002532831",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-autobot-santa-t-shirt/-/A-82150267",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/the-juniper-shop-lucky-vibes-distressed-youth-ultra-soft-graphic-sweatshirt/-/A-1002225757",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-bumblebee-4th-birthday-t-shirt/-/A-82150079",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/ufc-girls-roaring-glory-sweatshirt/-/A-1004764791",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-earthspark-transforming-optimus-prime-t-shirt/-/A-88535871",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/lands-end-kids-long-sleeve-cozy-fleece-ruffle-sweatshirt/-/A-1005092686",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-optimus-prime-retro-circle-t-shirt/-/A-87692639",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/the-juniper-shop-so-franken-cute-glitter-youth-ultra-soft-graphic-sweatshirt/-/A-93404311",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-autobots-logo-t-shirt/-/A-87692843",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/the-juniper-shop-touchdown-helmet-youth-ultra-soft-graphic-sweatshirt/-/A-1001834926",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-megatron-vs-optimus-prime-fight-panel-t-shirt/-/A-92938269",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/the-juniper-shop-in-my-football-era-red-youth-ultra-soft-graphic-sweatshirt/-/A-1001805913",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-decepticon-santa-t-shirt/-/A-82150247",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/the-juniper-shop-embroidered-be-kind-turning-smiles-youth-ultra-soft-graphic-sweatshirt/-/A-1002350251",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-40-years-skids-panels-t-shirt/-/A-92937993",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/the-juniper-shop-cutest-clover-youth-ultra-soft-graphic-sweatshirt/-/A-1001347000",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-earthspark-transforming-bumblebee-t-shirt/-/A-88535876",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/the-juniper-shop-hugs-and-kisses-youth-ultra-soft-graphic-sweatshirt/-/A-1001209384",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-rise-of-the-beasts-team-logo-t-shirt/-/A-89222720",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/the-juniper-shop-game-day-stars-youth-ultra-soft-graphic-sweatshirt/-/A-1001823578",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-feast-mode-t-shirt/-/A-89581305",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/the-juniper-shop-team-halftime-distressed-maroon-youth-ultra-soft-graphic-sweatshirt/-/A-1001806550",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-optimus-prime-roll-out-ugly-xmas-t-shirt/-/A-82149950",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/blockbuster-a-good-movie-is-like-comfort-food-for-your-other-senses-junior-s-black-sweatshirt/-/A-90274674",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-earthspark-got-bot-t-shirt/-/A-88536359",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/gremlins-gizmo-there-are-three-rules-character-art-youth-black-crew-neck-sweatshirt/-/A-90274667",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-bumblebee-bee-my-valentine-t-shirt/-/A-85563755",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/the-juniper-shop-cousin-crew-santa-hat-youth-ultra-soft-graphic-sweatshirt/-/A-93302659",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-earthspark-optimus-prime-roll-out-t-shirt/-/A-88536217",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/the-juniper-shop-cutie-pie-university-youth-ultra-soft-graphic-sweatshirt/-/A-1000082853",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-bumblebee-6th-birthday-t-shirt/-/A-82149483",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/scooby-doo-scooby-s-crystal-cove-high-school-id-youth-black-crew-neck-sweatshirt/-/A-89387547",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-earthspark-bumblebee-badge-t-shirt/-/A-88536521",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/sonic-prime-group-character-art-crew-neck-long-sleeve-athletic-heather-youth-sweatshirt/-/A-89838775",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-bumblebee-3rd-birthday-t-shirt/-/A-82150073",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/sesame-street-big-bird-face-twirl-text-crew-neck-long-sleeve-youth-black-sweatshirt/-/A-93148334",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-earthspark-character-panels-t-shirt/-/A-88536006",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/the-juniper-shop-cool-kid-star-youth-ultra-soft-graphic-sweatshirt/-/A-93792877",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-rise-of-the-beasts-graffiti-poster-t-shirt/-/A-1001664263",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/the-juniper-shop-be-mine-bubble-youth-ultra-soft-graphic-sweatshirt/-/A-1001026729",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-war-for-cybertron-characters-t-shirt/-/A-82149856",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/the-juniper-shop-holly-leaves-coquette-youth-ultra-soft-graphic-sweatshirt/-/A-93717314",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-rise-of-the-beasts-autobot-jungle-logo-t-shirt/-/A-89222766",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/ultraman-white-line-art-on-repeat-text-crew-neck-long-sleeve-black-youth-sweatshirt/-/A-89244201",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-autobots-graffiti-logo-t-shirt/-/A-82149537",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/girl-kids-winter-animals-sweatshirt-happy-prince/-/A-1001401465",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-rise-of-the-beasts-graffiti-poster-t-shirt/-/A-89222724",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/the-juniper-shop-embroidered-be-good-do-good-smiley-face-youth-ultra-soft-graphic-sweatshirt/-/A-1002349754",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        brand: "Transformers",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-rise-of-the-beasts-optimus-prime-t-shirt/-/A-89222744",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/disney-princess-moana-cindrella-ariel-belle-zip-up-hoodie-little-kid-to-big-kid/-/A-87217525",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops, Zip-Up Sweatshirts",
       filters: {
-        brand: "Transformers",
+        type: "Zip-Up Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-autobot-rusted-logo-t-shirt/-/A-82149786",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/lands-end-school-uniform-kids-zip-front-sweatshirt/-/A-86908804",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops, Zip-Up Sweatshirts",
       filters: {
-        brand: "Transformers",
+        type: "Zip-Up Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-soundwave-lightning-waves-t-shirt/-/A-82150157",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/marvel-spider-man-spider-gwen-ghost-spider-girls-fleece-zip-up-hoodie-little-kid-to-big-kid/-/A-88397434",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops, Zip-Up Sweatshirts",
       filters: {
-        brand: "Transformers",
+        type: "Zip-Up Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-periodic-table-of-transformers-t-shirt/-/A-86926585",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/leveret-kids-zipper-classic-solid-color-sweat-hoodie/-/A-89567658",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops, Zip-Up Sweatshirts",
       filters: {
-        brand: "Transformers",
+        type: "Zip-Up Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-earthspark-optimus-roll-out-t-shirt/-/A-88535994",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/leveret-kids-zipper-cotton-solid-color-hoodie/-/A-89572023",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops, Zip-Up Sweatshirts",
       filters: {
-        brand: "Transformers",
+        type: "Zip-Up Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-decepticon-graffiti-logo-t-shirt/-/A-82150130",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/disney-lilo-stitch-girls-french-terry-zip-up-cosplay-hoodie-little-kid-to-big-kid/-/A-90042344",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops, Zip-Up Sweatshirts",
       filters: {
-        brand: "Transformers",
+        type: "Zip-Up Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-autobots-retro-trio-t-shirt/-/A-87692984",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/kids-39-adaptive-zip-up-fleece-hoodie-sweatshirt-cat-38-jack-8482-pink-rose/-/A-94486506",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops, Zip-Up Sweatshirts",
       filters: {
-        brand: "Transformers",
+        type: "Zip-Up Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-rise-of-the-beasts-group-poster-t-shirt/-/A-89222697",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/girls-39-zip-up-halloween-cat-fleece-hoodie-sweatshirt-cat-38-jack-8482-cream/-/A-94482967",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops, Zip-Up Sweatshirts",
       filters: {
-        brand: "Transformers",
+        type: "Zip-Up Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-anniversary-comic-logo-t-shirt/-/A-92938048",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/girls-39-zip-up-halloween-spider-fleece-hoodie-sweatshirt-cat-38-jack-8482-light-olive-green/-/A-94482969",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops, Zip-Up Sweatshirts",
       filters: {
-        brand: "Transformers",
+        type: "Zip-Up Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-optimus-prime-wants-you-t-shirt/-/A-87692635",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/girls-39-zip-up-fleece-hooded-sweatshirt-cat-38-jack-8482/-/A-94482984",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops, Zip-Up Sweatshirts",
       filters: {
-        brand: "Transformers",
+        type: "Zip-Up Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-st-patrick-s-day-cloverfield-decepticon-logo-t-shirt/-/A-85872222",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/girls-french-terry-zip-up-hoodie-uniform-sweatshirt-cat-jack-blue/-/A-94493152",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops, Zip-Up Sweatshirts",
       filters: {
-        brand: "Transformers",
+        type: "Zip-Up Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-autobots-collage-t-shirt/-/A-92938332",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/girls-39-hearts-french-terry-zip-up-hoodie-cat-38-jack-8482/-/A-93300713",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops, Zip-Up Sweatshirts",
       filters: {
-        brand: "Transformers",
+        type: "Zip-Up Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-autobots-character-panels-t-shirt/-/A-82149595",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/disney-minnie-mouse-girls-fleece-zip-up-hoodie-little-kid-to-big-kid/-/A-93825912",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops, Zip-Up Sweatshirts",
       filters: {
-        brand: "Transformers",
+        type: "Zip-Up Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-optimus-prime-autobots-leader-t-shirt/-/A-82149836",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/dc-comics-justice-league-wonder-woman-girls-zip-up-costume-hoodie-little-kid-to-big-kid/-/A-88398070",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops, Zip-Up Sweatshirts",
       filters: {
-        brand: "Transformers",
+        type: "Zip-Up Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-grimlock-saves-the-universe-t-shirt/-/A-87692629",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/city-threads-100-cotton-kids-unisex-soft-fleece-zip-hoodie-with-inner-pockets-usa-made/-/A-1001830183",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops, Zip-Up Sweatshirts",
       filters: {
-        brand: "Transformers",
+        type: "Zip-Up Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-megatron-decepticons-leader-t-shirt/-/A-82149876",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/harry-potter-slytherin-ravenclaw-hufflepuff-girls-french-terry-zip-up-hoodie-little-kid-to-big-kid/-/A-89291810",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops, Zip-Up Sweatshirts",
       filters: {
-        brand: "Transformers",
+        type: "Zip-Up Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-rise-of-the-beasts-movie-logo-character-squares-t-shirt/-/A-89222807",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/l-o-l-surprise-snow-angel-french-terry-zip-up-hoodie-toddler-to-big-kid/-/A-88227571",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops, Zip-Up Sweatshirts",
       filters: {
-        brand: "Transformers",
+        type: "Zip-Up Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-optimus-prime-join-the-autobots-t-shirt/-/A-87692621",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/castore-red-bull-racing-f1-kid-s-2025-team-full-zip-hoodie/-/A-1002208382",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops, Zip-Up Sweatshirts",
       filters: {
-        brand: "Transformers",
+        type: "Zip-Up Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-earthspark-home-team-t-shirt/-/A-88536174",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/the-pink-picket-fence-suzie-dino-hoodie-for-girls-lightweight-zip-up-jacket-hand-painted-dinosaur-print/-/A-1004883980",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops, Zip-Up Sweatshirts",
       filters: {
-        brand: "Transformers",
+        type: "Zip-Up Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-autobots-space-battle-logo-t-shirt/-/A-92938405",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/castore-alpine-racing-f1-2025-kids-team-full-zip-hoodie/-/A-1002315505",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops, Zip-Up Sweatshirts",
       filters: {
-        brand: "Transformers",
+        type: "Zip-Up Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-earthspark-megatron-decepticon-logo-t-shirt/-/A-88536109",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/girls-39-relaxed-fit-french-terry-zip-up-hooded-sweatshirt-cat-38-jack-8482/-/A-94576209",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops, Zip-Up Sweatshirts",
       filters: {
-        brand: "Transformers",
+        type: "Zip-Up Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-rise-of-the-beasts-optimus-prime-stack-logo-t-shirt/-/A-1001664258",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/kids-adaptive-fleece-zip-up-hooded-sweatshirt-cat-jack-black/-/A-94581064",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops, Zip-Up Sweatshirts",
       filters: {
-        brand: "Transformers",
+        type: "Zip-Up Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-optimus-prime-valentine-roll-out-t-shirt/-/A-85563766",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/girls-39-french-terry-quarter-zip-pullover-sweatshirt-cat-38-jack-8482/-/A-94576212",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops, Zip-Up Sweatshirts",
       filters: {
-        brand: "Transformers",
+        type: "Zip-Up Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-earthspark-bumblebee-autobots-logo-t-shirt/-/A-88536329",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/girls-39-hello-kitty-zip-up-hooded-sweatshirt-green/-/A-94431044",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops, Zip-Up Sweatshirts",
       filters: {
-        brand: "Transformers",
+        type: "Zip-Up Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-siege-poster-t-shirt/-/A-82149667",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/city-threads-usa-made-boys-cotton-upf-50-soft-3-pocket-jersey-shorts/-/A-92149866",
+      tags: "Athletic Shorts, Bottoms, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Transformers",
+        type: "Athletic Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-rise-of-the-beasts-face-squares-t-shirt/-/A-89222804",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/toddler-boys-2pk-pull-on-straight-fit-jeans-cat-jack-blue-denim-brown/-/A-89513517",
+      tags: "Bottom Sets, Bottoms, Toddler Boys’ Clothing, Toddler Clothing, Pant Sets",
       filters: {
-        brand: "Transformers",
+        type: "Bottom Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-earthspark-bumblebee-portrait-t-shirt/-/A-88536502",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/studio-3-toddler-little-and-big-boy-s-3-pack-french-terry-knit-shorts/-/A-92489960",
+      tags: "Bottom Sets, Bottoms, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Transformers",
+        type: "Bottom Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-autobots-ready-to-roll-out-t-shirt/-/A-87692902",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/studio-3-little-big-boys-4-pack-active-fleece-jogger-sweatpants/-/A-1000170412",
+      tags: "Bottom Sets, Bottoms, Toddler Boys’ Clothing, Toddler Clothing, Pant Sets",
       filters: {
-        brand: "Transformers",
+        type: "Bottom Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-bumblebee-ugly-xmas-t-shirt/-/A-82150239",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/studio-3-toddler-boys-4-pack-french-terry-jogger-sweatpants-black-charcoal-heather-gray-navy-3t/-/A-1003438459",
+      tags: "Bottom Sets, Bottoms, Toddler Boys’ Clothing, Toddler Clothing, Pant Sets",
       filters: {
-        brand: "Transformers",
+        type: "Bottom Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-bumblebee-2nd-birthday-t-shirt/-/A-82150255",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/toddler-boys-39-cargo-pants-cat-38-jack-8482/-/A-94505025",
+      tags: "Bottoms, Cargo Pants, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Transformers",
+        type: "Cargo Pants",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-decepticon-characters-boxes-t-shirt/-/A-87692691",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/toddler-boys-39-cargo-denim-pants-cat-38-jack-8482/-/A-94569675",
+      tags: "Bottoms, Cargo Pants, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Transformers",
+        type: "Cargo Pants",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-split-bot-neon-logo-t-shirt/-/A-82149776",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/parachute-cargo-pocket-jogger-pants-dark-teal/-/A-1002803211",
+      tags: "Bottoms, Cargo Pants, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Transformers",
+        type: "Cargo Pants",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-this-is-my-bumblebee-costume-t-shirt/-/A-82374282",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/gerber-baby-boys-twill-shorts/-/A-1003386649",
+      tags: "Bottoms, Cargo Shorts, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Transformers",
+        type: "Cargo Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-rise-of-the-beasts-optimus-prime-seek-adventure-t-shirt/-/A-89222780",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/toddler-boys-pull-on-denim-cargo-shorts-cat-jack-light-wash/-/A-93016698",
+      tags: "Bottoms, Cargo Shorts, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Transformers",
+        type: "Cargo Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-earthspark-be-fearless-t-shirt/-/A-88536565",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/toddler-boys-39-button-front-denim-shorts-cat-38-jack-8482-orange/-/A-90115331",
+      tags: "Bottoms, Cargo Shorts, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Transformers",
+        type: "Cargo Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-earthspark-be-fearless-badge-t-shirt/-/A-88536426",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/deux-par-deux-boy-french-terry-short-pale-blue/-/A-1003635336",
+      tags: "Bottoms, Cargo Shorts, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Transformers",
+        type: "Cargo Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-krunch-optimus-prime-t-shirt/-/A-92938435",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/deux-par-deux-boy-parachute-cargo-pocket-shorts-dark-gray/-/A-1003635976",
+      tags: "Bottoms, Cargo Shorts, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Transformers",
+        type: "Cargo Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-earthspark-mo-and-thrash-t-shirt/-/A-88536352",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/deux-par-deux-boy-parachute-cargo-pocket-shorts-royal-blue/-/A-1003636010",
+      tags: "Bottoms, Cargo Shorts, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Transformers",
+        type: "Cargo Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-earthspark-heroes-run-in-the-family-t-shirt/-/A-88536234",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/deux-par-deux-boy-parachute-cargo-pocket-shorts-light-beige/-/A-1003636000",
+      tags: "Bottoms, Cargo Shorts, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Transformers",
+        type: "Cargo Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-40-years-of-autobots-logo-t-shirt/-/A-92938014",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/deux-par-deux-boy-parachute-cargo-pocket-shorts-dark-teal/-/A-1003636029",
+      tags: "Bottoms, Cargo Shorts, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Transformers",
+        type: "Cargo Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-earthspark-group-portrait-t-shirt/-/A-88536342",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/toddler-boys-uniform-straight-pants-with-rib-waistband-cat-jack-khaki/-/A-87043171",
+      tags: "Bottoms, Chino Pants, Toddler Boys’ Clothing, Toddler Clothing, Dresswear",
       filters: {
-        brand: "Transformers",
+        type: "Chino Pants",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-transformers-distressed-rolling-out-for-40-years-t-shirt/-/A-92937944",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Transformers",
+      url: "https://www.target.com/p/toddler-boys-39-knit-pants-cat-38-jack-8482-khaki/-/A-90781611",
+      tags: "Bottoms, Chino Pants, Toddler Boys’ Clothing, Toddler Clothing, Dresswear",
       filters: {
-        brand: "Transformers",
+        type: "Chino Pants",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-twister-american-patriotic-logo-t-shirt/-/A-92915276",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Twister",
+      url: "https://www.target.com/p/hope-henry-boys-chambray-suit-pant-toddler/-/A-85566476",
+      tags: "Bottoms, Chino Pants, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Twister",
+        type: "Chino Pants",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-twister-spin-fall-repeat-t-shirt/-/A-92915318",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Twister",
+      url: "https://www.target.com/p/hope-henry-boys-organic-cotton-skinny-stretch-twill-chino-toddler/-/A-83462426",
+      tags: "Bottoms, Chino Pants, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Twister",
+        type: "Chino Pants",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-twister-dad-says-make-your-move-t-shirt/-/A-92914860",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Twister",
+      url: "https://www.target.com/p/gerber-infant-and-toddler-boys-canvas-pants-gray-5t/-/A-89651397",
+      tags: "Bottoms, Chino Pants, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Twister",
+        type: "Chino Pants",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-twister-let-s-twist-t-shirt/-/A-92914959",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Twister",
+      url: "https://www.target.com/p/toddler-boys-39-quick-dry-chino-shorts-cat-38-jack-8482-khaki-4t/-/A-92698507",
+      tags: "Bottoms, Chino Shorts, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Twister",
+        type: "Chino Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-twister-but-first-twist-t-shirt/-/A-92915157",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Twister",
+      url: "https://www.target.com/p/toddler-boys-39-quick-dry-chino-shorts-cat-38-jack-8482-khaki-3t/-/A-92698506",
+      tags: "Bottoms, Chino Shorts, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Twister",
+        type: "Chino Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-twister-spin-to-win-t-shirt/-/A-92914649",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Twister",
+      url: "https://www.target.com/p/toddler-boys-stretch-flat-front-uniform-chino-shorts-cat-jack/-/A-87050930",
+      tags: "Bottoms, Chino Shorts, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Twister",
+        type: "Chino Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-twister-don-t-get-it-twisted-t-shirt/-/A-92915361",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Twister",
+      url: "https://www.target.com/p/toddler-boys-39-quick-dry-chino-shorts-cat-38-jack-8482-gray-3t/-/A-92698500",
+      tags: "Bottoms, Chino Shorts, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Twister",
+        type: "Chino Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/ufc-boys-fist-inside-logo-graphic-t-shirt/-/A-1004766168",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, UFC",
+      url: "https://www.target.com/p/toddler-boys-39-quick-dry-chino-shorts-cat-38-jack-8482-khaki-2t/-/A-92698505",
+      tags: "Bottoms, Chino Shorts, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "UFC",
+        type: "Chino Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/ufc-boys-distressed-logo-graphic-t-shirt/-/A-1004765858",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, UFC",
+      url: "https://www.target.com/p/toddler-boys-39-quick-dry-chino-shorts-cat-38-jack-8482-gray-4t/-/A-92698501",
+      tags: "Bottoms, Chino Shorts, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "UFC",
+        type: "Chino Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/ufc-boys-fist-inside-logo-graphic-t-shirt/-/A-1004766163",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, UFC",
+      url: "https://www.target.com/p/toddler-boys-39-quick-dry-chino-shorts-cat-38-jack-8482-khaki-5t/-/A-92698508",
+      tags: "Bottoms, Chino Shorts, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "UFC",
+        type: "Chino Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/ufc-boys-fist-inside-logo-graphic-t-shirt/-/A-1004765941",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, UFC",
+      url: "https://www.target.com/p/toddler-boys-39-quick-dry-chino-shorts-cat-38-jack-8482-gray-2t/-/A-92698499",
+      tags: "Bottoms, Chino Shorts, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "UFC",
+        type: "Chino Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/ufc-boys-octagon-logo-graphic-t-shirt-blue-l/-/A-1004733932",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, UFC",
+      url: "https://www.target.com/p/toddler-boys-39-quick-dry-chino-shorts-cat-38-jack-8482-gray-5t/-/A-92698502",
+      tags: "Bottoms, Chino Shorts, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "UFC",
+        type: "Chino Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/ufc-boys-distressed-fist-graphic-t-shirt-grey-s/-/A-1004736124",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, UFC",
+      url: "https://www.target.com/p/toddler-boys-39-quick-dry-chino-shorts-cat-38-jack-8482-khaki-18m/-/A-92698504",
+      tags: "Bottoms, Chino Shorts, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "UFC",
+        type: "Chino Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/ufc-boys-octagon-logo-graphic-t-shirt/-/A-1004766307",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, UFC",
+      url: "https://www.target.com/p/toddler-boys-39-quick-dry-chino-shorts-cat-38-jack-8482-gray-18m/-/A-92698498",
+      tags: "Bottoms, Chino Shorts, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "UFC",
+        type: "Chino Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/ufc-boys-distressed-logo-graphic-t-shirt/-/A-1004765884",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, UFC",
+      url: "https://www.target.com/p/toddler-boys-39-quick-dry-chino-shorts-cat-38-jack-8482-khaki-12m/-/A-92698503",
+      tags: "Bottoms, Chino Shorts, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "UFC",
+        type: "Chino Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/ufc-boys-fist-inside-logo-graphic-t-shirt/-/A-1004765910",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, UFC",
+      url: "https://www.target.com/p/deux-par-deux-boy-slant-pocket-bermuda-shorts-navy-blue-striped/-/A-1003635251",
+      tags: "Bottoms, Chino Shorts, Toddler Boys’ Clothing, Toddler Clothing, Dresswear",
       filters: {
-        brand: "UFC",
+        type: "Chino Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/ufc-boys-distressed-print-graphic-t-shirt/-/A-1004766014",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, UFC",
+      url: "https://www.target.com/p/deux-par-deux-boy-slant-pocket-bermuda-shorts-light-taupe/-/A-1003607654",
+      tags: "Bottoms, Chino Shorts, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "UFC",
+        type: "Chino Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/ufc-boys-fist-inside-logo-graphic-t-shirt/-/A-1004766083",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, UFC",
+      url: "https://www.target.com/p/deux-par-deux-boy-slant-pocket-bermuda-shorts-navy-blue/-/A-1003635287",
+      tags: "Bottoms, Chino Shorts, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "UFC",
+        type: "Chino Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/ufc-boys-distressed-logo-graphic-t-shirt/-/A-1004766092",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, UFC",
+      url: "https://www.target.com/p/toddler-boys-39-relaxed-fit-snap-denim-pants-cat-38-jack-8482/-/A-94576087",
+      tags: "Bottoms, Fashion Pants, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "UFC",
+        type: "Fashion Pants",
       },
     },
     {
-      url: "https://www.target.com/p/ufc-boys-no-248-two-title-fights-graphic-t-shirt/-/A-1004741445",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, UFC",
+      url: "https://www.target.com/p/kids-ian-mesh-color-block-basketball-shorts-olive-scout/-/A-1003241012",
+      tags: "Bottoms, Fashion Shorts, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "UFC",
+        type: "Fashion Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/ufc-boys-international-fight-week-2017-graphic-t-shirt/-/A-1004741088",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, UFC",
+      url: "https://www.target.com/p/ruggedbutts-toddler-boys-hybrid-shorts/-/A-1002893230",
+      tags: "Bottoms, Fashion Shorts, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "UFC",
+        type: "Fashion Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/ufc-boys-hammer-fist-graphic-t-shirt/-/A-1004741013",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, UFC",
+      url: "https://www.target.com/p/deux-par-deux-boy-printed-french-terry-short-beige-with-palm-trees/-/A-1003635356",
+      tags: "Bottoms, Fashion Shorts, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "UFC",
+        type: "Fashion Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/sega-modern-sonic-the-hedgehog-youth-boys-royal-blue-graphic-tee/-/A-85353022",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, USA",
+      url: "https://www.target.com/p/deux-par-deux-boy-french-terry-short-gradient-beige-and-teal/-/A-1003636810",
+      tags: "Bottoms, Fashion Shorts, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "USA",
+        type: "Fashion Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/sonic-the-hedgehog-blue-boys-t-shirt/-/A-85352547",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, USA",
+      url: "https://www.target.com/p/deux-par-deux-boy-printed-chambray-short-pale-blue-and-navy/-/A-1003635375",
+      tags: "Bottoms, Fashion Shorts, Toddler Boys’ Clothing, Toddler Clothing, Dresswear",
       filters: {
-        brand: "USA",
+        type: "Fashion Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/ultraman-rising-emi-youth-black-crew-neck-long-sleeve-tee/-/A-94157283",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Ultraman",
+      url: "https://www.target.com/p/toddler-boys-39-button-front-slim-leg-denim-pants-cat-38-jack-8482-light-wash/-/A-93276574",
+      tags: "Bottoms, Five Pocket Pants, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Ultraman",
+        type: "Five Pocket Pants",
       },
     },
     {
-      url: "https://www.target.com/p/ultraman-chibi-flying-ultraman-youth-charcoal-short-sleeve-crew-neck-tee/-/A-89244026",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Ultraman",
+      url: "https://www.target.com/p/gerber-baby-and-toddler-gender-neutral-cuffed-denim-shorts/-/A-1003216438",
+      tags: "Bottoms, Jean Shorts, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Ultraman",
+        type: "Jean Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/ultraman-fighting-a-monster-youth-red-short-sleeve-crew-neck-tee/-/A-89243958",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Ultraman",
+      url: "https://www.target.com/p/gerber-baby-and-toddler-gender-neutral-denim-shorts/-/A-1003216454",
+      tags: "Bottoms, Jean Shorts, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Ultraman",
+        type: "Jean Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/ultraman-flying-chibi-ultraman-with-title-logo-youth-navy-blue-short-sleeve-crew-neck-tee/-/A-89243980",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Ultraman",
+      url: "https://www.target.com/p/hope-henry-boys-organic-cotton-chambray-short-toddler/-/A-91302777",
+      tags: "Bottoms, Jean Shorts, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Ultraman",
+        type: "Jean Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/ultraman-portraits-youth-white-short-sleeve-crew-neck-tee/-/A-89243972",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Ultraman",
+      url: "https://www.target.com/p/oshkosh-b-gosh-toddler-boys-denim-shortalls-medium-wash/-/A-93780393",
+      tags: "Bottoms, Jean Shorts, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Ultraman",
+        type: "Jean Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/ultraman-red-character-silhouette-with-checkered-background-and-kanji-title-youth-white-short-sleeve-tee/-/A-89243995",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Ultraman",
+      url: "https://www.target.com/p/oshkosh-b-gosh-toddler-boys-railroad-striped-shortalls-red/-/A-93780372",
+      tags: "Bottoms, Jean Shorts, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Ultraman",
+        type: "Jean Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/ultraman-rising-ultraman-strike-pose-crew-neck-short-sleeve-boy-s-black-t-shirt/-/A-92986174",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Ultraman",
+      url: "https://www.target.com/p/rufflebutts-toddler-boys-stretch-denim-shorts/-/A-91546913",
+      tags: "Bottoms, Jean Shorts, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Ultraman",
+        type: "Jean Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/ultraman-rising-glowing-ultraman-crew-neck-short-sleeve-boy-s-black-t-shirt/-/A-92986165",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Ultraman",
+      url: "https://www.target.com/p/gerber-baby-and-toddler-neutral-denim-shorts/-/A-1003277442",
+      tags: "Bottoms, Jean Shorts, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Ultraman",
+        type: "Jean Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/ultraman-beam-stance-crew-neck-short-sleeve-boy-s-black-t-shirt/-/A-89243940",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Ultraman",
+      url: "https://www.target.com/p/toddler-boys-pull-on-straight-fit-jeans-cat-jack/-/A-89539602",
+      tags: "Bottoms, Jeans, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Ultraman",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/ultraman-monochrome-hero-in-colored-panels-crew-neck-short-sleeve-boy-s-black-t-shirt/-/A-89243963",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Ultraman",
+      url: "https://www.target.com/p/toddler-boys-button-front-straight-leg-denim-pants-cat-jack-medium-wash/-/A-93276630",
+      tags: "Bottoms, Jeans, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Ultraman",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-land-before-time-dinosaur-summer-splash-t-shirt/-/A-85088314",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Universal",
+      url: "https://www.target.com/p/toddler-boys-39-straight-leg-denim-pants-cat-38-jack-8482-black/-/A-90629736",
+      tags: "Bottoms, Jeans, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Universal",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-land-before-time-dinosaur-squares-t-shirt/-/A-85088948",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Universal",
+      url: "https://www.target.com/p/toddler-boys-straight-fit-jeans-cat-jack/-/A-89539603",
+      tags: "Bottoms, Jeans, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Universal",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-universal-monsters-ugly-christmas-style-t-shirt/-/A-84868060",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Universal Studios Monsters",
+      url: "https://www.target.com/p/toddler-boys-slim-fit-jeans-cat-jack/-/A-89528517",
+      tags: "Bottoms, Jeans, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Universal Studios Monsters",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-universal-monsters-christmas-creature-from-the-lagoon-creepy-string-lights-t-shirt/-/A-84868249",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Universal Studios Monsters",
+      url: "https://www.target.com/p/toddler-solid-jeggings-cat-jack/-/A-90748195",
+      tags: "Bottoms, Jeans, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Universal Studios Monsters",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-universal-monsters-christmas-creature-from-the-lagoon-creepy-t-shirt/-/A-84868055",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Universal Studios Monsters",
+      url: "https://www.target.com/p/toddler-boys-pull-on-straight-fit-jeans-cat-jack-khaki/-/A-89930208",
+      tags: "Bottoms, Jeans, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Universal Studios Monsters",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-the-wolf-man-halloween-ripped-chest-costume-t-shirt/-/A-87528905",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Universal Studios Monsters",
+      url: "https://www.target.com/p/toddler-boys-straight-fit-denim-pants-cat-jack-khaki/-/A-94474469",
+      tags: "Bottoms, Jeans, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Universal Studios Monsters",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-creature-form-the-black-lagoon-halloween-scaly-chest-costume-t-shirt/-/A-87528898",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Universal Studios Monsters",
+      url: "https://www.target.com/p/toddler-boys-39-straight-fit-button-front-denim-pants-cat-38-jack-8482-dark-wash/-/A-94582867",
+      tags: "Bottoms, Jeans, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Universal Studios Monsters",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/usagi-yojimbo-distressed-character-sketch-youth-black-crew-neck-long-sleeve-sweatshirt/-/A-1003810106",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Usagi Yojimbo",
+      url: "https://www.target.com/p/boys-39-adaptive-jeans-cat-38-jack-8482/-/A-94600602",
+      tags: "Bottoms, Jeans, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Usagi Yojimbo",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/usagi-yojimbo-usagi-poster-art-youth-black-crew-neck-long-sleeve-sweatshirt/-/A-1003810084",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Usagi Yojimbo",
+      url: "https://www.target.com/p/toddler-boys-adaptive-jeans-cat-jack-medium-wash/-/A-85404388",
+      tags: "Bottoms, Jeans, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Usagi Yojimbo",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/usagi-yojimbo-dual-blades-sketch-youth-black-crew-neck-short-sleeve-t-shirt/-/A-1003807239",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Usagi Yojimbo",
+      url: "https://www.target.com/p/toddler-boys-adaptive-jeans-cat-jack-light-wash/-/A-85404502",
+      tags: "Bottoms, Jeans, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Usagi Yojimbo",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/usagi-yojimbo-dual-blades-sketch-youth-white-crew-neck-short-sleeve-t-shirt/-/A-1003807319",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Usagi Yojimbo",
+      url: "https://www.target.com/p/toddler-boys-woven-jogger-pants-cat-jack/-/A-88005607",
+      tags: "Bottoms, Jogger Pants, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Usagi Yojimbo",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/venum-kid-s-gorilla-jungle-t-shirt-sand-black/-/A-91723444",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Venum",
+      url: "https://www.target.com/p/toddler-boys-5pk-jersey-jogger-pants-cat-jack/-/A-89665617",
+      tags: "Bottoms, Jogger Pants, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Venum",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-voltron-defender-of-the-universe-space-walk-t-shirt/-/A-85153780",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Voltron",
+      url: "https://www.target.com/p/toddler-boys-washed-french-terry-jogger-pants-cat-jack/-/A-94465148",
+      tags: "Bottoms, Jogger Pants, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Voltron",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-voltron-defender-of-the-universe-defender-stance-t-shirt/-/A-82364674",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Voltron",
+      url: "https://www.target.com/p/toddler-boys-39-halloween-dino-pants-cat-38-jack-8482-black/-/A-94582868",
+      tags: "Bottoms, Jogger Pants, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Voltron",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-voltron-defender-of-the-universe-retro-robot-lions-t-shirt/-/A-84263584",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Voltron",
+      url: "https://www.target.com/p/gerber-baby-and-toddler-boys-3-pack-jogger-pants/-/A-1004045135",
+      tags: "Bottoms, Jogger Pants, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Voltron",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-voltron-defender-of-the-universe-retro-oval-mouth-t-shirt/-/A-85153776",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Voltron",
+      url: "https://www.target.com/p/mightly-toddler-fair-trade-organic-cotton-jogger-sweatpant/-/A-1004010320",
+      tags: "Bottoms, Jogger Pants, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Voltron",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-voltron-legendary-defender-lions-team-panels-t-shirt/-/A-87530064",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Voltron",
+      url: "https://www.target.com/p/city-threads-usa-made-100-cotton-fleece-soft-lightweight-pocket-jogger-for-boys-and-girls/-/A-91282153",
+      tags: "Bottoms, Jogger Pants, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Voltron",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-voltron-defender-of-the-universe-retro-rainbow-lions-t-shirt/-/A-82364324",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Voltron",
+      url: "https://www.target.com/p/marvel-spider-man-little-boys-2-pack-pants-blue-grey-6/-/A-87235389",
+      tags: "Bottoms, Jogger Pants, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Voltron",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wall-e-journey-into-space-performance-tee/-/A-87573499",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WALL-E",
+      url: "https://www.target.com/p/ruggedbutts-boys-chino-jogger-pants-from-ruggedbutts/-/A-87888556",
+      tags: "Bottoms, Jogger Pants, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WALL-E",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wall-e-valentine-s-day-her-wall-e-performance-tee/-/A-88323736",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WALL-E",
+      url: "https://www.target.com/p/mightly-toddler-organic-cotton-lightweight-jogger-sweatpant/-/A-1004010259",
+      tags: "Bottoms, Jogger Pants, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WALL-E",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-husky-wall-e-wall-e-eve-in-space/-/A-87573361",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WALL-E",
+      url: "https://www.target.com/p/city-threads-usa-made-fleece-cotton-soft-pocket-jogger-for-boys-and-girls/-/A-91227792",
+      tags: "Bottoms, Jogger Pants, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WALL-E",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wall-e-eve-robot-triangle-t-shirt/-/A-1001542555",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WALL-E",
+      url: "https://www.target.com/p/parachute-cargo-pocket-jogger-pants-dark-gray/-/A-1002790928",
+      tags: "Bottoms, Jogger Pants, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WALL-E",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wall-e-new-axiom-poster-t-shirt/-/A-82360407",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WALL-E",
+      url: "https://www.target.com/p/cocomelon-jj-fleece-2-pack-jogger-pants-toddler/-/A-85043317",
+      tags: "Bottoms, Jogger Pants, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WALL-E",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wall-e-easter-basket-fun-t-shirt/-/A-91248510",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WALL-E",
+      url: "https://www.target.com/p/mixed-up-clothing-infant-thank-you-jogger/-/A-94053619",
+      tags: "Bottoms, Jogger Pants, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WALL-E",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-john-cena-respect-earn-it-t-shirt/-/A-87894765",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/andy-evan-toddler-black-pique-jogger/-/A-93590469",
+      tags: "Bottoms, Jogger Pants, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/boys-wwe-tropical-jey-uso-t-shirt/-/A-1003929587",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/french-terry-denim-jogger-pant-denim-blue/-/A-1002790891",
+      tags: "Bottoms, Jogger Pants, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-hulk-hogan-american-flag-t-shirt/-/A-1001262853",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/french-terry-denim-jogger-pant-dark-denim-blue/-/A-1002790830",
+      tags: "Bottoms, Jogger Pants, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/boys-wwe-we-the-ones-bloodline-t-shirt/-/A-1003929875",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/mixed-up-clothing-boys-sweatshorts-jacquard-stripe/-/A-93209666",
+      tags: "Bottoms, Jogger Shorts, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Jogger Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-cody-rhodes-patriotic-pose-t-shirt/-/A-1001262686",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/kids-leo-athletic-shorts-olive-scout/-/A-1002476537",
+      tags: "Bottoms, Jogger Shorts, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Jogger Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/boys-wwe-cody-rhodes-finish-the-story-t-shirt/-/A-1003929595",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/mykids-usa-boys-solid-color-green-soft-casual-style-shorts/-/A-1003286350",
+      tags: "Bottoms, Jogger Shorts, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Jogger Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/boys-wwe-cm-punk-t-shirt/-/A-1003929602",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/the-peanutshell-earthy-neutral-pants-for-baby-boys-and-girls-5-pack-set/-/A-93566682",
+      tags: "Bottoms, Leggings, Toddler Boys’ Clothing, Toddler Clothing, Pull-on Pants",
       filters: {
-        brand: "WWE",
+        type: "Leggings",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-randy-orton-strikefirst-rko-t-shirt/-/A-87187723",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/leveret-baby-navy-crawling-pant-and-colored-legging/-/A-89962991",
+      tags: "Bottoms, Leggings, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Leggings",
       },
     },
     {
-      url: "https://www.target.com/p/boys-wwe-bray-wyatt-collage-t-shirt/-/A-1003929578",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/the-peanutshell-baby-boy-pants-5-pack-boy-basics/-/A-93566695",
+      tags: "Bottoms, Leggings, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Leggings",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-boy-who-loves-wrestling-distressed-t-shirt/-/A-1001048389",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/wrapables-baby-and-toddler-animal-leggings-set-of-3-12-to-24-months-gray-and-brown/-/A-93713795",
+      tags: "Bottoms, Leggings, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Leggings",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-elements-of-superstars-t-shirt/-/A-1001048420",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/wrapables-baby-toddler-leggings-little-pink-birdie/-/A-1002270513",
+      tags: "Bottoms, Leggings, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Leggings",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-john-cena-never-give-up-logo-t-shirt/-/A-1001262824",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/the-peanutshell-soft-heather-neutral-pants-for-baby-boy-and-girl-5-pack-set/-/A-93566707",
+      tags: "Bottoms, Leggings, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Leggings",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-americana-logo-t-shirt/-/A-1001048448",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/wrapables-baby-toddler-leggings-heartful-hare/-/A-1002270452",
+      tags: "Bottoms, Leggings, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Leggings",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-rey-mysterio-poster-t-shirt/-/A-87895856",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/ad-rescue-wear-wrap-e-soothe-ultra-soft-non-itch-eczema-pants-for-kids-eco-friendly-tencel-eczema-clothing-no-zinc-or-dyes/-/A-94165508",
+      tags: "Bottoms, Leggings, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Leggings",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-rhodes-skull-logo-t-shirt/-/A-1001411448",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/doodle-pants-blue-winter-moose-leggings/-/A-1002650723",
+      tags: "Bottoms, Leggings, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Leggings",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-championship-belt-t-shirt/-/A-87189773",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/wrapables-baby-toddler-leggings-lovely-billy-goat/-/A-1002270477",
+      tags: "Bottoms, Leggings, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Leggings",
       },
     },
     {
-      url: "https://www.target.com/p/boys-wwe-letter-logo-t-shirt/-/A-1003929943",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/doodle-pants-dolphin-leggings/-/A-1002719091",
+      tags: "Bottoms, Leggings, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Leggings",
       },
     },
     {
-      url: "https://www.target.com/p/boys-wwe-the-rock-the-people-s-champ-t-shirt/-/A-1003929362",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/wrapables-baby-toddler-leggings-bunny-and-teddy-bear/-/A-1002270507",
+      tags: "Bottoms, Leggings, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Leggings",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-stone-cold-steve-austin-signature-photo-t-shirt/-/A-87188254",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/wrapables-baby-and-toddler-animal-leggings-set-of-3-24-to-36-months-cars-and-animals/-/A-93713479",
+      tags: "Bottoms, Leggings, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Leggings",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-jake-the-snake-retro-t-shirt/-/A-87895367",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/wrapables-baby-and-toddler-animal-leggings-set-of-3-24-to-36-months-adventure-time/-/A-93713564",
+      tags: "Bottoms, Leggings, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Leggings",
       },
     },
     {
-      url: "https://www.target.com/p/boys-wwe-john-cena-you-can-t-see-me-blue-t-shirt/-/A-1004414102",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/wrapables-baby-toddler-leggings-piano-lion/-/A-1002270481",
+      tags: "Bottoms, Leggings, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Leggings",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-chrome-logo-t-shirt/-/A-87895483",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/wrapables-baby-toddler-leggings-panda-likes-milk/-/A-1002270519",
+      tags: "Bottoms, Leggings, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Leggings",
       },
     },
     {
-      url: "https://www.target.com/p/boys-wwe-bloodline-we-the-ones-t-shirt/-/A-1003929734",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/wrapables-baby-toddler-leggings-cuty-baby/-/A-1002270475",
+      tags: "Bottoms, Leggings, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Leggings",
       },
     },
     {
-      url: "https://www.target.com/p/boys-wwe-seth-freakin-rollins-gradient-t-shirt/-/A-1003929619",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/wrapables-baby-toddler-leggings-bunny-and-stripes/-/A-1002270490",
+      tags: "Bottoms, Leggings, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Leggings",
       },
     },
     {
-      url: "https://www.target.com/p/boys-wwe-roman-portrait-t-shirt/-/A-1003929985",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/wrapables-baby-toddler-leggings-accordion-frog/-/A-1002270468",
+      tags: "Bottoms, Leggings, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Leggings",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-john-cena-the-champ-is-here-t-shirt/-/A-87894729",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/wrapables-baby-toddler-leggings-123-elephant/-/A-1002270501",
+      tags: "Bottoms, Leggings, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Leggings",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-stone-cold-steve-austin-3-16-white-logo-t-shirt/-/A-87896017",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/wrapables-baby-toddler-leggings-chipper-bell-bunny/-/A-1002270471",
+      tags: "Bottoms, Leggings, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Leggings",
       },
     },
     {
-      url: "https://www.target.com/p/boys-wwe-the-undertaker-face-logo-t-shirt/-/A-1003930030",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/wrapables-baby-toddler-leggings-owl-and-stripes/-/A-1002270449",
+      tags: "Bottoms, Leggings, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Leggings",
       },
     },
     {
-      url: "https://www.target.com/p/boys-wwe-dominik-mysterio-purple-art-t-shirt/-/A-1003929965",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/wrapables-baby-toddler-leggings-donkey-and-drum/-/A-1002270484",
+      tags: "Bottoms, Leggings, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Leggings",
       },
     },
     {
-      url: "https://www.target.com/p/boys-wwe-monochrome-roman-portrait-t-shirt/-/A-1003929999",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/wrapables-baby-toddler-leggings-squirrel-and-polka-dots/-/A-1002270523",
+      tags: "Bottoms, Leggings, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Leggings",
       },
     },
     {
-      url: "https://www.target.com/p/boys-wwe-american-nightmare-cody-t-shirt/-/A-1003929325",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/deux-par-deux-boy-french-terry-short-teal/-/A-1003635409",
+      tags: "Bottoms, Lounge Shorts, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Lounge Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-hulk-hogan-hulkster-rules-t-shirt/-/A-87897275",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/deux-par-deux-boy-french-terry-short-vibrant-orange/-/A-1003635279",
+      tags: "Bottoms, Lounge Shorts, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Lounge Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-john-cena-cenation-animated-t-shirt/-/A-87895655",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/deux-par-deux-boy-french-terry-short-black/-/A-1003635453",
+      tags: "Bottoms, Lounge Shorts, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Lounge Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-finn-balor-portrait-t-shirt/-/A-87895414",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/deux-par-deux-boy-french-terry-zip-pocket-shorts-pale-mauve-blue/-/A-1003635432",
+      tags: "Bottoms, Lounge Shorts, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Lounge Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/boys-wwe-hulk-hogan-vs-the-ultimate-warrior-poster-t-shirt/-/A-1003929353",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/deux-par-deux-boy-french-terry-zip-pocket-shorts-navy-blue/-/A-1003635466",
+      tags: "Bottoms, Lounge Shorts, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Lounge Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-ultimate-warrior-retro-poster-t-shirt/-/A-87188134",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/toddler-boys-jersey-jogger-pants-cat-jack/-/A-91551161",
+      tags: "Bottoms, Pull-on Pants, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Pull-on Pants",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-roman-reigns-poster-t-shirt/-/A-1001411879",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/toddler-boys-fleece-jogger-pants-cat-jack/-/A-94465238",
+      tags: "Bottoms, Pull-on Pants, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Pull-on Pants",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-roman-reigns-poster-t-shirt/-/A-87897851",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/toddler-boys-39-wide-leg-pants-cat-38-jack-8482/-/A-94502374",
+      tags: "Bottoms, Pull-on Pants, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Pull-on Pants",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-stone-cold-steve-austin-silver-logo-t-shirt/-/A-87187021",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/toddler-boys-fleece-pull-on-jogger-pants-cat-jack/-/A-90940492",
+      tags: "Bottoms, Pull-on Pants, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Pull-on Pants",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-ultimate-warrior-always-believe-electric-ropes-t-shirt/-/A-87188545",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/toddler-boys-jersey-jogger-pants-cat-jack/-/A-94632238",
+      tags: "Bottoms, Pull-on Pants, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Pull-on Pants",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-john-cena-never-give-up-blue-logo-t-shirt/-/A-87897587",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/toddler-boys-adaptive-straight-fit-pull-on-woven-pants-cat-jack-gray/-/A-88347422",
+      tags: "Bottoms, Pull-on Pants, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Pull-on Pants",
       },
     },
     {
-      url: "https://www.target.com/p/boys-wwe-the-rock-vs-steve-austin-t-shirt/-/A-1003929833",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/city-threads-usa-made-boys-soft-cotton-athletic-pants-upf-50/-/A-91117141",
+      tags: "Bottoms, Pull-on Pants, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Pull-on Pants",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-aj-styles-the-phenomenal-one-t-shirt/-/A-87896378",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/city-threads-usa-made-thermal-baby-pant-for-boys-and-girls-soft-cozy/-/A-91281937",
+      tags: "Bottoms, Pull-on Pants, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Pull-on Pants",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-john-cena-the-champ-t-shirt/-/A-1001048490",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/honest-baby-2-pack-organic-cotton-honest-pants/-/A-1001305913",
+      tags: "Bottoms, Pull-on Pants, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Pull-on Pants",
       },
     },
     {
-      url: "https://www.target.com/p/boys-wwe-the-bloodline-team-t-shirt/-/A-1003929608",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/gerber-baby-and-toddler-boys-active-pants-4-pack/-/A-89537371",
+      tags: "Bottoms, Pull-on Pants, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Pull-on Pants",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-retro-wrestlers-triangle-t-shirt/-/A-1001048397",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/gerber-baby-boys-microfleece-pants-4-pack/-/A-90150560",
+      tags: "Bottoms, Pull-on Pants, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Pull-on Pants",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-austin-3-16-t-shirt/-/A-87187914",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/modern-moments-by-gerber-baby-boys-2-piece-henley-shirt-and-pant-set/-/A-1001646156",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-irish-wrestlers-t-shirt/-/A-90779684",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/toddler-boys-39-long-sleeve-button-down-shirt-and-suspender-pants-set-cat-38-jack-8482-white/-/A-90825470",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing, Dresswear, Top and Bottom Sets",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-new-day-rocks-t-shirt/-/A-87895186",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/toddler-boys-39-blazer-38-pants-suit-set-cat-38-jack-8482/-/A-90840562",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boys-wwe-rock-around-the-christmas-tree-t-shirt/-/A-1003929312",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/toddler-boys-39-americana-pocket-4th-of-july-party-in-the-usa-set-cat-38-jack-8482-red/-/A-93907364",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-ripley-black-and-white-photo-t-shirt/-/A-87898782",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/toddler-boys-americana-pocket-4th-of-july-party-in-the-usa-set-cat-jack-navy-blue/-/A-94711684",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-elements-of-superstars-t-shirt/-/A-1001048437",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/toddler-boys-39-3pk-jersey-and-french-terry-shorts-set-cat-38-jack-8482/-/A-94280112",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-wrestlemania-gold-shiny-logo-t-shirt/-/A-87896559",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/toddler-boys-short-sleeve-french-terry-t-shirt-and-shorts-set-cat-jack/-/A-92686321",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-stone-cold-steve-austin-3-16-collage-t-shirt/-/A-87898180",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/toddler-boys-short-sleeve-4th-of-july-t-shirt-and-shorts-set-cat-jack/-/A-94282841",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boys-wwe-team-angle-t-shirt/-/A-1004382304",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/toddler-boys-39-4th-of-july-short-sleeve-stars-and-striped-button-up-and-shorts-set-cat-38-jack-8482-red/-/A-94004666",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing, Dresswear, Top and Bottom Sets",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-stone-cold-steve-austin-black-and-white-photo-t-shirt/-/A-87189506",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/toddler-boys-long-sleeve-pumpkin-spice-french-terry-shirt-and-pants-set-cat-jack-khaki/-/A-94872135",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-razor-ramon-t-shirt/-/A-87188059",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/toddler-boys-39-seersucker-short-sleeve-button-up-and-pull-on-shorts-set-cat-38-jack-8482-coral-orange/-/A-94603283",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing, Dresswear, Top and Bottom Sets",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-stone-cold-steve-austin-3-16-animated-t-shirt/-/A-87189524",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/toddler-boys-39-long-sleeve-halloween-french-terry-shirt-and-pants-set-cat-38-jack-8482/-/A-94600597",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boys-wwe-drew-mcintyre-sword-pose-t-shirt/-/A-1003929573",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/disney-pixar-toy-story-woody-buzz-lightyear-bo-peep-rex-athletic-t-shirt-mesh-shorts-outfit-set-infant-to-little-kid/-/A-85258156",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-undertaker-flames-t-shirt/-/A-87896628",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/disney-winnie-the-pooh-lion-king-pixar-monsters-inc-toy-story-tigger-t-shirt-and-mesh-shorts-outfit-set-toddler-to-big-kid/-/A-89237118",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-new-day-unicorn-animated-t-shirt/-/A-87899872",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/disney-mickey-mouse-lion-king-pixar-toy-story-rex-slinky-dog-buzz-lightyear-t-shirt-and-shorts-outfit-toddler-to-little-kid/-/A-88414935",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-undertaker-purple-flames-t-shirt/-/A-87897618",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/paw-patrol-chase-marshall-rubble-mesh-jersey-tank-top-and-basketball-shorts-athletic-outfit-set-toddler/-/A-91427281",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-rey-mysterio-roman-reigns-and-bobby-lashley-t-shirt/-/A-1001048481",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/disney-mickey-mouse-donald-duck-goofy-pluto-french-terry-pullover-hoodie-and-set-infant-to-big-kid/-/A-87290826",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-undertaker-purple-lightning-logo-t-shirt/-/A-87897394",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/disney-nightmare-before-christmas-jack-skellington-t-shirt-shorts-black-gray/-/A-87232819",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-stone-cold-steve-austin-3-16-shattered-glass-t-shirt/-/A-87898184",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/marvel-spider-man-graphic-t-shirt-and-shorts-outfit-set-toddler-to-big-kid/-/A-85122051",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boys-wwe-shawn-michaels-vs-stone-cold-march-1998-t-shirt/-/A-1003929794",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/disney-pixar-toy-story-buzz-lightyear-t-shirt-and-french-terry-shorts-outfit-set-toddler/-/A-87538517",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-boy-who-loves-wrestling-t-shirt/-/A-1001048474",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/marvel-spider-man-fleece-sweatshirt-and-pants-set-toddler/-/A-85315911",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boys-wwe-deadman-forever-undertaker-t-shirt/-/A-1003929320",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/disney-pixar-cars-lion-king-lightning-mcqueen-t-shirt-and-mesh-shorts-outfit-set-toddler/-/A-88406152",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-wrestlemania-logo-t-shirt/-/A-87188094",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/disney-lion-king-toy-story-mickey-mouse-cars-t-shirt-tank-top-and-french-terry-shorts-3-piece-outfit-set-toddler/-/A-87247193",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-john-cena-you-can-t-see-me-t-shirt/-/A-87187483",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/disney-mickey-mouse-hawaiian-button-down-shirt-and-shorts-toddler-to-big-kid/-/A-89453816",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing, Dresswear, Top and Bottom Sets",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-raw-is-war-t-shirt/-/A-87187579",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/disney-mickey-mouse-lion-king-donald-duck-simba-pluto-waffle-knit-t-shirt-shorts-outfit-set-toddler/-/A-90888332",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-razor-ramon-comic-t-shirt/-/A-87899179",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/jurassic-park-athletic-graphic-t-shirt-mesh-shorts-outfit-set-logo-black-red/-/A-87295578",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-steve-austin-cause-mom-said-so-t-shirt/-/A-1001262703",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/bluey-chilli-mom-bandit-dad-bingo-coco-honey-winton-t-shirt-and-shorts-outfit-set-toddler-to-big-kid/-/A-89807003",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-new-world-order-logo-t-shirt/-/A-87188587",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/disney-mickey-mouse-lion-king-simba-t-shirt-and-shorts-outfit-set-toddler/-/A-88319681",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boys-wwe-neon-logo-2000-t-shirt/-/A-1003929826",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/sesame-street-oscar-the-grouch-elmo-bert-and-ernie-graphic-t-shirt-and-shorts-outfit-set-infant-to-little-kid/-/A-88949051",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-boy-who-loves-wrestling-t-shirt/-/A-1001262800",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/despicable-me-minions-t-shirt-and-shorts-outfit-set-toddler/-/A-85258511",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-the-rock-electric-bull-logo-t-shirt/-/A-87898986",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/teenage-mutant-ninja-turtles-donatello-leonardo-michelangelo-raphael-t-shirt-and-shorts-outfit-set-toddler-to-big-kid/-/A-85122407",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-the-rock-hey-jabroni-t-shirt/-/A-87898910",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/blaze-and-the-monster-machines-stripes-zeg-blaze-t-shirt-tank-top-and-bike-shorts-french-terry-3-piece-outfit-set-toddler/-/A-88394103",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-world-heavyweight-champion-logo-t-shirt/-/A-87188297",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/disney-mickey-mouse-baby-chambray-hawaiian-button-down-shirt-and-shorts-outfit-set-infant-to-little-kid/-/A-91241164",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing, Dresswear, Top and Bottom Sets",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boys-wwe-this-is-my-brutality-t-shirt/-/A-1003929880",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/marvel-spidey-and-his-amazing-friends-miles-morales-t-shirt-and-mesh-shorts-outfit-set-toddler-to-little-kid/-/A-87291119",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-boy-who-loves-wrestling-distressed-t-shirt/-/A-1001262771",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/paw-patrol-rocky-zuma-rubble-t-shirt-and-french-terry-shorts-outfit-set-toddler/-/A-88335666",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-ultimate-warrior-retro-logo-t-shirt/-/A-87187687",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/disney-mickey-mouse-t-shirt-and-shorts-outfit-set-infant-to-big-kid/-/A-88320092",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-hitman-bret-hart-t-shirt/-/A-87187231",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/disney-mickey-mouse-donald-duck-goofy-pluto-t-shirt-and-mesh-shorts-outfit-set-toddler/-/A-87960358",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-team-rock-t-shirt/-/A-1001411760",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/disney-mickey-mouse-french-terry-sweatshirt-shorts-grey/-/A-87289078",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-hot-rod-roddy-piper-t-shirt/-/A-87187629",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/disney-mickey-mouse-t-shirt-and-shorts-outfit-set-toddler/-/A-1003826976",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-stone-cold-steve-austin-poster-t-shirt/-/A-87187056",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/disney-mickey-mouse-lion-king-winnie-the-pooh-waffle-knit-drop-shoulder-sweatshirt-and-jogger-pants-set-toddler/-/A-92302256",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-eddie-guerrero-poster-t-shirt/-/A-87897263",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/disney-pixar-pixar-toy-story-rex-forky-buzz-lightyear-fleece-pullover-hoodie-and-pants-outfit-set-toddler/-/A-88290903",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-austin-3-16-shattered-logo-t-shirt/-/A-87188797",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/disney-mickey-mouse-christmas-fleece-pullover-hoodie-and-pants-outfit-set-infant-to-little-kid/-/A-89300117",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wwe-the-hart-foundation-t-shirt/-/A-87187660",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/disney-nightmare-before-christmas-jack-fleece-hoodie-pants/-/A-87557184",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boys-wwe-triple-h-the-game-logo-t-shirt/-/A-1003930065",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/disney-pixar-cars-lightning-mcqueen-t-shirt-and-jogger-french-terry-pants-toddler/-/A-90796315",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boys-wwe-new-world-order-t-shirt/-/A-1003929709",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/disney-mickey-mouse-toddler-boys-long-sleeve-t-shirt-fleece-pant-set-yellow/-/A-85167597",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boys-wwe-gold-bianca-belair-t-shirt/-/A-1004407108",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/disney-winnie-the-pooh-mickey-mouse-fleece-sweatshirt-and-denim-pants-outfit-set-toddler/-/A-1000179152",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boys-wwe-mcintyre-dragon-t-shirt/-/A-1003929960",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/disney-hooded-t-shirt-and-french-terry-shorts-outfit-set-toddler-sizes-2t-10-12/-/A-92825643",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boys-wwe-bell-logo-t-shirt/-/A-1003929799",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/disney-mickey-mouse-t-shirt-and-mesh-shorts-outfit-set-toddler/-/A-87956535",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boys-wwe-the-headbangers-t-shirt/-/A-1003929633",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/teenage-mutant-ninja-turtles-donatello-raphael-leonardo-t-shirt-and-french-terry-shorts-outfit-set-toddler/-/A-91080219",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boys-wwe-iconic-austin-3-16-t-shirt/-/A-1003930025",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, WWE",
+      url: "https://www.target.com/p/hot-wheels-tank-top-and-shorts-outfit-set-toddler/-/A-1002541678",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "WWE",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/warner-bros-justice-league-robin-cosplay-t-shirt-and-cape-toddler-to-big-kid/-/A-93890851",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Warner Bros.",
+      url: "https://www.target.com/p/sega-sonic-the-hedgehog-athletic-pullover-t-shirt-shorts-outfit-set-toddler-to-big-kid/-/A-85258266",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Warner Bros.",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-we-bare-bears-ice-bear-will-take-care-of-it-t-shirt/-/A-82362997",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, We Bare Bears",
+      url: "https://www.target.com/p/marvel-spider-man-miles-morales-mesh-jersey-tank-top-shirt-and-basketball-shorts-toddler-to-big-kid/-/A-90116550",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "We Bare Bears",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-we-bare-bears-here-for-shenanigans-t-shirt/-/A-90779375",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, We Bare Bears",
+      url: "https://www.target.com/p/paw-patrol-t-shirt-and-plaid-shorts-outfit-set-toddler-sizes-2t-10-12/-/A-1002274443",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "We Bare Bears",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wednesday-dance-moves-t-shirt/-/A-89879664",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wednesday Series",
+      url: "https://www.target.com/p/marvel-spidey-and-his-amazing-friends-cotton-gauze-matching-family-button-down-shirt-and-shorts-outfit-set-toddler/-/A-92997036",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wednesday Series",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wednesday-birthday-yes-happy-never-t-shirt/-/A-89879704",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wednesday Series",
+      url: "https://www.target.com/p/bluey-coco-honey-winton-bingo-t-shirt-tank-top-and-french-terry-shorts-3-piece-outfit-set-toddler-to-big-kid/-/A-87232724",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wednesday Series",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wednesday-the-addams-family-card-t-shirt/-/A-89880136",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wednesday Series",
+      url: "https://www.target.com/p/marvel-spidey-and-his-amazing-friends-fleece-pullover-hoodie-and-pants-outfit-set-toddler/-/A-85044399",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wednesday Series",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wednesday-black-and-white-dance-scene-t-shirt/-/A-88325100",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wednesday Series",
+      url: "https://www.target.com/p/marvel-spider-man-fleece-sweatshirt-and-twill-jogger-pants-outfit-set-toddler/-/A-1002541660",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wednesday Series",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wednesday-we-wear-black-portrait-t-shirt/-/A-89879710",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wednesday Series",
+      url: "https://www.target.com/p/monster-jam-grave-digger-el-toro-loco-megalodon-t-shirt-tank-top-and-french-terry-shorts-3-piece-set-toddler-to-big-kid/-/A-87294271",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wednesday Series",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wednesday-iconic-scenes-t-shirt/-/A-88325254",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wednesday Series",
+      url: "https://www.target.com/p/hot-wheels-hooded-t-shirt-and-fleece-jogger-pants-outfit-set-toddler/-/A-1003020445",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wednesday Series",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wednesday-dance-scene-logo-t-shirt/-/A-89879719",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wednesday Series",
+      url: "https://www.target.com/p/monster-jam-grave-digger-fleece-sweatshirt-and-jogger-pants-outfit-set-toddler/-/A-1001847939",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wednesday Series",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wednesday-nightshade-society-distressed-logo-t-shirt/-/A-89879996",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wednesday Series",
+      url: "https://www.target.com/p/bluey-bingo-chloe-halloween-toddler-boys-fleece-sweatshirt-and-jogger-pants-outfit-set-white-black-2t/-/A-1000163232",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wednesday Series",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wednesday-small-nevermore-crest-t-shirt/-/A-88325081",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wednesday Series",
+      url: "https://www.target.com/p/sega-sonic-the-hedgehog-french-terry-pullover-hoodie-and-shorts-outfit-set-toddler/-/A-1003005815",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wednesday Series",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wednesday-thing-very-hands-on-t-shirt/-/A-88325313",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wednesday Series",
+      url: "https://www.target.com/p/bluey-henley-t-shirt-and-french-terry-pants-toddler/-/A-90567414",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wednesday Series",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wednesday-thing-snap-twice-t-shirt/-/A-88325397",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wednesday Series",
+      url: "https://www.target.com/p/marvel-avengers-spider-man-venom-thor-captain-america-athletic-t-shirt-meshshorts-outfit-set-toddler/-/A-88327815",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wednesday Series",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wednesday-character-poster-t-shirt/-/A-89879900",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wednesday Series",
+      url: "https://www.target.com/p/jurassic-world-jurassic-world-dinosaur-jurassic-park-fleece-pullover-hoodie-and-pants-outfit-set-toddler/-/A-88398407",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wednesday Series",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wednesday-halloween-haunted-house-t-shirt/-/A-89879819",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wednesday Series",
+      url: "https://www.target.com/p/teenage-mutant-ninja-turtles-donatello-raphael-leonardo-henley-t-shirt-and-french-terry-pants-outfit-set-toddler-to-big-kid/-/A-90567417",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wednesday Series",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wednesday-always-an-addams-t-shirt/-/A-89879786",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wednesday Series",
+      url: "https://www.target.com/p/dc-comics-batwheels-bam-the-batmobile-batwing-redbird-t-shirt-and-french-terry-cargo-shorts-outfit-toddler-to-little-kid/-/A-91859070",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wednesday Series",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wednesday-i-m-allergic-to-color-skulls-t-shirt/-/A-88325370",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wednesday Series",
+      url: "https://www.target.com/p/bluey-fleece-pullover-hoodie-and-pants-outfit-set-toddler-to-little-kid/-/A-87232876",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wednesday Series",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wednesday-thing-logo-t-shirt/-/A-89880058",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wednesday Series",
+      url: "https://www.target.com/p/bluey-polo-shirt-and-fleece-jogger-pants-outfit-set-toddler/-/A-1003546771",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wednesday Series",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wednesday-dance-scene-t-shirt/-/A-88325149",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wednesday Series",
+      url: "https://www.target.com/p/pj-masks-gekko-owlette-catboy-t-shirt-and-mesh-shorts-outfit-set-toddler-to-little-kid/-/A-87909278",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wednesday Series",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wednesday-i-m-not-weird-everyone-else-is-t-shirt/-/A-89880006",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wednesday Series",
+      url: "https://www.target.com/p/marvel-spider-man-button-down-shirt-twill-pants-suspenders-and-bow-tie-4-piece-outfit-set-infant-to-little-kid/-/A-91427258",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wednesday Series",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wednesday-raven-logo-t-shirt/-/A-89880459",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wednesday Series",
+      url: "https://www.target.com/p/marvel-spider-man-tank-top-and-shorts-outfit-set-toddler/-/A-1003006547",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wednesday Series",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wednesday-black-is-my-happy-color-silhouette-t-shirt/-/A-89880201",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wednesday Series",
+      url: "https://www.target.com/p/marvel-spidey-and-his-amazing-friends-spider-man-fleece-sweatshirt-and-jogger-and-pants-outfit-set-toddler/-/A-1001856639",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wednesday Series",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wednesday-simple-logo-t-shirt/-/A-89880285",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wednesday Series",
+      url: "https://www.target.com/p/bluey-hooded-t-shirt-and-fleece-jogger-pants-outfit-set-toddler/-/A-1003394813",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wednesday Series",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wednesday-nevermore-portrait-t-shirt/-/A-89880504",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wednesday Series",
+      url: "https://www.target.com/p/marvel-avengers-spider-man-little-boys-zip-up-fleece-hoodie-graphic-t-shirt-and-jogger-3-piece-outfit-set-toddler-to-big-kid/-/A-88247864",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wednesday Series",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wednesday-a-little-ray-of-jet-black-t-shirt/-/A-88325484",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wednesday Series",
+      url: "https://www.target.com/p/transformers-bumblebee-optimus-prime-graphic-t-shirt-mesh-shorts-outfit-set-toddler-to-big-kid/-/A-89253009",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wednesday Series",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wednesday-the-most-interesting-plants-grow-in-the-shade-photo-t-shirt/-/A-88325488",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wednesday Series",
+      url: "https://www.target.com/p/cocomelon-jj-breathable-graphic-t-shirt-mesh-shorts-gray-red/-/A-87289072",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wednesday Series",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wednesday-are-you-mansplaining-my-power-t-shirt/-/A-88325685",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wednesday Series",
+      url: "https://www.target.com/p/blaze-and-the-monster-machines-t-shirt-and-mesh-shorts-outfit-set-toddler/-/A-1000883988",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wednesday Series",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wednesday-small-nevermore-crest-black-and-white-t-shirt/-/A-88325420",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wednesday Series",
+      url: "https://www.target.com/p/jurassic-world-dinosaur-athletic-graphic-t-shirt-mesh-shorts-outfit-set-toddler/-/A-87559655",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wednesday Series",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wednesday-the-most-interesting-plants-grow-in-the-shade-t-shirt/-/A-88325590",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wednesday Series",
+      url: "https://www.target.com/p/scooby-doo-scooby-doo-fleece-hoodie-and-pants-outfit-set-toddler/-/A-87249105",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wednesday Series",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wednesday-fangs-furs-sirens-stoners-t-shirt/-/A-88325822",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wednesday Series",
+      url: "https://www.target.com/p/marvel-spider-man-t-shirt-and-shorts-outfit-set-toddler-to-big-kid/-/A-88993910",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wednesday Series",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wednesday-we-all-have-a-dark-side-t-shirt/-/A-89879903",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wednesday Series",
+      url: "https://www.target.com/p/teenage-mutant-ninja-turtles-donatello-raphael-leonardo-fleece-sweatshirt-and-pants-set-toddler-to-big-kid/-/A-89430028",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wednesday Series",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wednesday-darkness-my-old-friend-t-shirt/-/A-89880259",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wednesday Series",
+      url: "https://www.target.com/p/pj-masks-catboy-gekko-owlette-graphic-t-shirt-tank-top-french-terry-shorts-3-piece-outfit-set/-/A-87170024",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wednesday Series",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wednesday-nevermore-academy-crest-t-shirt/-/A-89880141",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wednesday Series",
+      url: "https://www.target.com/p/hot-wheels-ringer-t-shirt-french-terry-shorts-and-hat-3-piece-outfit-set-toddler/-/A-1003418707",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wednesday Series",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wednesday-nightshades-ravens-t-shirt/-/A-89879740",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wednesday Series",
+      url: "https://www.target.com/p/toddler-boys-2pc-disney-mickey-mouse-tank-and-shorts-set-red-blue/-/A-94064513",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wednesday Series",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wednesday-solitude-suits-me-portrait-t-shirt/-/A-89879840",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wednesday Series",
+      url: "https://www.target.com/p/toddler-boys-2pc-disney-pixar-cars-lightning-mcqueen-t-shirt-shorts-set-gray/-/A-93726557",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wednesday Series",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wednesday-we-prefer-kooky-t-shirt/-/A-89880364",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wednesday Series",
+      url: "https://www.target.com/p/disney-pixar-cars-lightning-mcqueen-fleece-pullover-hoodie-and-pants-outfit-set-toddler/-/A-85015716",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wednesday Series",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wednesday-weathervane-cafe-logo-t-shirt/-/A-88325765",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wednesday Series",
+      url: "https://www.target.com/p/disney-winnie-the-pooh-pullover-hoodie-and-french-terry-shorts-toddler/-/A-92205929",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wednesday Series",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wednesday-give-me-a-hand-t-shirt/-/A-89880338",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wednesday Series",
+      url: "https://www.target.com/p/disney-mickey-mouse-infant-toddler-boy-s-2-piece-hooded-top-and-jogger-set/-/A-92511132",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wednesday Series",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wednesday-wwwd-what-would-wednesday-do-t-shirt/-/A-88325179",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wednesday Series",
+      url: "https://www.target.com/p/disney-lion-king-mickey-mouse-goofy-donald-duck-simba-waffle-knit-pullover-hoodie-and-shorts-toddler/-/A-92302234",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wednesday Series",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wednesday-floral-portrait-t-shirt/-/A-89879707",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wednesday Series",
+      url: "https://www.target.com/p/disney-junior-french-terry-pullover-hoodie-and-shorts-toddler/-/A-1003006328",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wednesday Series",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/where-the-wild-things-are-max-leaves-background-youth-charcoal-crew-neck-short-sleeve-t-shirt/-/A-1004342868",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Where the Wild Things Are",
+      url: "https://www.target.com/p/disney-mickey-mouse-toddler-little-boys-2-piece-tee-and-jogger-sets/-/A-1003841007",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Where the Wild Things Are",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/where-the-wild-things-are-monsters-king-max-boy-s-navy-crew-neck-short-sleeve-t-shirt/-/A-93890248",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Where the Wild Things Are",
+      url: "https://www.target.com/p/toddler-boys-2pc-disney-cars-fleece-pullover-and-bottom-set-oatmeal/-/A-94609694",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Where the Wild Things Are",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/where-the-wild-things-are-monster-parts-grid-boy-s-white-crew-neck-short-sleeve-t-shirt/-/A-93890233",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Where the Wild Things Are",
+      url: "https://www.target.com/p/toddler-boys-2pc-americana-usa-short-sleeve-t-shirt-and-shorts-set-blue/-/A-93976552",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Where the Wild Things Are",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-where-s-waldo-retro-character-circle-t-shirt/-/A-85155775",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Where's Waldo?",
+      url: "https://www.target.com/p/grayson-mini-toddler-boys-textured-woven-shirt-and-shorts-set-brown/-/A-94339713",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Where's Waldo?",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-where-s-waldo-hide-and-seek-champion-t-shirt/-/A-85088642",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Where's Waldo?",
+      url: "https://www.target.com/p/toddler-boys-2pc-spidey-friends-miles-morales-polo-top-shorts-set-dark-blue/-/A-93726766",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Where's Waldo?",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wicked-elphaba-silhouette-frame-t-shirt/-/A-93969523",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wicked",
+      url: "https://www.target.com/p/toddler-boys-2pc-bluey-hooded-tank-and-shorts-set-teal/-/A-94065319",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wicked",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wicked-official-logo-t-shirt/-/A-93969498",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wicked",
+      url: "https://www.target.com/p/baby-boys-2pc-bluey-chambray-short-overalls-t-shirt-set-blue-green/-/A-93726541",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wicked",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wicked-elphaba-stars-t-shirt/-/A-1001941691",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wicked",
+      url: "https://www.target.com/p/toddler-boys-2pc-disney-cars-lightning-mcqueen-racing-fleece-pullover-and-bottom-set-black/-/A-94619914",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wicked",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wicked-defy-gravity-witch-hat-t-shirt/-/A-93969380",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wicked",
+      url: "https://www.target.com/p/toddler-boys-2pc-bluey-woven-gauze-button-up-top-shorts-set-ivory/-/A-93726533",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing, Dresswear, Top and Bottom Sets",
       filters: {
-        brand: "Wicked",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wicked-elphaba-defy-gravity-t-shirt/-/A-1001937467",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wicked",
+      url: "https://www.target.com/p/toddler-boys-2pc-nintendo-mario-kart-fleece-pullover-and-bottom-set-blue-ivory/-/A-94609697",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wicked",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-winnie-the-pooh-kanga-and-roo-i-love-mom-t-shirt/-/A-88789474",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Winnie the Pooh",
+      url: "https://www.target.com/p/oshkosh-b-gosh-toddler-boys-button-down-top-and-woven-shorts-set-navy-blue-red/-/A-93780387",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing, Dresswear, Top and Bottom Sets",
       filters: {
-        brand: "Winnie the Pooh",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-winnie-the-pooh-bear-big-face-t-shirt/-/A-85752880",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Winnie the Pooh",
+      url: "https://www.target.com/p/toddler-boys-2pk-ms-rachel-bus-pullover-sweatshirt-and-shorts-set-heather-gray/-/A-94505133",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Winnie the Pooh",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-winnie-the-pooh-retro-character-panels-t-shirt/-/A-85753704",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Winnie the Pooh",
+      url: "https://www.target.com/p/toddler-boys-2pc-marvel-spidey-friends-t-shirt-shorts-set-green/-/A-93726601",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Winnie the Pooh",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-winnie-the-pooh-eeyore-face-portrait-t-shirt/-/A-85645899",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Winnie the Pooh",
+      url: "https://www.target.com/p/toddler-boys-2pc-bluey-halloween-fleece-pullover-and-bottom-set-white-black/-/A-94619922",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Winnie the Pooh",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-winnie-the-pooh-tigger-pocket-sketch-performance-tee/-/A-85752960",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Winnie the Pooh",
+      url: "https://www.target.com/p/toddler-boys-2pc-bluey-pocket-t-shirt-shorts-set-blue/-/A-94272664",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Winnie the Pooh",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-winnie-the-pooh-rainy-watercolor-eeyore-performance-tee/-/A-85752753",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Winnie the Pooh",
+      url: "https://www.target.com/p/toddler-boys-2pc-hot-wheels-t-shirt-checkered-shorts-set-off-white/-/A-93726599",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Winnie the Pooh",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-winnie-the-pooh-tigger-big-face-t-shirt/-/A-85753349",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Winnie the Pooh",
+      url: "https://www.target.com/p/toddler-boys-2pc-jurassic-park-dinosaur-short-sleeve-t-shirt-and-shorts-set-gray/-/A-94065318",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Winnie the Pooh",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-winnie-the-pooh-my-aunt-thinks-i-m-sweet-t-shirt/-/A-89577343",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Winnie the Pooh",
+      url: "https://www.target.com/p/grayson-mini-toddler-boys-french-terry-shirt-and-shorts-set/-/A-94652560",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Winnie the Pooh",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-winnie-the-pooh-eeyore-monday-mood-performance-tee/-/A-85753798",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Winnie the Pooh",
+      url: "https://www.target.com/p/modern-moments-by-gerber-toddler-boys-2-piece-top-and-cargo-shorts-set/-/A-1001943144",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Winnie the Pooh",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-winnie-the-pooh-sort-of-attached-t-shirt/-/A-85753049",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Winnie the Pooh",
+      url: "https://www.target.com/p/modern-moments-by-gerber-toddler-boys-2-piece-henley-shirt-and-shorts-set/-/A-1001974052",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Winnie the Pooh",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-winnie-the-pooh-beary-sleepy-t-shirt/-/A-89577490",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Winnie the Pooh",
+      url: "https://www.target.com/p/grayson-mini-toddler-boys-pull-on-wavy-striped-shorts-set-blue/-/A-90429363",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Winnie the Pooh",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-winnie-the-pooh-yellow-white-and-blue-script-t-shirt/-/A-85753781",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Winnie the Pooh",
+      url: "https://www.target.com/p/levi-s-toddler-boys-2pc-knit-short-sleeve-t-shirt-and-woven-pull-on-short-set-white/-/A-82181035",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Winnie the Pooh",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-winnie-the-pooh-best-friends-performance-tee/-/A-85753839",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Winnie the Pooh",
+      url: "https://www.target.com/p/gerber-baby-and-toddler-boys-2-piece-sweatshirt-pant-set/-/A-91311831",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Winnie the Pooh",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-winnie-the-pooh-pumpkin-tigger-t-shirt/-/A-87257261",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Winnie the Pooh",
+      url: "https://www.target.com/p/marvel-spider-man-boys-2-piece-short-sleeve-t-shirt-and-shorts-set-for-toddler-and-big-kids/-/A-1003316776",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Winnie the Pooh",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-winnie-the-pooh-handstand-tigger-t-shirt/-/A-85753496",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Winnie the Pooh",
+      url: "https://www.target.com/p/thomas-friends-pullover-hoodie-and-french-terry-shorts-toddler/-/A-1002594944",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Winnie the Pooh",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-winnie-the-pooh-it-s-my-birthday-t-shirt/-/A-89404858",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Winnie the Pooh",
+      url: "https://www.target.com/p/peppa-pig-graphic-t-shirt-mesh-shorts-blue-grey/-/A-87294280",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Winnie the Pooh",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-winnie-the-pooh-we-ll-be-friends-forever-piglet-t-shirt/-/A-85563419",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Winnie the Pooh",
+      url: "https://www.target.com/p/disney-mickey-and-friends-boys-2-piece-short-sleeve-t-shirt-and-shorts-set-for-toddlers/-/A-1003316718",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Winnie the Pooh",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-winnie-the-pooh-eeyore-not-a-morning-person-t-shirt/-/A-85645984",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Winnie the Pooh",
+      url: "https://www.target.com/p/gerber-baby-and-toddler-boys-2-piece-t-shirt-and-shorts-set-heather-skateboard/-/A-1002565500",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Winnie the Pooh",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-winnie-the-pooh-piglet-tower-of-honey-jars-performance-tee/-/A-85645915",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Winnie the Pooh",
+      url: "https://www.target.com/p/modern-moments-by-gerber-toddler-boys-2-piece-long-sleeve-top-and-shorts-set/-/A-1001974114",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Winnie the Pooh",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-winnie-the-pooh-sleepy-in-the-night-sky-t-shirt/-/A-89577596",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Winnie the Pooh",
+      url: "https://www.target.com/p/kids-maddox-color-block-short-sleeve-pocket-tee-set-olive-scout/-/A-1002731474",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Winnie the Pooh",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-winnie-the-pooh-eeyore-pocket-sketch-t-shirt/-/A-85753205",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Winnie the Pooh",
+      url: "https://www.target.com/p/star-wars-the-mandalorian-the-child-t-shirt-and-french-terry-shorts-outfit-set-toddler/-/A-87276596",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Winnie the Pooh",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-winnie-the-pooh-red-white-and-blue-tigger-t-shirt/-/A-85763956",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Winnie the Pooh",
+      url: "https://www.target.com/p/andy-evan-toddler-red-holiday-polo-pants-set/-/A-93590844",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Winnie the Pooh",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-winnie-the-pooh-star-spangled-eeyore-t-shirt/-/A-85764021",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Winnie the Pooh",
+      url: "https://www.target.com/p/sesame-street-toddler-boys-2-piece-t-shirt-and-jogger-set/-/A-1003868562",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Winnie the Pooh",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-winnie-the-pooh-never-stop-dreaming-t-shirt/-/A-85752998",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Winnie the Pooh",
+      url: "https://www.target.com/p/organic-peplum-top-shorts-set-bohemia/-/A-1004050015",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Winnie the Pooh",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-winnie-the-pooh-santa-eeyore-t-shirt/-/A-85763969",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Winnie the Pooh",
+      url: "https://www.target.com/p/andy-evan-toddler-four-piece-tuxedo-suit-set/-/A-86759084",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Winnie the Pooh",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-winnie-the-pooh-making-wishes-t-shirt/-/A-89577746",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Winnie the Pooh",
+      url: "https://www.target.com/p/andy-evan-toddler-cardigan-w-red-plaid-bowtie-pants-set/-/A-93590819",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Winnie the Pooh",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-winnie-the-pooh-tigger-colorful-script-t-shirt/-/A-85753051",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Winnie the Pooh",
+      url: "https://www.target.com/p/andy-evan-toddler-navy-chunky-waffle-lounge-set/-/A-1005055397",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Winnie the Pooh",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-winnie-the-pooh-eeyore-7th-birthday-t-shirt/-/A-89579029",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Winnie the Pooh",
+      url: "https://www.target.com/p/gerber-toddler-boys-henley-shirt-and-joggers-2-piece-set/-/A-92867826",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Winnie the Pooh",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-winnie-the-pooh-eeyore-8th-birthday-t-shirt/-/A-89578975",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Winnie the Pooh",
+      url: "https://www.target.com/p/andy-evan-toddler-teal-faux-suspender-shirt-w-pique-pant-set/-/A-93280893",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Winnie the Pooh",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-winnie-the-pooh-eeyore-5th-birthday-t-shirt/-/A-89578983",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Winnie the Pooh",
+      url: "https://www.target.com/p/levi-s-toddler-boys-sweatsuit-set/-/A-86700113",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Winnie the Pooh",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-winnie-the-pooh-scene-panels-t-shirt/-/A-85754075",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Winnie the Pooh",
+      url: "https://www.target.com/p/nickelodeon-toddler-boys-3-piece-tmnt-vest-shirt-pant-set-green-2t/-/A-1000033565",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Winnie the Pooh",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-winnie-the-pooh-eeyore-6th-birthday-t-shirt/-/A-89579015",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Winnie the Pooh",
+      url: "https://www.target.com/p/mixed-up-clothing-rand-hoodie-jogger-set/-/A-1001314540",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Winnie the Pooh",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-winnie-the-pooh-little-dreamer-t-shirt/-/A-89577420",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Winnie the Pooh",
+      url: "https://www.target.com/p/marvel-toddler-boys-spider-man-3-piece-vest-shirt-pant-set/-/A-1000023718",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Winnie the Pooh",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/youth-boys-slytherin-tshirt-harry-potter-graphic-tee/-/A-84707330",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/andy-evan-toddler-white-plaid-buttondown-w-charcoal-sweater-vest-bowtie/-/A-93591002",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/youth-boys-gryffindor-shirt-boys-graphic-tee-gryffindor-kids-clothing/-/A-84707312",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/organic-shirt-shorts-set-green-stripes/-/A-1004049274",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/youth-harry-potter-hogwarts-house-letters-graphic-w-logo-screen-print-black-hoodie/-/A-84810498",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/dc-comics-justice-league-batman-t-shirt-and-shorts-outfit-set-toddler/-/A-88338587",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/harry-potter-dobby-snap-boy-s-black-long-sleeve-shirt/-/A-85731668",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/cocomelon-cody-jj-fleece-pullover-sweatshirt-and-jogger-pants-set-infant-to-toddler/-/A-87290877",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/harry-potter-hogwarts-house-shields-boy-s-black-long-sleeve-shirt/-/A-85731722",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/andy-evan-infant-pink-striped-oxford-and-bowtie-shorts-set/-/A-1002581488",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing, Dresswear, Top and Bottom Sets",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/harry-potter-hogwarts-houses-diamond-screen-print-youth-boys-heather-grey-long-sleeve-shirt/-/A-84811035",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/andy-evan-infant-plaid-suspender-set/-/A-1002581373",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing, Dresswear, Top and Bottom Sets",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/harry-potter-chibi-characters-blue-boys-t-shirt-graphic-tee/-/A-83709802",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/space-jam-looney-tunes-space-jam-athletic-t-shirt-and-shorts-toddler/-/A-87530261",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/harry-potter-wizard-in-training-youth-navy-blue-graphic-tee/-/A-85730358",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/blippi-boys-short-sleeve-t-shirt-and-french-terry-shorts-set-for-toddler-and-big-kids/-/A-1004025251",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/harry-potter-gryffindor-lion-youth-blue-graphic-tee/-/A-84942199",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/disney-cars-lightning-mcqueen-boys-short-sleeve-t-shirt-tank-top-and-shorts-3-piece-set-for-toddlers-to-big-kids/-/A-1003316863",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/harry-potter-hogwarts-wizard-in-training-graphic-tee-boys-t-shirt/-/A-84707159",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/warner-bros-where-the-wild-things-are-max-cozy-faux-sherling-sweatshirt-and-felt-faux-fur-crown-toddler/-/A-1001188612",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/harry-potter-chibi-characters-group-youth-red-graphic-tee/-/A-84941511",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/blaze-and-the-monster-machines-toddler-boys-fleece-pullover-hoodie-pant-set-gray-red/-/A-85069767",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/youth-boys-hogwarts-houses-and-crest-graphic-tee/-/A-84707056",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/modern-moments-by-gerber-toddler-boys-2-piece-johnny-collar-and-shorts-set/-/A-1001974005",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/harry-potter-hogwarts-houses-youth-royal-blue-graphic-tee/-/A-84942247",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/andy-evan-infant-navy-stretch-suit/-/A-84946351",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/harry-potter-gryffindor-lion-youth-charcoal-graphic-tee/-/A-84942047",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/kids-raven-waffle-knit-short-set-olive-scout/-/A-1002255275",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/harry-potter-wizard-in-training-hogwarts-crest-boy-s-navy-blue-tee/-/A-84706940",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/makemake-organics-organic-spaghetti-top-short-set-checkered/-/A-1004035153",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/harry-potter-hogwarts-express-boy-s-red-tee/-/A-84707308",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/andy-evan-infant-orange-printed-check-terry-set/-/A-1002581419",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/harry-potter-ravenclaw-eagle-emblem-boy-s-navy-blue-tee/-/A-85353784",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/marvel-spidey-and-his-amazing-friends-boys-v-neck-sweater-and-pants-set-for-toddler-and-big-kids-size-2t/-/A-1004891703",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/harry-potter-gryffindor-pride-boy-s-red-tee/-/A-85352292",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/andy-evan-toddler-textured-terry-smiley-patch-set/-/A-1002581366",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/harry-potter-quidditch-hogwarts-youth-boys-navy-t-shirt/-/A-85730603",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/sega-sonic-the-hedgehog-boys-2-piece-sweatshirt-and-pant-sets-for-toddlers-and-kids-size-2t/-/A-1004891653",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/harry-potter-hogwarts-mascot-art-youth-athletic-heather-t-shirt/-/A-86218505",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/andy-evan-infant-grey-stretch-suit/-/A-84946410",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/harry-potter-quidditch-gryffindor-crest-boy-s-navy-t-shirt/-/A-85783171",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/makemake-organics-organic-shirt-shorts-set-brown-chequered-2-3-years/-/A-1004049283",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/harry-potter-hogwarts-house-mascots-boy-s-navy-blue-tshirt/-/A-86383236",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/andy-evan-toddler-grey-stretch-suit/-/A-84946372",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/harry-potter-i-d-rather-be-at-hogwarts-boy-s-heather-gray-t-shirt/-/A-85352426",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/makemake-organics-organic-shirt-shorts-set-blue-petunia-4-5-years/-/A-1004049299",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/harry-potter-hogwarts-houses-boy-s-royal-blue-t-shirt/-/A-85451533",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/andy-evan-toddler-coral-blue-striped-buttondown-set/-/A-1002581465",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing, Dresswear, Top and Bottom Sets",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/harry-potter-hogwarts-houses-diamond-boy-s-athletic-heather-t-shirt/-/A-85352588",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/organic-tee-shorts-set-waves/-/A-1004078897",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/youth-harry-potter-shirt-short-sleeve-youth-gryffindor-shirt/-/A-84707035",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/dc-comics-toddler-little-boys-3-piece-superman-shirt-pant-vest-set/-/A-1003028594",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/mischief-managed-youth-short-sleeve-shirt/-/A-84707226",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/andy-evan-toddler-varsity-print-hooded-lounge-set/-/A-1005055380",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/harry-potter-ravenclaw-quidditch-boy-s-royal-blue-t-shirt/-/A-84707327",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/makemake-organics-organic-shirt-shorts-set-palm-4-5-years/-/A-1004049308",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/harry-potter-hogwarts-mascot-shield-youth-navy-t-shirt/-/A-86218523",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/organic-tee-shorts-set-surf/-/A-1004079789",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-hogwarts-legacy-the-graphorn-logo-t-shirt/-/A-88404027",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/organic-peplum-top-shorts-set-mandarin/-/A-1004049941",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/harry-potter-gryffindor-quidditch-boy-s-red-t-shirt/-/A-84707323",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/organic-raglan-shirt-shorts-set-croissant/-/A-1004053948",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-hogwarts-legacy-golden-snidget-logo-t-shirt/-/A-88403879",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/disney-mickey-mouse-and-friends-boys-short-sleeve-t-shirt-and-shorts-set-for-toddler-and-big-kids/-/A-85913105",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/harry-potter-gryffindor-lion-and-sword-boy-s-red-tshirt/-/A-86383571",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/andy-evan-infant-coral-blue-striped-buttondown-set/-/A-1002581497",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing, Dresswear, Top and Bottom Sets",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/harry-potter-hogwarts-crest-mascots-youth-royal-blue-t-shirt/-/A-86382781",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/andy-evan-infant-checkered-bomb-pop-buttondown-set/-/A-1003884684",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/harry-potter-hogwarts-wizard-in-training-boy-s-navy-blue-t-shirt/-/A-85352500",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/organic-3-piece-boys-summer-bundle/-/A-1003742941",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/harry-potter-hogwarts-quidditch-crest-navy-boy-s-short-sleeve-t-shirt/-/A-85450615",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/deux-par-deux-boy-printed-organic-cotton-top-and-pant-set-yellow-bananas-and-brown/-/A-1003032509",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/harry-potter-gryffindor-crest-boy-s-navy-t-shirt/-/A-85729339",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/kids-clay-camp-shirt-linen-short-set-olive-scout/-/A-1002534424",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/harry-potter-hogwarts-symbol-gray-boy-s-short-sleeve-t-shirt/-/A-85450628",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/organic-cotton-top-and-muslin-pant-set-striped-navy/-/A-1002803710",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/fantastic-beasts-newt-s-case-chibi-art-boy-s-charcoal-t-shirt/-/A-86449054",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/organic-relaxed-tee-shorts-set-dog/-/A-1004078598",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/harry-potter-gryffindor-crest-boy-s-red-t-shirt-medium/-/A-84726317",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/organic-tank-tee-shorts-set-sage-stripes/-/A-1004079794",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/harry-potter-g-is-for-gryffindor-youth-navy-t-shirt/-/A-86382748",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/andy-evan-infant-plaid-buttondown-set/-/A-1000744444",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-hogwarts-legacy-live-the-unwritten-t-shirt/-/A-88403976",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/organic-tee-shorts-set-toucan/-/A-1004169062",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/harry-potter-quidditch-confetti-blue-boy-s-short-sleeve-t-shirt/-/A-85450960",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/deux-par-deux-boy-printed-organic-cotton-top-and-short-set-brown-yellow-and-bananas/-/A-1003106944",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/harry-potter-mascot-art-youth-charcoal-t-shirt/-/A-86383385",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/deux-par-deux-boy-printed-organic-cotton-onesie-and-muslin-shortall-set-navy-blue-paper-boats/-/A-1003104288",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-hogwarts-legacy-small-art-deco-logo-t-shirt/-/A-88403910",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/andy-evan-infant-navy-chunky-waffle-lounge-set/-/A-1005055377",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/harry-potter-gryffindor-crest-boy-s-red-t-shirt-xl/-/A-84726321",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/organic-graphic-tee-skort-set-poppy/-/A-1004078590",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/harry-potter-gryffindor-crest-boy-s-red-t-shirt-small/-/A-84726316",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/andy-evan-toddler-palm-stripe-print-linen-buttondown-set/-/A-1002581391",
+      tags: "Coordinate Sets, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coordinate Sets",
       },
     },
     {
-      url: "https://www.target.com/p/harry-potter-gryffindor-crest-boy-s-red-t-shirt-xs/-/A-84726314",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/disney-nightmare-before-christmas-jack-skellington-zip-up-coverall-newborn-to-little-kid/-/A-89893294",
+      tags: "Coveralls, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coveralls",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-hogwarts-legacy-art-deco-logo-t-shirt/-/A-88403956",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/disney-pixar-monsters-inc-mike-zip-up-cosplay-coverall-toddler/-/A-89489613",
+      tags: "Coveralls, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coveralls",
       },
     },
     {
-      url: "https://www.target.com/p/fantastic-beasts-you-re-one-of-us-now-boy-s-charcoal-t-shirt/-/A-86448902",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wizarding World Harry Potter",
+      url: "https://www.target.com/p/disney-lion-king-simba-zip-up-cosplay-coverall-newborn-to-infant/-/A-88417221",
+      tags: "Coveralls, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wizarding World Harry Potter",
+        type: "Coveralls",
       },
     },
     {
-      url: "https://www.target.com/p/boys-wonder-woman-strong-usa-shield-t-shirt/-/A-1004374120",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wonder Woman",
+      url: "https://www.target.com/p/disney-incredibles-mr-incredible-zip-up-cosplay-coverall-newborn-to-toddler/-/A-89489602",
+      tags: "Coveralls, Outfits, Toddler Boys’ Clothing, Toddler Clothing, Rompers",
       filters: {
-        brand: "Wonder Woman",
+        type: "Coveralls",
       },
     },
     {
-      url: "https://www.target.com/p/boys-wonder-woman-1984-logo-wings-t-shirt/-/A-1004374156",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wonder Woman",
+      url: "https://www.target.com/p/monster-jam-grave-digger-truck-zip-up-coverall-toddler/-/A-1004290938",
+      tags: "Coveralls, Outfits, Toddler Boys’ Clothing, Toddler Clothing, Overalls",
       filters: {
-        brand: "Wonder Woman",
+        type: "Coveralls",
       },
     },
     {
-      url: "https://www.target.com/p/boys-wonder-woman-4th-of-july-red-white-and-blue-logo-t-shirt/-/A-1004374298",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wonder Woman",
+      url: "https://www.target.com/p/cocomelon-girls-fleece-coverall-toddler/-/A-90018346",
+      tags: "Coveralls, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wonder Woman",
+        type: "Coveralls",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wonka-noodle-portrait-t-shirt/-/A-90465353",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wonka",
+      url: "https://www.target.com/p/minime-2-piece-kids-cotton-rich-full-zip-jacket-and-pants-set/-/A-1002343096",
+      tags: "Coveralls, Outfits, Toddler Boys’ Clothing, Toddler Clothing, Jumpsuits",
       filters: {
-        brand: "Wonka",
+        type: "Coveralls",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wonka-chocolates-t-shirt/-/A-90464663",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wonka",
+      url: "https://www.target.com/p/deux-par-deux-boy-one-piece-fleece-romper-beige-mammoth-print/-/A-1005226956",
+      tags: "Coveralls, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wonka",
+        type: "Coveralls",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-wonka-fickelgruber-chocolate-t-shirt/-/A-90465301",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Wonka",
+      url: "https://www.target.com/p/minime-rocking-pony-footie/-/A-1002283746",
+      tags: "Jumpsuits, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Wonka",
+        type: "Jumpsuits",
       },
     },
     {
-      url: "https://www.target.com/p/boys-woody-the-woodpecker-yesiree-that-s-me-circle-short-sleeve-graphic-t-shirt/-/A-92722559",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Woody Woodpecker",
+      url: "https://www.target.com/p/minimoi-solid-crossover-footie/-/A-1002358316",
+      tags: "Jumpsuits, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Woody Woodpecker",
+        type: "Jumpsuits",
       },
     },
     {
-      url: "https://www.target.com/p/boys-woody-the-woodpecker-busy-doing-nothing-short-sleeve-graphic-t-shirt/-/A-92722707",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Woody Woodpecker",
+      url: "https://www.target.com/p/minimoi-waffle-footie-with-embroidered-hot-air-balloon-winter/-/A-1002292635",
+      tags: "Jumpsuits, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Woody Woodpecker",
+        type: "Jumpsuits",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-yahtzee-how-i-roll-t-shirt/-/A-92914572",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Yahtzee",
+      url: "https://www.target.com/p/minimoi-waffle-footie-with-embroidered-flower-bud/-/A-1002292620",
+      tags: "Jumpsuits, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Yahtzee",
+        type: "Jumpsuits",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-yahtzee-roll-with-it-t-shirt/-/A-92914600",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Yahtzee",
+      url: "https://www.target.com/p/minimoi-solid-ribbed-cross-over-tie-footie/-/A-1002358653",
+      tags: "Jumpsuits, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Yahtzee",
+        type: "Jumpsuits",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-yahtzee-retro-how-i-roll-t-shirt/-/A-92914539",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Yahtzee",
+      url: "https://www.target.com/p/minime-striped-shoulder-flap-footie/-/A-1002283715",
+      tags: "Jumpsuits, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Yahtzee",
+        type: "Jumpsuits",
       },
     },
     {
-      url: "https://www.target.com/p/yu-gi-oh-blue-eyes-white-dragon-crew-neck-long-sleeve-black-fleece-youth-tee/-/A-88756385",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Yu-Gi-Oh!",
+      url: "https://www.target.com/p/minimoi-ribbed-solid-cotton-side-snap-footie/-/A-1002339230",
+      tags: "Jumpsuits, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Yu-Gi-Oh!",
+        type: "Jumpsuits",
       },
     },
     {
-      url: "https://www.target.com/p/yu-gi-oh-main-characters-youth-royal-blue-graphic-tee/-/A-84942352",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Yu-Gi-Oh!",
+      url: "https://www.target.com/p/minime-ribbed-star-footie/-/A-1002358711",
+      tags: "Jumpsuits, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Yu-Gi-Oh!",
+        type: "Jumpsuits",
       },
     },
     {
-      url: "https://www.target.com/p/yu-gi-oh-main-characters-youth-navy-blue-graphic-tee/-/A-84810969",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Yu-Gi-Oh!",
+      url: "https://www.target.com/p/minime-toddler-boys-little-dots-pointelle-rayon-from-bamboo-blend/-/A-1002358705",
+      tags: "Jumpsuits, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Yu-Gi-Oh!",
+        type: "Jumpsuits",
       },
     },
     {
-      url: "https://www.target.com/p/yami-yugi-and-his-cards-yu-gi-oh-character-boys-navy-blue-graphic-tee/-/A-84938894",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Yu-Gi-Oh!",
+      url: "https://www.target.com/p/deux-par-deux-boy-printed-muslin-one-piece-jumpsuit-navy-blue-paper-boats/-/A-1002975708",
+      tags: "Jumpsuits, Outfits, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Yu-Gi-Oh!",
+        type: "Jumpsuits",
       },
     },
     {
-      url: "https://www.target.com/p/yu-gi-oh-main-characters-youth-white-graphic-tee/-/A-84810970",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Yu-Gi-Oh!",
+      url: "https://www.target.com/p/oshkosh-b-gosh-toddler-boys-solid-denim-overalls-blue/-/A-84797964",
+      tags: "Outfits, Overalls, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Yu-Gi-Oh!",
+        type: "Overalls",
       },
     },
     {
-      url: "https://www.target.com/p/kaiba-yu-gi-oh-anime-cartoon-youth-boys-black-graphic-tee-shirt/-/A-85353259",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Yu-Gi-Oh!",
+      url: "https://www.target.com/p/oshkosh-b-39-gosh-toddler-boys-39-corduroy-overalls-brown/-/A-94474443",
+      tags: "Outfits, Overalls, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Yu-Gi-Oh!",
+        type: "Overalls",
       },
     },
     {
-      url: "https://www.target.com/p/yu-gi-oh-shirt-youth-boys-graphic-tee-anime-apparel/-/A-84705895",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Yu-Gi-Oh!",
+      url: "https://www.target.com/p/oshkosh-b-39-gosh-toddler-boys-39-corduroy-overalls-olive-green/-/A-94474444",
+      tags: "Outfits, Overalls, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Yu-Gi-Oh!",
+        type: "Overalls",
       },
     },
     {
-      url: "https://www.target.com/p/yu-gi-oh-main-characters-youth-black-graphic-tee/-/A-84809868",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Yu-Gi-Oh!",
+      url: "https://www.target.com/p/oshkosh-b-39-gosh-toddler-boys-39-denim-overalls-blue/-/A-94474449",
+      tags: "Outfits, Overalls, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Yu-Gi-Oh!",
+        type: "Overalls",
       },
     },
     {
-      url: "https://www.target.com/p/yu-gi-oh-main-characters-youth-charcoal-graphic-tee/-/A-84809564",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Yu-Gi-Oh!",
+      url: "https://www.target.com/p/oshkosh-b-gosh-toddler-boys-plaid-lined-overalls-olive-green/-/A-91896873",
+      tags: "Outfits, Overalls, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Yu-Gi-Oh!",
+        type: "Overalls",
       },
     },
     {
-      url: "https://www.target.com/p/yugioh-main-characters-youth-boys-graphic-tees-t-shirt/-/A-84013234",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Yu-Gi-Oh!",
+      url: "https://www.target.com/p/kids-checkered-overall-shorts-olive-scout-x-joulie-sousa/-/A-1004218999",
+      tags: "Outfits, Overalls, Toddler Boys’ Clothing, Toddler Clothing, Rompers",
       filters: {
-        brand: "Yu-Gi-Oh!",
+        type: "Overalls",
       },
     },
     {
-      url: "https://www.target.com/p/yu-gi-oh-seto-kaiba-and-blue-eyes-white-dragon-youth-white-short-sleeve-crew-neck-tee/-/A-88562032",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Yu-Gi-Oh!",
+      url: "https://www.target.com/p/john-deere-denim-square-neck-short-overalls-toddler/-/A-1003528708",
+      tags: "Outfits, Overalls, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Yu-Gi-Oh!",
+        type: "Overalls",
       },
     },
     {
-      url: "https://www.target.com/p/yugioh-anime-poster-youth-navy-t-shirt/-/A-85783041",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Yu-Gi-Oh!",
+      url: "https://www.target.com/p/john-deere-denim-square-neck-bib-overalls-toddler/-/A-1002811103",
+      tags: "Outfits, Overalls, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Yu-Gi-Oh!",
+        type: "Overalls",
       },
     },
     {
-      url: "https://www.target.com/p/yu-gi-oh-dark-magician-collegiate-style-crew-neck-short-sleeve-boys-white-t-shirt/-/A-88868177",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Yu-Gi-Oh!",
+      url: "https://www.target.com/p/oshkosh-b-gosh-toddler-boys-train-printed-denim-overalls-blue/-/A-91042514",
+      tags: "Outfits, Overalls, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Yu-Gi-Oh!",
+        type: "Overalls",
       },
     },
     {
-      url: "https://www.target.com/p/yu-gi-oh-yami-yugi-duel-monsters-crew-neck-short-sleeve-boys-black-t-shirt/-/A-88868137",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Yu-Gi-Oh!",
+      url: "https://www.target.com/p/oshkosh-b-gosh-toddler-boys-colorblock-overalls-green-navy-blue/-/A-91188199",
+      tags: "Outfits, Overalls, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Yu-Gi-Oh!",
+        type: "Overalls",
       },
     },
     {
-      url: "https://www.target.com/p/yu-gi-oh-yami-yugi-and-exodia-crew-neck-short-sleeve-boys-black-t-shirt/-/A-88868099",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, Yu-Gi-Oh!",
+      url: "https://www.target.com/p/marvel-avengers-spider-man-captain-america-hulk-cosplay-romper-toddler/-/A-87233649",
+      tags: "Outfits, Rompers, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "Yu-Gi-Oh!",
+        type: "Rompers",
       },
     },
     {
-      url: "https://www.target.com/p/deux-par-deux-boy-short-sleeve-organic-cotton-graphic-tee-gradient-white-and-beige/-/A-1003635364",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, deux par deux",
+      url: "https://www.target.com/p/disney-winnie-the-pooh-mickey-mouse-lion-king-simba-romper-newborn-to-infant/-/A-87244884",
+      tags: "Outfits, Rompers, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "deux par deux",
+        type: "Rompers",
       },
     },
     {
-      url: "https://www.target.com/p/deux-par-deux-boy-short-sleeve-organic-cotton-graphic-tee-gradient-pale-blue-and-dark-old-rose/-/A-1003635412",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, deux par deux",
+      url: "https://www.target.com/p/monster-jam-grave-digger-el-toro-loco-megalodon-romper-and-bucket-sun-hat-outfit-set-toddler/-/A-1002882323",
+      tags: "Outfits, Rompers, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "deux par deux",
+        type: "Rompers",
       },
     },
     {
-      url: "https://www.target.com/p/deux-par-deux-boy-organic-cotton-graphic-tee-black-and-red-shoe-3-years/-/A-1003635265",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, deux par deux",
+      url: "https://www.target.com/p/hot-wheels-romper-and-bucket-sun-hat-outfit-set-toddler/-/A-1002882326",
+      tags: "Outfits, Rompers, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "deux par deux",
+        type: "Rompers",
       },
     },
     {
-      url: "https://www.target.com/p/deux-par-deux-boy-short-sleeve-organic-cotton-graphic-tee-sage-and-multi-4-years/-/A-1003032377",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, deux par deux",
+      url: "https://www.target.com/p/harry-potter-romper-and-bucket-sun-hat-outfit-set-toddler/-/A-1002882422",
+      tags: "Outfits, Rompers, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "deux par deux",
+        type: "Rompers",
       },
     },
     {
-      url: "https://www.target.com/p/deux-par-deux-boy-organic-cotton-graphic-tee-black-and-multicolored-dino/-/A-1003844614",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, deux par deux",
+      url: "https://www.target.com/p/sesame-street-elmo-cookie-monster-big-bird-romper-and-sunhat-newborn-to-toddler/-/A-89387814",
+      tags: "Outfits, Rompers, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "deux par deux",
+        type: "Rompers",
       },
     },
     {
-      url: "https://www.target.com/p/deux-par-deux-boy-organic-cotton-graphic-tee-sage-and-multi/-/A-1003844776",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, deux par deux",
+      url: "https://www.target.com/p/onesies-brand-boys-3-pack-short-sleeve-and-sleeveless-rompers/-/A-89417554",
+      tags: "Outfits, Rompers, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "deux par deux",
+        type: "Rompers",
       },
     },
     {
-      url: "https://www.target.com/p/deux-par-deux-boy-short-sleeve-graphic-tee-blue-and-ramen/-/A-1003844710",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, deux par deux",
+      url: "https://www.target.com/p/joggies-pitch-black-toddler-footless-hoodie-onesie/-/A-90083066",
+      tags: "Outfits, Rompers, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "deux par deux",
+        type: "Rompers",
       },
     },
     {
-      url: "https://www.target.com/p/deux-par-deux-boy-organic-cotton-graphic-tee-light-gray-shimmer/-/A-1003844735",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, deux par deux",
+      url: "https://www.target.com/p/joggies-tiedye-black-toddler-footless-hoodie-onesie/-/A-90201632",
+      tags: "Outfits, Rompers, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "deux par deux",
+        type: "Rompers",
       },
     },
     {
-      url: "https://www.target.com/p/deux-par-deux-boy-organic-cotton-graphic-tee-gray-black-and-white/-/A-1003844619",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, deux par deux",
+      url: "https://www.target.com/p/andy-evan-infant-halloween-striped-romper-with-ghost-patch/-/A-1005055317",
+      tags: "Outfits, Rompers, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "deux par deux",
+        type: "Rompers",
       },
     },
     {
-      url: "https://www.target.com/p/deux-par-deux-boy-short-sleeve-organic-cotton-graphic-tee-teal-and-dark-old-rose/-/A-1003635385",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, deux par deux",
+      url: "https://www.target.com/p/hope-henry-boys-organic-seersucker-suit-jacket-toddler/-/A-83942891",
+      tags: "Blazers, Coats & Jackets, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "deux par deux",
+        type: "Blazers",
       },
     },
     {
-      url: "https://www.target.com/p/deux-par-deux-boy-short-sleeve-button-down-shirt-black-and-beige-plaid/-/A-1003014775",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, deux par deux",
+      url: "https://www.target.com/p/toddler-boys-39-knit-blazer-cat-38-jack-8482-khaki/-/A-90781635",
+      tags: "Blazers, Coats & Jackets, Toddler Boys’ Clothing, Toddler Clothing, Dresswear",
       filters: {
-        brand: "deux par deux",
+        type: "Blazers",
       },
     },
     {
-      url: "https://www.target.com/p/deux-par-deux-boy-printed-organic-cotton-tee-orange-sunset/-/A-1003844801",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, deux par deux",
+      url: "https://www.target.com/p/hope-henry-boys-corduroy-blazer-with-elbow-patches-toddler/-/A-83943534",
+      tags: "Blazers, Coats & Jackets, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "deux par deux",
+        type: "Blazers",
       },
     },
     {
-      url: "https://www.target.com/p/deux-par-deux-boy-organic-cotton-tee-dark-gray-and-multicolored-vespa/-/A-1003844749",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, deux par deux",
+      url: "https://www.target.com/p/hope-henry-boys-fleece-suit-blazer-toddler/-/A-89802934",
+      tags: "Blazers, Coats & Jackets, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "deux par deux",
+        type: "Blazers",
       },
     },
     {
-      url: "https://www.target.com/p/deux-par-deux-boy-short-sleeve-rashguard-black-and-multicolored-crocodiles-11-12-years/-/A-1003032336",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, deux par deux",
+      url: "https://www.target.com/p/hope-henry-heirloom-boys-linen-suit-jacket-toddler/-/A-1000901504",
+      tags: "Blazers, Coats & Jackets, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "deux par deux",
+        type: "Blazers",
       },
     },
     {
-      url: "https://www.target.com/p/deux-par-deux-boy-printed-athletic-top-blue-and-black/-/A-1004053133",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, deux par deux",
+      url: "https://www.target.com/p/hope-henry-boys-fleece-suit-blazer-toddler-2t/-/A-90312461",
+      tags: "Blazers, Coats & Jackets, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "deux par deux",
+        type: "Blazers",
       },
     },
     {
-      url: "https://www.target.com/p/deux-par-deux-boy-short-sleeve-rashguard-light-blue-and-black/-/A-1004084274",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, deux par deux",
+      url: "https://www.target.com/p/toddler-boys-39-denim-hooded-jacket-cat-38-jack-8482-medium-wash/-/A-94569677",
+      tags: "Bomber Jackets, Coats & Jackets, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "deux par deux",
+        type: "Bomber Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-tokidoki-halloween-donutella-t-shirt/-/A-89922402",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, tokidoki",
+      url: "https://www.target.com/p/oshkosh-b-gosh-toddler-boys-bomber-jacket-olive-green/-/A-91042563",
+      tags: "Bomber Jackets, Coats & Jackets, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "tokidoki",
+        type: "Bomber Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-tokidoki-adios-portrait-t-shirt/-/A-89922369",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, tokidoki",
+      url: "https://www.target.com/p/disney-toy-story-cars-zip-up-varsity-bomber-jacket-toddler/-/A-92929981",
+      tags: "Bomber Jackets, Coats & Jackets, Toddler Boys’ Clothing, Toddler Clothing, Fleece Jackets",
       filters: {
-        brand: "tokidoki",
+        type: "Bomber Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-tokidoki-zombie-unicorno-milo-t-shirt/-/A-89922548",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, tokidoki",
+      url: "https://www.target.com/p/marvel-avengers-spider-man-varsity-bomber-jacket-toddler-to-big-kid/-/A-89709784",
+      tags: "Bomber Jackets, Coats & Jackets, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "tokidoki",
+        type: "Bomber Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-tokidoki-christmas-naughty-or-nice-t-shirt/-/A-90163426",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, tokidoki",
+      url: "https://www.target.com/p/sonic-the-hedgehog-little-big-boys-snap-button-varsity-bomber-jackets/-/A-1001121450",
+      tags: "Bomber Jackets, Coats & Jackets, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "tokidoki",
+        type: "Bomber Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-tokidoki-christmas-cozy-season-t-shirt/-/A-90163505",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, tokidoki",
+      url: "https://www.target.com/p/sonic-the-hedgehog-little-big-boys-button-up-varsity-bomber-jacket/-/A-1001796293",
+      tags: "Bomber Jackets, Coats & Jackets, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "tokidoki",
+        type: "Bomber Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-tokidoki-adios-christmas-presents-t-shirt/-/A-90163782",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, tokidoki",
+      url: "https://www.target.com/p/andy-evan-toddler-striped-french-terry-sleeve-bomber/-/A-1005055335",
+      tags: "Bomber Jackets, Coats & Jackets, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "tokidoki",
+        type: "Bomber Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-tokidoki-halloween-caramella-and-friends-t-shirt/-/A-89922695",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, tokidoki",
+      url: "https://www.target.com/p/andy-evan-toddler-blue-checker-french-terry-sleeve-bomber/-/A-1005055312",
+      tags: "Bomber Jackets, Coats & Jackets, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "tokidoki",
+        type: "Bomber Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-tokidoki-skeleton-sandy-t-shirt/-/A-89922560",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, tokidoki",
+      url: "https://www.target.com/p/oshkosh-b-gosh-toddler-boys-color-block-vest-olive-navy/-/A-94474442",
+      tags: "Coats & Jackets, Fashion Jackets, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "tokidoki",
+        type: "Fashion Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-tokidoki-halloween-trick-or-treat-couple-t-shirt/-/A-89922395",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, tokidoki",
+      url: "https://www.target.com/p/oshkosh-b-39-gosh-toddler-boys-39-corduroy-jacket-brown/-/A-94474441",
+      tags: "Coats & Jackets, Fashion Jackets, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "tokidoki",
+        type: "Fashion Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-tokidoki-donutino-and-donutina-present-t-shirt/-/A-90163850",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, tokidoki",
+      url: "https://www.target.com/p/oshkosh-b-gosh-toddler-boys-cord-jacket-brown/-/A-91042520",
+      tags: "Coats & Jackets, Fashion Jackets, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "tokidoki",
+        type: "Fashion Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-tokidoki-trick-or-treat-caramella-t-shirt/-/A-89922690",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, tokidoki",
+      url: "https://www.target.com/p/marvel-spider-man-fleece-zip-up-jacket-toddler-to-big-kid/-/A-89807317",
+      tags: "Coats & Jackets, Fleece Jackets, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "tokidoki",
+        type: "Fleece Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-tokidoki-holiday-unicornos-t-shirt/-/A-90163413",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, tokidoki",
+      url: "https://www.target.com/p/gerber-toddler-boys-and-girls-long-sleeve-fleece-active-jacket/-/A-93141687",
+      tags: "Coats & Jackets, Fleece Jackets, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "tokidoki",
+        type: "Fleece Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-tokidoki-sprucy-christmas-presents-t-shirt/-/A-90163586",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, tokidoki",
+      url: "https://www.target.com/p/oshkosh-b-gosh-toddler-boys-midweight-fleece-lined-jackets/-/A-93364216",
+      tags: "Coats & Jackets, Fleece Jackets, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "tokidoki",
+        type: "Fleece Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-tokidoki-happy-halloween-cactus-rocker-t-shirt/-/A-89922589",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, tokidoki",
+      url: "https://www.target.com/p/toddler-girls-full-zip-fleece-jacket-cat-38-jack-8482/-/A-94467851",
+      tags: "Coats & Jackets, Fleece Jackets, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "tokidoki",
+        type: "Fleece Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-tokidoki-christmas-jingles-t-shirt/-/A-90163726",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, tokidoki",
+      url: "https://www.target.com/p/mightly-toddler-fair-trade-organic-cotton-zip-up-pocket-hoodie/-/A-1004010368",
+      tags: "Coats & Jackets, Fleece Jackets, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "tokidoki",
+        type: "Fleece Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-tokidoki-merry-christmas-donutella-t-shirt/-/A-90163971",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, tokidoki",
+      url: "https://www.target.com/p/toddler-boys-full-zip-fleece-jacket-cat-38-jack-8482/-/A-94467852",
+      tags: "Coats & Jackets, Fleece Jackets, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "tokidoki",
+        type: "Fleece Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-tokidoki-christmas-group-t-shirt/-/A-90163398",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, tokidoki",
+      url: "https://www.target.com/p/london-fog-little-big-boys-reversible-high-pile-fleece-jackets/-/A-1002182775",
+      tags: "Coats & Jackets, Fleece Jackets, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "tokidoki",
+        type: "Fleece Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-tokidoki-christmas-presents-unicorno-t-shirt/-/A-90163892",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, tokidoki",
+      url: "https://www.target.com/p/oshkosh-b-gosh-toddler-little-boys-reversible-fleece-jackets/-/A-93406496",
+      tags: "Coats & Jackets, Fleece Jackets, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "tokidoki",
+        type: "Fleece Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-tokidoki-autumn-and-snoop-kitty-fall-is-in-the-air-t-shirt/-/A-89922422",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, tokidoki",
+      url: "https://www.target.com/p/oshkosh-b-gosh-toddler-little-boys-midweight-fleece-transitional-jackets/-/A-93364214",
+      tags: "Coats & Jackets, Fleece Jackets, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "tokidoki",
+        type: "Fleece Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-tokidoki-halloween-jack-o-lantern-sandy-t-shirt/-/A-89922432",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, tokidoki",
+      url: "https://www.target.com/p/mightly-toddler-fair-trade-organic-cotton-zip-up-pocket-hoodie-magenta-3t/-/A-1004486152",
+      tags: "Coats & Jackets, Fleece Jackets, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "tokidoki",
+        type: "Fleece Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/boy-s-tokidoki-autumn-palette-t-shirt/-/A-89922306",
-      tags: "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Tangled, Tops, tokidoki",
+      url: "https://www.target.com/p/mightly-toddler-organic-cotton-print-lightweight-zip-up-pocket-hoodie/-/A-1004010370",
+      tags: "Coats & Jackets, Fleece Jackets, Toddler Boys’ Clothing, Toddler Clothing",
       filters: {
-        brand: "tokidoki",
+        type: "Fleece Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/oshkosh-b-gosh-toddler-boys-denim-jacket-blue/-/A-91042507",
+      tags: "Coats & Jackets, Jean Jackets, Toddler Boys’ Clothing, Toddler Clothing",
+      filters: {
+        type: "Jean Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/toddler-boys-marvel-spider-man-knit-denim-button-up-hoodie-jacket-blue/-/A-94618306",
+      tags: "Coats & Jackets, Jean Jackets, Toddler Boys’ Clothing, Toddler Clothing",
+      filters: {
+        type: "Jean Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/toddler-boys-bluey-knit-denim-button-up-hoodie-jacket-blue/-/A-94618307",
+      tags: "Coats & Jackets, Jean Jackets, Toddler Boys’ Clothing, Toddler Clothing",
+      filters: {
+        type: "Jean Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/disney-mickey-mouse-denim-jacket-overalls-shortalls-pants-infant-to-big-kid/-/A-90933435",
+      tags: "Coats & Jackets, Jean Jackets, Toddler Boys’ Clothing, Toddler Clothing",
+      filters: {
+        type: "Jean Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/marvel-spider-man-denim-jacket-toddler/-/A-92182811",
+      tags: "Coats & Jackets, Jean Jackets, Toddler Boys’ Clothing, Toddler Clothing",
+      filters: {
+        type: "Jean Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/rothschild-little-big-boys-hooded-faux-wool-toggle-coat-with-scarf/-/A-1000159752",
+      tags: "Coats & Jackets, Overcoats, Toddler Boys’ Clothing, Toddler Clothing",
+      filters: {
+        type: "Overcoats",
+      },
+    },
+    {
+      url: "https://www.target.com/p/oshkosh-b-gosh-little-boys-high-pile-fleece-lined-insulated-parka-jackets/-/A-93634898",
+      tags: "Coats & Jackets, Parkas, Toddler Boys’ Clothing, Toddler Clothing",
+      filters: {
+        type: "Parkas",
+      },
+    },
+    {
+      url: "https://www.target.com/p/rothschild-little-big-boys-double-breasted-faux-wool-peacoats/-/A-1000163515",
+      tags: "Coats & Jackets, Pea Coats, Toddler Boys’ Clothing, Toddler Clothing",
+      filters: {
+        type: "Pea Coats",
+      },
+    },
+    {
+      url: "https://www.target.com/p/rokka-rolla-toddler-baby-boys-borg-lined-puffer-coat-infant-jacket/-/A-92701679",
+      tags: "Coats & Jackets, Puffer Jackets, Toddler Boys’ Clothing, Toddler Clothing",
+      filters: {
+        type: "Puffer Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/rokka-rolla-infant-toddler-boys-warm-winter-coat-baby-fleece-puffer-jacket/-/A-90175588",
+      tags: "Coats & Jackets, Puffer Jackets, Toddler Boys’ Clothing, Toddler Clothing",
+      filters: {
+        type: "Puffer Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/rokka-rolla-toddler-boys-ripstop-winter-coat-kids-fleece-lined-jacket/-/A-1005041540",
+      tags: "Coats & Jackets, Puffer Jackets, Toddler Boys’ Clothing, Toddler Clothing",
+      filters: {
+        type: "Puffer Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/rokka-rolla-infant-toddler-boys-puffer-coat-baby-hooded-winter-jacket/-/A-90190399",
+      tags: "Coats & Jackets, Puffer Jackets, Toddler Boys’ Clothing, Toddler Clothing",
+      filters: {
+        type: "Puffer Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/hot-wheels-zip-up-winter-coat-puffer-jacket-toddler/-/A-1004482071",
+      tags: "Coats & Jackets, Puffer Jackets, Toddler Boys’ Clothing, Toddler Clothing",
+      filters: {
+        type: "Puffer Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/oshkosh-b-gosh-little-boys-heavyweight-fleece-lined-winter-jackets/-/A-93830816",
+      tags: "Coats & Jackets, Puffer Jackets, Toddler Boys’ Clothing, Toddler Clothing",
+      filters: {
+        type: "Puffer Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/oshkosh-b-gosh-baby-toddler-boys-fleece-lined-puffer-coat/-/A-93446351",
+      tags: "Coats & Jackets, Puffer Jackets, Toddler Boys’ Clothing, Toddler Clothing",
+      filters: {
+        type: "Puffer Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/oshkosh-b-gosh-little-boys-heavyweight-faux-shearling-winter-jackets/-/A-93830831",
+      tags: "Coats & Jackets, Puffer Jackets, Toddler Boys’ Clothing, Toddler Clothing",
+      filters: {
+        type: "Puffer Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/sonic-the-hedgehog-boys-heavyweight-hooded-puffer-winter-coat/-/A-90928138",
+      tags: "Coats & Jackets, Puffer Jackets, Toddler Boys’ Clothing, Toddler Clothing",
+      filters: {
+        type: "Puffer Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/london-fog-little-big-boys-heavyweight-stylish-winter-puffer-jackets/-/A-93788248",
+      tags: "Coats & Jackets, Puffer Jackets, Toddler Boys’ Clothing, Toddler Clothing",
+      filters: {
+        type: "Puffer Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/disney-pixar-cars-lightning-mcqueen-winter-coat-puffer-jacket-toddler/-/A-87548273",
+      tags: "Coats & Jackets, Puffer Jackets, Toddler Boys’ Clothing, Toddler Clothing",
+      filters: {
+        type: "Puffer Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/marvel-avengers-spider-man-hulk-black-panther-captain-america-zip-up-winter-coat-puffer-jacket-toddler-to-big-kid/-/A-89223352",
+      tags: "Coats & Jackets, Puffer Jackets, Toddler Boys’ Clothing, Toddler Clothing",
+      filters: {
+        type: "Puffer Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/dc-comics-infant-toddler-boys-2-piece-batman-puffer-vest-shirt-set/-/A-94201827",
+      tags: "Coats & Jackets, Puffer Vests, Toddler Boys’ Clothing, Toddler Clothing",
+      filters: {
+        type: "Puffer Vests",
+      },
+    },
+    {
+      url: "https://www.target.com/p/dc-comics-toddler-boys-2-piece-superman-puffer-vest-shirt-set/-/A-1000057860",
+      tags: "Coats & Jackets, Puffer Vests, Toddler Boys’ Clothing, Toddler Clothing",
+      filters: {
+        type: "Puffer Vests",
+      },
+    },
+    {
+      url: "https://www.target.com/p/toddler-adaptive-quilted-jacket-cat-jack/-/A-88077276",
+      tags: "Coats & Jackets, Quilted Jackets, Toddler Boys’ Clothing, Toddler Clothing",
+      filters: {
+        type: "Quilted Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/oshkosh-b-gosh-toddler-boys-long-sleeve-plaid-quilted-button-up-jacket-cream-blue/-/A-91896874",
+      tags: "Coats & Jackets, Quilted Jackets, Toddler Boys’ Clothing, Toddler Clothing",
+      filters: {
+        type: "Quilted Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-boy-colorblock-quilted-mid-season-jacket-brown-and-black/-/A-1002931049",
+      tags: "Coats & Jackets, Quilted Jackets, Toddler Boys’ Clothing, Toddler Clothing",
+      filters: {
+        type: "Quilted Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-boy-printed-quilted-mid-season-jacket-blue-and-gray/-/A-1002949063",
+      tags: "Coats & Jackets, Quilted Jackets, Toddler Boys’ Clothing, Toddler Clothing",
+      filters: {
+        type: "Quilted Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/toddler-cloud-printed-clear-rain-coat-cat-jack-blue/-/A-92877918",
+      tags: "Coats & Jackets, Rain Coats, Toddler Boys’ Clothing, Toddler Clothing",
+      filters: {
+        type: "Rain Coats",
+      },
+    },
+    {
+      url: "https://www.target.com/p/toddler-solid-rubber-rain-coat-cat-jack-blue/-/A-92877917",
+      tags: "Coats & Jackets, Rain Coats, Toddler Boys’ Clothing, Toddler Clothing",
+      filters: {
+        type: "Rain Coats",
+      },
+    },
+    {
+      url: "https://www.target.com/p/marvel-spider-man-zip-up-waterproof-hooded-rain-jacket-coat-toddler/-/A-1003487779",
+      tags: "Coats & Jackets, Rain Coats, Toddler Boys’ Clothing, Toddler Clothing",
+      filters: {
+        type: "Rain Coats",
+      },
+    },
+    {
+      url: "https://www.target.com/p/disney-zip-up-waterproof-hooded-rain-jacket-coat-toddler/-/A-1003550536",
+      tags: "Coats & Jackets, Rain Coats, Toddler Boys’ Clothing, Toddler Clothing",
+      filters: {
+        type: "Rain Coats",
+      },
+    },
+    {
+      url: "https://www.target.com/p/disney-zip-up-waterproof-hooded-rain-jacket-coat-toddler/-/A-1004218638",
+      tags: "Coats & Jackets, Rain Coats, Toddler Boys’ Clothing, Toddler Clothing",
+      filters: {
+        type: "Rain Coats",
+      },
+    },
+    {
+      url: "https://www.target.com/p/sonic-the-hedgehog-little-big-boys-lightweight-jersey-lined-hooded-rain-jacket/-/A-1001904431",
+      tags: "Coats & Jackets, Rain Coats, Toddler Boys’ Clothing, Toddler Clothing",
+      filters: {
+        type: "Rain Coats",
       },
     },
   ];
