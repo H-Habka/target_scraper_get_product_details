@@ -20,7003 +20,7003 @@ import { saveToCSVAndExcel } from "./helpers/fileIO.js";
 
   const urls = [
     {
-      url: "https://www.target.com/p/peanuts/-/A-1000810240",
-      tags: "A-line Dresses, Dresses, Girls’ Clothing, Kids’ Clothing",
-      filters: {
-        type: "A-line Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-computer-design-graphic-sleeveless-aline-dress/-/A-1001997358",
-      tags: "A-line Dresses, Dresses, Girls’ Clothing, Kids’ Clothing",
-      filters: {
-        type: "A-line Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-39-knit-double-layer-dress-all-in-motion-8482/-/A-94369612",
-      tags: "Athletic Dresses, Dresses, Girls’ Clothing, Kids’ Clothing, Activewear, Girls’ Activewear",
-      filters: {
-        type: "Athletic Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-39-knit-piping-trim-160-dress-all-in-motion-8482/-/A-94334866",
-      tags: "Athletic Dresses, Dresses, Girls’ Clothing, Kids’ Clothing, Activewear, Girls’ Activewear",
-      filters: {
-        type: "Athletic Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-contrast-trim-active-dress-all-in-motion/-/A-94501352",
-      tags: "Athletic Dresses, Dresses, Girls’ Clothing, Kids’ Clothing, Activewear, Girls’ Activewear",
-      filters: {
-        type: "Athletic Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/capezio-classics-double-layer-skirt-tank-dress-girls/-/A-83927532",
-      tags: "Athletic Dresses, Dresses, Girls’ Clothing, Kids’ Clothing, Activewear, Girls’ Activewear",
-      filters: {
-        type: "Athletic Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/capezio-ruffle-yoke-tutu-dress-girls/-/A-84642559",
-      tags: "Athletic Dresses, Dresses, Girls’ Clothing, Kids’ Clothing, Activewear, Girls’ Activewear",
-      filters: {
-        type: "Athletic Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/capezio-pinch-front-tank-dress-girls/-/A-84642597",
-      tags: "Athletic Dresses, Dresses, Girls’ Clothing, Kids’ Clothing, Activewear, Girls’ Activewear",
-      filters: {
-        type: "Athletic Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-outdoor-sports-sleeveless-dress-with-pockets-tennis-golf-outfit-athletic-sets/-/A-1003869470",
-      tags: "Athletic Dresses, Dresses, Girls’ Clothing, Kids’ Clothing, Activewear, Girls’ Activewear",
-      filters: {
-        type: "Athletic Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-tennis-golf-dress-outfit-sleeveless-a-line-pleated-athletic-skirt-dress-with-pockets-safety-inner-shorts/-/A-1002515302",
-      tags: "Athletic Dresses, Dresses, Girls’ Clothing, Kids’ Clothing, Activewear, Girls’ Activewear",
-      filters: {
-        type: "Athletic Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-tennis-dress-with-built-in-shorts-girls-athletic-dress-sleeveless-a-line-tennis-dress-pleated-girls-golf-dress/-/A-93555583",
-      tags: "Athletic Dresses, Dresses, Girls’ Clothing, Kids’ Clothing, Activewear, Girls’ Activewear",
-      filters: {
-        type: "Athletic Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-round-neck-tennis-golf-sport-dress-sleeveless-athletic-pleated-skirt-sets-with-built-in-shorts-pockets-purple-3-12y/-/A-1002515178",
-      tags: "Athletic Dresses, Dresses, Girls’ Clothing, Kids’ Clothing, Activewear, Girls’ Activewear",
-      filters: {
-        type: "Athletic Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-silt-tennis-dress-with-built-in-shorts-girls-athletic-dress-sleeveless-a-line-tennis-dress-pleated-girls-golf-dress/-/A-93599991",
-      tags: "Athletic Dresses, Dresses, Girls’ Clothing, Kids’ Clothing, Activewear, Girls’ Activewear",
-      filters: {
-        type: "Athletic Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-tennis-dress-sleeveless-workout-dress-with-separate-shorts-asymmetric-color-block-glof-dress-a-line-athletic-dress-for-girls/-/A-91908754",
-      tags: "Athletic Dresses, Dresses, Girls’ Clothing, Kids’ Clothing, Activewear, Girls’ Activewear",
-      filters: {
-        type: "Athletic Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-airy-sleek-dress-all-in-motion/-/A-94471794",
-      tags: "Athletic Dresses, Dresses, Girls’ Clothing, Kids’ Clothing, Activewear, Girls’ Activewear",
-      filters: {
-        type: "Athletic Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/capezio-women-s-future-star-tank-dress/-/A-1003319649",
-      tags: "Athletic Dresses, Dresses, Girls’ Clothing, Kids’ Clothing, Activewear, Girls’ Activewear",
-      filters: {
-        type: "Athletic Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/capezio-tutu-dress-girls/-/A-84642582",
-      tags: "Athletic Dresses, Dresses, Girls’ Clothing, Kids’ Clothing, Activewear, Girls’ Activewear",
-      filters: {
-        type: "Athletic Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/capezio-flutter-sleeve-dress-girls/-/A-84642543",
-      tags: "Athletic Dresses, Dresses, Girls’ Clothing, Kids’ Clothing, Activewear, Girls’ Activewear",
-      filters: {
-        type: "Athletic Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/capezio-keyhole-back-tutu-dress-girls/-/A-84642715",
-      tags: "Athletic Dresses, Dresses, Girls’ Clothing, Kids’ Clothing, Activewear, Girls’ Activewear",
-      filters: {
-        type: "Athletic Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-tennis-golf-dress-outfit-sleeveless-tank-top-and-skorts-sets-sport-skirt-with-shorts/-/A-1002473902",
-      tags: "Athletic Dresses, Dresses, Girls’ Clothing, Kids’ Clothing, Activewear, Girls’ Activewear",
-      filters: {
-        type: "Athletic Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/zenzi-girls-39-dress-blush-pink/-/A-94493159",
-      tags: "Babydoll Dresses, Dresses, Girls’ Clothing, Kids’ Clothing",
-      filters: {
-        type: "Babydoll Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/zenzi-girls-short-puff-sleeve-a-line-dress-cream/-/A-93067232",
-      tags: "Babydoll Dresses, Dresses, Girls’ Clothing, Kids’ Clothing",
-      filters: {
-        type: "Babydoll Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/levi-39-s-174-girls-39-sleeveless-smocked-floral-dress-light-wash/-/A-93018546",
-      tags: "Babydoll Dresses, Dresses, Girls’ Clothing, Kids’ Clothing",
-      filters: {
-        type: "Babydoll Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lands-end-kids-smocked-flutter-sleeve-tank-dress/-/A-91762557",
-      tags: "Babydoll Dresses, Dresses, Girls’ Clothing, Kids’ Clothing",
-      filters: {
-        type: "Babydoll Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/jackalo-long-sleeved-button-down-woven-dress-acorn/-/A-93603358",
-      tags: "Babydoll Dresses, Dresses, Girls’ Clothing, Kids’ Clothing",
-      filters: {
-        type: "Babydoll Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/kids-organic-sleeveless-beetle-print-jersey-dress-jackalo/-/A-1002304509",
-      tags: "Babydoll Dresses, Dresses, Girls’ Clothing, Kids’ Clothing",
-      filters: {
-        type: "Babydoll Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/jackalo-sleeveless-button-down-woven-dress-dark-olive/-/A-93603368",
-      tags: "Babydoll Dresses, Dresses, Girls’ Clothing, Kids’ Clothing",
-      filters: {
-        type: "Babydoll Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/kids-organic-sleeveless-dress-engineer-stripe-jackalo/-/A-1004964220",
-      tags: "Babydoll Dresses, Dresses, Girls’ Clothing, Kids’ Clothing",
-      filters: {
-        type: "Babydoll Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-39-rosette-ruffle-dress-art-class-8482-purple/-/A-94486495",
-      tags: "Bodycon Dresses, Dresses, Girls’ Clothing, Kids’ Clothing",
-      filters: {
-        type: "Bodycon Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/patpat-girl-s-sleeveless-bodycon-dress-halter-neck-pencil-cami-midi-basi-dresses-4-12-year/-/A-1003324029",
-      tags: "Bodycon Dresses, Dresses, Girls’ Clothing, Kids’ Clothing",
-      filters: {
-        type: "Bodycon Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-tennis-dress-golf-outfit-sets-sleeveless-tank-top-skirt-with-shorts-pockets/-/A-1002551653",
-      tags: "Bodycon Dresses, Dresses, Girls’ Clothing, Kids’ Clothing",
-      filters: {
-        type: "Bodycon Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-39-astrid-long-sleeve-empire-waist-dress-sky-blue/-/A-91487287",
-      tags: "Dresses, Empire Waist Dresses, Girls’ Clothing, Kids’ Clothing",
-      filters: {
-        type: "Empire Waist Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/mi-amore-gigi-red-plaid-satin-bow-holiday-dress/-/A-93502341",
-      tags: "Dresses, Empire Waist Dresses, Girls’ Clothing, Kids’ Clothing",
-      filters: {
-        type: "Empire Waist Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hope-henry-girls-organic-sleeveless-crochet-detail-empire-waist-seersucker-dress-kids/-/A-1002929817",
-      tags: "Dresses, Empire Waist Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Empire Waist Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/paradise-dreams-sleeveless-hi-lo-dress-mia-belle-girls/-/A-1004617705",
-      tags: "Dresses, Girls’ Clothing, High-low Dresses, Kids’ Clothing",
-      filters: {
-        type: "High-low Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/sunny-breeze-sleeveless-hi-lo-dress-mia-belle-girls/-/A-1004617718",
-      tags: "Dresses, Girls’ Clothing, High-low Dresses, Kids’ Clothing",
-      filters: {
-        type: "High-low Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/city-threads-usa-made-cotton-soft-jersey-girls-short-sleeve-hi-lo-maxi-dress/-/A-92701361",
-      tags: "Dresses, Girls’ Clothing, High-low Dresses, Kids’ Clothing",
-      filters: {
-        type: "High-low Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-square-neck-basque-waist-dress-art-class/-/A-94340525",
-      tags: "Dresses, Girls’ Clothing, Jumpers, Kids’ Clothing",
-      filters: {
-        type: "Jumpers",
-      },
-    },
-    {
-      url: "https://www.target.com/p/zenzi-girls-39-short-sleeve-floral-chiffon-jumper-dress-ivory/-/A-93300541",
-      tags: "Dresses, Girls’ Clothing, Jumpers, Kids’ Clothing",
-      filters: {
-        type: "Jumpers",
-      },
-    },
-    {
-      url: "https://www.target.com/p/rufflebutts-girls-woven-bow-jumper-dress/-/A-1004842018",
-      tags: "Dresses, Girls’ Clothing, Jumpers, Kids’ Clothing",
-      filters: {
-        type: "Jumpers",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lands-end-kids-uniform-plaid-jumper/-/A-1005140005",
-      tags: "Dresses, Girls’ Clothing, Jumpers, Kids’ Clothing",
-      filters: {
-        type: "Jumpers",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dragonwing-showcase-dress/-/A-1001541848",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sheath Dresses",
-      filters: {
-        type: "Sheath Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-39-adaptive-sleeveless-woven-floral-dress-cat-38-jack-8482-turquoise-green/-/A-94310274",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Shift Dresses",
-      filters: {
-        type: "Shift Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-bluey-square-neck-all-over-print-dress-blue/-/A-93447112",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Shift Dresses",
-      filters: {
-        type: "Shift Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/sparkle-hop-sequined-fur-easter-dress-mia-belle-girls/-/A-1002839650",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Shift Dresses",
-      filters: {
-        type: "Shift Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/2bunnies-girls-shimmering-sequin-spaghetti-strap-mini-dress/-/A-1004667872",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Shift Dresses",
-      filters: {
-        type: "Shift Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/mightly-girls-fair-trade-organic-cotton-short-sleeve-t-dress/-/A-1004010272",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Shift Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Shift Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/reebok-girls-la-kings-drop-waist-dress/-/A-1004746122",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Shift Dresses",
-      filters: {
-        type: "Shift Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/sol-angeles-kids-one-shoulder-mini-ruffle-dress/-/A-1003665978",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Shift Dresses",
-      filters: {
-        type: "Shift Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/mary-engelbreit-kayla-dress-dusty-blue-sailor/-/A-1003554814",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Shift Dresses",
-      filters: {
-        type: "Shift Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/converse-174-girls-39-short-sleeve-polo-dress/-/A-93421496",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Shirt Dresses",
-      filters: {
-        type: "Shirt Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bluey-girls-dress-little-kid-to-big-kid/-/A-88417244",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Shirt Dresses, Skater Dresses",
-      filters: {
-        type: "Shirt Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/disney-frozen-princess-lion-king-jasmine-elsa-simba-girls-tulle-dress-little-kid-to-big-kid/-/A-87894051",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Shirt Dresses",
-      filters: {
-        type: "Shirt Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-39-sleeveless-denim-dress-cat-38-jack-8482-medium-wash/-/A-94492239",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Shirt Dresses",
-      filters: {
-        type: "Shirt Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/disney-moana-girls-2-pack-dress-multicolor-10/-/A-1003488315",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Shirt Dresses",
-      filters: {
-        type: "Shirt Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hello-kitty-girls-chambray-dress-little-kid-to-big/-/A-92302318",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Shirt Dresses, Tunic Dresses",
-      filters: {
-        type: "Shirt Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bluey-character-print-girls-dress-infants-to-big-kids/-/A-91123918",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Shirt Dresses, Skater Dresses",
-      filters: {
-        type: "Shirt Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hello-kitty-square-neck-pleated-dress/-/A-1003209265",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Shirt Dresses, Tunic Dresses",
-      filters: {
-        type: "Shirt Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/disney-junior-square-neck-pleated-dress/-/A-1003209288",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Shirt Dresses, Tunic Dresses",
-      filters: {
-        type: "Shirt Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/disney-frozen-dress-for-girls-elsa-snowflake-princess-dress-white-pink-lilac/-/A-1003488203",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Shirt Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Shirt Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/mattel-monster-high-dress-sizes-4-14-16/-/A-1002435990",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Shirt Dresses",
-      filters: {
-        type: "Shirt Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/disney-lilo-stitch-minnie-mouse-girls-mesh-cosplay-dress-little-kid-to-big-kid/-/A-88155878",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Shirt Dresses",
-      filters: {
-        type: "Shirt Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/disney-minnie-mouse-girls-dress-little-kid/-/A-87184999",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Shirt Dresses",
-      filters: {
-        type: "Shirt Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/rufflebutts-girls-tie-shoulder-twirl-dress/-/A-1003407904",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Shirt Dresses",
-      filters: {
-        type: "Shirt Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/disney-princess-ariel-snow-white-rapunzel-belle-cinderella-little-girls-2-pack-dresses-disney-princesses/-/A-86005748",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Shirt Dresses",
-      filters: {
-        type: "Shirt Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/disney-minnie-mouse-ruffle-dress-sizes-2t-10-12/-/A-1003633324",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Shirt Dresses",
-      filters: {
-        type: "Shirt Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/sesame-street-elmo-french-terry-short-sleeve-dress-scrunchy-set-red/-/A-87237364",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Shirt Dresses, Skater Dresses",
-      filters: {
-        type: "Shirt Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/wrapables-girls-casual-summer-dress-with-sequins/-/A-1002844340",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Shirt Dresses",
-      filters: {
-        type: "Shirt Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/ferris-bueller-s-day-off-save-ferris-graphic-short-sleeve-fleece-dress/-/A-1002118433",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Shirt Dresses, Sweater Dresses",
-      filters: {
-        type: "Shirt Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/ferris-bueller-s-day-off-ferris-my-hero-graphic-short-sleeve-fleece-dress/-/A-1002032866",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Shirt Dresses, Sweater Dresses",
-      filters: {
-        type: "Shirt Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/charmed-the-power-of-three-will-set-you-free-graphic-short-sleeve-fleece-dress/-/A-1001994398",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Shirt Dresses, Sweater Dresses",
-      filters: {
-        type: "Shirt Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/ferris-bueller-s-day-off-do-you-know-anything-graphic-short-sleeve-fleece-dress/-/A-1002030585",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Shirt Dresses, Sweater Dresses",
-      filters: {
-        type: "Shirt Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/ferris-bueller-s-day-off-bueller-bueller-bueller-graphic-short-sleeve-fleece-dress/-/A-1002031453",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Shirt Dresses",
-      filters: {
-        type: "Shirt Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/ferris-bueller-s-day-off-how-could-i-possibly-graphic-short-sleeve-fleece-dress/-/A-1002031722",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Shirt Dresses",
-      filters: {
-        type: "Shirt Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/paw-patrol-this-is-my-camping-shirt-graphic-short-sleeve-fleece-dress/-/A-1001738933",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Shirt Dresses, Sweater Dresses",
-      filters: {
-        type: "Shirt Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/paw-patrol-adventure-citys-heroes/-/A-1000807407",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Shirt Dresses, Sweater Dresses",
-      filters: {
-        type: "Shirt Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bellabu-bear-kids-milk-cookies-white-bamboo-girls-sleeveless-dress/-/A-1004813480",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Shirt Dresses",
-      filters: {
-        type: "Shirt Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lands-end-kids-3-4-sleeve-corduroy-shirt-dress/-/A-1005094058",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Shirt Dresses",
-      filters: {
-        type: "Shirt Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-39-rib-tank-dress-cat-38-jack-8482-hot-pink/-/A-94219171",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-39-sleeveless-tank-dress-cat-38-jack-8482/-/A-94147428",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-39-short-sleeve-tiered-ribbed-dress-cat-38-jack-8482/-/A-92901438",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-short-sleeve-knit-dress-cat-jack/-/A-89487285",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/disney-minnie-mouse-mickey-mouse-daisy-lilo-stitch-princess-belle-ariel-girls-chambray-skater-dress-toddler-to-big-kid/-/A-91112581",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, Tunic Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hello-kitty-girls-2-pack-skater-dresses-little-kid-to-big/-/A-91318240",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hope-henry-girls-short-bubble-sleeve-smocked-dress-kids/-/A-90598282",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/city-threads-usa-made-girls-soft-cotton-jersey-long-sleeve-twirly-skater-dress/-/A-90461636",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/disney-frozen-elsa-princess-anna-olaf-christmas-girls-skater-dress-little-kid/-/A-85239228",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-39-short-sleeve-ribbed-dress-cat-38-jack/-/A-94486514",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-barbie-land-athletics-fit-flair-cap-sleeve-dress/-/A-1002051454",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-39-moana-2-cosplay-dress-coral-red-ivory/-/A-92185954",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-39-astrid-skater-dress-white/-/A-91487285",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/just-love-girls-twirl-dress-girls-short-sleeve-twirly-skater-dress/-/A-1002806899",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/squishmallows-2-pack-skater-dresses/-/A-1003364007",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/wicked-little-girls-2-pack-skater-dresses-logo-pink-green-5/-/A-1003394660",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-pok-mon-eevee-evolution-stickers-fit-flair-cap-sleeve-dress/-/A-1002396657",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bluey-mom-dad-bingo-girls-2-pack-skater-dresses-toddler-to-big-kid/-/A-88256298",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/harry-potter-2-pack-skater-dresses/-/A-1002897100",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/star-wars-french-terry-skater-dress/-/A-1002436011",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/primary-kids-recess-dress-in-rainbow-confetti-dots/-/A-1002751980",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-ballerina-this-girl-can-dance-fit-flair-cap-sleeve-dress/-/A-93305049",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/city-threads-usa-made-soft-cotton-jersey-s-s-peter-pan-polo-twirly-dress/-/A-92901118",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/primary-kids-backyard-dress-in-double-rainbow-stripe/-/A-1002751937",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/city-threads-usa-made-cotton-soft-girls-jersey-short-sleeve-twirly-skater-dress/-/A-91487571",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/l-o-l-surprise-queen-bee-kitty-queen-girls-skater-sequin-dresses-scrunchie-toddler-to-big-kid/-/A-88257632",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hope-henry-girls-organic-sleeveless-tennis-sweater-dress-kids/-/A-1000871924",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, Sweater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/mightly-girls-fair-trade-organic-cotton-solid-3-4-sleeve-twirl-dress/-/A-1005186864",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hope-henry-girls-organic-flutter-sleeve-eyelet-dress-kids/-/A-1002929989",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, Sundresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/peppa-pig-little-girls-2-pack-skater-dresses-blue-yellow-6/-/A-1002897161",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-pok-mon-eevee-fit-flair-cap-sleeve-dress/-/A-1002396678",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hope-henry-girls-sleeveless-knit-pinafore-dress-kids/-/A-90586123",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/mightly-girls-fair-trade-organic-cotton-solid-sleeveless-twirl-dress/-/A-1004010308",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/mightly-girls-fair-trade-organic-cotton-print-3-4-sleeve-twirl-dress/-/A-1005185887",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/pok-mon-eevee-evolutions-graphic-sleeveless-aline-dress/-/A-1002404806",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/marvel-spider-man-spider-gwen-ghost-spider-girls-2-pack-skater-dresses-little-kid-to-big/-/A-91318366",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-pok-mon-starry-mew-fit-flair-cap-sleeve-dress/-/A-1002396536",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-sunglasses-and-sun-fit-flair-cap-sleeve-dress/-/A-1002058597",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hope-henry-girls-short-sleeve-puff-sleeve-party-dress-kids/-/A-90598312",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-tie-dye-and-butterflies-flutter-around-barbie-fit-flair-cap-sleeve-dress/-/A-1002058409",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/mightly-girls-fair-trade-organic-cotton-short-sleeve-drop-waist-dress/-/A-89617311",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-soccer-team-1959-fit-flair-cap-sleeve-dress/-/A-93305022",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-pok-mon-i-m-so-sweet-fit-flair-cap-sleeve-dress/-/A-1002396126",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/disney-lilo-stitch-little-girls-chambray-dress-dark-blue-angel-7/-/A-1003640864",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hope-henry-girls-peter-pan-collar-seersucker-dress-kids/-/A-90585910",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-christie-retro-1987-fit-flair-cap-sleeve-dress/-/A-93304971",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-this-girl-is-changing-the-world-fit-flair-cap-sleeve-dress/-/A-93305011",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/2bunnies-girls-organza-long-sleeve-tiered-babydoll-skater-dress/-/A-1001115958",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/twirl-dress-in-the-very-hungry-caterpillar-and-friends/-/A-1003295088",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hope-henry-girls-organic-long-sleeve-schoolgirl-cable-sweater-dress-kids/-/A-92214479",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, Sweater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hope-henry-girls-cap-sleeve-party-dress-with-bow-sash-kids/-/A-89804775",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hope-henry-girls-organic-pleated-flutter-sleeve-apron-dress-with-embroidery-kids/-/A-1002929847",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hope-henry-heirloom-girls-organic-sleeveless-pleated-sweater-dress-with-bow-kids/-/A-1001113679",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, Sweater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/disney-frozen-2-girls-elsa-and-anna-lavender-kids-sleeveless-dress/-/A-92711251",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-girls-all-together-fit-flair-cap-sleeve-dress/-/A-1002069856",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-pool-water-reflection-fit-flair-cap-sleeve-dress/-/A-1002063776",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/mightly-girls-fair-trade-organic-cotton-sleeveless-twirl-dress/-/A-1004010269",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-girl-strong-kind-brave-bold-and-fearless-fit-flair-cap-sleeve-dress/-/A-1002071746",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-monster-high-lagoona-blue-bubbles-fit-flair-cap-sleeve-dress/-/A-1002010115",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-welcome-to-the-barbie-dream-house-fit-flair-cap-sleeve-dress/-/A-1002109459",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-butterflies-flutter-fit-flair-cap-sleeve-dress/-/A-1002076642",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-pok-mon-psyduck-spiral-fit-flair-cap-sleeve-dress/-/A-1002395649",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-pok-mon-jiggypuff-sing-along-fit-flair-cap-sleeve-dress/-/A-1002395866",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-leaves-swirling-fit-flair-cap-sleeve-dress/-/A-1002065480",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/pok-mon-pikachu-eevee-retro-stripe-graphic-sleeveless-aline-dress/-/A-1002404978",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-pok-mon-charmander-see-the-evolution-fit-flair-cap-sleeve-dress/-/A-1002396995",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-monster-high-character-image-fit-flair-cap-sleeve-dress/-/A-1001976513",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/mightly-girls-fair-trade-organic-cotton-sleeveless-twirl-dress-sidewalk-chalk/-/A-1004010419",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-summer-dreams-trio-fit-flair-cap-sleeve-dress/-/A-93305000",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/mightly-girls-fair-trade-organic-cotton-short-sleeve-dresses-2-pack/-/A-1004010293",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-heart-grid-fit-flair-cap-sleeve-dress/-/A-1002082900",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-original-barbie-fit-flair-cap-sleeve-dress/-/A-1002061861",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-lol-surprise-sk8er-grl-fit-flair-cap-sleeve-dress/-/A-1001998188",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-skater-chick-w-flowers-graphic-sleeveless-aline-dress/-/A-1001996638",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-girls-run-the-world-graphic-sleeveless-aline-dress/-/A-1002072780",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-easter-fit-flair-cap-sleeve-dress/-/A-1002107572",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-bff-hearts-fit-flair-cap-sleeve-dress/-/A-1002109294",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-pok-mon-squirtle-charmander-and-bulbasaur-youth-girls-fit-and-flare-dress-fit-flair-cap-sleeve-dress/-/A-1002396625",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/spongebob-squarepants-fly-on-the-4th-of-july/-/A-1000770888",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hope-henry-girls-organic-long-sleeve-cable-knit-peter-pan-collar-sweater-dress-kids/-/A-92929491",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, Sweater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hope-henry-girls-long-sleeve-tiered-button-front-peter-pan-collar-dress-kids/-/A-89379345",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hope-henry-girls-sleeveless-special-occasion-party-dress-with-cross-back-detail-kids/-/A-90586267",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, Sundresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-girls-will-save-the-world-fit-flair-cap-sleeve-dress/-/A-1002073251",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-sunny-days-ahead-fit-flair-cap-sleeve-dress/-/A-1000412951",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-mattel-monster-high-2-girl-crew-fit-flair-cap-sleeve-dress/-/A-1002008114",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-mattel-frankie-draculaura-clawdeen-m-f-f-fit-flair-cap-sleeve-dress/-/A-1002008144",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/pok-mon-happy-eevee-graphic-sleeveless-aline-dress/-/A-1002405031",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/pok-mon-charmander-retro-graphic-sleeveless-aline-dress/-/A-1002405521",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-pok-mon-snorlax-fit-flair-cap-sleeve-dress/-/A-1002396883",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/twirl-dress-in-construction/-/A-1003295109",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-hot-wheels-scary-fast-fit-flair-cap-sleeve-dress/-/A-1002093118",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-hot-wheels-race-crew-4-yrs-fit-flair-cap-sleeve-dress/-/A-1002086076",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/2bunnies-girls-sleeveless-maxi-embroidered-tulle-dress/-/A-1001847610",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/pok-mon-eevee-group-graphic-sleeveless-aline-dress/-/A-1002404446",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-strong-girls-make-waves-fit-flair-cap-sleeve-dress/-/A-1002109510",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-fun-in-the-sun-fit-flair-cap-sleeve-dress/-/A-93305043",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-classic-logo-fit-flair-cap-sleeve-dress/-/A-1002112526",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-pok-mon-hypnotic-pikachu-art-fit-flair-cap-sleeve-dress/-/A-1002396693",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-monster-high-blue-ink-frankie-fit-flair-cap-sleeve-dress/-/A-1001976524",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/mightly-girls-fair-trade-organic-cotton-sleeveless-twirl-dress-rainbow-stripe/-/A-1004010300",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/pok-mon-i-m-so-sweet-graphic-sleeveless-aline-dress/-/A-1002405385",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/seven-times-six-my-little-pony-friendship-is-magic-girl-s-rainbow-dash-tank-top-dress-for-kids-grey/-/A-1000138305",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-summer-pool-floaties-fit-flair-cap-sleeve-dress/-/A-1002060689",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-pok-mon-squirtle-bulbasaur-charmander-group-fit-flair-cap-sleeve-dress/-/A-1002348144",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/marvel-spider-man-little-girls-dress-pink-blue-spiderman-5/-/A-1005039704",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/mightly-girls-fair-trade-organic-cotton-print-3-4-sleeve-twirl-dress-x-large-12-botanical-floral/-/A-89617329",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-middle-school-dolls-fit-flair-cap-sleeve-dress/-/A-1002047901",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/monster-high-deuce-gorgon-graphic-sleeveless-aline-dress/-/A-1002008499",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-believe-in-yourself-graphic-sleeveless-aline-dress/-/A-1002082781",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hot-wheels-birthday-kid-graphic-sleeveless-aline-dress/-/A-1002118078",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hot-wheels-race-crew-5-yrs-graphic-sleeveless-aline-dress/-/A-1002085359",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hot-wheels-ready-to-smash-cake-graphic-sleeveless-aline-dress/-/A-1002086342",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-i-am-powerful-graphic-sleeveless-aline-dress/-/A-1002070090",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-ken-graphic-sleeveless-aline-dress/-/A-1002069573",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-sk8er-grl-graphic-sleeveless-aline-dress/-/A-1002118226",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hot-wheels-race-crew-4-yrs-graphic-sleeveless-aline-dress/-/A-1002085785",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-happy-spring-graphic-sleeveless-aline-dress/-/A-1002069955",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-out-of-office-graphic-sleeveless-aline-dress/-/A-1002060106",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-girls-run-the-world-graphic-sleeveless-aline-dress/-/A-1002074815",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-happy-heart-day-graphic-sleeveless-aline-dress/-/A-1002081644",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/ferris-bueller-s-day-off-how-could-i-possibly-graphic-sleeveless-aline-dress/-/A-1002031881",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-fitness-barbie-graphic-sleeveless-aline-dress/-/A-1002117985",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hot-wheels-i-wheelie-love-4th-of-july-graphic-short-sleeve-fleece-dress/-/A-1002104985",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, Sweater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/monster-high-frankiestein-voltageous-graphic-sleeveless-aline-dress/-/A-1002008486",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-this-is-how-i-roll-holiday-fit-flair-cap-sleeve-dress/-/A-1002048754",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-believe-in-miracles-holiday-fit-flair-cap-sleeve-dress/-/A-1002049844",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-holiday-friends-fit-flair-cap-sleeve-dress/-/A-1002049278",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/pok-mon-electric-type-graphic-sleeveless-aline-dress/-/A-1002405591",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/pok-mon-gotta-catch-em-all-design-graphic-sleeveless-aline-dress/-/A-1002405285",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/santiago-of-the-sea-bff-of-the-sea/-/A-1000772867",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/pok-mon-pumpkin-party-graphic-sleeveless-aline-dress/-/A-1002404328",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/spongebob-squarepants-sea-ya-later/-/A-1000781661",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/ferris-bueller-s-day-off-ferris-my-hero-graphic-sleeveless-aline-dress/-/A-1002032805",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/jimmy-neutron-adventures-of-jimmy-neutron/-/A-1000857475",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/mtv-skater-graphic-sleeveless-aline-dress/-/A-1001984043",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/spongebob-squarepants-so-eggcited/-/A-1000849838",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/spongebob-squarepants-squidward-luck/-/A-1000827610",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/pok-mon-winter-fun-graphic-sleeveless-aline-dress/-/A-1002404014",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/spongebob-squarepants-tis-the-season/-/A-1000840126",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/pok-mon-friends-retro-checkered-graphic-sleeveless-aline-dress/-/A-1002404883",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/santiago-of-the-sea-splashtastic/-/A-1000771478",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/spongebob-squarepants-character-grid/-/A-1000782139",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/spongebob-squarepants-patrick-it-s-lit/-/A-1000851037",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/spongebob-squarepants-sandy-boo-y-all/-/A-1000850794",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/pok-mon-happy-eevee-cute-graphic-sleeveless-aline-dress/-/A-1002404849",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/pok-mon-koraidon-collegiate-graphic-sleeveless-aline-dress/-/A-1002404557",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/pok-mon-witch-pikachu-with-candy-graphic-sleeveless-aline-dress/-/A-1002404367",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/spongebob-squarepants-stay-weird/-/A-1000781659",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/pok-mon-miraidon-elements-graphic-sleeveless-aline-dress/-/A-1002404540",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/jimmy-neutron-gotta-blast/-/A-1000856381",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/spongebob-squarepants-shine-like-fireworks/-/A-1000817131",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-woman-kind-kind-woman-graphic-sleeveless-aline-dress/-/A-1002118010",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/pok-mon-slowpoke-relax-repeat-graphic-sleeveless-aline-dress/-/A-1002404869",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/pok-mon-gengar-neon-graphic-sleeveless-aline-dress/-/A-1002405058",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-easter-graphic-sleeveless-aline-dress/-/A-1002107488",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/santiago-of-the-sea-bonnie-bones-swabs/-/A-1000772782",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/spongebob-squarepants-boo-tiful/-/A-1000850911",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/pok-mon-koraidon-elements-graphic-sleeveless-aline-dress/-/A-1002404460",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/spongebob-squarepants-nope-not-today/-/A-1000781694",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/spongebob-squarepants-let-it-snow/-/A-1000851078",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/spongebob-squarepants-ready-for-baseball/-/A-1000770758",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hot-wheels-race-crew-3-yrs-graphic-sleeveless-aline-dress/-/A-1002086613",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-easter-graphic-sleeveless-aline-dress/-/A-1002073050",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/pok-mon-hypnotic-pikachu-art-graphic-sleeveless-aline-dress/-/A-1002405497",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/santiago-of-the-sea-enrique-palacios/-/A-1000772923",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/spongebob-squarepants-scardey-pants/-/A-1000810342",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/spongebob-squarepants-charmed-i-m-sure/-/A-1000827601",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/pok-mon-charmander-snowflakes-graphic-sleeveless-aline-dress/-/A-1002404098",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/spongebob-squarepants-squidward-bah-humbug/-/A-1000840181",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/pok-mon-eevee-pattern-graphic-sleeveless-aline-dress/-/A-1002405345",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/spongebob-squarepants-gary-the-snail/-/A-1000784931",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hot-wheels-its-my-birthday-graphic-sleeveless-aline-dress/-/A-1002085868",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/pok-mon-bulba-pattern-graphic-sleeveless-aline-dress/-/A-1002404077",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/spongebob-squarepants-stay-silly/-/A-1000781651",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/spongebob-squarepants-i-m-ready/-/A-1000781109",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/pok-mon-magikarp-graphic-sleeveless-aline-dress/-/A-1002405406",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/spongebob-squarepants-it-s-lit/-/A-1000770845",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-afro-and-hoops-graphic-sleeveless-aline-dress/-/A-1002117849",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/pok-mon-gotta-eat-em-all-graphic-sleeveless-aline-dress/-/A-1002404827",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/spongebob-squarepants-spongebob-scaredy-pants/-/A-1000850678",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-karma-s-world-we-re-so-ambitous-fit-flair-cap-sleeve-dress/-/A-1003970564",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-hot-wheels-race-crew-3-yrs-fit-flair-cap-sleeve-dress/-/A-1002086760",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-brave-bold-and-fearless-fit-flair-cap-sleeve-dress/-/A-1002081380",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-pok-mon-pok-flakes-fit-flair-cap-sleeve-dress/-/A-1002353905",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-spongebob-squarepants-ho-ho-no-fit-flair-cap-sleeve-dress/-/A-1000876051",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-pok-mon-slowpoke-taking-it-slow-fit-flair-cap-sleeve-dress/-/A-1002397035",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-santiago-of-the-sea-bonnie-bones-queen-fit-flair-cap-sleeve-dress/-/A-1000871804",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-spongebob-squarepants-happy-st-patricks-day-fit-flair-cap-sleeve-dress/-/A-1000850021",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-valentine-s-squad-fit-flair-cap-sleeve-dress/-/A-1002053881",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-sunset-and-palm-trees-fit-flair-cap-sleeve-dress/-/A-1002055524",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-spongebob-squarepants-best-witches-fit-flair-cap-sleeve-dress/-/A-1000876536",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-lucky-to-have-great-friends-fit-flair-cap-sleeve-dress/-/A-1002108062",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-girl-power-in-illusion-wave-fit-flair-cap-sleeve-dress/-/A-1002072390",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-mattel-mattel-original-logo-fit-flair-cap-sleeve-dress/-/A-1001978519",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-happy-valentine-s-day-fit-flair-cap-sleeve-dress/-/A-1002084371",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-teenage-mutant-ninja-turtles-battle-tycoon-achievement-unlocked-fit-flair-cap-sleeve-dress/-/A-1004936423",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-spongebob-squarepants-weird-fit-flair-cap-sleeve-dress/-/A-1000451855",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-pok-mon-electric-type-fit-flair-cap-sleeve-dress/-/A-1002396473",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-teenage-mutant-ninja-turtles-game-on-don-fit-flair-cap-sleeve-dress/-/A-1000838935",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-property-of-barbie-land-beach-volleyball-team-fit-flair-cap-sleeve-dress/-/A-1002048115",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-hot-wheels-race-crew-5-yrs-fit-flair-cap-sleeve-dress/-/A-1002085415",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-girls-run-the-world-fit-flair-cap-sleeve-dress/-/A-1002072240",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-pok-mon-pumpkin-party-fit-flair-cap-sleeve-dress/-/A-1002355144",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-inspired-by-barbie-fit-flair-cap-sleeve-dress/-/A-1002081040",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-xoxo-barbie-fit-flair-cap-sleeve-dress/-/A-1002058354",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-girls-run-the-world-fit-flair-cap-sleeve-dress/-/A-1002073858",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-ken-fit-flair-cap-sleeve-dress/-/A-1002067394",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-boo-barbie-girls-fit-flair-cap-sleeve-dress/-/A-1002090671",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-valentine-s-day-fit-flair-cap-sleeve-dress/-/A-1002047103",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-rocket-power-skate-life-fit-flair-cap-sleeve-dress/-/A-1000826801",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-spongebob-squarepants-happy-st-patricks-day-fit-flair-cap-sleeve-dress/-/A-1000827548",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-hot-wheels-valentine-s-epic-fit-flair-cap-sleeve-dress/-/A-1002026019",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-spongebob-squarepants-best-witches-fit-flair-cap-sleeve-dress/-/A-1000877240",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-he-ken-can-do-it-all-fit-flair-cap-sleeve-dress/-/A-1002051858",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-pok-mon-miraidon-collegiate-fit-flair-cap-sleeve-dress/-/A-1002357312",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-easter-fit-flair-cap-sleeve-dress/-/A-1002072723",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-easter-fit-flair-cap-sleeve-dress/-/A-1002074737",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-believe-in-yourself-fit-flair-cap-sleeve-dress/-/A-1002084578",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-pok-mon-charizard-flash-fire-fit-flair-cap-sleeve-dress/-/A-1002350088",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-better-together-fit-flair-cap-sleeve-dress/-/A-1002109475",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-santiago-of-the-sea-my-friends-greatest-treasure-fit-flair-cap-sleeve-dress/-/A-1000871728",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-hot-wheels-valentine-s-you-make-my-heart-race-fit-flair-cap-sleeve-dress/-/A-1002026348",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-st-paddys-collage-fit-flair-cap-sleeve-dress/-/A-1002108126",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-ferris-bueller-s-day-off-ferris-my-hero-fit-flair-cap-sleeve-dress/-/A-1002032610",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-mattel-draculaura-aka-fangtastic-fit-flair-cap-sleeve-dress/-/A-1001973298",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-rugrats-reptar-bar-fit-flair-cap-sleeve-dress/-/A-1000449805",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-do-what-makes-you-awesome-fit-flair-cap-sleeve-dress/-/A-1002075926",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-pok-mon-pikachu-lightning-bolts-fit-flair-cap-sleeve-dress/-/A-1002396480",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-girls-stick-together-fit-flair-cap-sleeve-dress/-/A-1002065645",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-winter-holidays-fit-flair-cap-sleeve-dress/-/A-1002046130",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-love-makes-the-world-go-around-fit-flair-cap-sleeve-dress/-/A-1002064505",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-iconic-like-barbie-fit-flair-cap-sleeve-dress/-/A-1002109360",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-pok-mon-pikachu-retrogamer-fit-flair-cap-sleeve-dress/-/A-1002395283",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-spongebob-squarepants-patrick-it-s-lit-fit-flair-cap-sleeve-dress/-/A-1000877289",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-multi-color-choose-kindness-fit-flair-cap-sleeve-dress/-/A-1002062634",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-spongebob-squarepants-plankton-naughty-list-fit-flair-cap-sleeve-dress/-/A-1000877190",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-hot-wheels-valentine-s-made-to-race-fit-flair-cap-sleeve-dress/-/A-1002025473",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-ferris-bueller-s-day-off-righteous-dude-fit-flair-cap-sleeve-dress/-/A-1002030022",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-spongebob-squarepants-charmed-i-m-sure-fit-flair-cap-sleeve-dress/-/A-1000827470",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-living-the-dream-fit-flair-cap-sleeve-dress/-/A-1002066961",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-i-am-powerful-fit-flair-cap-sleeve-dress/-/A-1002070987",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-choose-kindness-fit-flair-cap-sleeve-dress/-/A-1002076612",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-friendship-goals-fit-flair-cap-sleeve-dress/-/A-1002082273",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-live-play-outside-the-box-fit-flair-cap-sleeve-dress/-/A-1002058006",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-ken-fit-flair-cap-sleeve-dress/-/A-1002069253",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-spongebob-squarepants-hoppy-easter-icons-fit-flair-cap-sleeve-dress/-/A-1000501443",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-be-you-fit-flair-cap-sleeve-dress/-/A-1002082790",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-easter-fit-flair-cap-sleeve-dress/-/A-1002074934",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-so-cute-it-s-scary-fit-flair-cap-sleeve-dress/-/A-1002112494",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-they-call-me-ken-fit-flair-cap-sleeve-dress/-/A-1002059770",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-ferris-bueller-s-day-off-do-you-know-anything-fit-flair-cap-sleeve-dress/-/A-1002030439",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-valentine-s-day-fit-flair-cap-sleeve-dress/-/A-1002042839",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-happy-spring-fit-flair-cap-sleeve-dress/-/A-1002069809",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-monster-high-frankiestein-voltageous-fit-flair-cap-sleeve-dress/-/A-1001976833",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-pok-mon-neon-pikachu-fit-flair-cap-sleeve-dress/-/A-1002395643",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-clover-power-fit-flair-cap-sleeve-dress/-/A-1002108143",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-santiago-of-the-sea-bonnie-bones-swabs-fit-flair-cap-sleeve-dress/-/A-1000871812",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-spongebob-squarepants-did-i-scare-ya-fit-flair-cap-sleeve-dress/-/A-1000480386",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-spongebob-squarepants-dashing-through-the-snow-fit-flair-cap-sleeve-dress/-/A-1000876071",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-easter-fit-flair-cap-sleeve-dress/-/A-1002107736",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-girls-support-girls-fit-flair-cap-sleeve-dress/-/A-1002063787",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-easter-fit-flair-cap-sleeve-dress/-/A-1002068999",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-karma-s-world-open-your-mind-open-your-heart-fit-flair-cap-sleeve-dress/-/A-1003970570",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-out-of-office-fit-flair-cap-sleeve-dress/-/A-1002065638",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-pok-mon-magikarp-fit-flair-cap-sleeve-dress/-/A-1002395711",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-mattel-mattel-original-logo-fit-flair-cap-sleeve-dress/-/A-1001978619",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-pok-mon-psyduck-spiral-fit-flair-cap-sleeve-dress/-/A-1002395353",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-spongebob-squarepants-happy-st-patricks-day-fit-flair-cap-sleeve-dress/-/A-1000849954",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-ferris-bueller-s-day-off-bueller-bueller-bueller-fit-flair-cap-sleeve-dress/-/A-1002031297",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-pok-mon-gotta-eat-em-all-fit-flair-cap-sleeve-dress/-/A-1002376980",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-spongebob-squarepants-squidward-luck-fit-flair-cap-sleeve-dress/-/A-1000827535",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-pok-mon-squirtle-evolution-fit-flair-cap-sleeve-dress/-/A-1002396781",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-greetings-from-barbie-land-fit-flair-cap-sleeve-dress/-/A-1002050193",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-girls-will-save-the-world-fit-flair-cap-sleeve-dress/-/A-1002109440",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-palm-trees-fit-flair-cap-sleeve-dress/-/A-1002063448",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-sunburst-logo-fit-flair-cap-sleeve-dress/-/A-1002112655",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-mattel-monster-skull-bow-fit-flair-cap-sleeve-dress/-/A-1002008164",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-incredibly-fabulous-fit-flair-cap-sleeve-dress/-/A-1002048880",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-spongebob-squarepants-not-today-fit-flair-cap-sleeve-dress/-/A-1000451830",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-ken-hearts-barbie-fit-flair-cap-sleeve-dress/-/A-1002066022",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-jimmy-neutron-boy-genius-fit-flair-cap-sleeve-dress/-/A-1000856378",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-ferris-bueller-s-day-off-how-could-i-possibly-fit-flair-cap-sleeve-dress/-/A-1002031324",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-living-the-dream-fit-flair-cap-sleeve-dress/-/A-1002051889",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-original-icons-in-circle-grid-fit-flair-cap-sleeve-dress/-/A-1002060508",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-spongebob-squarepants-bikini-bottom-university-fit-flair-cap-sleeve-dress/-/A-1000463148",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-sun-s-out-fit-flair-cap-sleeve-dress/-/A-1002056846",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-hot-wheels-birthday-kid-fit-flair-cap-sleeve-dress/-/A-1002086100",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-pok-mon-jiggypuff-sing-along-fit-flair-cap-sleeve-dress/-/A-1002395999",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-chasing-dreams-fit-flair-cap-sleeve-dress/-/A-1002050540",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-friends-rock-fit-flair-cap-sleeve-dress/-/A-1002083160",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-teenage-mutant-ninja-turtles-game-on-mike-fit-flair-cap-sleeve-dress/-/A-1000838448",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-friends-brightest-rainbow-fit-flair-cap-sleeve-dress/-/A-1002109353",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-mattel-cleo-mermaid-besties-fit-flair-cap-sleeve-dress/-/A-1002008156",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-easter-fit-flair-cap-sleeve-dress/-/A-1002074915",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-individual-classic-icons-create-silhouette-fit-flair-cap-sleeve-dress/-/A-1002066430",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-witch-sihloutte-fit-flair-cap-sleeve-dress/-/A-1002090806",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-spongebob-squarepants-let-it-snow-fit-flair-cap-sleeve-dress/-/A-1000877308",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-spongebob-squarepants-so-eggcited-fit-flair-cap-sleeve-dress/-/A-1000849814",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-barbie-winter-holidays-fit-flair-cap-sleeve-dress/-/A-1002046727",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-avatar-the-last-airbender-zuko-fire-nation-fit-flair-cap-sleeve-dress/-/A-1000870850",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-jimmy-neutron-genius-fit-flair-cap-sleeve-dress/-/A-1000856273",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-lol-surprise-royal-rebel-fit-flair-cap-sleeve-dress/-/A-1001993126",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/p-s-from-aeropostale-toddler-little-girls-2-piece-skater-dresses/-/A-1002589046",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/seven-times-six-dc-comics-wonder-woman-dress-girls-cosplay-skater-dress/-/A-1004478522",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/monster-high-lagoona-blue-bubbles-graphic-sleeveless-aline-dress/-/A-1002010271",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/spongebob-squarepants-no-pants/-/A-1000782195",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/if-movie-anything-s-possible-graphic-sleeveless-aline-dress/-/A-1001970382",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/spongebob-squarepants-spongebob-xmas-sweater/-/A-1000790886",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-royal-rebel-graphic-sleeveless-aline-dress/-/A-1001990061",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-girls-stick-together-graphic-sleeveless-aline-dress/-/A-1002065920",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/santiago-of-the-sea-another-awesome-pirate-adventure/-/A-1000781436",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/spongebob-squarepants-feelin-fineapple/-/A-1000785166",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/spongebob-squarepants-absorb-the-love/-/A-1000784899",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/jimmy-neutron-genius/-/A-1000856371",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/worthy-threads-little-big-girls-ruffle-cap-sleeve-racer-back-dresses/-/A-1004020865",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/mightly-girls-fair-trade-organic-cotton-sleeveless-twirl-dress-navy-poppy/-/A-1004010317",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/long-sleeve-twirl-dress-in-icon/-/A-1004884000",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/long-sleeve-twirl-dress-in-slytherin/-/A-1004884011",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/long-sleeve-twirl-dress-in-ravenclaw/-/A-1004884027",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hope-henry-girls-organic-sleeveless-chambray-sundress-with-embroidery-kids/-/A-1002929800",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, Sundresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hope-henry-girls-organic-sleeveless-button-front-ruffle-sundress-kids/-/A-1002929811",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses, Sundresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hope-henry-girls-sleeveless-bow-shoulder-simple-sundress-kids/-/A-88766137",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Skater Dresses",
-      filters: {
-        type: "Skater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-tiered-dress-art-class/-/A-94340880",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Slip Dresses",
-      filters: {
-        type: "Slip Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-button-front-drop-waist-dress-art-class/-/A-94340523",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-39-minnie-mouse-gauze-gauze-dress-pink/-/A-94431053",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-39-bluey-gauze-dress-blue/-/A-94431037",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hope-henry-girls-sleeveless-special-occasion-sun-dress-with-bow-back-detail-and-embroidery-kids/-/A-90586200",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/city-threads-usa-made-girls-soft-cotton-jersey-long-sleeve-tiered-dress/-/A-90735838",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-39-sleeveless-woven-floral-midi-dress-cat-38-jack-8482/-/A-94576189",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-printed-halter-slip-dress-art-class/-/A-94340524",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-ruched-fit-flare-empire-waist-mini-dress-art-class/-/A-94152122",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-strappy-babydoll-bubble-dress-art-class/-/A-94152124",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-39-hello-kitty-tropical-floral-ruffle-strap-dress-pink/-/A-94653597",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-sweater-dress-art-class/-/A-93146685",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-drop-waist-strappy-tiered-dress-art-class/-/A-94021778",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/pretty-petal-blues-tiered-dress-mia-belle-girls/-/A-1004365067",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/daisy-delight-smocked-tiered-dress-mia-belle-girls/-/A-1004617534",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/brainy-ballerina-layered-tutu-dress-mia-belle-girls/-/A-1004233775",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses, Tutu Dresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/pretty-petal-pink-tiered-dress-mia-belle-girls/-/A-1004605875",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dressed-with-love-sequin-heart-skater-dress-mia-belle-girls/-/A-1003919621",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/sanrio-hello-kitty-girls-2-pack-dress-multicolor-2t/-/A-1003488275",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/patpat-family-matching-outfits-boho-floral-print-square-neck-puff-sleeve-smocked-dress-and-short-sleeve-t-shirts-matching-set/-/A-1003646956",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/sanrio-hello-kitty-girls-2-pack-dress-multicolor-2t/-/A-1003488283",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/rufflebutts-girls-knit-short-sleeve-twirl-dress/-/A-93068581",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses, T-Shirt Dresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/rufflebutts-girls-overall-jumper-dress/-/A-91496877",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/a-attire-apple-sparkle-tutu-dress-mia-belle-girls/-/A-1004908403",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/tropical-botanicals-sleeveless-hi-lo-dress-mia-belle-girls/-/A-1004617711",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/l-o-l-surprise-splash-queen-mermaid-dress-mia-belle-girls/-/A-1004605899",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/radiant-heart-twirly-long-sleeve-skater-dress-mia-belle-girls/-/A-1003919627",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bunny-dreams-ruffle-denim-dress-mia-belle-girls/-/A-1003867427",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses, Tunic Dresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/wrapables-bunnies-in-floral-garden-dress/-/A-1001254284",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/spring-chic-lace-maxi-dress-mia-belle-girls/-/A-1004365065",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/paisley-print-mid-length-dress/-/A-93490915",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/sunbathing-sweetie-cold-shoulder-dress-mia-belle-girls/-/A-1002439299",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lands-end-kids-woven-twirl-dress/-/A-1002539247",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/spring-butterflies-smocked-tiered-dress-mia-belle-girls/-/A-1004617695",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/star-wars-girls-tsum-tsum-stormtrooper-youth-kids-skater-dress/-/A-91866653",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/berry-bliss-hi-lo-ruffle-dress-mia-belle-girls/-/A-1002840469",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/mi-amore-gigi-paisley-print-bohemian-dress/-/A-93490897",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boho-blossom-tank-tiered-dress-mia-belle-girls-blush-7-8/-/A-1003839787",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/sweet-cherry-embroidered-pinstripe-tank-dress-mia-belle-girls/-/A-1004457470",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boho-mint-floral-tiered-dress-mia-belle-girls/-/A-1004365311",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/tropical-floral-bloom-ruffle-hi-lo-dress-mia-belle-girls/-/A-1002316878",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/boho-blossom-floral-print-tank-tiered-dress-mia-belle-girls/-/A-1003839794",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/seaside-petals-ruffle-midi-dress-mia-belle-girls/-/A-1003803895",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/mary-engelbreit-roxy-dress-antique-wallpaper/-/A-1004727797",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/golden-sands-ruffle-shoulder-sundress-mia-belle-girls/-/A-1003839777",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/riviera-sun-girls-flag-sundress-tie-dye-american-flag-beach-cover-up/-/A-92296692",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-39-astrid-floral-long-sleeve-sundress/-/A-91487282",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/city-threads-soft-organic-cotton-empire-camisole-sundress-usa-made/-/A-1004692462",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hope-henry-girls-organic-sleeveless-bow-strap-border-hem-sundress-kids/-/A-1002929834",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hope-henry-girls-sleeveless-smocked-sundress-kids/-/A-1002929845",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sundresses",
-      filters: {
-        type: "Sundresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/garfield-sleeping-athletics/-/A-1000784634",
+      url: "https://www.target.com/p/paw-patrol-earth-every-day/-/A-1000848494",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/girls-sleeveless-sweater-dress-cat-jack/-/A-94147306",
+      url: "https://www.target.com/p/mattel-cleo-de-nile-mummy-barb-graphic-short-sleeve-fleece-dress/-/A-1002118457",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/barbie-barbie-land-athletics-graphic-short-sleeve-fleece-dress/-/A-1002051467",
+      url: "https://www.target.com/p/spongebob-squarepants-spongeboo/-/A-1000850647",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/pok-mon-pok-mon-athletic-logo-graphic-short-sleeve-fleece-dress/-/A-1002396348",
+      url: "https://www.target.com/p/garfield-mood/-/A-1000857636",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/pok-mon-battle-ready-graphic-short-sleeve-fleece-dress/-/A-1002348213",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts/-/A-1000817830",
+      url: "https://www.target.com/p/rock-em-sock-em-robots-rock-em-robot-graphic-short-sleeve-fleece-dress/-/A-1002010797",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/garfield-athletic-dept/-/A-1000784473",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/peanuts/-/A-1000817728",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hope-henry-girls-organic-long-sleeve-collared-henley-sweater-dress-kids/-/A-92929545",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hope-henry-girls-organic-long-sleeve-bow-detail-intarsia-sweater-dress-kids/-/A-93392081",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/pok-mon-eevee-evolution-stickers-graphic-short-sleeve-fleece-dress/-/A-1002396629",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-hanukkah-doll/-/A-1000856771",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/pok-mon-happy-eevee-youth-girls-fleece-dress-graphic-short-sleeve-fleece-dress/-/A-1002385898",
+      url: "https://www.target.com/p/peanuts-woodstock-ski-pro-graphic-short-sleeve-fleece-dress/-/A-1001727762",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/barbie-back-to-school-graphic-short-sleeve-fleece-dress/-/A-1002095349",
+      url: "https://www.target.com/p/blue-s-clues-you-magenta-excited/-/A-1000751944",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/invader-zim-gir-loves-tacos-in-space-graphic-short-sleeve-fleece-dress/-/A-1003971400",
+      url: "https://www.target.com/p/garfield-garf-laying/-/A-1000786219",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/mattel-frankie-stein-voltageous-graphic-short-sleeve-fleece-dress/-/A-1002008737",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-tie-dye-and-butterflies-flutter-around-barbie-graphic-short-sleeve-fleece-dress/-/A-1002058235",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/peanuts-boo-snoopy-graphic-short-sleeve-fleece-dress/-/A-1001728321",
+      url: "https://www.target.com/p/girls-instant-message-fall-pumpkin-mania-graphic-short-sleeve-fleece-dress/-/A-1004529235",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/dr-seuss-the-grinch-max-is-my-boo/-/A-1000781585",
+      url: "https://www.target.com/p/lol-surprise-lol-hi-bae-graphic-short-sleeve-fleece-dress/-/A-1001999229",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts/-/A-1000791854",
+      url: "https://www.target.com/p/spongebob-squarepants-lit-fireworks-patrick/-/A-1000817117",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/pok-mon-eat-sleep-battle-repeat-graphic-short-sleeve-fleece-dress/-/A-1002386593",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/paw-patrol-bark-in-the-park/-/A-1000786390",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts-snoopy-and-friends-skiing-graphic-short-sleeve-fleece-dress/-/A-1001726371",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/instant-message-easter-egg-every-kid-graphic-short-sleeve-fleece-dress/-/A-1002632236",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/paw-patrol-valentine-s-heartbreaker/-/A-1000833046",
+      url: "https://www.target.com/p/garfield-varsity-seal/-/A-1000784436",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts/-/A-1000803300",
+      url: "https://www.target.com/p/peanuts/-/A-1000790601",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/karma-s-world-our-super-power-graphic-short-sleeve-fleece-dress/-/A-1003972120",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/spongebob-squarepants-scardey-pants/-/A-1000810419",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/rugrats-reptar-bar/-/A-1000784821",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/teenage-mutant-ninja-turtles-leonardo-aka-leo/-/A-1000827088",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/avatar-the-last-airbender-appa-flying-graphic-short-sleeve-fleece-dress/-/A-1001733224",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/hey-arnold-fresh-arnold-graphic-short-sleeve-fleece-dress/-/A-1001730795",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/spongebob-squarepants-patrick-it-s-lit/-/A-1000851148",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/blue-s-clues-you-i-m-so-smart-graphic-short-sleeve-fleece-dress/-/A-1000752655",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/spongebob-squarepants-boo-tiful/-/A-1000850935",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000857533",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts-1st-grade-is-out-of-this-world-graphic-short-sleeve-fleece-dress/-/A-1001735507",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/pok-mon-pumpkin-party-graphic-short-sleeve-fleece-dress/-/A-1002355229",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000795546",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mtv-skater-graphic-short-sleeve-fleece-dress/-/A-1001984563",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-fall-graphic-short-sleeve-fleece-dress/-/A-1004529201",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts/-/A-1000850470",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bubble-guppies-molly-and-zooli-heart-bubble-heart-graphic-short-sleeve-fleece-dress/-/A-1000758457",
+      url: "https://www.target.com/p/avatar-the-last-airbender-sokka-nope-graphic-short-sleeve-fleece-dress/-/A-1001732997",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/dr-seuss-grinch-face/-/A-1000781628",
+      url: "https://www.target.com/p/peanuts-mountains-are-calling-graphic-short-sleeve-fleece-dress/-/A-1001739091",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/trolls-poppy-stacked-name/-/A-1000798185",
+      url: "https://www.target.com/p/peanuts-snoopy-varsity-squad-graphic-short-sleeve-fleece-dress/-/A-1001727003",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/bubble-guppies-time-for-lunch-graphic-short-sleeve-fleece-dress/-/A-1000758365",
+      url: "https://www.target.com/p/peanuts/-/A-1000795657",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/dr-seuss-the-many-moods-of-grinch/-/A-1000780438",
+      url: "https://www.target.com/p/peanuts-daddy-little-camper-graphic-short-sleeve-fleece-dress/-/A-1001727097",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts-snoopy-and-woodstock-vermont-ski-resort/-/A-1000840413",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/paw-patrol-skys-the-limit/-/A-1000807538",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/paw-patrol-team-paw-skye/-/A-1000809501",
+      url: "https://www.target.com/p/paw-patrol-everest-sketch/-/A-1000787248",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, Sweatshirt Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/paw-patrol-team-paw-chase/-/A-1000809622",
+      url: "https://www.target.com/p/peanuts/-/A-1000791808",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts-snoopy-groovy-heart-graphic-short-sleeve-fleece-dress/-/A-1001724375",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/barbie-multi-color-choose-kindness-graphic-short-sleeve-fleece-dress/-/A-1002062934",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000795643",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/teenage-mutant-ninja-turtles-mutant-mayhem/-/A-1000819354",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/blue-s-clues-you-all-the-colors-of-the-rainbow-are-beautiful-graphic-short-sleeve-fleece-dress/-/A-1001735118",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/pok-mon-pikachu-santa-hat-graphic-short-sleeve-fleece-dress/-/A-1002352238",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/spongebob-squarepants-hoppy-easter/-/A-1000857548",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lol-surprise-celebr8-graphic-short-sleeve-fleece-dress/-/A-1001985394",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000825910",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/teenage-muntant-ninja-turtles-santas-helpers-in-a-half-shell/-/A-1000842898",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000820562",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/spongebob-squarepants-collegiate/-/A-1000785043",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/paw-patrol-marshall-sketch/-/A-1000787229",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, Sweatshirt Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/teenage-mutant-ninja-turtles-leo-and-brothers-there-are-no-rules/-/A-1000809130",
+      url: "https://www.target.com/p/pok-mon-miraidon-collegiate-graphic-short-sleeve-fleece-dress/-/A-1002357512",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts/-/A-1000790778",
+      url: "https://www.target.com/p/peanuts/-/A-1000788681",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/captain-underpants-mighty-tighty-whities/-/A-1001646601",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000803112",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/hope-henry-girls-organic-short-sleeve-ruffle-edge-sweater-dress-kids/-/A-92929482",
+      url: "https://www.target.com/p/karma-s-world-swag-is-swag-graphic-short-sleeve-fleece-dress/-/A-1003971872",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/spongebob-squarepants-dear-santa/-/A-1000848642",
+      url: "https://www.target.com/p/paw-patrol-scary-cute/-/A-1000857558",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/teenage-mutant-ninja-turtles-radical-group/-/A-1000786778",
+      url: "https://www.target.com/p/peanuts/-/A-1000781148",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts/-/A-1000810312",
+      url: "https://www.target.com/p/hey-arnold-arnold-and-gerald-skateboard-graphic-short-sleeve-fleece-dress/-/A-1001730727",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/dr-seuss-the-grinch-stink-stank-stunk/-/A-1000781564",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-summer-time-dream-graphic-short-sleeve-fleece-dress/-/A-1002059197",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/teenage-muntant-ninja-turtle-turtles-character-grid/-/A-1000838803",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/trolls-let-me-hear-you-shout-poppy-and-branch/-/A-1000798289",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/peanuts-chill-snoopy-graphic-short-sleeve-fleece-dress/-/A-1001727225",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/paw-patrol-skye-rubble-beach/-/A-1000786424",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/blue-s-clues-you-mr-salty-graphic-short-sleeve-fleece-dress/-/A-1001734973",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bubble-guppies-oona-graphic-short-sleeve-fleece-dress/-/A-1000758466",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-back-to-school-graphic-short-sleeve-fleece-dress/-/A-1002095269",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/paw-patrol-summer-is-for-camping-graphic-short-sleeve-fleece-dress/-/A-1001734665",
+      url: "https://www.target.com/p/paw-patrol-tricks-and-pup-treats/-/A-1000852444",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, Sweatshirt Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts/-/A-1000820772",
+      url: "https://www.target.com/p/avatar-the-last-airbender-aang-crest-graphic-short-sleeve-fleece-dress/-/A-1001733379",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lol-surprise-b-day-b-b-besties-celebrate-birthdays-graphic-short-sleeve-fleece-dress/-/A-1001985342",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/barbie-sunglasses-and-sun-graphic-short-sleeve-fleece-dress/-/A-1002062080",
+      url: "https://www.target.com/p/garfield-my-presence-is-your-present/-/A-1000841632",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/rainbow-high-rainbow-high-character-group-graphic-short-sleeve-fleece-dress/-/A-1001996122",
+      url: "https://www.target.com/p/pok-mon-koraidon-collegiate-graphic-short-sleeve-fleece-dress/-/A-1002357594",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/paw-patrol-skye-sketch/-/A-1000787334",
+      url: "https://www.target.com/p/peanuts/-/A-1000788667",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/dr-seuss-original-i-am-green-eggs-and-ham/-/A-1000773640",
+      url: "https://www.target.com/p/instant-message-st-patrick-s-day-it-takes-alotl-luck-graphic-short-sleeve-fleece-dress/-/A-1001728956",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/trolls-show-up-glow-up-poppy/-/A-1000798449",
+      url: "https://www.target.com/p/blue-s-clues-you-summer-skidoo/-/A-1000856871",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/trolls-livin-that-poppy-life/-/A-1000751215",
+      url: "https://www.target.com/p/peanuts/-/A-1000788647",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/teenage-muntant-ninja-turtle-pixel-gaming-group/-/A-1000838877",
+      url: "https://www.target.com/p/spongebob-squarepants-kamp-koral-kamp-koral-logo-badge/-/A-1000787380",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/garfield-i-regret-nothing/-/A-1000841592",
+      url: "https://www.target.com/p/peanuts/-/A-1000820695",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/lol-surprise-grow-grrrl-hearts-the-earth-graphic-short-sleeve-fleece-dress/-/A-1001999443",
+      url: "https://www.target.com/p/dr-seuss-pre-k-out-of-this-world-cat-in-the-hat-graphic-short-sleeve-fleece-dress/-/A-1003971823",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/pok-mon-koraidon-legend-graphic-short-sleeve-fleece-dress/-/A-1002357579",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/garfield-have-a-nice-day/-/A-1000857694",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/spongebob-squarepants-ho-ho-no/-/A-1000840231",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lol-surprise-sways-spray-paint-graphic-short-sleeve-fleece-dress/-/A-1001993837",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/teenage-mutant-ninja-turtles-bricks/-/A-1000786783",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/blue-s-clues-you-keep-cool-graphic-short-sleeve-fleece-dress/-/A-1000752494",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-karma-s-world-winston-graphic-short-sleeve-fleece-dress/-/A-1003928995",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000782158",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/paw-patrol-pawsome-explorers-graphic-short-sleeve-fleece-dress/-/A-1001734683",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/spongebob-squarepants-unrecognized-talent/-/A-1000785238",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/karma-s-world-better-together-graphic-short-sleeve-fleece-dress/-/A-1003972141",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000817843",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts-kindergarten-is-out-of-this-world-graphic-short-sleeve-fleece-dress/-/A-1001735531",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/spongebob-squarepants-plankton-naughty-list/-/A-1000850996",
+      url: "https://www.target.com/p/garfield-garfield-stickers/-/A-1000790042",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/instant-message-valentine-s-day-i-loaf-you-bread-graphic-short-sleeve-fleece-dress/-/A-1001599181",
+      url: "https://www.target.com/p/lol-surprise-fa-la-la-la-fierce-graphic-short-sleeve-fleece-dress/-/A-1001978301",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/pok-mon-squirtle-charmander-and-bulbasaur-graphic-short-sleeve-fleece-dress/-/A-1002396649",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000794771",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/dr-seuss-the-grinch-sweet-as-cindy-lou-who/-/A-1000780474",
+      url: "https://www.target.com/p/peanuts/-/A-1000815700",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/paw-patrol-skye-conversation-hearts/-/A-1000832939",
+      url: "https://www.target.com/p/blue-s-clues-you-can-t-have-rainbow-without-blue-graphic-short-sleeve-fleece-dress/-/A-1001734917",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/instant-message-valentine-s-day-love-you-like-pizza-graphic-short-sleeve-fleece-dress/-/A-1001599151",
+      url: "https://www.target.com/p/peanuts-groovy-snoopy-graphic-short-sleeve-fleece-dress/-/A-1001739050",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/pok-mon-gotta-eat-em-all-graphic-short-sleeve-fleece-dress/-/A-1002376976",
+      url: "https://www.target.com/p/peanuts/-/A-1000791779",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/barbie-birthday-girl-graphic-short-sleeve-fleece-dress/-/A-1002089719",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-winter-dolls-graphic-short-sleeve-fleece-dress/-/A-1001977654",
+      url: "https://www.target.com/p/peanuts/-/A-1000809982",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/trolls-i-love-pop-poppy/-/A-1000798279",
+      url: "https://www.target.com/p/spongebob-squarepants-kamp-koral-kamp-koral-group/-/A-1000787347",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/rainbow-high-violet-skyler-jade-graphic-short-sleeve-fleece-dress/-/A-1001996051",
+      url: "https://www.target.com/p/peanuts-woodstock-snowfall-graphic-short-sleeve-fleece-dress/-/A-1001726317",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/bubble-guppies-deema/-/A-1000758436",
+      url: "https://www.target.com/p/garfield-family-is-everything/-/A-1000789956",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/little-tikes-imagination-is-all-it-takes-graphic-short-sleeve-fleece-dress/-/A-1001986943",
+      url: "https://www.target.com/p/garfield-never-trust-smiling-cat/-/A-1000762590",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/trolls-feel-the-vibes-poppy/-/A-1000798392",
+      url: "https://www.target.com/p/garfield-north-pole-or-bust/-/A-1000841579",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/spongebob-squarepants-easter-weaster/-/A-1000850149",
+      url: "https://www.target.com/p/blue-s-clues-you-mommy-s-perfect-pumpkin/-/A-1000760584",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/barbie-leopard-heart-graphic-short-sleeve-fleece-dress/-/A-1002064367",
+      url: "https://www.target.com/p/peanuts/-/A-1000795430",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/barbie-girls-run-the-world-graphic-short-sleeve-fleece-dress/-/A-1002070018",
+      url: "https://www.target.com/p/pok-mon-charmander-see-the-evolution-graphic-short-sleeve-fleece-dress/-/A-1002396906",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/lol-surprise-space-rock-girls-graphic-short-sleeve-fleece-dress/-/A-1002005040",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-computer-design-graphic-short-sleeve-fleece-dress/-/A-1001992409",
+      url: "https://www.target.com/p/pok-mon-miraidon-elements-graphic-short-sleeve-fleece-dress/-/A-1002357498",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/pok-mon-snorlax-graphic-short-sleeve-fleece-dress/-/A-1002396996",
+      url: "https://www.target.com/p/paw-patrol-head-over-paws-for-you/-/A-1000832928",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts/-/A-1000826156",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/instant-message-st-patrick-s-day-lucky-to-have-my-cousins-graphic-short-sleeve-fleece-dress/-/A-1001728794",
+      url: "https://www.target.com/p/pok-mon-the-journey-start-here-graphic-short-sleeve-fleece-dress/-/A-1002395786",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/barbie-mini-mini-mini-graphic-short-sleeve-fleece-dress/-/A-1002065505",
+      url: "https://www.target.com/p/spongebob-squarepants-patrick-trick-or-treating/-/A-1000810513",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/spongebob-squarepants-sandy-cheeks/-/A-1000785073",
+      url: "https://www.target.com/p/pok-mon-trick-or-treat-graphic-short-sleeve-fleece-dress/-/A-1002355223",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/spongebob-squarepants-fly-on-4th-of-july-graphic-short-sleeve-fleece-dress/-/A-1001736222",
+      url: "https://www.target.com/p/peanuts/-/A-1000820679",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/instant-message-st-patrick-s-day-irish-i-was-a-unicorn-graphic-short-sleeve-fleece-dress/-/A-1001729000",
+      url: "https://www.target.com/p/peanuts/-/A-1000791771",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts-peanuts-snoopy-woodstock-graphic-short-sleeve-fleece-dress/-/A-1001724411",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/pok-mon-pikachu-lightning-bolt-art-graphic-short-sleeve-fleece-dress/-/A-1002396706",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/peanuts-hug-heart-flower-graphic-short-sleeve-fleece-dress/-/A-1001724402",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/rocket-power-finish-line/-/A-1000826644",
+      url: "https://www.target.com/p/peanuts/-/A-1000803169",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/lol-surprise-glow-grrrl-neon-qt-beats-babe-graphic-short-sleeve-fleece-dress/-/A-1001985730",
+      url: "https://www.target.com/p/teenage-mutant-ninja-turtles-red-white-turtle-power/-/A-1000857581",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/paw-patrol-americana/-/A-1000816931",
+      url: "https://www.target.com/p/peanuts/-/A-1000795542",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/dr-seuss-grinch-it-s-fine/-/A-1000748084",
+      url: "https://www.target.com/p/pok-mon-pikachu-thunderbolt-graphic-short-sleeve-fleece-dress/-/A-1002395125",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/barbie-birthday-graphic-short-sleeve-fleece-dress/-/A-1002090597",
+      url: "https://www.target.com/p/peanuts/-/A-1000795309",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/blue-s-clues-you-blue-clues-crew-graphic-short-sleeve-fleece-dress/-/A-1001735037",
+      url: "https://www.target.com/p/peanuts/-/A-1000803175",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/spongebob-squarepants-happy-st-patricks-day/-/A-1000827713",
+      url: "https://www.target.com/p/peanuts-beagle-scout-california-graphic-short-sleeve-fleece-dress/-/A-1001739038",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/spongebob-squarepants-happy-st-patricks-day/-/A-1000849738",
+      url: "https://www.target.com/p/garfield-have-a-nice-day/-/A-1000857640",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts/-/A-1000818183",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-easter-graphic-short-sleeve-fleece-dress/-/A-1002075002",
+      url: "https://www.target.com/p/spongebob-squarepants-who-needs-luck-with-this-charm/-/A-1000827640",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/trolls-turn-it-up-poppy/-/A-1000798414",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-drip-drop-painting-girls-graphic-short-sleeve-fleece-dress/-/A-1002004282",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/spongebob-squarepants-luck-of-the-square-pants/-/A-1000849900",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/spongebob-squarepants-so-eggcited/-/A-1000849797",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/paw-patrol-hugs-kisses-pup-treats/-/A-1000832996",
+      url: "https://www.target.com/p/paw-patrol-squad-preschool/-/A-1000787240",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, Sweatshirt Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/rainbow-high-rainbow-sparkle-box-graphic-short-sleeve-fleece-dress/-/A-1001996123",
+      url: "https://www.target.com/p/spongebob-squarepants-i-got-it-graphic-short-sleeve-fleece-dress/-/A-1001736167",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/instant-message-st-patrick-s-day-sheep-holding-a-shamrock-graphic-short-sleeve-fleece-dress/-/A-1001728860",
+      url: "https://www.target.com/p/despicable-me-minions-chillin-with-friends-graphic-short-sleeve-fleece-dress/-/A-1000799095",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/pok-mon-pikachu-manga-art-graphic-short-sleeve-fleece-dress/-/A-1002396058",
+      url: "https://www.target.com/p/spongebob-squarepants-hey-boo/-/A-1000850763",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/barbie-logo-shamrock-pattern-graphic-short-sleeve-fleece-dress/-/A-1002108006",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/garfield-more-bored-than-you/-/A-1000857630",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/teenage-mutant-ninja-turtles-retro-group-april/-/A-1000786749",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/garfield-garf-and-odie-logo/-/A-1000786247",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts-is-it-recess-yet-graphic-short-sleeve-fleece-dress/-/A-1001739199",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/garfield-rise-but-won-t-shine/-/A-1000762133",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/instant-message-i-m-just-here-for-the-snacks-graphic-short-sleeve-fleece-dress/-/A-1003972111",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/dr-seuss-american-thing-two/-/A-1000773775",
+      url: "https://www.target.com/p/barbie-let-s-party-graphic-short-sleeve-fleece-dress/-/A-1002090784",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts/-/A-1000791781",
+      url: "https://www.target.com/p/peanuts-keep-on-graphic-short-sleeve-fleece-dress/-/A-1001738991",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/paw-patrol-skye-suns-out-funs-out/-/A-1000786471",
+      url: "https://www.target.com/p/dr-seuss-i-know-a-thing-or-two-school-graphic-short-sleeve-fleece-dress/-/A-1003971799",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/garfield-best-friends-forever/-/A-1000790019",
+      url: "https://www.target.com/p/peanuts/-/A-1000791868",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/instant-message-valentine-s-day-be-my-meowentine/-/A-1001598431",
+      url: "https://www.target.com/p/karma-s-world-winston-karma-alex-graphic-short-sleeve-fleece-dress/-/A-1003972107",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/rainbow-high-toy-doll-lineup-graphic-short-sleeve-fleece-dress/-/A-1001996211",
+      url: "https://www.target.com/p/barbie-lucky-to-have-great-friends-graphic-short-sleeve-fleece-dress/-/A-1002108034",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000791796",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts-ha-ha-graffiti-graphic-short-sleeve-fleece-dress/-/A-1001724458",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/hope-henry-girls-organic-long-sleeve-bow-detail-intarsia-sweater-dress-kids/-/A-92929372",
+      url: "https://www.target.com/p/garfield-want-you-to-have-a-happy-fourth/-/A-1000818921",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/monster-high-fangtastic-graphic-short-sleeve-fleece-dress/-/A-1002008415",
+      url: "https://www.target.com/p/garfield-but-first-lasagna/-/A-1000764039",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/pok-mon-squirtle-bulbasaur-charmander-group-graphic-short-sleeve-fleece-dress/-/A-1002348164",
+      url: "https://www.target.com/p/peanuts/-/A-1000788511",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/barbie-campus-club-graphic-short-sleeve-fleece-dress/-/A-1002050787",
+      url: "https://www.target.com/p/barbie-easter-graphic-short-sleeve-fleece-dress/-/A-1002068740",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/paw-patrol-i-m-a-mighty-pup/-/A-1000807425",
+      url: "https://www.target.com/p/lol-surprise-b-b-nation-graphic-short-sleeve-fleece-dress/-/A-1001985702",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/pok-mon-eevee-group-graphic-short-sleeve-fleece-dress/-/A-1002357502",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts-snoopy-patchwork-doghouse-graphic-short-sleeve-fleece-dress/-/A-1001724430",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/paw-patrol-100-days-flew-away/-/A-1000787190",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, Sweatshirt Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts/-/A-1000803252",
+      url: "https://www.target.com/p/garfield-peeking-out/-/A-1000762438",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/pok-mon-pokedex-pikachu-graphic-short-sleeve-fleece-dress/-/A-1002396533",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/barbie-barbie-birthdays-are-sweet-graphic-short-sleeve-fleece-dress/-/A-1002090709",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/instant-message-scandinavian-bunny-with-flowers-graphic-short-sleeve-fleece-dress/-/A-1002611327",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/mtv-drawn-floral-logo-graphic-short-sleeve-fleece-dress/-/A-1001984411",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-sunny-days-ahead-graphic-short-sleeve-fleece-dress/-/A-1001731916",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/peanuts/-/A-1000818195",
+      url: "https://www.target.com/p/peanuts/-/A-1000803261",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/barbie-it-s-my-birthday-graphic-short-sleeve-fleece-dress/-/A-1002090901",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/peanuts-woodstock-with-flower-and-pattern-graphic-short-sleeve-fleece-dress/-/A-1001724520",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-4th-of-july-graphic-short-sleeve-fleece-dress/-/A-1001985249",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/pok-mon-nope-not-today-snorlax-graphic-short-sleeve-fleece-dress/-/A-1002395452",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-classic-logo-pink-graphic-short-sleeve-fleece-dress/-/A-1002083132",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-easter-graphic-short-sleeve-fleece-dress/-/A-1002075094",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-love-yourself-graphic-short-sleeve-fleece-dress/-/A-1002082256",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hot-wheels-all-american-kid-graphic-short-sleeve-fleece-dress/-/A-1002104963",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-friends-rock-graphic-short-sleeve-fleece-dress/-/A-1002083146",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/trolls-rainbow-vibes-poppy/-/A-1000798236",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/teenage-mutant-ninja-turtles-life-liberty-pursuit-of-pizza/-/A-1000847989",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/garfield-garfield-sunglasses/-/A-1000786060",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/despicable-me-minions-dress-to-impress-yourself/-/A-1000798926",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/polly-pocket-totally-tiny-vibes-graphic-short-sleeve-fleece-dress/-/A-1002012898",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/peanuts-camp-chill-graphic-short-sleeve-fleece-dress/-/A-1001727139",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-skater-chick-w-flowers-graphic-short-sleeve-fleece-dress/-/A-1001996781",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/peanuts/-/A-1000803313",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-bon-bon-doll-graphic-short-sleeve-fleece-dress/-/A-1001992680",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/teenage-mutant-ninja-turtles-leo-and-brothers-turtle-power/-/A-1000809068",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/pok-mon-gotta-catch-em-all-design-graphic-short-sleeve-fleece-dress/-/A-1002396214",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/paw-patrol-marshall-vertical/-/A-1000809567",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/peanuts-snoopy-alaska-last-frontier-graphic-short-sleeve-fleece-dress/-/A-1001726361",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/paw-patrol-zuma-sketch/-/A-1000787143",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-sparkle-and-bright-barbie-graphic-short-sleeve-fleece-dress/-/A-1002112459",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/mtv-animal-print-splatter-graphic-short-sleeve-fleece-dress/-/A-1001984418",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-bff-vibes-with-queen-bee-deva-neon-qt-graphic-short-sleeve-fleece-dress/-/A-1001985569",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/peanuts-snoopy-ski-ya-later-graphic-short-sleeve-fleece-dress/-/A-1001726455",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/instant-message-cottontail-candy-co-graphic-short-sleeve-fleece-dress/-/A-1002632241",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/paw-patrol-marshall-ruff-ruff-rescue-graphic-short-sleeve-fleece-dress/-/A-1001734721",
+      url: "https://www.target.com/p/paw-patrol-daddy-s-pawsome-camping-buddy-graphic-short-sleeve-fleece-dress/-/A-1001738911",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, Sweatshirt Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/trolls-poppy-singing/-/A-1000798313",
+      url: "https://www.target.com/p/garfield-try-to-keep-up/-/A-1000786156",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/pok-mon-sprigatito-stats-graphic-short-sleeve-fleece-dress/-/A-1002357584",
+      url: "https://www.target.com/p/dr-seuss-the-grinch-never-not-grinchy-wreath/-/A-1000780410",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/pok-mon-the-snuggle-is-real-pikachu-and-sylveon-graphic-short-sleeve-fleece-dress/-/A-1002350385",
+      url: "https://www.target.com/p/pok-mon-pikachu-sled-graphic-short-sleeve-fleece-dress/-/A-1002352217",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/lol-surprise-girls-club-graphic-short-sleeve-fleece-dress/-/A-1001993828",
+      url: "https://www.target.com/p/peanuts/-/A-1000791877",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/lol-surprise-candylicious-butterflies-hearts-graphic-short-sleeve-fleece-dress/-/A-1001993875",
+      url: "https://www.target.com/p/paw-patrol-americana/-/A-1000817024",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/despicable-me-minions-disco-made-me-do-it-graphic-short-sleeve-fleece-dress/-/A-1000798991",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-love-makes-the-world-go-around-graphic-short-sleeve-fleece-dress/-/A-1002064321",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-cell-phone-chat-girls-graphic-short-sleeve-fleece-dress/-/A-1001993950",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-festively-fabulous-graphic-short-sleeve-fleece-dress/-/A-1002112516",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/peanuts-woodstock-rose-graphic-short-sleeve-fleece-dress/-/A-1001724482",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/instant-message-easter-scene-graphic-short-sleeve-fleece-dress/-/A-1002632253",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-girls-all-together-graphic-short-sleeve-fleece-dress/-/A-1002118594",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/peanuts-it-s-always-a-great-time-for-smores-graphic-short-sleeve-fleece-dress/-/A-1001739001",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-they-call-me-ken-graphic-short-sleeve-fleece-dress/-/A-1002118597",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-valentine-s-squad-graphic-short-sleeve-fleece-dress/-/A-1002053698",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-butterflies-flutter-graphic-short-sleeve-fleece-dress/-/A-1002118625",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-girls-stick-together-graphic-short-sleeve-fleece-dress/-/A-1002065602",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-barbie-witch-logo-graphic-short-sleeve-fleece-dress/-/A-1002118613",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-ken-graphic-short-sleeve-fleece-dress/-/A-1002118601",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-afro-hoops-graphic-short-sleeve-fleece-dress/-/A-1002118660",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-u-glow-girl-graphic-short-sleeve-fleece-dress/-/A-1002004551",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/monster-high-clawsome-graphic-short-sleeve-fleece-dress/-/A-1002008109",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dr-seuss-don-t-worry-go-along-graphic-short-sleeve-fleece-dress/-/A-1001739153",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-group-lucky-graphic-short-sleeve-fleece-dress/-/A-1002108205",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/polly-pocket-polly-pocket-ombre-logo-graphic-short-sleeve-fleece-dress/-/A-1002018233",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-choose-kindness-graphic-short-sleeve-fleece-dress/-/A-1002078015",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/rainbow-high-school-crest-graphic-short-sleeve-fleece-dress/-/A-1002118416",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/mattel-girl-group-crest-graphic-short-sleeve-fleece-dress/-/A-1001977012",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-inspired-by-barbie-graphic-short-sleeve-fleece-dress/-/A-1002081262",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-easter-graphic-short-sleeve-fleece-dress/-/A-1002075621",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/rainbow-high-rainbow-checkered-frame-graphic-short-sleeve-fleece-dress/-/A-1002118379",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-valentine-s-day-graphic-short-sleeve-fleece-dress/-/A-1002047815",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/monster-high-oh-zaps-graphic-short-sleeve-fleece-dress/-/A-1002008192",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/little-tikes-summer-fun-graphic-short-sleeve-fleece-dress/-/A-1001986936",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/monster-high-character-group-graphic-short-sleeve-fleece-dress/-/A-1002008293",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-ken-graphic-short-sleeve-fleece-dress/-/A-1002067289",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/mattel-draculaura-spider-webs-graphic-short-sleeve-fleece-dress/-/A-1002118473",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-queen-bee-neon-qt-deva-sugar-graphic-short-sleeve-fleece-dress/-/A-1001985756",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-valentine-s-collage-graphic-short-sleeve-fleece-dress/-/A-1002054674",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-rainbow-alt-girl-graphic-short-sleeve-fleece-dress/-/A-1001997006",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/mattel-clawdeen-wolf-moon-phases-graphic-short-sleeve-fleece-dress/-/A-1002118454",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-easter-graphic-short-sleeve-fleece-dress/-/A-1002072619",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-original-barbie-graphic-short-sleeve-fleece-dress/-/A-1002062070",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-all-dolls-together-graphic-short-sleeve-fleece-dress/-/A-1001992940",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-valentine-s-day-graphic-short-sleeve-fleece-dress/-/A-1002043466",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/little-tikes-i-dream-of-ice-cream-graphic-short-sleeve-fleece-dress/-/A-1001987018",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-classic-dolls-graphic-short-sleeve-fleece-dress/-/A-1002118583",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-chasing-dreams-graphic-short-sleeve-fleece-dress/-/A-1002050516",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-always-extra-graphic-short-sleeve-fleece-dress/-/A-1002118421",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-tis-the-season-graphic-short-sleeve-fleece-dress/-/A-1002112646",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/rainbow-high-turn-it-up-graphic-short-sleeve-fleece-dress/-/A-1001996168",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-barbie-logo-santa-hat-graphic-short-sleeve-fleece-dress/-/A-1002118704",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hot-wheels-birthday-kid-graphic-short-sleeve-fleece-dress/-/A-1002118679",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-dancing-dolls-dance-graphic-short-sleeve-fleece-dress/-/A-1002005076",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-greetings-from-barbie-land-graphic-short-sleeve-fleece-dress/-/A-1002050105",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-easter-graphic-short-sleeve-fleece-dress/-/A-1002118647",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/monster-high-character-group-graphic-short-sleeve-fleece-dress/-/A-1002008363",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dr-seuss-red-white-and-blue-fish-graphic-short-sleeve-fleece-dress/-/A-1001739124",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/mattel-pastel-cut-out-character-spots-graphic-short-sleeve-fleece-dress/-/A-1002008641",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-argyle-graphic-short-sleeve-fleece-dress/-/A-1002046781",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-holiday-cheer-squad-graphic-short-sleeve-fleece-dress/-/A-1002112555",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-girl-power-in-illusion-wave-graphic-short-sleeve-fleece-dress/-/A-1002072323",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-individual-classic-icons-create-silhouette-graphic-short-sleeve-fleece-dress/-/A-1002067098",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-property-of-barbie-land-beach-volleyball-team-graphic-short-sleeve-fleece-dress/-/A-1002048111",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-barbie-land-postal-service-california-graphic-short-sleeve-fleece-dress/-/A-1002050991",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-woman-kind-kind-woman-graphic-short-sleeve-fleece-dress/-/A-1002118580",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-time-to-shine-graphic-short-sleeve-fleece-dress/-/A-1002004878",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hot-wheels-its-my-birthday-graphic-short-sleeve-fleece-dress/-/A-1002086033",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-easter-graphic-short-sleeve-fleece-dress/-/A-1002073228",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-fierce-strong-girl-graphic-short-sleeve-fleece-dress/-/A-1002068952",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-afro-and-hoops-graphic-short-sleeve-fleece-dress/-/A-1002118696",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/mattel-class-crew-in-attendance-graphic-short-sleeve-fleece-dress/-/A-1002008774",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-sketch-original-graphic-short-sleeve-fleece-dress/-/A-1002060467",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-m-c-swag-vibe-graphic-short-sleeve-fleece-dress/-/A-1001992773",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-original-icons-in-circle-grid-graphic-short-sleeve-fleece-dress/-/A-1002060923",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hot-wheels-sister-of-birthday-boy-graphic-short-sleeve-fleece-dress/-/A-1002085649",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hot-wheels-red-white-and-blue-muscle-car-graphic-short-sleeve-fleece-dress/-/A-1002104566",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-ken-graphic-short-sleeve-fleece-dress/-/A-1002069156",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-summer-pool-floaties-graphic-short-sleeve-fleece-dress/-/A-1002060147",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-sun-and-beaches-graphic-short-sleeve-fleece-dress/-/A-1002118559",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-brady-bunch-classic-hollywood-squares-graphic-short-sleeve-fleece-dress/-/A-1002118343",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-ken-hearts-barbie-graphic-short-sleeve-fleece-dress/-/A-1002066369",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-proud-to-be-me-graphic-short-sleeve-fleece-dress/-/A-1002091135",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-girls-support-girls-graphic-short-sleeve-fleece-dress/-/A-1002118539",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-hanukkah-doll-duo/-/A-1000856837",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/mattel-yearbook-photos-graphic-short-sleeve-fleece-dress/-/A-1002008613",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-winter-holidays-graphic-short-sleeve-fleece-dress/-/A-1002046148",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-palm-trees-graphic-short-sleeve-fleece-dress/-/A-1002063143",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hot-wheels-race-crew-3-yrs-graphic-short-sleeve-fleece-dress/-/A-1002086574",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-live-play-outside-the-box-graphic-short-sleeve-fleece-dress/-/A-1002118526",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-witch-silhouette-graphic-short-sleeve-fleece-dress/-/A-1002118622",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/monster-high-monster-friends-forever-graphic-short-sleeve-fleece-dress/-/A-1002008256",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-ken-graphic-short-sleeve-fleece-dress/-/A-1002069405",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-barbie-logo-santa-hat-graphic-short-sleeve-fleece-dress/-/A-1002112584",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dr-seuss-all-things-red-white-and-blue-graphic-short-sleeve-fleece-dress/-/A-1001736273",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hot-wheels-racing-usa-graphic-short-sleeve-fleece-dress/-/A-1002104703",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-bff-hearts-graphic-short-sleeve-fleece-dress/-/A-1002083936",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-malibu-vibes-graphic-short-sleeve-fleece-dress/-/A-1002118550",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hot-wheels-drive-fast-live-free-graphic-short-sleeve-fleece-dress/-/A-1002104722",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-extra-w-a-side-of-swag-graphic-short-sleeve-fleece-dress/-/A-1001997080",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-believe-in-yourself-graphic-short-sleeve-fleece-dress/-/A-1002082468",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-retro-style-graphic-short-sleeve-fleece-dress/-/A-1002118334",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-chica-chica-tropical-graphic-short-sleeve-fleece-dress/-/A-1001985236",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-easter-vibes-graphic-short-sleeve-fleece-dress/-/A-1002072296",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-barbie-land-palm-trees-graphic-short-sleeve-fleece-dress/-/A-1002051200",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-peace-love-barbie-graphic-short-sleeve-fleece-dress/-/A-1002073833",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-brave-bold-and-fearless-graphic-short-sleeve-fleece-dress/-/A-1002118682",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-karaoke-queen-graphic-short-sleeve-fleece-dress/-/A-1001985445",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/monster-high-cleo-and-mermaid-graphic-short-sleeve-fleece-dress/-/A-1002008082",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-barbie-witch-graphic-short-sleeve-fleece-dress/-/A-1002118675",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-ken-graphic-short-sleeve-fleece-dress/-/A-1002067368",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-patterned-love-graphic-short-sleeve-fleece-dress/-/A-1002075845",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-xoxo-barbie-graphic-short-sleeve-fleece-dress/-/A-1002057891",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-hanukkah-believe-in-miracles/-/A-1000856778",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/peanuts-snoopy-mountain-retro-graphic-short-sleeve-fleece-dress/-/A-1001739110",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-out-of-box-graphic-short-sleeve-fleece-dress/-/A-1002079457",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-glam-series-graphic-short-sleeve-fleece-dress/-/A-1002003960",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-happy-holidays-graphic-short-sleeve-fleece-dress/-/A-1002112623",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-holidays-christmas-graphic-short-sleeve-fleece-dress/-/A-1002049162",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-you-re-the-sweetest-barbie-graphic-short-sleeve-fleece-dress/-/A-1002118555",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-sk8er-grl-graphic-short-sleeve-fleece-dress/-/A-1002118369",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-boogie-babe-graphic-short-sleeve-fleece-dress/-/A-1002004452",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hot-wheels-red-white-and-racing-graphic-short-sleeve-fleece-dress/-/A-1002104336",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/monster-high-creeperific-graphic-short-sleeve-fleece-dress/-/A-1002008411",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-dolls-lead-together-graphic-short-sleeve-fleece-dress/-/A-1002118399",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/monster-high-nick-logo-graphic-short-sleeve-fleece-dress/-/A-1002008265",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-queen-bee-is-born-to-roam-graphic-short-sleeve-fleece-dress/-/A-1002004777",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/peanuts-1950-s-camper-snoopy-graphic-short-sleeve-fleece-dress/-/A-1001739027",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/paw-patrol-earth-day-heart-graphic-short-sleeve-fleece-dress/-/A-1001739144",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-small-fry-caf-graphic-short-sleeve-fleece-dress/-/A-1002003879",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/mattel-lagoona-blue-graphic-short-sleeve-fleece-dress/-/A-1002118507",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-girl-strong-kind-brave-bold-and-fearless-graphic-short-sleeve-fleece-dress/-/A-1002071555",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/peanuts-homeworks-got-me-like-graphic-short-sleeve-fleece-dress/-/A-1001739187",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-groovy-babe-graphic-short-sleeve-fleece-dress/-/A-1001993981",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-royal-realness-graphic-short-sleeve-fleece-dress/-/A-1001993800",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/if-movie-anything-s-possible-graphic-short-sleeve-fleece-dress/-/A-1002118279",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/paw-patrol-this-kid-s-gotta-fly-graphic-short-sleeve-fleece-dress/-/A-1001739158",
+      url: "https://www.target.com/p/paw-patrol-this-is-my-camping-sweatshirt-graphic-short-sleeve-fleece-dress/-/A-1001734711",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, Sweatshirt Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/lol-surprise-retro-style-dolls-graphic-short-sleeve-fleece-dress/-/A-1001985451",
+      url: "https://www.target.com/p/mattel-deuce-gorgon-snake-venom-graphic-short-sleeve-fleece-dress/-/A-1002008854",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/lol-surprise-get-ur-party-on-graphic-short-sleeve-fleece-dress/-/A-1001985440",
+      url: "https://www.target.com/p/mattel-clawsome-fangtastic-creeperific-zapptacular-graphic-short-sleeve-fleece-dress/-/A-1001972895",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/barbie-friendship-goals-graphic-short-sleeve-fleece-dress/-/A-1002118448",
+      url: "https://www.target.com/p/lol-surprise-groovy-beach-babe-graphic-short-sleeve-fleece-dress/-/A-1002004800",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/mattel-true-monster-at-heart-graphic-short-sleeve-fleece-dress/-/A-1001972970",
+      url: "https://www.target.com/p/hey-arnold-stoop-kid-graphic-short-sleeve-fleece-dress/-/A-1001729662",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/rainbow-high-gradient-logo-graphic-short-sleeve-fleece-dress/-/A-1001996059",
+      url: "https://www.target.com/p/paw-patrol-kickin-it/-/A-1000786526",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000791867",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/rugrats-natural-wonder/-/A-1000784750",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/nickelodeon-mother-s-day-graphic-short-sleeve-fleece-dress/-/A-1000818341",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts-pre-k-is-out-of-this-world-graphic-short-sleeve-fleece-dress/-/A-1001735423",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/barbie-back-to-school-graphic-short-sleeve-fleece-dress/-/A-1002095113",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/teenage-mutant-ninja-turtles-raphael-going-in-loud/-/A-1000827125",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/paw-patrol-loves-earth-graphic-short-sleeve-fleece-dress/-/A-1001727388",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/pok-mon-pikachu-seasons-greetings-graphic-short-sleeve-fleece-dress/-/A-1002352146",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000788697",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/hey-arnold-distressed-arnold-graphic-short-sleeve-fleece-dress/-/A-1001730226",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/captain-underpants-the-hypno-ring-graphic-short-sleeve-fleece-dress/-/A-1001644691",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/blue-s-clues-you-creeping-it-real/-/A-1000761082",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/dr-seuss-3rd-grade-squad-thing-1-and-thing-2-graphic-short-sleeve-fleece-dress/-/A-1003971807",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/instant-message-st-patrick-s-day-here-for-the-shenanigans-graphic-short-sleeve-fleece-dress/-/A-1001599335",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lol-surprise-sleigh-what-graphic-short-sleeve-fleece-dress/-/A-1001978204",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/pok-mon-team-player-graphic-short-sleeve-fleece-dress/-/A-1002396016",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/teenage-muntant-ninja-turtles-reindeer-turtles/-/A-1000843146",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/dr-seuss-american-thing-one/-/A-1000773772",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts-don-t-follow-me-art-graphic-short-sleeve-fleece-dress/-/A-1001739066",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/garfield-pretend-i-m-listening/-/A-1000762403",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000819195",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/if-movie-lewis-poster-graphic-short-sleeve-fleece-dress/-/A-1002118268",
+      url: "https://www.target.com/p/peanuts/-/A-1000790749",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/lol-surprise-catch-my-vibe-graphic-short-sleeve-fleece-dress/-/A-1001997122",
+      url: "https://www.target.com/p/barbie-clover-power-graphic-short-sleeve-fleece-dress/-/A-1002108244",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/barbie-high-school-dolls-graphic-short-sleeve-fleece-dress/-/A-1002049438",
+      url: "https://www.target.com/p/lol-surprise-lol-hos-palm-trees-graphic-short-sleeve-fleece-dress/-/A-1001974447",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/barbie-candy-hearts-graphic-short-sleeve-fleece-dress/-/A-1002082921",
+      url: "https://www.target.com/p/lol-surprise-oh-so-fierce-graphic-short-sleeve-fleece-dress/-/A-1001985407",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/barbie-be-original-squares-graphic-short-sleeve-fleece-dress/-/A-1002083015",
+      url: "https://www.target.com/p/peanuts-snoopy-woodstock-vampire-graphic-short-sleeve-fleece-dress/-/A-1001728253",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/lol-surprise-glow-grrrl-retro-styled-graphic-short-sleeve-fleece-dress/-/A-1001992756",
+      url: "https://www.target.com/p/pok-mon-pikachu-info-chart-graphic-short-sleeve-fleece-dress/-/A-1002396954",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/lol-surprise-catch-some-rays-graphic-short-sleeve-fleece-dress/-/A-1002004379",
+      url: "https://www.target.com/p/girls-karma-s-world-daddy-daughter-day-graphic-short-sleeve-fleece-dress/-/A-1003928981",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/barbie-sunset-and-palm-trees-graphic-short-sleeve-fleece-dress/-/A-1002055252",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/if-movie-imagination-blossom-graphic-short-sleeve-fleece-dress/-/A-1002118273",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/peanuts-girl-crew-graphic-short-sleeve-fleece-dress/-/A-1001739061",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/paw-patrol-skye-soar-graphic-short-sleeve-fleece-dress/-/A-1001739165",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-hand-painted-heart-graphic-short-sleeve-fleece-dress/-/A-1002072921",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-out-of-office-graphic-short-sleeve-fleece-dress/-/A-1002065579",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-b-day-bbs-graphic-short-sleeve-fleece-dress/-/A-1001985495",
+      url: "https://www.target.com/p/instant-message-cozy-gaming-graphic-short-sleeve-fleece-dress/-/A-1003238373",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/barbie-middle-school-dolls-graphic-short-sleeve-fleece-dress/-/A-1002048060",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/mattel-ghouls-night-out-graphic-short-sleeve-fleece-dress/-/A-1001972746",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/mattel-mattel-original-logo-graphic-short-sleeve-fleece-dress/-/A-1002118337",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-bffs-4-eva-graphic-short-sleeve-fleece-dress/-/A-1001999148",
+      url: "https://www.target.com/p/peanuts-snoopy-skating-pattern-graphic-short-sleeve-fleece-dress/-/A-1001724506",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/lol-surprise-always-extra-graphic-short-sleeve-fleece-dress/-/A-1001997089",
+      url: "https://www.target.com/p/pok-mon-electric-type-pikachu-graphic-short-sleeve-fleece-dress/-/A-1002385217",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/instant-message-hello-first-grade-graphic-short-sleeve-fleece-dress/-/A-1003971362",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/paw-patrol-brave-pup-graphic-short-sleeve-fleece-dress/-/A-1001739175",
+      url: "https://www.target.com/p/spongebob-squarepants-what-is-today-yesterdays-tomorrow/-/A-1000785120",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/barbie-hello-lovely-barbie-graphic-short-sleeve-fleece-dress/-/A-1002082443",
+      url: "https://www.target.com/p/garfield-let-me-be-frank/-/A-1000857614",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/lol-surprise-fourth-of-july-graphic-short-sleeve-fleece-dress/-/A-1002118407",
+      url: "https://www.target.com/p/spongebob-squarepants-aloha-from-bikini-bottom/-/A-1000785094",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/barbie-back-to-school-graphic-short-sleeve-fleece-dress/-/A-1002094954",
+      url: "https://www.target.com/p/peanuts/-/A-1000795437",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/barbie-boo-barbie-girls-graphic-short-sleeve-fleece-dress/-/A-1002118619",
+      url: "https://www.target.com/p/garfield-genuine-attitude/-/A-1000763777",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/lol-surprise-free-spirit-doll-graphic-short-sleeve-fleece-dress/-/A-1002004225",
+      url: "https://www.target.com/p/pok-mon-pikachu-lightning-graphic-short-sleeve-fleece-dress/-/A-1002357605",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/barbie-made-in-the-90-s-graphic-short-sleeve-fleece-dress/-/A-1002063608",
+      url: "https://www.target.com/p/peanuts/-/A-1000791786",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/barbie-sun-s-out-graphic-short-sleeve-fleece-dress/-/A-1002056511",
+      url: "https://www.target.com/p/blue-s-clues-you-always-blue-s-clues-graphic-short-sleeve-fleece-dress/-/A-1000753944",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/lol-surprise-earthy-bb-graphic-short-sleeve-fleece-dress/-/A-1002004929",
+      url: "https://www.target.com/p/peanuts/-/A-1000819801",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/lol-surprise-dance-queens-graphic-short-sleeve-fleece-dress/-/A-1001985214",
+      url: "https://www.target.com/p/blue-s-clues-you-play-day-graphic-short-sleeve-fleece-dress/-/A-1000753994",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/rock-em-sock-em-robots-red-rocker-blue-bomber-graphic-short-sleeve-fleece-dress/-/A-1002011357",
+      url: "https://www.target.com/p/pok-mon-jiggypuff-sing-along-graphic-short-sleeve-fleece-dress/-/A-1002395981",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/lol-surprise-candylicious-original-graphic-short-sleeve-fleece-dress/-/A-1001997098",
+      url: "https://www.target.com/p/paw-patrol-eek/-/A-1000857599",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/lol-surprise-bravo-babes-graphic-short-sleeve-fleece-dress/-/A-1001999407",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-palm-trees-graphic-short-sleeve-fleece-dress/-/A-1002063502",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-happy-spring-graphic-short-sleeve-fleece-dress/-/A-1002069803",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/rock-em-sock-em-robots-rock-em-sock-em-robots-logo-graphic-short-sleeve-fleece-dress/-/A-1002011043",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/mattel-bestie-big-hug-graphic-short-sleeve-fleece-dress/-/A-1002118331",
+      url: "https://www.target.com/p/peanuts-lucky-to-have-ya-graphic-short-sleeve-fleece-dress/-/A-1001739015",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/paw-patrol-happy-hanukkah-graphic-short-sleeve-fleece-dress/-/A-1000780770",
+      url: "https://www.target.com/p/peanuts/-/A-1000788648",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/ferris-bueller-s-day-off-righteous-dude-graphic-short-sleeve-fleece-dress/-/A-1002030268",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-dance-party-graphic-short-sleeve-fleece-dress/-/A-1001985462",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-grow-grrrl-graphic-short-sleeve-fleece-dress/-/A-1002004752",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hot-wheels-america-cars-graphic-short-sleeve-fleece-dress/-/A-1002105088",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-palm-springs-graphic-short-sleeve-fleece-dress/-/A-1001974414",
+      url: "https://www.target.com/p/peanuts-happy-thanksgiving-icons-graphic-short-sleeve-fleece-dress/-/A-1001727017",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/lol-surprise-queens-support-each-other-graphic-short-sleeve-fleece-dress/-/A-1001974428",
+      url: "https://www.target.com/p/instant-message-st-patrick-s-day-outlined-shamrock-graphic-short-sleeve-fleece-dress/-/A-1001728908",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/lol-surprise-kitty-stars-graphic-short-sleeve-fleece-dress/-/A-1001974451",
+      url: "https://www.target.com/p/spongebob-squarepants-best-witches/-/A-1000851028",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/lol-surprise-we-re-all-queens-graphic-short-sleeve-fleece-dress/-/A-1001993695",
+      url: "https://www.target.com/p/peanuts/-/A-1000817637",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/pok-mon-i-m-so-sweet-graphic-short-sleeve-fleece-dress/-/A-1002396069",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/monster-high-creeperific-graphic-short-sleeve-fleece-dress/-/A-1002008083",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lol-surprise-pool-party-vibes-graphic-short-sleeve-fleece-dress/-/A-1001985432",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/spongebob-squarepants-hoppy-easter-icons/-/A-1000850025",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mtv-explore-with-us-graphic-short-sleeve-fleece-dress/-/A-1001984552",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/dr-seuss-the-grinch-here-for-the-roast-beast/-/A-1000781580",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/hot-wheels-usa-stripes-graphic-short-sleeve-fleece-dress/-/A-1002104492",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/paw-patrol-americana/-/A-1000816901",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/hey-arnold-valentine-s-i-love-you-graphic-short-sleeve-fleece-dress/-/A-1001729979",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/instant-message-st-patrick-s-day-shenanigans-with-my-gnomies-graphic-short-sleeve-fleece-dress/-/A-1001729011",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mattel-my-boo-crew-racecar-graphic-short-sleeve-fleece-dress/-/A-1001972818",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts-game-on-1st-grade-graphic-short-sleeve-fleece-dress/-/A-1001735608",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/lol-surprise-nashville-and-bluegrass-queen-graphic-short-sleeve-fleece-dress/-/A-1001974314",
+      url: "https://www.target.com/p/garfield-grunge/-/A-1000789786",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/mattel-pink-draculaura-graphic-short-sleeve-fleece-dress/-/A-1002008627",
+      url: "https://www.target.com/p/pok-mon-eevee-133-graphic-short-sleeve-fleece-dress/-/A-1002380742",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000794710",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/polly-pocket-90s-doll-graphic-short-sleeve-fleece-dress/-/A-1002021757",
+      url: "https://www.target.com/p/bubble-guppies-bubble-puppy-graphic-short-sleeve-fleece-dress/-/A-1000758453",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/hot-wheels-race-crew-4-yrs-graphic-short-sleeve-fleece-dress/-/A-1002085959",
+      url: "https://www.target.com/p/little-tikes-teamwork-makes-the-dream-work-graphic-short-sleeve-fleece-dress/-/A-1001986887",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/lol-surprise-fierce-queens-graphic-short-sleeve-fleece-dress/-/A-1001993622",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-road-trippin-graphic-short-sleeve-fleece-dress/-/A-1002004524",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-howdy-cowgirls-graphic-short-sleeve-fleece-dress/-/A-1002004073",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-winter-breeze-graphic-short-sleeve-fleece-dress/-/A-1002055912",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/peanuts-woodstock-turkey-graphic-short-sleeve-fleece-dress/-/A-1001739080",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/peanuts-witch-way-to-the-candy-graphic-short-sleeve-fleece-dress/-/A-1001739138",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/peanuts-snoopy-camping-graphic-short-sleeve-fleece-dress/-/A-1001739005",
+      url: "https://www.target.com/p/pok-mon-charmander-snowflakes-graphic-short-sleeve-fleece-dress/-/A-1002352230",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts-the-great-pumpkin-believer-graphic-short-sleeve-fleece-dress/-/A-1001739085",
+      url: "https://www.target.com/p/avatar-the-last-airbender-aang-airbender/-/A-1000764829",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts-snoopy-charmer-graphic-short-sleeve-fleece-dress/-/A-1001739035",
+      url: "https://www.target.com/p/lol-surprise-4th-of-july-graphic-short-sleeve-fleece-dress/-/A-1001985259",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts-lucky-snoopy-graphic-short-sleeve-fleece-dress/-/A-1001725468",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-fall-graphic-short-sleeve-fleece-dress/-/A-1004529183",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts-happiness-is-a-pile-of-leaves-graphic-short-sleeve-fleece-dress/-/A-1001739139",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/peanuts-thanksful-grateful-blessed-graphic-short-sleeve-fleece-dress/-/A-1001739125",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-2fly-4-wrdz-graphic-short-sleeve-fleece-dress/-/A-1001993772",
+      url: "https://www.target.com/p/peanuts/-/A-1000815678",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts-snoopy-ski-pro-graphic-short-sleeve-fleece-dress/-/A-1001739082",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/peanuts-snoopy-and-linus-cozy-and-cuddly-graphic-short-sleeve-fleece-dress/-/A-1001739140",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/peanuts-ride-green-graphic-short-sleeve-fleece-dress/-/A-1001739028",
+      url: "https://www.target.com/p/peanuts/-/A-1000795599",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts-just-a-kid-who-loves-fall-graphic-short-sleeve-fleece-dress/-/A-1001739095",
+      url: "https://www.target.com/p/peanuts-feelin-groovy-snoopy-and-woodstock-graphic-short-sleeve-fleece-dress/-/A-1001724392",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/lol-surprise-4th-of-july-graphic-short-sleeve-fleece-dress/-/A-1002118387",
+      url: "https://www.target.com/p/peanuts/-/A-1000788503",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/lol-surprise-fanime-kawaii-graphic-short-sleeve-fleece-dress/-/A-1002004233",
+      url: "https://www.target.com/p/peanuts-snoopy-utah-graphic-short-sleeve-fleece-dress/-/A-1001739073",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/lol-surprise-roadie-graphic-short-sleeve-fleece-dress/-/A-1002118374",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-karma-s-world-speak-through-art-graphic-short-sleeve-fleece-dress/-/A-1003929004",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/monster-high-monsters-group-graphic-short-sleeve-fleece-dress/-/A-1002008199",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-grrrls-run-the-world-graphic-short-sleeve-fleece-dress/-/A-1002118424",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/peanuts-linus-skateboarding-graphic-short-sleeve-fleece-dress/-/A-1001739023",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/peanuts-snoopy-and-friends-thrilled-to-be-chilled-graphic-short-sleeve-fleece-dress/-/A-1001739011",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-lets-unbox-graphic-short-sleeve-fleece-dress/-/A-1001978279",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/peanuts-let-s-roll-graphic-short-sleeve-fleece-dress/-/A-1001739057",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-malibu-sunset-with-palm-trees-graphic-short-sleeve-fleece-dress/-/A-1002118541",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hot-wheels-happy-birthday-to-me-graphic-short-sleeve-fleece-dress/-/A-1002118718",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/mattel-m-f-f-monster-friends-forever-graphic-short-sleeve-fleece-dress/-/A-1002118324",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/mattel-ghouls-squad-graphic-short-sleeve-fleece-dress/-/A-1002118328",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/teenage-mutant-ninja-turtles-usa-turtles/-/A-1000848116",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/paw-patrol-happy-howl/-/A-1000845515",
+      url: "https://www.target.com/p/paw-patrol-brave-explorers-graphic-short-sleeve-fleece-dress/-/A-1001739130",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, Sweatshirt Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/lol-surprise-time-to-shine-graphic-short-sleeve-fleece-dress/-/A-1002004834",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-fierce-doll-graphic-short-sleeve-fleece-dress/-/A-1002003923",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-bff-4lyfe-graphic-short-sleeve-fleece-dress/-/A-1002118366",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/mattel-never-have-tomb-many-friends-graphic-short-sleeve-fleece-dress/-/A-1002118289",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-winter-holidays-graphic-short-sleeve-fleece-dress/-/A-1002044060",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/peanuts-retro-flower-rainbow-graphic-short-sleeve-fleece-dress/-/A-1001739045",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-slay-all-day-graphic-short-sleeve-fleece-dress/-/A-1001978272",
+      url: "https://www.target.com/p/peanuts/-/A-1000790603",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts/-/A-1000820728",
+      url: "https://www.target.com/p/pok-mon-pikachu-japanese-graphic-short-sleeve-fleece-dress/-/A-1002386322",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts/-/A-1000819133",
+      url: "https://www.target.com/p/peanuts-snoopy-s-beach-day-graphic-short-sleeve-fleece-dress/-/A-1001739052",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000791806",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/garfield-born-to-grow/-/A-1000789691",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/instant-message-rescue-myself-graphic-short-sleeve-fleece-dress/-/A-1003238325",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/instant-message-st-patrick-s-day-coolest-clover-in-the-patch-graphic-short-sleeve-fleece-dress/-/A-1001728850",
+      url: "https://www.target.com/p/girls-karma-s-world-we-re-all-stars-graphic-short-sleeve-fleece-dress/-/A-1003929016",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/despicable-me-minions-minion-banana-stickers-graphic-short-sleeve-fleece-dress/-/A-1000799088",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/peanuts-candy-squad-graphic-short-sleeve-fleece-dress/-/A-1001727083",
+      url: "https://www.target.com/p/peanuts/-/A-1000817749",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/garfield-cat-scratches/-/A-1000789716",
+      url: "https://www.target.com/p/instant-message-st-patrick-s-day-lucky-lil-ducky/-/A-1001598790",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/instant-message-st-patrick-s-day-leprechaun-truck-delivering-luck-graphic-short-sleeve-fleece-dress/-/A-1001728941",
+      url: "https://www.target.com/p/peanuts/-/A-1000795340",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts/-/A-1000768936",
+      url: "https://www.target.com/p/blue-s-clues-you-magenta-blue-graphic-short-sleeve-fleece-dress/-/A-1000752633",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/pok-mon-pikachu-neon-boxes-graphic-short-sleeve-fleece-dress/-/A-1002395723",
+      url: "https://www.target.com/p/peanuts-snoopy-puffer-cozy-vibes-graphic-short-sleeve-fleece-dress/-/A-1001727668",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/paw-patrol-skye-team-awesome-graphic-short-sleeve-fleece-dress/-/A-1001739119",
+      url: "https://www.target.com/p/blue-s-clues-you-sunshine-and-rainbows-graphic-short-sleeve-fleece-dress/-/A-1001735026",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/hot-wheels-going-big-for-my-birthday-graphic-short-sleeve-fleece-dress/-/A-1002086777",
+      url: "https://www.target.com/p/garfield-tennis/-/A-1000784357",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/garfield-garfield-odie-game-on/-/A-1000786121",
+      url: "https://www.target.com/p/peanuts/-/A-1000818114",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/girls-instant-message-fishing-lures-graphic-short-sleeve-fleece-dress/-/A-1004185911",
+      url: "https://www.target.com/p/teenage-mutant-ninja-turtles-donatello-raphael-leonardo-michelangelo/-/A-1000827148",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/trolls-branch-stacked/-/A-1000798499",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/spongebob-squarepants-property-of-bikini-bottom/-/A-1000785155",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-snowflake-wreath-graphic-short-sleeve-fleece-dress/-/A-1001978302",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/peanuts/-/A-1000795627",
+      url: "https://www.target.com/p/peanuts/-/A-1000788509",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/dr-seuss-abc-book-characters-graphic-short-sleeve-fleece-dress/-/A-1003971791",
+      url: "https://www.target.com/p/paw-patrol-howl-eek/-/A-1000857657",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/blue-s-clues-you-blue-s-thinking-chair-graphic-short-sleeve-fleece-dress/-/A-1001734931",
+      url: "https://www.target.com/p/peanuts/-/A-1000795342",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts-game-on-kindergarten-graphic-short-sleeve-fleece-dress/-/A-1001735493",
+      url: "https://www.target.com/p/if-movie-blossom-ballet-graphic-short-sleeve-fleece-dress/-/A-1001970446",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/hey-arnold-arnold-spray-paint-96-graphic-short-sleeve-fleece-dress/-/A-1001729437",
+      url: "https://www.target.com/p/hey-arnold-arnold-and-friends-graphic-short-sleeve-fleece-dress/-/A-1001731698",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/karma-s-world-love-what-you-love-graphic-short-sleeve-fleece-dress/-/A-1003972126",
+      url: "https://www.target.com/p/barbie-girls-run-the-world-graphic-short-sleeve-fleece-dress/-/A-1002073995",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/pok-mon-pikachu-checkered-graphic-short-sleeve-fleece-dress/-/A-1002386097",
+      url: "https://www.target.com/p/peanuts-fall-is-my-favorite-graphic-short-sleeve-fleece-dress/-/A-1001739098",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/spongebob-squarepants-kamp-koral-krabby-kamper/-/A-1000787482",
+      url: "https://www.target.com/p/blue-s-clues-you-play-time-graphic-short-sleeve-fleece-dress/-/A-1000752196",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/pok-mon-miraidon-legend-graphic-short-sleeve-fleece-dress/-/A-1002357481",
+      url: "https://www.target.com/p/teenage-mutant-ninja-turtles-raph/-/A-1000786794",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/lol-surprise-4th-of-july-graphic-short-sleeve-fleece-dress/-/A-1001985290",
+      url: "https://www.target.com/p/instant-message-ready-to-rock-second-grade-graphic-short-sleeve-fleece-dress/-/A-1003971948",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts-turkey-squad-graphic-short-sleeve-fleece-dress/-/A-1001726993",
+      url: "https://www.target.com/p/paw-patrol-dream-explore-repeat-graphic-short-sleeve-fleece-dress/-/A-1001734864",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts/-/A-1000795666",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/pok-mon-pikachu-moon-witch-graphic-short-sleeve-fleece-dress/-/A-1002355260",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/spongebob-squarepants-spongebob-scaredy-pants/-/A-1000850660",
+      url: "https://www.target.com/p/garfield-i-vant-candy/-/A-1000857610",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/barbie-heart-grid-graphic-short-sleeve-fleece-dress/-/A-1002082949",
+      url: "https://www.target.com/p/peanuts/-/A-1000795305",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/pok-mon-team-pok-mon-graphic-short-sleeve-fleece-dress/-/A-1002395845",
+      url: "https://www.target.com/p/lol-surprise-coney-island-graphic-short-sleeve-fleece-dress/-/A-1001974377",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/rocket-power-skate-life/-/A-1000826648",
+      url: "https://www.target.com/p/garfield-ignoring-you/-/A-1000763297",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/pok-mon-jiggypuff-music-notes-graphic-short-sleeve-fleece-dress/-/A-1002396097",
+      url: "https://www.target.com/p/barbie-pool-water-reflection-graphic-short-sleeve-fleece-dress/-/A-1002063810",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/teenage-muntant-ninja-turtles-happy-holidays/-/A-1000843284",
+      url: "https://www.target.com/p/peanuts-life-is-better-under-the-star-graphic-short-sleeve-fleece-dress/-/A-1001739113",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/avatar-the-last-airbender-toph-graphic-short-sleeve-fleece-dress/-/A-1001732503",
+      url: "https://www.target.com/p/pok-mon-slowpoke-taking-it-slow-graphic-short-sleeve-fleece-dress/-/A-1002397018",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts/-/A-1000790698",
+      url: "https://www.target.com/p/paw-patrol-marshall-and-rubble-beach/-/A-1000786550",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts-explore-more-art-graphic-short-sleeve-fleece-dress/-/A-1001739067",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/trolls-lets-hang-out-branch/-/A-1000796936",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/instant-message-i-train-my-brain-graphic-short-sleeve-fleece-dress/-/A-1003971318",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/curious-george-classic-cartoons-graphic-short-sleeve-fleece-dress/-/A-1003971414",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/instant-message-learn-alotl-in-2nd-grade-graphic-short-sleeve-fleece-dress/-/A-1003972090",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/peanuts/-/A-1000826004",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/garfield-i-live-for-weekends/-/A-1000763281",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/trolls-gimme-a-beat-branch-and-poppy/-/A-1000798243",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/pok-mon-pikachu-and-friends-graphic-short-sleeve-fleece-dress/-/A-1002386923",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/garfield-not-always-right/-/A-1000857673",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/peanuts-hawaii-graphic-short-sleeve-fleece-dress/-/A-1001739056",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/peanuts/-/A-1000791715",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/teenage-mutant-ninja-turtles-skateboards/-/A-1000786821",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/garfield-hug-it-out/-/A-1000789723",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/teenage-muntant-ninja-turtles-have-a-turtley-awesome-holiday/-/A-1000843201",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/avatar-the-last-airbender-trio-graphic-short-sleeve-fleece-dress/-/A-1001733056",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/instant-message-problem-solver-graphic-short-sleeve-fleece-dress/-/A-1003971387",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/peanuts/-/A-1000795682",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-friends-grow-together-graphic-short-sleeve-fleece-dress/-/A-1002004739",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/teenage-mutant-ninja-turtles-paint-logo/-/A-1000786825",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-next-level-graphic-short-sleeve-fleece-dress/-/A-1001985363",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/instant-message-easter-eggs-come-from-where-graphic-short-sleeve-fleece-dress/-/A-1002611542",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-instant-message-fall-graphic-short-sleeve-fleece-dress/-/A-1004529139",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/peanuts/-/A-1000782112",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/blue-s-clues-you-blue-waves-hello-graphic-short-sleeve-fleece-dress/-/A-1000753907",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/peanuts-retro-trailblazers-graphic-short-sleeve-fleece-dress/-/A-1001727125",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/garfield-don-t-know-don-t-care/-/A-1000857603",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-go-go-gurl-graphic-short-sleeve-fleece-dress/-/A-1002004240",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/peanuts/-/A-1000820828",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/paw-patrol-rubble-graphic/-/A-1000809492",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/rainbow-high-jade-hunter-rainbow-graffiti-graphic-short-sleeve-fleece-dress/-/A-1001996181",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-pink-core-graphic-short-sleeve-fleece-dress/-/A-1002083698",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/peanuts/-/A-1000794696",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/garfield-hello-go-home-now/-/A-1000763503",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lol-surprise-royal-bee-graphic-short-sleeve-fleece-dress/-/A-1001993786",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/teenage-mutant-ninja-turtles-what-rules-leo-and-brothers/-/A-1000809018",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dr-seuss-the-grinch-naughty-or-nice/-/A-1000781603",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/avatar-the-last-airbender-aang-arrows-graphic-short-sleeve-fleece-dress/-/A-1001733084",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
-      filters: {
-        type: "Sweater Dresses",
-      },
-    },
-    {
-      url: "https://www.target.com/p/paw-patrol-pup-pup-lights-up/-/A-1000780739",
+      url: "https://www.target.com/p/paw-patrol-lucky-dogs/-/A-1000827355",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, Sweatshirt Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/pok-mon-pok-mon-grid-graphic-short-sleeve-fleece-dress/-/A-1002386137",
+      url: "https://www.target.com/p/peanuts/-/A-1000791850",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/garfield-university/-/A-1000784420",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/mtv-icon-collage-logo-graphic-short-sleeve-fleece-dress/-/A-1001984401",
+      url: "https://www.target.com/p/blue-s-clues-you-trick-or-treat/-/A-1000857503",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/barbie-sunny-days-ahead-graphic-short-sleeve-fleece-dress/-/A-1001731930",
+      url: "https://www.target.com/p/mattel-draculaura-is-fangtastic-graphic-short-sleeve-fleece-dress/-/A-1001973025",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/blue-s-clues-you-clue-into-kindness/-/A-1000753488",
+      url: "https://www.target.com/p/despicable-me-minions-too-rad-to-be-sad-graphic-short-sleeve-fleece-dress/-/A-1000799113",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/paw-patrol-chase-the-rainbow/-/A-1000828585",
+      url: "https://www.target.com/p/peanuts/-/A-1000818208",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mtv-funky-flower-dude-graphic-short-sleeve-fleece-dress/-/A-1001984354",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/barbie-i-am-powerful-graphic-short-sleeve-fleece-dress/-/A-1002070649",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lol-surprise-individually-us-graphic-short-sleeve-fleece-dress/-/A-1001974404",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/garfield-resting-cat-face/-/A-1000762174",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/instant-message-spectacolar-graphic-short-sleeve-fleece-dress/-/A-1003971330",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/garfield-garf-pixel-square/-/A-1000786151",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000818052",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/paw-patrol-earth-day-globe-graphic-short-sleeve-fleece-dress/-/A-1001727424",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/blue-s-clues-you-blue-s-clues-me-graphic-short-sleeve-fleece-dress/-/A-1000753875",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts-snoopy-s-wave-ride-graphic-short-sleeve-fleece-dress/-/A-1001739032",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/pok-mon-pika-pika-scared-graphic-short-sleeve-fleece-dress/-/A-1002377197",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/garfield-whatever/-/A-1000857607",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/spongebob-squarepants-no-tricks-just-treats/-/A-1000850746",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/little-tikes-fast-food-towing-graphic-short-sleeve-fleece-dress/-/A-1001987149",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mtv-logo-jack-o-lantern-graphic-short-sleeve-fleece-dress/-/A-1001984623",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-jellyfish-ramune-graphic-short-sleeve-fleece-dress/-/A-1004189167",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000795515",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/instant-message-hello-second-grade-graphic-short-sleeve-fleece-dress/-/A-1003971376",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-karma-s-world-lyrical-star-airbrush-style-graphic-short-sleeve-fleece-dress/-/A-1003928967",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/karma-s-world-number-one-on-the-block-graphic-short-sleeve-fleece-dress/-/A-1003972132",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/blue-s-clues-you-smart-cute-graphic-short-sleeve-fleece-dress/-/A-1000751507",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/garfield-logo-vertical/-/A-1000789461",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000790716",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lol-surprise-spicy-babe-graphic-short-sleeve-fleece-dress/-/A-1001989803",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/spongebob-squarepants-hoppy-easter/-/A-1000849888",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000788506",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/spongebob-squarepants-bikini-bottom-egg-hunting-champ/-/A-1000850257",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/avatar-the-last-airbender-trio-squad-graphic-short-sleeve-fleece-dress/-/A-1001733047",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/blue-s-clues-you-blue-clues-paw-logo-graphic-short-sleeve-fleece-dress/-/A-1001735001",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000795607",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts-game-on-pre-k-graphic-short-sleeve-fleece-dress/-/A-1001735437",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/teenage-mutant-ninja-turtles-mikey/-/A-1000786690",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/karma-s-world-step-into-the-spotlight-karma-graphic-short-sleeve-fleece-dress/-/A-1003972097",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000803064",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/barbie-do-what-makes-you-awesome-graphic-short-sleeve-fleece-dress/-/A-1002118630",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/garfield-basketball/-/A-1000784421",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts-first-grade-just-got-cooler-graphic-short-sleeve-fleece-dress/-/A-1001739193",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/pok-mon-plaid-badge-graphic-short-sleeve-fleece-dress/-/A-1002396415",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000815600",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/barbie-stacked-barbie-vday-graphic-short-sleeve-fleece-dress/-/A-1002058289",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000820662",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lol-surprise-let-s-be-kind-to-plants-graphic-short-sleeve-fleece-dress/-/A-1002004674",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lol-surprise-sweet-spicy-babes-graphic-short-sleeve-fleece-dress/-/A-1001989920",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/spongebob-squarepants-shine-like-fireworks/-/A-1000817173",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/pok-mon-starter-pok-mon-logo-graphic-short-sleeve-fleece-dress/-/A-1002396287",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/avatar-the-last-airbender-boomerang-guy-graphic-short-sleeve-fleece-dress/-/A-1001733263",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/nickelodeon-mother-s-day-graphic-short-sleeve-fleece-dress/-/A-1000818358",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000781165",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/blue-s-clues-you-cute-clued-in-graphic-short-sleeve-fleece-dress/-/A-1000753459",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts-snoopy-clover-dance-graphic-short-sleeve-fleece-dress/-/A-1001725478",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/pok-mon-pokeball-trainer-graphic-short-sleeve-fleece-dress/-/A-1002386368",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/paw-patrol-heart-earth-graphic-short-sleeve-fleece-dress/-/A-1001727410",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lol-surprise-let-s-par-tea-graphic-short-sleeve-fleece-dress/-/A-1001985553",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/avatar-the-last-airbender-cute-appa-yip-yip-graphic-short-sleeve-fleece-dress/-/A-1001733259",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/teenage-muntant-ninja-turtles-get-into-the-ninja-spirit/-/A-1000843244",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/despicable-me-minions-sunshine-on-my-mind-graphic-short-sleeve-fleece-dress/-/A-1000796533",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000790662",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts-1st-grade-rocks-graphic-short-sleeve-fleece-dress/-/A-1001739202",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000810020",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000790764",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/paw-patrol-shine-on/-/A-1000781614",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mattel-girl-squad-pop-art-graphic-short-sleeve-fleece-dress/-/A-1001977079",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lol-surprise-winter-dolls-graphic-short-sleeve-fleece-dress/-/A-1001977632",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lol-surprise-birthday-qt-graphic-short-sleeve-fleece-dress/-/A-1001985519",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/spongebob-squarepants-frosty-friends/-/A-1000839942",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000795571",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/paw-patrol-nature-patrol-graphic-short-sleeve-fleece-dress/-/A-1001734696",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/garfield-friends/-/A-1000763870",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/garfield-start-my-diet-tomorrow/-/A-1000789633",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000818042",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mattel-under-the-water-lagoona-blue-graphic-short-sleeve-fleece-dress/-/A-1001972850",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mattel-school-students-graphic-short-sleeve-fleece-dress/-/A-1002008694",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      filters: {
+        type: "Sweater Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/paw-patrol-team-paw-rubble/-/A-1000809604",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, Sweatshirt Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts/-/A-1000803233",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
+      url: "https://www.target.com/p/little-tikes-find-the-way-graphic-short-sleeve-fleece-dress/-/A-1001987085",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/spongebob-squarepants-spongebob-slugger-pants-graphic-short-sleeve-fleece-dress/-/A-1001738960",
+      url: "https://www.target.com/p/peanuts/-/A-1000791940",
       tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
       filters: {
         type: "Sweater Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts/-/A-1000788636",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/girls-paw-patrol-everest-sketch-fit-flair-cap-sleeve-dress/-/A-1000470483",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweatshirt Dresses, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "Sweatshirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/blue-s-clues-you-colors-of-the-rainbow-graphic-short-sleeve-fleece-dress/-/A-1001738925",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/paw-patrol-squad-kindergarten/-/A-1000787322",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweatshirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "Sweatshirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/pok-mon-pika-presents-graphic-short-sleeve-fleece-dress/-/A-1002352316",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
+      url: "https://www.target.com/p/paw-patrol-staying-cool/-/A-1000786443",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweatshirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "Sweatshirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/garfield-happy-holidays-wreath/-/A-1000841673",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/paw-patrol-squad-second-grade/-/A-1000787233",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweatshirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "Sweatshirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/paw-patrol-adventure-awaits-graphic-short-sleeve-fleece-dress/-/A-1001739133",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, Sweatshirt Dresses",
+      url: "https://www.target.com/p/paw-patrol-chase-sketch/-/A-1000787244",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweatshirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "Sweatshirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/captain-underpants-c-underpants-george-harold/-/A-1001646599",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/paw-patrol-team-shamrock/-/A-1000828459",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweatshirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "Sweatshirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/instant-message-valentine-s-day-cupid-crew-graphic-short-sleeve-fleece-dress/-/A-1001598345",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/paw-patrol-outdoor-vibes-graphic-short-sleeve-fleece-dress/-/A-1001734619",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweatshirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "Sweatshirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts/-/A-1000815413",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/paw-patrol-mighty-movie-character-group/-/A-1000807372",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweatshirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "Sweatshirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/instant-message-st-patrick-s-day-lucky-vibes/-/A-1001598524",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/paw-patrol-life-is-an-adventure-graphic-short-sleeve-fleece-dress/-/A-1001734785",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweatshirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "Sweatshirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/pok-mon-psyduck-spiral-graphic-short-sleeve-fleece-dress/-/A-1002395584",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
+      url: "https://www.target.com/p/paw-patrol-ultimate-explorer-graphic-short-sleeve-fleece-dress/-/A-1001734630",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweatshirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "Sweatshirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/paw-patrol-chase-sky-hearts/-/A-1000833021",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, Sweatshirt Dresses",
+      url: "https://www.target.com/p/paw-patrol-we-re-on-it-graphic-short-sleeve-fleece-dress/-/A-1001739172",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweatshirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "Sweatshirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/teenage-mutant-ninja-turtles-movie-logo/-/A-1000827164",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/paw-patrol-chase-lightning/-/A-1000807586",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweatshirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "Sweatshirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/dr-seuss-kindergarten-out-of-this-world-graphic-short-sleeve-fleece-dress/-/A-1003971835",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/paw-patrol-lets-play/-/A-1000786525",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweatshirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "Sweatshirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/pok-mon-pick-of-the-patch-graphic-short-sleeve-fleece-dress/-/A-1002376882",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/girls-paw-patrol-this-is-my-camping-sweatshirt-fit-flair-cap-sleeve-dress/-/A-1000871119",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweatshirt Dresses, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "Sweatshirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/paw-patrol-pawfect-pals/-/A-1000809332",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, Sweatshirt Dresses",
+      url: "https://www.target.com/p/touched-by-nature-big-girls-and-youth-organic-cotton-short-sleeve-dresses-2pk-blossoms/-/A-82663203",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts/-/A-1000794822",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/touched-by-nature-big-girls-and-youth-organic-cotton-short-sleeve-dresses-2pk-navy-floral/-/A-82662741",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/trolls-happy-trolloween-branch-and-cloud-guy/-/A-1000796958",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000817335",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/barbie-believe-in-yourself-graphic-short-sleeve-fleece-dress/-/A-1002084564",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000817328",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/garfield-trick-or-treat/-/A-1000761945",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/touched-by-nature-big-girls-and-youth-organic-cotton-short-sleeve-dresses-2pk-botanical-10-years/-/A-82658321",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts/-/A-1000791842",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/luvable-friends-touched-by-nature-long-sleeve-dresses-2pk-set/-/A-1004812968",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/lol-surprise-4th-of-july-graphic-short-sleeve-fleece-dress/-/A-1001985103",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/touched-by-nature-big-girls-and-youth-organic-cotton-short-sleeve-dresses-2pk-lemons/-/A-82658535",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts/-/A-1000790693",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/touched-by-nature-big-girls-and-youth-organic-cotton-long-sleeve-dresses-2pk-navy-floral/-/A-82662806",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts/-/A-1000781136",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/touched-by-nature-big-girls-and-youth-organic-cotton-short-sleeve-dresses-2pk-garden-floral/-/A-82663361",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/pok-mon-pok-mon-trainer-graphic-short-sleeve-fleece-dress/-/A-1002395811",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/rufflebutts-girls-long-sleeve-twirl-dress/-/A-89942784",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts/-/A-1000818149",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
+      url: "https://www.target.com/p/luvable-friends-touched-by-nature-long-sleeve-dresses-2pk/-/A-1004787822",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/blue-s-clues-you-mommy-is-my-sunshine-graphic-short-sleeve-fleece-dress/-/A-1001734983",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/touched-by-nature-big-girls-and-youth-organic-cotton-long-sleeve-dresses-2pk-heart/-/A-82663481",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/lol-surprise-postcard-graphic-short-sleeve-fleece-dress/-/A-1001974438",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
+      url: "https://www.target.com/p/touched-by-nature-big-girls-and-youth-organic-cotton-long-sleeve-dresses-2pk-butterflies/-/A-82658603",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/pok-mon-witch-pikachu-with-candy-graphic-short-sleeve-fleece-dress/-/A-1002355256",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
+      url: "https://www.target.com/p/wrapables-girls-casual-long-sleeved-cats-dress/-/A-1002865923",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts/-/A-1000791960",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/luvable-friends-touched-by-nature-short-sleeve-dresses-2pk/-/A-1004788387",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts/-/A-1000820689",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/touched-by-nature-big-girls-and-youth-organic-cotton-long-sleeve-dresses-2pk-poppy/-/A-82663379",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/hey-arnold-airbrush-arnold-graphic-short-sleeve-fleece-dress/-/A-1001730096",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/touched-by-nature-big-girls-and-youth-organic-cotton-short-sleeve-dresses-2pk-butterflies/-/A-82658380",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/mtv-logo-retro-collage-graphic-short-sleeve-fleece-dress/-/A-1001984284",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/disney-lilo-stitch-big-girls-tank-dress-blue-10-12/-/A-1002811078",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/avatar-the-last-airbender-four-nations-graphic-short-sleeve-fleece-dress/-/A-1001733013",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/girls-instant-message-hello-first-grade-fit-flair-cap-sleeve-dress/-/A-1003960058",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/pok-mon-winter-fun-graphic-short-sleeve-fleece-dress/-/A-1002352283",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/touched-by-nature-big-girls-and-youth-organic-cotton-long-sleeve-dresses-2pk-botanical/-/A-82658641",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/instant-message-hello-kindergarten-graphic-short-sleeve-fleece-dress/-/A-1003971343",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
+      url: "https://www.target.com/p/girls-instant-message-hello-kindergarten-fit-flair-cap-sleeve-dress/-/A-1003959963",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts/-/A-1000781140",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/girls-barbie-summer-time-dream-fit-flair-cap-sleeve-dress/-/A-1002059435",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/spongebob-squarepants-spongebob-patrick-candy-canes/-/A-1000790985",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/girls-trolls-turn-it-up-poppy-fit-flair-cap-sleeve-dress/-/A-1000057846",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/despicable-me-minions-retro-rainbow-skater-graphic-short-sleeve-fleece-dress/-/A-1000796497",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/girls-rainbow-high-rainbow-high-character-group-fit-flair-cap-sleeve-dress/-/A-1001995228",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/spongebob-squarepants-franken-sponge/-/A-1000850876",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/touched-by-nature-big-girls-and-youth-organic-cotton-long-sleeve-dresses-2pk-buffalo-plaid/-/A-82662953",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/instant-message-learn-alotl-in-1st-grade-graphic-short-sleeve-fleece-dress/-/A-1003972078",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/girls-lol-surprise-winter-dolls-fit-flair-cap-sleeve-dress/-/A-1001978035",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/instant-message-st-patrick-s-day-dinosaur-eatting-rainbow-graphic-short-sleeve-fleece-dress/-/A-1001728779",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/touched-by-nature-girls-organic-cotton-dresses-woodland/-/A-89205329",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/garfield-garfield-repeated/-/A-1000786068",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/luvable-friends-hudson-baby-long-sleeve-dresses-2pk/-/A-1004788526",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/spongebob-squarepants-dashing-through-the-snow/-/A-1000839966",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/girls-pok-mon-the-snuggle-is-real-pikachu-and-sylveon-fit-flair-cap-sleeve-dress/-/A-1002349825",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/despicable-me-minions-only-here-for-the-eats-graphic-short-sleeve-fleece-dress/-/A-1000799017",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000601191",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/pok-mon-pikachu-wink-face-graphic-short-sleeve-fleece-dress/-/A-1002396823",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
+      url: "https://www.target.com/p/touched-by-nature-big-girls-and-youth-organic-cotton-short-sleeve-dresses-2pk-poppy/-/A-82657969",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts-snoopy-lucky-dog-graphic-short-sleeve-fleece-dress/-/A-1001725454",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
+      url: "https://www.target.com/p/girls-how-to-train-your-dragon-dragons-fit-flair-cap-sleeve-dress/-/A-1003892254",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/girls-karma-s-world-girl-group-graphic-short-sleeve-fleece-dress/-/A-1003929039",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/touched-by-nature-big-girls-and-youth-organic-cotton-long-sleeve-dresses-2pk-garden-floral/-/A-82658016",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/garfield-i-don-t-do-perky/-/A-1000763457",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000661612",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/avatar-the-last-airbender-toph-melon-lord/-/A-1000764224",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/girls-monster-high-group-circle-fit-flair-cap-sleeve-dress/-/A-93675430",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/paw-patrol-present-patrol/-/A-1000781596",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, Sweatshirt Dresses",
+      url: "https://www.target.com/p/girls-rainbow-high-toy-doll-lineup-fit-flair-cap-sleeve-dress/-/A-1001995436",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/despicable-me-minions-mine-mine-mine-graphic-short-sleeve-fleece-dress/-/A-1000796518",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/girls-barbie-pink-daisy-pattern-logo-fit-flair-cap-sleeve-dress/-/A-1002108018",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/rainbow-high-california-graphic-short-sleeve-fleece-dress/-/A-1001984983",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
+      url: "https://www.target.com/p/girls-teenage-mutant-ninja-turtles-cowabunga-fit-flair-cap-sleeve-dress/-/A-1000451722",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/garfield-faces-grid/-/A-1000857711",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/girls-barbie-spring-bouquet-pattern-logo-fit-flair-cap-sleeve-dress/-/A-1002107381",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/garfield-ask-me-if-i-care/-/A-1000764120",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000876712",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts/-/A-1000795455",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000871458",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/blue-s-clues-you-no-clue-why-i-m-out-of-bed-graphic-short-sleeve-fleece-dress/-/A-1001734945",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/girls-trolls-poppy-stacked-name-fit-flair-cap-sleeve-dress/-/A-94201239",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/garfield-feliz-navi-dog/-/A-1000841687",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/girls-garfield-i-live-for-weekends-fit-flair-cap-sleeve-dress/-/A-1000472660",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/despicable-me-minions-groovy-since-forever-graphic-short-sleeve-fleece-dress/-/A-1000796489",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/girls-paw-patrol-chase-skye-marshall-totally-pawsome-fit-flair-cap-sleeve-dress/-/A-1000447715",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts/-/A-1000803171",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/girls-peanuts-snoopy-when-in-doubt-take-a-nap-fit-flair-cap-sleeve-dress/-/A-93056390",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/avatar-the-last-airbender-jasmine-dragon-tea-graphic-short-sleeve-fleece-dress/-/A-1001733237",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/girls-dr-seuss-cat-in-the-hat-school-is-cool-fit-flair-cap-sleeve-dress/-/A-1003964147",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts-vampire-snoopy-stars-graphic-short-sleeve-fleece-dress/-/A-1001726848",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/mightly-girls-fair-trade-organic-cotton-long-sleeve-t-shirt-dress/-/A-1004010333",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/blue-s-clues-you-let-it-shine-graphic-short-sleeve-fleece-dress/-/A-1001735056",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000817455",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/paw-patrol-pups-at-play/-/A-1000809180",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, Sweatshirt Dresses",
+      url: "https://www.target.com/p/girls-instant-message-st-patrick-s-day-lucky-shamrocks-filled-fit-flair-cap-sleeve-dress/-/A-1001603214",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/instant-message-tacosaurus-graphic-short-sleeve-fleece-dress/-/A-1003972068",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
+      url: "https://www.target.com/p/girls-paw-patrol-pawsitive-vibes-skye-marshall-chase-rubble-fit-flair-cap-sleeve-dress/-/A-1000447794",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/garfield-witch-way-to-the-candy/-/A-1000761810",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/girls-paw-patrol-puppy-luv-fit-flair-cap-sleeve-dress/-/A-1000832877",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/karma-s-world-graffiti-art-graphic-short-sleeve-fleece-dress/-/A-1003971900",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
+      url: "https://www.target.com/p/girls-dr-seuss-k-is-for-kindergarten-fit-flair-cap-sleeve-dress/-/A-1003965872",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts/-/A-1000790766",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/girls-spongebob-squarepants-character-grid-fit-flair-cap-sleeve-dress/-/A-1000451843",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/avatar-the-last-airbender-four-elements-square-graphic-short-sleeve-fleece-dress/-/A-1001733017",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/girls-monster-high-clawdeen-wolf-draculaura-frankie-stein-polaroids-fit-flair-cap-sleeve-dress/-/A-93675432",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/spongebob-squarepants-1st-grade-squad/-/A-1000785053",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/girls-monster-high-character-grid-fit-flair-cap-sleeve-dress/-/A-1002010138",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/teenage-mutant-ninja-turtles-raphael-breaking-through-shirt/-/A-1000786798",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/girls-teenage-mutant-ninja-turtles-leo-and-brothers-turtle-power-fit-flair-cap-sleeve-dress/-/A-1000479116",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/karma-s-world-karma-art-graphic-short-sleeve-fleece-dress/-/A-1003971884",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/girls-despicable-me-minions-only-here-for-the-eats-fit-flair-cap-sleeve-dress/-/A-1000874974",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/instant-message-magical-gamer-girl-graphic-short-sleeve-fleece-dress/-/A-1003238271",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000817351",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts/-/A-1000790646",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/touched-by-nature-big-girls-and-youth-organic-cotton-short-sleeve-dresses-2pk-botanical-8-years/-/A-82658320",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/avatar-the-last-airbender-four-elements-inverse-graphic-short-sleeve-fleece-dress/-/A-1001733025",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000871527",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/despicable-me-minions-not-today-graphic-short-sleeve-fleece-dress/-/A-1000796574",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000875998",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/pok-mon-charmander-retro-gamer-graphic-short-sleeve-fleece-dress/-/A-1002396891",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000637119",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts/-/A-1000795410",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000791441",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/blue-s-clues-you-witch-way-to-the-costume-party-graphic-short-sleeve-fleece-dress/-/A-1000760537",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000661517",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/spongebob-squarepants-feelin-fineapple/-/A-1000785060",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/girls-trolls-i-love-pop-poppy-fit-flair-cap-sleeve-dress/-/A-1000874902",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts/-/A-1000819024",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
+      url: "https://www.target.com/p/girls-spongebob-squarepants-prone-to-shenanigans-and-malarkey-fit-flair-cap-sleeve-dress/-/A-1000827558",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/instant-message-ready-to-rock-preschool-graphic-short-sleeve-fleece-dress/-/A-1003971991",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/girls-paw-patrol-chase-sketch-fit-flair-cap-sleeve-dress/-/A-1000470517",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/instant-message-st-patrick-s-day-rad-little-lad-graphic-short-sleeve-fleece-dress/-/A-1001728927",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/girls-despicable-me-minions-dress-to-impress-yourself-fit-flair-cap-sleeve-dress/-/A-1000874925",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/pok-mon-meowth-mischevious-laugh-graphic-short-sleeve-fleece-dress/-/A-1002387153",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses, T-Shirt Dresses",
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000661609",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/teenage-muntant-ninja-turtle-select-your-turtle-video-game/-/A-1000838898",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/girls-garfield-basketball-fit-flair-cap-sleeve-dress/-/A-1000460573",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/peanuts/-/A-1000791788",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/girls-paw-patrol-adventure-begin-fit-flair-cap-sleeve-dress/-/A-1000447557",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/pok-mon-bulba-pattern-graphic-short-sleeve-fleece-dress/-/A-1002352234",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000815556",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/spongebob-squarepants-kamp-koral-kamp-koral-badge/-/A-1000787485",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/girls-avatar-the-last-airbender-momo-cute-fit-flair-cap-sleeve-dress/-/A-1000870901",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
       },
     },
     {
-      url: "https://www.target.com/p/blue-s-clues-you-blue-graphic-short-sleeve-fleece-dress/-/A-1001735092",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Sweater Dresses",
+      url: "https://www.target.com/p/girls-paw-patrol-skye-sketch-fit-flair-cap-sleeve-dress/-/A-1000470427",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
       filters: {
-        type: "Sweater Dresses",
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000817397",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-kids-long-sleeve-ribbed-dress/-/A-1004939352",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-kids-lace-short-sleeve-dress/-/A-1004938910",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mightly-girls-fair-trade-organic-cotton-long-sleeve-drop-waist-dress/-/A-1004010335",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-teenage-mutant-ninja-turtles-raphael-going-in-loud-fit-flair-cap-sleeve-dress/-/A-1000827076",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-teenage-mutant-ninja-turtles-chillin-like-a-villain-fit-flair-cap-sleeve-dress/-/A-1000875945",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-paw-patrol-tracker-paw-patrol-fit-flair-cap-sleeve-dress/-/A-1000470446",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-charmed-the-power-of-three-will-set-you-free-fit-flair-cap-sleeve-dress/-/A-1001994354",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-teenage-mutant-ninja-turtles-icon-cluster-fit-flair-cap-sleeve-dress/-/A-1000875939",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-the-beatles-fit-flair-cap-sleeve-dress/-/A-1002632184",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-snoopy-s-ski-resort-fit-flair-cap-sleeve-dress/-/A-94183113",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-avatar-the-last-airbender-zuko-calming-tea-fit-flair-cap-sleeve-dress/-/A-1000870866",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-pok-mon-pikachu-panels-fit-flair-cap-sleeve-dress/-/A-1002395626",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-little-tikes-imagination-is-all-it-takes-fit-flair-cap-sleeve-dress/-/A-1001989345",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lol-surprise-4th-of-july-fit-flair-cap-sleeve-dress/-/A-1001985067",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-snoopy-woodstock-beach-buddies-surfing-fit-flair-cap-sleeve-dress/-/A-93036491",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lol-surprise-drip-drop-painting-girls-fit-flair-cap-sleeve-dress/-/A-1001988973",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-dr-seuss-third-grade-out-of-this-world-fit-flair-cap-sleeve-dress/-/A-1003963616",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-pok-mon-the-snuggle-is-real-pikachu-and-piplup-fit-flair-cap-sleeve-dress/-/A-1002350170",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000802825",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-dr-seuss-oh-places-youll-go-when-you-read-fit-flair-cap-sleeve-dress/-/A-1003965884",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-scandinavian-bunny-with-flowers-fit-flair-cap-sleeve-dress/-/A-1002611313",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-learn-alotl-in-1st-grade-fit-flair-cap-sleeve-dress/-/A-1003970529",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-st-patrick-s-day-irish-i-was-a-unicorn-fit-flair-cap-sleeve-dress/-/A-1001602959",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-paw-patrol-dream-explore-repeat-fit-flair-cap-sleeve-dress/-/A-1000871247",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-easter-scene-fit-flair-cap-sleeve-dress/-/A-1002610325",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000817409",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-paw-patrol-soar-fit-flair-cap-sleeve-dress/-/A-1000871139",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-trolls-show-up-glow-up-poppy-fit-flair-cap-sleeve-dress/-/A-1000874888",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000637586",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000653972",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-garfield-movie-vertical-fit-flair-cap-sleeve-dress/-/A-1000474219",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/trolls-dance-vibes-poppy-branch-fit-flair-cap-sleeve-dress/-/A-94201808",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lol-surprise-lol-hi-bae-fit-flair-cap-sleeve-dress/-/A-1001998433",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-teenage-mutant-ninja-turtles-leo-and-brothers-tmnt-fit-flair-cap-sleeve-dress/-/A-1000479109",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/dr-seuss-american-thing-one-fit-flair-cap-sleeve-dress/-/A-1000065414",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-trolls-feel-the-vibes-poppy-fit-flair-cap-sleeve-dress/-/A-1000874909",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-rainbow-high-rainbow-sparkle-box-fit-flair-cap-sleeve-dress/-/A-1001995153",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-trolls-music-obsessed-poppy-and-branch-fit-flair-cap-sleeve-dress/-/A-1000874916",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lol-surprise-celebr8-fit-flair-cap-sleeve-dress/-/A-1001989706",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-pok-mon-pikachu-grid-fit-flair-cap-sleeve-dress/-/A-1002397028",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lol-surprise-winter-dolls-fit-flair-cap-sleeve-dress/-/A-1001977963",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-little-tikes-summer-fun-fit-flair-cap-sleeve-dress/-/A-1001989199",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-teenage-mutant-ninja-turtles-turtles-character-grid-fit-flair-cap-sleeve-dress/-/A-1000875959",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-monster-high-monster-friends-forever-fit-flair-cap-sleeve-dress/-/A-1001976559",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-rainbow-high-rainbow-checkered-frame-fit-flair-cap-sleeve-dress/-/A-1001995838",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-dr-seuss-kindergarten-squad-thing-1-and-thing-2-fit-flair-cap-sleeve-dress/-/A-1003965209",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girl-s-minnie-mouse-pink-bow-allover-print-dress/-/A-92268842",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-barbie-ballerina-let-s-dance-fit-flair-cap-sleeve-dress/-/A-93305035",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-paw-patrol-let-s-roll-marshall-fit-flair-cap-sleeve-dress/-/A-1000876329",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-snoopy-woodstock-beach-heart-fit-flair-cap-sleeve-dress/-/A-93036494",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000643157",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-st-patrick-s-day-it-takes-alotl-luck-fit-flair-cap-sleeve-dress/-/A-1001602490",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-barbie-retro-floral-logo-fit-flair-cap-sleeve-dress/-/A-93305008",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-st-patrick-s-day-magically-unpinchable-unicorn-fit-flair-cap-sleeve-dress/-/A-1001602036",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000871409",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-st-patrick-s-day-lucky-lil-ducky-fit-flair-cap-sleeve-dress/-/A-1001598800",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-monster-high-ghoul-squad-fit-flair-cap-sleeve-dress/-/A-1001976554",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-teenage-mutant-ninja-turtles-retro-group-april-fit-flair-cap-sleeve-dress/-/A-1000468961",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000606601",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-magical-gamer-girl-fit-flair-cap-sleeve-dress/-/A-1003238276",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-teenage-mutant-ninja-turtles-select-your-turtle-video-game-fit-flair-cap-sleeve-dress/-/A-1000875917",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-woodstock-small-but-trying-my-best-fit-flair-cap-sleeve-dress/-/A-93056381",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-teenage-mutant-ninja-turtles-group-logo-brick-wall-fit-flair-cap-sleeve-dress/-/A-1000468773",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-paw-patrol-skye-rubble-beach-fit-flair-cap-sleeve-dress/-/A-1000467115",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-paw-patrol-girl-pup-power-fit-flair-cap-sleeve-dress/-/A-1000780937",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/dr-seuss-usa-things-fit-flair-cap-sleeve-dress/-/A-1000065432",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000607310",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-the-beatles-fit-flair-cap-sleeve-dress/-/A-1002632207",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-spongebob-squarepants-i-m-ready-fit-flair-cap-sleeve-dress/-/A-1000451823",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-despicable-me-minions-hello-bello-minion-fit-flair-cap-sleeve-dress/-/A-1000870458",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-paw-patrol-summer-is-for-camping-fit-flair-cap-sleeve-dress/-/A-1000871153",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-dr-seuss-cat-in-the-hat-waving-banners-of-red-white-and-blue-fit-flair-cap-sleeve-dress/-/A-1000065356",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lol-surprise-retro-style-dolls-fit-flair-cap-sleeve-dress/-/A-1001989271",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-barbie-ballerina-pose-fit-flair-cap-sleeve-dress/-/A-93305014",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-dr-seuss-american-thing-two-fit-flair-cap-sleeve-dress/-/A-1000065483",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-paw-patrol-rubble-sketch-fit-flair-cap-sleeve-dress/-/A-1000470475",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000802817",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000836405",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-valentine-s-day-be-my-meowentine-fit-flair-cap-sleeve-dress/-/A-1001598310",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-paw-patrol-let-s-roll-chase-fit-flair-cap-sleeve-dress/-/A-1000876363",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000817407",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-dr-seuss-original-i-am-green-eggs-and-ham-fit-flair-cap-sleeve-dress/-/A-1000871856",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-st-patrick-s-day-lucky-vibes-fit-flair-cap-sleeve-dress/-/A-1001598589",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-despicable-me-minions-minions-on-tour-fit-flair-cap-sleeve-dress/-/A-1000874960",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-ready-to-rock-pre-k-fit-flair-cap-sleeve-dress/-/A-1003968021",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-despicable-me-minions-retro-rainbow-skater-fit-flair-cap-sleeve-dress/-/A-1000874946",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000802859",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-teenage-mutant-ninja-turtles-pizza-power-fit-flair-cap-sleeve-dress/-/A-1000451687",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-paw-patrol-skys-the-limit-fit-flair-cap-sleeve-dress/-/A-1000477000",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-valentine-s-day-cupid-crew-fit-flair-cap-sleeve-dress/-/A-1001598245",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-paw-patrol-chase-skye-rubble-marshall-everest-besties-fit-flair-cap-sleeve-dress/-/A-1000780945",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-st-patrick-s-day-leprechaun-truck-delivering-luck-fit-flair-cap-sleeve-dress/-/A-1001601657",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-barbie-beyoutiful-fit-flair-cap-sleeve-dress/-/A-1002082007",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-barbie-girls-support-girls-fit-flair-cap-sleeve-dress/-/A-1002061139",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000817468",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-monster-high-group-badge-fit-flair-cap-sleeve-dress/-/A-1001976512",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lol-surprise-dance-party-fit-flair-cap-sleeve-dress/-/A-1001990052",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000872352",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-spongebob-squarepants-2nd-grade-squad-fit-flair-cap-sleeve-dress/-/A-1000463229",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-teenage-mutant-ninja-turtles-logo-character-group-fit-flair-cap-sleeve-dress/-/A-1000468988",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-rainbow-high-turn-it-up-fit-flair-cap-sleeve-dress/-/A-1001995303",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-dr-seuss-red-white-and-blue-fish-fit-flair-cap-sleeve-dress/-/A-1000871297",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-peeking-out-fit-flair-cap-sleeve-dress/-/A-1000870599",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-paw-patrol-love-earth-fit-flair-cap-sleeve-dress/-/A-1000877034",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-rescue-myself-fit-flair-cap-sleeve-dress/-/A-1003238417",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lol-surprise-cell-phone-chat-girls-fit-flair-cap-sleeve-dress/-/A-1001993447",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-paw-patrol-everest-and-skye-besties-be-yourself-fit-flair-cap-sleeve-dress/-/A-1000447809",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000681017",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000607583",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000818969",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000643160",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-valentine-s-day-love-you-like-pizza-fit-flair-cap-sleeve-dress/-/A-1001598741",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-paw-patrol-marshall-sketch-fit-flair-cap-sleeve-dress/-/A-1000470109",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-paw-patrol-ultimate-explorer-fit-flair-cap-sleeve-dress/-/A-1000871085",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000661290",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lol-surprise-u-glow-girl-fit-flair-cap-sleeve-dress/-/A-1001989063",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000877403",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000815506",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lol-surprise-birthday-qt-fit-flair-cap-sleeve-dress/-/A-1001989842",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000817375",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-paw-patrol-marshall-chase-everest-skye-anything-is-paw-sible-fit-flair-cap-sleeve-dress/-/A-1000780952",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-trolls-let-me-hear-you-shout-poppy-and-branch-fit-flair-cap-sleeve-dress/-/A-1000874895",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000826003",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000820315",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-paw-patrol-skye-lightning-fit-flair-cap-sleeve-dress/-/A-1000807073",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lol-surprise-winter-dolls-fit-flair-cap-sleeve-dress/-/A-1001977969",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-garfields-farm-group-fit-flair-cap-sleeve-dress/-/A-1000472522",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-paw-patrol-sketch-character-group-fit-flair-cap-sleeve-dress/-/A-1000470430",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lol-surprise-rainbow-alt-girl-fit-flair-cap-sleeve-dress/-/A-1001998141",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000802829",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-rugrats-natural-wonder-fit-flair-cap-sleeve-dress/-/A-1000461109",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-paw-patrol-earth-day-yay-fit-flair-cap-sleeve-dress/-/A-1000877011",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-avatar-the-last-airbender-nations-symbols-fit-flair-cap-sleeve-dress/-/A-1000426201",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000820268",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-blue-s-clues-you-blue-clues-crew-fit-flair-cap-sleeve-dress/-/A-1000871380",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-pok-mon-let-s-get-started-fit-flair-cap-sleeve-dress/-/A-1002395744",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-st-patrick-s-day-i-woke-up-this-lucky-fit-flair-cap-sleeve-dress/-/A-1001619872",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/bellabu-bear-toddler-winterberry-red-bamboo-girls-long-sleeve-dress/-/A-1005079105",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-barbie-high-school-dolls-fit-flair-cap-sleeve-dress/-/A-1002049566",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/luvable-friends-touched-by-nature-dress-and-blouse-2pc/-/A-1004788025",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/luvable-friends-hudson-baby-short-sleeve-dresses-2pk/-/A-1004787197",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-st-patrick-s-day-mama-s-lucky-charm-fit-flair-cap-sleeve-dress/-/A-1001602048",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000791921",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/instant-message-learn-alotl-in-kindergarten-graphic-short-sleeve-fleece-dress/-/A-1003972083",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-fall-graphic-short-sleeve-fleece-dress/-/A-1004529144",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts-snoopy-silhouette-pattern-graphic-short-sleeve-fleece-dress/-/A-1001724468",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-st-patrick-s-day-dinosaur-eatting-rainbow-fit-flair-cap-sleeve-dress/-/A-1001600159",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lol-surprise-electric-dreams-graphic-short-sleeve-fleece-dress/-/A-1001999393",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-king-cake-beads-crawfish-jazz-graphic-short-sleeve-fleece-dress/-/A-1004189160",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/pok-mon-team-pikachu-graphic-short-sleeve-fleece-dress/-/A-1002396027",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/pok-mon-pikachu-pumpkin-graphic-short-sleeve-fleece-dress/-/A-1002377147",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-st-patrick-s-day-rad-little-lad-fit-flair-cap-sleeve-dress/-/A-1001601270",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/pok-mon-pikachu-manga-graphic-short-sleeve-fleece-dress/-/A-1002396025",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/instant-message-math-problem-bee-graphic-short-sleeve-fleece-dress/-/A-1003971308",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts-snoopy-s-hockey-camp-graphic-short-sleeve-fleece-dress/-/A-1001738897",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-celebrate-family-graphic-short-sleeve-fleece-dress/-/A-1004189172",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-ready-to-rock-first-grade-fit-flair-cap-sleeve-dress/-/A-1003967699",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-ready-to-rock-preschool-fit-flair-cap-sleeve-dress/-/A-1003967802",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000795367",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-st-patrick-s-day-sheep-holding-a-shamrock-fit-flair-cap-sleeve-dress/-/A-1001601075",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-hello-second-grade-fit-flair-cap-sleeve-dress/-/A-1003959816",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lol-surprise-fierce-graffiti-graphic-short-sleeve-fleece-dress/-/A-1001996937",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-st-patrick-s-day-shamrock-cuties-fit-flair-cap-sleeve-dress/-/A-1001603017",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-cozy-gaming-fit-flair-cap-sleeve-dress/-/A-1003238387",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000803124",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000790756",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000782215",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/pok-mon-pok-flakes-graphic-short-sleeve-fleece-dress/-/A-1002352289",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/pok-mon-pikachu-lights-wreath-graphic-short-sleeve-fleece-dress/-/A-1002352334",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts-kindergarten-rocks-graphic-short-sleeve-fleece-dress/-/A-1001739196",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/pok-mon-pikachu-retrogamer-graphic-short-sleeve-fleece-dress/-/A-1002395294",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000815670",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-i-train-my-brain-fit-flair-cap-sleeve-dress/-/A-1003960164",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000818121",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-cottontail-candy-co-fit-flair-cap-sleeve-dress/-/A-1002611597",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000781116",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000815650",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-learn-alotl-in-kindergarten-fit-flair-cap-sleeve-dress/-/A-1003970521",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000795614",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-st-patrick-s-day-outlined-shamrock-fit-flair-cap-sleeve-dress/-/A-1001601616",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-easter-eggs-come-from-where-fit-flair-cap-sleeve-dress/-/A-1002611484",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000791791",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lol-surprise-winter-dolls-graphic-short-sleeve-fleece-dress/-/A-1001977707",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000803226",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/instant-message-ready-to-rock-first-grade-graphic-short-sleeve-fleece-dress/-/A-1003971960",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/pok-mon-trick-or-treat-graphic-short-sleeve-fleece-dress/-/A-1002374868",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-problem-solver-fit-flair-cap-sleeve-dress/-/A-1003960329",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000782202",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000815563",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000782280",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000781175",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000820752",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/pok-mon-pok-mon-squares-graphic-short-sleeve-fleece-dress/-/A-1002395852",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-fishing-lures-fit-flair-cap-sleeve-dress/-/A-1004185880",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/pok-mon-eevee-pattern-graphic-short-sleeve-fleece-dress/-/A-1002396617",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000795727",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts-snoopy-rainbow-clouds-graphic-short-sleeve-fleece-dress/-/A-1001724443",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts-snoopy-woodstock-graphic-short-sleeve-fleece-dress/-/A-1001739107",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts-boo-graphic-short-sleeve-fleece-dress/-/A-1001727031",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts-ranger-snoopy-graphic-short-sleeve-fleece-dress/-/A-1001738901",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000803104",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/pok-mon-pikachu-grid-graphic-short-sleeve-fleece-dress/-/A-1002397022",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts-pre-k-rocks-graphic-short-sleeve-fleece-dress/-/A-1001735326",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000810296",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000818159",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts-snoopy-woodstock-house-sleigh-graphic-short-sleeve-fleece-dress/-/A-1001726149",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000815720",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-valentine-s-day-i-loaf-you-bread-fit-flair-cap-sleeve-dress/-/A-1001599222",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-st-patrick-s-day-coolest-clover-in-the-patch-fit-flair-cap-sleeve-dress/-/A-1001600629",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/pok-mon-pikachu-power-nap-graphic-short-sleeve-fleece-dress/-/A-1002395343",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000788733",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/rainbow-high-rainbow-paris-pearls-graphic-short-sleeve-fleece-dress/-/A-1001984856",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-st-patrick-s-day-lucky-to-not-be-in-trouble-fit-flair-cap-sleeve-dress/-/A-1001600575",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-st-patrick-s-day-tiny-hooligan-fit-flair-cap-sleeve-dress/-/A-1001600171",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-st-patrick-s-day-here-for-the-shenanigans-fit-flair-cap-sleeve-dress/-/A-1001599416",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lol-surprise-winter-dolls-graphic-short-sleeve-fleece-dress/-/A-1001977732",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-ready-to-rock-third-grade-fit-flair-cap-sleeve-dress/-/A-1003967258",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/instant-message-ready-to-rock-kindergarten-graphic-short-sleeve-fleece-dress/-/A-1003972005",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts-preschooler-by-day-graphic-short-sleeve-fleece-dress/-/A-1001735580",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts-camp-woodstock-graphic-short-sleeve-fleece-dress/-/A-1001738997",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000825918",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts-snoopy-s-beach-ball-graphic-short-sleeve-fleece-dress/-/A-1001727181",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts/-/A-1000810077",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-spectacolar-fit-flair-cap-sleeve-dress/-/A-1003959427",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peanuts-pre-k-just-got-cooler-graphic-short-sleeve-fleece-dress/-/A-1001739184",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/pok-mon-pika-presents-graphic-short-sleeve-fleece-dress/-/A-1002352287",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-instant-message-celebrate-family-fit-flair-cap-sleeve-dress/-/A-1004185116",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lol-surprise-retro-style-fit-flair-cap-sleeve-dress/-/A-1001990011",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-pok-mon-retro-pok-mon-fit-flair-cap-sleeve-dress/-/A-1002395312",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-santiago-of-the-sea-kiko-fit-flair-cap-sleeve-dress/-/A-1000871784",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-dr-seuss-i-know-a-thing-or-two-school-fit-flair-cap-sleeve-dress/-/A-1003966380",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lol-surprise-fierce-doll-fit-flair-cap-sleeve-dress/-/A-1001997689",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-barbie-mini-mini-mini-fit-flair-cap-sleeve-dress/-/A-1002065243",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-pok-mon-electric-type-fit-flair-cap-sleeve-dress/-/A-1002396528",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-spongebob-squarepants-i-got-it-fit-flair-cap-sleeve-dress/-/A-1000871665",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000820354",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-karma-s-world-swag-is-swag-fit-flair-cap-sleeve-dress/-/A-1003963014",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-rocket-power-finish-line-fit-flair-cap-sleeve-dress/-/A-1000826626",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000826058",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-teenage-mutant-ninja-turtles-usa-turtles-fit-flair-cap-sleeve-dress/-/A-1000847986",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-spongebob-squarepants-easter-is-egg-fit-flair-cap-sleeve-dress/-/A-1000850208",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lol-surprise-grow-grrrl-fit-flair-cap-sleeve-dress/-/A-1001988679",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000628570",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000607217",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-avatar-the-last-airbender-aang-avatar-state-fit-flair-cap-sleeve-dress/-/A-1000871000",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-hot-wheels-sister-of-birthday-boy-fit-flair-cap-sleeve-dress/-/A-1002085663",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-blue-s-clues-you-blue-s-friend-forever-fit-flair-cap-sleeve-dress/-/A-1000871334",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000607269",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-rainbow-high-school-crest-fit-flair-cap-sleeve-dress/-/A-1001995403",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-smiling-on-the-inside-fit-flair-cap-sleeve-dress/-/A-1000870592",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-santiago-of-the-sea-santiago-and-friends-logo-fit-flair-cap-sleeve-dress/-/A-1000871702",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000820257",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-spongebob-squarepants-patrick-trick-or-treating-fit-flair-cap-sleeve-dress/-/A-1000480230",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000791392",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-paw-patrol-lil-pups-big-trucks-fit-flair-cap-sleeve-dress/-/A-1000876424",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-grow-for-it-fit-flair-cap-sleeve-dress/-/A-1000472629",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-santiago-of-the-sea-vamos-piratas-fit-flair-cap-sleeve-dress/-/A-1000871689",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-paw-patrol-ten-four-good-buddy-fit-flair-cap-sleeve-dress/-/A-1000876355",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-my-presence-is-your-present-fit-flair-cap-sleeve-dress/-/A-1000876302",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-barbie-girl-power-fit-flair-cap-sleeve-dress/-/A-1002112583",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000628483",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-teenage-mutant-ninja-turtles-press-start-grid-fit-flair-cap-sleeve-dress/-/A-1000838478",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-pok-mon-bulba-pattern-fit-flair-cap-sleeve-dress/-/A-1002353940",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-party-animal-fit-flair-cap-sleeve-dress/-/A-1000472743",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000876719",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-paw-patrol-let-s-roll-al-fit-flair-cap-sleeve-dress/-/A-1000876377",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000607216",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-mattel-frankie-stein-fit-flair-cap-sleeve-dress/-/A-1001973309",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lol-surprise-dancing-dolls-dance-fit-flair-cap-sleeve-dress/-/A-1001998104",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000606577",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000651666",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000791382",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-rainbow-high-gradient-logo-fit-flair-cap-sleeve-dress/-/A-1001995126",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000835822",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-rugrats-snowball-fight-fit-flair-cap-sleeve-dress/-/A-1000461378",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-teenage-mutant-ninja-turtles-city-scape-with-turtles-fit-flair-cap-sleeve-dress/-/A-1000838911",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-pok-mon-pok-mon-squares-fit-flair-cap-sleeve-dress/-/A-1002395861",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000661302",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000876604",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-pok-mon-pikachu-lights-wreath-fit-flair-cap-sleeve-dress/-/A-1002353925",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-paw-patrol-hugs-kisses-pup-treats-fit-flair-cap-sleeve-dress/-/A-1000832857",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000871443",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-rainbow-high-california-fit-flair-cap-sleeve-dress/-/A-1001984832",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-i-don-t-do-perky-fit-flair-cap-sleeve-dress/-/A-1000421591",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-lucky-cat-fit-flair-cap-sleeve-dress/-/A-1000472420",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-rainbow-high-blue-leaf-frame-fit-flair-cap-sleeve-dress/-/A-1001984886",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-pok-mon-psyduck-headache-fit-flair-cap-sleeve-dress/-/A-1002395708",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000606615",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-garfield-skater-logo-fit-flair-cap-sleeve-dress/-/A-1000466063",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000628482",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-karma-s-world-we-re-all-stars-fit-flair-cap-sleeve-dress/-/A-1003928527",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-party-animal-fit-flair-cap-sleeve-dress/-/A-1000472702",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-barbie-you-re-the-sweetest-barbie-fit-flair-cap-sleeve-dress/-/A-1002055816",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000653922",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-garfield-boo-fit-flair-cap-sleeve-dress/-/A-1000870734",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-blue-s-clues-you-mommy-s-perfect-pumpkin-fit-flair-cap-sleeve-dress/-/A-1000870498",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-barbie-barbie-land-postal-service-california-fit-flair-cap-sleeve-dress/-/A-1002051195",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-paw-patrol-bark-in-the-park-fit-flair-cap-sleeve-dress/-/A-1000467007",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-pok-mon-witch-pikachu-with-candy-fit-flair-cap-sleeve-dress/-/A-1002355140",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-hello-go-home-now-fit-flair-cap-sleeve-dress/-/A-1000870704",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-pok-mon-bundled-up-pikachu-fit-flair-cap-sleeve-dress/-/A-1002396969",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-paw-patrol-skye-love-always-fit-flair-cap-sleeve-dress/-/A-1000447714",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lol-surprise-bon-bon-doll-fit-flair-cap-sleeve-dress/-/A-1001996593",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-colorado-charlie-brown-fit-flair-cap-sleeve-dress/-/A-1000876062",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-barbie-fitness-barbie-fit-flair-cap-sleeve-dress/-/A-1002075068",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000791412",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-friends-forever-fit-flair-cap-sleeve-dress/-/A-1000472718",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000651513",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-snoopy-and-friends-skiing-fit-flair-cap-sleeve-dress/-/A-1000876159",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-spongebob-squarepants-seasons-greetings-fit-flair-cap-sleeve-dress/-/A-1000876029",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lol-surprise-karaoke-queen-fit-flair-cap-sleeve-dress/-/A-1001989858",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lol-surprise-nashville-and-bluegrass-queen-fit-flair-cap-sleeve-dress/-/A-1001973912",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-barbie-made-in-the-90-s-fit-flair-cap-sleeve-dress/-/A-1002063962",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lol-surprise-computer-design-fit-flair-cap-sleeve-dress/-/A-1001998168",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000876889",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000876939",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-pok-mon-peeking-pikachu-fit-flair-cap-sleeve-dress/-/A-1002360557",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-avatar-the-last-airbender-avatar-state-aang-fit-flair-cap-sleeve-dress/-/A-1000427990",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-barbie-palm-trees-fit-flair-cap-sleeve-dress/-/A-1002063622",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-teenage-mutant-ninja-turtles-have-a-turtley-awesome-holiday-fit-flair-cap-sleeve-dress/-/A-1000876455",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-i-m-fine-this-is-fine-fit-flair-cap-sleeve-dress/-/A-1000466334",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-garfield-lasagna-logo-fit-flair-cap-sleeve-dress/-/A-1000466021",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000606715",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lol-surprise-pool-party-vibes-fit-flair-cap-sleeve-dress/-/A-1001990199",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000835885",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-snuggle-buds-fit-flair-cap-sleeve-dress/-/A-1000472519",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-take-life-one-nap-fit-flair-cap-sleeve-dress/-/A-1000870578",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-paw-patrol-chase-sky-hearts-fit-flair-cap-sleeve-dress/-/A-1000832921",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000876988",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-avatar-the-last-airbender-toph-melon-lord-fit-flair-cap-sleeve-dress/-/A-1000870871",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-teenage-muntant-ninja-turtle-game-on-raph-fit-flair-cap-sleeve-dress/-/A-1000838466",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-avatar-the-last-airbender-same-roots-fit-flair-cap-sleeve-dress/-/A-1000870896",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000600942",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-barbie-hello-lovely-barbie-fit-flair-cap-sleeve-dress/-/A-1002082910",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-mtv-y2k-logo-fit-flair-cap-sleeve-dress/-/A-1001983940",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-blue-s-clues-you-creeping-it-real-fit-flair-cap-sleeve-dress/-/A-1000870525",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-hot-wheels-going-big-for-my-birthday-fit-flair-cap-sleeve-dress/-/A-1002086766",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000817342",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-barbie-be-original-squares-fit-flair-cap-sleeve-dress/-/A-1002082993",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-teenage-mutant-ninja-turtles-leonardo-aka-leo-fit-flair-cap-sleeve-dress/-/A-1000827134",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000876570",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-pok-mon-pika-squares-fit-flair-cap-sleeve-dress/-/A-1002395252",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lol-surprise-spicy-babe-fit-flair-cap-sleeve-dress/-/A-1001993334",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-pok-mon-battle-ready-fit-flair-cap-sleeve-dress/-/A-1002348128",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-hot-wheels-xoxo-heart-fit-flair-cap-sleeve-dress/-/A-1002026022",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000876788",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-barbie-happy-heart-day-fit-flair-cap-sleeve-dress/-/A-1002081914",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000871486",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-barbie-easter-vibes-fit-flair-cap-sleeve-dress/-/A-1002072317",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-collegiate-fit-flair-cap-sleeve-dress/-/A-1000870787",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-spongebob-squarepants-bikini-bottom-beware-fit-flair-cap-sleeve-dress/-/A-1000876580",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000819691",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-nickelodeon-paw-patrol-fit-flair-cap-sleeve-dress/-/A-1000828390",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000835798",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lol-surprise-outrageous-millennial-girls-fit-flair-cap-sleeve-dress/-/A-1001993612",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lol-surprise-play-dazzle-music-fit-flair-cap-sleeve-dress/-/A-1001993303",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-blue-s-clues-you-no-clue-why-i-m-out-of-bed-fit-flair-cap-sleeve-dress/-/A-1000871285",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-pok-mon-pikachu-info-chart-fit-flair-cap-sleeve-dress/-/A-1002396959",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-pok-mon-pikachu-logo-fit-flair-cap-sleeve-dress/-/A-1002396360",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000601067",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-barbie-ken-since-1961-fit-flair-cap-sleeve-dress/-/A-1002052657",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000871474",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lol-surprise-queen-bee-is-born-to-roam-fit-flair-cap-sleeve-dress/-/A-1001997894",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-mood-fit-flair-cap-sleeve-dress/-/A-1000870634",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-varsity-seal-fit-flair-cap-sleeve-dress/-/A-1000460690",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lol-surprise-glam-series-fit-flair-cap-sleeve-dress/-/A-1001997918",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lol-surprise-cotton-candy-fit-flair-cap-sleeve-dress/-/A-1001996518",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-karma-s-world-lyrical-star-airbrush-style-fit-flair-cap-sleeve-dress/-/A-1003928455",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-barbie-ken-fit-flair-cap-sleeve-dress/-/A-1002069126",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-barbie-malibu-sunset-with-palm-trees-fit-flair-cap-sleeve-dress/-/A-1002060481",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-barbie-stacked-rainbow-logo-fit-flair-cap-sleeve-dress/-/A-1002112479",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-try-to-keep-up-fit-flair-cap-sleeve-dress/-/A-1000466285",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-karma-s-world-love-what-you-love-fit-flair-cap-sleeve-dress/-/A-1003963150",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-barbie-hand-painted-heart-fit-flair-cap-sleeve-dress/-/A-1002072847",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-pok-mon-pikachu-outline-fit-flair-cap-sleeve-dress/-/A-1002395668",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-barbie-afro-hoops-fit-flair-cap-sleeve-dress/-/A-1002081622",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-whatever-fit-flair-cap-sleeve-dress/-/A-1000870516",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lol-surprise-grunge-grrrl-fit-flair-cap-sleeve-dress/-/A-1001998233",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000876858",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-nickelodeon-paw-patrol-fit-flair-cap-sleeve-dress/-/A-1000828416",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-pok-mon-official-cookie-taster-fit-flair-cap-sleeve-dress/-/A-1002353894",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-paw-patrol-earth-day-globe-fit-flair-cap-sleeve-dress/-/A-1000877016",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-barbie-woman-kind-kind-woman-fit-flair-cap-sleeve-dress/-/A-1002054310",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-snoopy-and-woodstock-snow-much-fun-fit-flair-cap-sleeve-dress/-/A-1000877063",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-paw-patrol-rubble-graphic-fit-flair-cap-sleeve-dress/-/A-1000809259",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-nap-time-all-the-time-fit-flair-cap-sleeve-dress/-/A-1000472402",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-blue-s-clues-you-happy-blue-fit-flair-cap-sleeve-dress/-/A-1000871306",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-rainbow-high-rainbow-high-simone-summers-fit-flair-cap-sleeve-dress/-/A-1001984838",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-snoopy-ski-pro-fit-flair-cap-sleeve-dress/-/A-1000876187",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000628656",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-blue-s-clues-you-blue-polaroid-fit-flair-cap-sleeve-dress/-/A-1000871346",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-teenage-mutant-ninja-turtles-life-liberty-pursuit-of-pizza-fit-flair-cap-sleeve-dress/-/A-1000497974",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-avatar-the-last-airbender-katara-and-aang-grid-fit-flair-cap-sleeve-dress/-/A-1000427014",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000637556",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-arlene-heart-fit-flair-cap-sleeve-dress/-/A-1000472692",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-karma-s-world-winston-karma-alex-fit-flair-cap-sleeve-dress/-/A-1003928575",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000607335",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-boo-pumpkin-fit-flair-cap-sleeve-dress/-/A-1000870834",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-pok-mon-gengar-big-face-fit-flair-cap-sleeve-dress/-/A-1002396367",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-snoopy-woodstock-ski-stripes-fit-flair-cap-sleeve-dress/-/A-1000876188",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-jimmy-neutron-adventures-of-jimmy-neutron-fit-flair-cap-sleeve-dress/-/A-1000855956",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-nap-attack-fit-flair-cap-sleeve-dress/-/A-1000472378",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000876576",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-teenage-mutant-ninja-turtles-battle-tycoon-group-fit-flair-cap-sleeve-dress/-/A-1004936228",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lol-surprise-money-swag-fit-flair-cap-sleeve-dress/-/A-1001993287",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-pok-mon-pikachu-circle-fit-flair-cap-sleeve-dress/-/A-1002395013",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-rugrats-group-art-fit-flair-cap-sleeve-dress/-/A-1000449549",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000818951",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-garf-and-odie-logo-fit-flair-cap-sleeve-dress/-/A-1000466194",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-spongebob-squarepants-mommy-s-little-firecracker-fit-flair-cap-sleeve-dress/-/A-1000871643",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000820286",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-hot-wheels-its-my-birthday-fit-flair-cap-sleeve-dress/-/A-1002086047",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-barbie-love-yourself-fit-flair-cap-sleeve-dress/-/A-1002082459",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-barbie-we-are-all-barbie-fit-flair-cap-sleeve-dress/-/A-1002109417",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000871496",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-despicable-me-minions-groovy-since-forever-fit-flair-cap-sleeve-dress/-/A-1000874929",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-santas-little-helpers-fit-flair-cap-sleeve-dress/-/A-1000876280",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000628574",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000826012",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000876794",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000877420",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-paw-patrol-let-s-roll-skye-fit-flair-cap-sleeve-dress/-/A-1000876345",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000876870",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-garfield-repeated-fit-flair-cap-sleeve-dress/-/A-1000466036",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-avatar-the-last-airbender-sokka-aang-katara-fit-flair-cap-sleeve-dress/-/A-1000870891",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-have-a-nice-day-fit-flair-cap-sleeve-dress/-/A-1000870718",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000876908",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-genuine-attitude-fit-flair-cap-sleeve-dress/-/A-1000870769",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-rugrats-graffiti-fit-flair-cap-sleeve-dress/-/A-1000449809",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000836398",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-paw-patrol-nature-patrol-fit-flair-cap-sleeve-dress/-/A-1000871202",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000628533",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000871517",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-pok-mon-pikachu-collegiate-fit-flair-cap-sleeve-dress/-/A-1002357149",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000606589",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-paw-patrol-outdoor-vibes-skye-and-everest-fit-flair-cap-sleeve-dress/-/A-1000871189",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-family-is-everything-fit-flair-cap-sleeve-dress/-/A-1000474286",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-barbie-fierce-strong-female-fit-flair-cap-sleeve-dress/-/A-1002068943",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-witch-way-to-the-candy-fit-flair-cap-sleeve-dress/-/A-1000870522",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000637297",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000835906",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-blue-s-clues-you-boo-s-clues-fit-flair-cap-sleeve-dress/-/A-1000761545",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-faces-grid-fit-flair-cap-sleeve-dress/-/A-1000870794",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lol-surprise-b-b-nation-fit-flair-cap-sleeve-dress/-/A-1001989924",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-pok-mon-pika-speed-fit-flair-cap-sleeve-dress/-/A-1002395227",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-pok-mon-neon-pikachu-fit-flair-cap-sleeve-dress/-/A-1002395631",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000653751",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-pok-mon-pika-poke-fit-flair-cap-sleeve-dress/-/A-1002395200",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lol-surprise-bffs-4eva-bon-bon-snuggle-babe-fit-flair-cap-sleeve-dress/-/A-1001990623",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000637370",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-avatar-the-last-airbender-toph-fit-flair-cap-sleeve-dress/-/A-1000870886",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lol-surprise-groovy-babe-fit-flair-cap-sleeve-dress/-/A-1001993422",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-rainbow-high-jade-hunter-rainbow-graffiti-fit-flair-cap-sleeve-dress/-/A-1001995269",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-pok-mon-team-pok-mon-fit-flair-cap-sleeve-dress/-/A-1002395901",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-i-live-for-weekends-fit-flair-cap-sleeve-dress/-/A-1000870698",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-pok-mon-pikachu-checkers-fit-flair-cap-sleeve-dress/-/A-1002395158",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000877433",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000653859",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-barbie-patterned-love-fit-flair-cap-sleeve-dress/-/A-1002075967",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000607234",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000606592",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-not-lazy-fit-flair-cap-sleeve-dress/-/A-1000870609",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-polly-pocket-i-love-polly-pocket-fit-flair-cap-sleeve-dress/-/A-1002020209",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000876933",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lol-surprise-glow-grrrl-retro-styled-fit-flair-cap-sleeve-dress/-/A-1001996426",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000876608",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-avatar-the-last-airbender-aang-arrows-fit-flair-cap-sleeve-dress/-/A-1000870994",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lol-surprise-oh-so-fierce-fit-flair-cap-sleeve-dress/-/A-1001989265",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-ask-me-if-i-care-fit-flair-cap-sleeve-dress/-/A-1000870844",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000607369",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000817349",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-rainbow-high-rainbow-paris-pearls-fit-flair-cap-sleeve-dress/-/A-1001984821",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000653818",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000643044",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lol-surprise-candylicious-butterflies-hearts-fit-flair-cap-sleeve-dress/-/A-1001993349",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-avatar-the-last-airbender-aang-airbender-fit-flair-cap-sleeve-dress/-/A-1000429793",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-mtv-skater-fit-flair-cap-sleeve-dress/-/A-1001983928",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-teenage-mutant-ninja-turtles-live-and-let-shred-fit-flair-cap-sleeve-dress/-/A-1000808984",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-just-chill-fit-flair-cap-sleeve-dress/-/A-1000870648",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-pok-mon-charmander-retro-gamer-fit-flair-cap-sleeve-dress/-/A-1002396932",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lol-surprise-bffs-4-eva-fit-flair-cap-sleeve-dress/-/A-1001998357",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000871450",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lol-surprise-space-rock-girls-fit-flair-cap-sleeve-dress/-/A-1001998500",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-spongebob-squarepants-dear-santa-fit-flair-cap-sleeve-dress/-/A-1000877017",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000637412",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lol-surprise-always-extra-fit-flair-cap-sleeve-dress/-/A-1001998056",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-paw-patrol-heart-earth-fit-flair-cap-sleeve-dress/-/A-1000877003",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000791345",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000607358",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000820389",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lol-surprise-2fly-4-wrdz-fit-flair-cap-sleeve-dress/-/A-1001993112",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-blue-s-clues-you-let-it-shine-fit-flair-cap-sleeve-dress/-/A-1000871312",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-paw-patrol-earth-every-day-fit-flair-cap-sleeve-dress/-/A-1000499308",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000817426",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-north-pole-or-bust-fit-flair-cap-sleeve-dress/-/A-1000876293",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000877455",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-not-always-right-fit-flair-cap-sleeve-dress/-/A-1000870627",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-rainbow-high-violet-skyler-jade-fit-flair-cap-sleeve-dress/-/A-1001995024",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000817384",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-paw-patrol-this-kid-s-gotta-fly-fit-flair-cap-sleeve-dress/-/A-1000871111",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lol-surprise-catch-some-rays-fit-flair-cap-sleeve-dress/-/A-1001989126",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-paw-patrol-we-re-on-it-fit-flair-cap-sleeve-dress/-/A-1000871077",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000876625",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lol-surprise-feeling-extra-fit-flair-cap-sleeve-dress/-/A-1001990800",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-dr-seuss-kindergarten-out-of-this-world-fit-flair-cap-sleeve-dress/-/A-1003965761",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000607179",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000601208",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000802862",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-paw-patrol-daddy-s-pawsome-camping-buddy-fit-flair-cap-sleeve-dress/-/A-1000871231",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-teenage-mutant-ninja-turtles-shells-and-stripes-fit-flair-cap-sleeve-dress/-/A-1000847669",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-woodstock-snowfall-fit-flair-cap-sleeve-dress/-/A-1000876165",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-rugrats-gang-fit-flair-cap-sleeve-dress/-/A-1000449568",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000668970",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000726036",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-teenage-mutant-ninja-turtles-mutant-mayhem-fit-flair-cap-sleeve-dress/-/A-1000819476",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-will-trade-dog-for-candy-fit-flair-cap-sleeve-dress/-/A-1000870528",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000835815",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-let-me-be-frank-fit-flair-cap-sleeve-dress/-/A-1000870651",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-paw-patrol-adventure-citys-heroes-fit-flair-cap-sleeve-dress/-/A-1000477014",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000651600",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-ignoring-you-fit-flair-cap-sleeve-dress/-/A-1000870674",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-pok-mon-pika-pika-fit-flair-cap-sleeve-dress/-/A-1002395269",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-barbie-candy-hearts-fit-flair-cap-sleeve-dress/-/A-1002083443",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-karma-s-world-our-super-power-fit-flair-cap-sleeve-dress/-/A-1003970567",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000876950",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000820313",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lol-surprise-extra-w-a-side-of-swag-fit-flair-cap-sleeve-dress/-/A-1001996456",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-teenage-mutant-ninja-turtles-santas-helpers-in-a-half-shell-fit-flair-cap-sleeve-dress/-/A-1000876522",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-garfield-sigh-garfield-fit-flair-cap-sleeve-dress/-/A-1000466351",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-paw-patrol-skye-pawsitive-vibes-fit-flair-cap-sleeve-dress/-/A-1000780947",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-santiago-of-the-sea-join-the-crew-fit-flair-cap-sleeve-dress/-/A-1000871771",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000871465",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000876822",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-paw-patrol-head-over-paws-for-you-fit-flair-cap-sleeve-dress/-/A-1000832870",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-pok-mon-gotta-catch-em-all-pikachu-design-fit-flair-cap-sleeve-dress/-/A-1002395018",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-avatar-the-last-airbender-elements-harmony-fit-flair-cap-sleeve-dress/-/A-1000870929",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-little-tikes-go-green-fit-flair-cap-sleeve-dress/-/A-1001986402",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-peanuts-fit-flair-cap-sleeve-dress/-/A-1000876968",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, T-Shirt Dresses",
+      filters: {
+        type: "T-Shirt Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mickey-mouse-friends-minnie-lilo-stitch-floral-girls-smocked-maxi-dress-little-kid-to-big/-/A-91126687",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Tunic Dresses",
+      filters: {
+        type: "Tunic Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/disney-mickey-mouse-minnie-mouse-hawaiian-matching-family-hawaiian-button-down-shirt-adult/-/A-91789891",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Tunic Dresses",
+      filters: {
+        type: "Tunic Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/marvel-spider-man-ghost-spider-girls-tulle-tutu-dress-toddler-to-big-kid/-/A-91318268",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Tunic Dresses",
+      filters: {
+        type: "Tunic Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-little-girls-french-terry-dress-polka-dots-red-off-white-6/-/A-93890006",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Tunic Dresses",
+      filters: {
+        type: "Tunic Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/disney-lion-king-girls-matching-family-maxi-dress-little-kid-to-big/-/A-91503166",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Tunic Dresses",
+      filters: {
+        type: "Tunic Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/hello-kitty-girls-mesh-cosplay-tulle-dress-toddler-to-big-kid/-/A-88256311",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Tunic Dresses",
+      filters: {
+        type: "Tunic Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/barbie-square-neck-cami-dress/-/A-1003633214",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Tunic Dresses",
+      filters: {
+        type: "Tunic Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/hello-kitty-floral-girls-smocked-cami-maxi-dress-little-kid-to-big/-/A-92302326",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Tunic Dresses",
+      filters: {
+        type: "Tunic Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/bluey-square-neck-smocked-maxi-dress-sizes-2t-10-12/-/A-1002437275",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Tunic Dresses",
+      filters: {
+        type: "Tunic Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-square-neck-smocked-dress/-/A-1003633230",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Tunic Dresses",
+      filters: {
+        type: "Tunic Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/dreamworks-gabby-s-dollhouse-pandy-paws-kitty-fairy-girls-2-pack-dresses-toddler-to-big-kid/-/A-89003522",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Tunic Dresses",
+      filters: {
+        type: "Tunic Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/disney-frozen-elsa-girls-dress-toddler/-/A-87274568",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Tunic Dresses",
+      filters: {
+        type: "Tunic Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/barbie-chambray-dress-sizes-2t-14-16/-/A-94177652",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Tunic Dresses",
+      filters: {
+        type: "Tunic Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/dreamworks-gabby-s-dollhouse-gabby-pandy-paws-girls-tulle-dress-toddler-to-big-kid/-/A-89004323",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Tunic Dresses",
+      filters: {
+        type: "Tunic Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/peppa-pig-girls-mesh-tulle-dress-toddler-to-little-kid/-/A-90267262",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Tunic Dresses",
+      filters: {
+        type: "Tunic Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/hello-kitty-little-girls-square-neck-smocked-cami-dress-yellow-6/-/A-1003633236",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Tunic Dresses",
+      filters: {
+        type: "Tunic Dresses",
+      },
+    },
+    {
+      url: "https://www.target.com/p/hello-kitty-bubble-ribbed-dress/-/A-1003546792",
+      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Tunic Dresses",
+      filters: {
+        type: "Tunic Dresses",
       },
     },
   ];
