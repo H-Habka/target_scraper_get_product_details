@@ -20,7003 +20,7003 @@ import { saveToCSVAndExcel } from "./helpers/fileIO.js";
 
   const urls = [
     {
-      url: "https://www.target.com/p/sega-sonic-the-hedgehog-square-neck-smocked-maxi-dress-sizes-4-14-16/-/A-1002436008",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Tunic Dresses",
+      url: "https://www.target.com/p/batman-the-caped-crusader-youth-heather-gray-crew-neck-sweatshirt/-/A-89208345",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        type: "Tunic Dresses",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/24seven-comfort-apparel-girls-pleated-cold-shoulder-girls-summer-dress/-/A-91675669",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Tunic Dresses",
+      url: "https://www.target.com/p/the-juniper-shop-embroidered-varsity-love-vibes-youth-ultra-soft-graphic-sweatshirt/-/A-1001743264",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        type: "Tunic Dresses",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/the-smurfs-smurfette-girls-tutu-tulle-dress-little-kid-to-big-kid/-/A-1003546579",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Tunic Dresses",
+      url: "https://www.target.com/p/blockbuster-logos-on-left-chest-junior-s-gray-sweatshirt/-/A-90663849",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        type: "Tunic Dresses",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/garfield-little-girls-cosplay-tulle-tutu-dress-kid-to-big/-/A-92251700",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Tunic Dresses",
+      url: "https://www.target.com/p/the-juniper-shop-football-season-star-youth-ultra-soft-graphic-sweatshirt/-/A-1001823579",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        type: "Tunic Dresses",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/mixed-up-clothing-vestito-pom-pom-dress/-/A-93825584",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Tunic Dresses",
+      url: "https://www.target.com/p/the-juniper-shop-here-comes-the-fun-puff-print-youth-ultra-soft-graphic-sweatshirt/-/A-1000157638",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        type: "Tunic Dresses",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/minecraft-square-neck-smocked-maxi-dress/-/A-1002811039",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Tunic Dresses",
+      url: "https://www.target.com/p/the-juniper-shop-cutest-reindeer-at-the-pole-youth-ultra-soft-graphic-sweatshirt/-/A-93544699",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        type: "Tunic Dresses",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/disney-minnie-mouse-gingham-check-dress-infant-to-big-kid/-/A-92182861",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Tunic Dresses",
+      url: "https://www.target.com/p/the-juniper-shop-i-am-just-here-for-the-snacks-youth-ultra-soft-graphic-sweatshirt/-/A-1001806626",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        type: "Tunic Dresses",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/spongebob-squarepants-little-girls-square-neck-smocked-cami-maxi-dress-off-white-4/-/A-1003418142",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Tunic Dresses",
+      url: "https://www.target.com/p/batman-bruce-wayne-silhouette-youth-heather-gray-crew-neck-sweatshirt/-/A-89208314",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        type: "Tunic Dresses",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/harry-potter-square-neck-smocked-cami-maxi-dress-sizes-4-14-16/-/A-1003418136",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Tunic Dresses",
+      url: "https://www.target.com/p/the-juniper-shop-happy-st-pat-rex-day-youth-ultra-soft-graphic-sweatshirt/-/A-1001890537",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        type: "Tunic Dresses",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/cocomelon-little-girls-square-neck-cami-dress-coral-pink-5/-/A-1003633249",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Tunic Dresses",
+      url: "https://www.target.com/p/stevie-raglan-sweatshirt-hunter-green-navy-color-block/-/A-1004890694",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        type: "Tunic Dresses",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/marvel-spider-man-little-girls-mesh-tulle-dress-blue-7-8/-/A-90267249",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Tunic Dresses",
+      url: "https://www.target.com/p/the-juniper-shop-heart-throb-youth-ultra-soft-graphic-sweatshirt/-/A-1000551723",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        type: "Tunic Dresses",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/ola-otter-strap-dress-flamingo-forest/-/A-1003030008",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Tunic Dresses",
+      url: "https://www.target.com/p/the-juniper-shop-embroidered-smiley-face-outline-youth-ultra-soft-graphic-sweatshirt/-/A-1002349781",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        type: "Tunic Dresses",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-flutter-sleeve-gauze-dress-cat-38-jack-8482-white/-/A-94472329",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Tutu Dresses",
+      url: "https://www.target.com/p/the-juniper-shop-merry-puff-print-youth-ultra-soft-graphic-sweatshirt/-/A-93279481",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        type: "Tutu Dresses",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-hello-kitty-hooded-cosplay-short-sleeve-tutu-dress-red-white/-/A-91363801",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Tutu Dresses",
+      url: "https://www.target.com/p/the-juniper-shop-in-my-football-era-blue-youth-ultra-soft-graphic-sweatshirt/-/A-1001806180",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        type: "Tutu Dresses",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-strawberry-shortcake-dress-pink/-/A-88038742",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Tutu Dresses",
+      url: "https://www.target.com/p/flash-multiverse-chronobowl-youth-royal-blue-sweatshirt/-/A-86104121",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        type: "Tutu Dresses",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-short-sleeve-smocked-dress-cat-38-jack-8482/-/A-94472324",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Tutu Dresses",
+      url: "https://www.target.com/p/the-juniper-shop-shamrock-truck-youth-ultra-soft-graphic-sweatshirt/-/A-1002225644",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        type: "Tutu Dresses",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-bluey-cosplay-dress-navy-blue/-/A-89811185",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Tutu Dresses",
+      url: "https://www.target.com/p/gremlins-multicolored-gizmos-youth-black-crew-neck-sweatshirt/-/A-90274691",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        type: "Tutu Dresses",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/girl-s-disney-princess-roses-trio-dress/-/A-92381015",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Tutu Dresses",
+      url: "https://www.target.com/p/the-juniper-shop-tis-the-season-football-youth-ultra-soft-graphic-sweatshirt/-/A-1001823543",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        type: "Tutu Dresses",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-pok-mon-pikachu-cosplay-short-sleeve-tutu-dress-gold-black-yellow/-/A-91363501",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Tutu Dresses",
+      url: "https://www.target.com/p/the-juniper-shop-cool-kid-star-youth-ultra-soft-graphic-sweatshirt/-/A-93792877",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        type: "Tutu Dresses",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-stitch-hooded-character-dress-blue/-/A-93599961",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Tutu Dresses",
+      url: "https://www.target.com/p/the-juniper-shop-embroidered-be-kind-turning-smiles-youth-ultra-soft-graphic-sweatshirt/-/A-1002350279",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        type: "Tutu Dresses",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/girls-sanrio-cinnamaroll-hooded-tulle-character-dress-with-ears-white/-/A-93599687",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Tutu Dresses",
+      url: "https://www.target.com/p/the-juniper-shop-team-halftime-distressed-blue-youth-ultra-soft-graphic-sweatshirt/-/A-1001806537",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        type: "Tutu Dresses",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/springtime-fairy-lace-and-stars-tiered-tutu-dress-mia-belle-girls/-/A-1003844486",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Tutu Dresses",
+      url: "https://www.target.com/p/the-juniper-shop-embroidered-i-love-you-words-youth-ultra-soft-graphic-sweatshirt/-/A-1001710054",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        type: "Tutu Dresses",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/hello-kitty-toddler-little-and-big-girl-s-short-sleeve-casual-tulle-dresses/-/A-92170654",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Tutu Dresses",
+      url: "https://www.target.com/p/the-juniper-shop-tic-tac-heart-youth-ultra-soft-graphic-sweatshirt/-/A-1000945291",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        type: "Tutu Dresses",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/homeroom-ballerina-layered-tutu-dress-mia-belle-girls/-/A-1004909625",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Tutu Dresses",
+      url: "https://www.target.com/p/the-juniper-shop-game-day-stars-youth-ultra-soft-graphic-sweatshirt/-/A-1001823578",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        type: "Tutu Dresses",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/p-s-from-aeropostale-little-girl-s-2-piece-tulle-dresses-with-keychain/-/A-92752380",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Tutu Dresses",
+      url: "https://www.target.com/p/the-juniper-shop-embroidered-lucky-typewriter-youth-ultra-soft-graphic-sweatshirt/-/A-1002225752",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        type: "Tutu Dresses",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/disney-toddler-little-girl-s-princess-short-sleeve-casual-tulle-dresses/-/A-92395181",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Tutu Dresses",
+      url: "https://www.target.com/p/the-juniper-shop-football-game-day-checkered-toddler-graphic-sweatshirt/-/A-90213709",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        type: "Tutu Dresses",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/hope-henry-girls-tiered-wrap-dress-kids/-/A-85577862",
-      tags: "Dresses, Girls’ Clothing, Kids’ Clothing, Wrap Dresses",
+      url: "https://www.target.com/p/love-all-tennis-youth-relax-crew/-/A-1004539697",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        type: "Wrap Dresses",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-tumble-shorts-all-in-motion-8482/-/A-93297590",
-      tags: "Activewear, Athletic Bike Shorts, Girls’ Activewear, Athletic Shorts, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      url: "https://www.target.com/p/the-juniper-shop-embroidered-hand-drawn-heart-youth-ultra-soft-graphic-sweatshirt/-/A-1001710077",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        type: "Athletic Bike Shorts",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/city-threads-usa-made-soft-100-cotton-girls-long-bike-shorts/-/A-92746144",
-      tags: "Activewear, Athletic Bike Shorts, Girls’ Activewear, Athletic Shorts, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      url: "https://www.target.com/p/the-juniper-shop-talk-football-to-me-ball-youth-ultra-soft-graphic-sweatshirt/-/A-1001834931",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        type: "Athletic Bike Shorts",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/city-threads-usa-made-organic-cotton-soft-girls-bike-shorts/-/A-92357487",
-      tags: "Activewear, Athletic Bike Shorts, Girls’ Activewear, Athletic Shorts, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      url: "https://www.target.com/p/the-juniper-shop-big-sis-square-toddler-graphic-sweatshirt/-/A-91869427",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        type: "Athletic Bike Shorts",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/destira-compression-biker-short/-/A-92084924",
-      tags: "Activewear, Athletic Bike Shorts, Girls’ Activewear, Athletic Shorts, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      url: "https://www.target.com/p/five-nights-at-freddy-s-freddy-in-checkered-circle-crew-neck-long-sleeve-youth-black-sweatshirt/-/A-92987951",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
       filters: {
-        type: "Athletic Bike Shorts",
+        type: "Pullover Sweatshirts",
       },
     },
     {
-      url: "https://www.target.com/p/girls-soft-stretch-jogger-pants-all-in-motion/-/A-94739703",
-      tags: "Activewear, Athletic Jogger Pants, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing",
+      url: "https://www.target.com/p/the-juniper-shop-holly-jolly-christmas-tree-youth-ultra-soft-graphic-sweatshirt/-/A-93544670",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-heart-throb-small-heart-youth-ultra-soft-graphic-sweatshirt/-/A-1000551735",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-lucky-vibes-distressed-youth-ultra-soft-graphic-sweatshirt/-/A-1002225757",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-embroidered-hand-drawn-heart-youth-ultra-soft-graphic-sweatshirt/-/A-1001709978",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/naruto-classic-naruto-uzumaki-name-text-and-character-youth-heather-gray-crew-neck-sweatshirt/-/A-89097443",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/gender-neutral-boys-st-ives-gauze-hooded-top-me-henry/-/A-1001177374",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-a-wee-bit-irish-youth-ultra-soft-graphic-sweatshirt/-/A-1001346979",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/gremlins-gizmo-in-squares-with-icons-youth-heather-gray-crew-neck-sweatshirt/-/A-90275243",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-in-my-game-day-era-green-youth-ultra-soft-graphic-sweatshirt/-/A-1001806304",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-embroidered-i-love-you-words-youth-ultra-soft-graphic-sweatshirt/-/A-1001710052",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/naruto-single-color-leaping-naruto-crew-neck-long-sleeve-black-youth-sweatshirt/-/A-90274576",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-i-m-just-here-for-the-snacks-disco-youth-ultra-soft-graphic-sweatshirt/-/A-1001805926",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-happy-go-lucky-pot-of-gold-youth-ultra-soft-graphic-sweatshirt/-/A-1001890462",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-deer-snowman-scene-youth-ultra-soft-graphic-sweatshirt/-/A-1001646972",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/sesame-street-since-1969-boxed-character-art-crew-neck-long-sleeve-youth-black-sweatshirt/-/A-93148363",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-cutie-pie-university-youth-ultra-soft-graphic-sweatshirt/-/A-1000082853",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/stevie-raglan-sweatshirt-navy-rose-color-block/-/A-1004890687",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mega-man-gradient-line-art-youth-black-crew-neck-sweatshirt/-/A-90274734",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/primary-kids-embroidered-sweatshirt/-/A-1001974611",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-team-halftime-distressed-green-youth-ultra-soft-graphic-sweatshirt/-/A-1001806470",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-lucky-charm-friends-youth-ultra-soft-graphic-sweatshirt/-/A-1002532873",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-care-bears-crewneck-sweatshirt-girls-classic-care-bears-clothing-cheer-friend-funshine-good-luck-crewneck-sweatshirt-x-small/-/A-1004640051",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-wild-child-peace-youth-ultra-soft-graphic-sweatshirt/-/A-93792889",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-team-halftime-distressed-youth-ultra-soft-graphic-sweatshirt/-/A-1001806202",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/gremlins-gizmo-there-are-three-rules-character-art-youth-black-crew-neck-sweatshirt/-/A-90274667",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/nerf-for-the-win-crew-neck-long-sleeve-black-youth-sweatshirt/-/A-91014746",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lilo-and-stitch-fashion-sweatshirt-disney-collegiate-athletic-crewneck-sweatshirt-lilo-and-stitch-sweatshirt/-/A-1004522255",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-embroidered-smiley-face-outline-youth-ultra-soft-graphic-sweatshirt/-/A-1002349959",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/sesame-street-big-bird-face-twirl-text-crew-neck-long-sleeve-youth-black-sweatshirt/-/A-93148334",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-embroidered-lucky-clover-youth-ultra-soft-graphic-sweatshirt/-/A-1001890836",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/dc-league-of-super-pets-pet-profiles-youth-black-sweatshirt/-/A-86104179",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-heart-breaker-sunglasses-youth-ultra-soft-graphic-sweatshirt/-/A-1001647107",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-i-dig-you-youth-ultra-soft-graphic-sweatshirt/-/A-1001209427",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-shenanigans-squad-youth-ultra-soft-graphic-sweatshirt/-/A-1001346958",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-care-bears-crewneck-sweatshirt-girls-classic-care-bears-clothing-cheer-friend-funshine-good-luck-crewneck-sweatshirt-medium/-/A-1004640048",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-embroidered-lucky-clover-youth-ultra-soft-graphic-sweatshirt/-/A-1001890828",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-cursive-lucky-clover-youth-ultra-soft-graphic-sweatshirt/-/A-1002225626",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-in-my-football-era-maroon-youth-ultra-soft-graphic-sweatshirt/-/A-1001806111",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-in-my-game-day-era-blue-youth-ultra-soft-graphic-sweatshirt/-/A-1001806519",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-in-my-game-day-era-red-youth-ultra-soft-graphic-sweatshirt/-/A-1001806248",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-alphabet-i-love-you-youth-ultra-soft-graphic-sweatshirt/-/A-1000042985",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-i-just-hope-both-teams-have-fun-youth-ultra-soft-graphic-sweatshirt/-/A-1001806117",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-in-my-football-era-green-youth-ultra-soft-graphic-sweatshirt/-/A-1001806028",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-touchdown-helmet-youth-ultra-soft-graphic-sweatshirt/-/A-1001834926",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-lucky-smiley-disco-youth-ultra-soft-graphic-sweatshirt/-/A-1002532886",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-chase-your-dreams-retro-youth-ultra-soft-graphic-sweatshirt/-/A-1000082867",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/looney-tunes-taz-being-happy-youth-black-crew-neck-sweatshirt/-/A-89002158",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-embroidered-be-kind-turning-smiles-youth-ultra-soft-graphic-sweatshirt/-/A-1002350251",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-christmas-spirits-red-words-youth-ultra-soft-graphic-sweatshirt/-/A-93627566",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-embroidered-hand-drawn-heart-youth-ultra-soft-graphic-sweatshirt/-/A-1001709896",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-loads-of-luck-retro-truck-youth-ultra-soft-graphic-sweatshirt/-/A-1001890486",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-game-day-football-youth-ultra-soft-graphic-sweatshirt/-/A-1001823797",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-flash-movie-flash-monochrome-red-with-bolt-youth-athletic-heather-gray-long-sleeve-shirt/-/A-89097390",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-lucky-retro-stars-youth-ultra-soft-graphic-sweatshirt/-/A-1002277103",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-tiny-teenager-typewriter-youth-ultra-soft-graphic-sweatshirt/-/A-93792918",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-hugs-and-kisses-youth-ultra-soft-graphic-sweatshirt/-/A-1001209384",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-embroidered-love-typewriter-youth-ultra-soft-graphic-sweatshirt/-/A-1001709846",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-coquette-christmas-snowflake-bow-youth-ultra-soft-graphic-sweatshirt/-/A-93457465",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-all-you-need-is-love-coquette-youth-ultra-soft-graphic-sweatshirt/-/A-1001259091",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-smiley-clover-daisy-youth-ultra-soft-graphic-sweatshirt/-/A-1002532831",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-cool-kids-club-youth-ultra-soft-graphic-sweatshirt/-/A-93792891",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/sonic-prime-group-character-art-crew-neck-long-sleeve-athletic-heather-youth-sweatshirt/-/A-89838775",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-shamrock-and-roll-youth-ultra-soft-graphic-sweatshirt/-/A-1001346961",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-team-halftime-distressed-red-youth-ultra-soft-graphic-sweatshirt/-/A-1001806475",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/flash-superspeed-run-and-logo-youth-black-sweatshirt/-/A-86104259",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-rocket-around-the-christmas-tree-youth-ultra-soft-graphic-sweatshirt/-/A-93627459",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/journey-logo-crew-neck-long-sleeve-youth-black-sweatshirt/-/A-93653619",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-juniper-shop-embroidered-choose-happy-smiley-face-youth-ultra-soft-graphic-sweatshirt/-/A-1002350227",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-flash-movie-hexagon-thunderbolt-logo-crew-neck-long-sleeve-black-youth-sweatshirt/-/A-89097398",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-flash-movie-reflective-title-art-crew-neck-long-sleeve-black-youth-sweatshirt/-/A-89097395",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      filters: {
+        type: "Pullover Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/leveret-kids-zipper-cotton-solid-color-hoodie/-/A-89572023",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops, Zip-Up Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing",
+      filters: {
+        type: "Zip-Up Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/hanes-ecosmart-girls-full-zip-hoodie/-/A-1003235077",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops, Zip-Up Sweatshirts",
+      filters: {
+        type: "Zip-Up Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-kids-softest-fleece-jacket/-/A-87254947",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops, Zip-Up Sweatshirts",
+      filters: {
+        type: "Zip-Up Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/disney-mickey-mouse-minnie-mouse-lion-king-simba-fleece-zip-up-hoodie/-/A-89243071",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops, Zip-Up Sweatshirts",
+      filters: {
+        type: "Zip-Up Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/leveret-kids-zipper-neutral-solid-color-sweat-hoodie/-/A-89567984",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops, Zip-Up Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing",
+      filters: {
+        type: "Zip-Up Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/red-bull-racing-f1-kid-s-2024-team-full-zip-hoodie/-/A-92352292",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops, Zip-Up Sweatshirts",
+      filters: {
+        type: "Zip-Up Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/city-threads-100-cotton-kids-unisex-soft-fleece-zip-hoodie-with-inner-pockets-usa-made/-/A-1001830183",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops, Zip-Up Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing",
+      filters: {
+        type: "Zip-Up Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/castore-red-bull-racing-f1-kid-s-2025-team-full-zip-hoodie/-/A-1002208382",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops, Zip-Up Sweatshirts",
+      filters: {
+        type: "Zip-Up Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/castore-alpine-racing-f1-2025-kids-team-full-zip-hoodie/-/A-1002315505",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops, Zip-Up Sweatshirts",
+      filters: {
+        type: "Zip-Up Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/kids-adaptive-fleece-zip-up-hooded-sweatshirt-cat-jack-black/-/A-94581064",
+      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops, Zip-Up Sweatshirts",
+      filters: {
+        type: "Zip-Up Sweatshirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mizuno-yth-power-warm-up/-/A-90150730",
+      tags: "Athletic Pants, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts, Athletic Shorts",
+      filters: {
+        type: "Athletic Pants",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mizuno-girl-s-victory-short/-/A-90043768",
+      tags: "Athletic Shorts, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Athletic Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/fairtex-kids-muay-thai-boxing-shorts-bsk2108-silent-warrior/-/A-1001549735",
+      tags: "Athletic Shorts, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Athletic Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/fairtex-kids-muay-thai-boxing-shorts-bsk2102-summer/-/A-1001549749",
+      tags: "Athletic Shorts, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Athletic Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/fairtex-kids-muay-thai-boxing-shorts-bsk2104-midnight-red/-/A-1001549741",
+      tags: "Athletic Shorts, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Athletic Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/fairtex-kids-muay-thai-boxing-shorts-bsk2106-siam/-/A-1001703885",
+      tags: "Athletic Shorts, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Athletic Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/fairtex-kids-muay-thai-boxing-shorts-bsk2107-turquoise/-/A-1001549733",
+      tags: "Athletic Shorts, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Athletic Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-ribbed-bike-shorts-cat-38-jack-8482/-/A-93278913",
+      tags: "Bike Shorts, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Bike Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/-/A-94811075",
+      tags: "Bike Shorts, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Bike Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-long-bike-shorts-art-class/-/A-93460932",
+      tags: "Bike Shorts, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Bike Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-kids-tough-cotton-bike-shorts/-/A-87254598",
+      tags: "Bike Shorts, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts, Pull-on Shorts",
+      filters: {
+        type: "Bike Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-disney-stitch-bike-shorts-blue/-/A-94431062",
+      tags: "Bike Shorts, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Bike Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-squishmallows-bike-shorts-pastel/-/A-94431057",
+      tags: "Bike Shorts, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Bike Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-hello-kitty-bike-shorts-black/-/A-94431041",
+      tags: "Bike Shorts, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Bike Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mightly-girls-fair-trade-organic-cotton-bike-shorts-3-pack/-/A-1004369077",
+      tags: "Bike Shorts, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Bike Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mightly-girls-fair-trade-organic-cotton-bike-shorts-3-pack/-/A-1004369067",
+      tags: "Bike Shorts, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Bike Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mightly-girls-fair-trade-organic-cotton-bike-shorts-3-pack-navy-stripe-combo-large/-/A-1004369070",
+      tags: "Bike Shorts, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Bike Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-organic-cotton-biker-short-legging-black/-/A-1003486286",
+      tags: "Bike Shorts, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Bike Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girl-s-shorts-skirt-danz-n-motion-21412a-sheer-for-ballet-or-modern/-/A-1003121809",
+      tags: "Bike Shorts, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts, Pull-on Shorts",
+      filters: {
+        type: "Bike Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girl-s-convention-wear-lily-shorts-2-tone-danznmotion-25401c/-/A-1003191522",
+      tags: "Bike Shorts, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts, Pull-on Shorts",
+      filters: {
+        type: "Bike Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-crinkle-biker-short-with-flower-mesh-skirt-lilac-with-white-flowers/-/A-1002802529",
+      tags: "Bike Shorts, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Bike Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/dragonwing-ava-v-waist-compression-shorts/-/A-1001547080",
+      tags: "Bike Shorts, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts, Jogger Shorts, Pull-on Shorts",
+      filters: {
+        type: "Bike Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mightly-girls-fair-trade-organic-cotton-bike-shorts-3-pack/-/A-1004369073",
+      tags: "Bike Shorts, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Bike Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mightly-girls-fair-trade-organic-cotton-bike-shorts-3-pack-rainbow-stripe-combo-medium/-/A-1004369066",
+      tags: "Bike Shorts, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Bike Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mightly-girls-fair-trade-organic-cotton-bike-shorts-3-pack-navy-stripe-combo-x-small/-/A-1004369081",
+      tags: "Bike Shorts, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Bike Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-crinkle-biker-short-with-flower-mesh-skirt-light-old-pink-12-years/-/A-1002802602",
+      tags: "Bike Shorts, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Bike Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mightly-girls-fair-trade-organic-cotton-bike-shorts-3-pack-navy-stripe-combo-x-large/-/A-1004369076",
+      tags: "Bike Shorts, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Bike Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mightly-girls-fair-trade-organic-cotton-bike-shorts-3-pack-navy-stripe-combo-xx-large/-/A-1004369064",
+      tags: "Bike Shorts, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Bike Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mightly-girls-fair-trade-organic-cotton-bike-shorts-3-pack-navy-stripe-combo-small/-/A-1004369079",
+      tags: "Bike Shorts, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Bike Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/eg-pro-enduro-flex-girl-s-compression-short-graded-inseam/-/A-1001398303",
+      tags: "Bike Shorts, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts, Pull-on Shorts",
+      filters: {
+        type: "Bike Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-printed-athletic-biker-short-black-pink-and-multicolored-butterflies/-/A-1003635993",
+      tags: "Bike Shorts, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Bike Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/disney-princess-ariel-belle-rapunzel-moana-girls-4-pack-bike-shorts-toddler-to-big-kid/-/A-88398096",
+      tags: "Bottom Sets, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts, Short Sets",
+      filters: {
+        type: "Bottom Sets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/studio-3-little-big-girls-4-pack-cotton-activewear-biker-shorts-set/-/A-1003791044",
+      tags: "Bottom Sets, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts, Short Sets",
+      filters: {
+        type: "Bottom Sets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-sweater-shorts-cat-38-jack-8482/-/A-93964116",
+      tags: "Bottoms, Cargo Shorts, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Cargo Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-kids-utility-cargo-shorts/-/A-1001828886",
+      tags: "Bottoms, Cargo Shorts, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Cargo Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-kids-woven-utility-shorts/-/A-1002177438",
+      tags: "Bottoms, Cargo Shorts, Girls’ Clothing, Kids’ Clothing, Shorts, Pull-on Shorts",
+      filters: {
+        type: "Cargo Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-school-uniform-kids-stretch-chino-bermuda-shorts/-/A-87148230",
+      tags: "Bottoms, Chino Shorts, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Chino Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-patch-pocket-twill-bermuda-shorts-cat-38-jack-8482-white/-/A-94408556",
+      tags: "Bottoms, Chino Shorts, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Chino Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-kids-plain-front-blend-chino-shorts/-/A-86739538",
+      tags: "Bottoms, Chino Shorts, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Chino Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-little-kids-slim-plain-front-blend-chino-shorts/-/A-86739549",
+      tags: "Bottoms, Chino Shorts, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Chino Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-lands-end-school-uniform-kids-active-chino-shorts/-/A-87673647",
+      tags: "Bottoms, Chino Shorts, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Chino Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/primary-kids-garment-dyed-stretch-chino-short/-/A-1003331677",
+      tags: "Bottoms, Chino Shorts, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Chino Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-lands-end-kids-pull-on-shorts/-/A-88500959",
+      tags: "Bottoms, Chino Shorts, Girls’ Clothing, Kids’ Clothing, Shorts, Pull-on Shorts",
+      filters: {
+        type: "Chino Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mightly-kids-fair-trade-organic-cotton-above-the-knee-shorts/-/A-1004010257",
+      tags: "Bottoms, Chino Shorts, Girls’ Clothing, Kids’ Clothing, Shorts, Jogger Shorts",
+      filters: {
+        type: "Chino Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-striped-fashion-boxer-shorts-cat-38-jack-8482/-/A-94408558",
+      tags: "Bottoms, Fashion Shorts, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Fashion Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/levi-s-girls-front-pocket-shorts-light-green/-/A-93018548",
+      tags: "Bottoms, Fashion Shorts, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Fashion Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/levi-s-girls-front-pocket-shorts-navy-blue/-/A-94405041",
+      tags: "Bottoms, Fashion Shorts, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Fashion Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-disney-stitch-and-angel-printed-wrap-skort-pink/-/A-94431070",
+      tags: "Bottoms, Fashion Shorts, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Fashion Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-disney-stitch-printed-wrap-skort-blue/-/A-94431066",
+      tags: "Bottoms, Fashion Shorts, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Fashion Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/rufflebutts-girls-active-butterfly-shorts/-/A-1001544385",
+      tags: "Bottoms, Fashion Shorts, Girls’ Clothing, Kids’ Clothing, Shorts, Pull-on Shorts",
+      filters: {
+        type: "Fashion Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-kids-twill-shorts/-/A-1002512168",
+      tags: "Bottoms, Fashion Shorts, Girls’ Clothing, Kids’ Clothing, Shorts, Pull-on Shorts",
+      filters: {
+        type: "Fashion Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/kids-ian-mesh-color-block-basketball-shorts-olive-scout/-/A-1003241012",
+      tags: "Bottoms, Fashion Shorts, Girls’ Clothing, Kids’ Clothing, Shorts, Pull-on Shorts",
+      filters: {
+        type: "Fashion Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/rufflebutts-kids-lavender-seersucker-girls-ruffle-trim-woven-shorts/-/A-91648532",
+      tags: "Bottoms, Fashion Shorts, Girls’ Clothing, Kids’ Clothing, Shorts, Pull-on Shorts",
+      filters: {
+        type: "Fashion Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-crinkle-short-light-old-pink/-/A-1003487219",
+      tags: "Bottoms, Fashion Shorts, Girls’ Clothing, Kids’ Clothing, Shorts, Pull-on Shorts",
+      filters: {
+        type: "Fashion Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/rufflebutts-girls-knit-ruffle-trim-shorts/-/A-1003240312",
+      tags: "Bottoms, Fashion Shorts, Girls’ Clothing, Kids’ Clothing, Shorts, Pull-on Shorts",
+      filters: {
+        type: "Fashion Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-crinkle-short-pale-yellow-and-white/-/A-1003636038",
+      tags: "Bottoms, Fashion Shorts, Girls’ Clothing, Kids’ Clothing, Shorts, Pull-on Shorts",
+      filters: {
+        type: "Fashion Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-printed-athletic-short-pink-blue-and-butterflies/-/A-1003635979",
+      tags: "Bottoms, Fashion Shorts, Girls’ Clothing, Kids’ Clothing, Shorts, Pull-on Shorts",
+      filters: {
+        type: "Fashion Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-linen-short-with-pockets-medium-green-and-cream-striped/-/A-1003484759",
+      tags: "Bottoms, Fashion Shorts, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Fashion Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-linen-short-with-pockets-old-orange-pink/-/A-1003484770",
+      tags: "Bottoms, Fashion Shorts, Girls’ Clothing, Kids’ Clothing, Shorts, Pull-on Shorts",
+      filters: {
+        type: "Fashion Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-crinkle-short-white-checkered-lilac/-/A-1003636821",
+      tags: "Bottoms, Fashion Shorts, Girls’ Clothing, Kids’ Clothing, Shorts, Pull-on Shorts",
+      filters: {
+        type: "Fashion Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mykids-usa-baby-girl-print-pattern-bow-decoration-short-pants-in-summer-outfit-wearing/-/A-1004801377",
+      tags: "Bottoms, Fashion Shorts, Girls’ Clothing, Kids’ Clothing, Shorts, Pull-on Shorts",
+      filters: {
+        type: "Fashion Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girl-patterned-skirt-mayoral/-/A-1001295485",
+      tags: "Bottoms, Fashion Shorts, Girls’ Clothing, Kids’ Clothing, Shorts, Pull-on Shorts",
+      filters: {
+        type: "Fashion Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-smocked-waist-short-with-knots-pink-and-white-checks/-/A-1003484818",
+      tags: "Bottoms, Fashion Shorts, Girls’ Clothing, Kids’ Clothing, Shorts, Pull-on Shorts",
+      filters: {
+        type: "Fashion Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girl-rayon-rib-skort-tenly/-/A-1004473734",
+      tags: "Bottoms, Fashion Shorts, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Fashion Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/gender-neutral-s-bluepeter-short-me-henry/-/A-1001177576",
+      tags: "Bottoms, Fashion Shorts, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Fashion Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girl-rayon-rib-skort-tenly/-/A-1004473694",
+      tags: "Bottoms, Fashion Shorts, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Fashion Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girl-rayon-rib-skort-tenly/-/A-1004473707",
+      tags: "Bottoms, Fashion Shorts, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Fashion Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/gender-neutral-kid-s-bluepeter-short-me-henry/-/A-1001177697",
+      tags: "Bottoms, Fashion Shorts, Girls’ Clothing, Kids’ Clothing, Shorts, Pull-on Shorts",
+      filters: {
+        type: "Fashion Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-printed-chambray-short-navy-blue-and-white-hearts/-/A-1003487249",
+      tags: "Bottoms, Fashion Shorts, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Fashion Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-printed-chambray-short-blue-and-white-cherries/-/A-1003487202",
+      tags: "Bottoms, Fashion Shorts, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Fashion Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girl-bamboo-bloomer-shorts-copenhagen-delights/-/A-1001355043",
+      tags: "Bottoms, Fashion Shorts, Girls’ Clothing, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Fashion Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/daydream-cutout-compression-shorts/-/A-1001744825",
+      tags: "Bottoms, Fashion Shorts, Girls’ Clothing, Kids’ Clothing, Shorts, Pull-on Shorts",
+      filters: {
+        type: "Fashion Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-mid-rise-cuffed-jean-shorts-cat-jack/-/A-92922247",
+      tags: "Bottoms, Girls’ Clothing, Jean Shorts, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Jean Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-cutoff-denim-shorts-cat-38-jack-8482/-/A-94492213",
+      tags: "Bottoms, Girls’ Clothing, Jean Shorts, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Jean Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-pleated-front-cuffed-jean-shorts-cat-38-jack-8482/-/A-94492234",
+      tags: "Bottoms, Girls’ Clothing, Jean Shorts, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Jean Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-mid-rise-cutoff-jean-shorts-cat-jack/-/A-92922248",
+      tags: "Bottoms, Girls’ Clothing, Jean Shorts, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Jean Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-cutoff-mid-rise-jean-shorts-cat-jack/-/A-92956779",
+      tags: "Bottoms, Girls’ Clothing, Jean Shorts, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Jean Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-high-rise-paper-bag-cuffed-jean-shorts-cat-jack/-/A-92922249",
+      tags: "Bottoms, Girls’ Clothing, Jean Shorts, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Jean Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-mid-rise-star-embroidered-denim-shorts-cat-38-jack-8482-red/-/A-94131249",
+      tags: "Bottoms, Girls’ Clothing, Jean Shorts, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Jean Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-mid-rise-star-embroidered-cutoff-denim-shorts-cat-38-jack-8482-light-wash/-/A-94131169",
+      tags: "Bottoms, Girls’ Clothing, Jean Shorts, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Jean Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-mid-rise-bermuda-jean-shorts-cat-jack/-/A-92922254",
+      tags: "Bottoms, Girls’ Clothing, Jean Shorts, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Jean Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-mid-rise-patch-pocket-cuffed-jean-shorts-cat-jack/-/A-92922253",
+      tags: "Bottoms, Girls’ Clothing, Jean Shorts, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Jean Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-mid-rise-denim-shorts-art-class-blue/-/A-92955224",
+      tags: "Bottoms, Girls’ Clothing, Jean Shorts, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Jean Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-mid-rise-shortie-denim-shorts-art-class/-/A-94473847",
+      tags: "Bottoms, Girls’ Clothing, Jean Shorts, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Jean Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-high-rise-jean-shorts-art-class/-/A-92955222",
+      tags: "Bottoms, Girls’ Clothing, Jean Shorts, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Jean Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-mid-rise-baggy-bermuda-denim-shorts-art-class/-/A-92955223",
+      tags: "Bottoms, Girls’ Clothing, Jean Shorts, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Jean Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-mid-rise-cut-off-denim-shorts-art-class-blue/-/A-94190219",
+      tags: "Bottoms, Girls’ Clothing, Jean Shorts, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Jean Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-mid-rise-button-paneled-denim-shorts-art-class/-/A-94204367",
+      tags: "Bottoms, Girls’ Clothing, Jean Shorts, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Jean Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-high-rise-a-line-studded-denim-shorts-art-class/-/A-94204368",
+      tags: "Bottoms, Girls’ Clothing, Jean Shorts, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Jean Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-high-rise-a-line-leopard-printed-washed-denim-shorts-art-class-beige/-/A-94190217",
+      tags: "Bottoms, Girls’ Clothing, Jean Shorts, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Jean Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-mid-rise-slouchy-bermuda-shorts-art-class/-/A-94439250",
+      tags: "Bottoms, Girls’ Clothing, Jean Shorts, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Jean Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-high-rise-a-line-colorblock-denim-shorts-art-class/-/A-94204357",
+      tags: "Bottoms, Girls’ Clothing, Jean Shorts, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Jean Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/levi-s-girls-girlfriend-jean-shorts-evie-medium-wash/-/A-81942002",
+      tags: "Bottoms, Girls’ Clothing, Jean Shorts, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Jean Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/levi-39-s-girls-39-39-patch-39-jean-shorts-medium-wash/-/A-89853452",
+      tags: "Bottoms, Girls’ Clothing, Jean Shorts, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Jean Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/levi-s-girls-girlfriend-jean-shorts-distressed-medium-wash/-/A-85453323",
+      tags: "Bottoms, Girls’ Clothing, Jean Shorts, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Jean Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/levi-s-girls-floral-mom-denim-shorts-light-wash/-/A-93018551",
+      tags: "Bottoms, Girls’ Clothing, Jean Shorts, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Jean Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/levi-39-s-174-girls-39-destructed-denim-shorts-white/-/A-93018552",
+      tags: "Bottoms, Girls’ Clothing, Jean Shorts, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Jean Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-hello-kitty-denim-shorts-light-blue/-/A-94365219",
+      tags: "Bottoms, Girls’ Clothing, Jean Shorts, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Jean Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-bluey-denim-shorts-blue/-/A-94365191",
+      tags: "Bottoms, Girls’ Clothing, Jean Shorts, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Jean Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/kids-gene-denim-shorts-olive-scout/-/A-1002734632",
+      tags: "Bottoms, Girls’ Clothing, Jean Shorts, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Jean Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-jean-short-with-embroidery-pink-and-multicolored-gummies/-/A-1003486270",
+      tags: "Bottoms, Girls’ Clothing, Jean Shorts, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Jean Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/kids-jay-distressed-denim-shorts-olive-scout/-/A-1002476512",
+      tags: "Bottoms, Girls’ Clothing, Jean Shorts, Kids’ Clothing, Shorts, Pull-on Shorts",
+      filters: {
+        type: "Jean Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-jegging-shorts-dark-denim-blue/-/A-1003460924",
+      tags: "Bottoms, Girls’ Clothing, Jean Shorts, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Jean Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-kids-denim-paperbag-shorts/-/A-1002512481",
+      tags: "Bottoms, Girls’ Clothing, Jean Shorts, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Jean Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-jean-short-with-embroidery-black-jeans/-/A-1003486304",
+      tags: "Bottoms, Girls’ Clothing, Jean Shorts, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Jean Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-hello-kitty-matchback-shorts-green-white/-/A-94431043",
+      tags: "Bottoms, Girls’ Clothing, Jogger Shorts, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Jogger Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-hello-kitty-matchback-shorts-pink-white/-/A-94431045",
+      tags: "Bottoms, Girls’ Clothing, Jogger Shorts, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Jogger Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-cinnamoroll-matchback-shorts-white-blue/-/A-94431039",
+      tags: "Bottoms, Girls’ Clothing, Jogger Shorts, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Jogger Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/kids-leo-athletic-shorts-olive-scout/-/A-1002476537",
+      tags: "Bottoms, Girls’ Clothing, Jogger Shorts, Kids’ Clothing, Shorts, Pull-on Shorts",
+      filters: {
+        type: "Jogger Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mizuno-youth-girl-s-icon-3-training-short/-/A-89010427",
+      tags: "Bottoms, Girls’ Clothing, Jogger Shorts, Kids’ Clothing, Shorts, Pull-on Shorts",
+      filters: {
+        type: "Jogger Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mightly-girls-fair-trade-organic-cotton-pocket-track-short/-/A-1005161926",
+      tags: "Bottoms, Girls’ Clothing, Jogger Shorts, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Jogger Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mightly-toddler-fair-trade-organic-cotton-pocket-fleece-shorts/-/A-1004010339",
+      tags: "Bottoms, Girls’ Clothing, Jogger Shorts, Kids’ Clothing, Shorts",
+      filters: {
+        type: "Jogger Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/primary-kids-track-short/-/A-1002749178",
+      tags: "Bottoms, Girls’ Clothing, Jogger Shorts, Kids’ Clothing, Shorts, Pull-on Shorts",
+      filters: {
+        type: "Jogger Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/vizari-kids-campo-soccer-shorts/-/A-92288891",
+      tags: "Bottoms, Girls’ Clothing, Jogger Shorts, Kids’ Clothing, Shorts, Trouser Shorts",
+      filters: {
+        type: "Jogger Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/dragonwing-level-up-compression-shorts/-/A-1001702899",
+      tags: "Bottoms, Girls’ Clothing, Jogger Shorts, Kids’ Clothing, Shorts, Pull-on Shorts",
+      filters: {
+        type: "Jogger Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-printed-ribbed-short-small-flowers-on-white-background/-/A-1003487183",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Lounge Shorts, Shorts, Pull-on Shorts",
+      filters: {
+        type: "Lounge Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/disney-youth-minnie-mouse-lounge-shorts/-/A-93996657",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Lounge Shorts, Shorts, Pull-on Shorts",
+      filters: {
+        type: "Lounge Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-terry-cloth-short-turquoise-and-beige/-/A-1003715312",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Lounge Shorts, Shorts, Pull-on Shorts",
+      filters: {
+        type: "Lounge Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-printed-short-multicolored-tie-dye/-/A-1003484785",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Lounge Shorts, Shorts, Pull-on Shorts",
+      filters: {
+        type: "Lounge Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-seersucker-short-navy-blue-and-white/-/A-1003461897",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Lounge Shorts, Shorts, Pull-on Shorts",
+      filters: {
+        type: "Lounge Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-printed-short-black-and-multicolored-gummies/-/A-1003484796",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Lounge Shorts, Shorts",
+      filters: {
+        type: "Lounge Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-seersucker-short-blue-and-white-striped/-/A-1003460923",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Lounge Shorts, Shorts, Pull-on Shorts",
+      filters: {
+        type: "Lounge Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-crinkle-short-with-frills-black-and-butterflies/-/A-1003486371",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Lounge Shorts, Shorts, Pull-on Shorts",
+      filters: {
+        type: "Lounge Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-printed-french-terry-short-lilac-tropical-and-pink-flamingos/-/A-1003461894",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Lounge Shorts, Shorts, Pull-on Shorts",
+      filters: {
+        type: "Lounge Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-printed-french-terry-short-fruits-on-yellow-background/-/A-1003461918",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Lounge Shorts, Shorts",
+      filters: {
+        type: "Lounge Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-printed-french-terry-short-off-white-and-koala/-/A-1003461935",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Lounge Shorts, Shorts, Pull-on Shorts",
+      filters: {
+        type: "Lounge Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-printed-french-terry-short-old-pink-and-flowers/-/A-1003461959",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Lounge Shorts, Shorts, Pull-on Shorts",
+      filters: {
+        type: "Lounge Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-printed-french-terry-short-pink-flowers-on-white-background/-/A-1003484795",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Lounge Shorts, Shorts, Pull-on Shorts",
+      filters: {
+        type: "Lounge Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-printed-french-terry-short-pink-multicolored-gummies/-/A-1003486281",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Lounge Shorts, Shorts",
+      filters: {
+        type: "Lounge Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-kids-camp-shorts/-/A-1002512004",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-pull-on-knit-shorts-cat-jack/-/A-93434673",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-high-rise-pull-on-denim-utility-shorts-cat-38-jack-8482/-/A-92956780",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-knitted-pull-on-shorts-cat-jack/-/A-89601401",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-pull-on-woven-shorts-cat-jack/-/A-94474068",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/rufflebutts-toddler-girls-active-butterfly-shorts/-/A-1001544390",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-woven-embroidered-shorts-cat-38-jack-8482-white/-/A-93964117",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-woven-shorts-cat-jack/-/A-94636433",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-fleece-shorts-cat-jack/-/A-94492249",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-pull-on-woven-shorts-cat-jack/-/A-93205330",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-2pk-adaptive-knit-shorts-cat-jack-black-pink/-/A-79760523",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-french-terry-shorts-cat-38-jack-8482/-/A-94624495",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-french-terry-dolphin-shorts-art-class/-/A-94600761",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-fleece-shorts-art-class/-/A-94435221",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-double-waistband-pull-on-boxer-shorts-art-class/-/A-94133340",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-nylon-track-shorts-art-class/-/A-94340879",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-fleece-pull-on-shorts-art-class/-/A-94151920",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-ruffle-shorts-art-class/-/A-94350722",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-foldover-bike-shorts-art-class/-/A-94268742",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-ribbed-sweater-knit-shorts-art-class/-/A-94203991",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-kids-pull-on-chambray-elastic-waist-shorts/-/A-86508219",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-kids-tough-cotton-cartwheel-shorts/-/A-87254817",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-lands-end-kids-pull-on-solid-shorts/-/A-88499985",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-lands-end-kids-french-terry-shorts/-/A-88500029",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-kids-active-woven-shorts/-/A-87254552",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/hope-henry-girls-pull-on-cinched-waist-linen-short-kids/-/A-91302843",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-bluey-cabana-shorts-blue/-/A-94431036",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-minnie-mouse-gauze-cabana-shorts-pink/-/A-94431048",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-disney-stitch-terry-shorts-pink/-/A-94431068",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-disney-stitch-graphic-terry-shorts-blue/-/A-94431064",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-hello-kitty-tropical-floral-printed-gauze-shorts-pink/-/A-94653596",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/converse-174-girls-39-french-terry-ruched-side-shorts/-/A-93421495",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/converse-girls-pull-on-shorts/-/A-94687312",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/converse-174-girls-39-french-terry-shorts/-/A-93421498",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/converse-174-girls-39-stretch-french-terry-shorts-pink/-/A-93421500",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-olivia-rodrigo-fleece-shorts-art-class-gray/-/A-93069446",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/converse-girls-french-terry-ruched-side-shorts-violet/-/A-94405038",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-def-leppard-fleece-shorts-light-purple/-/A-93069445",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/kids-cabana-striped-shorts-olive-scout-x-julie-sousa/-/A-1004218980",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/kids-crochet-knit-shorts-olive-scout-x-julie-sousa/-/A-1004219019",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/sol-angeles-kids-circle-waves-short/-/A-1003686953",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/kids-grayson-shorts-olive-scout/-/A-1002731470",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/sol-angeles-kids-black-white-stripe-short/-/A-1003707673",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/sol-angeles-kids-circle-waves-short/-/A-1003707657",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-printed-swim-shorts-butterflies-on-multicolored-and-black-background/-/A-1004084089",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-moana-gauze-cabana-shorts-orange/-/A-94431056",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-school-uniform-kids-mesh-athletic-gym-shorts/-/A-86739856",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/kids-mason-corduroy-shorts-olive-scout/-/A-1002255224",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/primary-kids-staycool-stretch-gym-short/-/A-1002734697",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/primary-kids-park-short/-/A-1003048804",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/sol-angeles-kids-coastal-waves-short/-/A-1003707665",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/primary-kids-under-short-5-pack/-/A-1002936767",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/hanes-girls-jersey-shorts-3-pack/-/A-1003254551",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/kids-organic-athletic-shorts-ochre/-/A-1002580201",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/kids-kash-sweat-shorts-olive-scout/-/A-1002560672",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-kids-husky-pull-on-elastic-waist-shorts/-/A-1003620050",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/sol-angeles-kids-circle-waves-short/-/A-1003707689",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/hope-henry-girls-organic-french-terry-pull-on-short-kids/-/A-1001269905",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/city-threads-usa-made-cotton-girls-soft-upf-50-jersey-pocket-shorts/-/A-91533870",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/primary-kids-flexknit-gym-short/-/A-1002936527",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/kids-organic-pull-on-shorts-orange-chambray-jackalo/-/A-1000008481",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/dragonwing-high-waisted-compression-shorts/-/A-1002526752",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/hope-henry-girls-organic-stretch-chino-pull-on-short-kids/-/A-1001269938",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/kids-organic-athletic-shorts-parakeet/-/A-1002580209",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-printed-swim-shorts-multicolored-13-years/-/A-1004084084",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-printed-french-terry-short-pink-and-coral-houses/-/A-1003450039",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mightly-girls-fair-trade-organic-cotton-bike-shorts-3-pack/-/A-1004010372",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/sol-angeles-kids-beckett-swim-shorts/-/A-1003707680",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/champion-girls-fleece-shorts-with-taping/-/A-94603328",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-printed-gingham-short-lilac-and-pink/-/A-1003715284",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/eg-pro-basic-training-youth-graded-short-with-pockets/-/A-1001402909",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/gender-neutral-bluepeter-short-me-henry/-/A-1001177608",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts, Fashion Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/primary-kids-gym-short/-/A-1002590138",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/sol-angeles-kids-terry-short/-/A-1003707641",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/primary-kids-staycool-stretch-running-short/-/A-1002748367",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts, Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/vizari-kids-napa-soccer-shorts-for-for-boys-and-girls/-/A-90738049",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts, Trouser Shorts",
+      filters: {
+        type: "Trouser Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/vizari-kids-trento-soccer-shorts-for-for-boys-and-girls/-/A-90738012",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts, Trouser Shorts",
+      filters: {
+        type: "Trouser Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/vizari-kids-dynamo-soccer-shorts-for-boys-and-girls/-/A-90737987",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts, Trouser Shorts",
+      filters: {
+        type: "Trouser Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-lands-end-school-uniform-kids-solid-box-pleat-skirt-above-knee/-/A-87673532",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-school-uniform-kids-plaid-box-pleat-skirt-top-of-the-knee/-/A-87148504",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-tiered-midi-skirt-cat-38-jack-8482-cream/-/A-94492241",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-tiered-gingham-skirt-cat-jack/-/A-94486617",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-midi-skirt-cat-38-jack-8482-indigo/-/A-94624498",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-39-rainbow-39-tulle-skirt-cat-38-jack-8482/-/A-93143387",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-lands-end-school-uniform-kids-solid-box-pleat-skirt-top-of-knee/-/A-88529244",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-smocked-39-floral-39-ruffle-skirt-cat-38-jack-8482-white/-/A-94472334",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-tulle-skirt-cat-38-jack-8482/-/A-93171131",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-smocked-ruffle-skirt-cat-38-jack-8482-white/-/A-94408557",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-tiered-eyelet-skort-cat-38-jack-8482/-/A-93143376",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-floral-chiffon-skort-cat-38-jack-8482/-/A-94492225",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-maxi-skirt-cat-jack-black/-/A-50873239",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-tennis-skort-art-class/-/A-94610878",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-smocked-tiered-mini-skirt-art-class/-/A-94600766",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-smocked-drop-waist-tiered-floral-skirt-art-class/-/A-94133381",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lace-trim-a-line-mini-skort-art-class/-/A-94340527",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-lands-end-school-uniform-kids-ponte-pleat-skirt/-/A-87669954",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/city-threads-usa-made-cotton-soft-girls-jersey-tiered-skirt/-/A-91855162",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-lands-end-school-uniform-kids-solid-pleated-skirt-below-the-knee/-/A-88529113",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-school-uniform-kids-solid-box-pleat-skirt-below-the-knee/-/A-91378904",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/miamore-gigi-peasant-skirt-and-hat-with-hair-accessory/-/A-93976751",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Full Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-school-uniform-kids-plaid-a-line-skirt-below-the-knee/-/A-87148006",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-summer-high-waisted-maxi-skirt-ruffle-hem-cute-long-skirts-with-elastic-waistband-for-kid-girl-5-14y/-/A-1002527820",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mi-amore-gigi-peasant-skirt-flower-hair-accessory/-/A-93962695",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Full Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/rufflebutts-girls-active-tulle-skort/-/A-1003240000",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Tutus",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girl-s-button-midi-skirts-casual-high-elastic-waist-a-line-pleated-midi-chiffon-pink-skirts-with-pockets/-/A-1003989488",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-lands-end-school-uniform-kids-plaid-pleated-skirt-below-the-knee/-/A-87671869",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-denim-skirts-high-waist-pleated-a-line-skirts-midi-skirts-side-button-skirts-girls-bottoms/-/A-93726800",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Full Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-school-uniform-kids-slim-plaid-a-line-skirt-below-the-knee/-/A-87148955",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/hope-henry-girls-organic-pleated-skirt-with-buckle-detail-kids/-/A-92959164",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/maxi-skorts-skirt-for-girls-button-front-ruffle-high-waisted-long-skirts-with-belt-and-pocket-3-12-years/-/A-91842342",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-ruffled-maxi-skirts-high-waisted-long-skirt-with-belt-button-front-skirts-with-pocket-grey-5-14y/-/A-1002515399",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-long-skirt-high-waist-drawstring-swing-maxi-skirt-with-pockets/-/A-1002551297",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/dragonwing-classic-athletic-skirt/-/A-1001547110",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Asymmetrical Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/sol-angeles-kids-rib-tier-skirt/-/A-1004107855",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Full Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-ruffled-skirts-summer-highwaist-maxi-skirts-for-girls-a-line-adjustable-drawstring-skirts-with-irregular-hem/-/A-1003250553",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Full Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-printed-chambray-skort-navy-blue-and-white-hearts/-/A-1004053122",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/rufflebutts-girls-dotted-tulle-skirt/-/A-1003240083",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Tutus",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-kids-pique-knit-skirt/-/A-1002457976",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Jean Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girl-s-organic-twill-pinafore-skirt-jackalo/-/A-93962680",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/kids-solid-pleated-skirt-below-the-knee-girls-satin-skirts/-/A-91883769",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/city-threads-usa-made-girls-novelty-circle-skirt/-/A-1003417822",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Circle Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/rufflebutts-girls-active-skort/-/A-1001827142",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Full Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-skirts-with-ruffle-sleeve-tops-tie-detail-skirts-ruffled-trim-girls-tops-with-pleated-flutter-skirts/-/A-93313016",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Pencil Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/hope-henry-girls-linen-pull-on-pleated-bow-skort-kids/-/A-1000873134",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-printed-chambray-skort-blue-and-white-cherries/-/A-1004053100",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-flowy-shorts-with-pockets-athletic-running-skirt-high-waist/-/A-1002808557",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-eiffel-tower-eyelet-skirt-petit-confection/-/A-1001050649",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-2pcs-cute-color-printed-short-sleeve-shirt-and-elastic-high-waist-bow-a-line-skirt-sets/-/A-1002568947",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-pleated-elastic-high-waist-a-line-swing-maxi-long-metallic-shiny-shimmer-skirt/-/A-1002761977",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/dragonwing-vitality-skirt/-/A-1002427200",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Asymmetrical Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-tiered-elastic-waist-skirt-green-with-white-and-pink-bird/-/A-1003009436",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-bow-top-and-ruffled-skirt-set-white-and-black-striped/-/A-1003009419",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Full Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-a-line-denim-midi-skirt-casual-pleated-buttons-over-knee-skirts-with-pocket-3-12y/-/A-1002529738",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/dragonwing-harmony-skirt/-/A-1001647400",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Circle Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/champion-girls-a-line-skort/-/A-94603342",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/a-leading-role-pink-mermaid-premium-child-transformation-skirt/-/A-1005085567",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Full Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/a-leading-role-yellow-mermaid-premium-child-transformation-skirt/-/A-1005084425",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Full Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/a-leading-role-aqua-mermaid-premium-child-transformation-skirt/-/A-1005085589",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Full Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/a-leading-role-purple-mermaid-premium-child-transformation-skirt/-/A-1005085518",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Full Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-printed-mesh-skirt-lilac-tropical-and-pink-flamingos/-/A-1003009024",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-printed-mesh-skirt-pink-and-green/-/A-1003009159",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girl-selma-floral-pinafore-skirt-early-sunday/-/A-1003530749",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girl-boho-floral-skirt-cozmo/-/A-1003530637",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-printed-ruffle-skirt-black-and-pink-butterflies/-/A-1003009201",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-tulle-glitter-skirt-petit-confection/-/A-1000916599",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-hello-kitty-ruched-waist-skirt-red/-/A-94365246",
+      tags: "Bell Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "Bell Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-stitch-ruched-waist-skirt-cream/-/A-94365265",
+      tags: "Bell Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "Bell Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-smocked-waist-tiered-skort-art-class/-/A-94340877",
+      tags: "Bottoms, Circle Skirts, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "Circle Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-smocked-waist-tiered-circle-skirt-art-class/-/A-94151935",
+      tags: "Bottoms, Circle Skirts, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "Circle Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/city-threads-usa-made-cotton-soft-girls-jersey-twirly-skirt/-/A-91855820",
+      tags: "Bottoms, Circle Skirts, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "Circle Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-stitch-tiered-skirt-the-disney-collection-by-cat-jack-cream/-/A-94439683",
+      tags: "Bottoms, Circle Skirts, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "Circle Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-drop-waist-pleated-denim-skirt-art-class/-/A-94203973",
+      tags: "Bottoms, Full Skirts, Girls’ Clothing, Kids’ Clothing, Skirts, Jean Skirts",
+      filters: {
+        type: "Full Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-tiered-maxi-skirt-art-class/-/A-94340526",
+      tags: "Bottoms, Full Skirts, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "Full Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/converse-174-girls-39-poplin-skirt-pink/-/A-93529415",
+      tags: "Bottoms, Full Skirts, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "Full Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/converse-girls-french-terry-skort/-/A-94687316",
+      tags: "Bottoms, Full Skirts, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "Full Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/converse-174-girls-39-poplin-skirt-tan/-/A-93529416",
+      tags: "Bottoms, Full Skirts, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "Full Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/converse-174-girls-39-jersey-skirt-white/-/A-93529414",
+      tags: "Bottoms, Full Skirts, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "Full Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/a-leading-role-orange-mermaid-premium-child-transformation-skirt/-/A-1005084517",
+      tags: "Bottoms, Full Skirts, Girls’ Clothing, Kids’ Clothing, Skirts",
+      filters: {
+        type: "Full Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-denim-skirt-cat-38-jack-8482-white/-/A-92780643",
+      tags: "Bottoms, Girls’ Clothing, Jean Skirts, Kids’ Clothing, Skirts",
+      filters: {
+        type: "Jean Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-denim-ruffle-flare-skirt-cat-38-jack-8482/-/A-94492215",
+      tags: "Bottoms, Girls’ Clothing, Jean Skirts, Kids’ Clothing, Skirts",
+      filters: {
+        type: "Jean Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-paperbag-waist-cargo-skirt-cat-38-jack-8482-pink/-/A-94492231",
+      tags: "Bottoms, Girls’ Clothing, Jean Skirts, Kids’ Clothing, Skirts",
+      filters: {
+        type: "Jean Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-button-front-denim-skirt-cat-38-jack-8482/-/A-94492212",
+      tags: "Bottoms, Girls’ Clothing, Jean Skirts, Kids’ Clothing, Skirts",
+      filters: {
+        type: "Jean Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-denim-skirtall-cat-38-jack-8482-gray-wash/-/A-92922259",
+      tags: "Bottoms, Girls’ Clothing, Jean Skirts, Kids’ Clothing, Skirts",
+      filters: {
+        type: "Jean Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-paperbag-waist-embroidered-cargo-skirt-cat-38-jack-8482-cream/-/A-94492232",
+      tags: "Bottoms, Girls’ Clothing, Jean Skirts, Kids’ Clothing, Skirts",
+      filters: {
+        type: "Jean Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-pleated-denim-mini-skirt-art-class/-/A-94473849",
+      tags: "Bottoms, Girls’ Clothing, Jean Skirts, Kids’ Clothing, Skirts",
+      filters: {
+        type: "Jean Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/levi-s-girls-rodeo-cargo-skort-medium-wash/-/A-94708626",
+      tags: "Bottoms, Girls’ Clothing, Jean Skirts, Kids’ Clothing, Skirts",
+      filters: {
+        type: "Jean Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/levi-39-s-174-girls-39-floral-embroidered-mash-up-denim-skirt-light-wash/-/A-93018589",
+      tags: "Bottoms, Girls’ Clothing, Jean Skirts, Kids’ Clothing, Skirts",
+      filters: {
+        type: "Jean Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/levi-39-s-174-girls-39-high-rise-denim-cargo-skort-medium-wash/-/A-93018590",
+      tags: "Bottoms, Girls’ Clothing, Jean Skirts, Kids’ Clothing, Skirts",
+      filters: {
+        type: "Jean Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/rufflebutts-girls-ruffled-skort/-/A-91604109",
+      tags: "Bottoms, Girls’ Clothing, Jean Skirts, Kids’ Clothing, Skirts",
+      filters: {
+        type: "Jean Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-denim-skirts-with-side-pockets-pleated-hem-skirts-casual-mini-denim-skirts/-/A-93726795",
+      tags: "Bottoms, Girls’ Clothing, Jean Skirts, Kids’ Clothing, Skirts",
+      filters: {
+        type: "Jean Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-chambray-skort-navy-blue/-/A-1004053053",
+      tags: "Bottoms, Girls’ Clothing, Jean Skirts, Kids’ Clothing, Skirts",
+      filters: {
+        type: "Jean Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-kids-athletic-active-skort/-/A-88570998",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Skorts",
+      filters: {
+        type: "Skorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-kids-knit-skort/-/A-86738553",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Skorts",
+      filters: {
+        type: "Skorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-knit-patch-pocket-skort-cat-jack/-/A-90866795",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Skorts",
+      filters: {
+        type: "Skorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-floral-woven-skort-cat-38-jack-8482/-/A-94624494",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Skorts",
+      filters: {
+        type: "Skorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-school-uniform-kids-blend-chino-skort-top-of-knee/-/A-87148749",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Skorts",
+      filters: {
+        type: "Skorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-pull-on-knit-skort-cat-38-jack/-/A-94624499",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Skorts",
+      filters: {
+        type: "Skorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-tiered-knit-skort-cat-38-jack-8482/-/A-92929060",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Skorts",
+      filters: {
+        type: "Skorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-gauze-woven-skort-cat-38-jack-8482/-/A-94624500",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Skorts",
+      filters: {
+        type: "Skorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-tiered-skort-cat-jack/-/A-93205332",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Skorts",
+      filters: {
+        type: "Skorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-knit-skort-art-class/-/A-93460935",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Skorts",
+      filters: {
+        type: "Skorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-fleece-skort-art-class/-/A-94435217",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Skorts",
+      filters: {
+        type: "Skorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-kids-smocked-skorts/-/A-91379442",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Skorts",
+      filters: {
+        type: "Skorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-lands-end-school-uniform-kids-ponte-button-front-skort/-/A-87671114",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Skorts",
+      filters: {
+        type: "Skorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-school-uniform-kids-blend-chino-skort-above-knee/-/A-87148851",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Skorts",
+      filters: {
+        type: "Skorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-school-uniform-kids-solid-a-line-skirt-below-the-knee/-/A-87148983",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Skorts",
+      filters: {
+        type: "Skorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-kids-slim-solid-a-line-skirt-below-the-knee/-/A-87149576",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Skorts",
+      filters: {
+        type: "Skorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-hello-kitty-friends-pleated-woven-skort-blue/-/A-94431149",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Skorts",
+      filters: {
+        type: "Skorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-hello-kitty-friends-pleated-woven-skort-off-white/-/A-94431150",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Skorts",
+      filters: {
+        type: "Skorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-school-uniform-kids-slim-blend-chino-skort-above-knee/-/A-87149380",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Skorts",
+      filters: {
+        type: "Skorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-school-uniform-kids-slim-side-pleat-plaid-skort-above-knee/-/A-86739308",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Skorts",
+      filters: {
+        type: "Skorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-school-uniform-kids-slim-blend-chino-skort-top-of-knee/-/A-87149573",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Skorts",
+      filters: {
+        type: "Skorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-kids-plaid-pleated-skort-top-of-knee/-/A-87672154",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Skorts",
+      filters: {
+        type: "Skorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-lands-end-school-uniform-kids-solid-pleated-skort-top-of-knee/-/A-88829568",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Skorts",
+      filters: {
+        type: "Skorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-school-uniform-kids-side-pleat-plaid-skort-above-knee/-/A-86739440",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Skorts",
+      filters: {
+        type: "Skorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mi-amore-gigi-pink-tutu-hairband-set-osfm-pink/-/A-94177878",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Tutus",
+      filters: {
+        type: "Tutus",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girl-s-ballet-skirt-sl61-pull-on-skirt-florence-by-so-danca-many-colors/-/A-1004644079",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Tutus",
+      filters: {
+        type: "Tutus",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mi-amore-gigi-leopard-tutu-bow-set-osfm-brown/-/A-94177879",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Tutus",
+      filters: {
+        type: "Tutus",
+      },
+    },
+    {
+      url: "https://www.target.com/p/a-leading-role-strawberry-shortcake-premium-child-berry-blue-tulle-skirt/-/A-93001201",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts, Tutus",
+      filters: {
+        type: "Tutus",
+      },
+    },
+    {
+      url: "https://www.target.com/p/toddler-girls-gingham-skirt-cat-jack-blue/-/A-94339785",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/barbie-girls-2-pack-skorts-toddler-to-big-kid/-/A-92190028",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/rufflebutts-baby-toddler-girls-dotted-tulle-skirt/-/A-1003240087",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Tutus",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mi-amore-gigi-tutu-set-of-4-osfm-multicolored/-/A-1000042480",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Tutus",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/dreamworks-gabby-s-dollhouse-pandy-paws-cakey-cat-baby-box-girls-2-pack-skorts-little-kid-to-big/-/A-92749773",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/rufflebutts-toddler-active-tulle-skort/-/A-1002889788",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing, Tutus",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-skirts-with-white-blouse-ruffle-long-sleeve-button-down-shirt-and-pleated-skirt-school-uniform-2-piece-outfit/-/A-93725749",
+      tags: "A-line Skirts, Bottoms, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "A-line Skirts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mizuno-yth-recover-jogger/-/A-1002768610",
+      tags: "Athletic Jogger Pants, Bottoms, Girls’ Clothing, Kids’ Clothing",
       filters: {
         type: "Athletic Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/girls-bluey-dreamy-fleece-sweatpants-aqua-blue/-/A-93447103",
-      tags: "Activewear, Athletic Jogger Pants, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing",
-      filters: {
-        type: "Athletic Jogger Pants",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-39-moana-2-dreamy-fleece-athletic-jogger-pants-ivory/-/A-92237499",
-      tags: "Activewear, Athletic Jogger Pants, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing",
-      filters: {
-        type: "Athletic Jogger Pants",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-everyday-soft-flare-leggings-all-in-motion/-/A-91496582",
-      tags: "Activewear, Athletic Leggings, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing",
-      filters: {
-        type: "Athletic Leggings",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-everyday-soft-pocket-leggings-all-in-motion/-/A-94471816",
-      tags: "Activewear, Athletic Leggings, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing",
-      filters: {
-        type: "Athletic Leggings",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-everyday-soft-crossover-waistband-leggings-all-in-motion/-/A-94502461",
-      tags: "Activewear, Athletic Leggings, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing",
-      filters: {
-        type: "Athletic Leggings",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-everyday-soft-jogger-leggings-all-in-motion/-/A-94739697",
-      tags: "Activewear, Athletic Leggings, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing",
-      filters: {
-        type: "Athletic Leggings",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-39-everyday-soft-leggings-all-in-motion/-/A-91349102",
-      tags: "Activewear, Athletic Leggings, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing",
-      filters: {
-        type: "Athletic Leggings",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-everyday-soft-piped-leggings-all-in-motion/-/A-94739704",
-      tags: "Activewear, Athletic Leggings, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing",
-      filters: {
-        type: "Athletic Leggings",
-      },
-    },
-    {
-      url: "https://www.target.com/p/city-threads-usa-made-100-cotton-soft-girls-capri-leggings/-/A-91227917",
-      tags: "Activewear, Athletic Leggings, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing",
-      filters: {
-        type: "Athletic Leggings",
-      },
-    },
-    {
-      url: "https://www.target.com/p/city-threads-usa-made-girls-soft-100-cotton-solid-colored-leggings/-/A-90529881",
-      tags: "Activewear, Athletic Leggings, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing",
-      filters: {
-        type: "Athletic Leggings",
-      },
-    },
-    {
-      url: "https://www.target.com/p/city-threads-usa-made-girls-soft-organic-cotton-leggings/-/A-90842162",
-      tags: "Activewear, Athletic Leggings, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing",
-      filters: {
-        type: "Athletic Leggings",
-      },
-    },
-    {
-      url: "https://www.target.com/p/city-threads-usa-made-girls-soft-fleece-stretch-leggings/-/A-90790246",
-      tags: "Activewear, Athletic Leggings, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing",
-      filters: {
-        type: "Athletic Leggings",
-      },
-    },
-    {
-      url: "https://www.target.com/p/city-threads-usa-made-girls-novelty-stretch-leggings/-/A-90567962",
-      tags: "Activewear, Athletic Leggings, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing",
-      filters: {
-        type: "Athletic Leggings",
-      },
-    },
-    {
-      url: "https://www.target.com/p/city-threads-usa-made-girls-soft-cotton-ruffle-leggings/-/A-90842436",
-      tags: "Activewear, Athletic Leggings, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing",
-      filters: {
-        type: "Athletic Leggings",
-      },
-    },
-    {
-      url: "https://www.target.com/p/city-threads-girls-100-cotton-leggings-usa-made-soft-breathable-sensory-friendly-for-kids-toddlers-heather-grey/-/A-1001847747",
-      tags: "Activewear, Athletic Leggings, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing",
-      filters: {
-        type: "Athletic Leggings",
-      },
-    },
-    {
-      url: "https://www.target.com/p/city-threads-usa-made-girls-soft-stripe-leggings/-/A-91267609",
-      tags: "Activewear, Athletic Leggings, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing",
-      filters: {
-        type: "Athletic Leggings",
-      },
-    },
-    {
-      url: "https://www.target.com/p/reebok-girls-adventure-compression-athletic-pants/-/A-1004767006",
-      tags: "Activewear, Athletic Leggings, Girls’ Activewear, Athletic Pants, Bottoms, Girls’ Clothing, Kids’ Clothing",
-      filters: {
-        type: "Athletic Leggings",
-      },
-    },
-    {
-      url: "https://www.target.com/p/reebok-girls-adventure-compression-athletic-pants/-/A-1004732941",
-      tags: "Activewear, Athletic Leggings, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing",
-      filters: {
-        type: "Athletic Leggings",
-      },
-    },
-    {
-      url: "https://www.target.com/p/reebok-girls-adventure-compression-athletic-pants/-/A-1004766516",
-      tags: "Activewear, Athletic Leggings, Girls’ Activewear, Athletic Pants, Bottoms, Girls’ Clothing, Kids’ Clothing",
-      filters: {
-        type: "Athletic Leggings",
-      },
-    },
-    {
-      url: "https://www.target.com/p/reebok-girls-adventure-compression-athletic-pants/-/A-1004766870",
-      tags: "Activewear, Athletic Leggings, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing",
-      filters: {
-        type: "Athletic Leggings",
-      },
-    },
-    {
-      url: "https://www.target.com/p/reebok-girls-fleece-yoga-pants/-/A-1004737729",
-      tags: "Activewear, Athletic Leggings, Girls’ Activewear, Athletic Pants, Bottoms, Girls’ Clothing, Kids’ Clothing",
-      filters: {
-        type: "Athletic Leggings",
-      },
-    },
-    {
-      url: "https://www.target.com/p/reebok-girls-geo-reflective-athletic-leggings/-/A-1004737982",
-      tags: "Activewear, Athletic Leggings, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing",
-      filters: {
-        type: "Athletic Leggings",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lands-end-kids-high-waisted-active-flare-leggings/-/A-88872406",
-      tags: "Activewear, Athletic Leggings, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing",
-      filters: {
-        type: "Athletic Leggings",
-      },
-    },
-    {
-      url: "https://www.target.com/p/destira-high-waisted-performance-leggings/-/A-1001540621",
-      tags: "Activewear, Athletic Leggings, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing",
-      filters: {
-        type: "Athletic Leggings",
-      },
-    },
-    {
-      url: "https://www.target.com/p/reebok-girls-core-compression-athletic-pants/-/A-1004737699",
-      tags: "Activewear, Athletic Leggings, Girls’ Activewear, Athletic Pants",
-      filters: {
-        type: "Athletic Leggings",
-      },
-    },
-    {
-      url: "https://www.target.com/p/reebok-girls-active-athletic-leggings/-/A-1004737705",
-      tags: "Activewear, Athletic Leggings, Girls’ Activewear",
-      filters: {
-        type: "Athletic Leggings",
-      },
-    },
-    {
-      url: "https://www.target.com/p/capezio-team-basics-active-legging-girls/-/A-84318447",
-      tags: "Activewear, Athletic Leggings, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing",
-      filters: {
-        type: "Athletic Leggings",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-active-comfort-jogger-pants-all-in-motion/-/A-94741236",
-      tags: "Activewear, Athletic Pants, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing",
+      url: "https://www.target.com/p/mizuno-yth-mizuno-power-warm-up-pants/-/A-90151249",
+      tags: "Athletic Pants, Bottoms, Girls’ Clothing, Kids’ Clothing",
       filters: {
         type: "Athletic Pants",
       },
     },
     {
-      url: "https://www.target.com/p/girls-active-light-wide-leg-pants-all-in-motion/-/A-94741288",
-      tags: "Activewear, Athletic Pants, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing",
+      url: "https://www.target.com/p/mizuno-youth-girl-s-prospect-softball-pant/-/A-84808521",
+      tags: "Athletic Pants, Bottoms, Girls’ Clothing, Kids’ Clothing",
       filters: {
         type: "Athletic Pants",
       },
     },
     {
-      url: "https://www.target.com/p/girls-modal-french-terry-flare-pants-all-in-motion/-/A-94471774",
-      tags: "Activewear, Athletic Pants, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing",
+      url: "https://www.target.com/p/rip-it-play-ball-softball-pant-black-l/-/A-94610754",
+      tags: "Athletic Pants, Bottoms, Girls’ Clothing, Kids’ Clothing",
       filters: {
         type: "Athletic Pants",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-woven-cargo-jogger-pants-all-in-motion/-/A-91184117",
-      tags: "Activewear, Athletic Pants, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing",
+      url: "https://www.target.com/p/mizuno-youth-girl-s-belted-softball-pant/-/A-76144129",
+      tags: "Athletic Pants, Bottoms, Girls’ Clothing, Kids’ Clothing",
       filters: {
         type: "Athletic Pants",
       },
     },
     {
-      url: "https://www.target.com/p/girls-cozy-lightweight-flare-pants-all-in-motion/-/A-93297432",
-      tags: "Activewear, Athletic Pants, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing",
+      url: "https://www.target.com/p/rip-it-play-ball-softball-pant-white-l/-/A-94610757",
+      tags: "Athletic Pants, Bottoms, Girls’ Clothing, Kids’ Clothing",
       filters: {
         type: "Athletic Pants",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-minnie-mouse-ditsy-floral-dreamy-fleece-sweatpants-ivory/-/A-93599962",
-      tags: "Activewear, Athletic Pants, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing",
+      url: "https://www.target.com/p/mizuno-girl-s-belted-stretch-softball-pant/-/A-79260612",
+      tags: "Athletic Pants, Bottoms, Girls’ Clothing, Kids’ Clothing",
       filters: {
         type: "Athletic Pants",
       },
     },
     {
-      url: "https://www.target.com/p/90-degree-by-reflex-girls-vintage-faux-cracked-leather-high-waist-legging/-/A-93560996",
-      tags: "Activewear, Athletic Pants, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing",
+      url: "https://www.target.com/p/minus33-merino-wool-midweight-kid-s-base-layer-bottom-100-merino-wool/-/A-89832570",
+      tags: "Athletic Pants, Bottoms, Girls’ Clothing, Kids’ Clothing",
       filters: {
         type: "Athletic Pants",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-team-basics-pant-girls/-/A-84318432",
-      tags: "Activewear, Athletic Pants, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing",
+      url: "https://www.target.com/p/mizuno-youth-girl-s-padded-unbelted-softball-pants/-/A-76021663",
+      tags: "Athletic Pants, Bottoms, Girls’ Clothing, Kids’ Clothing",
       filters: {
         type: "Athletic Pants",
       },
     },
     {
-      url: "https://www.target.com/p/girls-run-shorts-all-in-motion/-/A-89627332",
-      tags: "Activewear, Athletic Shorts, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      url: "https://www.target.com/p/rip-it-play-ball-softball-pant-black-s/-/A-94610756",
+      tags: "Athletic Pants, Bottoms, Girls’ Clothing, Kids’ Clothing",
       filters: {
-        type: "Athletic Shorts",
+        type: "Athletic Pants",
       },
     },
     {
-      url: "https://www.target.com/p/girls-woven-shorts-all-in-motion/-/A-85772101",
-      tags: "Activewear, Athletic Shorts, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      url: "https://www.target.com/p/rip-it-play-ball-softball-pant-charcoal-l/-/A-94610800",
+      tags: "Athletic Pants, Bottoms, Girls’ Clothing, Kids’ Clothing",
       filters: {
-        type: "Athletic Shorts",
+        type: "Athletic Pants",
       },
     },
     {
-      url: "https://www.target.com/p/girls-gym-shorts-all-in-motion/-/A-81459139",
-      tags: "Activewear, Athletic Shorts, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      url: "https://www.target.com/p/rip-it-play-ball-softball-pant-white-xl/-/A-94610750",
+      tags: "Athletic Pants, Bottoms, Girls’ Clothing, Kids’ Clothing",
       filters: {
-        type: "Athletic Shorts",
+        type: "Athletic Pants",
       },
     },
     {
-      url: "https://www.target.com/p/girls-bike-shorts-all-in-motion/-/A-94501346",
-      tags: "Activewear, Athletic Shorts, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      url: "https://www.target.com/p/rip-it-play-ball-softball-pant-charcoal-xl/-/A-94610768",
+      tags: "Athletic Pants, Bottoms, Girls’ Clothing, Kids’ Clothing",
       filters: {
-        type: "Athletic Shorts",
+        type: "Athletic Pants",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-crossover-waistband-shorts-all-in-motion-8482/-/A-94253687",
-      tags: "Activewear, Athletic Shorts, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      url: "https://www.target.com/p/rip-it-play-ball-softball-pant-charcoal-m/-/A-94610764",
+      tags: "Athletic Pants, Bottoms, Girls’ Clothing, Kids’ Clothing",
       filters: {
-        type: "Athletic Shorts",
+        type: "Athletic Pants",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-flowy-shorts-all-in-motion-8482/-/A-93297434",
-      tags: "Activewear, Athletic Shorts, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      url: "https://www.target.com/p/rip-it-play-ball-softball-pant-charcoal-s/-/A-94610729",
+      tags: "Athletic Pants, Bottoms, Girls’ Clothing, Kids’ Clothing",
       filters: {
-        type: "Athletic Shorts",
+        type: "Athletic Pants",
       },
     },
     {
-      url: "https://www.target.com/p/girls-woven-piped-shorts-all-in-motion/-/A-94729833",
-      tags: "Activewear, Athletic Shorts, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      url: "https://www.target.com/p/studio-3-little-big-girl-s-3-pack-velour-jogger-sweatpants-sets/-/A-1000020854",
+      tags: "Bottom Sets, Bottoms, Girls’ Clothing, Kids’ Clothing, Pant Sets",
       filters: {
-        type: "Athletic Shorts",
+        type: "Bottom Sets",
       },
     },
     {
-      url: "https://www.target.com/p/girls-active-light-2-in-1-run-shorts-all-in-motion/-/A-93297149",
-      tags: "Activewear, Athletic Shorts, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      url: "https://www.target.com/p/studio-3-little-big-girls-4-pack-active-fleece-jogger-sweatpants/-/A-1000170415",
+      tags: "Bottom Sets, Bottoms, Girls’ Clothing, Kids’ Clothing, Pant Sets",
       filters: {
-        type: "Athletic Shorts",
+        type: "Bottom Sets",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-soft-stretch-shorts-all-in-motion-8482/-/A-93297585",
-      tags: "Activewear, Athletic Shorts, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      url: "https://www.target.com/p/girls-39-pull-on-wide-leg-cargo-pants-cat-38-jack-8482/-/A-94492235",
+      tags: "Bottoms, Cargo Pants, Girls’ Clothing, Kids’ Clothing",
       filters: {
-        type: "Athletic Shorts",
+        type: "Cargo Pants",
       },
     },
     {
-      url: "https://www.target.com/p/girls-active-light-side-pleated-woven-shorts-all-in-motion/-/A-94501349",
-      tags: "Activewear, Athletic Shorts, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      url: "https://www.target.com/p/girls-39-adaptive-woven-cargo-pull-on-pants-cat-38-jack-8482-sage-green/-/A-94600613",
+      tags: "Bottoms, Cargo Pants, Girls’ Clothing, Kids’ Clothing",
       filters: {
-        type: "Athletic Shorts",
+        type: "Cargo Pants",
       },
     },
     {
-      url: "https://www.target.com/p/girls-gymnastics-shorts-cat-jack-black/-/A-82391055",
-      tags: "Activewear, Athletic Shorts, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      url: "https://www.target.com/p/girls-mid-rise-wide-leg-cargo-jeans-art-class/-/A-92955225",
+      tags: "Bottoms, Cargo Pants, Girls’ Clothing, Kids’ Clothing, Jeans",
       filters: {
-        type: "Athletic Shorts",
+        type: "Cargo Pants",
       },
     },
     {
-      url: "https://www.target.com/p/city-threads-usa-made-100-cotton-girls-soft-bike-shorts/-/A-91228083",
-      tags: "Activewear, Athletic Shorts, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      url: "https://www.target.com/p/levi-s-girls-wide-leg-cargo-pants-olive-green/-/A-94708627",
+      tags: "Bottoms, Cargo Pants, Girls’ Clothing, Kids’ Clothing",
       filters: {
-        type: "Athletic Shorts",
+        type: "Cargo Pants",
       },
     },
     {
-      url: "https://www.target.com/p/city-threads-usa-made-printed-girls-novelty-bike-shorts/-/A-92159233",
-      tags: "Activewear, Athletic Shorts, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      url: "https://www.target.com/p/levi-s-girls-denim-parachute-cargo-pants-light-wash/-/A-93018543",
+      tags: "Bottoms, Cargo Pants, Girls’ Clothing, Kids’ Clothing",
       filters: {
-        type: "Athletic Shorts",
+        type: "Cargo Pants",
       },
     },
     {
-      url: "https://www.target.com/p/girls-athletic-tennis-skirts-shorts-elastic-high-waisted-mesh-golf-sport-skorts-with-2-pockets-for-kids-4-13y/-/A-1003878692",
-      tags: "Activewear, Athletic Shorts, Girls’ Activewear, Athletic Skirts, Athletic Skorts, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts, Skirts",
+      url: "https://www.target.com/p/levi-s-girls-parachute-cargo-pants-olive-green/-/A-94405043",
+      tags: "Bottoms, Cargo Pants, Girls’ Clothing, Kids’ Clothing",
       filters: {
-        type: "Athletic Shorts",
+        type: "Cargo Pants",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-messi-athletic-shorts-black/-/A-91616717",
-      tags: "Activewear, Athletic Shorts, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      url: "https://www.target.com/p/kids-corbin-corduroy-pants-olive-scout/-/A-1001820970",
+      tags: "Bottoms, Cargo Pants, Girls’ Clothing, Kids’ Clothing",
       filters: {
-        type: "Athletic Shorts",
+        type: "Cargo Pants",
       },
     },
     {
-      url: "https://www.target.com/p/destira-compression-sport-short/-/A-92090054",
-      tags: "Activewear, Athletic Shorts, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      url: "https://www.target.com/p/lands-end-school-uniform-kids-active-performance-chino-pants/-/A-92889680",
+      tags: "Bottoms, Chino Pants, Girls’ Clothing, Kids’ Clothing, Pull-on Pants",
       filters: {
-        type: "Athletic Shorts",
+        type: "Chino Pants",
       },
     },
     {
-      url: "https://www.target.com/p/mizuno-youth-girl-s-aero-vent-padded-sliding-short/-/A-82226194",
-      tags: "Activewear, Athletic Shorts, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      url: "https://www.target.com/p/lands-end-kids-stretch-pencil-pants/-/A-91378884",
+      tags: "Bottoms, Chino Pants, Girls’ Clothing, Kids’ Clothing",
       filters: {
-        type: "Athletic Shorts",
+        type: "Chino Pants",
       },
     },
     {
-      url: "https://www.target.com/p/90-degree-by-reflex-girls-2pk-lightstreme-start-line-running-short/-/A-1002432898",
-      tags: "Activewear, Athletic Shorts, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      url: "https://www.target.com/p/lands-end-kids-woven-pull-on-utility-cargo-pants/-/A-93027682",
+      tags: "Bottoms, Chino Pants, Girls’ Clothing, Kids’ Clothing, Pull-on Pants, Utility Pants",
       filters: {
-        type: "Athletic Shorts",
+        type: "Chino Pants",
       },
     },
     {
-      url: "https://www.target.com/p/destira-mystique-sport-short/-/A-92089203",
-      tags: "Activewear, Athletic Shorts, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      url: "https://www.target.com/p/rufflebutts-girls-ruffle-flare-pants/-/A-1000715360",
+      tags: "Bottoms, Fashion Pants, Girls’ Clothing, Kids’ Clothing, Pull-on Pants",
       filters: {
-        type: "Athletic Shorts",
+        type: "Fashion Pants",
       },
     },
     {
-      url: "https://www.target.com/p/mizuno-youth-vortex-v2-volleyball-short/-/A-90043782",
-      tags: "Activewear, Athletic Shorts, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      url: "https://www.target.com/p/flare-leggings/-/A-94177881",
+      tags: "Bottoms, Fashion Pants, Girls’ Clothing, Kids’ Clothing, Leggings",
       filters: {
-        type: "Athletic Shorts",
+        type: "Fashion Pants",
       },
     },
     {
-      url: "https://www.target.com/p/lands-end-school-uniform-kids-mesh-gym-shorts/-/A-86739863",
-      tags: "Activewear, Athletic Shorts, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      url: "https://www.target.com/p/mi-amore-gigi-black-velvet-bell-bottom-pants/-/A-1000043088",
+      tags: "Bottoms, Fashion Pants, Girls’ Clothing, Kids’ Clothing",
       filters: {
-        type: "Athletic Shorts",
+        type: "Fashion Pants",
       },
     },
     {
-      url: "https://www.target.com/p/destira-girls-high-waisted-performance-short/-/A-93874694",
-      tags: "Activewear, Athletic Shorts, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      url: "https://www.target.com/p/mi-amore-gigi-royal-blue-bell-bottom-pants/-/A-94177883",
+      tags: "Bottoms, Fashion Pants, Girls’ Clothing, Kids’ Clothing, Leggings",
       filters: {
-        type: "Athletic Shorts",
+        type: "Fashion Pants",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-team-basics-boys-cut-low-rise-short-girls/-/A-83927632",
-      tags: "Activewear, Athletic Shorts, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      url: "https://www.target.com/p/rufflebutts-toddler-girls-ruffle-flare-pants/-/A-1000715333",
+      tags: "Bottoms, Fashion Pants, Girls’ Clothing, Kids’ Clothing, Pull-on Pants",
       filters: {
-        type: "Athletic Shorts",
+        type: "Fashion Pants",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-team-basics-fold-over-boyshort-girls/-/A-84644851",
-      tags: "Activewear, Athletic Shorts, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      url: "https://www.target.com/p/mi-amore-gigi-rust-velvet-bell-bottom-pants/-/A-94175340",
+      tags: "Bottoms, Fashion Pants, Girls’ Clothing, Kids’ Clothing, Leggings",
       filters: {
-        type: "Athletic Shorts",
+        type: "Fashion Pants",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-team-basics-gusset-short-girls/-/A-84318205",
-      tags: "Activewear, Athletic Shorts, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      url: "https://www.target.com/p/girl-s-ruffle-my-feathers-flare-pants-with-ruffle-southern-grace/-/A-1000916379",
+      tags: "Bottoms, Fashion Pants, Girls’ Clothing, Kids’ Clothing, Lounge Pants",
       filters: {
-        type: "Athletic Shorts",
+        type: "Fashion Pants",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-team-basics-high-waisted-short-girls/-/A-84318303",
-      tags: "Activewear, Athletic Shorts, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      url: "https://www.target.com/p/girls-wide-leg-pants-high-elastic-smocked-waist-casual-cute-long-trousers/-/A-1002762989",
+      tags: "Bottoms, Fashion Pants, Girls’ Clothing, Kids’ Clothing",
       filters: {
-        type: "Athletic Shorts",
+        type: "Fashion Pants",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-knit-boyshort-girls/-/A-87696565",
-      tags: "Activewear, Athletic Shorts, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      url: "https://www.target.com/p/mi-amore-gigi-floral-legging-set/-/A-94183889",
+      tags: "Bottoms, Fashion Pants, Girls’ Clothing, Kids’ Clothing, Leggings",
       filters: {
-        type: "Athletic Shorts",
+        type: "Fashion Pants",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-classics-boy-short-girls/-/A-84318151",
-      tags: "Activewear, Athletic Shorts, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      url: "https://www.target.com/p/girls-high-waist-paperbag-pants-casual-fit-tapered-trousers-with-pockets/-/A-1002474498",
+      tags: "Bottoms, Fashion Pants, Girls’ Clothing, Kids’ Clothing",
       filters: {
-        type: "Athletic Shorts",
+        type: "Fashion Pants",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-girl-s-cloud-nine-sunburst-short-child/-/A-1003315611",
-      tags: "Activewear, Athletic Shorts, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing, Shorts",
+      url: "https://www.target.com/p/champion-girls-wide-leg-pleated-fleece-pants/-/A-94603324",
+      tags: "Bottoms, Fashion Pants, Girls’ Clothing, Kids’ Clothing",
       filters: {
-        type: "Athletic Shorts",
+        type: "Fashion Pants",
       },
     },
     {
-      url: "https://www.target.com/p/girls-dance-activewear-skirt-cat-jack-black/-/A-82390730",
-      tags: "Activewear, Athletic Skirts, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      url: "https://www.target.com/p/champion-girls-scuba-track-pants/-/A-94603325",
+      tags: "Bottoms, Fashion Pants, Girls’ Clothing, Kids’ Clothing",
       filters: {
-        type: "Athletic Skirts",
+        type: "Fashion Pants",
       },
     },
     {
-      url: "https://www.target.com/p/girls-dance-activewear-skirt-cat-jack-pink/-/A-82390729",
-      tags: "Activewear, Athletic Skirts, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      url: "https://www.target.com/p/mykids-usa-baby-girl-solid-color-mesh-patched-design-fleece-thickened-pants/-/A-1004608789",
+      tags: "Bottoms, Fashion Pants, Girls’ Clothing, Kids’ Clothing, Pull-on Pants",
       filters: {
-        type: "Athletic Skirts",
+        type: "Fashion Pants",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-women-s-future-star-pull-on-skirt/-/A-1003315387",
-      tags: "Activewear, Athletic Skirts, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing",
+      url: "https://www.target.com/p/girl-rayon-rib-skort-tenly/-/A-1004473732",
+      tags: "Bottoms, Fashion Shorts, Girls’ Clothing, Kids’ Clothing",
       filters: {
-        type: "Athletic Skirts",
+        type: "Fashion Shorts",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-girls-pull-on-skirt-girls/-/A-83927553",
-      tags: "Activewear, Athletic Skirts, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing",
+      url: "https://www.target.com/p/girls-39-wide-leg-jeans-cat-38-jack-8482/-/A-94492244",
+      tags: "Bottoms, Five Pocket Pants, Girls’ Clothing, Kids’ Clothing, Jeans",
       filters: {
-        type: "Athletic Skirts",
+        type: "Five Pocket Pants",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-glitter-tutu-girls/-/A-84644795",
-      tags: "Activewear, Athletic Skirts, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing",
+      url: "https://www.target.com/p/rufflebutts-toddler-girls-ruffled-skort/-/A-91546926",
+      tags: "Bottoms, Girls’ Clothing, Jean Skirts, Kids’ Clothing",
       filters: {
-        type: "Athletic Skirts",
+        type: "Jean Skirts",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-team-basics-skirt-with-built-in-short-girls/-/A-84644835",
-      tags: "Activewear, Athletic Skirts, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing",
+      url: "https://www.target.com/p/girls-39-mid-rise-floral-embroidery-wide-leg-jeans-cat-38-jack-8482-light-wash/-/A-92956782",
+      tags: "Bottoms, Girls’ Clothing, Jeans, Kids’ Clothing",
       filters: {
-        type: "Athletic Skirts",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/girls-everyday-soft-piped-skort-all-in-motion/-/A-93297148",
-      tags: "Activewear, Athletic Skorts, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      url: "https://www.target.com/p/girls-39-mid-rise-pull-on-wide-leg-denim-pants-cat-38-jack-8482/-/A-92992739",
+      tags: "Bottoms, Girls’ Clothing, Jeans, Kids’ Clothing",
       filters: {
-        type: "Athletic Skorts",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/girls-knit-skort-all-in-motion/-/A-94501348",
-      tags: "Activewear, Athletic Skorts, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      url: "https://www.target.com/p/girls-mid-rise-flare-jeans-cat-jack/-/A-88182199",
+      tags: "Bottoms, Girls’ Clothing, Jeans, Kids’ Clothing",
       filters: {
-        type: "Athletic Skorts",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/girls-active-light-pleated-skort-all-in-motion/-/A-94501355",
-      tags: "Activewear, Athletic Skorts, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      url: "https://www.target.com/p/girls-39-wide-leg-jeans-cat-38-jack-8482-light-wash/-/A-94492247",
+      tags: "Bottoms, Girls’ Clothing, Jeans, Kids’ Clothing",
       filters: {
-        type: "Athletic Skorts",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-flowy-woven-skort-all-in-motion-8482/-/A-94253690",
-      tags: "Activewear, Athletic Skorts, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      url: "https://www.target.com/p/girls-mid-rise-soft-knit-jeggings-cat-jack/-/A-50695212",
+      tags: "Bottoms, Girls’ Clothing, Jeans, Kids’ Clothing",
       filters: {
-        type: "Athletic Skorts",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/girls-airy-sleek-skort-all-in-motion/-/A-94756512",
-      tags: "Activewear, Athletic Skorts, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      url: "https://www.target.com/p/girls-mid-rise-bootcut-jeans-cat-jack/-/A-50722989",
+      tags: "Bottoms, Girls’ Clothing, Jeans, Kids’ Clothing",
       filters: {
-        type: "Athletic Skorts",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/girls-ruffle-skort-all-in-motion/-/A-94471817",
-      tags: "Activewear, Athletic Skorts, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      url: "https://www.target.com/p/girls-39-high-rise-flare-jeans-cat-38-jack-8482-dark-wash/-/A-94492227",
+      tags: "Bottoms, Girls’ Clothing, Jeans, Kids’ Clothing",
       filters: {
-        type: "Athletic Skorts",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/girls-airy-sleek-skort-all-in-motion/-/A-93297569",
-      tags: "Activewear, Athletic Skorts, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      url: "https://www.target.com/p/girls-39-mid-rise-floral-embroidered-cuff-wide-leg-jeans-cat-38-jack-8482-dark-wash/-/A-94492230",
+      tags: "Bottoms, Girls’ Clothing, Jeans, Kids’ Clothing",
       filters: {
-        type: "Athletic Skorts",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/girls-everyday-soft-piped-skort-all-in-motion/-/A-94471815",
-      tags: "Activewear, Athletic Skorts, Girls’ Activewear, Bottoms, Girls’ Clothing, Kids’ Clothing, Skirts",
+      url: "https://www.target.com/p/girls-mid-rise-pull-on-flare-jeans-cat-jack/-/A-88116637",
+      tags: "Bottoms, Girls’ Clothing, Jeans, Kids’ Clothing",
       filters: {
-        type: "Athletic Skorts",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-sandwash-1-2-zip-pullover-sweatshirt-all-in-motion/-/A-91270756",
-      tags: "Activewear, Athletic Sweatshirts, Girls’ Activewear, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/girls-39-mid-rise-denim-straight-jeans-cat-38-jack-8482/-/A-90992865",
+      tags: "Bottoms, Girls’ Clothing, Jeans, Kids’ Clothing",
       filters: {
-        type: "Athletic Sweatshirts",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/girls-active-comfort-full-zip-hooded-sweatshirt-all-in-motion/-/A-94739705",
-      tags: "Activewear, Athletic Sweatshirts, Girls’ Activewear, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/girls-39-mid-rise-patch-pocket-wide-leg-jeans-cat-38-jack-8482-light-wash/-/A-92922260",
+      tags: "Bottoms, Girls’ Clothing, Jeans, Kids’ Clothing",
       filters: {
-        type: "Athletic Sweatshirts",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-cozy-knit-jacket-all-in-motion-8482/-/A-94579748",
-      tags: "Activewear, Athletic Sweatshirts, Girls’ Activewear, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/girls-mid-rise-knit-waist-pull-on-skinny-jeans-cat-jack/-/A-54454335",
+      tags: "Bottoms, Girls’ Clothing, Jeans, Kids’ Clothing",
       filters: {
-        type: "Athletic Sweatshirts",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/girls-modal-french-terry-crewneck-sweatshirt-all-in-motion/-/A-94741248",
-      tags: "Activewear, Athletic Sweatshirts, Girls’ Activewear, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/girls-39-adaptive-wide-leg-jeans-cat-38-jack-8482-medium-wash/-/A-94600612",
+      tags: "Bottoms, Girls’ Clothing, Jeans, Kids’ Clothing",
       filters: {
-        type: "Athletic Sweatshirts",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/mizuno-youth-challenger-hoodie/-/A-84755524",
-      tags: "Activewear, Athletic Sweatshirts, Girls’ Activewear, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/girls-39-adaptive-flare-leg-jeans-cat-38-jack-8482-dark-wash/-/A-94600607",
+      tags: "Bottoms, Girls’ Clothing, Jeans, Kids’ Clothing",
       filters: {
-        type: "Athletic Sweatshirts",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/vapor-apparel-youth-upf-50-uv-sun-protection-solar-hoodie/-/A-94216434",
-      tags: "Activewear, Athletic Sweatshirts, Girls’ Activewear, Athletic T-Shirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/girls-high-rise-ultimate-stretch-skinny-jeans-cat-jack/-/A-85428400",
+      tags: "Bottoms, Girls’ Clothing, Jeans, Kids’ Clothing",
       filters: {
-        type: "Athletic Sweatshirts",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-girl-s-c-est-la-vie-joyeux-mesh-cover-up-child/-/A-1003315333",
-      tags: "Activewear, Athletic Sweatshirts, Girls’ Activewear, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/girls-adaptive-jeans-cat-jack-dark-wash/-/A-85404391",
+      tags: "Bottoms, Girls’ Clothing, Jeans, Kids’ Clothing",
       filters: {
-        type: "Athletic Sweatshirts",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/girls-short-sleeve-gym-t-shirt-all-in-motion/-/A-93071004",
-      tags: "Activewear, Athletic T-Shirts, Girls’ Activewear",
+      url: "https://www.target.com/p/girls-adaptive-jeans-cat-jack-light-wash/-/A-85404534",
+      tags: "Bottoms, Girls’ Clothing, Jeans, Kids’ Clothing",
       filters: {
-        type: "Athletic T-Shirts",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-short-sleeve-t-shirt-all-in-motion-8482-lilac-purple/-/A-94253688",
-      tags: "Activewear, Athletic T-Shirts, Girls’ Activewear",
+      url: "https://www.target.com/p/girls-mid-rise-wide-leg-carpenter-jeans-art-class-tan/-/A-93113728",
+      tags: "Bottoms, Girls’ Clothing, Jeans, Kids’ Clothing",
       filters: {
-        type: "Athletic T-Shirts",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/girls-short-sleeve-you-got-this-graphic-t-shirt-all-in-motion-light-teal-green/-/A-93071012",
-      tags: "Activewear, Athletic T-Shirts, Girls’ Activewear",
+      url: "https://www.target.com/p/girls-39-high-rise-baggy-jeans-art-class-8482/-/A-91212374",
+      tags: "Bottoms, Girls’ Clothing, Jeans, Kids’ Clothing",
       filters: {
-        type: "Athletic T-Shirts",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/girls-short-sleeve-t-shirt-all-in-motion/-/A-94369616",
-      tags: "Activewear, Athletic T-Shirts, Girls’ Activewear",
+      url: "https://www.target.com/p/girls-mid-rise-slouchy-wide-leg-jeans-art-class/-/A-94451988",
+      tags: "Bottoms, Girls’ Clothing, Jeans, Kids’ Clothing",
       filters: {
-        type: "Athletic T-Shirts",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/girls-short-sleeve-boxy-t-shirt-all-in-motion/-/A-93071009",
-      tags: "Activewear, Athletic T-Shirts, Girls’ Activewear",
+      url: "https://www.target.com/p/girls-mid-rise-barrel-leg-jeans-art-class/-/A-94451976",
+      tags: "Bottoms, Girls’ Clothing, Jeans, Kids’ Clothing",
       filters: {
-        type: "Athletic T-Shirts",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-seamless-crop-t-shirt-all-in-motion-8482/-/A-93070250",
-      tags: "Activewear, Athletic T-Shirts, Girls’ Activewear",
+      url: "https://www.target.com/p/lands-end-kids-iron-knee-denim-jeggings/-/A-87672521",
+      tags: "Bottoms, Girls’ Clothing, Jeans, Kids’ Clothing, Leggings",
       filters: {
-        type: "Athletic T-Shirts",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-beyond-ease-crop-boxy-t-shirt-all-in-motion-8482/-/A-94621425",
-      tags: "Activewear, Athletic T-Shirts, Girls’ Activewear",
+      url: "https://www.target.com/p/levi-s-girls-baggy-barrel-fit-jeans-medium-wash/-/A-94708630",
+      tags: "Bottoms, Girls’ Clothing, Jeans, Kids’ Clothing",
       filters: {
-        type: "Athletic T-Shirts",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-messi-silhouette-short-sleeve-graphic-t-shirt-pink/-/A-91616741",
-      tags: "Activewear, Athletic T-Shirts, Girls’ Activewear",
+      url: "https://www.target.com/p/levi-s-girls-baggy-fit-flare-jeans-light-wash/-/A-94708632",
+      tags: "Bottoms, Girls’ Clothing, Jeans, Kids’ Clothing",
       filters: {
-        type: "Athletic T-Shirts",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-hello-kitty-striped-jersey-pink/-/A-94431046",
-      tags: "Activewear, Athletic T-Shirts, Girls’ Activewear",
+      url: "https://www.target.com/p/levi-s-girls-726-cargo-flare-pants-pink/-/A-94708628",
+      tags: "Bottoms, Girls’ Clothing, Jeans, Kids’ Clothing",
       filters: {
-        type: "Athletic T-Shirts",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-cinnamoroll-striped-jersey-blue-off-white/-/A-94431038",
-      tags: "Activewear, Athletic T-Shirts, Girls’ Activewear",
+      url: "https://www.target.com/p/levi-s-girls-bootcut-jeans/-/A-89230714",
+      tags: "Bottoms, Girls’ Clothing, Jeans, Kids’ Clothing",
       filters: {
-        type: "Athletic T-Shirts",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-hello-kitty-coordinating-jersey-green-off-white/-/A-94431042",
-      tags: "Activewear, Athletic T-Shirts, Girls’ Activewear",
+      url: "https://www.target.com/p/levi-s-girls-pull-on-mid-rise-jeggings/-/A-81942008",
+      tags: "Bottoms, Girls’ Clothing, Jeans, Kids’ Clothing",
       filters: {
-        type: "Athletic T-Shirts",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-messi-logo-short-sleeve-graphic-t-shirt-black/-/A-91616740",
-      tags: "Activewear, Athletic T-Shirts, Girls’ Activewear",
+      url: "https://www.target.com/p/just-love-girls-woven-denim-jegging/-/A-1002609836",
+      tags: "Bottoms, Girls’ Clothing, Jeans, Kids’ Clothing, Leggings",
       filters: {
-        type: "Athletic T-Shirts",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/mizuno-youth-girl-s-short-sleeve-attack-tee-3-0/-/A-92084988",
-      tags: "Activewear, Athletic T-Shirts, Girls’ Activewear",
+      url: "https://www.target.com/p/just-love-jeggings-for-girls-comfortable-seamless-printed-leggings/-/A-1002609900",
+      tags: "Bottoms, Girls’ Clothing, Jeans, Kids’ Clothing, Leggings",
       filters: {
-        type: "Athletic T-Shirts",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/mizuno-youth-girl-s-long-sleeve-attack-tee/-/A-90043777",
-      tags: "Activewear, Athletic T-Shirts, Girls’ Activewear",
+      url: "https://www.target.com/p/kids-hudson-denim-jeans-olive-scout/-/A-1001821212",
+      tags: "Bottoms, Girls’ Clothing, Jeans, Kids’ Clothing",
       filters: {
-        type: "Athletic T-Shirts",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/mizuno-youth-mizuno-nxt-long-sleeve-tee/-/A-87893079",
-      tags: "Activewear, Athletic T-Shirts, Girls’ Activewear",
+      url: "https://www.target.com/p/girl-s-mid-rise-bootcut-jeans-lucky-blessed/-/A-1000527205",
+      tags: "Bottoms, Girls’ Clothing, Jeans, Kids’ Clothing",
       filters: {
-        type: "Athletic T-Shirts",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/mizuno-youth-mizuno-tee/-/A-79131609",
-      tags: "Activewear, Athletic T-Shirts, Girls’ Activewear",
+      url: "https://www.target.com/p/just-love-girls-woven-denim-jegging-29693-mdden-8/-/A-1002609799",
+      tags: "Bottoms, Girls’ Clothing, Jeans, Kids’ Clothing, Leggings",
       filters: {
-        type: "Athletic T-Shirts",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-strappy-crop-tank-160-top-all-in-motion-8482/-/A-93297429",
-      tags: "Activewear, Athletic Tank Tops, Girls’ Activewear",
+      url: "https://www.target.com/p/kids-organic-cotton-reinforced-straight-leg-pants-jackalo-denim/-/A-93874161",
+      tags: "Bottoms, Girls’ Clothing, Jeans, Kids’ Clothing, Pull-on Pants",
       filters: {
-        type: "Athletic Tank Tops",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-everyday-soft-bra-all-in-motion/-/A-91338686",
-      tags: "Activewear, Athletic Tank Tops, Girls’ Activewear",
+      url: "https://www.target.com/p/lucky-blessed-girl-s-bootcut-jeans/-/A-1000527283",
+      tags: "Bottoms, Girls’ Clothing, Jeans, Kids’ Clothing",
       filters: {
-        type: "Athletic Tank Tops",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/girls-twist-front-ribbed-t-shirt-all-in-motion/-/A-93297584",
-      tags: "Activewear, Athletic Tank Tops, Girls’ Activewear",
+      url: "https://www.target.com/p/girl-s-in-the-dark-of-night-flare-pants-southern-grace/-/A-1001165312",
+      tags: "Bottoms, Girls’ Clothing, Jeans, Kids’ Clothing, Lounge Pants",
       filters: {
-        type: "Athletic Tank Tops",
+        type: "Jeans",
       },
     },
     {
-      url: "https://www.target.com/p/girls-everyday-soft-tank-top-all-in-motion/-/A-94471782",
-      tags: "Activewear, Athletic Tank Tops, Girls’ Activewear",
+      url: "https://www.target.com/p/kids-39-adaptive-fleece-jogger-pants-cat-38-jack-8482/-/A-94576197",
+      tags: "Bottoms, Girls’ Clothing, Jogger Pants, Kids’ Clothing",
       filters: {
-        type: "Athletic Tank Tops",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-seamless-crop-tank-top-all-in-motion-8482/-/A-93070775",
-      tags: "Activewear, Athletic Tank Tops, Girls’ Activewear",
+      url: "https://www.target.com/p/kids-39-adaptive-fleece-jogger-pants-cat-38-jack-8482-heather-gray/-/A-94486504",
+      tags: "Bottoms, Girls’ Clothing, Jogger Pants, Kids’ Clothing",
       filters: {
-        type: "Athletic Tank Tops",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-racerback-160-tank-top-all-in-motion-8482/-/A-94334698",
-      tags: "Activewear, Athletic Tank Tops, Girls’ Activewear",
+      url: "https://www.target.com/p/girls-39-fleece-jogger-pants-cat-38-jack-8482/-/A-94492219",
+      tags: "Bottoms, Girls’ Clothing, Jogger Pants, Kids’ Clothing, Sweatpants",
       filters: {
-        type: "Athletic Tank Tops",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-muscle-tank-top-all-in-motion-8482/-/A-94369613",
-      tags: "Activewear, Athletic Tank Tops, Girls’ Activewear",
+      url: "https://www.target.com/p/leveret-kids-drawstring-jogger-pants/-/A-89317745",
+      tags: "Bottoms, Girls’ Clothing, Jogger Pants, Kids’ Clothing",
       filters: {
-        type: "Athletic Tank Tops",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/girls-everyday-soft-crop-tank-top-all-in-motion/-/A-93297151",
-      tags: "Activewear, Athletic Tank Tops, Girls’ Activewear",
+      url: "https://www.target.com/p/looney-tunes-bugs-bunny-character-youth-athletic-gray-jogger-pants/-/A-86218736",
+      tags: "Bottoms, Girls’ Clothing, Jogger Pants, Kids’ Clothing",
       filters: {
-        type: "Athletic Tank Tops",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/destira-sport-tank/-/A-92088857",
-      tags: "Activewear, Athletic Tank Tops, Girls’ Activewear",
+      url: "https://www.target.com/p/lands-end-kids-active-jogger-with-pockets/-/A-1004938727",
+      tags: "Bottoms, Girls’ Clothing, Jogger Pants, Kids’ Clothing",
       filters: {
-        type: "Athletic Tank Tops",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-team-basics-tank-top-with-racerback-girls/-/A-84642697",
-      tags: "Activewear, Athletic Tank Tops, Girls’ Activewear",
+      url: "https://www.target.com/p/lands-end-lands-end-kids-iron-knee-fleece-jogger-sweatpants/-/A-88860411",
+      tags: "Bottoms, Girls’ Clothing, Jogger Pants, Kids’ Clothing, Sweatpants",
       filters: {
-        type: "Athletic Tank Tops",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-classics-wrap-top-girls/-/A-83927906",
-      tags: "Activewear, Athletic Tank Tops, Girls’ Activewear, Athletic Wrap Shirts",
+      url: "https://www.target.com/p/lands-end-school-uniform-kids-active-track-pants/-/A-87869803",
+      tags: "Bottoms, Girls’ Clothing, Jogger Pants, Kids’ Clothing, Pull-on Pants",
       filters: {
-        type: "Athletic Tank Tops",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/eg-pro-core-mesh-girl-s-reversible-lacrosse-practice-jersey/-/A-1002668120",
-      tags: "Activewear, Athletic Vests, Girls’ Activewear",
+      url: "https://www.target.com/p/girls-39-moana-bike-shorts-green/-/A-94431054",
+      tags: "Bottoms, Girls’ Clothing, Jogger Pants, Kids’ Clothing",
       filters: {
-        type: "Athletic Vests",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/girls-corduroy-tracksuit-sets-hoodie-tracksuits-girls-athletic-sets-2-piece-sport-outfits-hoodie-sweatshirts-with-bootcut-pants/-/A-1003854003",
-      tags: "Activewear, Athletic Wear Sets, Girls’ Activewear, Track Suit Sets",
+      url: "https://www.target.com/p/girls-def-leppard-fleece-joggers-light-purple/-/A-93069442",
+      tags: "Bottoms, Girls’ Clothing, Jogger Pants, Kids’ Clothing",
       filters: {
-        type: "Athletic Wear Sets",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-women-s-wrap-sweater-girls/-/A-87696578",
-      tags: "Activewear, Athletic Wrap Shirts, Girls’ Activewear",
+      url: "https://www.target.com/p/girls-olivia-rodrigo-fleece-jogger-pants-gray/-/A-93069443",
+      tags: "Bottoms, Girls’ Clothing, Jogger Pants, Kids’ Clothing, Pull-on Pants",
       filters: {
-        type: "Athletic Wrap Shirts",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/danskin-kids-ballet-dance-shoes/-/A-81490950",
-      tags: "Activewear, Ballet Slippers, Girls’ Activewear, Dance Shoes, Girls’ Shoes, Kids’ Shoes, Shoes",
+      url: "https://www.target.com/p/primary-kids-flexknit-jogger/-/A-1002931625",
+      tags: "Bottoms, Girls’ Clothing, Jogger Pants, Kids’ Clothing",
       filters: {
-        type: "Ballet Slippers",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-daisy-ballet-shoe-child/-/A-84045557",
-      tags: "Activewear, Ballet Slippers, Girls’ Activewear, Dance Shoes, Girls’ Shoes, Kids’ Shoes, Shoes",
+      url: "https://www.target.com/p/disney-minnie-mouse-girls-fleece-2-pack-jogger-pants-little-kid-to-big-kid/-/A-87449356",
+      tags: "Bottoms, Girls’ Clothing, Jogger Pants, Kids’ Clothing",
       filters: {
-        type: "Ballet Slippers",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-hanami-ballet-shoe-child/-/A-84045362",
-      tags: "Activewear, Ballet Slippers, Girls’ Activewear, Dance Shoes, Girls’ Shoes, Kids’ Shoes, Shoes",
+      url: "https://www.target.com/p/sonic-the-hedgehog-modern-character-and-title-logo-youth-black-sweat-pants/-/A-86121539",
+      tags: "Bottoms, Girls’ Clothing, Jogger Pants, Kids’ Clothing",
       filters: {
-        type: "Ballet Slippers",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-women-s-future-star-ballet-shoe/-/A-1003315231",
-      tags: "Activewear, Ballet Slippers, Girls’ Activewear, Dance Shoes, Girls’ Shoes, Kids’ Shoes, Shoes",
+      url: "https://www.target.com/p/minecraft-create-explore-survive-youth-black-graphic-jogger-pants/-/A-86483737",
+      tags: "Bottoms, Girls’ Clothing, Jogger Pants, Kids’ Clothing",
       filters: {
-        type: "Ballet Slippers",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-future-star-ballet-shoe/-/A-93536976",
-      tags: "Activewear, Ballet Slippers, Girls’ Activewear, Dance Shoes, Girls’ Shoes, Kids’ Shoes, Shoes",
+      url: "https://www.target.com/p/disney-princess-moana-belle-rapunzel-jasmine-ariel-cinderella-girls-2-pack-pants-little-kid-to-big-kid/-/A-88398304",
+      tags: "Bottoms, Girls’ Clothing, Jogger Pants, Kids’ Clothing",
       filters: {
-        type: "Ballet Slippers",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/destira-catlandia-unitard/-/A-1001388020",
-      tags: "Activewear, Biketards, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/mightly-kids-fair-trade-organic-cotton-jogger-sweatpant/-/A-1004010364",
+      tags: "Bottoms, Girls’ Clothing, Jogger Pants, Kids’ Clothing, Sweatpants",
       filters: {
-        type: "Biketards",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/just-love-girls-bras-pack-of-4-comfortable-and-stylish-training-bras-for-girls/-/A-1002778594",
-      tags: "Activewear, Bralettes, Girls’ Activewear, Sports Bras",
+      url: "https://www.target.com/p/batman-mask-as-logo-drip-icon-athletic-heather-youth-sweatpants/-/A-89840245",
+      tags: "Bottoms, Girls’ Clothing, Jogger Pants, Kids’ Clothing",
       filters: {
-        type: "Bralettes",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/just-love-girls-bras-pack-of-6/-/A-1002779097",
-      tags: "Activewear, Bralettes, Girls’ Activewear, Sports Bras",
+      url: "https://www.target.com/p/adventure-is-an-attitude-on-youth-black-sweatpants/-/A-89840268",
+      tags: "Bottoms, Girls’ Clothing, Jogger Pants, Kids’ Clothing",
       filters: {
-        type: "Bralettes",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-foundations-brief-girls/-/A-84644752",
-      tags: "Activewear, Briefs, Girls’ Activewear",
+      url: "https://www.target.com/p/youth-boys-batman-line-art-dc-comic-heather-grey-sweatpants/-/A-89840278",
+      tags: "Bottoms, Girls’ Clothing, Jogger Pants, Kids’ Clothing",
       filters: {
-        type: "Briefs",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-team-basics-brief-girls/-/A-83927917",
-      tags: "Activewear, Briefs, Girls’ Activewear",
+      url: "https://www.target.com/p/disney-princess-cinderella-belle-jasmine-moana-rapunzel-ariel-girls-fleece-3-pack-pants-toddler-to-big-kid/-/A-87956696",
+      tags: "Bottoms, Girls’ Clothing, Jogger Pants, Kids’ Clothing",
       filters: {
-        type: "Briefs",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/girls-leotard-by-danz-n-motion-2465c-kennedy-ribbed-high-neck-classic/-/A-1002825437",
-      tags: "Activewear, Child Bodysuits, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/l-o-l-surprise-diva-bon-bon-girls-fleece-2-pack-pants-little-kid-to-big-kid/-/A-88148031",
+      tags: "Bottoms, Girls’ Clothing, Jogger Pants, Kids’ Clothing",
       filters: {
-        type: "Child Bodysuits",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/girl-cabriole-tank-leotard-wear-moi/-/A-1001401376",
-      tags: "Activewear, Child Bodysuits, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/minecraft-classic-logo-youth-athletic-gray-graphic-jogger-pants/-/A-86483731",
+      tags: "Bottoms, Girls’ Clothing, Jogger Pants, Kids’ Clothing",
       filters: {
-        type: "Child Bodysuits",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/girl-garcia-mesh-bodice-leotard-bloch/-/A-1001401303",
-      tags: "Activewear, Child Bodysuits, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/scooby-doo-scooby-snack-youth-black-graphic-sweats/-/A-89840273",
+      tags: "Bottoms, Girls’ Clothing, Jogger Pants, Kids’ Clothing",
       filters: {
-        type: "Child Bodysuits",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/girl-sarabande-leotard-wear-moi/-/A-1001401196",
-      tags: "Activewear, Child Bodysuits, Girls’ Activewear, Leotards",
+      url: "https://www.target.com/p/perfect-spirals-flaming-football-youth-jogger-pants/-/A-93130766",
+      tags: "Bottoms, Girls’ Clothing, Jogger Pants, Kids’ Clothing",
       filters: {
-        type: "Child Bodysuits",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/girl-concerto-camisole-leotard-wear-moi/-/A-1001401334",
-      tags: "Activewear, Child Bodysuits, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/mightly-kids-organic-cotton-lightweight-jogger-sweatpant/-/A-1004010282",
+      tags: "Bottoms, Girls’ Clothing, Jogger Pants, Kids’ Clothing",
       filters: {
-        type: "Child Bodysuits",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/girl-concerto-camisole-leotard-wear-moi/-/A-1001401337",
-      tags: "Activewear, Child Bodysuits, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/the-justice-league-batman-superman-wonder-woman-youth-black-graphic-jogger-pants/-/A-86218844",
+      tags: "Bottoms, Girls’ Clothing, Jogger Pants, Kids’ Clothing",
       filters: {
-        type: "Child Bodysuits",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/girl-pirouette-leotard-wear-moi/-/A-1001401371",
-      tags: "Activewear, Child Bodysuits, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/disney-encanto-mirabel-girls-fleece-2-pack-leggings-little-kid-to-big-kid/-/A-87721997",
+      tags: "Bottoms, Girls’ Clothing, Jogger Pants, Kids’ Clothing, Leggings",
       filters: {
-        type: "Child Bodysuits",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/girl-pirouette-leotard-wear-moi/-/A-1001401311",
-      tags: "Activewear, Child Bodysuits, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/miraculous-ladybug-girls-fleece-2-pack-leggings-little-kid-to-big-kid/-/A-88147935",
+      tags: "Bottoms, Girls’ Clothing, Jogger Pants, Kids’ Clothing, Leggings",
       filters: {
-        type: "Child Bodysuits",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/girl-concerto-camisole-leotard-wear-moi/-/A-1001401349",
-      tags: "Activewear, Child Bodysuits, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/ola-otter-unisex-joggers-white/-/A-1004191251",
+      tags: "Bottoms, Girls’ Clothing, Jogger Pants, Kids’ Clothing",
       filters: {
-        type: "Child Bodysuits",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/girl-ladies-high-neck-halter-leotard-bodysuit-bloch/-/A-1002669068",
-      tags: "Activewear, Child Bodysuits, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/primary-kids-staycool-stretch-jogger/-/A-1002957310",
+      tags: "Bottoms, Girls’ Clothing, Jogger Pants, Kids’ Clothing",
       filters: {
-        type: "Child Bodysuits",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/girl-ladies-maya-lace-print-tank-leotard-bodysuit-bloch/-/A-1002669060",
-      tags: "Activewear, Child Bodysuits, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/perfect-spirals-flaming-football-youth-jogger-pants/-/A-93130739",
+      tags: "Bottoms, Girls’ Clothing, Jogger Pants, Kids’ Clothing",
       filters: {
-        type: "Child Bodysuits",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/girl-ladies-adalia-camo-boat-neck-cap-sleeve-leotard-bloch/-/A-1002669045",
-      tags: "Activewear, Child Bodysuits, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/scooby-doo-ruh-roh-youth-black-graphic-jogger-pants/-/A-86383361",
+      tags: "Bottoms, Girls’ Clothing, Jogger Pants, Kids’ Clothing",
       filters: {
-        type: "Child Bodysuits",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/girl-ladies-boat-neck-mesh-back-leotard-bodysuit-bloch/-/A-1002669059",
-      tags: "Activewear, Child Bodysuits, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/star-wars-c-3po-princess-leia-chewbacca-3-pack-leggings/-/A-87685671",
+      tags: "Bottoms, Girls’ Clothing, Jogger Pants, Kids’ Clothing",
       filters: {
-        type: "Child Bodysuits",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/girl-ladies-halter-leotard-bodysuit-bloch/-/A-1002669032",
-      tags: "Activewear, Child Bodysuits, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/dc-comics-league-of-super-pets-youth-black-graphic-jogger-pants/-/A-86416722",
+      tags: "Bottoms, Girls’ Clothing, Jogger Pants, Kids’ Clothing",
       filters: {
-        type: "Child Bodysuits",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/girl-ladies-zip-tank-camo-leotard-bodysuit-bloch/-/A-1002669098",
-      tags: "Activewear, Child Bodysuits, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/ola-otter-unisex-joggers-blue/-/A-1004191242",
+      tags: "Bottoms, Girls’ Clothing, Jogger Pants, Kids’ Clothing",
       filters: {
-        type: "Child Bodysuits",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/girl-ladies-mock-neck-halter-leotard-bodysuit-bloch/-/A-1002669067",
-      tags: "Activewear, Child Bodysuits, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/ola-otter-unisex-joggers-black/-/A-1004191246",
+      tags: "Bottoms, Girls’ Clothing, Jogger Pants, Kids’ Clothing",
       filters: {
-        type: "Child Bodysuits",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/danskin-girls-tap-dance-shoes-black/-/A-81490944",
-      tags: "Activewear, Dance Shoes, Girls’ Activewear, Tap Dance Shoes, Girls’ Shoes, Kids’ Shoes, Shoes",
+      url: "https://www.target.com/p/in-tailgating-we-trust-american-flag-and-spatula-youth-jogger-pants/-/A-93130757",
+      tags: "Bottoms, Girls’ Clothing, Jogger Pants, Kids’ Clothing",
       filters: {
-        type: "Dance Shoes",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-future-star-child-jazz-shoe/-/A-93537038",
-      tags: "Activewear, Dance Shoes, Girls’ Activewear, Jazz Dance Shoes, Girls’ Shoes, Kids’ Shoes, Shoes",
+      url: "https://www.target.com/p/parking-lot-pioneer-old-west-wagon-football-cowboy-youth-jogger-pants/-/A-93115785",
+      tags: "Bottoms, Girls’ Clothing, Jogger Pants, Kids’ Clothing",
       filters: {
-        type: "Dance Shoes",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-shuffle-tap-shoe-child/-/A-84068261",
-      tags: "Activewear, Dance Shoes, Girls’ Activewear, Tap Dance Shoes, Girls’ Shoes, Kids’ Shoes, Shoes",
+      url: "https://www.target.com/p/parking-lot-pioneer-old-west-wagon-football-cowboy-youth-jogger-pants/-/A-93130748",
+      tags: "Bottoms, Girls’ Clothing, Jogger Pants, Kids’ Clothing",
       filters: {
-        type: "Dance Shoes",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-future-star-tap-shoe/-/A-93536968",
-      tags: "Activewear, Dance Shoes, Girls’ Activewear, Tap Dance Shoes, Girls’ Shoes, Kids’ Shoes, Shoes",
+      url: "https://www.target.com/p/kids-organic-cotton-reinforced-jogger-sweatpants-jackalo-butterscotch/-/A-93874182",
+      tags: "Bottoms, Girls’ Clothing, Jogger Pants, Kids’ Clothing, Pull-on Pants",
       filters: {
-        type: "Dance Shoes",
+        type: "Jogger Pants",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-jr-tyette-tap-shoe-child/-/A-85145844",
-      tags: "Activewear, Dance Shoes, Girls’ Activewear, Tap Dance Shoes, Girls’ Shoes, Kids’ Shoes, Shoes",
+      url: "https://www.target.com/p/rufflebutts-toddler-girls-ruched-bow-leggings/-/A-93068544",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
       filters: {
-        type: "Dance Shoes",
+        type: "Leggings",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-mary-jane-tap-shoe-child/-/A-88039677",
-      tags: "Activewear, Dance Shoes, Girls’ Activewear, Tap Dance Shoes, Girls’ Shoes, Kids’ Shoes, Shoes",
+      url: "https://www.target.com/p/rufflebutts-girls-ruched-bow-leggings/-/A-93068541",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
       filters: {
-        type: "Dance Shoes",
+        type: "Leggings",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-jazz-glove-jazz-shoe-child/-/A-1003315133",
-      tags: "Activewear, Dance Shoes, Girls’ Activewear, Jazz Dance Shoes, Girls’ Shoes, Kids’ Shoes, Shoes",
+      url: "https://www.target.com/p/girls-leggings-cat-jack/-/A-53438228",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
       filters: {
-        type: "Dance Shoes",
+        type: "Leggings",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-valentina-ballroom-shoe-girls/-/A-93437568",
-      tags: "Activewear, Dance Shoes, Girls’ Activewear, Lyrical Dance Shoes, Girls’ Shoes, Kids’ Shoes, Shoes",
+      url: "https://www.target.com/p/girls-39-solid-ribbed-leggings-cat-38-jack-8482/-/A-90927665",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
       filters: {
-        type: "Dance Shoes",
+        type: "Leggings",
       },
     },
     {
-      url: "https://www.target.com/p/rokka-rolla-toddler-little-girls-fleece-faux-fur-jacket/-/A-92612793",
-      tags: "Activewear, Faux Fur Jackets, Girls’ Activewear, Fleece Jackets, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      url: "https://www.target.com/p/girls-heart-leggings-cat-jack-black/-/A-82496262",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-leopard-printed-leggings-cat-38-jack-8482-beige/-/A-94492228",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-sparkle-leggings-cat-jack/-/A-83723614",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-capri-leggings-cat-jack/-/A-78469344",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-flare-leggings-cat-jack/-/A-89906092",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-halloween-leggings-cat-38-jack-8482-purple/-/A-94636431",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-adaptive-2pk-flare-leggings-cat-38-jack-8482-black-faux-denim/-/A-90997624",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-ribbed-flare-leggings-cat-38-jack-8482/-/A-93278901",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-heart-leggings-cat-jack/-/A-94492253",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-39-floral-39-leggings-cat-38-jack-8482-light-olive/-/A-94492209",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-2pk-adaptive-flare-ribbed-leggings-cat-38-jack-8482-red-purple/-/A-94579576",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-adaptive-2pk-capri-leggings-cat-jack/-/A-85630544",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-adaptive-2pk-capri-leggings-cat-38-jack-8482-light-pink/-/A-94600604",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-2pk-adaptive-leggings-cat-38-jack-8482-brown-light-pink/-/A-94579583",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-halloween-leggings-cat-38-jack-8482-cream/-/A-94636429",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-2pk-adaptive-leggings-cat-jack/-/A-79802767",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-adaptive-2pk-halloween-legging-39-s-cat-38-jack-8482-lavender-cream/-/A-94579581",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-adaptive-2pk-halloween-capri-39-s-cat-38-jack-8482-lavender-cream/-/A-94579582",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-flare-leggings-art-class/-/A-89610128",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-leggings-with-side-pocket-art-class/-/A-89609849",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-foldover-waist-flare-leggings-art-class-8482/-/A-94435225",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-capri-leggings-art-class/-/A-93460927",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-kids-tough-cotton-novelty-leggings/-/A-86508279",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings, Pull-on Pants",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-lands-end-kids-fleece-lined-leggings/-/A-88480700",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-kids-tough-cotton-capri-leggings/-/A-87254673",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-lands-end-kids-active-leggings/-/A-87678122",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-kids-tough-cotton-novelty-leggings/-/A-91637854",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings, Pull-on Pants",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-kids-active-flare-ribbed-leggings/-/A-1004938653",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-kids-ribbed-flare-leggings/-/A-1005140015",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/just-love-girls-woven-denim-jegging-29692-mdden-8/-/A-1002609841",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/29650-10459-5-6-just-love-girls-jeggings-leggings-pack-of-2/-/A-1002609831",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/just-love-girls-woven-denim-jegging/-/A-1002609801",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mightly-girls-fair-trade-organic-cotton-reinforced-knee-leggings/-/A-1004167921",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mightly-girls-2pk-fair-trade-organic-cotton-reinforced-knee-leggings/-/A-1004194034",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/ad-rescue-wear-ultra-soft-non-itch-eczema-pants-for-kids-eco-friendly-tencel-eczema-clothing-no-zinc-or-dyes-8-9-years/-/A-1000034406",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/ad-rescue-wear-ad-rescuewear-ultra-soft-non-itch-eczema-pants-for-kids-eco-friendly-tencel-eczema-clothing-no-zinc-or-dyes-5-years/-/A-1000034413",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/just-love-girls-woven-denim-jegging/-/A-1002609991",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/just-love-girls-jeggings-leggings-pack-of-2/-/A-1002609807",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/city-threads-usa-made-baby-ruffle-butt-soft-cotton-leggings/-/A-90735767",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/29614-10466-7-8-just-love-girls-jeggings-leggings-pack-of-2/-/A-1002609818",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/gender-neutral-women-textured-capri-high-rise-leggings-phat-buddha/-/A-1000560716",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/wrapables-faux-jean-skinny-leggings-for-girls-set-of-2/-/A-1003431136",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/leveret-girls-classic-solid-color-legging/-/A-89313119",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/posh-peanut-solid-ribbed-black-cha-cha-leggings/-/A-1001790760",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/leveret-girls-boho-solid-color-legging/-/A-89311996",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lucky-me-jada-girls-leggings-3-pack-multi-size-multiple-colors/-/A-94082489",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/rebel-girls-x-mightly-girls-fair-trade-organic-cotton-reinforced-knee-leggings-rebel-girls-leopard-x-large/-/A-1004167331",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mightly-girls-3pk-fair-trade-organic-cotton-leggings-navy-x-large/-/A-1004238734",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mightly-girls-fair-trade-organic-cotton-reinforced-knee-leggings/-/A-1004167962",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mightly-girls-2pk-fair-trade-organic-cotton-reinforced-knee-leggings/-/A-1004194033",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mightly-girls-2pk-fair-trade-organic-cotton-reinforced-knee-leggings/-/A-1004194035",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mightly-girls-fair-trade-organic-cotton-reinforced-knee-leggings/-/A-1004167927",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mightly-girls-2pk-fair-trade-organic-cotton-reinforced-knee-leggings-black-and-jewel-stripe-x-large/-/A-1004194025",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/ad-rescue-wear-wrap-e-soothe-ultra-soft-non-itch-eczema-pants-for-kids-eco-friendly-tencel-eczema-clothing-6-7-years/-/A-94165507",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mightly-girls-2pk-fair-trade-organic-cotton-reinforced-knee-leggings/-/A-1004194029",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mightly-girls-fair-trade-organic-cotton-reinforced-knee-leggings-jewel-stripe-large/-/A-1004167964",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mightly-girls-fair-trade-organic-cotton-reinforced-knee-leggings-jewel-stripe-x-large/-/A-1004167955",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mightly-girls-2pk-fair-trade-organic-cotton-reinforced-knee-leggings/-/A-1004194021",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mightly-girls-2pk-fair-trade-organic-cotton-reinforced-knee-leggings/-/A-1004194041",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/leveret-girls-neutral-solid-color-legging/-/A-89313774",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mightly-girls-2pk-fair-trade-organic-cotton-reinforced-knee-leggings-black-and-jewel-stripe-large/-/A-1004194028",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mightly-girls-2pk-fair-trade-organic-cotton-reinforced-knee-leggings/-/A-1004194038",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mightly-girls-2pk-fair-trade-organic-cotton-reinforced-knee-leggings/-/A-1004194036",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/ola-otter-girl-leggings-blue/-/A-1004191172",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mightly-girls-2pk-fair-trade-organic-cotton-reinforced-knee-leggings/-/A-1004194039",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mykids-usa-baby-solid-color-soft-cotton-elastic-warm-quality-leggings/-/A-1004641866",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/dragonwing-ignite-high-waisted-leggings/-/A-1002469890",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/rufflebutts-girls-ruffle-leggings/-/A-1004497985",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/rufflebutts-baby-toddler-girls-ruffle-leggings-with-signature-rear-ruffles/-/A-1004497980",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-pink-picket-fence-suzie-dino-leggings-for-girls-soft-stretchy-play-leggings-hand-painted-dinosaur-print/-/A-1004847625",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-organic-cotton-capri-legging-black-and-small-flower/-/A-1004053078",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mykids-usa-style-girls-fungus-leggings-spring-and-autumn-new-children-s-solid-color-leggings-girl-s-kindergarten-trousers/-/A-1003201105",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-printed-capri-leggings-ice-lollipops/-/A-1003846085",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/wrapables-microfiber-legging-tights-for-girls-set-of-3/-/A-1003430826",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/ola-otter-girl-leggings-pinwheel-parade/-/A-1003030085",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/the-pink-picket-fence-girls-3-pack-cotton-leggings-dinosaur-print-sensory-friendly-pants-pack-of-3-super-soft-leggings/-/A-1005133335",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/ola-otter-girl-leggings-flamingo-forest/-/A-1003029824",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/colorblock-athletic-leggings-black-and-multicolored-butterflies/-/A-1002803239",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/ola-otter-girl-leggings-happy-camping/-/A-1003030086",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/ribbed-leggings-black/-/A-1002802494",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings, Pull-on Pants",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-printed-capri-legging-small-flowers-on-cream-background/-/A-1003868275",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mykids-usa-baby-girl-solid-color-lace-design-tight-pants-leggings/-/A-1004801036",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-printed-capri-legging-black-and-multicolored-gummies/-/A-1003868264",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girl-s-olive-leggings-vignette/-/A-1001251478",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-organic-cotton-legging-candy-pink/-/A-1003868340",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-crinkle-jersey-capri-legging-dark-old-pink/-/A-1003846317",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/deux-par-deux-girl-printed-organic-cotton-capri-legging-palm-trees-pink-flamingo-and-turquoise/-/A-1003846108",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Leggings",
+      filters: {
+        type: "Leggings",
+      },
+    },
+    {
+      url: "https://www.target.com/p/gender-neutral-boys-antony-pants-me-henry/-/A-1001177664",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Lounge Pants",
+      filters: {
+        type: "Lounge Pants",
+      },
+    },
+    {
+      url: "https://www.target.com/p/gender-neutral-kid-s-teal-cord-pant-me-henry/-/A-1001177616",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Lounge Pants",
+      filters: {
+        type: "Lounge Pants",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mykids-usa-baby-solid-color-loose-casual-pants/-/A-1004708347",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Lounge Pants, Pull-on Pants",
+      filters: {
+        type: "Lounge Pants",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-overalls-cat-jack/-/A-85428619",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Overalls",
+      filters: {
+        type: "Overalls",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-wide-leg-baggy-denim-overalls-cat-38-jack-8482-dark-wash/-/A-94492242",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Overalls",
+      filters: {
+        type: "Overalls",
+      },
+    },
+    {
+      url: "https://www.target.com/p/levi-s-girls-overalls-west-lake-medium-wash/-/A-82890149",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Overalls",
+      filters: {
+        type: "Overalls",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-wide-leg-pants-elastic-waistband-pleated-pants-for-kids-girls-palazzo-pants-with-pockets-girls-casual-trousers/-/A-92364699",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Palazzo Pants",
+      filters: {
+        type: "Palazzo Pants",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-mid-rise-pull-on-embroidered-cargo-flare-jeans-cat-38-jack-8482-light-wash/-/A-91080917",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Pants",
+      filters: {
+        type: "Pull-on Pants",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-french-terry-wide-leg-pants-cat-38-jack-8482/-/A-94624496",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Pants",
+      filters: {
+        type: "Pull-on Pants",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-french-terry-lounge-pants-art-class/-/A-94600762",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Pants",
+      filters: {
+        type: "Pull-on Pants",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-nylon-track-pants-art-class/-/A-94600764",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Pants",
+      filters: {
+        type: "Pull-on Pants",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-kids-pull-on-knit-gauze-wide-leg-pants/-/A-91679081",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Pants",
+      filters: {
+        type: "Pull-on Pants",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-moana-gauze-cabana-pants-cream/-/A-94431055",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Pants",
+      filters: {
+        type: "Pull-on Pants",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-hello-kitty-tropical-floral-printed-gauze-pants-pink/-/A-94653595",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Pants",
+      filters: {
+        type: "Pull-on Pants",
+      },
+    },
+    {
+      url: "https://www.target.com/p/converse-girls-track-pants/-/A-94687317",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Pants",
+      filters: {
+        type: "Pull-on Pants",
+      },
+    },
+    {
+      url: "https://www.target.com/p/authentic-apparel-big-girls-classic-stretch-skinny-leg-school-uniform-pants/-/A-1003286741",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Pants",
+      filters: {
+        type: "Pull-on Pants",
+      },
+    },
+    {
+      url: "https://www.target.com/p/posh-peanut-solid-ribbed-black-bell-bottoms/-/A-1001790569",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Pants",
+      filters: {
+        type: "Pull-on Pants",
+      },
+    },
+    {
+      url: "https://www.target.com/p/city-threads-usa-made-girls-soft-cotton-upf-50-jersey-pocket-pants/-/A-90736032",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Pants",
+      filters: {
+        type: "Pull-on Pants",
+      },
+    },
+    {
+      url: "https://www.target.com/p/kids-organic-cotton-reinforced-tapered-leg-pants-jackalo-lilac-linen/-/A-93874175",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Pants",
+      filters: {
+        type: "Pull-on Pants",
+      },
+    },
+    {
+      url: "https://www.target.com/p/kids-organic-cotton-reinforced-straight-leg-pants-jackalo-orange-chambray/-/A-93874144",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Pants",
+      filters: {
+        type: "Pull-on Pants",
+      },
+    },
+    {
+      url: "https://www.target.com/p/wide-leg-capri-linen-pant-white-and-sage-striped/-/A-1002803722",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Pants",
+      filters: {
+        type: "Pull-on Pants",
+      },
+    },
+    {
+      url: "https://www.target.com/p/jackalo-reinforced-lined-tapered-leg-pants-navy/-/A-93874188",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Pants",
+      filters: {
+        type: "Pull-on Pants",
+      },
+    },
+    {
+      url: "https://www.target.com/p/kids-james-classic-relaxed-sweatpant-hunter-green/-/A-1004964189",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Pants, Sweatpants",
+      filters: {
+        type: "Pull-on Pants",
+      },
+    },
+    {
+      url: "https://www.target.com/p/kids-organic-reinforced-tapered-leg-pants-olive-jackalo/-/A-1004883837",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Pants",
+      filters: {
+        type: "Pull-on Pants",
+      },
+    },
+    {
+      url: "https://www.target.com/p/kids-organic-reinforced-straight-leg-pants-plum-jackalo/-/A-1004890425",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Pants",
+      filters: {
+        type: "Pull-on Pants",
+      },
+    },
+    {
+      url: "https://www.target.com/p/kids-organic-reinforced-tapered-leg-pants-navy-jackalo/-/A-1002374284",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Pants",
+      filters: {
+        type: "Pull-on Pants",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-kids-woven-twill-shorts/-/A-1002511934",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-lands-end-kids-fleece-sweat-shorts/-/A-88829653",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/hope-henry-girls-pull-on-cinched-waist-linen-short-toddler/-/A-91302854",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/kids-organic-pull-on-shorts-navy-loopknit-jackalo/-/A-1004883945",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/kids-organic-athletic-shorts-jackalo/-/A-93994091",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/primary-kids-chambray-beach-short/-/A-1002936869",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Pull-on Shorts",
+      filters: {
+        type: "Pull-on Shorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-kids-indigo-skort/-/A-86508138",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Skorts",
+      filters: {
+        type: "Skorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-lands-end-school-uniform-kids-active-chino-skort-top-of-the-knee/-/A-88529069",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Skorts",
+      filters: {
+        type: "Skorts",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-high-waist-paper-bag-pants-belted-waist-tapered-pants-bow-deco-pants-with-pocket-pink-140/-/A-93555396",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Suit Pants",
+      filters: {
+        type: "Suit Pants",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-fleece-wide-leg-sweatpants-art-class/-/A-94435223",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Sweatpants",
+      filters: {
+        type: "Sweatpants",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-fleece-flare-sweatpants-art-class/-/A-93441994",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Sweatpants",
+      filters: {
+        type: "Sweatpants",
+      },
+    },
+    {
+      url: "https://www.target.com/p/leveret-kids-sweatpants/-/A-89317956",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Sweatpants",
+      filters: {
+        type: "Sweatpants",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-school-uniform-kids-jogger-sweatpants/-/A-87254816",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Sweatpants",
+      filters: {
+        type: "Sweatpants",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-school-uniform-kids-sweatpants/-/A-86739525",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Sweatpants",
+      filters: {
+        type: "Sweatpants",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-kids-high-pile-fleece-lined-jogger-sweatpants/-/A-88876530",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Sweatpants",
+      filters: {
+        type: "Sweatpants",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-kids-wide-leg-knit-pants/-/A-1002271482",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Sweatpants",
+      filters: {
+        type: "Sweatpants",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-kids-husky-high-pile-fleece-lined-jogger-sweatpants/-/A-1004939062",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Sweatpants",
+      filters: {
+        type: "Sweatpants",
+      },
+    },
+    {
+      url: "https://www.target.com/p/converse-girls-french-terry-wide-leg-pants/-/A-94687310",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Sweatpants",
+      filters: {
+        type: "Sweatpants",
+      },
+    },
+    {
+      url: "https://www.target.com/p/eg-pro-girl-fleece-jogger-essential-super-soft-moisture-wicking/-/A-1002668434",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Sweatpants",
+      filters: {
+        type: "Sweatpants",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girl-s-isabella-gauze-pants-vignette/-/A-1001251586",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Sweatpants",
+      filters: {
+        type: "Sweatpants",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girl-ribbed-hacci-layering-set-danskin/-/A-1001893719",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Sweatpants",
+      filters: {
+        type: "Sweatpants",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girl-peached-layering-set-danskin/-/A-1001893740",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Sweatpants",
+      filters: {
+        type: "Sweatpants",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-parachute-cargo-pants-cat-38-jack-8482/-/A-94492233",
+      tags: "Bottoms, Girls’ Clothing, Kids’ Clothing, Utility Pants",
+      filters: {
+        type: "Utility Pants",
+      },
+    },
+    {
+      url: "https://www.target.com/p/oshkosh-b-gosh-little-big-girls-heavyweight-4-in-1-system-jackets/-/A-93713811",
+      tags: "3-In-1 Jackets, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "3-In-1 Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/kids-water-resistant-insulated-3-in-1-jacket/-/A-1005092504",
+      tags: "3-In-1 Jackets, Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Puffer Jackets, Rain Coats",
+      filters: {
+        type: "3-In-1 Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/rokka-rolla-toddler-baby-girls-fleece-lined-parka-jacket-kids-coat/-/A-92699321",
+      tags: "Anorak Jackets, Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Parkas, Puffer Jackets",
+      filters: {
+        type: "Anorak Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/rokka-rolla-girls-hooded-parka-jacket-fleece-linded-winter-coat/-/A-92701680",
+      tags: "Anorak Jackets, Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Fleece Jackets, Parkas",
+      filters: {
+        type: "Anorak Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/rokka-rolla-girls-winter-coat-with-faux-fur-hood-parka-jacket/-/A-90227397",
+      tags: "Anorak Jackets, Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Parkas",
+      filters: {
+        type: "Anorak Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/oshkosh-b-gosh-big-girls-midweight-fleece-lined-anorak-jackets/-/A-93802521",
+      tags: "Anorak Jackets, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Anorak Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-astrid-school-blazer-charcoal-gray/-/A-91487278",
+      tags: "Blazers, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Blazers",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-school-uniform-kids-hopsack-blazer/-/A-89299996",
+      tags: "Blazers, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Blazers",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girl-s-jane-velvet-coat-vignette/-/A-1001251673",
+      tags: "Blazers, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Blazers",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mykids-usa-baby-plaid-pattern-solid-color-lapel-design-cute-style-quilted-coat/-/A-1004604002",
+      tags: "Blazers, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Blazers",
+      },
+    },
+    {
+      url: "https://www.target.com/p/hope-henry-girls-organic-french-terry-contrast-trim-cardigan-kids/-/A-1000901494",
+      tags: "Blazers, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Blazers",
+      },
+    },
+    {
+      url: "https://www.target.com/p/barbie-girls-french-terry-varsity-bomber-jacket-little-kid-to-big/-/A-89709664",
+      tags: "Bomber Jackets, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Bomber Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/2bunnies-girls-magic-ombre-sequin-bomber-jacket/-/A-93788529",
+      tags: "Bomber Jackets, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Bomber Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/disney-minnie-mouse-frozen-lilo-stitch-girls-varsity-bomber-jacket-toddler-to-big-kid/-/A-91798974",
+      tags: "Bomber Jackets, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Bomber Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/hello-kitty-french-terry-varsity-bomber-jacket/-/A-1003876949",
+      tags: "Bomber Jackets, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Bomber Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/barbie-girls-varsity-bomber-jacket-little-kid-to-big-kid/-/A-93002344",
+      tags: "Bomber Jackets, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Bomber Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/2bunnies-girls-fiesta-glow-ombre-sparkle-sequin-bomber-jacket/-/A-1001835956",
+      tags: "Bomber Jackets, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Bomber Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/2bunnies-girls-mystic-mermaid-sequin-bomber-jacket/-/A-1002280575",
+      tags: "Bomber Jackets, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Bomber Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/bluey-girls-varsity-bomber-jacket-little-kid-to-big/-/A-91798936",
+      tags: "Bomber Jackets, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Bomber Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/pokemon-girls-french-terry-varsity-bomber-jacket-little-kid-to-big-kid/-/A-1000762918",
+      tags: "Bomber Jackets, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Bomber Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/2bunnies-girls-amethyst-dream-sequin-bomber-jacket/-/A-1001636320",
+      tags: "Bomber Jackets, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Bomber Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/2bunnies-girls-aurora-gradient-sequin-bomber-jacket/-/A-1001835921",
+      tags: "Bomber Jackets, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Bomber Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/marvel-spider-man-spider-gwen-girls-varsity-bomber-jacket-little-kid-to-big/-/A-91798948",
+      tags: "Bomber Jackets, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Bomber Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/2bunnies-girls-ombre-sequin-bomber-jacket/-/A-93281300",
+      tags: "Bomber Jackets, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Bomber Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/2bunnies-girls-cosmic-radiance-sequin-bomber-jacket/-/A-1001647478",
+      tags: "Bomber Jackets, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Bomber Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/2bunnies-girls-neon-stripe-sequin-bomber-jacket/-/A-1002280628",
+      tags: "Bomber Jackets, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Bomber Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/2bunnies-girls-candy-shimmer-sequin-bomber-jacket/-/A-93788550",
+      tags: "Bomber Jackets, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Bomber Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/2bunnies-girls-spectrum-sparkle-sequin-bomber-jacket/-/A-1001647460",
+      tags: "Bomber Jackets, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Bomber Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/2bunnies-girls-seashell-glow-sequin-bomber-jacket/-/A-1001835918",
+      tags: "Bomber Jackets, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Bomber Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/champion-girls-varsity-jacket-tan/-/A-94603323",
+      tags: "Bomber Jackets, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Bomber Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/kids-39-adaptive-cape-cat-38-jack-8482-yellow/-/A-90968792",
+      tags: "Capes, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Capes",
+      },
+    },
+    {
+      url: "https://www.target.com/p/a-leading-role-strawberry-shortcake-child-chef-jacket-dress-up/-/A-92751004",
+      tags: "Chef Coats, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Chef Coats",
+      },
+    },
+    {
+      url: "https://www.target.com/p/rokka-rolla-girls-ultra-light-packable-down-jacket/-/A-90227524",
+      tags: "Coats & Jackets, Duck Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Duck Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/clique-summit-youth-full-zip-microfleece/-/A-84593733",
+      tags: "Coats & Jackets, Fashion Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Fashion Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/clique-trail-youth-jacket/-/A-84593797",
+      tags: "Coats & Jackets, Fashion Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Fashion Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-solid-fashion-jacket-art-class-8482-garnish-green/-/A-92927323",
+      tags: "Coats & Jackets, Fashion Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Fashion Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-super-mario-kart-varsity-jacket-red/-/A-91363909",
+      tags: "Coats & Jackets, Fashion Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Fashion Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-long-sleeve-zip-up-athletic-hoodie-top-lightweight-jacket-fishing-hiking-sun-protection-outwear/-/A-1002516121",
+      tags: "Coats & Jackets, Fashion Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Fashion Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/clique-view-youth-jacket/-/A-84593736",
+      tags: "Coats & Jackets, Fashion Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Fashion Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-39-ford-bronco-varsity-jacket-blue/-/A-91363936",
+      tags: "Coats & Jackets, Fashion Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Fashion Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/a-leading-role-premium-child-fuzzy-bunny-zip-up-jacket/-/A-92671932",
+      tags: "Coats & Jackets, Fashion Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Fashion Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mightly-kids-fair-trade-organic-cotton-zip-up-pocket-hoodie-medium-8-olive/-/A-89743410",
+      tags: "Coats & Jackets, Fashion Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Fashion Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/a-leading-role-premium-child-fuzzy-bear-zip-up-jacket/-/A-92671936",
+      tags: "Coats & Jackets, Fashion Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Fashion Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-lightweight-jacket-long-sleeve-zip-up-athletic-hoodie-top-fishing-hiking-sun-protection-outerwear/-/A-1003847320",
+      tags: "Coats & Jackets, Fashion Jackets, Girls’ Clothing, Kids’ Clothing, Track Jackets",
+      filters: {
+        type: "Fashion Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/girls-casual-coat-long-sleeve-open-front-sweatshirts-jackets-with-pockets/-/A-1002761924",
+      tags: "Coats & Jackets, Fashion Jackets, Girls’ Clothing, Kids’ Clothing, Track Jackets",
+      filters: {
+        type: "Fashion Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mightly-kids-fair-trade-organic-cotton-zip-up-pocket-hoodie-x-large-12-new-school-colorblock/-/A-89743419",
+      tags: "Coats & Jackets, Fashion Jackets, Girls’ Clothing, Kids’ Clothing, Fleece Jackets",
+      filters: {
+        type: "Fashion Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mightly-kids-fair-trade-organic-cotton-zip-up-pocket-hoodie-small-6-7-olive/-/A-89743409",
+      tags: "Coats & Jackets, Fashion Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Fashion Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mightly-kids-fair-trade-organic-cotton-zip-up-pocket-hoodie-xx-large-14-new-school-colorblock/-/A-89743426",
+      tags: "Coats & Jackets, Fashion Jackets, Girls’ Clothing, Kids’ Clothing, Fleece Jackets",
+      filters: {
+        type: "Fashion Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/members-only-girl-s-iconic-racer-jacket/-/A-92430995",
+      tags: "Coats & Jackets, Fashion Jackets, Girls’ Clothing, Kids’ Clothing, Track Jackets",
+      filters: {
+        type: "Fashion Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mightly-kids-fair-trade-organic-cotton-zip-up-pocket-hoodie-x-small-4-5-purple-color-pop/-/A-89743414",
+      tags: "Coats & Jackets, Fashion Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Fashion Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mightly-kids-fair-trade-organic-cotton-zip-up-pocket-hoodie-xx-large-14-purple-color-pop/-/A-89743418",
+      tags: "Coats & Jackets, Fashion Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Fashion Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/mykis-usa-baby-girl-all-over-floral-pattern-knitted-cardigan-in-autumn-outfits/-/A-1003695347",
+      tags: "Coats & Jackets, Fashion Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Fashion Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/teletubbies-premium-child-dipsy-pullover-hoodie/-/A-93001267",
+      tags: "Coats & Jackets, Fashion Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Fashion Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/a-leading-role-teletubbies-premium-child-tinky-winky-pullover-hoodie/-/A-93001194",
+      tags: "Coats & Jackets, Fashion Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Fashion Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/a-leading-role-teletubbies-premium-laa-laa-pullover-child-hoodie/-/A-92660917",
+      tags: "Coats & Jackets, Fashion Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Fashion Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/strawberry-shortcake-premium-child-berry-cuddly-zip-up-jacket/-/A-92998906",
+      tags: "Coats & Jackets, Fashion Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Fashion Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/strawberry-shortcake-berry-denim-jacket/-/A-92989332",
+      tags: "Coats & Jackets, Fashion Jackets, Girls’ Clothing, Kids’ Clothing, Jean Jackets",
+      filters: {
+        type: "Fashion Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/andy-evan-toddler-pink-quilted-heart-hooded-jacket/-/A-1005055401",
+      tags: "Coats & Jackets, Fashion Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Fashion Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-kids-reversible-water-resistant-high-pile-insulated-jacket/-/A-1005092465",
+      tags: "Coats & Jackets, Fashion Jackets, Girls’ Clothing, Kids’ Clothing, Puffer Jackets",
+      filters: {
+        type: "Fashion Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/hope-henry-girls-dressy-ponte-collared-jacket-kids/-/A-92969868",
+      tags: "Coats & Jackets, Fashion Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Fashion Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/hello-kitty-girls-cosplay-faux-sherling-jacket-little-kid-to-big-kid/-/A-93306809",
+      tags: "Coats & Jackets, Faux Fur Jackets, Girls’ Clothing, Kids’ Clothing",
       filters: {
         type: "Faux Fur Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/rokka-rolla-girl-s-faux-shearling-jacket-fleece-warm-coat/-/A-90227505",
-      tags: "Activewear, Fleece Jackets, Girls’ Activewear, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      url: "https://www.target.com/p/disney-minnie-mouse-girls-varsity-faux-fur-faux-sherling-jacket-little-kid-to-big-kid/-/A-93306843",
+      tags: "Coats & Jackets, Faux Fur Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Faux Fur Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/hello-kitty-girls-cosplay-faux-sherling-jacket-toddler/-/A-93306805",
+      tags: "Coats & Jackets, Faux Fur Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Faux Fur Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/members-only-girl-midweight-with-fur-lining-jacket/-/A-85607881",
+      tags: "Coats & Jackets, Faux Fur Jackets, Girls’ Clothing, Kids’ Clothing",
+      filters: {
+        type: "Faux Fur Jackets",
+      },
+    },
+    {
+      url: "https://www.target.com/p/lands-end-kids-high-pile-lined-zip-hoodie/-/A-87568978",
+      tags: "Coats & Jackets, Fleece Jackets, Girls’ Clothing, Kids’ Clothing",
       filters: {
         type: "Fleece Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/oshkosh-b-gosh-little-girls-midweight-fleece-transitional-jackets/-/A-93364215",
-      tags: "Activewear, Fleece Jackets, Girls’ Activewear, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      url: "https://www.target.com/p/lands-end-kids-mid-weight-fleece-jacket/-/A-86740028",
+      tags: "Coats & Jackets, Fleece Jackets, Girls’ Clothing, Kids’ Clothing",
       filters: {
         type: "Fleece Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/rokka-rolla-girls-reversible-fleece-jacket-puffer-coat/-/A-90227480",
-      tags: "Activewear, Fleece Jackets, Girls’ Activewear, Puffer Jackets, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      url: "https://www.target.com/p/lands-end-school-uniform-kids-lightweight-fleece-quarter-zip-pullover/-/A-86739342",
+      tags: "Coats & Jackets, Fleece Jackets, Girls’ Clothing, Kids’ Clothing",
       filters: {
         type: "Fleece Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/rokka-rolla-girls-fleece-coat-faux-fur-puffer-jacket/-/A-90227384",
-      tags: "Activewear, Fleece Jackets, Girls’ Activewear, Puffer Jackets, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      url: "https://www.target.com/p/lands-end-kids-fleece-full-zip-jacket-with-hood/-/A-87719299",
+      tags: "Coats & Jackets, Fleece Jackets, Girls’ Clothing, Kids’ Clothing",
       filters: {
         type: "Fleece Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/oshkosh-b-gosh-toddler-little-girls-midweight-fleece-transitional-jackets/-/A-93364209",
-      tags: "Activewear, Fleece Jackets, Girls’ Activewear, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      url: "https://www.target.com/p/kids-everest-flannel-long-sleeve-hooded-jacket-olive-scout/-/A-1001300333",
+      tags: "Coats & Jackets, Fleece Jackets, Girls’ Clothing, Kids’ Clothing",
       filters: {
         type: "Fleece Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/oshkosh-b-gosh-toddler-little-girls-midweight-ruffle-fleece-lined-jackets/-/A-93364212",
-      tags: "Activewear, Fleece Jackets, Girls’ Activewear, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      url: "https://www.target.com/p/lands-end-lands-end-kids-fleece-quarter-zip/-/A-87678711",
+      tags: "Coats & Jackets, Fleece Jackets, Girls’ Clothing, Kids’ Clothing",
       filters: {
         type: "Fleece Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/oshkosh-b-gosh-little-girls-midweight-fleece-lined-jackets/-/A-93802528",
-      tags: "Activewear, Fleece Jackets, Girls’ Activewear, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      url: "https://www.target.com/p/mightly-kids-organic-cotton-print-lightweight-zip-up-pocket-hoodie-x-small-4-5-navy-tie-dye/-/A-90242842",
+      tags: "Coats & Jackets, Fleece Jackets, Girls’ Clothing, Kids’ Clothing",
       filters: {
         type: "Fleece Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/oshkosh-b-gosh-little-girls-midweight-high-pile-fleece-lined-jackets/-/A-93420959",
-      tags: "Activewear, Fleece Jackets, Girls’ Activewear, Windbreakers, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      url: "https://www.target.com/p/mightly-kids-fair-trade-organic-cotton-zip-up-pocket-hoodie-large-10-navy/-/A-93360168",
+      tags: "Coats & Jackets, Fleece Jackets, Girls’ Clothing, Kids’ Clothing",
       filters: {
         type: "Fleece Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/oshkosh-b-gosh-toddler-little-girls-midweight-fleece-lined-jackets/-/A-1003247118",
-      tags: "Activewear, Fleece Jackets, Girls’ Activewear, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      url: "https://www.target.com/p/lands-end-kids-fleece-full-zip-jacket/-/A-89696456",
+      tags: "Coats & Jackets, Fleece Jackets, Girls’ Clothing, Kids’ Clothing",
       filters: {
         type: "Fleece Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/london-fog-girls-lightweight-fleece-lined-hooded-spring-jacket/-/A-91243569",
-      tags: "Activewear, Fleece Jackets, Girls’ Activewear, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      url: "https://www.target.com/p/girls-jean-jacket-cat-jack/-/A-53980890",
+      tags: "Coats & Jackets, Girls’ Clothing, Jean Jackets, Kids’ Clothing",
       filters: {
-        type: "Fleece Jackets",
+        type: "Jean Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/oshkosh-b-gosh-little-girls-midweight-floral-fleece-lined-jacket-chambray-4/-/A-93127283",
-      tags: "Activewear, Fleece Jackets, Girls’ Activewear, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      url: "https://www.target.com/p/girls-39-jean-jacket-cat-38-jack-8482-washed-black/-/A-90894652",
+      tags: "Coats & Jackets, Girls’ Clothing, Jean Jackets, Kids’ Clothing",
       filters: {
-        type: "Fleece Jackets",
+        type: "Jean Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/oshkosh-b-gosh-little-girls-midweight-floral-fleece-lined-jacket-chambray-5-6/-/A-93127284",
-      tags: "Activewear, Fleece Jackets, Girls’ Activewear, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      url: "https://www.target.com/p/girls-39-denim-jacket-cat-38-jack-8482-white/-/A-92956783",
+      tags: "Coats & Jackets, Girls’ Clothing, Jean Jackets, Kids’ Clothing",
       filters: {
-        type: "Fleece Jackets",
+        type: "Jean Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/lands-end-kids-reversible-fleece-puffer-jacket/-/A-93877914",
-      tags: "Activewear, Fleece Jackets, Girls’ Activewear, Puffer Jackets, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      url: "https://www.target.com/p/girls-39-denim-jacket-cat-38-jack-8482-light-wash/-/A-92929062",
+      tags: "Coats & Jackets, Girls’ Clothing, Jean Jackets, Kids’ Clothing",
       filters: {
-        type: "Fleece Jackets",
+        type: "Jean Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/deux-par-deux-girl-printed-jacket-two-piece-mid-season-outerwear-set-butterflies-on-multicolored-and-vibrant-pink-background/-/A-1002931122",
-      tags: "Activewear, Fleece Jackets, Girls’ Activewear, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      url: "https://www.target.com/p/girls-denim-jacket-art-class-light-wash/-/A-92955215",
+      tags: "Coats & Jackets, Girls’ Clothing, Jean Jackets, Kids’ Clothing",
       filters: {
-        type: "Fleece Jackets",
+        type: "Jean Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/deux-par-deux-girl-3-in-1-mid-season-outerwear-set-with-printed-jacket-mauve-and-blue-pink-mountain/-/A-1002930673",
-      tags: "Activewear, Fleece Jackets, Girls’ Activewear, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      url: "https://www.target.com/p/barbie-girls-pink-denim-jacket-little-kid-to-big-kid/-/A-1002770426",
+      tags: "Coats & Jackets, Girls’ Clothing, Jean Jackets, Kids’ Clothing",
       filters: {
-        type: "Fleece Jackets",
+        type: "Jean Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/oshkosh-b-gosh-baby-girls-midweight-reversible-fleece-jackets/-/A-93676558",
-      tags: "Activewear, Fleece Jackets, Girls’ Activewear",
+      url: "https://www.target.com/p/bluey-girls-denim-jacket-little-kid-to-big-kid/-/A-1002770425",
+      tags: "Coats & Jackets, Girls’ Clothing, Jean Jackets, Kids’ Clothing",
       filters: {
-        type: "Fleece Jackets",
+        type: "Jean Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/deux-par-deux-girl-3-in-1-mid-season-outerwear-set-with-printed-jacket-lilac-and-multicolored-butterfly/-/A-1002908248",
-      tags: "Activewear, Fleece Jackets, Girls’ Activewear, Rain Coats",
+      url: "https://www.target.com/p/barbie-girls-denim-jacket-little-kid-to-big/-/A-92251690",
+      tags: "Coats & Jackets, Girls’ Clothing, Jean Jackets, Kids’ Clothing",
       filters: {
-        type: "Fleece Jackets",
+        type: "Jean Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/andy-evan-toddler-pink-checker-faux-fleece-vest/-/A-93525413",
-      tags: "Activewear, Fleece Vests, Girls’ Activewear",
+      url: "https://www.target.com/p/lands-end-kids-denim-jacket/-/A-1002714863",
+      tags: "Coats & Jackets, Girls’ Clothing, Jean Jackets, Kids’ Clothing",
       filters: {
-        type: "Fleece Vests",
+        type: "Jean Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-pink-stripe-harmonie-12-striped-pamper-legwarmer-child-one-size/-/A-87479178",
-      tags: "Activewear, Girls’ Activewear, Leg Warmers, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      url: "https://www.target.com/p/kids-reed-checkered-denim-jacket-olive-scout/-/A-1001163615",
+      tags: "Coats & Jackets, Girls’ Clothing, Jean Jackets, Kids’ Clothing",
       filters: {
-        type: "Leg Warmers",
+        type: "Jean Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-harmonie-12-pamper-legwarmer-child/-/A-87479181",
-      tags: "Activewear, Girls’ Activewear, Leg Warmers, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      url: "https://www.target.com/p/deux-par-deux-girl-frayed-denim-jacket-with-embroidery-jeans/-/A-1002905463",
+      tags: "Coats & Jackets, Girls’ Clothing, Jean Jackets, Kids’ Clothing",
       filters: {
-        type: "Leg Warmers",
+        type: "Jean Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-18-legwarmer-girls/-/A-87519900",
-      tags: "Activewear, Girls’ Activewear, Leg Warmers, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      url: "https://www.target.com/p/deux-par-deux-girl-denim-jacket-with-embroidery-floral-jeans/-/A-1002907917",
+      tags: "Coats & Jackets, Girls’ Clothing, Jean Jackets, Kids’ Clothing",
       filters: {
-        type: "Leg Warmers",
+        type: "Jean Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-pink-toddler-legwarmer-one-size/-/A-93628232",
-      tags: "Activewear, Girls’ Activewear, Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+      url: "https://www.target.com/p/deux-par-deux-girl-jean-jacket-with-embroidery-pink-and-multicolored-gummies/-/A-1002905641",
+      tags: "Coats & Jackets, Girls’ Clothing, Jean Jackets, Kids’ Clothing",
       filters: {
-        type: "Leg Warmers",
+        type: "Jean Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/girls-seamless-bike-leotard-all-in-motion/-/A-94501354",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/girls-39-solid-moto-jacket-art-class-8482-black/-/A-90968590",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Moto Jackets",
       filters: {
-        type: "Leotards",
+        type: "Moto Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/girls-dancewear-tank-leotard-with-skirt-cat-jack-black/-/A-82384473",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/yoki-little-big-girls-moto-style-pu-faux-leather-jackets/-/A-1002894725",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Moto Jackets",
       filters: {
-        type: "Leotards",
+        type: "Moto Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/girls-cami-dance-leotard-cat-jack-black/-/A-82391750",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/hello-kitty-faux-leather-jacket/-/A-1004937395",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Moto Jackets",
       filters: {
-        type: "Leotards",
+        type: "Moto Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/girls-dancewear-cami-flutter-sleeve-leotard-with-skirt-cat-jack-pink/-/A-82391774",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/barbie-girls-pink-faux-leather-jacket-little-kid-to-big-kid/-/A-1004937388",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Moto Jackets",
       filters: {
-        type: "Leotards",
+        type: "Moto Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/girls-dance-tank-mesh-leotard-cat-jack-black/-/A-82390250",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/yoki-big-girls-floral-embroidered-design-pu-faux-leather-jackets/-/A-1003526710",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Moto Jackets",
       filters: {
-        type: "Leotards",
+        type: "Moto Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/leveret-girls-short-sleeve-leotard/-/A-89453738",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/yoki-little-girls-floral-embroidered-design-pu-faux-leather-jackets/-/A-1003666255",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Moto Jackets",
       filters: {
-        type: "Leotards",
+        type: "Moto Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/girls-cami-dance-leotard-cat-jack-pink/-/A-82391252",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/rothschild-big-girls-faux-wool-bandmaster-military-dress-coats/-/A-1000395571",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Overcoats",
       filters: {
-        type: "Leotards",
+        type: "Overcoats",
       },
     },
     {
-      url: "https://www.target.com/p/leveret-girls-elbow-sleeve-skirt-leotard/-/A-89453935",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/rothschild-little-girls-faux-wool-bow-detail-dress-coats/-/A-1000402772",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Overcoats",
       filters: {
-        type: "Leotards",
+        type: "Overcoats",
       },
     },
     {
-      url: "https://www.target.com/p/leveret-girls-long-sleeve-leotard/-/A-89453529",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/rothschild-big-girls-faux-wool-sparkle-bow-dress-coats/-/A-1000402770",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Overcoats",
       filters: {
-        type: "Leotards",
+        type: "Overcoats",
       },
     },
     {
-      url: "https://www.target.com/p/girls-dance-butterfly-leotard-cat-jack-purple/-/A-93574122",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/rothschild-little-girls-faux-wool-bandmaster-military-dress-coat-with-hat/-/A-1000395575",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Overcoats",
       filters: {
-        type: "Leotards",
+        type: "Overcoats",
       },
     },
     {
-      url: "https://www.target.com/p/girls-dance-brushstrokes-leotard-cat-jack/-/A-93574121",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/mykids-usa-baby-solid-color-or-plaid-pattern-cartoon-bear-decoration-quilted-warm-coat/-/A-1004588478",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Overcoats",
       filters: {
-        type: "Leotards",
+        type: "Overcoats",
       },
     },
     {
-      url: "https://www.target.com/p/girl-s-leotard-danz-n-motion-brigitte-21105c-corset-midriff/-/A-1003688170",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/lands-end-kids-squall-waterproof-insulated-winter-parka/-/A-89935651",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Parkas",
       filters: {
-        type: "Leotards",
+        type: "Parkas",
       },
     },
     {
-      url: "https://www.target.com/p/girl-s-leotard-danz-n-motion-alexis-21100c-mesh-inserts-camisole-low-back/-/A-1003321240",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/lands-end-kids-expedition-waterproof-winter-down-parka/-/A-87569357",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Parkas",
       filters: {
-        type: "Leotards",
+        type: "Parkas",
       },
     },
     {
-      url: "https://www.target.com/p/destira-imagination-leotard/-/A-92078120",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/london-fog-little-big-girls-heavyweight-faux-fur-trim-fleece-lined-jackets/-/A-1002187164",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Parkas",
       filters: {
-        type: "Leotards",
+        type: "Parkas",
       },
     },
     {
-      url: "https://www.target.com/p/girl-s-leotard-danz-n-motion-24129c-scout-mesh-inserts-many-colors/-/A-1004644011",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/catalonia-kids-waterproof-windproof-swim-parka-jacket-fleece-lined-warm-hooded-coat-for-boys-girls-lightweight-swim-robe/-/A-1002543961",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Parkas",
       filters: {
-        type: "Leotards",
+        type: "Parkas",
       },
     },
     {
-      url: "https://www.target.com/p/destira-malibu-leotard/-/A-92078179",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/canada-weather-gear-girls-winter-coat-quilted-heavyweight-puffer-parka-coat-warm-winter-jacket-for-girls-7-16/-/A-1002048243",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Parkas, Puffer Jackets, Quilted Jackets",
       filters: {
-        type: "Leotards",
+        type: "Parkas",
       },
     },
     {
-      url: "https://www.target.com/p/destira-glitter-and-glitz-lavender-leotard/-/A-92077834",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/lands-end-kids-husky-squall-waterproof-insulated-winter-parka/-/A-1005092978",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Parkas",
       filters: {
-        type: "Leotards",
+        type: "Parkas",
       },
     },
     {
-      url: "https://www.target.com/p/destira-in-the-clouds-leotard/-/A-92078335",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/catalonia-swim-parka-for-kids-teens-lightweight-waterproof-windproof-swim-jacket-fleece-lined-warm-changing-coat-for-swim-lessons-beach/-/A-1002543960",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Parkas",
       filters: {
-        type: "Leotards",
+        type: "Parkas",
       },
     },
     {
-      url: "https://www.target.com/p/destira-dreamworld-leotard/-/A-92078222",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/primary-kids-parka-puffer-coat/-/A-1001268305",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Parkas, Puffer Jackets",
       filters: {
-        type: "Leotards",
+        type: "Parkas",
       },
     },
     {
-      url: "https://www.target.com/p/destira-tidal-wave-leotard/-/A-92078088",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/sporti-kid-s-safari-splash-swim-parka/-/A-1001344260",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Parkas",
       filters: {
-        type: "Leotards",
+        type: "Parkas",
       },
     },
     {
-      url: "https://www.target.com/p/girl-s-leotard-danz-n-motion-kinsley-22117a-zip-up-mesh-back-ribbed-accents/-/A-1004140683",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/sporti-kids-underwater-jubilee-swim-parka/-/A-1001529453",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Parkas",
       filters: {
-        type: "Leotards",
+        type: "Parkas",
       },
     },
     {
-      url: "https://www.target.com/p/destira-catlandia-leotard/-/A-92035687",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/lands-end-kids-squall-waterproof-insulated-3-in-1-parka/-/A-87678076",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Parkas, Softshell Jackets",
       filters: {
-        type: "Leotards",
+        type: "Parkas",
       },
     },
     {
-      url: "https://www.target.com/p/destira-interstellar-leotard/-/A-92077817",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/lands-end-kids-fleece-lined-coat/-/A-93568798",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Parkas, Puffer Jackets",
       filters: {
-        type: "Leotards",
+        type: "Parkas",
       },
     },
     {
-      url: "https://www.target.com/p/destira-friend-chip-goals-leotard/-/A-92078406",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/rokka-rolla-girls-heavy-winter-puffer-jacket-bubble-coat/-/A-90227533",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Puffer Jackets",
       filters: {
-        type: "Leotards",
+        type: "Puffer Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/destira-denim-daze-leotard/-/A-92077864",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/lands-end-kids-thermoplume-packable-hooded-jacket/-/A-87569396",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Puffer Jackets",
       filters: {
-        type: "Leotards",
+        type: "Puffer Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/destira-glimmer-of-gold-leotard/-/A-92084411",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/rokka-rolla-girls-long-coat-puffer-jacket/-/A-92822158",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Puffer Jackets",
       filters: {
-        type: "Leotards",
+        type: "Puffer Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/destira-ever-after-leotard/-/A-92077122",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/rokka-rolla-girls-reversible-light-puffer-jacket-coat/-/A-90227403",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Puffer Jackets",
       filters: {
-        type: "Leotards",
+        type: "Puffer Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/girl-s-leotard-danz-n-motion-nicolette-23107c-lace-cap-sleeve-and-v-back/-/A-1003763236",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/rokka-rolla-toddler-baby-girls-mini-fur-lined-puffer-coat-kids-jacket/-/A-92699303",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Puffer Jackets",
       filters: {
-        type: "Leotards",
+        type: "Puffer Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/girl-s-leotard-danz-n-motion-riley-22115c-rib-accents-and-keyhole-back/-/A-1003215038",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/rokka-rolla-girls-quilted-coat-puffer-jacket/-/A-1005022039",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Puffer Jackets, Quilted Jackets",
       filters: {
-        type: "Leotards",
+        type: "Puffer Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/girl-s-leotard-danz-n-motion-clementine-23108c-tank-lace-inserts-and-v-back/-/A-1003128063",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/rokka-rolla-girls-knee-length-coat-long-puffer-jacket/-/A-1004783821",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Puffer Jackets",
       filters: {
-        type: "Leotards",
+        type: "Puffer Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/girls-leotard-dress-danz-n-motion-293-madeline-sparkle-skirt-short-sleeve/-/A-1003526473",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/rokka-rolla-toddler-little-girls-light-puffer-jacket-winter-coat/-/A-90190394",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Puffer Jackets",
       filters: {
-        type: "Leotards",
+        type: "Puffer Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/girl-s-leotard-danz-n-motion-yasmin-23113c-cap-sleeve-lace-and-cross-back/-/A-1003127998",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/rokka-rolla-girls-faux-shearling-lined-heavy-coat-puffer-jacket/-/A-90227464",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Puffer Jackets",
       filters: {
-        type: "Leotards",
+        type: "Puffer Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/girl-s-leotard-danz-n-motion-21110c-angelina-camisole-floral-mesh-inserts/-/A-1003698603",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/oshkosh-b-gosh-little-girls-heavyweight-color-block-winter-coats/-/A-94041124",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Puffer Jackets",
       filters: {
-        type: "Leotards",
+        type: "Puffer Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/girl-s-leotard-so-danca-tilly-sl17-lace-cap-sleeve/-/A-1003125324",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/disney-frozen-princess-anna-elsa-girls-zip-up-puffer-jacket-little-kid/-/A-87604440",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Puffer Jackets",
       filters: {
-        type: "Leotards",
+        type: "Puffer Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/girl-s-leotard-danz-n-motion-209c-tank-cotton/-/A-1003057753",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/lands-end-kids-insulated-down-alternative-thermoplume-jacket/-/A-87672713",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Puffer Jackets",
       filters: {
-        type: "Leotards",
+        type: "Puffer Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/girl-s-leotard-danz-n-motion-brooklyn-22123c-scuba-zip-with-mesh-back/-/A-1003624284",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/disney-minnie-mouse-lilo-stitch-girls-zip-up-puffer-jacket-little-kid-to-big-kid/-/A-93031168",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Puffer Jackets",
       filters: {
-        type: "Leotards",
+        type: "Puffer Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/girl-s-danz-n-motion-25119c-jessie-leotard-rib-tank-with-square-neckline/-/A-1004993634",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/london-fog-big-girls-heavyweight-fleece-lined-puffer-jacket-with-beanie-hat/-/A-94045784",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Puffer Jackets",
       filters: {
-        type: "Leotards",
+        type: "Puffer Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/girl-s-leotard-by-danznmotion-25100c-micaela-leotard-glimmer-finish/-/A-1005179375",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/jessica-simpson-big-girl-s-iridescent-quilted-midweight-winter-puffer-coats/-/A-93568940",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Puffer Jackets",
       filters: {
-        type: "Leotards",
+        type: "Puffer Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/girl-s-danz-n-motion-25117c-fallon-leotard-wide-neck-with-open-strapped-back/-/A-1004473418",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/lands-end-kids-husky-insulated-hooded-jacket/-/A-1004914488",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Puffer Jackets",
       filters: {
-        type: "Leotards",
+        type: "Puffer Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/girl-s-leotard-by-so-danca-livy-sl09-lycra-tank/-/A-1003125377",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/london-fog-girls-heavyweight-warm-winter-coat-with-beanie-hat/-/A-90251847",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Puffer Jackets",
       filters: {
-        type: "Leotards",
+        type: "Puffer Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/girl-s-danz-n-motion-25101c-bella-front-detailed-leotard-with-keyhole-back/-/A-1005179821",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/lands-end-kids-husky-insulated-jacket/-/A-1004939163",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Puffer Jackets",
       filters: {
-        type: "Leotards",
+        type: "Puffer Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/destira-rainbow-blaze-leotard/-/A-1001731061",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/london-fog-little-big-girls-heavyweight-fleece-lined-puffer-jacket-with-headband/-/A-94072062",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Puffer Jackets",
       filters: {
-        type: "Leotards",
+        type: "Puffer Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/destira-pinky-promise-leotard/-/A-1001718615",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/london-fog-girls-heavyweight-warm-winter-coat-with-faux-fur-trim/-/A-90251397",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Puffer Jackets",
       filters: {
-        type: "Leotards",
+        type: "Puffer Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/destira-prismatic-leotard/-/A-92086769",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/oshkosh-b-gosh-little-big-girls-perfect-heavyweight-color-block-winter-coat/-/A-94041117",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Puffer Jackets",
       filters: {
-        type: "Leotards",
+        type: "Puffer Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/destira-hollywood-leotard/-/A-92033282",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/dreamworks-gabby-s-dollhouse-pandy-paws-girls-zip-up-puffer-jacket-little-kid-to-big-kid/-/A-87616544",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Puffer Jackets",
       filters: {
-        type: "Leotards",
+        type: "Puffer Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/destira-american-elite-leotard/-/A-92085236",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/lands-end-school-uniform-kids-thermoplume-jacket/-/A-87790790",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Puffer Jackets",
       filters: {
-        type: "Leotards",
+        type: "Puffer Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/destira-boba-par-tea-leotard/-/A-1001718152",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/lands-end-kids-insulated-down-alternative-thermoplume-jacket/-/A-93256929",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Puffer Jackets",
       filters: {
-        type: "Leotards",
+        type: "Puffer Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/destira-strawberry-fields-leotard/-/A-1001718197",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/london-fog-little-big-girls-heavyweight-faux-fur-lined-hooded-winter-jackets/-/A-94092319",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Puffer Jackets",
       filters: {
-        type: "Leotards",
+        type: "Puffer Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/destira-decadence-leotard/-/A-1001738872",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/primary-kids-lightweight-puffer-jacket/-/A-1001613299",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Puffer Jackets",
       filters: {
-        type: "Leotards",
+        type: "Puffer Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/destira-paw-risian-passport-leotard/-/A-92087108",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/l-o-l-surprise-miss-snow-figure-8-prezzie-girls-zip-up-puffer-jacket-little-kid-to-big-kid/-/A-87545035",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Puffer Jackets",
       filters: {
-        type: "Leotards",
+        type: "Puffer Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/destira-fur-ever-french-leotard/-/A-92086808",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/lands-end-big-kids-reversible-jacket/-/A-87717880",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Puffer Jackets, Softshell Jackets",
       filters: {
-        type: "Leotards",
+        type: "Puffer Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/dance-leotard-danz-n-motion-adelle-23112c-high-neck-empire-waist-open-back/-/A-1003238661",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/canada-weather-gear-girls-puffer-jacket-lightweight-packable-bubble-coat-water-resistant-outerwear-jackets-for-girls-7-16/-/A-1001919223",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Puffer Jackets",
       filters: {
-        type: "Leotards",
+        type: "Puffer Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/destira-pixie-dust-leotard/-/A-1001739220",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/members-only-girl-cire-puffer-with-mash-print-lining-jacket/-/A-85607899",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Puffer Jackets",
       filters: {
-        type: "Leotards",
+        type: "Puffer Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/girl-s-leotard-danz-n-motion-24132c-piper-keyhole-back-mesh-accents-ballet-jazz/-/A-1004444062",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/bluey-bingo-girls-zip-up-winter-coat-puffer-jacket-toddler-to-little-kid/-/A-89629378",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Puffer Jackets",
       filters: {
-        type: "Leotards",
+        type: "Puffer Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/dragonwing-classic-dance-leotard/-/A-1001686889",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/dreamworks-gabby-s-dollhouse-pandy-paws-girls-zip-up-puffer-jacket-toddler/-/A-87616550",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Puffer Jackets",
       filters: {
-        type: "Leotards",
+        type: "Puffer Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/destira-fry-yay-leotard/-/A-92086755",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/rokka-rolla-toddler-girls-starlight-winter-coat-mini-fur-lined-kids-jacket/-/A-1004791523",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Puffer Jackets",
       filters: {
-        type: "Leotards",
+        type: "Puffer Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/destira-lotl-fun-leotard/-/A-92089013",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/girl-kid-s-floral-puffer-jacket-mayoral/-/A-1003863155",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Puffer Jackets",
       filters: {
-        type: "Leotards",
+        type: "Puffer Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/destira-outside-the-box-leotard/-/A-1001402851",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/andy-evan-toddler-pink-heart-printed-reversible-puffer-jacket/-/A-1005055360",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Puffer Jackets",
       filters: {
-        type: "Leotards",
+        type: "Puffer Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/destira-sky-s-the-limit-leotard/-/A-92076885",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/andy-evan-toddler-pink-aqua-smiley-printed-reversible-puffer-jacket/-/A-1005055357",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Puffer Jackets",
       filters: {
-        type: "Leotards",
+        type: "Puffer Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-classics-short-sleeve-leotard-girls/-/A-83784816",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/girls-adaptive-quilted-jacket-cat-jack/-/A-88077274",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Quilted Jackets",
       filters: {
-        type: "Leotards",
+        type: "Quilted Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-team-basics-tank-leotard-girls/-/A-83848701",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/girls-39-solid-blouson-jacket-art-class-8482/-/A-92954460",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Quilted Jackets",
       filters: {
-        type: "Leotards",
+        type: "Quilted Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-classics-double-strap-camisole-leotard-girls/-/A-83915673",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/deux-par-deux-girl-printed-quilted-mid-season-jacket-multicolored-butterflies-on-black-background/-/A-1002931159",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Quilted Jackets",
       filters: {
-        type: "Leotards",
+        type: "Quilted Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-classics-high-neck-tank-leotard-girls/-/A-83825120",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/lands-end-kids-waterproof-rain-jacket/-/A-87670708",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Rain Coats",
       filters: {
-        type: "Leotards",
+        type: "Rain Coats",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-team-basics-short-sleeve-leotard-girls/-/A-83848140",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/rokka-rolla-girls-waterproof-rain-coats-rubberized-jackets/-/A-90511810",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Rain Coats",
       filters: {
-        type: "Leotards",
+        type: "Rain Coats",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-team-basics-long-sleeve-unitard-girls/-/A-84318308",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/kids-rain-coat-cat-jack/-/A-94427240",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Rain Coats",
       filters: {
-        type: "Leotards",
+        type: "Rain Coats",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-classics-princess-tank-leotard-girls/-/A-83915854",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/unicorn-girls-umbrella-rain-jacket-set-kids-ages-3t-9-years/-/A-90449345",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Rain Coats",
       filters: {
-        type: "Leotards",
+        type: "Rain Coats",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-classics-v-neck-camisole-leotard-girls/-/A-83915657",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/frozen-elsa-and-anna-girl-s-umbrella-and-raincoat-set-kids-ages-4-7-blue-purple/-/A-90411055",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Rain Coats",
       filters: {
-        type: "Leotards",
+        type: "Rain Coats",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-team-basics-long-sleeve-leotard-girls/-/A-83825123",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/girls-39-woven-jacket-all-in-motion-8482/-/A-94579755",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Rain Coats",
       filters: {
-        type: "Leotards",
+        type: "Rain Coats",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-classics-princess-camisole-leotard-girls/-/A-83915660",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/lands-end-school-uniform-kids-rain-jacket/-/A-92925626",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Rain Coats",
       filters: {
-        type: "Leotards",
+        type: "Rain Coats",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-classics-camisole-leotard-w-adjustable-straps-girls/-/A-83770409",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/minnie-mouse-girl-s-umbrella-and-raincoat-set-kids-ages-2-5-pink/-/A-90411077",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Rain Coats",
       filters: {
-        type: "Leotards",
+        type: "Rain Coats",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-classics-long-sleeve-leotard-girls/-/A-83848129",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/hello-kitty-girls-zip-up-jacket-little-kid-to-big-kid/-/A-94071489",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Rain Coats",
       filters: {
-        type: "Leotards",
+        type: "Rain Coats",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-women-s-future-star-tank-leotard/-/A-1003319607",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/minnie-mouse-girl-s-umbrella-and-raincoat-set-kids-ages-2-5-red/-/A-90411094",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Rain Coats",
       filters: {
-        type: "Leotards",
+        type: "Rain Coats",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-women-s-future-star-short-sleeve-leotard/-/A-1003319628",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/barbie-zip-up-waterproof-hooded-rain-jacket-coat/-/A-1003005808",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Rain Coats",
       filters: {
-        type: "Leotards",
+        type: "Rain Coats",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-team-basics-camisole-leotard-w-adjustable-straps-girls/-/A-84318198",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/disney-minnie-mouse-zip-up-waterproof-hooded-rain-jacket-coat-sizes-2t-7-8/-/A-1000558454",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Rain Coats",
       filters: {
-        type: "Leotards",
+        type: "Rain Coats",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-puff-sleeve-keyhole-back-leotard-girls/-/A-83915667",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/jojo-siwa-kids-umbrella-and-raincoat-set-rain-wear-for-girls-ages-4-7/-/A-89892500",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Rain Coats",
       filters: {
-        type: "Leotards",
+        type: "Rain Coats",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-plunge-neck-mesh-midriff-leotard-girls/-/A-84642563",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/disney-junior-zip-up-waterproof-hooded-rain-jacket-coat/-/A-1003487813",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Rain Coats",
       filters: {
-        type: "Leotards",
+        type: "Rain Coats",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-girl-s-c-est-la-vie-j-adore-leotard-child/-/A-1003315455",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/lands-end-kids-water-resistant-hooded-slicker-rain-jacket/-/A-1001887369",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Rain Coats",
       filters: {
-        type: "Leotards",
+        type: "Rain Coats",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-girl-s-c-est-la-vie-la-belle-leotard-child/-/A-1003315377",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/rainbows-stars-girls-umbrella-rain-jacket-set-little-girls-ages-3t-9-years/-/A-90449554",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Rain Coats",
       filters: {
-        type: "Leotards",
+        type: "Rain Coats",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-camisole-leotard-w-clear-transition-straps-girls/-/A-84636974",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/trolls-girls-raincoat-and-umbrella-and-raincoat-set-kids-ages-4-7/-/A-89919268",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Rain Coats",
       filters: {
-        type: "Leotards",
+        type: "Rain Coats",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-team-basics-long-sleeve-turtleneck-leotard-w-snaps-girls/-/A-84318356",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/dinosaur-boys-umbrella-rain-jacket-set-kids-ages-3t-9-years/-/A-90449636",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Rain Coats",
       filters: {
-        type: "Leotards",
+        type: "Rain Coats",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-girl-s-c-est-la-vie-jolie-leotard-child/-/A-1003315643",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/paw-patrol-girl-s-raincoat-and-umbrella-set-kids-ages-2-7-light-pink/-/A-90411318",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Rain Coats",
       filters: {
-        type: "Leotards",
+        type: "Rain Coats",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-girl-s-c-est-la-vie-fleur-leotard-child/-/A-1003315633",
-      tags: "Activewear, Girls’ Activewear, Leotards, Leotards and Bodysuits",
+      url: "https://www.target.com/p/paw-patrol-girl-s-raincoat-and-umbrella-set-kids-ages-2-7-dark-pink/-/A-90411317",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Rain Coats",
       filters: {
-        type: "Leotards",
+        type: "Rain Coats",
       },
     },
     {
-      url: "https://www.target.com/p/capezio-deep-neck-clear-back-bra-girls/-/A-84637030",
-      tags: "Activewear, Girls’ Activewear, Plunge Bras",
+      url: "https://www.target.com/p/addie-tate-girls-and-boys-rain-coats-and-umbrella-set-kids-ages-3t-7-years-shark/-/A-90449759",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Rain Coats",
       filters: {
-        type: "Plunge Bras",
+        type: "Rain Coats",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-cozy-lightweight-crewneck-sweatshirt-all-in-motion-8482/-/A-93070922",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/primary-kids-raincoat/-/A-1001968521",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Rain Coats",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Rain Coats",
       },
     },
     {
-      url: "https://www.target.com/p/girls-oversized-fleece-hoodie-sweatshirt-art-class/-/A-94430428",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/peppa-pig-little-girl-s-rain-jacket-windbreaker-shell-raincoat-slicker-2t-5/-/A-90214587",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Rain Coats",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Rain Coats",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-relaxed-fit-french-terry-pullover-shirt-cat-38-jack-8482/-/A-94802021",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/oshkosh-b-gosh-little-girl-s-lightweight-rainslicker-coat/-/A-93364222",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Rain Coats",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Rain Coats",
       },
     },
     {
-      url: "https://www.target.com/p/girls-fleece-hoodie-art-class/-/A-93441893",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/l-o-l-surprise-diva-neon-q-t-m-c-swag-girls-button-down-waterproof-rain-jacket-little-kid-to-big-kid/-/A-88578943",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Rain Coats",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Rain Coats",
       },
     },
     {
-      url: "https://www.target.com/p/girls-fleece-crew-neck-pullover-sweatshirt-art-class/-/A-94350684",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/addie-tate-girls-and-boys-rain-coats-and-umbrella-set-kids-ages-3t-7-years-panda-bear/-/A-90449689",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Rain Coats",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Rain Coats",
       },
     },
     {
-      url: "https://www.target.com/p/girls-french-terry-oversized-pullover-sweatshirt-art-class/-/A-94599976",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/addie-tate-girls-and-boys-rain-coats-and-umbrella-set-kids-ages-3t-7-years-monster/-/A-90449877",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Rain Coats",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Rain Coats",
       },
     },
     {
-      url: "https://www.target.com/p/girls-4th-of-july-fleece-crew-neck-pullover-sweatshirt-art-class/-/A-94819686",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/disney-minnie-mouse-girls-waterproof-hooded-rain-jacket-little-kid/-/A-88578464",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Rain Coats",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Rain Coats",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-adaptive-halloween-pullover-sweatshirt-cat-38-jack-8482-black/-/A-94600610",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/kids-boys-girls-lightweight-packable-rain-jacket-waterproof-hooded-raincoats-windproof-for-spring-fall-winter/-/A-91693184",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Rain Coats, Track Jackets",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Rain Coats",
       },
     },
     {
-      url: "https://www.target.com/p/kids-39-adaptive-pullover-crew-fleece-sweatshirt-cat-38-jack-8482-heather-gray/-/A-94486505",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/addie-tate-girls-and-boys-rain-coats-and-umbrella-set-kids-ages-3t-7-years-space-celestial/-/A-90196865",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Rain Coats",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Rain Coats",
       },
     },
     {
-      url: "https://www.target.com/p/girls-squishmallows-dreamy-fleece-pullover-sweatshirt-pink/-/A-91363897",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/dino-girls-umbrella-rain-jacket-set-kids-ages-3t-7-years/-/A-90449481",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Rain Coats",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Rain Coats",
       },
     },
     {
-      url: "https://www.target.com/p/girls-the-nightmare-before-christmas-jack-38-sally-dreamy-fleece-pullover-sweatshirt-gray/-/A-91363885",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/c-c-girl-s-shiny-rain-bucket-hat/-/A-93995962",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Rain Coats, Track Jackets",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Rain Coats",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-hello-kitty-cherry-oversized-hooded-fleece-sweatshirt-red/-/A-94653594",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/kids-lightweight-packable-rain-jacket-waterproof-hooded-raincoats-windproof-for-boys-and-girls/-/A-1002746392",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Rain Coats",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Rain Coats",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-smileyworld-adventure-oversized-hooded-fleece-sweatshirt/-/A-94653598",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/l-o-l-surprise-coconut-q-t-dawn-surfer-babe-waterproof-rain-jacket/-/A-87449935",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Rain Coats",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Rain Coats",
       },
     },
     {
-      url: "https://www.target.com/p/girls-rolling-stones-graphic-sweatshirt-navy-blue/-/A-94269019",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/carter-s-girls-her-favorite-rainslicker-rain-jacket-raincoat/-/A-1005178042",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Rain Coats",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Rain Coats",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-lilo-stitch-oversized-sweatshirt-oatmeal/-/A-94431065",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/girl-ladybug-raincoat-kidorable/-/A-1003070641",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Rain Coats",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Rain Coats",
       },
     },
     {
-      url: "https://www.target.com/p/converse-girls-pullover-sweatshirt-french-terry-hoodie/-/A-94687301",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/girl-lucky-cat-raincoat-kidorable/-/A-1002669036",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Rain Coats",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Rain Coats",
       },
     },
     {
-      url: "https://www.target.com/p/converse-girls-pullover-sweatshirt-hoodie/-/A-94687305",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/stephen-joseph-gifts-kids-raincoats/-/A-1004984533",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Rain Coats",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Rain Coats",
       },
     },
     {
-      url: "https://www.target.com/p/converse-girls-french-terry-quarter-zip-sweatshirt/-/A-94687318",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/stephen-joseph-girls-and-boys-raincoats/-/A-1004984504",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Rain Coats",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Rain Coats",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-bluey-colorblock-dreamy-fleece-sweatshirt-aqua-blue/-/A-93529417",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/lands-end-lands-end-kids-husky-winter-jacket/-/A-87721268",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Softshell Jackets",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Softshell Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-hello-kitty-bows-dreamy-fleece-crewneck-sweatshirt-green/-/A-93599699",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/lands-end-kids-squall-fleece-lined-waterproof-insulated-jacket/-/A-89887420",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Softshell Jackets",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Softshell Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-moana-2-dreamy-fleece-sweatshirt-ivory/-/A-92237494",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/rokka-rolla-girls-light-windbreaker-rain-jacket/-/A-90511788",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Track Jackets, Windbreakers",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Track Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/girls-def-leppard-oversized-fleece-crewneck-sweatshirt-light-purple/-/A-93069449",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/rokka-rolla-girls-light-rain-jacket-trench-coat/-/A-90511813",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Trench Coats",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Trench Coats",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-pokemon-floral-eevee-elevated-1-4-zip-sweatshirt-white-lime-green/-/A-93599960",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/girls-39-solid-trench-coat-art-class-8482-macadamia-tan/-/A-92927325",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Trench Coats",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Trench Coats",
       },
     },
     {
-      url: "https://www.target.com/p/girls-olivia-rodrigo-oversized-fleece-crew-neck-sweatshirt-gray/-/A-93069450",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/oshkosh-b-gosh-toddler-little-girls-ruffled-hooded-trench-jacket/-/A-1003273401",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Trench Coats",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Trench Coats",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-minnie-mouse-ditsy-floral-dreamy-fleece-sweatshirt-ivory/-/A-93599964",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/london-fog-big-girls-lightweight-hooded-trench-dress-jackets/-/A-1002927787",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Trench Coats",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Trench Coats",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-bluey-faux-shearling-pullover-sweatshirt-coral-pink-light-blue-ivory/-/A-92253715",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/london-fog-girls-lightweight-hooded-trench-dress-jacket/-/A-89861285",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Trench Coats",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Trench Coats",
       },
     },
     {
-      url: "https://www.target.com/p/disney-lilo-stitch-girls-french-terry-crossover-hoodie-toddler-to-big-kid/-/A-88301140",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
+      url: "https://www.target.com/p/yoki-big-girls-lightweight-hidden-zipper-hood-trench-jackets/-/A-1003651656",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Trench Coats",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Trench Coats",
       },
     },
     {
-      url: "https://www.target.com/p/girls-l-o-l-surprise-faux-shearling-sweatshirt-yellow/-/A-86900639",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/london-fog-toddler-little-girls-snap-front-hooded-skirt-trench-jackets/-/A-1002265916",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Trench Coats",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Trench Coats",
       },
     },
     {
-      url: "https://www.target.com/p/hello-kitty-french-terry-pullover-crossover-hoodie/-/A-1004629236",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/levi-s-girls-trucker-jeans-jacket-dark-wash/-/A-86734157",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Trucker Jackets",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Trucker Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/hello-kitty-girls-half-zip-woobie-sweatshirt-little-kid-to-big-kid/-/A-1000177526",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/levi-s-girls-trucker-jeans-jacket-light-wash/-/A-86734150",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Trucker Jackets",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Trucker Jackets",
       },
     },
     {
-      url: "https://www.target.com/p/disney-lilo-stitch-girls-fleece-pullover-fur-sweatshirt-little-kid-to-big-kid/-/A-94124599",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hello-kitty-girls-fleece-pullover-hoodie-toddler-to-big-kid/-/A-90042351",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/universal-studios-wicked-fleece-drop-shoulder-pullover-hoodie-sizes-2t-14-16/-/A-1001731876",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hello-kitty-and-friends-fleece-hoodie-sizes-2t-14-16/-/A-1001012097",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/disney-frozen-minnie-mouse-princess-moana-nightmare-before-christmas-toy-story-lion-king-lilo-stitch-girls-pullover-sweatshirt-little-kid-to-big/-/A-87483678",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hello-kitty-fleece-cosplay-pullover-hoodie-sizes-2t-14-16/-/A-1000402971",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-girls-fleece-pullover-hoodie-toddler-to-big-kid/-/A-90042648",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dreamworks-gabby-s-dollhouse-pandy-paws-mercat-cakey-cat-girls-french-terry-sweatshirt-toddler-to-big-kid/-/A-91109237",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bluey-bingo-sweatshirt-infant-to-big-kid/-/A-89790021",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/paw-patrol-skye-girls-fleece-half-zip-hoodie-little-kid-to-big-kid/-/A-88196088",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/miraculous-ladybug-cat-noir-girls-fleece-hoodie-little-kid-to-big-kid/-/A-87244269",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/care-bears-girls-half-zip-drop-shoulder-woobie-sweatshirt-little-kid-to-big-kid/-/A-93859692",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bluey-bingo-girls-fleece-fur-sweatshirt-toddler-to-big-kid/-/A-90042450",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/disney-lilo-stitch-girls-fleece-pullover-hoodie-little-kid-to-big/-/A-1004296075",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/disney-minnie-mouse-mickey-goofy-donald-duck-daisy-girls-pullover-hoodie-little-kid-to-big/-/A-85075290",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hasbro-furby-cosplay-pullover-hoodie-cozy-faux-shearling/-/A-1002541411",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/tasty-peach-studios-peachy-cafe-youth-girl-tofu-hoodie-with-ears/-/A-1002894406",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/tirrinia-kids-blanket-hoodie-sweatshirt-oversized-wearable-blanket-hooded-faux-shearling-lined-blanket-gift-for-kids-teens-youth/-/A-1000028623",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/paw-patrol-skye-girls-fleece-pullover-hoodie-little-kid/-/A-85039601",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/disney-minnie-mouse-girls-french-terry-oversized-drop-shoulder-sweatshirt-little-kid-to-big/-/A-92749512",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/unicorn-girl-s-cradle-pink-long-sleeve-cosplay-zip-up-hoodie/-/A-94162496",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/sesame-street-elmo-abby-cadabby-girls-sweatshirt-toddler/-/A-87483781",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/reebok-girls-cowl-neck-yoga-sweatshirt/-/A-1004736239",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dreamworks-gabby-s-dollhouse-pandy-paws-cakey-cat-mercat-girls-fleece-pullover-hoodie-toddler-to-big-kid/-/A-90116554",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-mickey-mouse-fashion-crewneck-sweatshirt-collegiate-athletic-crewneck-sweatshirt-mickey-minnie-sweatshirt/-/A-1004522267",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/coraline-girls-black-long-sleeve-hooded-sweatshirt/-/A-1004432757",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lanky-box-boxy-foxy-front-back-graphics-girl-s-cradle-pink-long-sleeve-hooded-sweatshirt/-/A-94199507",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-that-girl-lay-lay-princess-slaya-hoodie-gray/-/A-86963405",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/disney-minnie-mouse-encanto-mirabel-girls-hoodie-toddler-to-big-kid/-/A-87289635",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/disney-lilo-stitch-encanto-minnie-mouse-stitch-isabela-mirabel-girls-fleece-fur-sweatshirt-little-kid-to-big-kid/-/A-88223178",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/disney-minnie-mouse-mickey-girls-french-terry-oversized-matching-family-sweatshirt-little-kid-to-adult/-/A-1000320519",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/disney-doc-mcstuffins-girls-sweatshirt-little-kid/-/A-88225749",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/sesame-street-elmo-abby-cadabby-girls-sweatshirt-little-kid/-/A-87483790",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-mickey-mouse-fashion-crewneck-sweatshirt-collegiate-athletic-crewneck-sweatshirt-mickey-minnie-sweatshirt/-/A-1004522261",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/disney-girls-minnie-mouse-chasing-sunshine-cropped-crewneck-sweatshirt/-/A-92276495",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-birthday-girl-checkered-youth-ultra-soft-graphic-sweatshirt/-/A-93879160",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/sega-sonic-the-hedgehog-girls-fleece-oversized-drop-shoulder-sweatshirt-little-kid-to-big-kid/-/A-93743475",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/eg-pro-youth-girls-sweatshirt-ecosmart-crewneck/-/A-1005052937",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/l-o-l-surprise-queen-bee-diva-girls-fleece-pullover-hoodie-little-kid-to-big-kid/-/A-87079638",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dreamworks-shrek-french-terry-zip-up-cosplay-hoodie/-/A-1004611408",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/disney-lion-king-nala-simba-fleece-hoodie-pink/-/A-87526868",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/sega-sonic-the-hedgehog-girls-french-terry-sweatshirt-little-kid-to-big-kid/-/A-89160642",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/paw-patrol-marshall-chase-skye-everest-girls-pullover-sweatshirt/-/A-87483765",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/minecraft-creeper-girls-french-terry-pullover-sweatshirt-little-kid-to-big-kid/-/A-88164913",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/disney-encanto-mirabel-girls-fleece-pullover-hoodie-toddler-to-big-kid/-/A-88178327",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girl-toddlers-cow-smiley-face-crewneck-sweatshirt-oat-collective/-/A-1001355091",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dog-man-jumping-youth-girl-s-athletic-heather-long-sleeve-hooded-sweatshirt/-/A-1002655675",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/disney-frozen-queen-elsa-big-girls-fleece-pullover-sweatshirt-tie-dye-14-16/-/A-87246454",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/cry-babies-magic-tears-girls-child-pocket-sweatshirt-hoodie-pullover-pink/-/A-1000487795",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/my-little-pony-rainbow-dash-girls-french-terry-pullover-crossover-hoodie-toddler-to-big-kid/-/A-88296673",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hello-kitty-girls-fleece-cosplay-pullover-hoodie-toddler-sizes-2t-14-16/-/A-1000402973",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/peppa-pig-girls-french-terry-sweatshirt-toddler-to-little-kid/-/A-89844265",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/ufc-girls-script-pullover-hoodie-sweatshirt-red-m/-/A-1004765946",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/tasty-peach-witch-frog-brewing-potion-youth-girl-s-black-long-sleeve-hooded-sweatshirt-with-3d-ears/-/A-1001810596",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/champion-girls-1-4-zip-fleece-pullover-sweatshirt/-/A-94609783",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/deux-par-deux-girl-printed-french-terry-sweatshirt-old-pink-and-flowers/-/A-1003010777",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/ufc-girls-roaring-glory-sweatshirt/-/A-1004764791",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/touch-girls-miami-dolphins-ruffled-hoodie-sweatshirt/-/A-1004302920",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/g-iii-sports-girls-cleveland-cavaliers-hoodie-sweatshirt/-/A-1004146001",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/g-iii-sports-girls-michigan-state-spartans-hoodie-sweatshirt/-/A-1004142906",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/mykids-usa-baby-girl-cartoon-unicorn-patches-pattern-cotton-shirt/-/A-1003768536",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/mykids-usa-baby-girl-unicorn-floral-pattern-mesh-patchwork-design-hoodie/-/A-1003709158",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/spellbound-elian-oracles-magic-is-everywhere-youth-girl-s-royal-blue-long-sleeve-hooded-sweatshirt/-/A-1004162260",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girl-s-sequin-patch-style-long-sleeve-top-southern-grace/-/A-1000916451",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girl-s-cheerful-on-sparkly-glitter-sweatshirt-southern-grace/-/A-1000916025",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/deux-par-deux-girl-printed-french-terry-sweatshirt-off-white-and-koala/-/A-1003010786",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girl-kids-winter-animals-sweatshirt-happy-prince/-/A-1001401465",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/montauk-pullover-sweatshirt-art-class-blue/-/A-94257250",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/leveret-kids-long-sleeve-boho-solid-color-sweatshirt/-/A-89567038",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops, Toddler Boys’ Clothing, Toddler Clothing",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/leveret-kids-long-sleeve-classic-solid-color-sweatshirt/-/A-89567170",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops, Toddler Boys’ Clothing, Toddler Clothing",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/kids-target-matching-family-sweatshirt-wondershop-red/-/A-92295978",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-embroidered-smiley-face-outline-youth-ultra-soft-graphic-sweatshirt-l-black/-/A-1002349832",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-coquette-christmas-collage-youth-ultra-soft-graphic-sweatshirt/-/A-93349830",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-valentine-rainbow-youth-ultra-soft-graphic-sweatshirt/-/A-1000945283",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lands-end-school-uniform-kids-crew-sweatshirt/-/A-86908833",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-candy-cane-cutie-stars-youth-ultra-soft-graphic-sweatshirt/-/A-93302610",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-embroidered-thin-bow-youth-ultra-soft-graphic-sweatshirt/-/A-1002350205",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lands-end-kids-knit-crewneck-sweatshirt/-/A-1001905412",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-coquette-christmas-girly-youth-ultra-soft-graphic-sweatshirt/-/A-93349834",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-little-miss-valentine-skateboard-youth-ultra-soft-graphic-sweatshirt/-/A-1000551699",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lands-end-kids-active-zip-up-hoodie/-/A-1002931365",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lands-end-school-uniform-kids-hooded-pullover-sweatshirt/-/A-86908862",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-valentine-kittens-youth-graphic-hoodie/-/A-1001647253",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-embroidered-thin-bow-youth-graphic-hoodie/-/A-1002349978",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-pickleball-love-youth-ultra-soft-graphic-sweatshirt/-/A-1002604403",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lands-end-lands-end-kids-fleece-pullover-hoodie/-/A-87678275",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-embroidered-be-good-do-good-smiley-face-youth-hoodie-xl-black/-/A-1003380822",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-embroidered-be-good-do-good-smiley-face-youth-hoodie-s-black/-/A-1003380817",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-embroidered-be-good-do-good-smiley-face-youth-hoodie-m-black/-/A-1003380819",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-embroidered-be-good-do-good-smiley-face-youth-hoodie-l-black/-/A-1003380821",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-embroidered-be-good-do-good-smiley-face-youth-hoodie-xs-black/-/A-1003380811",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-hippy-flower-valentine-youth-ultra-soft-graphic-sweatshirt/-/A-1001026688",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-smiley-flowers-with-sunglasses-youth-ultra-soft-graphic-sweatshirt/-/A-1002532982",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-holly-leaves-coquette-youth-ultra-soft-graphic-sweatshirt/-/A-93717314",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-coquette-santa-chart-youth-ultra-soft-graphic-sweatshirt/-/A-93349857",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-sweetheart-puff-print-youth-ultra-soft-graphic-sweatshirt/-/A-1001026829",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-14th-feb-stars-puff-print-youth-graphic-hoodie/-/A-1001552029",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-be-mine-bubble-youth-ultra-soft-graphic-sweatshirt/-/A-1001026729",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-coquette-st-nick-s-tree-farm-youth-ultra-soft-graphic-sweatshirt/-/A-93349882",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/mykids-usa-butterfly-pattern-soft-cotton-autumn-hoodie/-/A-1003355023",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-coquette-fall-pumpkin-chart-youth-ultra-soft-graphic-sweatshirt/-/A-93302578",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-love-gnomes-youth-graphic-hoodie/-/A-1001743223",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-14th-feb-stars-puff-print-youth-ultra-soft-graphic-sweatshirt/-/A-1000042986",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lands-end-lands-end-kids-husky-fleece-hooded-sweatshirt/-/A-1003408699",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-candy-monster-horns-glitter-youth-ultra-soft-graphic-sweatshirt/-/A-93404609",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-peace-love-cupid-youth-graphic-hoodie/-/A-1001743200",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-so-franken-cute-glitter-youth-ultra-soft-graphic-sweatshirt/-/A-93404311",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/mizuno-youth-recover-hoodie/-/A-1002768625",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-coquette-ship-anchor-youth-graphic-hoodie/-/A-1002313549",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-valentine-s-gnomes-youth-graphic-hoodie/-/A-1001743183",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-little-miss-valentine-youth-graphic-hoodie/-/A-1001552090",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-fries-before-guys-bold-youth-graphic-hoodie/-/A-1001743317",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-coquette-hearts-youth-graphic-hoodie/-/A-1001552041",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-little-miss-lucky-charm-youth-ultra-soft-graphic-sweatshirt/-/A-1001890582",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-coquette-hearts-youth-ultra-soft-graphic-sweatshirt/-/A-1001259216",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-coquette-nautical-collage-youth-ultra-soft-graphic-sweatshirt/-/A-1002313501",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-tis-the-season-scarecrow-youth-ultra-soft-graphic-sweatshirt/-/A-93302580",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-love-flower-youth-graphic-hoodie/-/A-1001743159",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-hippy-flower-valentine-youth-graphic-hoodie/-/A-1001551937",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-candy-heart-smile-solid-youth-graphic-hoodie/-/A-1001552172",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-lucky-clover-checkered-youth-ultra-soft-graphic-sweatshirt/-/A-1002532863",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-little-miss-valentine-skateboard-youth-graphic-hoodie/-/A-1001551934",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/toddler-girls-americana-summer-crewneck-sweatshirt-cat-jack-blue/-/A-94406151",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/toddler-girls-french-terry-sweatshirt-cat-jack/-/A-92994156",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/toddler-girls-fleece-pullover-sweatshirt-cat-jack/-/A-94486326",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/toddler-girls-39-adaptive-halloween-pullover-sweatshirt-cat-38-jack-8482-black/-/A-94600629",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/baby-american-summer-fleece-sweatshirt-cat-38-jack-8482-blue/-/A-94472231",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/baby-usa-fleece-sweatshirt-cat-38-jack-8482-white/-/A-94472245",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/toddlers-39-adaptive-pullover-crew-neck-fleece-sweatshirt-cat-38-jack-8482-heather-gray/-/A-94486502",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/grayson-mini-toddler-girls-leopard-printed-french-terry-crew-sweatshirt/-/A-94473939",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/toddler-girls-disney-minnie-mouse-daisy-duck-fleece-sweatshirt-heather-gray/-/A-94609713",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/toddler-girls-disney-minnie-mouse-bow-pullover-heather-gray/-/A-94618298",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/grayson-mini-toddler-girls-paris-french-terry-crew-sweatshirt-red/-/A-94473940",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/toddler-girls-hello-kitty-bow-fleece-sweatshirt-cream/-/A-94618290",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/grayson-mini-toddler-girls-amour-french-terry-sweatshirt-red/-/A-92986937",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/grayson-mini-toddler-girls-ciao-french-terry-sweatshirt-yellow/-/A-92986928",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/grayson-mini-toddler-girls-french-terry-sweatshirt-cream/-/A-94651505",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/paw-patrol-skye-girls-fleece-half-zip-hoodie-toddler/-/A-88196087",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hello-kitty-girls-half-zip-woobie-sweatshirt-toddler/-/A-1000177529",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/grayson-mini-toddler-girls-french-terry-sweatshirt-brown/-/A-94651498",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/paw-patrol-marshall-chase-skye-everest-girls-pullover-sweatshirt/-/A-87483764",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/barbie-girls-fleece-pullover-hoodie-toddler-to-big-kid/-/A-90042643",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hello-kitty-girls-fleece-pullover-hoodie-toddler-to-big-kid/-/A-90042356",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bluey-bingo-girls-fleece-fur-sweatshirt-toddler-to-big-kid/-/A-90042458",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hello-kitty-girls-french-terry-pullover-crossover-hoodie-toddler/-/A-1004629233",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/disney-minnie-mouse-mickey-girls-french-terry-oversized-matching-family-sweatshirt-toddler/-/A-1000320402",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/paw-patrol-skye-girls-fleece-pullover-hoodie-toddler/-/A-85039595",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/disney-doc-mcstuffins-girls-sweatshirt-toddler/-/A-88225752",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hello-kitty-and-friends-girls-fleece-hoodie-toddler-sizes-2t-14-16/-/A-1001012106",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dreamworks-gabby-s-dollhouse-pandy-paws-mercat-cakey-cat-girls-french-terry-sweatshirt-toddler-to-big-kid/-/A-91109233",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/peppa-pig-girls-french-terry-sweatshirt-toddler-to-little-kid/-/A-89844270",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/disney-minnie-mouse-mickey-goofy-donald-duck-daisy-baby-girls-pullover-hoodie-infant/-/A-85075289",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bluey-girls-fleece-hoodie-toddler/-/A-90498659",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/levi-s-toddler-girls-ruffle-crewneck-sweatshirt-heather-gray/-/A-83350151",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bluey-bingo-sweatshirt-infant-to-big-kid/-/A-87266311",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/disney-minnie-mouse-mickey-goofy-donald-duck-daisy-girls-pullover-hoodie-toddler/-/A-85075291",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dreamworks-gabby-s-dollhouse-pandy-paws-cakey-cat-mercat-girls-fleece-pullover-hoodie-toddler-to-big-kid/-/A-90116568",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/disney-encanto-mirabel-girls-fleece-pullover-hoodie-toddler-to-big-kid/-/A-88178325",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/disney-frozen-minnie-mouse-princess-moana-nightmare-before-christmas-toy-story-lion-king-mickey-lilo-stitch-girls-pullover-sweatshirt-toddler/-/A-87483705",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/disney-lilo-stitch-encanto-minnie-mouse-stitch-isabela-mirabel-girls-fleece-fur-sweatshirt-toddler/-/A-88223189",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-birthday-girl-checkered-toddler-graphic-sweatshirt/-/A-93879173",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girl-liberty-sweatshirt-set-petit-confection/-/A-1001376650",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-coquette-girl-halloween-bow-charts-toddler-graphic-sweatshirt/-/A-92629617",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/disney-frozen-minnie-mouse-princess-moana-nightmare-before-christmas-toy-story-lion-king-mickey-lilo-stitch-r-baby-girls-pullover-sweatshirt-infant/-/A-87483662",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dreamworks-shrek-girls-french-terry-zip-up-cosplay-hoodie-toddler/-/A-1004611403",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hasbro-furby-girls-cosplay-pullover-hoodie-cozy-faux-shearling-toddler/-/A-1002541409",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-coquette-christmas-collage-toddler-graphic-sweatshirt/-/A-93349970",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-smiley-clover-daisy-toddler-graphic-hoodie/-/A-1002532814",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-candy-cane-cutie-stars-toddler-graphic-sweatshirt/-/A-93207482",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-big-sis-distressed-toddler-graphic-sweatshirt/-/A-91813126",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-coquette-christmas-girly-toddler-graphic-sweatshirt/-/A-93349949",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-embroidered-thin-bow-toddler-graphic-hoodie/-/A-1002350027",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-coquette-nautical-collage-toddler-graphic-hoodie/-/A-1002313387",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-embroidered-thin-bow-toddler-graphic-sweatshirt/-/A-1002350264",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-one-groovy-chick-toddler-graphic-sweatshirt/-/A-91395736",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-smiley-flowers-with-sunglasses-toddler-graphic-sweatshirt/-/A-1002532987",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-wicked-cute-pumpkin-toddler-graphic-sweatshirt/-/A-93019700",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-big-sis-club-toddler-graphic-sweatshirt/-/A-91813212",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-fall-darlin-toddler-graphic-sweatshirt/-/A-92725952",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-valentine-kittens-toddler-graphic-sweatshirt/-/A-1001646934",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/rufflebutts-juniper-hooded-sweatshirt-juniper-0-3-months/-/A-87969770",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-embroidered-hippity-hoppity-stacked-toddler-hoodie-2t-pink/-/A-1003380113",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-embroidered-hippity-hoppity-stacked-toddler-hoodie-4t-pink/-/A-1003380116",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-embroidered-hippity-hoppity-stacked-toddler-hoodie-2t-natural/-/A-1003380090",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-embroidered-hippity-hoppity-stacked-toddler-hoodie-2t-white/-/A-1003380103",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-lucky-clover-checkered-toddler-graphic-hoodie/-/A-1002542228",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-embroidered-hippity-hoppity-stacked-toddler-hoodie-4t-white/-/A-1003380106",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-embroidered-hippity-hoppity-stacked-toddler-hoodie-4t-natural/-/A-1003380096",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-valentine-kittens-toddler-graphic-hoodie/-/A-1001646976",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-let-s-par-tee-coquette-toddler-graphic-hoodie/-/A-1002444234",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-let-s-par-tee-coquette-toddler-graphic-sweatshirt/-/A-1002444276",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-embroidered-be-kind-turning-smiles-toddler-hoodie/-/A-1004526738",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-embroidered-be-kind-turning-smiles-toddler-hoodie/-/A-1004526743",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-embroidered-smiley-face-outline-toddler-hoodie/-/A-1004526731",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-candy-monster-horns-glitter-toddler-graphic-sweatshirt/-/A-93404303",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-little-miss-lucky-charm-toddler-graphic-sweatshirt/-/A-1001890491",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-holly-leaves-coquette-toddler-graphic-sweatshirt/-/A-93717249",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-tis-the-season-scarecrow-toddler-graphic-sweatshirt/-/A-93174298",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-coquette-nautical-collage-toddler-graphic-sweatshirt/-/A-1002313609",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-howdy-chick-toddler-graphic-sweatshirt/-/A-91333369",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-hey-ghoul-hey-colorful-toddler-graphic-sweatshirt/-/A-93019595",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-lucky-vibes-cartoon-rainbow-toddler-graphic-sweatshirt/-/A-1002533021",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-cutest-pumpkin-leopard-print-toddler-graphic-sweatshirt/-/A-92604540",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-lucky-smiley-disco-toddler-graphic-sweatshirt/-/A-1002532936",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-witch-farm-truck-toddler-graphic-sweatshirt/-/A-93032693",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-coquette-fall-pumpkin-chart-toddler-graphic-sweatshirt/-/A-93174272",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-little-miss-lucky-charm-toddler-graphic-hoodie/-/A-1001890776",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-lucky-clover-checkered-toddler-graphic-sweatshirt/-/A-1002532857",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/harry-potter-hogwarts-hedwig-owl-slytherin-hufflepuff-ravenclaw-girls-french-terry-pullover-hoodie-toddler-to-big-kid/-/A-88222115",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/star-wars-the-mandalorian-baby-yoda-sweatshirt-pink/-/A-87482870",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/marvel-spidey-and-his-amazing-friends-ghost-spider-girls-pullover-hoodie-little-kid/-/A-85036701",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/star-wars-the-child-girls-hoodie-toddler-to-big-kid/-/A-89032073",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/star-wars-little-girls-stronger-than-you-think-baby-grogu-sweatshirt/-/A-92911551",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/star-wars-the-child-girls-hoodie-toddler-to-big-kid/-/A-89032070",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/star-wars-the-mandalorian-baby-yoda-sweatshirt-pink/-/A-87482866",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/star-wars-the-mandalorian-baby-yoda-sweatshirt-pink/-/A-87482862",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/marvel-spidey-and-his-amazing-friends-ghost-spider-girls-pullover-hoodie-toddler/-/A-85036704",
-      tags: "Activewear, Girls’ Activewear, Pullover Sweatshirts",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/capezio-team-basics-racerback-bra-top-girls/-/A-84318456",
-      tags: "Activewear, Girls’ Activewear, Racerback Bras, Sports Bras",
-      filters: {
-        type: "Racerback Bras",
-      },
-    },
-    {
-      url: "https://www.target.com/p/capezio-team-basics-camisole-bra-top-girls/-/A-83775199",
-      tags: "Activewear, Girls’ Activewear, Scoop Neck Bras",
-      filters: {
-        type: "Scoop Neck Bras",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-racerback-sports-bra-all-in-motion/-/A-94088528",
-      tags: "Activewear, Girls’ Activewear, Sports Bras",
-      filters: {
-        type: "Sports Bras",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-39-seamless-t-back-sports-bra-art-class-8482/-/A-90781600",
-      tags: "Activewear, Girls’ Activewear, Sports Bras",
-      filters: {
-        type: "Sports Bras",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-2pk-sports-bra-cat-jack-white-black/-/A-92878056",
-      tags: "Activewear, Girls’ Activewear, Sports Bras",
-      filters: {
-        type: "Sports Bras",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-39-2pk-sports-bra-cat-38-jack-8482/-/A-91235192",
-      tags: "Activewear, Girls’ Activewear, Sports Bras",
-      filters: {
-        type: "Sports Bras",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-39-2pk-39-hearts-39-printed-sports-bra-cat-38-jack-8482-peach-orange/-/A-93278211",
-      tags: "Activewear, Girls’ Activewear, Sports Bras",
-      filters: {
-        type: "Sports Bras",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-39-2pk-sports-bra-cat-38-jack-8482-denim-blue-wash/-/A-94328446",
-      tags: "Activewear, Girls’ Activewear, Sports Bras",
-      filters: {
-        type: "Sports Bras",
-      },
-    },
-    {
-      url: "https://www.target.com/p/maidenform-girls-39-ribbed-sports-bra/-/A-89690531",
-      tags: "Activewear, Girls’ Activewear, Sports Bras",
-      filters: {
-        type: "Sports Bras",
-      },
-    },
-    {
-      url: "https://www.target.com/p/fruit-of-the-loom-girl-s-cotton-sports-bra-6-pack/-/A-85561148",
-      tags: "Activewear, Girls’ Activewear, Sports Bras",
-      filters: {
-        type: "Sports Bras",
-      },
-    },
-    {
-      url: "https://www.target.com/p/maidenform-girls-39-spacer-sports-bra/-/A-93666789",
-      tags: "Activewear, Girls’ Activewear, Sports Bras",
-      filters: {
-        type: "Sports Bras",
-      },
-    },
-    {
-      url: "https://www.target.com/p/fruit-of-the-loom-girl-s-stay-dry-racerback-sports-bra-2-pack/-/A-89032517",
-      tags: "Activewear, Girls’ Activewear, Sports Bras",
-      filters: {
-        type: "Sports Bras",
-      },
-    },
-    {
-      url: "https://www.target.com/p/fruit-of-the-loom-girls-spaghetti-strap-sports-bra-3-pack-bittersweet-pink-heather-grey-white-32/-/A-88049749",
-      tags: "Activewear, Girls’ Activewear, Sports Bras",
-      filters: {
-        type: "Sports Bras",
-      },
-    },
-    {
-      url: "https://www.target.com/p/fruit-of-the-loom-girls-seamless-racerback-sports-bra-2-pack/-/A-89550890",
-      tags: "Activewear, Girls’ Activewear, Sports Bras",
-      filters: {
-        type: "Sports Bras",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dragonwing-criss-cross-crop-top/-/A-1002526598",
-      tags: "Activewear, Girls’ Activewear, Sports Bras",
-      filters: {
-        type: "Sports Bras",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dragonwing-fearless-seamless-crop-top/-/A-1001541856",
-      tags: "Activewear, Girls’ Activewear, Sports Bras",
-      filters: {
-        type: "Sports Bras",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dragonwing-harmony-sports-bra/-/A-1001647465",
-      tags: "Activewear, Girls’ Activewear, Sports Bras",
-      filters: {
-        type: "Sports Bras",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dragonwing-vitality-bandeau-top/-/A-1001664919",
-      tags: "Activewear, Girls’ Activewear, Sports Bras",
-      filters: {
-        type: "Sports Bras",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dragonwing-ignite-crop-top/-/A-1002512635",
-      tags: "Activewear, Girls’ Activewear, Sports Bras",
-      filters: {
-        type: "Sports Bras",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dragonwing-ava-sports-bra/-/A-1001540613",
-      tags: "Activewear, Girls’ Activewear, Sports Bras",
-      filters: {
-        type: "Sports Bras",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dragonwing-v-neck-crop-top/-/A-1002515611",
-      tags: "Activewear, Girls’ Activewear, Sports Bras",
-      filters: {
-        type: "Sports Bras",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dragonwing-level-up-sports-bra/-/A-1001687546",
-      tags: "Activewear, Girls’ Activewear, Sports Bras",
-      filters: {
-        type: "Sports Bras",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dragonwing-daydream-crop-top/-/A-1001623560",
-      tags: "Activewear, Girls’ Activewear, Sports Bras",
-      filters: {
-        type: "Sports Bras",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dragonwing-vitality-strappy-crop-top/-/A-1001687161",
-      tags: "Activewear, Girls’ Activewear, Sports Bras",
-      filters: {
-        type: "Sports Bras",
-      },
-    },
-    {
-      url: "https://www.target.com/p/capezio-team-basics-ladder-back-bratop-girls/-/A-84318270",
-      tags: "Activewear, Girls’ Activewear, Sports Bras",
-      filters: {
-        type: "Sports Bras",
-      },
-    },
-    {
-      url: "https://www.target.com/p/leveret-girls-boho-solid-color-cable-knit-tights/-/A-89602869",
-      tags: "Activewear, Girls’ Activewear, Tights, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
-      filters: {
-        type: "Tights",
-      },
-    },
-    {
-      url: "https://www.target.com/p/leveret-girls-classic-solid-color-cable-knit-tights/-/A-89603054",
-      tags: "Activewear, Girls’ Activewear, Tights, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
-      filters: {
-        type: "Tights",
-      },
-    },
-    {
-      url: "https://www.target.com/p/leveret-girls-tights/-/A-89598792",
-      tags: "Activewear, Girls’ Activewear, Tights, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
-      filters: {
-        type: "Tights",
-      },
-    },
-    {
-      url: "https://www.target.com/p/leveret-girls-neutral-solid-color-cable-knit-tights/-/A-89603135",
-      tags: "Activewear, Girls’ Activewear, Tights",
-      filters: {
-        type: "Tights",
-      },
-    },
-    {
-      url: "https://www.target.com/p/memoi-girls-lace-up-bow-opaque-tights/-/A-93668029",
-      tags: "Activewear, Girls’ Activewear, Tights, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
-      filters: {
-        type: "Tights",
-      },
-    },
-    {
-      url: "https://www.target.com/p/capezio-classic-footed-tight-child/-/A-84003735",
-      tags: "Activewear, Girls’ Activewear, Tights, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
-      filters: {
-        type: "Tights",
-      },
-    },
-    {
-      url: "https://www.target.com/p/capezio-ultra-soft-transition-tight-with-back-seam-girls/-/A-86530896",
-      tags: "Activewear, Girls’ Activewear, Tights, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
-      filters: {
-        type: "Tights",
-      },
-    },
-    {
-      url: "https://www.target.com/p/capezio-ultra-hold-stirrup-tight-child/-/A-87219834",
-      tags: "Activewear, Girls’ Activewear, Tights, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
-      filters: {
-        type: "Tights",
-      },
-    },
-    {
-      url: "https://www.target.com/p/capezio-professional-fishnet-seamless-tight-girls/-/A-86530923",
-      tags: "Activewear, Girls’ Activewear, Tights",
-      filters: {
-        type: "Tights",
-      },
-    },
-    {
-      url: "https://www.target.com/p/capezio-ultra-shimmery-footed-tight-child/-/A-92422301",
-      tags: "Activewear, Girls’ Activewear, Tights, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
-      filters: {
-        type: "Tights",
-      },
-    },
-    {
-      url: "https://www.target.com/p/capezio-ultra-hold-footless-tight-child/-/A-87219866",
-      tags: "Activewear, Girls’ Activewear, Tights, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
-      filters: {
-        type: "Tights",
-      },
-    },
-    {
-      url: "https://www.target.com/p/capezio-ultra-hold-footed-tight-child/-/A-87219857",
-      tags: "Activewear, Girls’ Activewear, Tights",
-      filters: {
-        type: "Tights",
-      },
-    },
-    {
-      url: "https://www.target.com/p/capezio-classic-fishnet-tight-with-seam-child/-/A-86530953",
-      tags: "Activewear, Girls’ Activewear, Tights, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
-      filters: {
-        type: "Tights",
-      },
-    },
-    {
-      url: "https://www.target.com/p/capezio-ultra-soft-convertible-body-tight-girls/-/A-86530861",
-      tags: "Activewear, Girls’ Activewear, Tights, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
-      filters: {
-        type: "Tights",
-      },
-    },
-    {
-      url: "https://www.target.com/p/capezio-ultra-soft-hip-rider-capri-tight-girls/-/A-86530900",
-      tags: "Activewear, Girls’ Activewear, Tights, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
-      filters: {
-        type: "Tights",
-      },
-    },
-    {
-      url: "https://www.target.com/p/capezio-women-s-classic-fishnet-seamless-tight-child/-/A-86530945",
-      tags: "Activewear, Girls’ Activewear, Tights, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
-      filters: {
-        type: "Tights",
-      },
-    },
-    {
-      url: "https://www.target.com/p/capezio-ultra-soft-stirrup-body-tight-girls/-/A-86530888",
-      tags: "Activewear, Girls’ Activewear, Tights, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
-      filters: {
-        type: "Tights",
-      },
-    },
-    {
-      url: "https://www.target.com/p/capezio-girl-s-professional-glitter-tight-child/-/A-1003315790",
-      tags: "Activewear, Girls’ Activewear, Tights, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
-      filters: {
-        type: "Tights",
-      },
-    },
-    {
-      url: "https://www.target.com/p/capezio-professional-mesh-transition-tight-w-seams-girls/-/A-87219791",
-      tags: "Activewear, Girls’ Activewear, Tights, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
-      filters: {
-        type: "Tights",
-      },
-    },
-    {
-      url: "https://www.target.com/p/capezio-girl-s-all-over-rhinestone-tight-child/-/A-1003315842",
-      tags: "Activewear, Girls’ Activewear, Tights, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
-      filters: {
-        type: "Tights",
-      },
-    },
-    {
-      url: "https://www.target.com/p/capezio-professional-rhinestone-fishnet-tight-child/-/A-1000523897",
-      tags: "Activewear, Girls’ Activewear, Tights, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
-      filters: {
-        type: "Tights",
-      },
-    },
-    {
-      url: "https://www.target.com/p/capezio-ballet-pink-mesh-transition-tight-with-mock-seam-girls-one-size/-/A-86530815",
-      tags: "Activewear, Girls’ Activewear, Tights, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
-      filters: {
-        type: "Tights",
-      },
-    },
-    {
-      url: "https://www.target.com/p/capezio-ultra-soft-self-knit-waistband-transition-tight-girls-toddler/-/A-84003822",
-      tags: "Activewear, Girls’ Activewear, Tights, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
-      filters: {
-        type: "Tights",
-      },
-    },
-    {
-      url: "https://www.target.com/p/capezio-ultra-soft-footed-tight-girls-toddler/-/A-84003746",
-      tags: "Activewear, Girls’ Activewear, Tights, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
-      filters: {
-        type: "Tights",
-      },
-    },
-    {
-      url: "https://www.target.com/p/capezio-footless-tight-w-self-knit-waist-band-girls-toddler/-/A-84003992",
-      tags: "Activewear, Girls’ Activewear, Tights, Girls’ Clothing, Hosiery Leggings, Kids’ Clothing, Socks & Tights",
-      filters: {
-        type: "Tights",
-      },
-    },
-    {
-      url: "https://www.target.com/p/capezio-ultra-soft-transition-tight-girls-toddler/-/A-84003641",
-      tags: "Activewear, Girls’ Activewear, Tights, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
-      filters: {
-        type: "Tights",
-      },
-    },
-    {
-      url: "https://www.target.com/p/girls-solid-windbreaker-jacket-all-in-motion/-/A-94457648",
-      tags: "Activewear, Girls’ Activewear, Windbreakers, Coats & Jackets, Girls’ Clothing, Kids’ Clothing",
+      url: "https://www.target.com/p/rokka-rolla-girls-ripstop-windbkreaker-deluxe-jacket/-/A-1003220607",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Windbreakers",
       filters: {
         type: "Windbreakers",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-zip-up-fleece-hooded-sweatshirt-cat-38-jack-8482/-/A-94482984",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/kids-rain-jacket-cat-jack/-/A-93904415",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Windbreakers",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Windbreakers",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-relaxed-fit-french-terry-zip-up-hooded-sweatshirt-cat-38-jack-8482/-/A-94576209",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/oshkosh-b-gosh-little-girls-popover-packable-windbreaker-jacket/-/A-93364213",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Windbreakers",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Windbreakers",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-french-terry-quarter-zip-pullover-sweatshirt-cat-38-jack-8482/-/A-94576212",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/primary-kids-packable-windbreaker/-/A-1001971181",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Windbreakers",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Windbreakers",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-hearts-french-terry-zip-up-hoodie-cat-38-jack-8482/-/A-93300713",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/kids-ramsey-rain-jacket-olive-scout/-/A-1002255256",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Windbreakers",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Windbreakers",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-zip-up-halloween-cat-fleece-hoodie-sweatshirt-cat-38-jack-8482-cream/-/A-94482967",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/deux-par-deux-girl-colorblock-mid-season-jacket/-/A-1002906155",
+      tags: "Coats & Jackets, Girls’ Clothing, Kids’ Clothing, Windbreakers",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Windbreakers",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-zip-up-halloween-spider-fleece-hoodie-sweatshirt-cat-38-jack-8482-light-olive-green/-/A-94482969",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/toddler-ruby-bow-sandals-cat-jack/-/A-92310245",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/kids-39-adaptive-zip-up-fleece-hoodie-sweatshirt-cat-38-jack-8482-pink-rose/-/A-94486506",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/toddler-everleigh-sandals-cat-jack/-/A-92605912",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-hello-kitty-38-friends-cream-zip-up-hooded-sweatshirt-0ff-white/-/A-94431040",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/toddler-girls-kinsley-raffia-nautical-sandals-cat-jack-beige/-/A-93654855",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-hello-kitty-zip-up-hooded-sweatshirt-green/-/A-94431044",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/toddler-ella-sandals-cat-jack-white/-/A-94336435",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/girls-disney-stitch-waves-for-days-graphic-terry-hooded-sweatshirt-yellow/-/A-94431069",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/toddler-beck-footbed-sandals-cat-jack/-/A-92680245",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes, Footbed Sandals, Toddler Boys’ Shoes, Toddler Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-stitch-hawaii-elevated-1-4-zip-sweatshirt-blue/-/A-93758581",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/toddler-selene-pearl-sandals-cat-jack/-/A-92318004",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/girls-39-hello-kitty-38-friends-elevated-1-4-zip-sweatshirt-heather-gray/-/A-93599689",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/toddler-lillie-gingham-sandals-cat-jack-red/-/A-93652241",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/disney-lilo-stitch-girls-french-terry-zip-up-cosplay-hoodie-little-kid-to-big-kid/-/A-90042344",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/kids-eve-pearl-sandals-cat-jack/-/A-92317624",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/hello-kitty-girls-cozy-faux-sherling-zip-up-cosplay-hoodie-little-kid-to-big-kid/-/A-1000866280",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/kids-aria-bow-sandals-cat-jack/-/A-92317635",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/dreamworks-gabby-s-dollhouse-girls-zip-up-hoodie-little-kid-to-big-kid/-/A-85562331",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/toddler-lucy-strawberry-sandals-cat-jack-red/-/A-93654863",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/barbie-girls-velour-matching-family-zip-up-hoodie-little-kid-to-adult/-/A-93183873",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/kids-arden-camp-sandals-cat-jack/-/A-93632473",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/disney-princess-moana-cindrella-ariel-belle-zip-up-hoodie-little-kid-to-big-kid/-/A-87217525",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/kids-ellis-nautical-sandals-art-class-ivory/-/A-93655162",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/peppa-pig-girls-fleece-zip-up-hoodie-toddler-to-little-kid/-/A-90276050",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/bebe-girl-s-shoes-infant-flats-with-glitter-and-rhinestone-flats-for-infants/-/A-1002206105",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/disney-nightmare-before-christmas-sally-jack-skellington-girls-french-terry-hoodie-little-kid-to-big-kid/-/A-87049130",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/blowfish-malibu-girls-lovely-k-sandal/-/A-1001633189",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/disney-minnie-mouse-girls-fleece-zip-up-hoodie-little-kid-to-big-kid/-/A-93825912",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/blowfish-malibu-youth-girl-s-goya-k-sandal/-/A-1004517282",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/dc-comics-justice-league-wonder-woman-girls-zip-up-costume-hoodie-little-kid-to-big-kid/-/A-88398070",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/blowfish-malibu-girls-journey-k-sandal/-/A-1001632967",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/l-o-l-surprise-snow-angel-french-terry-zip-up-hoodie-toddler-to-big-kid/-/A-88227571",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/blowfish-malibu-girls-sunflower-k-sandal/-/A-1001633743",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/hanes-girl-hooded-sweatshirt-full-zip-1-pack-super-soft-breathable/-/A-1002809960",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/blowfish-malibu-kid-s-billa-k-sandal/-/A-93468352",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/the-pink-picket-fence-suzie-dino-hoodie-for-girls-lightweight-zip-up-jacket-hand-painted-dinosaur-print/-/A-1004883980",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/blowfish-malibu-girls-laughter-k-sandal/-/A-1001633068",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/leveret-kids-zipper-classic-solid-color-sweat-hoodie/-/A-89567658",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops, Toddler Boys’ Clothing, Toddler Clothing",
+      url: "https://www.target.com/p/blowfish-malibu-girls-gaia-k-sandal/-/A-1001632456",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/leveret-kids-zipper-boho-solid-color-sweat-hoodie/-/A-89567550",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops, Toddler Boys’ Clothing, Toddler Clothing",
+      url: "https://www.target.com/p/blowfish-malibu-kid-s-loverli-k-strappy-wedge-sandal/-/A-93469039",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/lands-end-school-uniform-kids-zip-front-sweatshirt/-/A-86908804",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/bebe-girls-sandals-kids-open-toe-summer-shoes-perfect-flat-sandals-for-girls-little-girl-big-girl/-/A-1002504859",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/lands-end-lands-end-school-uniform-kids-quarter-zip-pullover/-/A-88835523",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/bebe-girls-sandals-kids-open-toe-summer-shoes-perfect-flat-sandals-for-girls-with-rhinestone-little-girl-big-girl/-/A-1002504914",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/toddler-girls-zip-up-french-terry-hoodie-cat-jack/-/A-94504344",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts",
+      url: "https://www.target.com/p/blowfish-malibu-kid-s-liddie-k-strappy-wedge-sandal/-/A-93469020",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/toddler-girls-zip-up-fleece-hoodie-cat-jack/-/A-94566500",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts",
+      url: "https://www.target.com/p/blowfish-malibu-kid-s-blumoon-k-sandal/-/A-93468446",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/toddlers-39-adaptive-zip-up-fleece-hoodie-sweatshirt-cat-38-jack-8482-pink-rose/-/A-94486507",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts",
+      url: "https://www.target.com/p/bebe-girls-sandals-kids-open-toe-summer-shoes-with-mesh-upper-perfect-flat-sandals-for-girls-little-girl-big-girl/-/A-1002504847",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/hello-kitty-girls-cozy-faux-sherling-zip-up-cosplay-hoodie-toddler/-/A-1000866290",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts",
+      url: "https://www.target.com/p/blowfish-malibu-toddler-girls-sunflower-t-sandal/-/A-1001633791",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/cocomelon-jj-fleece-zip-up-hoodie-toddler/-/A-86901015",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts",
+      url: "https://www.target.com/p/blowfish-malibu-toddler-girls-gaia-t-sandal/-/A-1001632485",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/disney-minnie-mouse-girls-fleece-zip-up-hoodie-toddler/-/A-93825907",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts",
+      url: "https://www.target.com/p/blowfish-malibu-toddler-girls-miffy-t-sandal/-/A-1001633392",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/disney-minnie-mouse-mickey-winnie-the-pooh-girls-cozy-faux-sherling-zip-up-cosplay-hoodie-toddler/-/A-93968895",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts",
+      url: "https://www.target.com/p/bebe-girls-sandals-cute-and-sparkly-toddler-girls-summer-shoes-perfect-beach-sandals-for-toddlers/-/A-1002504872",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/disney-nightmare-before-christmas-jack-skellington-sally-girls-french-terry-hoodie-toddler/-/A-87049135",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts",
+      url: "https://www.target.com/p/bebe-girls-sandals-cute-toddler-girls-summer-shoes-perfect-beach-sandals-for-toddlers/-/A-1002504807",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/dc-comics-justice-league-wonder-woman-girls-french-terry-zip-up-costume-hoodie-toddler/-/A-85458372",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts",
+      url: "https://www.target.com/p/bebe-girls-sandals-cute-and-comfy-toddler-girls-summer-shoes-perfect-beach-sandals-for-toddlers-with-charms-and-flowers/-/A-1002504714",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/dreamworks-gabby-s-dollhouse-girls-zip-up-hoodie-toddler/-/A-85562328",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts",
+      url: "https://www.target.com/p/bebe-girls-sandals-cute-and-comfy-toddler-girls-summer-shoes-perfect-beach-sandals-for-toddlers/-/A-1002504834",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/peppa-pig-girls-fleece-zip-up-hoodie-toddler-to-little-kid/-/A-90276053",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts",
+      url: "https://www.target.com/p/blowfish-malibu-kid-s-balla-d-k-sandal/-/A-1004517274",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/cocomelon-jj-baby-fleece-zip-up-hoodie-infant/-/A-86901012",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts",
+      url: "https://www.target.com/p/dr-scholl-s-youth-girls-island-original-kids-sandals/-/A-1001661179",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/disney-classics-girls-fleece-zip-up-cosplay-hoodie-toddler-sizes-2t-14-16/-/A-1001544062",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts",
+      url: "https://www.target.com/p/bebe-girl-s-flat-sandals-with-rhinestone-bow-detail-and-fruit-glitter-detail-sandals-for-little-kid-big-kid/-/A-1000551245",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/disney-minnie-mouse-mickey-winnie-the-pooh-baby-girls-cozy-faux-sherling-zip-up-cosplay-hoodie-newborn-to-infant/-/A-93968896",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts",
+      url: "https://www.target.com/p/dr-scholl-s-youth-girls-island-glow-kids-sandals-brown-13-m/-/A-1001661130",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/disney-princess-moana-cindrella-ariel-belle-zip-up-hoodie-toddler/-/A-87217520",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts",
+      url: "https://www.target.com/p/dr-scholl-s-youth-girls-island-glow-kids-strappy-sandals-white-smooth-13-m/-/A-1004060503",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/barbie-girls-french-terry-zip-up-hoodie-toddler/-/A-87276214",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts",
+      url: "https://www.target.com/p/bebe-girls-sandals-comfy-open-toe-dress-sandals-fancy-and-sparkly-sandals-for-little-girls-and-big-girls/-/A-1002224737",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/disney-princess-moana-cindrella-ariel-belle-zip-up-hoodie-infant/-/A-87217521",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts",
+      url: "https://www.target.com/p/foamwalk-toddler-girl-s-eva-sandals-with-charm-detail-comfy-sandals-for-toddler/-/A-92074129",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/dc-comics-justice-league-wonder-woman-girls-zip-up-costume-hoodie-toddler/-/A-88398069",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts",
+      url: "https://www.target.com/p/bebe-girls-sandals-open-toe-flat-sandals-for-girls-stylish-and-comfy-sandals-toddler-little-girl-big-girl/-/A-1002257473",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/barbie-girls-velour-matching-family-zip-up-hoodie-toddler/-/A-93183870",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts",
+      url: "https://www.target.com/p/bebe-girl-s-sandals-cute-and-charming-sandals-open-toe-summer-sandals-for-toddlers/-/A-1002206103",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/marvel-spider-man-spider-gwen-ghost-spider-girls-fleece-zip-up-hoodie-little-kid-to-big-kid/-/A-88397434",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/dr-scholl-s-infant-girls-islander-toddler-sandals/-/A-1001660938",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/harry-potter-slytherin-ravenclaw-hufflepuff-girls-french-terry-zip-up-hoodie-little-kid-to-big-kid/-/A-89291810",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts, Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Tops",
+      url: "https://www.target.com/p/olivia-miller-girl-s-issabella-slide-sandals/-/A-1002187049",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/marvel-spider-man-spider-gwen-ghost-spider-girls-fleece-zip-up-hoodie-toddler/-/A-88397433",
-      tags: "Activewear, Girls’ Activewear, Zip-Up Sweatshirts",
+      url: "https://www.target.com/p/olivia-miller-girl-s-ivanna-ankle-strap-sandals/-/A-1002187041",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Zip-Up Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/bluey-girls-fleece-hoodie-little-kid-to-big-kid/-/A-90498654",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/olivia-miller-girl-s-galinda-ankle-strap-sandals/-/A-1002187089",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/leveret-kids-long-sleeve-neutral-solid-color-sweatshirt/-/A-89567290",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops, Toddler Boys’ Clothing, Toddler Clothing",
+      url: "https://www.target.com/p/bebe-toddler-girls-sandals-open-toe-flat-sandals-comfy-summer-flats-for-toddler-and-little-kids/-/A-1002276193",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/acdc-dirty-deeds-done-dirt-cheap-youth-black-crew-neck-sweatshirt/-/A-89177260",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/olivia-miller-girl-s-kacie-ankle-strap-sandals/-/A-1002187096",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/minecraft-panda-feeding-time-crew-neck-long-sleeve-athletic-heather-boy-s-sweatshirt/-/A-89002045",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/little-love-bug-ella-sandal/-/A-1001925522",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/catalonia-oversized-blanket-hoodie-sweatshirt-for-kids-wearable-fleece-pullover-with-large-front-pocket-teen-boys-girls-gift/-/A-1000523833",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/little-love-bug-closed-toe-sandal/-/A-1001953325",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/leveret-kids-hooded-sweatshirt-kids-hoodie-pullover-sweatshirt-with-kangaroo-pocket-classic-solid-color/-/A-1000400479",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/little-love-bug-t-bar-dress-shoe/-/A-1001929157",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes, T-Strap Sandals",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/leveret-kids-hooded-sweatshirt-kids-hoodie-pullover-sweatshirt-with-kangaroo-pocket-boho-solid-color/-/A-1000400424",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/joybees-toddler-harper-slip-on-clog/-/A-89699007",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes, Slides, Toddler Boys’ Shoes, Toddler Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/solaris-hoodie-sweatshirt-for-kids-warm-soft-gift-oversized-cozy-fleece-sweatshirt-pullover-for-teens-girls-boys-large-pocket/-/A-93639691",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/see-kai-run-basics-toddler-jaylen-sandals/-/A-83922112",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes, Footbed Sandals, Toddler Boys’ Shoes, Toddler Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/leveret-kids-hooded-sweatshirt-kids-hoodie-pullover-sweatshirt-with-kangaroo-pocket-neutral-solid-color/-/A-1000400553",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/little-love-bug-olivia-dress-shoe/-/A-1003152282",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/dinosaur-oversized-blanket-hoodie-sweatshirt-for-kids-7-15yr-cozy-fuzzy-flannel-wearable-blanket-for-boys-girls-christmas-gift-for-kids-solaris/-/A-1001267115",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/beverly-hills-polo-club-toddler-sport-sandals-outdoor-hook-and-loop-closure/-/A-87261336",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/catalonia-banana-cat-wearable-blanket-hoodie-for-kids-fleece-snuggy-sweatshirt-pullover-4-12-years-kids-gift-for-boys-girls/-/A-91339606",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/lands-end-toddlers-easy-on-scalloped-sandals/-/A-1003120186",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/sol-angeles-kids-black-white-stripe-pullover-hoodie/-/A-1003706375",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/joybees-kids-dylan-slip-on-clogs/-/A-92603466",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/beary-sweet-youth-girl-s-long-sleeve-cosplay-hoodie-with-3d-ears/-/A-1000024753",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/joybees-kids-vista-slides/-/A-92318470",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/peppa-pig-kids-snugible-blanket-hoodie-pillow/-/A-1000384764",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/little-love-bug-sebby-sandal/-/A-1002898495",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/lankybox-all-over-character-print-long-sleeve-youth-blue-hooded-sweatshirt/-/A-1000525231",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/little-love-bug-charley-sandal/-/A-1003057659",
+      tags: "Ankle Strap Sandals, Girls’ Shoes, Kids’ Shoes, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ankle Strap Sandals",
       },
     },
     {
-      url: "https://www.target.com/p/minecraft-block-kitten-with-block-heart-and-logo-youth-black-graphic-hoodie/-/A-89050955",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/kids-diana-slip-on-ballet-flats-cat-jack/-/A-92604667",
+      tags: "Ballet Flats, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ballet Flats",
       },
     },
     {
-      url: "https://www.target.com/p/minecraft-creepers-tnt-long-sleeve-boy-s-reversible-hooded-sweatshirt/-/A-1001387148",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/toddler-elle-ballet-flats-cat-jack-blush/-/A-92704695",
+      tags: "Ballet Flats, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ballet Flats",
       },
     },
     {
-      url: "https://www.target.com/p/ac-dc-monochrome-logo-and-cannon-youth-heather-gray-graphic-hoodie/-/A-88861502",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/kids-marla-charm-ballet-flats-cat-jack-ivory/-/A-94270645",
+      tags: "Ballet Flats, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ballet Flats",
       },
     },
     {
-      url: "https://www.target.com/p/mightly-kids-fair-trade-organic-cotton-pullover-hoodie/-/A-1004010357",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/toddler-lisa-ballet-flats-cat-38-jack-8482-blush/-/A-92758713",
+      tags: "Ballet Flats, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ballet Flats",
       },
     },
     {
-      url: "https://www.target.com/p/minecraft-block-kitten-with-block-heart-youth-black-graphic-hoodie/-/A-89050952",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/toddler-girls-juni-bow-ballet-flats-cat-jack-black/-/A-94264190",
+      tags: "Ballet Flats, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ballet Flats",
       },
     },
     {
-      url: "https://www.target.com/p/space-jam-squad-youth-royal-blue-hoodie/-/A-86196174",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/kids-brooke-ballet-flats-cat-jack/-/A-94267011",
+      tags: "Ballet Flats, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ballet Flats",
       },
     },
     {
-      url: "https://www.target.com/p/naruto-classic-collegiate-letters-youth-black-graphic-hoodie/-/A-89386804",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/toddler-addy-ballet-flats-cat-38-jack-8482-tan/-/A-94293452",
+      tags: "Ballet Flats, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ballet Flats",
       },
     },
     {
-      url: "https://www.target.com/p/looney-tunes-angry-daffy-duck-youth-black-graphic-hoodie/-/A-89001893",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/kids-nora-slip-on-ballet-flats-cat-jack/-/A-92604898",
+      tags: "Ballet Flats, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ballet Flats",
       },
     },
     {
-      url: "https://www.target.com/p/christmas-ginger-bread-candy-cane-green-gamer-oversized-wearable-hoodie-blanket/-/A-1000525246",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/toddler-addy-ballet-flats-cat-38-jack-8482-vibrant-silver/-/A-94253692",
+      tags: "Ballet Flats, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ballet Flats",
       },
     },
     {
-      url: "https://www.target.com/p/scooby-doo-mystery-gang-doodle-youth-black-graphic-hoodie/-/A-89386799",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/toddler-bridget-bow-mary-jane-flats-cat-jack-black/-/A-94268906",
+      tags: "Ballet Flats, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ballet Flats",
       },
     },
     {
-      url: "https://www.target.com/p/five-nights-at-freddy-s-youth-black-graphic-hoodie/-/A-89522822",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/toddler-rue-ballet-flats-cat-jack/-/A-92604904",
+      tags: "Ballet Flats, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ballet Flats",
       },
     },
     {
-      url: "https://www.target.com/p/yu-gi-oh-joey-character-with-spiral-background-and-logo-youth-black-graphic-hoodie/-/A-88919720",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/toddler-heather-stud-ballet-flats-cat-jack-blush/-/A-94268905",
+      tags: "Ballet Flats, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ballet Flats",
       },
     },
     {
-      url: "https://www.target.com/p/looney-tunes-bugs-bunny-speech-bubble-what-s-up-doc-youth-heather-gray-graphic-hoodie/-/A-89002183",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/kids-bronwyn-ballet-flats-art-class-brown/-/A-94268903",
+      tags: "Ballet Flats, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ballet Flats",
       },
     },
     {
-      url: "https://www.target.com/p/dc-x-sonic-the-hedgehog-from-the-shadows-shadow-x-batman-yellow-outline-youth-long-sleeve-hoodie/-/A-93802599",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/kids-nell-rhinestone-mary-jane-flats-art-class-off-white/-/A-92658706",
+      tags: "Ballet Flats, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ballet Flats",
       },
     },
     {
-      url: "https://www.target.com/p/lanky-box-boxy-long-sleeve-boy-s-yellow-cosplay-hoodie/-/A-93713959",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/kids-stud-ballet-flats-art-class-black/-/A-94268908",
+      tags: "Ballet Flats, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ballet Flats",
       },
     },
     {
-      url: "https://www.target.com/p/disney-mickey-mouse-fleece-drop-shoulder-pullover-hoodie/-/A-1003050227",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/kids-quilla-mesh-ballet-flats-art-class/-/A-94336720",
+      tags: "Ballet Flats, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ballet Flats",
       },
     },
     {
-      url: "https://www.target.com/p/blockbuster-be-kind-rewind-comfort-food-adult-royal-blue-hoodie/-/A-90275394",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/kids-kaira-buckle-ballet-flats-art-class-red/-/A-94268902",
+      tags: "Ballet Flats, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ballet Flats",
       },
     },
     {
-      url: "https://www.target.com/p/mclaren-f1-kids-core-essentials-hoodie/-/A-92466188",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/kids-faye-mesh-ballet-flats-art-class-beige/-/A-92958911",
+      tags: "Ballet Flats, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ballet Flats",
       },
     },
     {
-      url: "https://www.target.com/p/sesame-street-abby-cadabby-kids-snugible-blanket-hoodie-pillow/-/A-1000384759",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/kids-fleur-mesh-slip-on-ballet-flats-art-class-blush/-/A-92605546",
+      tags: "Ballet Flats, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ballet Flats",
       },
     },
     {
-      url: "https://www.target.com/p/naruto-classic-character-varsity-style-graphic-with-collegiate-text-youth-athletic-heather-hoodie/-/A-89097459",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/kids-toree-rhinestone-ballet-flats-art-class/-/A-94336719",
+      tags: "Ballet Flats, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ballet Flats",
       },
     },
     {
-      url: "https://www.target.com/p/red-bull-racing-f1-kids-sergio-checo-perez-special-edition-mexico-gp-hoodie/-/A-1001221395",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/bebe-girls-sandals-sparkly-shoes-for-kids-ballet-flats-for-girls-little-kid-big-kid/-/A-1002518850",
+      tags: "Ballet Flats, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ballet Flats",
       },
     },
     {
-      url: "https://www.target.com/p/minecraft-block-butterfly-flying-youth-royal-blue-graphic-hoodie/-/A-89051394",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/blowfish-malibu-kid-s-pixi-k-slip-on-flat/-/A-93469393",
+      tags: "Ballet Flats, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ballet Flats",
       },
     },
     {
-      url: "https://www.target.com/p/red-bull-racing-f1-kid-s-2024-team-pullover-hoodie/-/A-93226136",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/toddler-disney-minnie-mouse-ballet-flats-pink/-/A-92605589",
+      tags: "Ballet Flats, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ballet Flats",
       },
     },
     {
-      url: "https://www.target.com/p/the-juniper-shop-hugs-and-kisses-youth-graphic-hoodie/-/A-1001551995",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/bebe-girls-sandals-cute-sparkly-shoes-for-kids-ballet-flats-for-girls-little-kid-big-kid/-/A-1002504943",
+      tags: "Ballet Flats, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ballet Flats",
       },
     },
     {
-      url: "https://www.target.com/p/unicorns-rainbows-youth-pink-oversized-wearable-hoodie-blanket/-/A-1000514540",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/dr-scholl-s-youth-girls-wexley-kids-ballet-flat/-/A-92657343",
+      tags: "Ballet Flats, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ballet Flats",
       },
     },
     {
-      url: "https://www.target.com/p/chibi-cat-youth-girl-s-black-long-sleeve-cosplay-hoodie-with-3d-ears/-/A-1000024768",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/kensie-girl-little-kids-girls-ballerinas-flats/-/A-86418122",
+      tags: "Ballet Flats, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ballet Flats",
       },
     },
     {
-      url: "https://www.target.com/p/bear-hug-youth-girl-s-tofu-long-sleeve-cosplay-hoodie-with-3d-ears/-/A-1000024615",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/kensie-girl-toddler-ballerina-flats/-/A-88218879",
+      tags: "Ballet Flats, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ballet Flats",
       },
     },
     {
-      url: "https://www.target.com/p/the-juniper-shop-golf-par-tee-varsity-youth-graphic-hoodie/-/A-1002444188",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/kensie-girl-toddler-ballerina-dress-shoes-with-straps-for-better-fit-mary-jane-ballet-flats/-/A-88218902",
+      tags: "Ballet Flats, Girls’ Shoes, Kids’ Shoes, Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ballet Flats",
       },
     },
     {
-      url: "https://www.target.com/p/just-fall-things-pumpkin-spice-latte-youth-long-sleeve-hoodie/-/A-1000883597",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/girl-s-ballet-shoes-by-danz-n-motion-112-full-sole-leather/-/A-1003057620",
+      tags: "Ballet Slippers, Girls’ Shoes, Kids’ Shoes, Shoes, Dance Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ballet Slippers",
       },
     },
     {
-      url: "https://www.target.com/p/the-juniper-shop-i-dig-you-youth-graphic-hoodie/-/A-1001552067",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
+      url: "https://www.target.com/p/girl-s-ballet-shoes-danz-n-motion-397-leather-stretch-cross-straps-split-sole/-/A-1003521235",
+      tags: "Ballet Slippers, Girls’ Shoes, Kids’ Shoes, Shoes, Dance Shoes",
       filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/naruto-classic-character-pointing-with-ombre-text-youth-black-graphic-hoodie/-/A-89386898",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/pawsitive-brown-bear-youth-girl-s-long-sleeve-cosplay-hoodie-with-3d-ears/-/A-94153762",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/looney-tunes-snack-time-youth-heather-gray-graphic-hoodie/-/A-89002137",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/naruto-gaaro-versus-naruto-youth-black-hoodie/-/A-89764602",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/five-nights-at-freddy-s-foxy-and-foxy-silhouette-youth-black-graphic-hoodie/-/A-89522825",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/ac-dc-74-jailbreak-album-cover-youth-heather-gray-graphic-hoodie/-/A-88861508",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/pink-floyd-division-bell-adult-black-hoodie/-/A-90274297",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/plushible-sesame-street-elmo-kids-snugible-blanket-hoodie-pillow/-/A-90961195",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bioworld-sonic-the-hedgehog-knuckles-no-time-for-games-youth-black-hoodie/-/A-89244251",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bioworld-team-sesame-street-1969-count-von-count-youth-black-hoodie/-/A-89765101",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/looney-tunes-you-re-despicable-daffy-duck-youth-royal-blue-graphic-hoodie/-/A-89002290",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-flash-movie-red-logo-youth-boys-black-hoodie/-/A-89097549",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/naruto-classic-gaara-character-in-action-pose-youth-athletic-heather-hoodie/-/A-89097434",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bioworld-team-sesame-street-1969-cookie-monster-mvp-youth-heather-gray-hoodie/-/A-89765328",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/castore-red-bull-racing-f1-kid-s-2025-team-pullover-hoodie/-/A-1002208323",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/plushible-sesame-street-oscar-the-grouch-kids-snugible-blanket-hoodie-pillow/-/A-90961194",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/plushible-sesame-street-cookie-monster-kids-snugible-blanket-hoodie-pillow/-/A-90961191",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-embroidered-be-kind-turning-smiles-youth-hoodie/-/A-1003380755",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/ultraman-here-he-comes-our-ultraman-youth-black-hoodie/-/A-89244239",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-love-smiley-face-youth-graphic-hoodie/-/A-1001743404",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dc-x-sonic-chaos-controller-youth-long-sleeve-hoodie/-/A-93802483",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/family-is-a-gift-youth-long-sleeve-hoodie/-/A-1000883547",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/a-leading-role-teletubbies-premium-po-pullover-child-hoodie/-/A-93001272",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-lucky-vibes-clover-youth-graphic-hoodie/-/A-1002225522",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bioworld-sesame-street-c-is-for-champions-youth-royal-blue-hoodie/-/A-89765367",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-embroidered-smiley-face-outline-youth-graphic-hoodie/-/A-1002349946",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-embroidered-love-typewriter-youth-graphic-hoodie/-/A-1001709705",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/castore-mclaren-f1-kids-lando-norris-hoodie/-/A-1005138168",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-embroidered-hand-drawn-heart-youth-graphic-hoodie/-/A-1001709845",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-gulf-of-mexico-surfer-youth-long-sleee-hoodie/-/A-1002590753",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/where-s-the-pie-youth-long-sleeve-hoodie/-/A-1000883548",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-hey-sugar-pie-stars-youth-graphic-hoodie/-/A-1001551915",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-embroidered-hand-drawn-heart-youth-graphic-hoodie/-/A-1001709660",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/castore-mclaren-f1-kids-2025-team-hoodie/-/A-1002258566",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/go-sports-but-where-s-the-food-youth-long-sleeve-hoodie/-/A-93696405",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/scooby-doo-mystery-gang-doodles-youth-athletic-gray-hoodie/-/A-89387535",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-embroidered-be-kind-turning-smiles-youth-hoodie/-/A-1003380808",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-game-day-youth-graphic-hoodie/-/A-1001831880",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/castore-alpine-racing-f1-2025-kids-team-hoodie/-/A-1002315511",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-love-vibes-checkered-youth-graphic-hoodie/-/A-1001743198",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/so-unbearable-youth-long-sleeve-hoodie/-/A-1000883436",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/ultraman-with-red-filter-and-kanji-logo-youth-black-hoodie/-/A-89244289",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/mykids-usa-baby-solid-color-thickened-autumn-basic-hoodies/-/A-1003660754",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/tasty-peach-halloween-characters-youth-girl-black-hoodie-with-cat-ears/-/A-1001810586",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-cursive-lucky-clover-youth-graphic-hoodie/-/A-1002225562",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-embroidered-smiley-face-outline-youth-hoodie/-/A-1003380714",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-embroidered-choose-happy-smiley-face-youth-graphic-hoodie/-/A-1002350174",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-embroidered-lucky-typewriter-youth-graphic-hoodie/-/A-1002225697",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-embroidered-choose-happy-smiley-face-youth-hoodie/-/A-1003380662",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-embroidered-lucky-clover-youth-graphic-hoodie/-/A-1001890688",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/gulf-of-mexico-black-and-white-wave-youth-long-sleee-hoodie/-/A-1002590637",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-embroidered-easter-eggs-youth-hoodie/-/A-1003380593",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-all-you-need-is-love-coquette-youth-graphic-hoodie/-/A-1001552064",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/pawsitive-bear-youth-long-sleeve-hoodie/-/A-1000883437",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/castore-red-bull-racing-f1-heritage-kids-team-hoodie/-/A-1005158654",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-embroidered-be-good-do-good-smiley-face-youth-graphic-hoodie/-/A-1002350012",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/looney-tunes-sufferin-succotash-sylvester-youth-black-graphic-hoodie/-/A-89001892",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-coquette-valentine-vibes-youth-graphic-hoodie/-/A-1001551926",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-babe-smile-youth-graphic-hoodie/-/A-1001552213",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/parking-lot-pioneer-old-west-wagon-football-cowboy-youth-long-sleeve-hoodie/-/A-93115680",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-happy-go-lucky-shamrock-youth-graphic-hoodie/-/A-1002519718",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-retro-love-stripes-youth-graphic-hoodie/-/A-1001743161",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-heart-throb-small-heart-puff-print-youth-graphic-hoodie/-/A-1001552086",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/blockbuster-a-good-movie-is-like-comfort-food-for-your-other-senses-logo-grid-adult-black-hoodie/-/A-90274270",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-football-game-day-youth-graphic-hoodie/-/A-1001823536",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/hold-your-horses-humor-youth-long-sleeve-hoodie/-/A-93695844",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/gulf-of-mexico-always-forever-youth-long-sleee-hoodie/-/A-1002590874",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-pushin-my-luck-youth-graphic-hoodie/-/A-1001890587",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-game-day-football-youth-graphic-hoodie/-/A-1001823722",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/touchdown-football-sports-youth-long-sleeve-hoodie/-/A-1002524577",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-love-smile-youth-graphic-hoodie/-/A-1001743107",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/coolest-turkey-in-town-youth-long-sleeve-hoodie/-/A-1000883576",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-embroidered-hand-drawn-heart-youth-graphic-hoodie/-/A-1001709806",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/so-unbearable-youth-girl-s-tofu-long-sleeve-cosplay-hoodie-with-3d-ears/-/A-1000024648",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/gulf-of-mexico-palm-tree-youth-long-sleee-hoodie/-/A-1002590700",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/liverpool-fc-character-world-official-hugzee-oversized-wearable-hoodie/-/A-1003753188",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-cuter-than-cupid-youth-graphic-hoodie/-/A-1001743129",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-happy-go-lucky-shamrock-youth-hoodie/-/A-1003380745",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-embroidered-choose-happy-smiley-face-youth-hoodie/-/A-1003380720",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-pool-floats-youth-hoodie/-/A-1003380123",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/rip-gulf-of-mexico-1607-2025-youth-long-sleee-hoodie/-/A-1002590792",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/manchester-city-fc-hugzee-oversized-wearable-hoodie/-/A-1003753178",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/labbing-touch-grass-gamer-nerd-youth-long-sleeve-hoodie/-/A-1002523017",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/cool-as-a-cucumber-humor-youth-long-sleeve-hoodie/-/A-93695862",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-but-first-tacos-outline-youth-hoodie/-/A-1003380736",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-pickleball-front-and-back-youth-graphic-hoodie/-/A-1002604186",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-tic-tac-heart-youth-graphic-hoodie/-/A-1001551914",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-football-game-day-stripes-youth-graphic-hoodie/-/A-1001831836",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/five-nights-at-freddy-s-freddy-waving-half-tone-style-youth-boys-athletic-gray-hoodie/-/A-92947031",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/nerdlucks-youth-royal-blue-hoodie/-/A-85295541",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/labbing-touch-grass-gamer-nerd-youth-long-sleeve-hoodie/-/A-1002522926",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-talk-football-to-me-ball-youth-graphic-hoodie/-/A-1001831833",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/teddy-hugs-youth-long-sleeve-hoodie/-/A-1001313597",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-embroidered-lucky-clover-youth-graphic-hoodie/-/A-1001890623",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/grill-eat-repeat-football-youth-long-sleeve-hoodie/-/A-93696262",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/rabble-gender-neutral-hoodie-and-valentines-day-dabblz-bundle/-/A-1001756661",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-be-mine-block-youth-graphic-hoodie/-/A-1001743110",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-lucky-typewriter-youth-graphic-hoodie/-/A-1002519865",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-love-clover-youth-hoodie/-/A-1003380769",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-embroidered-hippity-hoppity-stacked-youth-hoodie/-/A-1003380109",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/eat-sleep-game-repeat-youth-long-sleeve-hoodie/-/A-93695794",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/be-sweet-candy-cane-youth-long-sleeve-hoodie/-/A-1000883523",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/fish-out-of-water-youth-long-sleeve-hoodie/-/A-93695950",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/gulf-of-mexico-forever-sunset-wave-youth-long-sleee-hoodie/-/A-1002590746",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-bubba-solid-youth-hoodie/-/A-1003380136",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-love-clover-youth-graphic-hoodie/-/A-1002225795",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/in-tailgating-we-trust-american-flag-and-spatula-youth-long-sleeve-hoodie/-/A-93696214",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/rip-gulf-of-mexico-1607-2025-youth-long-sleee-hoodie/-/A-1002590853",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-be-mine-cursive-heart-youth-graphic-hoodie/-/A-1001743130",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-valentine-s-whale-youth-graphic-hoodie/-/A-1001552178",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/blockbuster-white-logo-adult-royal-blue-hoodie/-/A-90275417",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/give-thanks-turkey-pumpkin-youth-long-sleeve-hoodie/-/A-1000883539",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/go-sports-but-where-s-the-food-kids-long-sleeve-hoodie/-/A-93696419",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-embroidered-i-love-you-words-youth-graphic-hoodie/-/A-1001709785",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-embroidered-varsity-love-vibes-youth-graphic-hoodie/-/A-1001709828",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/scooby-doo-mystery-gang-doodle-youth-black-graphic-hoodie/-/A-89386819",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/made-with-love-youth-long-sleeve-hoodie/-/A-1002524568",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/blockbuster-be-kind-rewind-circular-logo-adult-black-hoodie/-/A-90274240",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/eg-pro-tech-fleece-youth-sleeveless-hoodie/-/A-1001393265",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-lucky-vibes-distressed-youth-hoodie/-/A-1003380631",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-lucky-retro-stars-youth-graphic-hoodie/-/A-1002277098",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/cutest-turkey-in-town-youth-long-sleeve-hoodie/-/A-1000883590",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-logo-in-bat-signal-youth-heather-gray-hoodie/-/A-89244223",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/thinking-cat-youth-girl-s-black-long-sleeve-cosplay-hoodie-with-3d-ears/-/A-1000024774",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-pickleball-paddles-crossed-youth-graphic-hoodie/-/A-1002604193",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/grillin-and-chillin-like-a-football-villain-youth-long-sleeve-hoodie/-/A-93696289",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-embroidered-varsity-love-vibes-youth-graphic-hoodie/-/A-1001709812",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/in-tailgating-we-trust-american-flag-and-spatula-youth-long-sleeve-hoodie/-/A-93230799",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-retro-lucky-stripes-youth-graphic-hoodie/-/A-1002277075",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-just-happy-to-be-here-youth-hoodie/-/A-1003380342",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/perfect-spirals-flaming-football-youth-long-sleeve-hoodie/-/A-93115655",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-flash-movie-clipping-image-youth-boys-royal-blue-hoodie/-/A-89097378",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/butterfly-youth-long-sleeve-hoodie/-/A-1000883544",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/rabble-gender-neutral-hoodie-bundle-with-magic-wonders-dabblz/-/A-1002277918",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/eat-sleep-game-repeat-youth-long-sleeve-hoodie/-/A-93695812",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/castore-mclaren-f1-oscar-piastri-kids-driver-hoodie/-/A-1005175510",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-arched-varsity-youth-hoodie/-/A-1003380568",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-smileyworld-need-space-youth-hoodie/-/A-1003380255",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/perfect-spirals-flaming-football-youth-long-sleeve-hoodie/-/A-93696231",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-embroidered-smiley-face-outline-youth-graphic-hoodie/-/A-1002350050",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-embroidered-hand-drawn-heart-youth-graphic-hoodie/-/A-1001709749",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-embroidered-be-kind-turning-smiles-youth-graphic-hoodie/-/A-1002349961",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/padel-paladin-youth-long-sleeve-hoodie/-/A-93696095",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/kids-39-adaptive-fleece-crew-sweatshirt-cat-38-jack-8482-navy-blue/-/A-94576201",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/ultraman-rising-emi-ultraman-youth-athletic-heather-long-sleeve-hooded-sweatshirt/-/A-94157331",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dragon-ball-z-chibi-fighters-long-sleeve-royal-blue-youth-hooded-sweatshirt/-/A-89522930",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/led-zeppelin-red-icarus-logo-long-sleeve-black-youth-hooded-sweatshirt/-/A-90274249",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/teddy-bear-youth-off-white-long-sleeve-hooded-sweatshirt-with-3d-ears/-/A-93859967",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/kawaii-cat-youth-black-long-sleeve-hooded-sweatshirt-with-3d-ears/-/A-93859970",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/cobra-kai-all-valley-karate-champion-long-sleeve-black-youth-hooded-sweatshirt/-/A-91217270",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/led-zeppelin-black-and-white-band-photo-long-sleeve-athletic-heather-youth-hooded-sweatshirt/-/A-90273798",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/five-nights-at-freddy-s-bonnie-head-long-sleeve-black-youth-hooded-sweatshirt/-/A-90274281",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/sesame-street-elmo-star-frame-long-sleeve-royal-adult-blue-hooded-sweatshirt/-/A-93147696",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/teddy-bear-youth-black-long-sleeve-hooded-sweatshirt-with-3d-ears/-/A-93860012",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/my-hero-academia-all-might-collegiate-text-long-sleeve-athletic-heather-youth-hooded-sweatshirt/-/A-88756623",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/tasty-peach-adzuki-the-redbean-red-panda-long-sleeve-athletic-heather-youth-hooded-sweatshirt/-/A-91498647",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/sonic-the-hedgehog-modern-sonic-pop-dimension-color-art-long-sleeve-black-youth-hooded-sweatshirt/-/A-91217493",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lanky-box-foxy-long-sleeve-royal-blue-youth-hooded-sweatshirt/-/A-91714204",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/where-the-wild-things-are-max-i-ll-eat-you-up-youth-navy-long-sleeve-hooded-sweatshirt/-/A-94236736",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/cobra-kai-strike-first-strike-hard-black-seal-long-sleeve-athletic-heather-youth-hooded-sweatshirt/-/A-92985720",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/five-nights-at-freddy-s-red-freddy-crew-neck-long-sleeve-black-youth-hooded-sweatshirt/-/A-89765400",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dragon-ball-z-frieza-long-sleeve-athletic-heather-youth-hooded-sweatshirt/-/A-89765296",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dog-man-running-across-cityscape-youth-black-long-sleeve-hooded-sweatshirt/-/A-93890636",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/journey-infinity-scarab-logo-long-sleeve-youth-black-hooded-sweatshirt/-/A-93653730",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/minecraft-adventure-is-an-attitude-long-sleeve-royal-blue-youth-hooded-sweatshirt/-/A-89387724",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/sesame-street-vintage-2022-character-group-shot-long-sleeve-youth-black-hooded-sweatshirt/-/A-93333103",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/naruto-kakashi-action-pose-long-sleeve-black-youth-hooded-sweatshirt/-/A-89765431",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lanky-box-cute-characters-long-sleeve-black-youth-hooded-sweatshirt/-/A-91714172",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/yu-gi-oh-dark-magician-puff-print-long-sleeve-black-youth-hooded-sweatshirt/-/A-88756559",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dog-man-character-posing-youth-royal-blue-long-sleeve-hooded-sweatshirt/-/A-93890671",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/minecraft-steve-creeper-long-sleeve-black-youth-hooded-sweatshirt/-/A-89765416",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/led-zeppelin-falling-icarus-logo-long-sleeve-black-boy-s-hooded-sweatshirt/-/A-90663893",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/naruto-classic-team-seven-long-sleeve-athletic-gray-youth-hooded-sweatshirt/-/A-88756668",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dragon-ball-z-goku-orange-swirl-background-long-sleeve-black-youth-hooded-sweatshirt/-/A-89522821",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/naruto-tonal-character-graphic-long-sleeve-black-youth-hooded-sweatshirt/-/A-90274291",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lanky-box-boxy-long-sleeve-black-youth-hooded-sweatshirt/-/A-91898275",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/cobra-kai-never-dies-neon-logo-long-sleeve-black-youth-hooded-sweatshirt/-/A-92985715",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/mclaren-f1-kids-2023-team-hooded-sweatshirt/-/A-92467692",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/polly-pocket-pocket-sized-since-1989-long-sleeve-athletic-heather-youth-hooded-sweatshirt/-/A-92628643",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lanky-box-plush-characters-long-sleeve-athletic-heather-youth-hooded-sweatshirt/-/A-91217247",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lanky-box-foxy-long-sleeve-boy-s-colorblock-hooded-sweatshirt/-/A-93877582",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/sonic-the-hedgehog-character-face-long-sleeve-boy-s-blue-hooded-sweatshirt-detachable-fanny-pack/-/A-1000134556",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/sonic-the-hedgehog-modern-dr-eggman-long-sleeve-black-youth-hooded-sweatshirt/-/A-89721331",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/minecraft-creeper-face-long-sleeve-black-youth-hooded-sweatshirt/-/A-90468726",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/my-hero-academia-group-art-checkered-frame-long-sleeve-athletic-heather-youth-hooded-sweatshirt/-/A-88756612",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/minecraft-compass-explore-badge-long-sleeve-royal-blue-youth-hooded-sweatshirt/-/A-85886194",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/nerf-logo-long-sleeve-royal-blue-boy-s-hooded-sweatshirt/-/A-90275378",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/led-zeppelin-blimp-falling-icarus-logo-long-sleeve-black-youth-hooded-sweatshirt/-/A-90274226",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/led-zeppelin-blimp-long-sleeve-athletic-heather-youth-hooded-sweatshirt/-/A-89765437",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/sonic-the-hedgehog-modern-emerald-club-graphic-long-sleeve-athletic-heather-youth-hooded-sweatshirt/-/A-89723218",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-the-caped-crusader-guardian-of-gotham-city-long-sleeve-black-youth-hooded-sweatshirt/-/A-91217379",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/superman-my-hero-since-forever-long-sleeve-black-youth-hooded-sweatshirt/-/A-89386811",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-line-art-long-sleeve-black-youth-hooded-sweatshirt/-/A-89208454",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dragon-ball-z-smiling-chibi-goku-long-sleeve-royal-blue-youth-hooded-sweatshirt/-/A-90275439",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/led-zeppelin-earl-s-court-youth-athletic-heather-long-sleeve-hooded-sweatshirt/-/A-1002264388",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/shining-star-kawaii-cat-youth-black-long-sleeve-hooded-sweatshirt-with-3d-ears/-/A-93859965",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/acdc-world-tour-08-09-long-sleeve-black-youth-hooded-sweatshirt/-/A-89765445",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/superman-man-of-steel-chrome-logo-long-sleeve-black-youth-hooded-sweatshirt/-/A-89386864",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/love-all-tennis-kids-hooded-sweatshirt/-/A-1004035280",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/tasty-peach-cute-yellow-face-long-sleeve-athletic-heather-youth-hooded-sweatshirt/-/A-91498866",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/naruto-classic-pakkun-adult-black-hooded-sweatshirt/-/A-90274248",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-hero-in-collegiate-text-long-sleeve-black-youth-hooded-sweatshirt/-/A-89208362",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lands-end-kids-athletic-lightweight-sweatshirt/-/A-87678788",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/superman-hero-in-text-art-long-sleeve-black-youth-hooded-sweatshirt/-/A-89386872",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/strawberry-bear-youth-off-white-long-sleeve-hooded-sweatshirt-with-3d-ears/-/A-93859973",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/superman-courage-strength-passion-distressed-logo-long-sleeve-black-youth-hooded-sweatshirt/-/A-89386822",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-bruce-wayne-alter-ego-long-sleeve-black-youth-hooded-sweatshirt/-/A-89208332",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/naruto-classic-group-character-art-long-sleeve-royal-blue-youth-hooded-sweatshirt/-/A-89840739",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/kawaii-cat-shooting-star-youth-black-long-sleeve-hooded-sweatshirt-with-3d-ears/-/A-93860117",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/superman-last-son-of-krypton-long-sleeve-black-youth-hooded-sweatshirt/-/A-89386852",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/sonic-the-hedgehog-modern-tails-hexagon-graphic-long-sleeve-black-youth-hooded-sweatshirt/-/A-90274232",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dragon-ball-z-kanji-emblem-long-sleeve-youth-black-hooded-sweatshirt/-/A-89838816",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/superman-the-original-man-of-steel-long-sleeve-black-youth-hooded-sweatshirt/-/A-89386904",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/kawaii-cat-shooting-star-youth-off-white-long-sleeve-hooded-sweatshirt-with-3d-ears/-/A-93860128",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/shining-star-kawaii-cat-youth-off-white-long-sleeve-hooded-sweatshirt-with-3d-ears/-/A-93860026",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/polly-pocket-repeat-text-icons-long-sleeve-athletic-heather-youth-hooded-sweatshirt/-/A-92985670",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dragon-ball-z-goku-attack-with-bursting-name-long-sleeve-athletic-heather-youth-hooded-sweatshirt/-/A-89522845",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/spellbound-flink-love-your-self-youth-black-hooded-sweatshirt/-/A-94246214",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/kawaii-cat-youth-off-white-long-sleeve-hooded-sweatshirt-with-3d-ears/-/A-93859984",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dragon-ball-super-zeno-long-sleeve-athletic-heather-youth-hooded-sweatshirt/-/A-93148362",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-go-taylor-s-boyfriend-sparkle-youth-ultra-soft-graphic-sweatshirt/-/A-1001806673",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/kids-mickey-mouse-striped-pullover-crewneck-sweatshirt-blue/-/A-93219416",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/sonic-the-hedgehog-rainbow-sonic-youth-black-sweatshirt/-/A-86104161",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-cozy-worn-varsity-youth-ultra-soft-graphic-sweatshirt/-/A-1000148425",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-rudolph-puff-print-youth-graphic-sweatshirt/-/A-93516561",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/nasa-space-shuttle-patch-youth-royal-blue-sweatshirt/-/A-86104290",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/blockbuster-be-kind-rewind-distressed-junior-s-gray-sweatshirt/-/A-90274830",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/five-nights-at-freddy-s-split-springtrap-crew-neck-long-sleeve-black-youth-sweatshirt/-/A-91543847",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/five-nights-at-freddy-s-freddy-fazber-s-pizza-crew-neck-long-sleeve-athletic-heather-youth-sweatshirt/-/A-92987937",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-christmas-cutie-checkered-youth-ultra-soft-graphic-sweatshirt/-/A-93717200",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dragon-ball-z-son-goku-crew-neck-long-sleeve-black-youth-sweatshirt/-/A-89008555",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/nerf-twisted-logo-crew-neck-long-sleeve-black-boy-s-sweatshirt/-/A-90274653",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bioworld-sonic-the-hedgehog-knuckles-unleash-the-ultimate-power-youth-black-crew-neck-sweatshirt/-/A-89244213",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/my-hero-academia-katsuki-bakugo-crew-neck-long-sleeve-black-youth-sweatshirt/-/A-89522935",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/sonic-the-hedgehog-thumbs-up-sonic-shadow-youth-royal-blue-sweatshirt/-/A-86074772",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/my-hero-academia-deku-fighting-stance-crew-neck-long-sleeve-athletic-heather-youth-sweatshirt/-/A-88860995",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/scooby-doo-paw-print-crew-neck-long-sleeve-black-youth-sweatshirt/-/A-89387576",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/minecraft-character-paddling-with-doodle-art-youth-black-crew-neck-sweatshirt/-/A-89258856",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/gremlins-gizmo-character-with-logo-youth-heather-gray-crew-neck-sweatshirt/-/A-90275246",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bioworld-sonic-the-hedgehog-street-art-youth-black-crew-neck-sweatshirt/-/A-89244195",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-santa-s-little-helper-words-youth-ultra-soft-graphic-sweatshirt/-/A-93544731",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/naruto-leaping-out-of-line-art-youth-black-crew-neck-sweatshirt/-/A-90274723",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-joy-snowflake-youth-ultra-soft-graphic-sweatshirt/-/A-1000148389",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/a-christmas-story-oh-fudge-crew-neck-long-sleeve-black-youth-sweatshirt/-/A-90274602",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/minecraft-doodle-logo-crew-neck-long-sleeve-black-youth-sweatshirt/-/A-89764961",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/nerf-push-the-limits-crew-neck-long-sleeve-athletic-heather-youth-sweatshirt/-/A-90274773",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/where-the-wild-things-are-max-monsters-youth-black-crew-neck-long-sleeve-sweatshirt/-/A-93890444",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/nerf-twisted-background-crew-neck-long-sleeve-black-boy-s-sweatshirt/-/A-90274657",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/acdc-logo-and-angus-young-youth-black-crew-neck-sweatshirt/-/A-89177280",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-believe-puff-print-youth-ultra-soft-graphic-sweatshirt/-/A-93516569",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/naruto-kakashi-sasuke-crew-neck-long-sleeve-black-youth-sweatshirt/-/A-91898177",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/a-christmas-story-i-can-t-put-my-arms-down-crew-neck-long-sleeve-black-youth-sweatshirt/-/A-90274570",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/growing-up-creepie-have-you-hugged-a-bug-today-crew-neck-long-sleeve-athletic-heather-youth-sweatshirt/-/A-89008576",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/scooby-doo-random-badges-youth-black-crew-neck-sweatshirt/-/A-89387647",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/my-hero-academia-deku-character-youth-black-crew-neck-sweatshirt/-/A-88861475",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/my-hero-academia-izuku-midoriya-crew-neck-long-sleeve-black-youth-sweatshirt/-/A-92548131",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/my-hero-academia-season-6-heroes-group-art-crew-neck-long-sleeve-youth-black-sweatshirt/-/A-93148242",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/scooby-doo-for-president-youth-athletic-gray-crew-neck-sweatshirt/-/A-89387516",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bioworld-sonic-the-hedgehog-street-art-portrait-youth-black-crew-neck-sweatshirt/-/A-89244145",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-embroidered-varsity-love-vibes-youth-ultra-soft-graphic-sweatshirt/-/A-1001743373",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/harry-potter-hogwarts-school-logo-youth-athletic-heather-sweatshirt/-/A-86104246",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bioworld-sonic-the-hedgehog-let-s-roll-modern-street-art-youth-black-crew-neck-sweatshirt/-/A-89244182",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-pop-art-inspired-youth-black-crew-neck-sweatshirt/-/A-89177256",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bioworld-sonic-the-hedgehog-knuckles-ultimate-power-youth-black-crew-neck-sweatshirt/-/A-89244128",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-little-miss-valentine-youth-ultra-soft-graphic-sweatshirt/-/A-1001209488",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/naruto-shippuden-pixel-art-naruto-youth-black-sweatshirt/-/A-86104342",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dragon-ball-z-goku-charging-youth-athletic-heather-sweatshirt/-/A-86104395",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/sesame-street-characters-checkered-circle-crew-neck-long-sleeve-athletic-heather-youth-sweatshirt/-/A-93148012",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/minecraft-mob-heads-youth-royal-blue-sweatshirt/-/A-86074850",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/five-nights-at-freddy-s-freddy-face-with-orange-border-crew-neck-long-sleeve-black-youth-sweatshirt/-/A-89764917",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bioworld-sonic-the-hedgehog-dr-eggman-back-to-the-checkpoint-youth-black-crew-neck-sweatshirt/-/A-89244171",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/sesame-street-elmo-abby-cadabby-baby-girls-sweatshirt-infant/-/A-87483786",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/sonic-prime-new-yoke-city-crew-neck-long-sleeve-black-youth-sweatshirt/-/A-89258867",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bioworld-sonic-the-hedgehog-graffiti-portrait-youth-black-crew-neck-sweatshirt/-/A-89244163",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/five-nights-at-freddy-s-foxy-in-a-red-box-youth-black-crew-neck-sweatshirt/-/A-89522926",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/naruto-kakashi-crew-neck-long-sleeve-youth-athletic-heather-sweatshirt/-/A-93651369",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/looney-tunes-marvin-the-martian-hello-earthlings-youth-black-crew-neck-sweatshirt/-/A-89002139",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dragon-ball-z-group-character-art-crew-neck-long-sleeve-youth-black-sweatshirt/-/A-92987931",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/nasa-space-flight-seal-crew-neck-long-sleeve-athletic-heather-youth-sweatshirt/-/A-89051138",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/disney-minnie-mouse-big-girls-fleece-sweatshirt-tie-dye-14-16/-/A-87280845",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/minecraft-steve-and-mobs-with-doodle-background-youth-black-crew-neck-sweatshirt/-/A-89258848",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/cobra-kai-yellow-circle-logo-crew-neck-long-sleeve-youth-black-sweatshirt/-/A-92987949",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/lands-end-kids-long-sleeve-cozy-ruffle-sweatshirt-top-small-black-stars-print/-/A-93536564",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/minecraft-block-kitten-with-heart-youth-black-crew-neck-sweatshirt/-/A-89050783",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-game-day-youth-ultra-soft-graphic-sweatshirt/-/A-1001834974",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-distressed-smiley-face-youth-graphic-sweatshirt/-/A-90568417",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-embroidered-hand-drawn-heart-youth-ultra-soft-graphic-sweatshirt/-/A-1001709913",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/acdc-red-rectangle-logo-crew-neck-long-sleeve-athletic-heather-youth-sweatshirt/-/A-89245498",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/ultraman-white-line-art-on-repeat-text-crew-neck-long-sleeve-black-youth-sweatshirt/-/A-89244201",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dragon-ball-z-son-goku-crew-neck-long-sleeve-athletic-heather-youth-sweatshirt/-/A-89721314",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/growing-up-creepie-have-you-hugged-a-bug-today-crew-neck-long-sleeve-black-youth-sweatshirt/-/A-89008533",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/growing-up-creepie-big-image-creepie-long-sleeve-crew-neck-black-youth-sweatshirt/-/A-89008542",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/five-nights-at-freddy-s-foxy-in-front-of-foxy-words-youth-black-crew-neck-sweatshirt/-/A-89522923",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/sesame-street-outdoor-character-group-art-crew-neck-long-sleeve-youth-black-sweatshirt/-/A-93148346",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-repeat-text-with-logo-crew-neck-long-sleeve-black-youth-sweatshirt/-/A-89721313",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bioworld-sonic-the-hedgehog-modern-team-up-gear-up-youth-black-crew-neck-sweatshirt/-/A-89244157",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-bruce-wayne-silhouette-on-a-red-background-youth-black-crew-neck-sweatshirt/-/A-89208340",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/scooby-doo-mystery-gang-youth-black-crew-neck-sweatshirt/-/A-89387637",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/cobra-kai-team-dojo-graphic-crew-neck-long-sleeve-athletic-heather-youth-sweatshirt/-/A-89245497",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/pink-floyd-triangle-earth-with-airplanes-logo-youth-black-crew-neck-sweatshirt/-/A-88861439",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/blockbuster-black-logo-junior-s-gray-sweatshirt/-/A-90274809",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/looney-tunes-bugs-bunny-and-daffy-duck-youth-black-crew-neck-sweatshirt/-/A-89002096",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/bioworld-sonic-the-hedgehog-let-s-roll-monochrome-street-art-youth-black-crew-neck-sweatshirt/-/A-89244168",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-flash-movie-running-hero-boy-s-athletic-heather-sweatshirt/-/A-87057232",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/dragon-ball-super-saiyan-goku-youth-black-sweatshirt/-/A-86104327",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/looney-tunes-bugs-bunny-what-s-up-doc-youth-heather-gray-crew-neck-sweatshirt/-/A-89002110",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/scooby-doo-mystery-solvers-club-youth-black-crew-neck-sweatshirt/-/A-89387589",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/scooby-doo-we-ve-got-spirit-crew-neck-long-sleeve-black-youth-sweatshirt/-/A-89387656",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-vintage-inspired-superhero-youth-heather-gray-crew-neck-sweatshirt/-/A-89177190",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/batman-what-is-your-superpower-crew-neck-long-sleeve-black-youth-sweatshirt/-/A-89208347",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/cobra-kai-eagle-fang-karate-graphic-crew-neck-long-sleeve-black-youth-sweatshirt/-/A-89244193",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/gremlins-gizmo-with-multicolor-names-youth-black-crew-neck-sweatshirt/-/A-90274699",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/blockbuster-a-good-movie-is-like-comfort-food-for-your-other-senses-junior-s-black-sweatshirt/-/A-90274674",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-believe-bold-puff-print-youth-ultra-soft-graphic-sweatshirt/-/A-93457461",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-time-to-celebrate-youth-ultra-soft-graphic-sweatshirt/-/A-1000157646",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-team-halftime-distressed-maroon-youth-ultra-soft-graphic-sweatshirt/-/A-1001806550",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/the-juniper-shop-you-re-my-lucky-charm-clovers-youth-ultra-soft-graphic-sweatshirt/-/A-1002532967",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/eg-pro-kids-baseball-t-shirt/-/A-1003336954",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
-      },
-    },
-    {
-      url: "https://www.target.com/p/looney-tunes-sleepy-one-taz-youth-heather-gray-crew-neck-sweatshirt/-/A-89002188",
-      tags: "Girls’ Clothing, Hoodies & Sweatshirts, Kids’ Clothing, Pullover Sweatshirts, Tops",
-      filters: {
-        type: "Pullover Sweatshirts",
+        type: "Ballet Slippers",
       },
     },
   ];
