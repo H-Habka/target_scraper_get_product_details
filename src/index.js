@@ -20,7003 +20,7003 @@ import { saveToCSVAndExcel } from "./helpers/fileIO.js";
 
   const urls = [
     {
-      "url": "https://www.target.com/p/seven-times-six-wicked-glinda-girl-s-short-sleeve-sparkle-nightgown-pajama-dress-pink/-/A-1001002005",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/barbie-girls-doll-magic-fairy-characters-stars-nightgown-sleep-pajama-shirt-pink/-/A-89147922",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/l-o-l-surprise-girl-s-dorm-sleep-shirt-nightgown-pajama/-/A-92083471",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/scooby-doo-girls-classic-character-tie-dye-nightgown-sleep-pajama-shirt-multicolored/-/A-89152786",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/my-little-pony-a-new-generation-girls-sunny-starscout-pajama-nightgown-pink/-/A-92046435",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/nickelodeon-jojo-siwa-girls-jojo-dreaming-of-unicorns-nightgown-pajama/-/A-91215753",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/miraculous-ladybug-girls-nightgown-pajamas-toddler-to-big-kid/-/A-88317743",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/harry-potter-girls-nightgown-pajamas-little-kid-to-big-kid/-/A-93164347",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/my-little-pony-a-new-generation-girls-sunny-starscout-pajama-nightgown-pink/-/A-91920903",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-peanuts-snoopy-woodstock-flowers-friends-nightgown-pajama-shirt-pink/-/A-89152810",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-dreamworks-trolls-you-got-this-poppy-nightgown-sleep-pajama-shirt-pink/-/A-89152739",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/harry-potter-girls-wizarding-world-hogwarts-crest-sleep-pajama-nightgown-grey/-/A-89147943",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-despicable-me-minions-take-your-friends-with-you-nightgown-pajama-multicolored/-/A-89152738",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/harry-potter-hermione-hogwarts-logo-crest-nightgown-sleepshirt-holiday-pajama-red/-/A-84982808",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/scooby-doo-girls-i-woke-up-like-this-flower-sleep-pajama-dress-nightgown-purple/-/A-89531268",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/scooby-doo-scooby-doo-girls-nightgown-pajamas-little-kid-to-big-kid/-/A-87449362",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/sesame-street-girls-sweet-dreams-elmo-rainbow-sleep-pajama-dress-nightgown-blue/-/A-91158416",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-spirit-untamed-movie-believe-in-your-dreams-nightgown-sleep-pajama-pink/-/A-89152825",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/harry-potter-girl-s-i-d-rather-stay-at-hogwarts-this-christmas-sleep-pajama-nightgown/-/A-1000475329",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/a-christmas-story-ralphie-girls-t-shirt-little-kid-to-big-kid/-/A-88170794",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/elf-buddy-the-elf-christmas-girls-nightgown-pajamas-little-kid-to-big-kid/-/A-88056882",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/harry-potter-hermione-hogwarts-logo-ravenclaw-house-crest-raglan-sleepshirt-pajama-nightgown-blue/-/A-86054886",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/harry-potter-girls-hogwarts-rainbow-hologram-raglan-nightgown-pajama-black/-/A-84209188",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/dreamworks-trolls-movie-girls-poppy-hooded-costume-nightgown-sleep-shirt-multicolored/-/A-88042322",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/harry-potter-pajama-girls-hermione-gryffindor-uniform-with-tie-fleece-nightgown/-/A-84120853",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/harry-potter-pajama-hogwarts-gold-crest-short-sleeve-raglan-nightgown/-/A-85922065",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-beetlejuice-astrid-dress-up-nightgown-blue/-/A-90781820",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-disney-princess-cinderella-dress-up-nightgown-blue/-/A-88868717",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-frozen-elsa-nightgown-blue/-/A-94222613",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-little-mermaid-ariel-nightgown-blue/-/A-94222614",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-bluey-fantasy-nightgown-pink/-/A-94416502",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-disney-moana-dress-up-nightgown-orange/-/A-91701009",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-nightmare-before-christmas-fantasy-nightgown-purple/-/A-94416501",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-disney-princess-belle-dress-up-nightgown-yellow/-/A-88849665",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/lands-end-kids-short-sleeve-nightgown/-/A-88763104",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/disney-lilo-stitch-little-big-girls-short-sleeve-sleep-dress-nightgown/-/A-1003168285",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/dc-comics-girls-rule-french-terry-gown/-/A-91973973",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/seven-times-six-disney-princess-nightgown-girls-princess-group-ruffle-sleeve-sleepwear/-/A-1005084430",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/wonder-woman-big-girls-raglan-gold-foil-nightgown-blue/-/A-1002158798",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-disney-princess-rapunzel-dress-up-nightgown-purple/-/A-88868719",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/harry-potter-long-sleeve-hogwarts-raglan-night-gown-grey/-/A-86214591",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/harry-potter-9-3-4-hogwarts-express-raglan-nightgown-red/-/A-85071750",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/lands-end-kids-flannel-nightgown/-/A-87715614",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/harry-potter-girls-all-houses-crest-logo-tank-stripe-accent-pajama-nightgown/-/A-88028234",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/disney-frozen-little-big-girls-one-piece-elsa-anna-short-sleeve-nightgown/-/A-1005100727",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/harry-potter-girls-hermoine-hogwarts-gryffindor-uniform-pajama-nightgown-multicolored/-/A-1000079239",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/intimo-harry-potter-big-girls-hermoine-gryffindor-uniform-night-gown-by-intimo-gray-20-multicoloured/-/A-1000143597",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/polly-pocket-toys-girls-tiny-is-mighty-kids-pajama-nightgown-sleep-shirt-multi/-/A-84593628",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/harry-potter-girls-hogwarts-houses-crest-raglan-pajama-nightgown-all-houses/-/A-84702114",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/harry-potter-girls-hogwarts-castle-gold-foil-nightgown-pajama-sleep-top-hogwarts-castle/-/A-84207266",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/mattel-barbie-girls-raglan-kids-nightgown-pajama-with-best-friend-unicorn-multicolor/-/A-86052560",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/barbie-girls-tie-dye-kids-tank-nightgown-pajama-with-tulle-skirt-overlay-multicolor/-/A-84295238",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/mattel-girls-barbie-making-waves-dreaming-sleep-pajama-dress-nightgown-pink/-/A-86737324",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/dc-comics-girl-s-wonder-woman-logo-and-stars-tank-nightgown-costume-pajama-red-blue/-/A-84228182",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/peanuts-girl-s-snoopy-joe-cool-usa-love-tank-nightgown-dress-pajama-grey-blue/-/A-84603184",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/harry-potter-hermione-chibi-charms-logo-house-crest-raglan-pajama-gown-black/-/A-85922124",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/dc-comics-girl-s-batman-logo-tank-nightgown-costume-pajama-dress-black/-/A-85071439",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/scooby-doo-girls-tie-dye-nightgown-pajamas/-/A-84602840",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/harry-potter-pajama-girls-hedwig-owl-micro-raschel-fleece-hi-lo-nightgown-costume/-/A-85071892",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/harry-potter-girls-gryffindor-house-costume-nightgown-pajama-dress-grey/-/A-84628659",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/dc-comics-wonder-woman-girls-3-tier-nightgown-sleep-dress/-/A-85071970",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/polly-pocket-toys-girls-tiny-is-mighty-pajama-nightgown-sleep-raglan-pink/-/A-85071501",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/intimo-big-girls-harry-potter-i-solemnly-swear-shoulder-cut-out-nightgown-black/-/A-84120811",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/leveret-girl-and-doll-matching-nightgown/-/A-93815090",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/harry-potter-girls-foil-print-hogwarts-houses-s-s-raglan-nightgown/-/A-84054085",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/harry-potter-girls-big-griffyindor-raglan-nightgown-blue/-/A-1003221906",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/intimo-big-girls-harry-potter-marauders-map-raglan-nightgown-black/-/A-85922181",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/dc-comics-girls-little-wonder-woman-cold-shoulder-glitter-nightgown-pajama/-/A-85922164",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/harry-potter-l-s-hogwarts-raglan-nightown-pajama-grey-and-burgundy/-/A-85922173",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/dc-comics-wonder-woman-girls-roller-derby-tank-gown-with-cape/-/A-1003012985",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Nightgowns, Pajamas, One Piece Pajamas",
-      "filters": {
-        "type": "Nightgowns"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/kids-39-2pk-adaptive-reversible-pajamas-cat-38-jack-8482-coral-red-lavender/-/A-94486499",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Union Suits",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/just-love-fleece-robes-for-girls-girls-pj-sleepwear/-/A-90614622",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Robes",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/lands-end-kids-hooded-fleece-solid-robe/-/A-87258201",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Robes",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/rising-star-unicorn-girls-boys-robe-kids-soft-plush-hooded-bathrobe-ages-3-8-years/-/A-90431780",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Robes",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/dc-comics-girls-harley-quinn-costume-one-piece-union-suit-pajama-outfit/-/A-84243095",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Union Suits",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/miraculous-lady-bug-girl-s-girl-power-one-piece-hooded-sleeper-pajama/-/A-92083478",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Union Suits",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/joyfy-christmas-kids-rainbow-robes-for-girls-hooded-girls-bath-robe-girls-christmas-pajamas/-/A-1001258236",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Robes",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/joyfy-christmas-kids-light-purple-robes-for-girls-hooded-girls-bath-robe-girls-christmas-pajamas/-/A-1001258487",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Robes",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/joyfy-christmas-kids-purple-robes-for-girls-hooded-girls-bath-robe-girls-christmas-pajamas/-/A-1001258250",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Robes",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/harry-potter-unisex-kids-hooded-pajama-union-suit/-/A-86050405",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Union Suits",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/harry-potter-costume-kids-plush-robe/-/A-84262763",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Robes",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/scooby-doo-costume-kids-union-suit-sleeper-pajamas/-/A-84207250",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Union Suits",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/dc-comics-wonder-woman-pj-one-piece-costume-pajama-union-suit-for-toddlers-girls-and-juniors/-/A-94234223",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Union Suits",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/joyfy-unicorn-kids-robe-girls-bath-robe-with-headband-slippers-eye-mask-girls-christmas-pajamas/-/A-1001258282",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Robes",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/sesame-street-character-union-suit-hooded-1-pc-pajama/-/A-1004478104",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Union Suits, Toddler Boys’ Clothing, Toddler Clothing",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/miraculous-tales-of-ladybug-cat-noir-girls-character-footless-pajama-multicolored/-/A-87801303",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Union Suits",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-lilo-stitch-union-suit-pink/-/A-94416492",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Union Suits",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-hello-kitty-union-suit-pink/-/A-94330055",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Union Suits",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/squishmallows-little-big-girl-s-all-over-print-plush-fleece-robe/-/A-92199865",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Robes",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/mattel-girls-barbie-fantasy-mermaid-fairy-rainbow-ruffled-bathrobe-robe-white/-/A-84851148",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Robes",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/muslin-bath-robe-for-kids-100-cotton-4-layer-absorbent-muslin-fabric-by-comfy-cubs/-/A-1001592733",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Robes, Toddler Boys’ Clothing, Toddler Clothing",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/harry-potter-girls-velvet-robe-hogwarts-houses/-/A-84984676",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Robes",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/linum-kids-100-polyester-super-plush-double-brushed-hooded-bathrobe-turtle-kids50-design/-/A-1000154372",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Robes",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/rising-star-shark-girls-boys-robe-kids-soft-plush-hooded-bathrobe-ages-3-8-years/-/A-90431703",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Robes",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/just-love-velour-solid-robes-for-girls-75604-wht-7-8/-/A-1003558618",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Robes",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/5-more-minutes-girl-s-panda-print-hooded-plush-robe/-/A-93996636",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Robes",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/harry-potter-hogwarts-costume-kids-wearable-blanket-pullover-robe-black/-/A-84850922",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Robes",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/harry-potter-girls-striped-ruffle-plush-fleece-robe/-/A-84984765",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Robes",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/my-little-pony-a-new-generation-girls-be-unique-sunny-starscout-footless-multicolored/-/A-92046457",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Union Suits",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/just-love-velour-printed-robes-75605-new-prp-5-6/-/A-1003255336",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Robes",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/bc-bare-cotton-shawl-robe-microfiber-plush-fleece-bathrobe/-/A-1001646548",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Robes",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/linum-kids-100-polyester-super-plush-double-brushed-hooded-bathrobe-robe/-/A-1000143266",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Robes",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/bc-bare-cotton-girls-hooded-robe-microfiber-plush-fleece-bathrobe/-/A-1001646466",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Robes",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/bc-bare-cotton-girls-shawl-robe-microfiber-plush-fleece-bathrobe/-/A-1001000080",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Robes",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/just-love-plush-velour-buffalo-plaid-robes-for-girls-75606-10195-red-7-8-pink-charcoal-buffalo-plaid-girls-10-12/-/A-1003255334",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Robes",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/just-love-plush-velour-buffalo-plaid-robes-for-girls-75606-10195-red-7-8-pink-charcoal-buffalo-plaid-girls-6x/-/A-1003255370",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Robes",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/just-love-hooded-plush-fleece-robe-for-girls-75603-10426-7-8-turquoise-black-buffalo-plaid-girls-7-8/-/A-1003255339",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Robes",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/linum-kids-100-polyester-super-plush-double-brushed-hooded-bathrobe-design/-/A-1000154380",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Robes",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/linum-kids-100-polyester-super-plush-double-brushed-hooded-bathrobe-turtle-kids96-design/-/A-1000154389",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Robes",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/lands-end-kids-hooded-plush-onesie/-/A-1005092652",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Union Suits",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/just-love-plush-robe-for-girls-75611-redblk-7-8-sioc/-/A-1001853643",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Robes",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/leveret-kids-shawl-collar-fleece-solid-color-robe/-/A-89531476",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Robes",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/leveret-kids-fleece-solid-color-hooded-robe/-/A-89531300",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Robes, Toddler Boys’ Clothing, Toddler Clothing",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/barbie-girls-mermaid-brooklyn-and-malibu-footless-sleeper-pajama-for-kids-blue/-/A-90060122",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Union Suits",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/scooby-doo-girls-tie-dye-flower-power-union-suit-footless-sleep-pajama-multicolored/-/A-85922271",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Union Suits",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/leveret-girl-and-doll-matching-fleece-hooded-robe/-/A-89530707",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Robes",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/leveret-girl-and-doll-matching-hooded-fleece-robes-classic-prints/-/A-93813550",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Robes",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/leveret-kids-fleece-hooded-christmas-robe/-/A-93826894",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Robes, Toddler Boys’ Clothing, Toddler Clothing",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/leveret-kids-fleece-hooded-robe/-/A-93849522",
-      "tags": "Girls’ Clothing, Kids’ Clothing, One Piece Pajamas, Pajamas, Robes, Toddler Boys’ Clothing, Toddler Clothing",
-      "filters": {
-        "type": "One Piece Pajamas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/fruit-of-the-loom-girls-long-sleeve-fleece-pajama-set-2-piece-sizes-4-16/-/A-1000139236",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/fruit-of-the-loom-girls-loose-fit-3-piece-pajama-set/-/A-1001714470",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/kids-adaptive-2pc-port-access-pajama-set-cat-jack-green/-/A-92199298",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-2pc-tank-top-pajama-set-cat-jack/-/A-93442954",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-2pc-short-sleeve-pajama-set-cat-jack/-/A-94445413",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/kids-halloween-bats-long-sleeve-snuggly-soft-pajama-set-cat-jack-gray/-/A-94445404",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/fruit-of-the-loom-girl-s-snug-fit-100-cotton-pajama-sets-4-piece-sizes/-/A-1000181925",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-short-sleeve-graphic-t-shirt-and-pants-pajama-set-cat-jack/-/A-94445415",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/kids-long-sleeve-halloween-witch-cats-snuggly-soft-pajama-set-cat-jack-pink/-/A-94445412",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/kids-long-sleeve-snuggly-soft-pajama-set-cat-jack/-/A-94445403",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-2pc-short-sleeve-tight-fit-rib-knit-pajama-set-cat-jack/-/A-94035545",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-3pc-printed-short-sleeve-pajama-set-cat-jack/-/A-92766664",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-long-sleeve-waffle-knit-pajama-set-cat-jack/-/A-94445414",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-short-sleeve-button-up-coat-and-pajama-set-art-class/-/A-92766694",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-graphic-tank-top-and-shorts-pajama-set-art-class/-/A-94445420",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-short-sleeve-button-down-pajama-set-art-class/-/A-94445419",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-short-sleeve-t-shirt-and-flannel-pants-pajama-set-art-class/-/A-94445421",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-halloween-bats-short-sleeve-button-down-pajama-set-art-class-purple/-/A-94445418",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/sleep-on-it-girls-2-piece-short-sleeve-button-down-collared-coat-pajama-set-with-matching-scrunchie/-/A-85960244",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/sleep-on-it-girls-2-piece-short-sleeve-jersey-pajama-shorts-set-with-matching-hair-scrunchie/-/A-85960219",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/sleep-on-it-girls-2-piece-super-soft-jersey-snug-fit-pajama-set/-/A-84686968",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/harry-potter-girls-gryffindor-house-crest-tank-top-and-short-pajama-2pc-set/-/A-84243137",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/sleep-on-it-girls-2-piece-sleeveless-tank-top-jersey-pajama-shorts-set-with-matching-hair-scrunchie/-/A-85960235",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/miraculous-ladybug-vesperia-rena-rouge-girls-pullover-pajama-shirt-and-pants-sleep-set-little-kid-to-big-kid/-/A-86918066",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/miraculous-rena-rouge-ladybug-girls-pullover-pajama-shirt-and-shorts-little-kid-to-big-kid/-/A-87441983",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/just-chill-dog-blue-wash-and-rainbow-dreams-short-sleeve-youth-girls-2-pack-pajama-set/-/A-88594822",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/peanuts-girls-pajamas-snoopy-and-woodstock-shirt-and-shorts-pajama-set-snoopy-and-woodstock/-/A-84228413",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/sleep-on-it-girls-2-piece-velour-pajama-pant-sleep-set/-/A-87674333",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/harry-potter-hufflepuff-ravenclaw-slytherin-gryffindor-girls-pajama-shirt-and-pants-little-kid-to-big-kid/-/A-87857616",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/despicable-me-girls-flower-bello-minions-sleep-pajama-sleep-set-shorts-pink/-/A-91158536",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/cozy-club-youth-girls-blue-white-wash-long-sleeve-shirt-sleep-pants-set/-/A-88947070",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/dc-comics-girls-batman-gold-foil-logo-racerback-tank-shorts-pajama-set-batman-logo/-/A-84243406",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/dc-comics-girls-wonder-woman-strong-and-fierce-shirt-and-shorts-pajama-set-strong-and-fierce/-/A-84628723",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/dc-comics-girls-wonder-woman-pajamas-tank-top-and-shorts-pajama-set-ww-logo/-/A-84228221",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-disney-princess-button-up-pajama-set-purple/-/A-94222610",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-pikachu-tight-fit-tank-pajama-set-pink/-/A-94222615",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/kids-toy-story-2pc-pajama-set-white/-/A-93222140",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/miraculous-ladybug-little-big-girls-2-piece-pajama-sleepwear-sets/-/A-92545864",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/just-love-girls-cotton-pajama-sets-for-comfortable-sleepwear/-/A-1004798572",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/just-love-girls-printed-pajama-sets-snug-fitting-cotton-pj-tops-bottoms-for-girls/-/A-92410810",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/just-love-girls-solid-pajama-sets-snug-fitting-ribbed-pj-tops-bottoms-for-girls/-/A-92401042",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/beetlejuice-2-girls-astrid-deetz-betelgeuse-striped-pajama-set-for-kids/-/A-1000401072",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/harry-potter-hermione-hogwarts-crest-athletic-jogger-pajama-2pc-set/-/A-85922295",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-hello-kitty-button-up-pajama-set-pink/-/A-94222589",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-wicked-pajama-set-light-pink/-/A-94222621",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-squishmallows-button-up-pajama-set-pink/-/A-94222607",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-bluey-pajama-set-white/-/A-93758595",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-oversized-new-york-t-shirt-and-boxer-pajama-set-white/-/A-94330053",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-bluey-tight-fit-tank-pajama-set-blue/-/A-94222609",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-harvard-tank-top-and-pants-pajama-set-red/-/A-94311228",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-halloween-ghost-tank-top-and-pants-pajama-set-purple/-/A-94311229",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-smileyworld-graphic-t-shirt-boxer-pajama-set-blue/-/A-94222604",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-disney-princess-3pc-pajama-set-blue/-/A-92903708",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-pok-233-mon-3pc-pajama-set-pink/-/A-92903723",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-snoopy-graphic-t-shirt-boxer-pajama-set-white/-/A-94222605",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-4pc-barbie-pajama-set-pink/-/A-94330057",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-4pc-hello-kitty-halloween-pajama-set-orange/-/A-94330051",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-stitch-tight-fit-tank-pajama-set-green/-/A-94222616",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-barbie-graphic-t-shirt-boxer-pajama-set-pink/-/A-94222585",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-moana-2pc-short-sleeve-pajama-set-orange-white/-/A-92903706",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-4pc-lilo-stitch-long-sleeve-halloween-pajama-set-black/-/A-94416505",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-care-bears-graphic-t-shirt-boxer-pajama-set-white/-/A-94222588",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-oversized-halloween-snoopy-t-shirt-and-boxer-pajama-set-white/-/A-94330052",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-ms-rachel-2pc-short-sleeve-snug-fit-cotton-pajama-set-blue/-/A-92759929",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-4pc-bluey-long-sleeve-pajama-set-blue/-/A-94416504",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/squishmallows-little-big-girl-s-cozy-long-sleeve-4-piece-pajama-set/-/A-92199856",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-lilo-and-stitch-pajamas-set-4-piece-long-sleeve-stitch-pajamas-lilo-and-stitch-ohana-2-pack-pajamas-set-light-blue-6/-/A-1004519841",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/barbie-lounge-pajama-shirt-and-pajama-shorts-sleep-set/-/A-1003111024",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/harry-potter-satin-pajama-shirt-and-and-pajama-pants-sleep-set/-/A-1004220661",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/barbie-little-girls-unicorn-love-shirt-and-shorts-2-pc-pajama-set-unicorn-love/-/A-84207261",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/harry-potter-big-girls-marauders-map-racerback-pajama-short-set/-/A-91927985",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/dog-man-youth-short-sleeve-shirt-blue-wash-sleep-pajama-pants-set/-/A-1000083225",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/l-o-l-surprise-girl-s-2-piece-nightgown-with-slippers-pajama-set/-/A-92073768",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/sleep-on-it-girls-2-piece-short-sleeve-pajama-shorts-set-ribbed-milky-jersey-or-pointelle-knit/-/A-1001910178",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/miraculous-tales-of-ladybug-cat-noir-girls-sleep-pajama-set-shorts-red/-/A-89131728",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/harry-potter-ron-weasley-hedwig-owl-hermione-girls-pajama-shirt-and-pants-little-kid-to-big-kid/-/A-87676250",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/miraculous-lady-bug-girl-s-every-girl-is-a-super-hero-3-piece-pajama-set/-/A-92073776",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/barbie-girls-lounge-pajama-shirt-and-pants-sleep-set-little-kid-to-big-kid/-/A-94071447",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/kids-mickey-mouse-2pc-pajama-set-white/-/A-93222128",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/dog-man-girls-pajama-set/-/A-1001178135",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/dog-man-youth-pajama-set/-/A-1001178328",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/mattel-girls-barbie-fantasy-mermaid-princess-sleep-pajama-set-shorts-pink/-/A-87252791",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/disney-descendants-little-big-girl-s-long-sleeve-2-piece-pajama-set/-/A-92170664",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-lilo-and-stitch-pajamas-set-4-piece-long-sleeve-stitch-pajamas-lilo-and-stitch-ohana-2-pack-pajamas-set-light-blue-4/-/A-1004519849",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/miraculous-ladybug-girls-be-yourself-girl-power-2-piece-pajama-set/-/A-88999445",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/dc-comics-girls-superman-supergirl-americana-yoga-pajama-set/-/A-1000549126",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/mi-amore-gigi-llamma-interactive-pajama-set/-/A-93955671",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/harry-potter-girls-hogwarts-rainbow-hologram-shirt-and-shorts-pajama-set-black/-/A-84120815",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/rufflebutts-softsnooze-big-girls-ruffle-short-sleeve-pajama-set/-/A-1004248264",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/textiel-trade-girl-s-disney-lilo-stitch-fleece-pajama-set/-/A-93525209",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/mattel-girls-barbie-dream-team-unicorn-best-friend-sleep-pajama-set-pink/-/A-85922326",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/butterflies-shortsleeve-pajamas/-/A-93128141",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/sleep-on-it-girls-2-piece-short-sleeve-button-down-coat-pajama-pant-set-with-matching-scrunchie/-/A-1001648927",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/sleep-on-it-girls-2-pack-bamboo-snug-fit-pajama-sets/-/A-1002158849",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/dreamworks-trolls-little-big-girls-2-piece-long-sleeve-pajama-set/-/A-1003676897",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/dc-comics-justice-league-wonder-woman-girls-pullover-pajama-shirt-and-pants-sleep-set-little-kid-to-big-kid/-/A-87574873",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/kids-3-pack-pajamas-shortsleeve-set-yellow-flowers-cherries-sunflowers/-/A-93438525",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/scooby-doo-girls-pajamas-where-are-you-chibi-figures-pjs/-/A-84228359",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/rufflebutts-girls-modal-blend-ruffle-long-sleeve-pajama-set/-/A-1004645023",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/mi-amore-gigi-sloth-interchangeable-star-pajama-set/-/A-93955672",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/harry-potter-girls-little-gryffindor-house-crest-cotton-tank-top-pajama-short-set/-/A-1000083788",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/dc-comics-girls-wonder-woman-logo-tank-top-and-shorts-pajama-set-wonder-woman-logo/-/A-84102531",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/jojo-siwa-girls-only-shirt-and-pants-2-piece-pajama-set/-/A-88020061",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/sleep-on-it-girls-2-piece-short-sleeve-super-soft-jersey-pajama-pants-set/-/A-85960149",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/colorful-dots-shorts-sleeve-pajamas/-/A-93131017",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/love-cat-sparkles-youth-short-sleeve-shirt-pink-striped-sleep-pajama-pants-set/-/A-94233340",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/l-o-l-surprise-little-big-girl-s-4-piece-cotton-pajama-set/-/A-92240225",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-vintage-pink-rose-classic-pajama-set-posh-peanut/-/A-1001576777",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/cherries-fruits-2-pack-kids-shortsleeve-pajama-sets/-/A-93147132",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/posh-peanut-erin-classic-pajama-set/-/A-1001576837",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/scooby-doo-girls-tie-dye-mystery-machine-shirt-and-shorts-pajama-set-lime-green-tie-dye/-/A-84228361",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-sweeties-classic-pajama-set-posh-peanut/-/A-1003607938",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/cherries-shortsleeve-pajamas/-/A-93131356",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/dc-comics-wonder-woman-girls-classic-costume-colors-fleece-pajama-set/-/A-85071705",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/my-little-pony-a-new-generation-girls-sunny-starscout-sleep-pajama-set-white/-/A-89531459",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/miraculous-vesperia-girls-pajama-shirt-and-shorts-sleep-set-little-kid-to-big-kid/-/A-87676467",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/textiel-trade-girl-s-nickelodeon-paw-patrol-skye-long-sleeve-w-pants-pajama-set/-/A-92541296",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/peanuts-girls-snoopy-so-fab-tie-dye-pajamas-shirt-and-shorts-pajama-set-tie-dye/-/A-84228200",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/my-little-pony-a-new-generation-girls-sunny-starscout-friends-pajama-set-grey/-/A-89531471",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-philomena-classic-pajama-set-posh-peanut/-/A-1002357936",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/mi-amore-gigi-penguin-interactive-pajama-set/-/A-93961685",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/rufflebutts-softsnooze-viscose-from-bamboo-big-girls-ruffle-long-sleeve-pajama-set/-/A-93908226",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/harry-potter-girls-hogwarts-castle-shirt-and-shorts-pajama-set-all-4-houses/-/A-84628451",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-ellery-classic-pajama-set-posh-peanut/-/A-1002357931",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/textiel-trade-girl-s-paw-patrol-short-sleeve-and-shorts-pajama-set/-/A-1002358104",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/sleep-on-it-girls-2-piece-super-soft-jersey-long-sleeve-snug-fit-pajama-set/-/A-91944265",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/yellow-flowers-cherries-2-pack-kids-shortsleeve-pajama-sets/-/A-93438376",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/mi-amore-gigi-hedgehog-interchangeable-butterfly-pajama-set/-/A-93962687",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/barbie-girls-no-such-thing-as-too-extra-fleece-2-piece-pajama-set/-/A-88996364",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/nickelodeon-jojo-siwa-girls-jojo-and-bowbow-shine-2-piece-pajama-pant-set/-/A-88159047",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/butterflies-kids-pajamas/-/A-93128153",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/my-little-pony-retro-rainbows-sunshine-character-group-youth-girl-s-2-pack-blue-wash-pajama-set/-/A-1001009909",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/wwe-girls-sasha-banks-bayley-charlotte-flair-tank-short-pajama-set-black/-/A-85071426",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/harry-potter-girls-rainbow-foil-hogwarts-crest-pajama-jogger-set-multicolor/-/A-84628819",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/tiny-knot-co-toddler-children-s-girls-buttery-soft-durable-tagless-tencel-modal-pajama-set/-/A-1001714395",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/sesame-street-girls-bff-elmo-abby-cadabby-sleep-pajama-sleep-set-shorts-pink/-/A-91158464",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/harry-potter-girls-honeydukes-wizarding-world-sleep-pajama-set-shorts-pink/-/A-87252800",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/dc-comics-girls-wonder-woman-gold-foil-logo-shirt-and-shorts-pajama-set-ww-logo/-/A-84228406",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/l-o-l-surprise-girl-s-cozy-little-fashionistas-2-piece-long-sleeve-pajama-set/-/A-92083511",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/barbie-girls-together-we-shine-characters-sketch-sleep-pajama-set-shorts-multicolored/-/A-88871510",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/dots-sunflowers-2-pack-kids-shortsleeve-pajama-sets/-/A-93651725",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-annie-classic-pajama-set-posh-peanut/-/A-1002357958",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/sleep-on-it-girls-novelty-fleece-2-piece-long-sleeved-pajama-sleep-set/-/A-84687063",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-sorrento-floral-classic-pajama-set-posh-peanut/-/A-1003081872",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/harry-potter-girls-wizarding-world-hogwarts-crest-sleep-pajama-set-shorts-multicolored/-/A-89147916",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/scooby-doo-girls-mystery-machine-shirt-and-pants-2-pc-pajama-set/-/A-84602842",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/friends-tv-show-girls-tv-series-logo-3-piece-pajama-shortie-lounge-set/-/A-88151736",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/harry-potter-gryffindor-house-crest-cotton-tank-short-pajama-2pc-set-gryffindor-14-red/-/A-84243145",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/lands-end-kids-short-sleeve-tee-and-shorts-pajama-set/-/A-88912331",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/dots-fruits-2-pack-kids-shortsleeve-pajama-sets/-/A-94091765",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/harry-potter-big-girls-hogwarts-house-crest-racerback-tank-and-shorts-pajama-lounge-set/-/A-84243115",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/deux-par-deux-girl-organic-cotton-two-piece-short-pajama-set-small-pink-flowers-on-pale-pink-background/-/A-1002806778",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-briar-classic-pajama-set-posh-peanut/-/A-1002878545",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/fruit-of-the-loom-girls-snug-fit-4-piece-pajama-set/-/A-1002684596",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/mary-engelbreit-butterfly-garden-pajama-set-girl-pink/-/A-1004709001",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/long-sleeve-pajamas-in-blush-butterfly/-/A-1003295144",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/lands-end-kids-pattern-snug-fit-pajama-set/-/A-87290111",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/minimoi-2-piece-girls-kind-hearts-rayon-blend-pull-on-pajama-set/-/A-1003977421",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/minimoi-2-piece-kids-sweet-dreams-cotton-rich-fleece-3d-embossed-pajama-set/-/A-1003977731",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/rufflebutts-girls-viscose-from-bamboo-ruffle-long-sleeve-pajama-set/-/A-1004644957",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/printed-organic-cotton-long-sleeve-top-and-pant-pajama-set-pale-pink-flowers-on-neutral-lilac/-/A-1002803656",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/cherries-sunflowers-2-pack-kids-shortsleeve-pajama-sets/-/A-93147160",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/green-eggs-ham-sam-i-am-girl-s-2-pack-pajama-set/-/A-1004158063",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/the-grinch-youth-girl-long-sleeve-holiday-pajama-set/-/A-1004578890",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/organic-cotton-short-sleeve-top-and-pant-pajama-set-pink-and-blue-butterflies-on-old-pink/-/A-1002803597",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/dreamworks-trolls-little-big-girls-2-piece-soft-pajama-set/-/A-92555275",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/lost-kitties-girls-pajama-set-short-sleeve-girls/-/A-1005130671",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/five-nights-at-freddy-s-five-nights-at-freddy-s-girls-pajama-set-short-sleeve-girls/-/A-1005195419",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/lands-end-kids-flannel-2-piece-pajama-set/-/A-1004953760",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-prairie-floral-classic-pajama-set-posh-peanut/-/A-1003081849",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/my-little-pony-friendship-is-magic-my-little-pony-friendship-is-magic-pajama-set-short-sleeve-girls/-/A-1005130681",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/deux-par-deux-girl-organic-cotton-tank-top-and-shorts-pajama-set-rainbow-on-light-coral/-/A-1002806794",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/lands-end-kids-short-sleeve-top-and-jogger-bottom-pajama-set/-/A-87289977",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/the-cat-in-the-hat-character-title-girl-s-2-pack-pajama-set/-/A-1004784311",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/mi-amore-gigi-holiday-santa-and-reindeer-pajama-set/-/A-1000004774",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/wonder-woman-big-girls-logo-mesh-tank-shorts-pj-set-red/-/A-88135767",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/rainbow-dreams-youth-girls-pink-white-striped-short-sleeve-shirt-sleep-pants-set/-/A-88947007",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/rainbow-dreams-youth-girls-pink-white-striped-long-sleeve-shirt-sleep-pants-set/-/A-88947129",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/just-chill-dog-youth-girls-blue-white-wash-short-sleeve-shirt-sleep-pants-set/-/A-88947049",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/mi-amore-gigi-interchangeable-accessory-3d-holiday-graphic-nightgown-and-sock-set/-/A-93955684",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/5-more-minutes-girl-s-smiley-tank-top-and-shorts-sleep-set/-/A-1002271215",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/believe-in-magic-youth-girls-pink-white-striped-short-sleeve-shirt-pant-set/-/A-88947013",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/5-more-minutes-girl-s-teddy-bear-high-pile-fleece-jacket-and-pants-pj-set/-/A-93996728",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/believe-in-magic-youth-girls-pink-white-striped-long-sleeve-shirt-pant-set/-/A-88947025",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/cozy-club-youth-girls-blue-white-wash-short-sleeve-shirt-sleep-pants-set/-/A-88947008",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/just-chill-dog-blue-wash-long-sleeve-shirt-and-pant-set/-/A-88947059",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/sleepy-bear-youth-girls-blue-black-striped-long-sleeve-shirt-sleep-pants-set/-/A-88947027",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/miraculous-ladybug-little-big-girls-2-piece-matching-robe-and-slipper-set/-/A-92265394",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-hooded-top-with-flared-leggings-set/-/A-1002594741",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/2-piece-short-sleeve-jammie-set/-/A-1004302264",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girl-s-summer-2-piece-outfit-short-sleeve-twist-crop-top-and-print-shorts-sets-cute-clothing-set-3-12y/-/A-1003984043",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/furby-new-you-are-wonderful-girl-s-blue-wash-short-sleeve-tee-sleep-pants-set/-/A-1001357006",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/my-hero-academia-you-re-next-movie-4-my-hero-academia-girls-sleep-set-long-sleeve-girls/-/A-1005130698",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/leveret-kids-two-piece-cotton-tie-dye-short-pajamas/-/A-89198948",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/peanuts-girls-snoopy-dream-in-color-tie-dye-character-pajama-set-shorts-multicolored/-/A-88871532",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/despicable-me-girls-movie-minions-1-in-a-minion-sleep-pajama-set-shorts-multicolored/-/A-88871530",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/peanuts-girls-snoopy-born-to-hug-unisex-child-2-piece-sleep-pajama-set-multicolored/-/A-88858067",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/harry-potter-girls-hogwarts-house-crest-sleep-pajama-set-tank-top-shorts-grey/-/A-88871588",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/harry-potter-girls-stand-together-ron-hermione-sleep-pajama-set-shorts-black/-/A-86736999",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/pj-masks-girls-gekko-catboy-owlette-to-the-task-heroes-pajama-set-red-pink/-/A-1003330284",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/barbie-pajamas-girl-s-barbie-logo-button-front-2-piece-pj-set-pink/-/A-1004941952",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/leveret-kids-cotton-short-pajamas-animal-prints/-/A-93871276",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/dreamworks-trolls-girls-poppy-happy-sleep-pajama-set-shorts-crewneck-multicolored/-/A-86737067",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/leveret-kids-cotton-short-pajamas-classic-prints/-/A-93871386",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/peanuts-girls-i-woke-up-this-cute-snoopy-tie-dye-sleep-pajama-set-shorts-multicolored/-/A-88871560",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/friends-tv-show-logo-girls-rather-be-watching-sleep-jogger-pajama-set-multicolored/-/A-86221195",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/miraculous-tales-of-ladybug-cat-noir-girls-power-luck-pajama-set-multicolored/-/A-87804405",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/dc-comics-kids-superman-girls-boys-2-piece-tight-fit-youth-pajama-set-multicolored/-/A-87330160",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/dc-comics-kids-the-flash-girls-boys-2-piece-tight-fit-youth-pajama-set-multicolored/-/A-87329971",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-spirit-untamed-movie-horse-lucky-sleep-pajama-set-shorts-crewneck-pink/-/A-86736911",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/harry-potter-kids-chibi-character-girls-boys-2-piece-tight-fit-pajama-set-multicolored/-/A-87329918",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/leveret-kids-two-piece-classic-solid-color-thermal-pajamas/-/A-89892771",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/peanuts-girls-snoopy-happiness-is-sleeping-in-pajama-set-tank-top-shorts-grey/-/A-88871558",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/leveret-girl-and-doll-matching-cotton-pajamas-classic-prints/-/A-93812762",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/jurassic-world-girls-movie-film-clever-girl-sleep-pajama-set-shorts-blue/-/A-88871500",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/polly-pocket-girls-best-friends-are-stronger-together-sleep-pajama-set-multicolored/-/A-87711830",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/scooby-doo-girls-unisex-child-relp-daphne-velma-character-pajama-set-multicolored/-/A-87543152",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/the-smurfs-girls-smurfette-pose-shorts-sleep-pajama-set/-/A-1003215458",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/barbie-girls-child-stylish-best-friends-tight-fit-sleep-pajama-set-black/-/A-88858356",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/polly-pocket-little-girls-best-friends-shirt-and-shorts-2-pc-pajama-set-best-friends/-/A-84593570",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/polly-pocket-girls-animated-series-heart-shirt-pants-jogger-pajama-set-purple/-/A-86052596",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/dc-comics-big-girls-batgirl-boom-whak-whoom-tank-pajama-short-set-loungewear-fuchsia/-/A-88042331",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/despicable-me-girls-movie-minions-better-together-pajama-set-shorts-pink/-/A-88871520",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/despicable-me-toddler-girls-minions-chibi-bello-raglan-sleep-pajama-set-multicolored/-/A-86736436",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/miraculous-tales-of-ladybug-cat-noir-girls-tight-fit-sleep-pajama-set-red/-/A-88858210",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/barbie-girls-princess-doll-unicorn-unisex-child-2-piece-sleep-pajama-set-multicolored/-/A-88858029",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/dc-comics-batman-unisex-youth-child-girls-boys-sleep-tight-fit-pajama-set-multicolored/-/A-87543124",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/barbie-girls-princess-vibes-characters-sleep-pajama-set-tank-top-shorts-pink/-/A-88871600",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/nasa-girls-retro-stripes-rocket-sleep-pajama-set-shorts-crewneck-multicolored/-/A-86737078",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/dc-comics-girls-super-hero-girls-character-sleep-pajama-set-short-blue/-/A-86737230",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/scooby-doo-girls-characters-the-gang-mystery-machine-pajama-set-shorts-multicolored/-/A-88871513",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/leveret-girl-and-doll-matching-cotton-short-pajamas/-/A-93823649",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/leveret-girl-and-doll-matching-cotton-pajamas-animal-prints/-/A-93813033",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/looney-tunes-girls-this-is-how-i-chill-tossed-tweety-bird-2-piece-pajama-set-yellow/-/A-1003105377",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/harry-potter-s-s-hogwarts-jogger-pj-pajamas-set/-/A-85922217",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajama Sets, Pajamas",
-      "filters": {
-        "type": "Pajama Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/linum-kids-100-polyester-super-plush-double-brushed-hooded-bathrobe-turtle-kids65-design/-/A-1000154440",
-      "tags": "Girls’ Clothing, Kids’ Clothing, Pajamas, Robes",
-      "filters": {
-        "type": "Robes"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/rufflebutts-girls-flounce-bikini/-/A-91255147",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/rufflebutts-girls-long-sleeve-ruffle-hem-upf50-rash-guard-bikini/-/A-91269896",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-strawberries-printed-bikini-set-cat-38-jack-8482-green/-/A-93323616",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-island-vacay-floral-bikini-set-cat-jack-black/-/A-94302359",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-under-sea-amazon-bikini-set-cat-38-jack-8482-pink/-/A-94290655",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-polka-dots-bikini-set-cat-38-jack-8482-blue/-/A-92240883",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/just-love-girls-upf-50-2-piece-bikini-swimsuit-set-neon-tie-dye-ombre-styles-for-kids/-/A-1004908059",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/rufflebutts-toddler-girls-long-sleeve-rash-guard-bikini/-/A-91267495",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/rufflebutts-girls-upf50-sun-protected-scallop-hem-long-sleeve-rash-guard-bikini/-/A-1001533348",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-park-to-pool-solid-bikini-set-cat-38-jack-8482-teal-green/-/A-93323614",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-shady-days-bikini-skirt-set-cat-38-jack-8482/-/A-94302371",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-wave-printed-bikini-set-cat-38-jack-8482-aqua-green/-/A-92161233",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-pier-gaze-bikini-set-cat-jack/-/A-94214971",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-bikini-set-cat-jack/-/A-92280680",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-bird-friends-bikini-set-cat-jack-8482-yellow/-/A-94302354",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-seashell-printed-bikini-set-cat-38-jack-8482-purple/-/A-93114849",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-leopard-spot-printed-bikini-set-cat-38-jack-8482-black/-/A-92304680",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-cross-my-heart-bikini-set-cat-38-jack-8482/-/A-94372818",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-floral-printed-bikini-set-cat-38-jack-8482/-/A-92240855",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-striped-bikini-set-cat-38-jack-8482-blue/-/A-93114875",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-39-dreamy-tropical-39-floral-printed-bikini-set-cat-38-jack-8482/-/A-94268745",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-watercolor-hibiscus-bikini-set-cat-38-jack-8482-purple/-/A-94290654",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-striped-bikini-set-cat-38-jack-8482/-/A-92241055",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-simple-daisy-floral-printed-bikini-set-cat-38-jack-8482-pink/-/A-93323410",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-39-sweet-pineapple-39-printed-bikini-set-cat-38-jack-8482/-/A-94268747",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-mosaic-design-bikini-set-cat-38-jack-8482/-/A-92240880",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-tropical-wilderness-swimwear-set-cat-38-jack-8482/-/A-94302358",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-beach-house-striped-bikini-set-cat-38-jack-8482/-/A-94268753",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-i-heart-it-solid-bikini-set-cat-jack/-/A-94223617",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-seaside-shine-solid-bikini-set-art-class-black/-/A-92160489",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-visit-the-eastside-leaf-printed-bikini-set-art-class/-/A-92160495",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-summer-times-bikini-set-art-class-blue/-/A-94224220",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-summer-dusk-bikini-set-art-class-8482-black/-/A-94302362",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-happy-wildlife-bikini-set-art-class-8482-brown/-/A-94567279",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-floral-printed-swim-bikini-swimwear-set-art-class-8482/-/A-93323411",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-hand-drawn-chettah-printed-bikini-set-art-class-8482/-/A-92304681",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-abstract-tropical-jungle-flowers-bikini-set-art-class-8482/-/A-92304685",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-smiling-daisy-floral-printed-bikini-set-art-class-8482/-/A-92304683",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-miami-boho-bikini-set-art-class-8482/-/A-94302355",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-tea-at-the-pool-floral-printed-bikini-set-art-class-8482-off-white/-/A-93323412",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-seaside-shine-solid-bikini-set-art-class-purple/-/A-92160491",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-pumeria-bloom-bikini-set-art-class-8482/-/A-94264761",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-sunkissed-striped-bikini-set-art-class-8482/-/A-93114876",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-a-trip-to-paradise-floral-printed-bikini-set-art-class-8482/-/A-93114814",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-palm-springs-bikini-set-art-class-8482/-/A-94268746",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-solid-paradise-cove-bikini-set-art-class-8482-black/-/A-93111981",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-teen-summer-striped-bikini-set-art-class/-/A-92160492",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-solid-bikini-set-art-class-8482-purple/-/A-92240886",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-floral-printed-bikini-set-art-class-8482/-/A-92240856",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-zebra-bikini-set-art-class-8482-pink/-/A-94268749",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-geo-daisy-bikini-and-dress-cover-up-set-art-class-8482/-/A-94268748",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-carribean-cutie-bikini-set-art-class-8482-coral-pink/-/A-93114850",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-gingham-summer-bikini-set-art-class-8482-black/-/A-94268754",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-stars-and-stripes-bikini-set-art-class-8482-navy-blue/-/A-94268744",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/disney-princess-anna-elsa-girls-tankini-top-and-bikini-bottom-swim-set-toddler-to-little-kid/-/A-86946052",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/rufflebutts-girls-long-sleeve-rash-guard-bikini/-/A-91267490",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/disney-minnie-mouse-baby-girls-racerback-tankini-top-and-bikini-bottom-swim-set-little-kid/-/A-86945212",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/rufflebutts-girls-long-sleeve-zipper-rash-guard-bikini/-/A-91255015",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/bluey-bingo-bluey-girls-lace-up-back-tankini-top-and-bikini-bottom-swim-set-little-kid/-/A-89485140",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/toddler-girls-two-pieces-swimsuit-swimwear-summer-beach-bathing-suit-pink-2-8y/-/A-1003715581",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/coolmee-toddler-girls-two-pieces-swimsuit-swimwear-summer-beach-bathing-suit/-/A-1004192238",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/go-coco-big-girls-2-piece-strappy-detail-camikini-swimsuit-sets/-/A-1003354905",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/wild-waves-leopard-two-piece-swimsuit-mia-belle-girls/-/A-1004643489",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/disney-frozen-kids-toddler-girl-3pcs-elsa-and-anna-sunproof-ruffles-bikini-swimsuit-with-cover-up-set-swimwear-sets/-/A-1003927071",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/go-coco-little-girls-2-piece-strappy-detail-camikini-swimsuit-sets/-/A-1003354901",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/disney-moana-girls-tankini-swimsuit-set-one-shoulder-bow-top-and-tropical-skirted-bottom-orange-yellow-two-piece-swimwear-set/-/A-1004593251",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/disney-princess-princess-minnie-mouse-frozen-belle-elsa-princess-anna-girls-tankini-top-bikini-bottom-and-scrunchie-3-piece-swimsuit-set-little-kid-to-big-kid/-/A-86954786",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/patpat-family-matching-multicolor-dinosaur-print-swim-trunks-shorts-and-ruffle-two-piece-swimsuit/-/A-1002520476",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/go-coco-little-girls-2-piece-one-shoulder-bikini-swimsuit-sets/-/A-1003405839",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/deux-par-deux-girl-printed-two-piece-swimsuit-navy-and-yellow-and-pink-flowers-3-4-years/-/A-1004178172",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/just-love-girls-two-piece-bathing-suits-swimwear-for-girl/-/A-1005009692",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/kiko-max-infant-toddler-girls-2-piece-ruffled-top-bikini-swimsuit-sets/-/A-1002468541",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-hello-kitty-striped-and-bow-printed-bikini-set-red-white/-/A-93306671",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/dragonwing-capri-one-shoulder-bikini/-/A-1003560981",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/dragonwing-bali-bikini/-/A-1003560987",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/dragonwing-barbados-bikini/-/A-1004035672",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/dragonwing-key-west-bikini/-/A-1003561037",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/rufflebutts-girls-upf50-skirted-flutter-long-sleeve-rash-guard-bikini/-/A-1001818080",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/dragonwing-maui-bikini/-/A-1003561113",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/dragonwing-aruba-bikini/-/A-1003488021",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/dragonwing-santorini-bikini/-/A-1003561001",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/rufflebutts-girls-upf50-seersucker-short-sleeve-ruffle-rash-guard-bikini/-/A-1002893003",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/patpat-disney-princess-ariel-girl-s-swimwear-sets-ruffle-sleeve-summer-pool-beach-sport-blue-swimsuit/-/A-1004245899",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ms-rachel-racerback-upf-50-peplum-tankini-top-and-bikini-bottom-swim-set/-/A-1003020454",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/disney-mickey-mouse-boys-swim-trunks-nautical-stripe-summer-beach-swimwear-drawstring-waist-board-shorts/-/A-1004399482",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/rufflebutts-toddler-girls-long-sleeve-rash-guard-bikini/-/A-91267484",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/rufflebutts-toddler-girls-long-sleeve-ruffle-hem-upf50-rash-guard-bikini/-/A-91269891",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/rufflebutts-toddler-girls-upf50-skirted-flutter-long-sleeve-rash-guard-bikini/-/A-1001818068",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/star-wars-the-child-girls-rash-guard-and-bikini-bottom-little-kid-to-big-kid/-/A-86944797",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-minnie-mouse-2pc-swim-set-disney-store/-/A-89790759",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/rufflebutts-girls-long-sleeve-zipper-rash-guard-2-piece/-/A-88271094",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/rufflebutts-baby-girls-flounce-bikini/-/A-91255168",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/rufflebutts-girls-long-sleeve-rash-guard-bikini/-/A-91269897",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/andy-evan-kids-bikini/-/A-88358082",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/andy-evan-kids-pink-crochet-print-strappy-back-swimsuit/-/A-1001718534",
-      "tags": "Bikini Sets, Girls’ Clothing, Kids’ Clothing, Swimsuits",
-      "filters": {
-        "type": "Bikini Sets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/fifth-and-ninth-providence-for-kids/-/A-1001273818",
-      "tags": "Accessories, Accessory Glasses, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Accessory Glasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/capezio-lavender-sparkle-duffle-bag-one-size/-/A-92263542",
-      "tags": "Accessories, Barrel Bags, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Barrel Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/capezio-pink-sequin-ballerina-barrel-bag-one-size/-/A-92263497",
-      "tags": "Accessories, Barrel Bags, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Barrel Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/capezio-pink-faux-fur-dance-duffle-one-size/-/A-92263516",
-      "tags": "Accessories, Barrel Bags, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Barrel Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/capezio-pink-embroidered-barrel-bag-one-size/-/A-92263532",
-      "tags": "Accessories, Barrel Bags, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Barrel Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/capezio-light-blue-sequin-chevron-barrel-bag-one-size/-/A-92263538",
-      "tags": "Accessories, Barrel Bags, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Barrel Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-denim-with-embroidered-bow-baseball-hat-cat-38-jack-8482-denim-blue/-/A-92585478",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/kids-39-4th-of-july-denim-trucker-baseball-hat-cat-38-jack-8482-blue/-/A-93748326",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/youth-tigercat-hat-tigercat-30th-anniversary/-/A-1004698030",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/parker-kids-co-ball-cap/-/A-1003289574",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/mykids-usa-baby-solid-color-embroidered-design-fashion-sunshade-baseball-hats/-/A-1004962083",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/kids-39-super-mario-baseball-hat-red/-/A-89618531",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/kids-39-spider-man-flat-brim-baseball-hat-red/-/A-54436497",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/paw-patrol-girls-2-pack-baseball-cap-little-girls-ages-4-7/-/A-90900988",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/minecraft-youth-hat-floating-creeper-head-hearts-pig-face-snapback-osfm-cap-pink/-/A-89219627",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/hello-kitty-embroidered-canvas-cotton-twill-dad-hat/-/A-85297369",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/peppa-pig-bucket-hat-baseball-cap-girls-sun-hat/-/A-89714896",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories, Bucket Hats",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/city-threads-100-cotton-twill-upf-50-baseball-hat-for-boys-and-girls/-/A-92238715",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-smileyworld-cherry-baseball-hat-pink/-/A-92585742",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-usa-teddy-bear-baseball-hat-beige/-/A-93753713",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-peanuts-snoopy-smile-trucker-hat-black/-/A-92585731",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/textiel-trade-girls-stitch-character-panel-baseball-cap/-/A-1003295803",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/paw-patrol-girls-2-pack-baseball-cap-toddlers-ages-2-4/-/A-90900987",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/paw-patrol-girls-baseball-hat-toddler-cap-for-ages-3-6/-/A-90901592",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/peppa-pig-girls-2-pack-baseball-hat-kids-cap-for-ages-2-4/-/A-90902309",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/the-juniper-shop-all-american-girl-youth-foam-trucker-hat/-/A-1002657515",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/peppa-pig-toddler-girls-baseball-cap-grey/-/A-89720153",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/peppa-pig-girls-baseball-cap-sunglasses-ages-2-4/-/A-89727582",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/trolls-girls-baseball-cap-kids-baseball-hat-for-children-ages-3-6/-/A-90896494",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/baby-shark-mommy-or-daddy-and-me-hat-boys-and-girls-matching-adult-and-toddler-hat-pink-yellow/-/A-90245436",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/the-juniper-shop-groovy-flower-smiley-face-youth-foam-trucker-hat/-/A-1002726107",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/peppa-pig-toddler-girls-2-pack-baseball-hat-kids-ages-2-4/-/A-90903051",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/textiel-trade-girl-s-miraculous-lady-bug-baseball-cap/-/A-91030046",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/dog-man-all-over-character-print-youth-white-traditional-adjustable-hat/-/A-1001673445",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/the-juniper-shop-keepin-it-cool-truck-youth-foam-trucker-hat/-/A-1002657536",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/sonic-the-hedgehog-shake-glitter-patch-youth-purple-sparkle-traditional-adjustable-hat/-/A-1003098829",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/the-juniper-shop-being-a-princess-is-exhausting-youth-foam-trucker-hat/-/A-1002657496",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/textiel-trade-girls-nickelodeon-paw-patrol-skye-baseball-cap/-/A-93271168",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/the-juniper-shop-make-someone-smile-today-youth-foam-trucker-hat/-/A-1002726103",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/trolls-girls-2-pack-baseball-hat-kids-cap-ages-3-6/-/A-90887129",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/peppa-pig-toddler-girls-baseball-cap-blue/-/A-89720150",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/baby-shark-mommy-or-daddy-and-me-hat-boys-and-girls-matching-adult-and-toddler-hat-blue-yellow/-/A-90245434",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/nickelodeon-paw-patrol-girls-baseball-cap/-/A-89715122",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/the-juniper-shop-pickleball-queen-youth-foam-trucker-hat/-/A-1002726677",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/kids-39-minecraft-baseball-hat-black-wash/-/A-93552767",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/kids-39-pokemon-pokeball-baseball-hat-black/-/A-93552768",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/kids-39-kirby-baseball-hat-blue/-/A-93552766",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/dakine-kids-grom-trucker/-/A-93807061",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/youth-vintage-allis-chalmers-logo-solid-orange-hat-vasoy/-/A-1000985171",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/parker-kids-co-ball-cap-sports-patches-bundle/-/A-1003805048",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/minecraft-creeper-face-mesh-comfort-youth-hat/-/A-85833239",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/kids-39-smileyworld-4th-of-july-baseball-hat-off-white/-/A-93748327",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/speedo-kids-39-trucker-hat-blue/-/A-92167184",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/speedo-kids-39-trucker-hat-orange/-/A-92167187",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/pokemon-multicharacter-mesh-and-microfiber-youth-baseball-hat/-/A-88570964",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/pokemon-pikachu-youth-black-snapback-cap/-/A-87976178",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/super-mario-bros-logo-power-ups-youth-blue-traditional-adjustable-hat/-/A-94164146",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/the-juniper-shop-distressed-smiley-face-youth-foam-trucker-hat/-/A-1002726092",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/pok-mon-pikachu-friends-2-piece-youth-sling-bag-foam-trucker-hat-set/-/A-1001387742",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/lankybox-foxy-boxy-rainbow-youth-purple-5-panel-curved-brim-hat/-/A-1000163160",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/the-juniper-shop-cool-kid-wavy-youth-foam-trucker-hat/-/A-1002726097",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/sonic-the-hedgehog-big-face-knuckles-youth-red-snapback-hat/-/A-1001698176",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/the-juniper-shop-here-comes-the-fun-youth-foam-trucker-hat/-/A-1002726110",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/sesame-street-oscar-the-grouch-baseball-hat-for-boys-ages-2-4-kids-cap/-/A-90886871",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/sesame-street-elmo-baseball-cap-toddlers-age-2-4-orange/-/A-89694441",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/sonic-the-hedgehog-big-face-tails-youth-orange-snapback-hat/-/A-1000105204",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/sonic-the-hedgehog-woven-character-patch-youth-blue-black-traditional-adjustable-hat/-/A-1003098725",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/sonic-the-hedgehog-gold-rings-youth-navy-traditional-adjustable-hat/-/A-1001698139",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/the-juniper-shop-be-wild-bear-paw-youth-foam-trucker-hat/-/A-1002657528",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/sesame-street-elmo-baseball-cap-toddlers-age-2-4-blue/-/A-89694440",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/lankybox-characters-all-over-print-youth-pink-5-panel-curved-brim-hat/-/A-1000163161",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/sony-playstation-embroidered-logo-patch-gaming-icons-youth-flat-bill-hat-black/-/A-87882785",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/pokemon-character-collage-sublimated-youth-snapback-trucker-hat-osfm-multicoloured/-/A-91274028",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/textiel-trade-kids-sonic-the-hedgehog-baseball-cap/-/A-1003296159",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/the-juniper-shop-4th-of-july-crew-youth-foam-trucker-hat/-/A-1002657520",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/five-nights-at-freddy-s-aop-brim-black-baseball-cap/-/A-89434199",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/mercedes-amg-petronas-f1-2023-kids-george-russell-driver-hat/-/A-92567749",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/pok-mon-big-face-eevee-youth-brown-snapback-hat/-/A-1000105208",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/sonic-the-hedgehog-character-checkered-patterns-2-piece-curved-snapback-hat-bi-fold-wallet-set/-/A-1002505169",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/sesame-street-elmo-boys-baseball-cap-for-kids-ages-2-4/-/A-90871097",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/the-juniper-shop-american-dude-youth-foam-trucker-hat/-/A-1002657512",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/minecraft-youth-hat-floating-mobs-creeper-skeleton-dog-chicken-snapback-osfm-cap-black/-/A-89219616",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/the-juniper-shop-kiddo-checkered-youth-foam-trucker-hat/-/A-1002726099",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/the-juniper-shop-big-brother-checkered-youth-foam-trucker-hat/-/A-1002657484",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/the-juniper-shop-pickleball-youth-foam-trucker-hat/-/A-1002726669",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/the-juniper-shop-pickleball-champs-youth-foam-trucker-hat/-/A-1002726666",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/the-juniper-shop-a-little-dirt-never-hurt-youth-foam-trucker-hat/-/A-1002657480",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/the-juniper-shop-goodbye-school-hello-pool-youth-foam-trucker-hat/-/A-1002657531",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/the-juniper-shop-i-m-here-for-the-snacks-youth-foam-trucker-hat/-/A-1002657504",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/dragon-ball-z-goku-youth-orange-black-snapback-hat/-/A-1000105115",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/the-grinch-big-face-2-piece-cuff-beanie-socks-set-for-new-born-and-infants/-/A-1000395397",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/mercedes-amg-petronas-f1-2023-kids-lewis-hamilton-baseball-hat/-/A-92555897",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/the-juniper-shop-sweet-freedom-popsicles-youth-foam-trucker-hat/-/A-1002657498",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/the-juniper-shop-truck-with-flag-youth-foam-trucker-hat/-/A-1002657492",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/the-juniper-shop-bear-trees-youth-foam-trucker-hat/-/A-1002657524",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/automobili-lamborghini-squadra-corse-kids-tri-color-italian-flag-hat/-/A-1000864335",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/the-juniper-shop-pickleball-club-youth-foam-trucker-hat/-/A-1002726671",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/the-juniper-shop-usa-heart-outline-youth-foam-trucker-hat/-/A-1002657508",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/nintendo-super-mario-and-luigi-character-youth-flat-bill-adjustable-snapback-hat-multicoloured/-/A-88853525",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/the-juniper-shop-let-s-go-explore-youth-foam-trucker-hat-youth-whitenavy/-/A-91534328",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/lankybox-thicc-shark-2-piece-cuff-beanie-magic-gloves-set/-/A-1000033260",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/lankybox-baby-sharky-toddler-2-piece-pilot-hat-magic-mittens-set/-/A-1000033256",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/super-mario-bros-character-circle-youth-2-piece-cuff-beanie-magic-gloves-set/-/A-94164151",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/sonic-the-hedgehog-big-face-tails-youth-2-piece-cuff-beanie-magic-gloves-set/-/A-1000033259",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/sesame-street-big-bird-baseball-hat-for-boys-ages-2-4-kids-cap/-/A-90886767",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/justice-league-of-america-squad-youth-black-snapback-hat-osfa/-/A-91235393",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/dragon-ball-z-son-goku-kanji-youth-blue-orange-traditional-adjustable-hat/-/A-1000105206",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/the-grinch-big-face-youth-green-snapback-hat/-/A-1000105173",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/automobili-lamborghini-sc63-hypercar-kids-team-hat/-/A-1000432016",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/super-mario-bros-mario-2-piece-knit-hat-ski-gloves-combo-set/-/A-1001698179",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/the-grinch-big-face-2-piece-beanie-hat-magic-gloves-set/-/A-1000105205",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/five-nights-at-freddy-s-bug-face-freddy-youth-brown-snapback-hat/-/A-1000105212",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/the-juniper-shop-big-football-bro-youth-foam-trucker-hat/-/A-1002657487",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/stake-f1-kick-sauber-2024-team-kid-s-baseball-black-hat-youth-size/-/A-92045267",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/nintendo-super-mario-embroidered-character-group-youth-adjustable-snapback-hat-multicoloured/-/A-88819571",
-      "tags": "Accessories, Baseball Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Baseball Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-enchanted-forest-hat/-/A-1000937685",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/wrapables-baby-boy-girl-birthday-party-knitted-crown-headband-beanie-cap-hat-yellow/-/A-94235961",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-frigid-cosy-ear-hat-w-pom-pom/-/A-1000937640",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-crystal-mountain-hat-with-two-pom-poms/-/A-1000937647",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/wrapables-baby-boy-girl-birthday-party-knitted-crown-headband-beanie-cap-hat-pink/-/A-1000085488",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/charles-albert-girls-knit-beanie-with-cute-animal-ears-cozy-cable-knit-kids-hat-for-winter-in-black/-/A-1000744517",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/catalonia-kids-knit-hats-warm-toddler-winter-hats-cute-beanies-hat-cap-for-boys-girls-aged-6-10-gifts-idea-for-birthday-christmas/-/A-1000114283",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/wrapables-baby-boy-girl-birthday-party-knitted-crown-headband-beanie-cap-hat-gray/-/A-94235972",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/lands-end-kids-peruvian-hat/-/A-91084610",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/lands-end-kids-faux-fur-pom-hat/-/A-91084682",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/wrapables-baby-boy-girl-birthday-party-knitted-crown-headband-beanie-cap-hat-red/-/A-1000085489",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/wrapables-baby-boy-girl-birthday-party-knitted-crown-headband-beanie-cap-hat-teal/-/A-1000085499",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/paw-patrol-girls-winter-hat-2-pack-pom-pom-beanie-ages-4-7/-/A-90833905",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/hudson-baby-infant-girl-knit-cuffed-beanie-3pk-orchid-pink/-/A-84822160",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/hudson-baby-infant-girl-knit-cuffed-beanie-3pk-lilac-cream/-/A-84822155",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/teens-beanie-plain-knit-hat-winter-slouchy-ski-skull-cuff-cap-terra/-/A-1001299695",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/hudson-baby-family-knitted-caps-3pk-pink-cream/-/A-84014964",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/hudson-baby-family-knit-cuffed-beanie-3pk-lavender/-/A-84014937",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/kids-glacier-peak-hat/-/A-90065502",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/hudson-baby-infant-girl-knit-cuffed-beanie-3pk-dark-pink/-/A-84822145",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/hudson-baby-family-knitted-caps-3pk-pink-black/-/A-84014970",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/hudson-baby-family-knitted-caps-3pk-black-red/-/A-84014947",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ctm-kids-knit-winter-cuff-stocking-cap/-/A-90443874",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/lankybox-thicc-shark-youth-jumping-ears-peruvian-hat/-/A-94141833",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/polar-extreme-kids-one-size-ribbed-knit-striped-winter-hat/-/A-90444268",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/britt-s-knits-kid-s-wonderland-pom-pom-winter-hat-super-soft-stretchy-beanie-puff-pom-hat-for-kids-boys-girls/-/A-1000559242",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/kids-james-knit-beanie-olive-scout/-/A-1002480117",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/hello-kitty-christmas-cuff-3d-beanie-jacquard-knit-with-embroidered-appliques-white/-/A-1000901203",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/arctic-gear-child-specialty-winter-hat/-/A-90036313",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/sloth-face-youth-brown-hat-with-3d-moveable-arms/-/A-1001178576",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/wizarding-word-harry-potter-hogwarts-cuff-beanie-jacquad-knit-with-metalic-gold-embroidery-black/-/A-1001197195",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/minecraft-plush-creeper-patch-youth-black-cuff-beanie/-/A-1000551814",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/arctic-gear-child-acrylic-ribbed-cuff-with-matching-pom/-/A-90208226",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/looney-tunes-striped-youth-pom-beanie-and-gloves-set/-/A-90211778",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/hello-kitty-punk-magic-jacquard-plaid-crown-embroidered-cuffed-knitted-beanie-hat-for-girls/-/A-86044822",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/wrapables-children-s-reindeer-hat-and-scarf-set/-/A-1001282167",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/hello-kitty-christmas-cuff-3d-beanie-glove-set-for-kids-jacquard-knit-with-embroidered-appliques-white/-/A-1000998992",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/unicorn-face-youth-white-hat-with-moveable-3d-horns/-/A-1000908326",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/depsciable-me-minions-cuff-3d-beanie-jacquad-knit-with-embroidered-appliques-yellow/-/A-1000901207",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/hello-kitty-s-cinnamoroll-christmas-cuff-3d-beanie-jacquard-knit-with-embroidered-appliques-white/-/A-1000901204",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/five-nights-at-freddy-s-foxy-youth-jumping-ears-peruvian-hat/-/A-1000023389",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/hello-kitty-s-kuromi-christmas-cuff-3d-beanie-jacquard-knit-with-embriodered-appliques-green/-/A-1000901184",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/wrapables-pretend-play-cat-beanie-gray/-/A-1000083881",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/wrapables-pretend-play-cat-beanie-pink/-/A-94234464",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/beetlejuice-cuff-beanie-jacquad-knit-with-embroidery-and-3d-faux-fur-hair-white/-/A-1000901206",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/five-nights-at-freddy-s-freddy-youth-jumping-ears-peruvian-hat/-/A-94151502",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/wrapables-pretend-play-cat-beanie-red/-/A-94234396",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/hello-kitty-s-my-melody-christmas-cuff-3d-beanie-jacquard-knit-with-embroidered-appliques-red/-/A-1000901182",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/looney-tunes-tweety-bird-cuff-beanie-jacquad-knit-with-embroidered-appliques-yellow/-/A-1000901185",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/monster-face-youth-blue-hat-with-3d-moveable-arms/-/A-1000480640",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/wrapables-pretend-play-cat-beanie-yellow/-/A-1000083949",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/wednesday-nevermore-academy-cuff-beanie-jacquad-knit-with-embroidered-patch-and-large-pom-pom-purple-black/-/A-1000901183",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/scooby-doo-cuff-3d-beanie-jacquard-knit-with-embroidered-appliques-brown/-/A-1000901205",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/gender-neutral-kid-s-buffalo-beanie-with-leopard-trim-panache/-/A-1001087423",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/hudson-baby-family-knitted-caps-3pk-black-blue/-/A-84014941",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/kids-majestic-explorer-hat/-/A-1000937752",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/hudson-baby-family-knit-cuffed-beanie-3pk-heather-red-black/-/A-84014916",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/hudson-baby-family-knitted-caps-3pk-black-burgundy/-/A-84014968",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/hudson-baby-family-knit-cuffed-beanie-3pk-light-blue/-/A-84014926",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/kids-transverse-hat/-/A-1000941150",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/kids-mountaineer-hat/-/A-1000937755",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/kids-discovery-hat/-/A-1000937733",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/hudson-baby-family-knit-cuffed-beanie-3pk-green-burgundy/-/A-84014900",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/hudson-baby-family-knit-cuffed-beanie-3pk-rust/-/A-84014959",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/hudson-baby-knit-cuffed-beanie-3pk-pink-white/-/A-85350337",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/sonic-the-hedgehog-pink-and-white-youth-cuffed-beanie-and-gloves-set/-/A-90211776",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/kids-ice-palace-hat-with-pom-pom-size-age-2-6-lavender-frost/-/A-1000937682",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/kids-storm-rider-hat/-/A-90065466",
-      "tags": "Accessories, Beanies, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Beanies"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-belt-with-silver-grommets-art-class-black/-/A-87941163",
-      "tags": "Accessories, Belts, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Belts"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-western-heart-buckle-belt-art-class-black-gold/-/A-90887669",
-      "tags": "Accessories, Belts, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Belts"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-2pk-bow-and-heart-chain-belt-art-class-black-silver/-/A-90887642",
-      "tags": "Accessories, Belts, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Belts"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-butterfly-chain-belt-art-class-silver/-/A-94486740",
-      "tags": "Accessories, Belts, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Belts"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-2pk-belt-set-cat-jack-black-brown/-/A-87941173",
-      "tags": "Accessories, Belts, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Belts"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-solid-reversible-belt-cat-jack-black-brown/-/A-94571603",
-      "tags": "Accessories, Belts, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Belts"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ctm-girl-s-studded-star-western-style-belt/-/A-1004892173",
-      "tags": "Accessories, Belts, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Belts"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ctm-kids-striped-elastic-stretch-belt-with-buckle/-/A-1004881474",
-      "tags": "Accessories, Belts, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Belts"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ctm-kids-solid-bold-color-belt-with-roller-buckle/-/A-1004912025",
-      "tags": "Accessories, Belts, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Belts"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ctm-kids-leather-two-hole-jean-belt/-/A-90012424",
-      "tags": "Accessories, Belts, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Belts"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ctm-kid-s-skinny-dress-belt/-/A-90012563",
-      "tags": "Accessories, Belts, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Belts"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/a-little-obsessed-youth-girls-2-pack-pu-belts-with-status-buckles-size-6-12-in-black-and-brown/-/A-93189591",
-      "tags": "Accessories, Belts, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Belts"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/a-little-obsessed-3pk-girl-s-star-belt-set-with-star-buckle-size-6-12-waist-size-18-22-for-youth/-/A-1001121579",
-      "tags": "Accessories, Belts, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Belts"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/a-little-obsessed-3pk-girl-s-skinny-belt-size-6-12-waist-size-18-22-for-youth/-/A-93189592",
-      "tags": "Accessories, Belts, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Belts"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/a-little-obsessed-girl-s-western-rhinestone-belt-size-6-12-waist-size-18-22-for-youth/-/A-1000077842",
-      "tags": "Accessories, Belts, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Belts"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ctm-girls-metallic-braided-belt/-/A-90012687",
-      "tags": "Accessories, Belts, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Belts"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ariat-girl-s-western-belt-with-turquoise-inlays/-/A-90040957",
-      "tags": "Accessories, Belts, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Belts"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/lands-end-school-uniform-kids-reversible-belt/-/A-1001222004",
-      "tags": "Accessories, Belts, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Belts"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ctm-girls-floral-embossed-belt/-/A-90413556",
-      "tags": "Accessories, Belts, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Belts"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/aquarius-girl-s-perforated-belt-and-solid-belt-pack-of-2/-/A-90014046",
-      "tags": "Accessories, Belts, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Belts"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/nocona-belt-co-girl-s-western-horse-and-rhinestone-belt/-/A-90016476",
-      "tags": "Accessories, Belts, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Belts"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ctm-kid-s-leather-1-inch-basic-dress-belt/-/A-90012573",
-      "tags": "Accessories, Belts, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Belts"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/angel-ranch-girl-s-tooled-leather-western-belt-with-cowgirl-hat-buckle/-/A-92444949",
-      "tags": "Accessories, Belts, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Belts"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ctm-kid-s-skinny-dress-belt-pack-of-2-colors/-/A-90014231",
-      "tags": "Accessories, Belts, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Belts"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ctm-kids-leather-two-hole-jean-belt-pack-of-2/-/A-90040834",
-      "tags": "Accessories, Belts, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Belts"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ctm-toddlers-basic-1-inch-leather-belt/-/A-90014673",
-      "tags": "Accessories, Belts, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Belts"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ctm-kids-elastic-stretch-adjustable-belt-with-magnetic-buckle/-/A-90013727",
-      "tags": "Accessories, Belts, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Belts"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ctm-kid-s-leather-1-inch-dress-belt-with-square-buckle-pack-of-2/-/A-90888648",
-      "tags": "Accessories, Belts, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Belts"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ctm-kid-s-leather-1-inch-basic-dress-belt-pack-of-2/-/A-90012973",
-      "tags": "Accessories, Belts, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Belts"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ctm-kid-s-leather-two-hole-jean-belt-pack-of-2-colors/-/A-90098634",
-      "tags": "Accessories, Belts, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Belts"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ctm-kid-s-basic-leather-dress-belt-pack-of-2-colors/-/A-90012732",
-      "tags": "Accessories, Belts, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Belts"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ctm-girls-rose-concho-leather-belt/-/A-90469697",
-      "tags": "Accessories, Belts, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Belts"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ctm-kids-elastic-stretch-belt-with-magnetic-buckle-pack-of-3/-/A-93996184",
-      "tags": "Accessories, Belts, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Belts"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/arctic-gear-youth-acrylic-cuff-winter-hat/-/A-89440961",
-      "tags": "Accessories, Boater Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Boater Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/arctic-gear-child-acrylic-ribbed-cuff-winter-hat/-/A-89440941",
-      "tags": "Accessories, Boater Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Boater Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/arctic-gear-youth-acrylic-wool-watch-cap-winter-hat/-/A-89462304",
-      "tags": "Accessories, Boater Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Boater Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/arctic-gear-adult-winter-wool-watch-cap-versatile/-/A-89440927",
-      "tags": "Accessories, Boater Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Boater Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/arctic-gear-youth-winter-wool-watch-cap/-/A-89440924",
-      "tags": "Accessories, Boater Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Boater Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/arctic-gear-child-fleece-cap-winter-hat/-/A-89446483",
-      "tags": "Accessories, Boater Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Boater Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/arctic-gear-youth-winter-hat-acrylic-wool-beanie/-/A-89462303",
-      "tags": "Accessories, Boater Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Boater Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/arctic-gear-youth-specialty-winter-hat/-/A-89462306",
-      "tags": "Accessories, Boater Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Boater Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/arctic-gear-youth-acrylic-ribbed-cuff-winter-hat-with-pom/-/A-89440947",
-      "tags": "Accessories, Boater Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Boater Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/arctic-gear-child-acrylic-wool-watch-cap-winter-hat/-/A-89440970",
-      "tags": "Accessories, Boater Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Boater Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/arctic-gear-child-fleece-winter-cap-and-gaiter-set/-/A-89527468",
-      "tags": "Accessories, Boater Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Boater Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/arctic-gear-youth-acrylic-wool-beanie-2-pack/-/A-89440943",
-      "tags": "Accessories, Boater Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Boater Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/arctic-gear-youth-sparkle-hats/-/A-89511548",
-      "tags": "Accessories, Boater Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Boater Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/arctic-gear-adult-winter-cap-and-neck-gaiter-set/-/A-89440945",
-      "tags": "Accessories, Boater Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Boater Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ctm-kids-wide-band-bonnet/-/A-92149645",
-      "tags": "Accessories, Bonnets, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Bonnets"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/paw-patrol-girl-s-clear-bubble-umbrella-ages-3-10/-/A-89786892",
-      "tags": "Accessories, Bubble Umbrellas, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Bubble Umbrellas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/nasa-kids-clear-bubble-umbrella-ages-3-10/-/A-89787456",
-      "tags": "Accessories, Bubble Umbrellas, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Bubble Umbrellas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-reversible-daisy-printed-bucket-hat-art-class-8482-black/-/A-92585696",
-      "tags": "Accessories, Bucket Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Bucket Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-cherries-reversible-bucket-hat-cat-38-jack-8482-pink/-/A-92585484",
-      "tags": "Accessories, Bucket Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Bucket Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-striped-bucket-hat-cat-38-jack-8482-blue-white/-/A-93748320",
-      "tags": "Accessories, Bucket Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Bucket Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/addie-tate-kid-s-sun-hat-for-boys-and-girls-with-uv-protection-toddlers-and-kids-ages-4-14-years-grey/-/A-90443402",
-      "tags": "Accessories, Bucket Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Bucket Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/addie-tate-kid-s-sun-hat-for-boys-and-girls-with-uv-protection-toddlers-and-kids-ages-2-7-years-unicorn/-/A-90443567",
-      "tags": "Accessories, Bucket Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Bucket Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/city-threads-100-cotton-twill-upf-50-wharf-bucket-hat-for-boys-and-girls/-/A-92238566",
-      "tags": "Accessories, Bucket Hats, Girls’ Accessories, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
-      "filters": {
-        "type": "Bucket Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/addie-tate-black-charcoal-gray-reversible-bucket-hat-for-girls-boys-packable-beach-sun-bucket-hat-for-toddlers-to-teens-ages-3-14-years/-/A-90443590",
-      "tags": "Accessories, Bucket Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Bucket Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/addie-tate-kids-reversible-bucket-hat-for-girls-boys-packable-beach-sun-bucket-hat-for-toddlers-to-teens-ages-3-14-years-blue-camo-shark/-/A-90443668",
-      "tags": "Accessories, Bucket Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Bucket Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/addie-tate-kid-s-sun-hat-for-boys-and-girls-with-uv-protection-toddlers-and-kids-ages-2-7-years-shark/-/A-90443486",
-      "tags": "Accessories, Bucket Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Bucket Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/dakine-kids-beach-bum-bucket-hat/-/A-93823787",
-      "tags": "Accessories, Bucket Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Bucket Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/mykids-usa-baby-girl-floral-print-adjustable-design-sunshade-bucket-hats/-/A-1004417851",
-      "tags": "Accessories, Bucket Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Bucket Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/perfectly-satined-kids-satin-lined-bucket-hat/-/A-1002299636",
-      "tags": "Accessories, Bucket Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Bucket Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/gender-neutral-kid-s-bondi-bucket-hat-jocelyn/-/A-1001774518",
-      "tags": "Accessories, Bucket Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Bucket Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/john-deere-bucket-sun-hat/-/A-1002878687",
-      "tags": "Accessories, Bucket Hats, Girls’ Accessories, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
-      "filters": {
-        "type": "Bucket Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/npolar-winter-kids-beanie-hat-and-glove-scarf-set-beanie-neck-warmer-mittens-for-4-7-year-old-kids/-/A-1001549399",
-      "tags": "Accessories, Cadet Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Cadet Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/meri-meri-lion-coin-purse-pack-of-1/-/A-79125750",
-      "tags": "Accessories, Clutches, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Clutches"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/disney-marvel-venom-collapsible-umbrella-for-kids-black-white/-/A-92151825",
-      "tags": "Accessories, Compact Umbrellas, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Compact Umbrellas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/disney-marvel-spider-man-miles-morales-collapsible-umbrella-for-kids/-/A-92151826",
-      "tags": "Accessories, Compact Umbrellas, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Compact Umbrellas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ctm-girls-pink-western-canvas-hat-with-ribbon-hatband/-/A-91126970",
-      "tags": "Accessories, Cowboy Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Cowboy Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ctm-kids-western-chihuahua-canvas-hat/-/A-94137930",
-      "tags": "Accessories, Cowboy Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Cowboy Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-faux-suede-saddle-crossbody-bag-art-class-8482-brown/-/A-94435108",
-      "tags": "Accessories, Crossbody Bags, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Crossbody Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-mini-jelly-crossbody-bag-art-class-8482-pink/-/A-93748330",
-      "tags": "Accessories, Crossbody Bags, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Crossbody Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-cowboy-boots-mini-jelly-crossbody-bag-art-class-8482-black/-/A-93748328",
-      "tags": "Accessories, Crossbody Bags, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Crossbody Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-mini-satchel-crossbody-bag-art-class/-/A-94486730",
-      "tags": "Accessories, Crossbody Bags, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Crossbody Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-unicorn-donut-crossbody-bag-cat-38-jack-8482/-/A-88433002",
-      "tags": "Accessories, Crossbody Bags, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Crossbody Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-americana-ice-cream-crossbody-bag-cat-38-jack-8482/-/A-93748316",
-      "tags": "Accessories, Crossbody Bags, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Crossbody Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-unicorn-shaped-with-braided-mane-crossbody-bag-cat-38-jack-8482-white/-/A-92585472",
-      "tags": "Accessories, Crossbody Bags, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Crossbody Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-heart-print-fanny-crossbody-bag-cat-38-jack-8482-white/-/A-92585473",
-      "tags": "Accessories, Crossbody Bags, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Crossbody Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-heart-shaped-crossbody-bag-cat-38-jack-8482-brown/-/A-94435022",
-      "tags": "Accessories, Crossbody Bags, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Crossbody Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-quilted-fanny-crossbody-bag-cat-jack/-/A-94486728",
-      "tags": "Accessories, Crossbody Bags, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Crossbody Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-top-handle-crossbody-bag-cat-jack/-/A-92809916",
-      "tags": "Accessories, Crossbody Bags, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Crossbody Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/willow-ruby-girls-lilac-plush-fuzzy-heart-bag-adorable-soft-faux-fur-shoulder-bag-with-chain-strap-and-pom-poms-perfect-for-kids-tweens-purple/-/A-1004681131",
-      "tags": "Accessories, Crossbody Bags, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Crossbody Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/willow-ruby-girls-pink-lace-mini-crossbody-bag-with-pearl-handle-and-cherry-charm/-/A-1004685801",
-      "tags": "Accessories, Crossbody Bags, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Crossbody Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/disney-minnie-mouse-covering-mouth-pose-pink-9-25-mini-pu-handbag/-/A-1004932089",
-      "tags": "Accessories, Crossbody Bags, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Crossbody Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/disney-minnie-mouse-character-applique-purple-6-3-mini-faux-fur-tote/-/A-1004932080",
-      "tags": "Accessories, Crossbody Bags, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Crossbody Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/disney-frozen-summer-winter-blue-9-25-mini-pu-handbag/-/A-1004932091",
-      "tags": "Accessories, Crossbody Bags, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Crossbody Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/disney-princess-characters-flowers-applique-pink-6-3-mini-faux-fur-tote/-/A-1004932088",
-      "tags": "Accessories, Crossbody Bags, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Crossbody Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/disney-lilo-stitch-character-applique-stitch-pink-6-3-mini-faux-fur-tote/-/A-1004932082",
-      "tags": "Accessories, Crossbody Bags, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Crossbody Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/disney-princess-character-heart-pink-9-25-mini-pu-handbag/-/A-1004932090",
-      "tags": "Accessories, Crossbody Bags, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Crossbody Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/mykids-usa-fashionable-mini-carry-on-girls-portable-pu-crossbody-handbag/-/A-1004914779",
-      "tags": "Accessories, Crossbody Bags, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Crossbody Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/willow-ruby-girls-pink-plush-fuzzy-heart-bag-adorable-soft-faux-fur-shoulder-bag-with-chain-strap-and-pom-poms-perfect-for-kids-tweens/-/A-1001033198",
-      "tags": "Accessories, Crossbody Bags, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Crossbody Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-crossbody-purse-toddler-kids-cute-wallet-shoulder-bags-with-adjustable-staps-chrismas-gifts/-/A-1001300794",
-      "tags": "Accessories, Crossbody Bags, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Crossbody Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-squishmallows-patty-belt-crossbody-bag-pink/-/A-94565925",
-      "tags": "Accessories, Crossbody Bags, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Crossbody Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-squishmallows-kevin-belt-crossbody-bag-green/-/A-94565924",
-      "tags": "Accessories, Crossbody Bags, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Crossbody Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/a-little-obsessed-girls-cute-fuzzy-panda-crossbody-purse/-/A-1004643638",
-      "tags": "Accessories, Crossbody Bags, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Crossbody Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/mykids-usa-stylish-and-versatile-carry-on-girls-portable-red-crossbody-handbag/-/A-1003081379",
-      "tags": "Accessories, Crossbody Bags, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Crossbody Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/disney-lilo-stitch-angel-stitch-hearts-pastel-striped-9-25-mini-pu-handbag/-/A-1004584530",
-      "tags": "Accessories, Crossbody Bags, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Crossbody Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/super-mario-brothers-princess-peach-5-5-crossbody-bag/-/A-94203587",
-      "tags": "Accessories, Crossbody Bags, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Crossbody Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/disney-s-stitch-snowglobe-winter-wonderland-5-5-crossbody-bag/-/A-1000055876",
-      "tags": "Accessories, Crossbody Bags, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Crossbody Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/meri-meri-lion-cross-body-straw-bag-pack-of-1/-/A-78790454",
-      "tags": "Accessories, Crossbody Bags, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Crossbody Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/meri-meri-bird-straw-bag-pack-of-1/-/A-83430673",
-      "tags": "Accessories, Crossbody Bags, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Crossbody Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/minecraft-chibi-creeper-alex-2-piece-ear-muffs-magic-gloves-set/-/A-1000105221",
-      "tags": "Accessories, Earmuffs, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Earmuffs"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/pok-mon-pikachu-youth-2-piece-pink-ear-muffs-magic-gloves-set/-/A-1000105147",
-      "tags": "Accessories, Earmuffs, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Earmuffs"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/blackstrap-kids-hood-balaclava-face-mask/-/A-1001181918",
-      "tags": "Accessories, Face Masks, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Face Masks"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/blackstrap-kids-hood-balaclava-face-mask-prints/-/A-1001181913",
-      "tags": "Accessories, Face Masks, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Face Masks"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/blackstrap-kids-expedition-hood-balaclava-face-mask/-/A-1001183015",
-      "tags": "Accessories, Face Masks, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Face Masks"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/arctic-gear-child-acrylic-balaclava/-/A-90208318",
-      "tags": "Accessories, Face Masks, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Face Masks"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/muk-luks-quietwear-unisex-youth-digital-knit-1-hole-mask-adventure-grey-one-size-fits-most/-/A-88194733",
-      "tags": "Accessories, Face Masks, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Face Masks"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/muk-luks-quietwear-unisex-youth-reversible-facemask-adventure-grey-blaze-one-size-fits-most/-/A-88194737",
-      "tags": "Accessories, Face Masks, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Face Masks"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/muk-luks-quietwear-unisex-youth-knit-and-fleece-patented-mask-adventure-brown-one-size-fits-most/-/A-88379833",
-      "tags": "Accessories, Face Masks, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Face Masks"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/san-diego-hat-company-girl-s-lifeguard-straw-hat-with-sunflower-brim/-/A-1002201020",
-      "tags": "Accessories, Fedoras, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Fedoras"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ctm-girl-s-smiling-kitty-face-straw-sun-hat/-/A-91529946",
-      "tags": "Accessories, Fedoras, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Fedoras"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-paper-straw-with-fruit-beads-floppy-sun-hat-cat-38-jack-8482/-/A-92585481",
-      "tags": "Accessories, Floppy Hats, Girls’ Accessories, Kids’ Accessories",
-      "filters": {
-        "type": "Floppy Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/iceberg-polar-wear-girl-s-4-7-winter-fleece-convertible-fingerless-glove-to-mitten/-/A-93445673",
-      "tags": "Accessories, Girls’ Accessories, Gloves, Kids’ Accessories",
-      "filters": {
-        "type": "Gloves"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/c-c-kids-one-size-fits-most-solid-cable-knit-touchscreen-gloves/-/A-93538382",
-      "tags": "Accessories, Girls’ Accessories, Gloves, Kids’ Accessories",
-      "filters": {
-        "type": "Gloves"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/andy-evan-toddler-kids-zipper-gloves/-/A-87925839",
-      "tags": "Accessories, Girls’ Accessories, Gloves, Kids’ Accessories",
-      "filters": {
-        "type": "Gloves"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/andy-evan-toddler-kids-zipper-gloves/-/A-87925841",
-      "tags": "Accessories, Girls’ Accessories, Gloves, Kids’ Accessories",
-      "filters": {
-        "type": "Gloves"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/andy-evan-toddler-kids-zipper-gloves/-/A-89959659",
-      "tags": "Accessories, Girls’ Accessories, Gloves, Kids’ Accessories",
-      "filters": {
-        "type": "Gloves"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/andy-evan-toddler-kids-zipper-gloves/-/A-89959658",
-      "tags": "Accessories, Girls’ Accessories, Gloves, Kids’ Accessories",
-      "filters": {
-        "type": "Gloves"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/lands-end-kids-expedition-glove/-/A-87813542",
-      "tags": "Accessories, Girls’ Accessories, Gloves, Kids’ Accessories",
-      "filters": {
-        "type": "Gloves"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/maplefield-waterproof-kids-gloves-with-fun-creatures-strap-and-extra-long-cuff-winter-gloves-with-thinsulate-unicorn-s/-/A-92990164",
-      "tags": "Accessories, Girls’ Accessories, Gloves, Kids’ Accessories",
-      "filters": {
-        "type": "Gloves"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/maplefield-waterproof-toddler-gloves-with-fun-creatures-long-cuff-keeps-dry-and-warm-with-thinsulate-unicorn/-/A-1001552459",
-      "tags": "Accessories, Girls’ Accessories, Gloves, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
-      "filters": {
-        "type": "Gloves"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/andy-evan-infant-kids-zipper-gloves/-/A-90542866",
-      "tags": "Accessories, Girls’ Accessories, Gloves, Kids’ Accessories",
-      "filters": {
-        "type": "Gloves"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/andy-evan-toddler-kids-zipper-gloves/-/A-89959663",
-      "tags": "Accessories, Girls’ Accessories, Gloves, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
-      "filters": {
-        "type": "Gloves"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/andy-evan-infant-kids-zipper-gloves/-/A-90542880",
-      "tags": "Accessories, Girls’ Accessories, Gloves, Kids’ Accessories",
-      "filters": {
-        "type": "Gloves"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/andy-evan-infant-kids-zipper-gloves/-/A-90542877",
-      "tags": "Accessories, Girls’ Accessories, Gloves, Kids’ Accessories",
-      "filters": {
-        "type": "Gloves"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/andy-evan-toddler-kids-zipper-gloves/-/A-1000764548",
-      "tags": "Accessories, Girls’ Accessories, Gloves, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
-      "filters": {
-        "type": "Gloves"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/andy-evan-toddler-kids-zipper-gloves/-/A-89959660",
-      "tags": "Accessories, Girls’ Accessories, Gloves, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
-      "filters": {
-        "type": "Gloves"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/andy-evan-toddler-kids-zipper-gloves/-/A-1000764544",
-      "tags": "Accessories, Girls’ Accessories, Gloves, Kids’ Accessories",
-      "filters": {
-        "type": "Gloves"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/maplefield-waterproof-toddler-gloves-with-fun-creatures-long-cuff-keeps-dry-and-warm-with-thinsulate-dino/-/A-1001552458",
-      "tags": "Accessories, Girls’ Accessories, Gloves, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
-      "filters": {
-        "type": "Gloves"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/paw-patrol-superhero-girls-winter-insulated-snow-ski-mittens-or-gloves-ages-2-7/-/A-90833182",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Mittens",
-      "filters": {
-        "type": "Mittens"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/paw-patrol-girls-4-pack-mitten-or-glove-set-toddler-or-little-girls/-/A-90833593",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Mittens",
-      "filters": {
-        "type": "Mittens"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/paw-patrol-girls-4-pack-mitten-or-glove-set-toddlers-little-girls/-/A-90833650",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Mittens",
-      "filters": {
-        "type": "Mittens"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/lands-end-kids-squall-mittens/-/A-87813609",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Mittens",
-      "filters": {
-        "type": "Mittens"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/maplefield-baby-snow-mittens-waterproof-baby-mittens-with-fun-creatures-long-cuff-keeps-kids-dry-and-warm-with-thinsulate-for-ages-0-6-bunny/-/A-1001552460",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Mittens, Toddler Accessories, Toddler Boys’ Accessories",
-      "filters": {
-        "type": "Mittens"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/vogue-eyewear-vy2019-46mm-child-pillow-eyeglasses/-/A-1001928904",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Reading Glasses, Sunglasses",
-      "filters": {
-        "type": "Reading Glasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/vogue-eyewear-vy2019-48mm-child-pillow-eyeglasses/-/A-1001928163",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Reading Glasses, Sunglasses",
-      "filters": {
-        "type": "Reading Glasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/vogue-eyewear-vy2024-47mm-child-cat-eye-sunglasses/-/A-1001927535",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Reading Glasses, Sunglasses",
-      "filters": {
-        "type": "Reading Glasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/vogue-eyewear-vy2024-49mm-child-cat-eye-sunglasses/-/A-1001928914",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Reading Glasses, Sunglasses",
-      "filters": {
-        "type": "Reading Glasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/vogue-eyewear-vy2001-47mm-child-square-eyeglasses/-/A-1001926415",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Reading Glasses, Sunglasses",
-      "filters": {
-        "type": "Reading Glasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-quilted-cargo-with-pockets-shoulder-bag-art-class/-/A-92811504",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Shoulder Bags",
-      "filters": {
-        "type": "Shoulder Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-daisy-stick-umbrella-cat-38-jack-8482-purple/-/A-92585482",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Stick Umbrellas",
-      "filters": {
-        "type": "Stick Umbrellas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/stephen-joseph-gifts-kids-umbrellas/-/A-1005101262",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Stick Umbrellas",
-      "filters": {
-        "type": "Stick Umbrellas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/stephen-joseph-gifts-kids-pop-up-umbrellas/-/A-1005132766",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Stick Umbrellas",
-      "filters": {
-        "type": "Stick Umbrellas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/wildkin-kids-stick-umbrella/-/A-88012694",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Stick Umbrellas",
-      "filters": {
-        "type": "Stick Umbrellas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/my-little-pony-girl-s-umbrella-little-girls-ages-3-7/-/A-89791272",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Stick Umbrellas",
-      "filters": {
-        "type": "Stick Umbrellas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/barbie-21-inch-kid-s-umbrella-with-clamshell-handle/-/A-94215096",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Stick Umbrellas",
-      "filters": {
-        "type": "Stick Umbrellas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/abg-accessories-peppa-pig-life-is-sweet-kid-s-umbrella/-/A-1004110162",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Stick Umbrellas",
-      "filters": {
-        "type": "Stick Umbrellas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/bluey-21-inch-kid-s-umbrella-with-clamshell-handle/-/A-1000069043",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Stick Umbrellas",
-      "filters": {
-        "type": "Stick Umbrellas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/nickelodeon-paw-patrol-skye-3d-stick-umbrella-for-kids-ruffled-pink/-/A-92151806",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Stick Umbrellas",
-      "filters": {
-        "type": "Stick Umbrellas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/disney-lilo-stitch-21-inch-kid-s-umbrella-with-clamshell-handle/-/A-1000069041",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Stick Umbrellas",
-      "filters": {
-        "type": "Stick Umbrellas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/disney-minnie-mouse-21-inch-kid-s-umbrella-with-clamshell-handle/-/A-94215101",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Stick Umbrellas",
-      "filters": {
-        "type": "Stick Umbrellas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/sonic-the-hedgegog-21-inch-kid-s-umbrella-with-clamshell-handle/-/A-1000119649",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Stick Umbrellas",
-      "filters": {
-        "type": "Stick Umbrellas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/disney-marvel-avengers-little-kid-hulk-3d-stick-umbrella-for-kids/-/A-92151828",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Stick Umbrellas",
-      "filters": {
-        "type": "Stick Umbrellas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/nickelodeon-baby-shark-3d-stick-umbrella-for-kids-blue-yellow/-/A-92151800",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Stick Umbrellas",
-      "filters": {
-        "type": "Stick Umbrellas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/nickelodeon-teenage-mutant-ninja-turtles-stick-umbrella-for-kids-navy/-/A-92151821",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Stick Umbrellas",
-      "filters": {
-        "type": "Stick Umbrellas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/marvel-spider-man-21-inch-kid-s-umbrella-with-clamshell-handle/-/A-1000122988",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Stick Umbrellas",
-      "filters": {
-        "type": "Stick Umbrellas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/disney-mickey-mouse-21-inch-kid-s-umbrella-with-clamshell-handle/-/A-94215098",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Stick Umbrellas",
-      "filters": {
-        "type": "Stick Umbrellas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/nickelodeon-baby-shark-stick-umbrella-for-kids-blue-yellow/-/A-92151798",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Stick Umbrellas",
-      "filters": {
-        "type": "Stick Umbrellas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/nickelodeon-baby-shark-stick-umbrella-for-kids-light-blue/-/A-92151796",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Stick Umbrellas",
-      "filters": {
-        "type": "Stick Umbrellas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/disney-marvel-spider-man-miles-morales-skyline-stick-umbrella-for-kids-dark-gray/-/A-92151811",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Stick Umbrellas",
-      "filters": {
-        "type": "Stick Umbrellas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/marvel-avengers-groot-and-rocket-stick-umbrella-for-kids/-/A-92151801",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Stick Umbrellas",
-      "filters": {
-        "type": "Stick Umbrellas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/paw-patrol-boy-s-umbrella-kids-ages-3-7-light-blue/-/A-89790786",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Stick Umbrellas",
-      "filters": {
-        "type": "Stick Umbrellas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/nickelodeon-baby-shark-3d-stick-umbrella-for-kids-blue/-/A-92151795",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Stick Umbrellas",
-      "filters": {
-        "type": "Stick Umbrellas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/nickelodeon-teenage-mutant-ninja-turtles-stick-umbrella-for-kids-green/-/A-92151824",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Stick Umbrellas",
-      "filters": {
-        "type": "Stick Umbrellas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/disney-marvel-the-amazing-spider-man-stick-umbrella-for-kids-yellow/-/A-92151810",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Stick Umbrellas",
-      "filters": {
-        "type": "Stick Umbrellas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/clotth-whimsical-unicorn-princess-umbrella-transparent-printed-design-windproof-water-resistant-portable-stylish-accessory-for-rain/-/A-1004462829",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Stick Umbrellas",
-      "filters": {
-        "type": "Stick Umbrellas"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/kids-sun-hat-for-girls-boys-with-uv-protection-toddler-beach-hat-for-fishing-safari-play-hat-with-sunglasses-2-7-years/-/A-1003544839",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sun Hats",
-      "filters": {
-        "type": "Sun Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/mi-amore-gigi-black-bow-hat-osfm-black/-/A-93976746",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sun Hats",
-      "filters": {
-        "type": "Sun Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/hemlock-cub-straw-lifeguard-hat-big-kids/-/A-1002652646",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sun Hats",
-      "filters": {
-        "type": "Sun Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/hemlock-brave-straw-lifeguard-hat-big-kids/-/A-1002652648",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sun Hats",
-      "filters": {
-        "type": "Sun Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/hemlock-ross-straw-lifeguard-hat-big-kids/-/A-1002652754",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sun Hats",
-      "filters": {
-        "type": "Sun Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/hemlock-harvey-straw-lifeguard-hat-big-kids/-/A-1002652744",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sun Hats",
-      "filters": {
-        "type": "Sun Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/hemlock-koa-straw-lifeguard-hat-big-kids/-/A-1002652748",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sun Hats",
-      "filters": {
-        "type": "Sun Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/hemlock-pounce-straw-lifeguard-hat-big-kids/-/A-1002652752",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sun Hats",
-      "filters": {
-        "type": "Sun Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/hemlock-dylan-straw-lifeguard-hat-big-kids/-/A-1002652644",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sun Hats",
-      "filters": {
-        "type": "Sun Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/san-diego-hat-company-kids-straw-lifeguard-hat-with-chin-strap-cord/-/A-1002201022",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sun Hats",
-      "filters": {
-        "type": "Sun Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ctm-kids-satin-wrap-durag-cap/-/A-90464513",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sun Hats",
-      "filters": {
-        "type": "Sun Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ctm-kids-cotton-blue-stripe-train-engineer-cap/-/A-90060464",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sun Hats",
-      "filters": {
-        "type": "Sun Hats"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-rimless-heart-sunglasses-art-class-8482-pink/-/A-89325038",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-rectangle-sunglasses-art-class-8482-pink/-/A-92610985",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-heart-sunglasses-art-class-8482-red/-/A-92610986",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-metal-flowers-sunglasses-art-class-8482-purple-gold/-/A-92610987",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-heart-sunglasses-cat-38-jack-8482-purple-blue/-/A-89318907",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-scalloped-heart-sunglasses-cat-38-jack-8482-pink/-/A-89318908",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-daisy-aviator-sunglasses-cat-jack/-/A-91013657",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-leopard-print-square-sunglasses-cat-38-jack-8482-pink/-/A-92585498",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-butterfly-wing-sunglasses-cat-38-jack-8482-gold/-/A-92585499",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-crown-aviator-sunglasses-cat-38-jack-8482-metallic-pink/-/A-92585497",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/mykids-usa-girls-lovely-sunflower-round-frame-sunglasses/-/A-1004783756",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/mykids-usa-leopard-print-pattern-heart-shape-fashion-sunglasses/-/A-1004883872",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/mykids-usa-girls-colorful-lenses-cartoon-frame-shape-fashion-sunglasses/-/A-1004815314",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/mykids-usa-girls-solid-color-cartoon-shape-round-frame-frosted-sunglasses/-/A-1004932673",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/mykids-usa-girls-color-patchwork-design-round-frame-sunglasses/-/A-1004785227",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/mykids-usa-fashion-bunny-shape-solid-color-sunglasses/-/A-1004881071",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/mykids-usa-kids-heart-shape-decoration-sunglasses/-/A-1004883824",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/mykids-usa-kids-bear-shape-design-sun-protection-detachable-sunglasses-with-box/-/A-1004815363",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/mykids-usa-kids-cool-colorful-sun-protection-outgoing-sunglasses/-/A-1004815419",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/mykids-usa-kids-colorful-sun-protection-fashion-sunglasses/-/A-1004815382",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/speedo-kids-39-sunglasses-green/-/A-89076886",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-junior-rb9052s-47mm-new-wayfarer-child-square-sunglasses/-/A-86766610",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/roshambo-s-premium-wraparound-flexible-youth-sunglasses-made-in-italy-polarized-mirror-uv400-lens-slip-grip-3-pack-and-carrying-sleeve-included/-/A-91516927",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/willow-ruby-kid-s-summer-fun-sunglasses-girl-s-sunnies-in-black-heart/-/A-91721250",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/roshambo-bend-in-half-flexible-shield-kids-sunglasses-made-in-italy-polarized-mirrored-uv400-lens-microfiber-carrying-sleeve-included/-/A-91516892",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/babiators-euro-round-children-s-navigators-uv-sunglasses-bendable-flexible-durable-shatterproof-baby-safe-multiple-sizes/-/A-89158573",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/willow-ruby-kid-s-fun-sunglasses-with-hair-clip-set-for-girls-sunnies-claws-in-pink-cat-eye-butterfly-hair-clips/-/A-91721243",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/franklin-sports-mlb-flip-up-sunglasses/-/A-89953050",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/willow-ruby-kid-s-fun-sunglasses-with-hair-clip-set-for-girls-sunnies-claws-in-blue-heart-butterfly-hair-clips/-/A-91721245",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/willow-ruby-kid-s-fun-sunglasses-with-hair-clip-set-for-girls-sunnies-claws-in-black-with-pink-flower-hair-claws/-/A-91793316",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-bluey-cateye-sunglasses-blue/-/A-94493689",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-wicked-glinda-cateye-sunglasses-pink/-/A-94493686",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/willow-ruby-kid-s-fun-sunglasses-with-hair-clip-set-for-girls-sunnies-claws-in-yellow-sunflower-and-cherry-claws/-/A-91834479",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/willow-ruby-kid-s-summer-fun-sunglasses-girls-sunnies-in-pink-jewels/-/A-91834484",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/willow-ruby-kid-s-fun-sunglasses-with-hair-clip-set-for-girls-sunnies-claws-in-leopard-heart-cherry-claws/-/A-91721248",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/willow-ruby-kid-s-summer-fun-sunglasses-girl-s-sunnies-in-light-blue-heart/-/A-91721249",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/willow-ruby-kid-s-summer-fun-sunglasses-girl-s-sunnies-in-pink-heart/-/A-91721246",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/limited-too-girls-sunset-sunglasses-case-set-for-kids/-/A-87854937",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/willow-ruby-kid-s-fun-sunglasses-with-hair-clip-set-for-girls-sunnies-claws-in-purple-glitter-butterfly-hair-claws/-/A-91773407",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/willow-ruby-kid-s-summer-fun-sunglasses-girl-s-sunnies-in-pink-cateye/-/A-91721251",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/willow-ruby-kid-s-fun-sunglasses-with-hair-clip-set-for-girls-sunnies-claws-in-purple-with-butterfly-hair-claws/-/A-91793320",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/willow-ruby-kid-s-fun-sunglasses-with-hair-clip-set-for-girls-pink-with-flower-hair-claws/-/A-91773408",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/toddler-bluey-sunglasses/-/A-92423772",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/sunnies-now-you-see-me-now-you-don-t-glare-free-kids-sunglasses-polarized-lenses-100-uv-protection-anti-slip-stylish-eye-protection/-/A-92128266",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/speedo-kids-39-sunglasses-maiden-mirage/-/A-92167226",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/speedo-kids-39-sunglasses-the-scrambler/-/A-92167161",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/speedo-kids-39-sunglasses-reef-runner/-/A-92167232",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/little-love-bug-kids-sunglasses/-/A-1002790947",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses, Toddler Accessories, Toddler Boys’ Accessories",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/babiators-original-navigator-think-pink-smoke-lens-ages-3-5/-/A-93284026",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses, Toddler Accessories, Toddler Boys’ Accessories",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/babiators-original-navigator-jet-black-smoke-lens-3-5-years/-/A-93284006",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses, Toddler Accessories, Toddler Boys’ Accessories",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/babiators-polarized-flower-peachy-keen-rose-gold-mirrored-lens-3-5-years/-/A-93284027",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses, Toddler Accessories, Toddler Boys’ Accessories",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/babiators-original-keyhole-ballerina-pink-smoke-lens-3-5-years/-/A-93284029",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses, Toddler Accessories, Toddler Boys’ Accessories",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/babiators-polarized-heart-frosted-pink-purple-mirrored-lens-ages-6/-/A-93284020",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses, Toddler Accessories, Toddler Boys’ Accessories",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/babiators-original-keyhole-ballerina-pink-smoke-lenses-6-years/-/A-93284003",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses, Toddler Accessories, Toddler Boys’ Accessories",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/babiators-original-keyhole-jet-black-smoke-lens-3-5-years/-/A-93283986",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses, Toddler Accessories, Toddler Boys’ Accessories",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/babiators-original-navigator-good-as-blue-smoke-lens-3-5-years/-/A-93284005",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses, Toddler Accessories, Toddler Boys’ Accessories",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/babiators-original-keyhole-mint-to-be-smoke-lenses-6-years/-/A-93283991",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses, Toddler Accessories, Toddler Boys’ Accessories",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/babiators-original-navigator-good-as-blue-smoke-lens-6-years/-/A-93283982",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses, Toddler Accessories, Toddler Boys’ Accessories",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/babiators-original-navigator-think-pink-smoke-lens-6-years/-/A-93284010",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses, Toddler Accessories, Toddler Boys’ Accessories",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/babiators-polarized-heart-frosted-pink-purple-mirrored-lens-3-5-years/-/A-93283988",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses, Toddler Accessories, Toddler Boys’ Accessories",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/babiators-original-keyhole-sweet-cream-amber-lenses-3-5-years/-/A-93284001",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses, Toddler Accessories, Toddler Boys’ Accessories",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/babiators-original-keyhole-jet-black-smoke-lenses-6-years/-/A-93283980",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses, Toddler Accessories, Toddler Boys’ Accessories",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-junior-rb9052s-48mm-new-wayfarer-child-square-sunglasses/-/A-86766545",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-junior-rb9506s-50mm-aviator-child-pilot-sunglasses/-/A-86483484",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-junior-rb9071s-48mm-child-square-sunglasses/-/A-86210909",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-junior-rb9060s-50mm-child-phantos-sunglasses/-/A-86210872",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-junior-rb9062s-48mm-child-square-sunglasses/-/A-86210896",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/sunnies-noy-my-gumdrop-button-glare-free-kids-sunglasses-polarized-lenses-100-uv-protection-anti-slip-stylish-eye-protection/-/A-92128271",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/sunnies-ice-ice-baby-glare-free-kids-sunglasses-polarized-lenses-100-uv-protection-anti-slip-stylish-eye-protection/-/A-92128272",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-junior-rb9052s-47mm-new-wayfarer-child-square-sunglasses/-/A-86210906",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-junior-rb9506s-50mm-aviator-child-pilot-sunglasses/-/A-86210892",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/babiators-children-s-polarized-heart-shaped-uv-sunglasses-bendable-flexible-durable-shatterproof-baby-safe-free-carry-case-included/-/A-89153492",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/sunnies-chillin-like-a-villain-littles-glare-free-kids-sunglasses-polarized-lenses-100-uv-protection-anti-slip-stylish-eye-protection/-/A-92128262",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/flying-fisherman-s-junior-angler-kid-s-fin-7897-polarized-sunglasses/-/A-89470682",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/sunnies-tea-time-with-poodles-glare-free-kids-sunglasses-polarized-lenses-100-uv-protection-anti-slip-stylish-eye-protection/-/A-92128267",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/flying-fisherman-kid-s-buoy-junior-angler-polarized-sunglasses/-/A-87164665",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-junior-rb9062s-48mm-child-square-sunglasses/-/A-86210878",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-junior-rb9052s-48mm-new-wayfarer-child-square-sunglasses/-/A-86210877",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/babiators-children-s-polarized-flower-shaped-uv-sunglasses-bendable-flexible-durable-shatterproof-baby-safe-free-carry-case-included/-/A-88923619",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/sunnies-red-white-boom-glare-free-kids-sunglasses-polarized-lenses-100-uv-protection-anti-slip-stylish-eye-protection/-/A-92128269",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/grinderpunch-kids-size-non-prescription-glasses-round-circle-frame-clear-lens-costume-age-3-10-black/-/A-1004620034",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/flying-fisherman-kid-s-spray-junior-angler-polarized-sunglasses/-/A-90553220",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-rb9081s-48mm-child-irregular-sunglasses/-/A-93805416",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/oakley-oy3003-49mm-child-rectangle-sunglasses/-/A-1001928482",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/oakley-oy8007-50mm-child-square-eyeglasses/-/A-1001927182",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-junior-rb9565s-47mm-child-irregular-sunglasses/-/A-87669287",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/emporio-armani-ek3001-49mm-child-pillow-eyeglasses/-/A-1001926596",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/oakley-oy8031-48mm-child-rectangle-sunglasses/-/A-1001928948",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/sunnies-the-milo-man-glare-free-kids-sunglasses-polarized-lenses-100-uv-protection-anti-slip-stylish-eye-protection/-/A-92128275",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-junior-rb9060s-50mm-child-phantos-sunglasses/-/A-86766619",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/sunnies-chillin-like-a-villian-glare-free-kids-sunglasses-polarized-lenses-100-uv-protection-anti-slip-stylish-eye-protection/-/A-92128263",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-rb1628-46mm-child-phantos-eyeglasses/-/A-1001926839",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-rb1531-48mm-child-square-eyeglasses/-/A-1001926543",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-junior-rb1555-46mm-child-square-sunglasses/-/A-82341272",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/sunnies-lightning-never-strikes-twice-glare-free-kids-sunglasses-polarized-lenses-100-uv-protection-anti-slip-stylish-eye-protection/-/A-92128274",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-rb1619-49mm-child-pillow-eyeglasses/-/A-1001926613",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/wayfarer-kids-sunglasses-blue-bullseye-39-s-playground-8482/-/A-94022417",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/kids-sunglasses-flower-bullseye-39-s-playground-8482/-/A-94022377",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/round-kids-sunglasses-red-bullseye-39-s-playground-8482/-/A-94022402",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/kids-sunglasses-stripe-bullseye-39-s-playground-8482/-/A-94022380",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/sunnies-later-gator-glare-free-kids-sunglasses-polarized-lenses-100-uv-protection-anti-slip-stylish-eye-protection/-/A-92128270",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-rb1628-48mm-child-phantos-eyeglasses/-/A-1001928439",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-rb9095v-47mm-child-square-eyeglasses/-/A-1001928445",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-rb1586-47mm-child-square-eyeglasses/-/A-1001926783",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-junior-rb1555-48mm-child-square-eyeglasses/-/A-82341124",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-rb1591-46mm-child-square-eyeglasses/-/A-1001926957",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-rb9098s-45mm-child-square-sunglasses/-/A-92607690",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-rb9506s-52mm-aviator-child-pilot-sunglasses/-/A-92607696",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/kids-fake-aviator-eye-glasses-blue-light-blocking-anti-eyestrain-lens-for-children-s-non-prescription-age-6-12-silver/-/A-1004619990",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/sunnies-z-is-for-zebra-glare-free-kids-sunglasses-polarized-lenses-100-uv-protection-anti-slip-stylish-eye-protection/-/A-92391552",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/sunnies-sir-hissssss-glare-free-kids-sunglasses-polarized-lenses-100-uv-protection-anti-slip-stylish-eye-protection/-/A-92128283",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-rb1570-49mm-child-square-eyeglasses-clear-lens/-/A-82341173",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/vogue-eyewear-vy2017-45mm-child-irregular-eyeglasses/-/A-1001928933",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/vogue-eyewear-vy2013-45mm-child-oval-eyeglasses/-/A-1001927588",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/vogue-eyewear-vy2017-43mm-child-irregular-eyeglasses/-/A-1003382474",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/emporio-armani-ek3002-45mm-child-cat-eye-eyeglasses/-/A-1003382440",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-rb1594-44mm-child-phantos-eyeglasses/-/A-1001928658",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/emporio-armani-ea3202-47mm-child-round-eyeglasses/-/A-1003382452",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-rb1621-47mm-child-rectangle-eyeglasses/-/A-1001926426",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/emporio-armani-ek3202-47mm-child-round-eyeglasses/-/A-1001928941",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/arnette-an7263-49mm-child-square-sunglasses/-/A-1003405674",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/arnette-an7269-49mm-child-rectangle-sunglasses/-/A-1003382361",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-rb1528-48mm-child-square-eyeglasses/-/A-1001926547",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-rb1905-44mm-child-phantos-sunglasses/-/A-1001926436",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-rb1621-49mm-child-rectangle-eyeglasses/-/A-1001928412",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/vogue-eyewear-vy2005-43mm-child-oval-eyeglasses/-/A-1001928927",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/emporio-armani-ek3204-48mm-child-cat-eye-sunglasses/-/A-1003382414",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/emporio-armani-ek3004-49mm-child-phantos-sunglasses/-/A-1003405746",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/emporio-armani-ek3006-47mm-child-pillow-sunglasses/-/A-1003405751",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/emporio-armani-ek3004-47mm-child-phantos-sunglasses/-/A-1003382470",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/emporio-armani-ek3002-47mm-child-cat-eye-eyeglasses/-/A-1001928886",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/emporio-armani-ek3005-46mm-child-round-sunglasses/-/A-92607801",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/emporio-armani-ek3204-46mm-child-cat-eye-sunglasses/-/A-1003382467",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/emporio-armani-ek3005-48mm-child-round-sunglasses/-/A-92607752",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/emporio-armani-ek3006-49mm-child-pillow-sunglasses/-/A-1003405755",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/emporio-armani-ek3203-48mm-child-pillow-sunglasses/-/A-1003382405",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/emporio-armani-ek3001-47mm-child-pillow-eyeglasses/-/A-1001928884",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/emporio-armani-ek3203-50mm-child-pillow-sunglasses/-/A-1001928958",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/vogue-eyewear-vy2029-45mm-child-pillow-sunglasses/-/A-1001927663",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-rb1586-49mm-child-square-eyeglasses/-/A-1001927400",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-rb9572v-48mm-child-irregular-eyeglasses/-/A-1001928419",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-rb1058-45mm-child-irregular-eyeglasses/-/A-1001928328",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-rb1058-47mm-child-irregular-eyeglasses/-/A-1001928211",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-rb9572v-46mm-child-irregular-eyeglasses/-/A-1001926684",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/vogue-eyewear-vy2034-51mm-child-pillow-sunglasses/-/A-1004791079",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/vogue-eyewear-vy2034-49mm-child-pillow-sunglasses/-/A-1004791078",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-rb1536-48mm-child-square-eyeglasses/-/A-1001928452",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-rb1530-48mm-child-rectangle-eyeglasses/-/A-1001928841",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-rb1636-48mm-child-irregular-sunglasses/-/A-1003405655",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-rb1636-46mm-child-irregular-sunglasses/-/A-1001928703",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-rb9098v-45mm-child-square-sunglasses/-/A-1001928442",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-rb9098v-43mm-child-square-sunglasses/-/A-1001928649",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-rb1549-46mm-child-square-eyeglasses/-/A-1001927186",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-rb1549-50mm-child-square-eyeglasses/-/A-1001928882",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-rb9082v-45mm-child-phantos-sunglasses/-/A-1002840496",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/ray-ban-rb9082v-47mm-child-phantos-sunglasses/-/A-1002840535",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/oakley-oy8001-48mm-child-square-eyeglasses/-/A-1001928481",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/oakley-oy8026-50mm-child-rectangle-eyeglasses/-/A-1001926693",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/oakley-oy8001-50mm-child-square-eyeglasses/-/A-1001928088",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/oakley-oy8002-49mm-child-square-eyeglasses/-/A-1001928661",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/oakley-oy8007-48mm-child-square-eyeglasses/-/A-1001928924",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/oakley-oy8002-51mm-child-square-eyeglasses/-/A-1001926725",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/oakley-oy3003-51mm-child-rectangle-sunglasses/-/A-1001928473",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Sunglasses",
-      "filters": {
-        "type": "Sunglasses"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/willow-ruby-girls-cherry-print-mini-top-handle-crossbody-bag-with-charm-for-kids/-/A-1004703507",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Top Handle Bags",
-      "filters": {
-        "type": "Top Handle Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/willow-ruby-girls-smiley-daisy-print-mini-top-handle-crossbody-bag-for-kids-youth/-/A-1004703508",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Top Handle Bags",
-      "filters": {
-        "type": "Top Handle Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/willow-ruby-girls-mini-groovy-love-peace-print-top-handle-crossbody-bag-with-fluffy-butterfly-charm/-/A-1004702737",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Top Handle Bags",
-      "filters": {
-        "type": "Top Handle Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/willow-ruby-girls-french-fry-print-mini-top-handle-crossbody-bag-for-kids-youth/-/A-1004703509",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Top Handle Bags",
-      "filters": {
-        "type": "Top Handle Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/willow-ruby-girls-strawberry-fields-mini-top-handle-bag-with-pom-charm/-/A-1004702722",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Top Handle Bags",
-      "filters": {
-        "type": "Top Handle Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/a-little-obsessed-girls-glossy-mini-top-handle-bag-hot-pink-purse-with-gold-tone-lock-chain-strap-for-kids-youth/-/A-1004703531",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Top Handle Bags",
-      "filters": {
-        "type": "Top Handle Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/mykids-usa-fashionable-mini-carry-on-girls-portable-pu-crossbody-handbag-with-bow/-/A-1004914786",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Top Handle Bags",
-      "filters": {
-        "type": "Top Handle Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/mykids-usa-children-girl-fashion-heart-pattern-mini-one-shoulder-bags-accessories/-/A-1004522341",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Top Handle Bags",
-      "filters": {
-        "type": "Top Handle Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-39-mesh-with-icons-swim-tote-art-class-8482-black/-/A-92585700",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Tote Bags",
-      "filters": {
-        "type": "Tote Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/girls-canvas-beach-tote-bag-cat-jack/-/A-92809464",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Tote Bags",
-      "filters": {
-        "type": "Tote Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/textiel-trade-girl-s-gabby-dollhouse-drawstring-bag/-/A-1005158464",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Tote Bags",
-      "filters": {
-        "type": "Tote Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/u-p-d-inc-kid-s-bluey-and-bingo-vacation-duffle-bag/-/A-1004727554",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Tote Bags",
-      "filters": {
-        "type": "Tote Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/textiel-trade-kids-disney-frozen-crossbody-cell-phone-bag/-/A-1004812591",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Tote Bags",
-      "filters": {
-        "type": "Tote Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/disney-girl-s-12-inch-minnie-mouse-big-face-backpack/-/A-94052481",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Tote Bags",
-      "filters": {
-        "type": "Tote Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/u-p-d-inc-girl-s-kuromi-16-inch-backpack/-/A-1003544324",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Tote Bags",
-      "filters": {
-        "type": "Tote Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/disney-girl-s-encanto-sisters-pencil-box/-/A-93997277",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Tote Bags",
-      "filters": {
-        "type": "Tote Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/textiel-trade-girl-s-disney-princess-drawstring-bag/-/A-93585916",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Tote Bags",
-      "filters": {
-        "type": "Tote Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/disney-the-little-mermaid-5-piece-youth-beach-tote-set/-/A-92265938",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Tote Bags",
-      "filters": {
-        "type": "Tote Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/meri-meri-sun-woven-cotton-rope-bag-pack-of-1/-/A-78790449",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Tote Bags",
-      "filters": {
-        "type": "Tote Bags"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/u-p-d-inc-kids-bluey-claw-hair-clip/-/A-1004911570",
-      "tags": "Accessories, Girls’ Accessories, Kids’ Accessories, Visors",
-      "filters": {
-        "type": "Visors"
-      }
-    },
-    {
-      "url": "https://www.target.com/p/hanes-girls-4pk-absolute-active-heel-shield-socks-colors-may-vary/-/A-93666807",
+      "url": "https://www.target.com/p/girls-39-10pk-ankle-striped-socks-cat-38-jack-8482/-/A-89823449",
       "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
       "filters": {
         "type": "Ankle Socks"
       }
     },
     {
-      "url": "https://www.target.com/p/hanes-girls-20pk-ankle-socks-colors-may-vary/-/A-84320008",
+      "url": "https://www.target.com/p/ctm-girls-lace-ruffle-anklet-sock-with-pearl-accent/-/A-90014215",
       "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
       "filters": {
         "type": "Ankle Socks"
       }
     },
     {
-      "url": "https://www.target.com/p/girls-casual-ankle-socks-6pk-cat-jack-white/-/A-77452211",
+      "url": "https://www.target.com/p/boys-39-8pk-ankle-length-socks-dealworthy-8482/-/A-90629744",
       "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
       "filters": {
         "type": "Ankle Socks"
       }
     },
     {
-      "url": "https://www.target.com/p/kids-6pk-ankle-socks-all-in-motion-black/-/A-84306125",
+      "url": "https://www.target.com/p/girls-39-10pk-lightweight-ankle-stripe-38-dot-socks-cat-38-jack-8482-gray/-/A-90850039",
       "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
       "filters": {
         "type": "Ankle Socks"
       }
     },
     {
-      "url": "https://www.target.com/p/girls-6pk-casual-turn-cuff-socks-cat-jack-white/-/A-77452213",
+      "url": "https://www.target.com/p/boys-39-6pk-ankle-socks-all-in-motion-8482-white-black/-/A-90898572",
       "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
       "filters": {
         "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-39-10pk-ankle-socks-cat-38-jack-8482-white/-/A-93276929",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/kids-39-6pk-ankle-length-socks-all-in-motion-8482-white/-/A-93276928",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-39-10pk-lightweight-ribbed-ankle-socks-cat-38-jack-8482/-/A-94472239",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-pointelle-cotton-blend-super-soft-anklet-sock/-/A-1003305410",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-3-pair-pack-hi-cut-liner-socks/-/A-1003336501",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Liner Socks",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-ditsy-floral-scalloped-cuff-anklet-sock/-/A-1003430863",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-colored-ruffle-anklet-socks/-/A-1003455534",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-lace-anklet-socks/-/A-1003451485",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-kids-ruffle-eyelet-cotton-blend-anklet-socks/-/A-1003303751",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-kids-triple-roll-cotton-blend-ankle-socks/-/A-1003302099",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Crew Socks",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girl-s-kitty-cats-fuzzy-mid-cut-socks-2-pack-gray-one-size/-/A-1003460805",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Crew Socks",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-crochet-ruffle-trim-mercerized-cotton-blend-ankle-sock/-/A-1003451533",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-pretty-in-pearls-cotton-blend-anklet-socks/-/A-1003303863",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-classic-lace-girls-ruffle-anklet-socks/-/A-1003303363",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-pom-pom-palooza-girls-ankle-socks/-/A-1003454063",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-tie-dye-mid-cut-cotton-blend-socks-3-pack/-/A-1003452555",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-dual-layer-ruffle-anklet-socks/-/A-1003460267",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-layered-lace-cotton-blend-anklet-socks/-/A-1003303104",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-oversized-tutu-ballerina-anklet-socks/-/A-1003454504",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Leg Warmers",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-open-work-anklet-socks/-/A-1003455580",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-bow-back-anklet-socks/-/A-1003455488",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-tulle-bow-anklet-socks/-/A-1003451362",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-dual-layer-eyelet-lace-anklet-sock/-/A-1003305392",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-floral-halo-cotton-anklet-socks/-/A-1003454328",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-bow-trimmed-mercerized-cotton-rich-ankle-sock/-/A-1003451504",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-ziggy-double-ring-cotton-blend-anklet-sock/-/A-1003455383",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Crew Socks",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-neon-multi-pom-pom-cotton-blend-girls-anklet-sock/-/A-1003455256",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-basics-kids-cotton-blend-ankle-socks/-/A-1003304714",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-leopard-girls-fuzzy-non-skid-socks-2-pair-black-one-size/-/A-1003460788",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Crew Socks",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-multicolor-sequin-cotton-blend-girls-anklet-sock/-/A-1003455270",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-microfiber-tulle-bow-anklet-socks/-/A-1003454266",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-velvet-pleated-girls-cotton-blend-anklet-socks/-/A-1003454133",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-pique-stitch-anklet-socks/-/A-1003451245",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-hello-darlin-flower-petal-cotton-blend-girls-anklet-socks/-/A-1003454048",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-thin-ribbed-cotton-kids-anklet-sock/-/A-1003305514",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-cotton-blend-ankle-socks-3-pack-assorted/-/A-1003409549",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Crew Socks",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-botanic-sheer-girls-floral-embroidered-anklet-socks/-/A-1003454363",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-cotton-blend-swiss-dot-anklet-socks/-/A-1003430700",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-petite-floral-lace-cotton-blend-anklet-socks/-/A-1003454288",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-herringbone-thin-ribbed-anklet/-/A-1003529758",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-sheer-cotton-blend-flocked-dot-anklet-with-scalloped-cuff/-/A-1003455334",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-silky-side-bow-anklet-socks/-/A-1003455195",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-metallic-leaf-girls-cotton-blend-anklet-socks/-/A-1003454145",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-dual-flower-girls-cotton-blend-anklet-sock/-/A-1003455261",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-lacy-loopsy-girls-cotton-blend-anklet-sock/-/A-1003453832",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-confetti-cotton-blend-anklet-sock/-/A-1003453910",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-fuzzy-shimmer-cotton-blend-anklet-socks/-/A-1003455218",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-pelerine-cotton-blend-anklet-socks/-/A-1003455236",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-polar-bear-girls-fuzzy-mid-cut-socks/-/A-1003403118",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Crew Socks",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-knit-openwork-bow-anklet-socks/-/A-1003451097",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-far-out-cotton-blend-lace-ruffle-socks/-/A-1003453592",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-step-and-shimmer-ruffle-anklet-socks/-/A-1003453109",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Crew Socks",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-faux-fur-cuff-cotton-blend-anklet-socks-charcoal-heather-8/-/A-1003454276",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-glitter-butterfly-cotton-knee-high-socks/-/A-1003364472",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-metallic-scalloped-cotton-blend-anklet-socks/-/A-1003454245",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-ribbed-bow-anklet-socks/-/A-1003460384",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-pointelle-soft-stretch-cotton-anklet-socks/-/A-1003460499",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-floral-button-anklet-socks/-/A-1003460309",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-pointelle-dot-anklet-socks/-/A-1003451139",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-flocked-dot-cotton-blend-tulle-anklet/-/A-1003455309",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-blissful-bloom-anklet-socks/-/A-1003460184",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-m-multi-line-anklet-socks/-/A-1003460105",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-snowflake-plush-lined-cozy-socks/-/A-1003334805",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Crew Socks",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/hearts-galore-cozy-sock/-/A-1003334834",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Crew Socks",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-bubble-stitch-welt-anklet-socks/-/A-1003451397",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/hanes-girls-6pk-pure-comfort-organic-cotton-ankle-socks-white/-/A-93666809",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-39-8pk-ankle-socks-dealworthy-8482-pink/-/A-94472238",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/champion-girls-39-6pk-ankle-socks-white/-/A-94660053",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Quarter Socks",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/nasa-boys-socks-future-astronaut-no-show-mix-and-match-ankle-socks/-/A-89095982",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/peanuts-kids-charlie-brown-snoopy-and-woodstock-youth-low-cut-ankle-socks-6-pack-multicoloured/-/A-90027547",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/dr-seuss-socks-kids-book-character-designs-mix-n-match-ankle-socks-6-pack-multicoloured/-/A-90130754",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/peanuts-halloween-kids-6-pair-ankle-socks/-/A-93273044",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/dr-seuss-book-titles-and-characters-kids-week-of-socks-box-set-7-pairs-multicoloured/-/A-87877591",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/nasa-buzz-aldrin-youth-space-5-pair-mix-and-match-ankle-socks-multicoloured/-/A-87877659",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/primary-kids-ankle-sock-7-pack/-/A-1002892854",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/dragon-ball-super-broly-movie-kids-week-of-socks-7-pairs-mix-and-match-box-set-multicoloured/-/A-87877437",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/mightly-kids-organic-cotton-ankle-sports-socks-5-pack/-/A-1004010408",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/dr-seuss-socks-kids-cat-in-the-hat-thing-1-thing-2-low-cut-ankle-socks-5-pack-multicoloured/-/A-90057858",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/youth-grinch-ankle-socks-6-pack/-/A-90037973",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/ctm-girls-ruffle-trim-lace-anklet-socks-3-pair-pack/-/A-90014227",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/lucky-me-charlie-kids-ankle-socks-multiple-sizes-and-colors-5-pack/-/A-1001879019",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Athletic Socks",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/textiel-trade-kid-s-nickeloden-s-paw-patrol-skye-rules-sneaker-socks-pack-of-3/-/A-1002280743",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Crew Socks",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/lucky-me-peyton-kids-ankle-socks-multiple-sizes-color-onyx-5-pack/-/A-1002085355",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/basix-kids-ankle-sock-low-profile-cotton-comfort-fit-black-or-white/-/A-89960622",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/sock-house-co-halloween-girls-candy-corn-3-pair-anklet-socks/-/A-1004069856",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/kids-viscose-bamboo-ankle-socks-unisex-thin-in-bulk-soft-boys-girls-stretch-school-wholesale-socks-48-pairs/-/A-1004378771",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/wrapables-sweet-girl-non-skid-mary-jane-socks-set-of-10/-/A-1002652667",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/kids-lol-dolls-omg-fierce-character-faces-ankle-socks-6-pack/-/A-1004493488",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/mykids-usa-comfy-cotton-cartoon-socks-non-slip/-/A-1003336063",
+      "tags": "Ankle Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+      "filters": {
+        "type": "Ankle Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/hanes-girls-12pk-super-no-show-athletic-socks-colors-may-vary/-/A-54536508",
+      "tags": "Athletic Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Athletic Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/hanes-girls-20pk-no-show-socks-colors-may-vary/-/A-80583873",
+      "tags": "Athletic Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Athletic Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-10pk-turn-cuff-crew-socks-cat-and-jack/-/A-51257984",
+      "tags": "Athletic Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Athletic Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/hanes-girls-12pk-ankle-socks-colors-may-vary/-/A-53414823",
+      "tags": "Athletic Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Athletic Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/procat-soccer-socks-2pk/-/A-82427238",
+      "tags": "Athletic Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Athletic Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/kids-6pk-crew-socks-all-in-motion-black/-/A-79587655",
+      "tags": "Athletic Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Athletic Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/kids-6pk-no-show-athletic-socks-all-in-motion-black-white/-/A-79587653",
+      "tags": "Athletic Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Athletic Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/kids-6pk-super-no-show-socks-all-in-motion-colors-may-vary/-/A-81550821",
+      "tags": "Athletic Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Athletic Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-3-pair-pack-no-show-sneaker-liner-socks/-/A-1003336494",
+      "tags": "Athletic Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Low Cut Socks",
+      "filters": {
+        "type": "Athletic Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girl-s-athletic-ribbed-cotton-blend-knee-high-sock/-/A-1003336655",
+      "tags": "Athletic Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Athletic Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-metallic-sport-stripe-knee-high-socks/-/A-1003402704",
+      "tags": "Athletic Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Athletic Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/procat-by-puma-kids-over-the-knee-athletic-socks-blue-black/-/A-94653576",
+      "tags": "Athletic Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Athletic Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/frosted-donuts-youth-3-pair-novelty-crew-socks/-/A-91018120",
+      "tags": "Athletic Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Crew Socks",
+      "filters": {
+        "type": "Athletic Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/lucky-me-casey-kids-crew-socks-multiple-colors-and-sizes-5-pack/-/A-1001795071",
+      "tags": "Athletic Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+      "filters": {
+        "type": "Athletic Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/kids-batman-and-dc-heroes-2-pair-pack-of-athletic-socks/-/A-1004493522",
+      "tags": "Athletic Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Athletic Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/battle-sports-youth-lightweight-long-football-socks/-/A-89807669",
+      "tags": "Athletic Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Athletic Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/naruto-shippuden-kids-hidden-leaf-athletic-crew-sock/-/A-1003904683",
+      "tags": "Athletic Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Athletic Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/4th-of-july-american-flag-stars-stripes-youth-crew-socks/-/A-92258386",
+      "tags": "Athletic Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Athletic Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-lurex-recess-knee-high-socks/-/A-1003336467",
+      "tags": "Athletic Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Athletic Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/procat-basketball-socks/-/A-91270545",
+      "tags": "Athletic Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Athletic Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/naruto-shippuden-kids-cloud-symbol-athletic-crew-sock/-/A-1003904682",
+      "tags": "Athletic Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Crew Socks",
+      "filters": {
+        "type": "Athletic Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/st-patrick-s-day-born-lucky-youth-3-pack-crew-socks/-/A-91018118",
+      "tags": "Athletic Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Crew Socks",
+      "filters": {
+        "type": "Athletic Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/youth-easter-themed-crew-socks-3-pack-vibrant-and-fun-holiday-socks-for-spring-celebrations/-/A-90859628",
+      "tags": "Athletic Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Athletic Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/kids-teenage-mutant-ninja-turtles-2-pack-athletic-socks/-/A-1004493195",
+      "tags": "Athletic Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Athletic Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/kids-spider-man-athletic-crew-socks-5-pair-pack/-/A-1004493808",
+      "tags": "Athletic Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Athletic Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-rows-on-rows-girls-striped-tights/-/A-1004589567",
+      "tags": "Boot Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Boot Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/hanes-premium-girls-39-pure-5pk-crew-socks-white/-/A-89957812",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/hanes-girls-4pk-absolute-active-crew-socks-white/-/A-93666806",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/kids-6pk-crew-socks-all-in-motion/-/A-89823447",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/sega-sonic-the-hedgehog-boys-socks-tails-and-sonic-2-pairs-athletic-crew-socks-multicoloured/-/A-90130735",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boys-39-6pk-crew-socks-all-in-motion-8482-black/-/A-90898571",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-39-10pk-crew-socks-cat-38-jack-8482-white/-/A-93276950",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-39-6pk-ruffle-crew-socks-cat-38-jack-8482-white/-/A-94482971",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-39-4pk-ribbed-crew-socks-cat-38-jack-8482-white-pink/-/A-93276949",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-39-4pk-animal-and-heart-super-soft-crew-socks-cat-jack/-/A-94472264",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-39-4pk-cable-knit-bow-crew-socks-cat-38-jack-8482-black-pink-gray/-/A-94482968",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-39-6pk-striped-crew-socks-all-in-motion-8482-white/-/A-94472265",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-39-2pk-pumpkin-halloween-crew-socks-cat-38-jack-8482/-/A-94482972",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-two-tone-varsity-stripe-crew-socks/-/A-1003455613",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-kids-ribbed-moisture-wicking-crew-socks/-/A-1003630906",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/crew-sport-socks/-/A-1003311436",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/kids-2pk-frankenstein-halloween-crew-socks-cat-38-jack-8482/-/A-94472294",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-kids-basic-soft-rayon-from-bamboo-anklet-socks/-/A-1003517565",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-kids-basic-cotton-blend-kids-crew-socks/-/A-1003309379",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-checkered-heart-crew-socks/-/A-1003455781",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girl-s-lol-athletic-crew-socks/-/A-1003456137",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-ribbed-bow-knee-high-socks/-/A-1003452087",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-rainbow-patch-kids-cotton-blend-crew-sock/-/A-1003455278",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-kids-basic-modal-crew-socks/-/A-1003305060",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-write-on-camp-kids-cotton-blend-knee-high-socks-3-pack/-/A-1003336549",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-unicorn-girls-fuzzy-non-skid-socks-2-pair-fuchsia-one-size/-/A-1003460748",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-fruity-fun-watermelon-girls-cotton-blend-knee-high-socks/-/A-1003364045",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-woven-ribbed-bamboo-blend-boy-s-crew-socks/-/A-1003630081",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-toddler-s-and-kids-basic-soft-rayon-from-bamboo-crew-socks/-/A-1003529329",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-kids-basic-soft-rayon-from-bamboo-knee-high-socks/-/A-1003336704",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-polka-point-girls-cotton-blend-knee-socks/-/A-1003363959",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-kids-basic-cotton-blend-crew-socks/-/A-1003304905",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-hello-summer-knee-high-socks/-/A-1003366222",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-metallic-sport-stripe-cotton-blend-crew-sock/-/A-1003455288",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-tie-dye-popsicle-knee-high-socks/-/A-1003366744",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-fuzzy-heart-crew-socks/-/A-1003455438",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-tennis-star-crew-socks/-/A-1003455467",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-ribbed-cotton-blend-multi-graffiti-hearts-knee-sock/-/A-1003329491",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-inspo-athletic-crew-socks/-/A-1003456159",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-rockin-robots-girls-knee-socks/-/A-1003364114",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-2-pair-pack-fuzzy-heart-non-skid-socks/-/A-1003403156",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-distressed-wash-denim-cherries-girls-knee-high-sock/-/A-1003336283",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-peek-a-boo-sheer-floral-girls-cotton-blend-crew-socks/-/A-1003453705",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-distressed-wash-denim-look-girls-knee-high-socks/-/A-1003336289",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-kids-basic-cotton-blend-knee-high-socks/-/A-1003301408",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girl-s-sport-rib-heart-crew-socks-winter-white-2/-/A-1003455767",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-retro-tie-dye-girls-cotton-blend-knee-high-socks/-/A-1003400392",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-color-block-stripe-crew-socks/-/A-1003456090",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-air-brush-winking-smiley-cotton-blend-knee-high-sock/-/A-1003402951",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girl-musical-notes-bamboo-crew-socks/-/A-1003336691",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-ribbed-stretch-cotton-tennis-smiley-face-knee-sock-white-4/-/A-1003460683",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-distressed-wash-denim-stars-girls-knee-high-sock-black-4/-/A-1003460519",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-vintage-stripe-cotton-blend-knee-high-socks/-/A-1003403015",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-graffiti-star-knee-high-socks/-/A-1003402616",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-acid-wash-cotton-blend-knee-high-socks/-/A-1003336297",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-pearl-burst-cotton-blend-crew-socks/-/A-1003335214",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-ribbed-stretch-cotton-graffiti-play-knee-sock/-/A-1003460671",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-rubber-smiley-face-cotton-rich-knee-sock/-/A-1003334377",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-tie-dye-graffiti-shapes-knee-high-socks/-/A-1003460815",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-neon-stitched-heart-cotton-blend-knee-high-sock/-/A-1003402908",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-stretch-cotton-splatter-paint-knee-sock-white-12/-/A-1003460634",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-39-4pk-leopard-super-soft-crew-socks-cat-38-jack-8482-pink/-/A-94472267",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-thin-ribbed-cotton-blend-speckled-crew-sock/-/A-1003309526",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-black-tie-affair-cotton-blend-crew-socks/-/A-1003453551",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-she-shimmers-girls-cotton-blend-knee-socks/-/A-1003336880",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-fluffy-trio-pom-pom-cotton-blend-crew-socks/-/A-1003453638",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-tidy-little-bow-girls-cotton-blend-knee-socks/-/A-1003336888",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-glitzy-sunglasses-knee-high-socks/-/A-1003366165",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-embroidered-bicycle-knee-high-socks/-/A-1003368172",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-ribbed-shimmer-knee-high-socks/-/A-1003399854",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-open-work-shimmer-cotton-blend-knee-high-socks/-/A-1003400154",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-thin-ribbed-speckled-knee-high/-/A-1003311304",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-busy-bee-glitter-cotton-knee-high-socks/-/A-1003365650",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-kids-cotton-blend-mid-cut-socks-3-pack/-/A-1003311755",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Quarter Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-single-heart-logo-crew-socks/-/A-1003455599",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-ribbed-cotton-blend-heart-and-stripes-knee-sock/-/A-1003334358",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/iridescent-balloon-dog-knee-high/-/A-1003329068",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-ribbed-cotton-blend-graffiti-camp-knee-sock/-/A-1003334446",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-feathery-combed-cotton-faux-pearl-girls-crew-socks/-/A-1003335201",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-string-of-pearls-girls-cotton-blend-crew-socks/-/A-1003335189",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-velvet-bow-cotton-blend-knee-high-sock/-/A-1003336438",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-fuzzy-smiley-face-knee-high-socks/-/A-1003329273",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-gingham-heart-girls-cotton-blend-knee-high-sock/-/A-1003336488",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-v-stripe-lurex-cotton-blend-knee-high-socks/-/A-1003336410",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-pointelle-cotton-blend-knee-high-sock/-/A-1003451559",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-jeweled-smiley-face-cotton-blend-knee-high-socks/-/A-1003336327",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-stretch-cotton-multi-stripe-m-graphic-knee-sock/-/A-1003329553",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-starry-night-jeweled-girls-combed-cotton-crew-socks/-/A-1003335223",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-striped-bee-cotton-blend-knee-high-sock/-/A-1003336341",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-jewel-mosaic-girls-combed-cotton-knee-high-socks/-/A-1003336768",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-2-pair-pack-i-woke-up-like-this-knee-high-socks-assorted/-/A-1003430559",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-write-on-camp-kids-cotton-blend-crew-sock-3-pack/-/A-1003631442",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-39-2pk-striped-crew-socks-art-class-8482-navy-blue-gray/-/A-94567262",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-39-2pk-striped-crew-socks-art-class-8482-maroon-red/-/A-94567261",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-39-pokemon-3pk-mid-crew-socks/-/A-93717551",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-39-hello-kitty-3pk-mid-crew-socks-blue/-/A-93717550",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-39-2pk-striped-crew-socks-art-class-8482/-/A-94567260",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/champion-girls-6pk-crew-socks-white/-/A-94651545",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/champion-girls-39-3pk-crew-socks/-/A-94660056",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/fun-girl-assortment-12-pack-socks-for-girls-little-kids-ages-6-10-years/-/A-90128096",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/the-lakeside-collection-kids-8-pk-super-soft-cozy-socks-girls-icon-fuzzy-sock-slippers-8-pieces/-/A-93623294",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/sports-assortment-12-pack-socks-for-boys-or-girls-little-kids-ages-6-10-years/-/A-90128097",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/odd-sox-hulk-hogan-360-funny-novelty-socks-large/-/A-89960644",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/colorful-crayons-socks-from-the-sock-panda-ages-3-7/-/A-92431213",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/crazy-dog-t-shirts-youth-guess-what-corgi-butt-socks-funny-small-breed-pret-puppy-dog-novelty-footwear/-/A-93854299",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/black-gray-white-12-pack-socks-for-girls-or-boys-little-kids-ages-6-10-years/-/A-90128095",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/unicorns-rainbows-12-pack-socks-for-girls-toddlers-ages-2-5/-/A-90441338",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/royal-blue-slouch-socks-the-sock-panda-adult-medium-or-small-sizes/-/A-1004445623",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/navy-blue-slouch-socks-the-sock-panda-adult-medium-or-small-sizes/-/A-1004294481",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/poppy-playtime-kids-kissy-missy-character-design-crew-socks-for-boys-and-girls-pink/-/A-90211892",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/lightning-bolts-socks-tween-sizes-small-from-the-sock-panda/-/A-92226627",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/pete-the-cat-kids-car-crew-socks/-/A-1003843717",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/crazy-dog-t-shirts-youth-classically-trained-socks-funny-retro-video-games-gamer-graphic-novelty-footwear/-/A-93854036",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/gummy-bear-pattern-socks-tween-sizes-small-from-the-sock-panda/-/A-92226563",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/odd-sox-spongebob-big-face-funny-novelty-socks-large/-/A-1000549715",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/crazy-dog-t-shirts-youth-free-hugs-socks-funny-bear-woods-camping-outdoors-novelty-footwear/-/A-93856436",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/odd-sox-heinz-ketchup-funny-novelty-socks-large/-/A-1000549668",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/cheese-wedge-socks-tween-sizes-small-from-the-sock-panda/-/A-91981992",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/odd-sox-airheads-flavors-funny-novelty-socks-large/-/A-1000549717",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/wrapables-children-s-thick-winter-warm-wool-socks-set-of-6-snowflakes-l/-/A-94145242",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/marching-donuts-socks-from-the-sock-panda-tween-sizes-small/-/A-1004848444",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/dr-seuss-socks-kids-cat-in-the-hat-and-fish-crew-socks-2-pair-multicoloured/-/A-87877385",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/ctm-girl-s-solid-colored-soft-uniform-knee-high-socks-1-pair/-/A-90098914",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/ufo-s-are-real-aliens-are-taking-our-leaders-socks-tween-sizes-small-from-the-sock-panda/-/A-92348081",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/happy-smiley-emoji-face-emoji-socks-from-the-sock-panda/-/A-92436746",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/dragon-riding-a-shark-socks-from-the-sock-panda-men-s-or-tween-sizes/-/A-1004709875",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/crazy-dog-t-shirts-youth-naps-and-snacks-socks-funny-tacos-pizza-sleep-lazy-graphic-novelty-footwear/-/A-93851455",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/crazy-dog-t-shirts-youth-party-animal-socks-funny-festive-bear-celebration-novelty-graphic-footwear/-/A-93856250",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/crazy-dog-t-shirts-youth-dill-with-it-socks-funny-pickles-deal-with-it-funny-vegetables-graphic-novelty-footwear/-/A-93851454",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/red-slouch-socks-the-sock-panda-adult-medium-or-small-sizes/-/A-1004451505",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/everything-legwear-st-patrick-s-day-kids-sloth-2-pair-crew/-/A-1004067378",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/crazy-dog-t-shirts-youth-ice-cream-socks-funny-frozen-treat-dessert-vanilla-chocolate-cone-graphic-novelty-footwear/-/A-93851456",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/smores-socks-tween-sizes-small-from-the-sock-panda/-/A-92237484",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/penguin-socks-from-the-sock-panda-ages-3-7/-/A-94000510",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/crazy-dog-t-shirts-youth-hedgehogs-are-bad-at-sharing-socks-funny-fall-autumn-novelty-footwear/-/A-93856454",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/wrapables-children-s-thick-winter-warm-wool-socks-set-of-6-cats-l/-/A-1000022188",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/everything-legwear-girls-valentines-berry-cute-2-pair-crew-socks/-/A-1004068532",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/space-alien-astronaut-selfie-socks-from-the-sock-panda-tween-sizes-small/-/A-1001886832",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/candy-party-socks-ages-3-7-from-the-sock-panda/-/A-92434209",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/pilot-and-airplane-socks-ages-3-7-from-the-sock-panda/-/A-92431514",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/everything-legwear-boys-dinosaur-halloween-2-pair-crew-socks/-/A-1004044619",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/fantastic-panda-pattern-tween-socks-tween-sizes-small-from-the-sock-panda/-/A-91981871",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/fun-puzzle-cube-socks-tween-sizes-small-from-the-sock-panda/-/A-92226437",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/crazy-dog-t-shirts-youth-hide-and-seek-champion-socks-funny-loch-ness-monster-novelty-graphic-footwear/-/A-93853944",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/crazy-dog-t-shirts-youth-bigfoot-hide-and-seek-champion-socks-funny-camping-sasquatch-knit-novelty-footwear/-/A-93853734",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/colorful-surprise-dog-pattern-socks-tween-sizes-small-from-the-sock-panda/-/A-91982038",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/monster-truck-racing-socks-from-ages-3-7-from-the-sock-panda/-/A-92433750",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/ctm-kid-s-wool-blend-crew-socks-2-pack/-/A-90098698",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/corn-of-the-cob-socks-from-the-sock-panda/-/A-93001765",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/odd-sox-power-rangers-assembled-funny-novelty-socks-large/-/A-1000549734",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/koala-sock-set-ages-3-7-from-the-sock-panda/-/A-92433194",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/north-pole-striped-kids-socks-ages-0-7-red-white-from-the-sock-panda/-/A-92434806",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/gingerbread-man-milk-bath-socks-ages-3-7-from-the-sock-panda/-/A-92434220",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/floating-otters-socks-from-the-sock-panda-ages-3-7/-/A-92746214",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/cool-blue-patterned-socks-for-kids-ages-3-7-from-the-sock-panda/-/A-92434613",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/airplane-socks-ages-3-7-from-the-sock-panda/-/A-92434601",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/owl-socks-ages-3-7-from-the-sock-panda/-/A-92434807",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/butterfly-socks-medium-agess-3-7-from-the-sock-panda/-/A-92434298",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/gingerbread-man-sock-set-for-kids-ages-1-7-from-the-sock-panda/-/A-92433748",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/flying-gingerbread-man-socks-ages-3-7-green-from-the-sock-panda/-/A-92434215",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/naruto-shippuden-youth-week-of-socks-uzumaki-clan-and-symbols-7-pairs-of-socks-multicoloured/-/A-88020132",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/wrapables-children-s-thick-winter-warm-wool-socks-set-of-6-snowflakes-m/-/A-94145241",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/fun-cereal-and-milk-sock-ages-3-7-from-the-sock-panda/-/A-92434216",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/textiel-trade-girl-s-nickelodeon-paw-patrol-skye-power-crew-novelty-socks-3-pack/-/A-92518673",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/youth-sister-bear-sock-funny-cute-siblings-brother-family-graphic-footwear-crazy-dog-socks/-/A-93853733",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/astronaut-panda-in-space-socks-ages-3-7-from-the-sock-panda/-/A-92434603",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/winter-blossom-kids-socks-ages-3-7-denim-from-the-sock-panda/-/A-92434607",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/pete-the-cat-kids-christmas-2-pair-pack-crew-socks/-/A-1003857392",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/music-dragon-on-fire-socks-from-the-sock-panda-ages-3-7/-/A-1000395555",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/odd-sox-cheez-it-crackers-funny-novelty-socks-large/-/A-1000549700",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/odd-sox-skeleton-funny-novelty-socks-large/-/A-1000549699",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/odd-sox-kool-aid-man-funny-novelty-socks-large/-/A-1000549681",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/odd-sox-ghostbusters-logos-funny-novelty-socks-large/-/A-1000549687",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/crazy-dog-t-shirts-youth-i-paused-my-game-for-this-socks-funny-nerdy-video-game-novelty-footwear/-/A-93854032",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/crazy-dog-t-shirts-youth-worlds-okayest-sister-sock-funny-cute-sibiling-love-footwear/-/A-93852621",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/juggling-dinosaur-socks-back-to-school-tween-sizes-small-from-the-sock-panda/-/A-92226604",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/ice-cream-cone-earth-socks-from-the-sock-panda-men-s-or-tween-sizes/-/A-1004709846",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/donuts-pattern-socks-ages-3-7-from-the-sock-panda/-/A-92434793",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/guitar-pattern-socks-ages-3-7-from-the-sock-panda/-/A-92434794",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/western-boot-socks-from-the-sock-panda-ages-3-7/-/A-1004520427",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/panda-hugging-rainbow-socks-ages-3-7-white-from-the-sock-panda/-/A-92433754",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/crazy-dog-t-shirts-youth-brother-bear-socks-funny-sibling-wilderness-cub-bro-sarcastic-funny-footwear/-/A-93853687",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/school-days-socks-back-to-school-from-the-sock-panda-tween-sizes-small/-/A-1004075009",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/elephant-bubbles-socks-ages-3-7-from-the-sock-panda/-/A-92434797",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/pete-the-cat-kids-musical-crew-socks/-/A-1003843718",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/reindeer-wearing-a-scarf-socks-for-kids-from-the-sock-panda/-/A-92434599",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/art-deco-patterned-socks-size-6-8-tween-sizes-small-blue-unisex-from-the-sock-panda/-/A-91981927",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/poppy-playtime-youth-huggy-character-design-crew-socks-for-boys-and-girls-blue/-/A-90211888",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/crazy-dog-t-shirts-youth-food-dill-with-it-ice-cream-naps-snacks-pbj-socks-bundle-4-pack/-/A-93851457",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/wrapables-children-s-non-skid-gripper-socks-set-of-3-green-orange-blue/-/A-94114925",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, No Show Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/odd-sox-tiger-funny-novelty-socks-large/-/A-1000549672",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/odd-sox-blues-clues-paws-funny-novelty-socks-large/-/A-1000549732",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/pete-the-cat-kids-pete-dot-crew-socks/-/A-1003809911",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/duck-pattern-socks-tween-sizes-small-from-the-sock-panda/-/A-91981885",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/numbers-are-fun-socks-ages-3-7-from-the-sock-panda/-/A-92433749",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/red-snowflake-kids-socks-ages-0-7-from-the-sock-panda/-/A-1000879032",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/roller-skate-earth-socks-from-the-sock-panda-tween-sizes-small/-/A-1002896970",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/robot-socks-from-the-sock-panda-tween-sizes-small/-/A-1002738170",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/robot-artist-socks-from-the-sock-panda-3-sizes-large-medium-small/-/A-1005112975",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/pensive-owl-resting-in-a-tree-socks-tween-sizes-small-from-the-sock-panda/-/A-92237370",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/lion-paws-with-prints-sock-from-the-sock-panda/-/A-92433192",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/karate-kid-socks-from-the-sock-panda-ages-3-7/-/A-93112044",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/dragon-ball-super-kids-goku-symbol-athletic-crew-sock/-/A-1003743330",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/dragon-ball-super-kids-4-star-ball-athletic-crew-sock/-/A-1003742719",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/crazy-dog-t-shirts-youth-get-on-my-level-socks-funny-tall-giraffe-novelty-graphic-footwear/-/A-93855724",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/happy-planets-socks-ages-0-2-from-the-sock-panda/-/A-92434204",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/everything-legwear-boys-easter-chicks-dig-me-2-pair-crew-socks/-/A-1004067469",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/happy-nerd-face-emoji-socks-from-the-sock-panda/-/A-92436747",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/giraffe-in-a-train-socks-ages-3-7-from-the-sock-panda/-/A-92433752",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/giraffe-patterns-socks-ages-3-7-from-the-sock-panda/-/A-92433188",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/monster-face-pattern-socks-ages-3-7-from-the-sock-panda/-/A-92433753",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/jello-jelly-fish-socks-from-the-sock-panda-ages-3-7/-/A-1004075000",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/textiel-trade-kid-s-disney-s-lilo-stitch-fun-novelty-socks-3-pair/-/A-1002629279",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/crazy-dog-t-shirts-youth-okayest-brother-and-brother-bear-socks-funny-bundle-2-pack/-/A-93853690",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/hugs-and-kisses-xoxo-socks-from-the-sock-panda-ages-3-7/-/A-1002896982",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/french-fries-socks-from-the-sock-panda-ages-3-7/-/A-1000395564",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/monkey-skateboarding-socks-ages3-7-from-the-sock-panda/-/A-92434802",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/flash-of-lightning-socks-from-the-sock-panda-ages-3-7/-/A-1000395546",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/crazy-dog-t-shirts-youth-if-you-don-t-like-tacos-i-m-nacho-type-socks-funny-mexican-food-footwear/-/A-93854922",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/a-happy-lion-sock-ages-3-7-from-the-sock-panda/-/A-92434605",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/tree-snake-swirl-socks-from-the-sock-panda-ages-3-7/-/A-1001625745",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/a-whale-of-a-sock-from-the-sock-panda/-/A-92510982",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/playful-toucan-socks-ages-3-7-from-the-sock-panda/-/A-92433190",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/frog-on-lily-pads-socks-ages-3-7-from-the-sock-panda/-/A-92434217",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/panda-wearing-dragon-costume-socks-for-kids-ages-3-7-from-the-sock-panda/-/A-92434594",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/otter-on-a-rock-socks-from-the-sock-panda-ages-3-7/-/A-92751648",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/basix-kids-ankle-sock-low-profile-cotton-comfort-cushion-fit-5-pack-4-10-years/-/A-89960620",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/juicy-watermelon-socks-from-the-sock-panda-3-sizes-large-medium-and-small/-/A-92672211",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/shark-in-the-ocean-socks-ages-3-7-from-the-sock-panda/-/A-92433198",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/dinosaur-kid-s-12-pack-socks-for-boys-and-girls-toddlers-ages-2-5/-/A-90441276",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/textiel-trade-girl-s-disney-frozen-anna-elsa-and-olaf-soft-socks-3-pack/-/A-93554230",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/holiday-gift-teddy-bear-socks-for-kids-ages-0-7-from-the-sock-panda/-/A-93032656",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/gray-black-kid-s-12-pack-socks-for-boys-and-girls-toddlers-ages-2-5/-/A-90441282",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/wrapables-children-s-non-skid-gripper-socks-set-of-3-lavender-hot-pink-pink/-/A-94114978",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, No Show Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/musical-chameleon-socks-from-the-sock-panda-tween-sizes-small/-/A-92358590",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/pink-gray-kid-s-12-pack-socks-for-girls-toddlers-ages-2-5/-/A-90441337",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/waving-cheetah-socks-from-the-sock-panda-ages-3-7/-/A-92431194",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/textiel-trade-kid-s-pokemon-power-up-crew-novelty-socks-3-pack/-/A-92518681",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/drago-the-fierce-red-dragon-socks-ages-0-7-from-the-sock-panda/-/A-92434799",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/cheesy-pizza-pattern-socks-from-the-sock-panda/-/A-92514231",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/cheetah-socks-from-the-sock-panda-ages-3-7/-/A-92372036",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/fox-in-the-woods-socks-ages-3-7-from-the-sock-panda/-/A-92434219",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/love-lion-sock-ages-3-7-from-the-sock-panda/-/A-92433195",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/happy-santa-claus-socks-for-kids-ages-0-7-from-the-sock-panda/-/A-93032672",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/robbie-the-calculating-robot-socks-kids-socks-ages-0-7-from-the-sock-panda/-/A-92434595",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/odd-sox-kids-food-snacks-cookies-candy-crew-socks-novelty-funny-cute/-/A-89960613",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/sand-castle-socks-ages-3-7-from-the-sock-panda/-/A-92433199",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/cotan-the-alien-socks-infant-agess-0-7-from-the-sock-panda/-/A-92434795",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/ghost-party-socks-for-kids-the-from-the-sock-panda-age-3-7/-/A-93310373",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/night-sky-kids-socks-ages-3-7-from-the-sock-panda/-/A-92434803",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/monster-bus-socks-ages-3-7-from-the-sock-panda/-/A-92433751",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/chameleon-socks-from-the-sock-panda-ages-3-7/-/A-92431210",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/corn-worm-socks-from-the-sock-panda-ages-3-7/-/A-1002512687",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/textiel-trade-girl-s-frozen-themed-novelty-crew-socks-pack-of-3/-/A-1002280753",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/animal-patterns-12-pack-socks-for-girls-toddlers-ages-2-5/-/A-90441352",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/breakfast-food-socks-set-of-two-ages-3-7-from-the-sock-panda/-/A-92434604",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/yummy-eggs-socks-from-the-sock-panda-small-tween-or-women-s-sizes/-/A-92753470",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/hippos-playing-in-a-pond-socks-ages-3-7-from-the-sock-panda/-/A-92433186",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/yummy-pancake-breakfast-bee-honey-sock-ages-3-7-from-the-sock-panda/-/A-92431262",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/claws-the-lobster-socks-medium-agess-3-7-from-the-sock-panda/-/A-92431513",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/tooth-fairy-socks-from-the-sock-panda-ages-3-7/-/A-1001886817",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/purple-bat-pattern-socks-from-the-sock-panda-tween-sizes-small/-/A-94000518",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/cat-in-the-hat-youth-3-pack-collectible-socks/-/A-91122984",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/textiel-trade-girl-s-minnie-mouse-fun-day-fluffy-socks-2-pairs/-/A-1003286439",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Low Cut Socks",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/pete-the-cat-kids-banner-crew-socks/-/A-1003843931",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/cats-in-3d-socks-from-the-sock-panda-tween-sizes-small/-/A-94000516",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/pete-the-cat-kids-pete-in-his-shoes-crew-socks/-/A-1003809942",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/apple-super-hero-socks-ages-3-7-from-the-sock-panda/-/A-92434609",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/everything-legwear-girls-candy-corn-halloween-2-pair-crew-socks/-/A-1004044896",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/monster-truck-patterns-socks-from-small-ages-3-5-from-the-sock-panda/-/A-92348112",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/dracula-eating-corn-socks-from-the-sock-panda-great-for-halloween-men-s-or-tween-sizes/-/A-1004709881",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/odd-sox-cheetah-funny-novelty-socks-large/-/A-1000549671",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/swimming-hippos-socks-medium-ages-5-7-from-the-sock-panda/-/A-92431256",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/sea-adventure-socks-kids-socks-small-ages-3-5-red-from-the-sock-panda/-/A-92348278",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/odd-sox-pop-tarts-frosting-funny-novelty-socks-large/-/A-1000549669",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/koala-with-eucalyptus-pattern-socks-tween-sizes-small-from-the-sock-panda/-/A-92226609",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/holiday-lights-kids-socks-small-ages-3-5-blue-from-the-sock-panda/-/A-92347985",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/naruto-shippuden-kids-ramen-take-out-gift-box-3-pair-youth-crew-socks-multicoloured/-/A-87877413",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/odd-sox-cup-noodles-funny-novelty-socks-large/-/A-1000549701",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/pumpkin-head-swinging-with-an-owl-by-the-moon-socks-tween-sizes-small-from-the-sock-panda/-/A-92237395",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/dolphins-and-soccer-socks-from-the-sock-panda-tween-sizes-small/-/A-1004784284",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/odd-sox-avatar-the-last-airbender-funny-novelty-socks-large/-/A-1000549690",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/odd-sox-monopoly-split-funny-novelty-socks-large/-/A-1000549696",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/pelican-socks-set-of-two-ages-3-7-from-the-sock-panda/-/A-92433196",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/koala-reading-a-book-socks-ages-3-7-from-the-sock-panda/-/A-92431253",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/odd-sox-the-turtles-funny-novelty-socks-large/-/A-1000549686",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/dolphins-and-soccer-socks-small-ages-3-5-from-the-sock-panda/-/A-92347745",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/dr-seuss-socks-kids-cat-in-the-hat-thing-1-thing-2-pack-crew-socks-boys-girls-multicoloured/-/A-90626416",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/crazy-dog-t-shirts-youth-science-like-magic-but-real-socks-funny-nerdy-chemistry-sarcastic-graphic-footwear/-/A-93852296",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/kids-playing-the-guitar-socks-ages-3-7-from-the-sock-panda/-/A-92434804",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/wrapables-children-s-thick-winter-warm-wool-socks-set-of-6-christmas-reindeer-m/-/A-94145243",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/people-pattern-socks-medium-ages-5-7-light-blue-yellow-from-the-sock-panda/-/A-92348578",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/elephant-sitting-in-flowers-socks-ages-3-7-from-the-sock-panda/-/A-92434798",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/alien-face-pattern-socks-tween-sizes-small-from-the-sock-panda/-/A-92348478",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/hiking-bear-socks-ages-3-7-from-the-sock-panda/-/A-92433746",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/crazy-splat-face-socks-tween-sizes-small-from-the-sock-panda/-/A-91982059",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/embroidery-style-animal-pattern-socks-ages-3-7-from-the-sock-panda/-/A-92434208",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/crazy-dog-t-shirts-youth-awesome-sauce-socks-funny-spicy-hot-sauce-lover-graphic-novelty-footwear/-/A-93851310",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/crazy-dog-t-shirts-youth-can-t-touch-this-socks-funny-sharp-cactus-hedgehog-graphic-sarcastic-footwear/-/A-93856181",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/odd-sox-sock-1-sock-2-funny-novelty-socks-large/-/A-1000549720",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/jonathan-the-dog-in-the-rain-with-an-umbrella-socks-ages-3-7-from-the-sock-panda/-/A-92431246",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/picnic-food-socks-small-ages-3-5-from-the-sock-panda/-/A-92348580",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/banana-patterned-socks-ages-3-7-from-the-sock-panda/-/A-92434296",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/rabbit-magician-socks-ages-3-7-from-the-sock-panda/-/A-92433189",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/crazy-dog-t-shirts-youth-fantasy-football-legend-socks-funny-nerdy-sports-team-graphic-footwear/-/A-93855117",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/hot-dog-from-the-sock-panda-tween-sizes-small/-/A-93111688",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/crazy-dog-t-shirts-youth-meowdy-purrtner-socks-funny-howdy-partner-cowboy-cat-novelty-footwear/-/A-93854153",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/pandas-watering-the-sock-joshua-tree-from-the-sock-panda-women-s-or-tween-sizes/-/A-1004709849",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/happy-sailor-sock-ages-3-7-from-the-sock-panda/-/A-92433187",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/celebration-panda-socks-ages-3-7-from-the-sock-panda/-/A-92434206",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/colorful-spiderweb-pattern-socks-tween-sizes-small-from-the-sock-panda/-/A-91982037",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/naruto-kids-2-pair-crew-socks/-/A-1003868161",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/super-happy-fruit-pattern-socks-ages-3-7-from-the-sock-panda/-/A-92431255",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/the-hero-the-lifeguard-socks-ages-3-7-from-the-sock-panda/-/A-92431257",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/pete-the-cat-kids-merry-christmas-2-pair-pack-crew-socks/-/A-1003857391",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/dolphins-in-the-ocean-socks-ages-3-7-from-the-sock-panda/-/A-92434207",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/sushi-socks-from-the-sock-panda-tween-sizes-small/-/A-92250077",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/crazy-dog-t-shirts-youth-chinchillin-socks-funny-cool-chinchilla-pet-rodent-graphic-novelty-footwear/-/A-93853945",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/science-of-chocolate-socks-from-the-sock-panda-tween-sizes-small/-/A-92358584",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/flying-car-socks-from-the-sock-panda-tween-sizes-small/-/A-1004784299",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/cute-koala-socks-small-ages-3-5-from-the-sock-panda/-/A-92347660",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/blue-space-socks-with-planets-and-rocket-ship-socks-tween-sizes-small-from-the-sock-panda/-/A-91981958",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/pizza-baking-in-the-sun-socks-tween-sizes-small-from-the-sock-panda/-/A-92237387",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/astronaut-on-the-moon-socks-from-the-sock-panda-tween-sizes-small/-/A-1004848454",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/odd-sox-kraft-mac-split-funny-novelty-socks-large/-/A-1000549703",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/music-note-matrix-socks-tween-sizes-small-from-the-sock-panda/-/A-92237326",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/everything-legwear-girls-easter-bunny-hearts-2-pair-crew-socks/-/A-1004067471",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/crazy-dog-t-shirts-youth-save-the-narwhals-socks-cute-ocean-whale-unicorn-of-the-sea-graphic-footwear/-/A-93855530",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/slow-animals-on-a-motorcycle-socks-from-the-sock-panda-tween-sizes-small/-/A-92707120",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/the-seasons-tree-socks-ages-3-7-from-the-sock-panda/-/A-92431259",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/sea-adventure-socks-kids-socks-small-ages-3-5-pink-from-the-sock-panda/-/A-92348276",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/odd-sox-top-ramen-stack-funny-novelty-socks-large/-/A-1000549702",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/fun-koala-on-a-dolphin-socks-ages-3-7-from-the-sock-panda/-/A-92434214",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/sea-adventure-socks-kids-socks-medium-ages-5-7-red-from-the-sock-panda/-/A-92348274",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/ramen-socks-tween-sizes-small-from-the-sock-panda/-/A-92237418",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/hot-dog-picnic-socks-tween-sizes-small-from-the-sock-panda/-/A-92226600",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/crazy-dog-t-shirts-youth-nacho-nacho-man-socks-funny-macho-nachos-and-cheese-graphic-footwear/-/A-93855868",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/long-necked-animals-wearing-glasses-socks-from-the-sock-panda-tween-sizes-small/-/A-1004784285",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/wizard-socks-from-the-sock-panda-men-s-or-tween-sizes/-/A-1004720299",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/good-egg-vs-bad-egg-socks-tween-sizes-small-from-the-sock-panda/-/A-92226556",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/ants-at-a-picnic-eating-donuts-ages-3-7-from-the-sock-panda/-/A-92433745",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/tib-tab-the-bat-socks-ages-3-7-from-the-sock-panda/-/A-92431260",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/ducks-on-stairs-socks-from-the-sock-panda-tween-sizes-small/-/A-1003733825",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/backpack-with-panda-socks-back-to-school-from-the-sock-panda-tween-sizes-small/-/A-91981942",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/odd-sox-nerf-split-funny-novelty-socks-large/-/A-1000549679",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/penguin-surfing-with-a-cool-polar-bear-socks-tween-sizes-small-from-the-sock-panda/-/A-92237369",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/running-turkey-socks-from-the-sock-panda-tween-sizes-small/-/A-1000395550",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/friendly-ant-socks-ages-3-5-from-the-sock-panda/-/A-92348538",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/lazy-basketball-socks-from-the-sock-panda-tween-sizes-small/-/A-1004075012",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/pelican-mail-carrier-socks-ages-3-7-from-the-sock-panda/-/A-92433191",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/cool-llamas-socks-from-the-sock-panda-tween-sizes-small/-/A-1003733821",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/fun-abstract-geometric-pattern-socks-tween-sizes-small-from-the-sock-panda/-/A-92226645",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/polar-bear-patterned-socks-tween-sizes-small-from-the-sock-panda/-/A-92237385",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/hooty-hoot-the-happy-owl-socks-medium-ages-5-7-from-the-sock-panda/-/A-92348553",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/vanity-lion-cat-socks-tween-sizes-small-from-the-sock-panda/-/A-92348138",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/beach-snowmen-socks-tween-sizes-small-from-the-sock-panda/-/A-91981943",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/happy-monster-faces-socks-tween-sizes-small-from-the-sock-panda/-/A-92226551",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/bunny-rabbit-pattern-socks-ages-3-7-from-the-sock-panda/-/A-92434602",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/ant-picnic-donut-feast-2-pack-from-the-sock-panda-ages-3-7/-/A-92431229",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/crazy-dog-t-shirts-youth-world-s-okayest-brother-socks-funny-cool-family-bro-graphic-novelty-footwear/-/A-93853684",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/magnificent-giraffe-pattern-socks-tween-sizes-small-from-the-sock-panda/-/A-92226617",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/masquerade-mask-sock-in-black-medium-ages-5-7-from-the-sock-panda/-/A-92348073",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/caterpillar-socks-medium-agess-3-7-from-the-sock-panda/-/A-92434297",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/monkey-playing-socks-tween-sizes-small-from-the-sock-panda/-/A-92237319",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/reindeer-campgrounds-in-the-mountains-holiday-socks-tween-sizes-small-from-the-sock-panda/-/A-92237433",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/amusing-sock-puppet-socks-tween-sizes-small-from-the-sock-panda/-/A-91981920",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/alien-desert-crash-landing-socks-from-the-sock-panda-tween-sizes-small/-/A-91981908",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/smiley-sun-face-patterned-tween-sizes-small-from-the-sock-panda/-/A-92237483",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/sneaker-socks-for-kids-small-ages-3-5-from-the-sock-panda/-/A-92348330",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/frog-socks-small-ages-3-5-from-the-sock-panda/-/A-92347894",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/home-sweet-home-socks-ages-3-7-from-the-sock-panda/-/A-92433185",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/alien-stealing-a-hamburger-at-a-bbq-socks-tween-sizes-small-from-the-sock-panda/-/A-91981921",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/crazy-dog-t-shirts-youth-peanut-butter-and-jelly-socks-funny-lunch-jam-sandwich-graphic-novelty-vintage-footwear/-/A-93851452",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/sushi-socks-ages-3-7-from-the-sock-panda/-/A-92434598",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/intricate-spiderweb-pattern-socks-with-spider-size-6-8-tween-sizes-small-from-the-sock-panda/-/A-92226594",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/odd-sox-eggo-split-funny-novelty-socks-large/-/A-1000549693",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/reindeer-socks-short-socks-tween-sizes-small-from-the-sock-panda/-/A-92237431",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/medical-doctors-kids-socks-small-ages-3-5-from-the-sock-panda/-/A-92348082",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/reflective-lion-wearing-lightning-bolt-sunglasses-socks-from-the-sock-panda-tween-sizes-small/-/A-92237428",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/panda-playing-cards-socks-from-the-sock-panda-tween-sizes-small/-/A-1001886849",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/dragon-pattern-tween-sizes-small-from-the-sock-panda/-/A-91981791",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/banana-scooter-socks-tween-sizes-small-from-the-sock-panda/-/A-92755827",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/green-and-yellow-zebra-safari-socks-tween-sizes-small-from-the-sock-panda/-/A-92226550",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/bad-cat-mummy-socks-ages-3-7-from-the-sock-panda/-/A-92434612",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/behind-the-fabric-street-art-socks-from-the-sock-panda-tween-sizes-small/-/A-91981946",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/barbeque-socks-from-the-sock-panda-tween-sizes-small/-/A-93111683",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/odd-sox-twister-split-funny-novelty-socks-large/-/A-1000549697",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/alien-spaceships-love-donuts-socks-tween-sizes-small-from-the-sock-panda/-/A-91981932",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/sophisticated-blue-pattern-socks-ages-3-5-from-the-sock-panda/-/A-92348333",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/cool-skateboarding-dog-socks-tween-sizes-small-from-the-sock-panda/-/A-91982065",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/circus-scene-roller-coaster-socks-tween-sizes-small-from-the-sock-panda/-/A-91982008",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/rectangle-block-pattern-socks-for-tweens-from-the-sock-panda-tween-sizes-small/-/A-92237425",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/chocolate-party-time-socks-tween-sizes-small-from-the-sock-panda/-/A-91981993",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/gorgan-the-alien-sock-ages-3-5-from-the-sock-panda/-/A-92347958",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/masquerade-mask-socks-with-orange-trim-ages-3-7-from-the-sock-panda/-/A-92434221",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/pelican-flying-over-the-bridge-sock-ages-3-7-from-the-sock-panda/-/A-92433757",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/odd-sox-operation-split-funny-novelty-socks-large/-/A-1000549678",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/fish-feast-under-the-sea-tween-sizes-small-from-the-sock-panda/-/A-91981909",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/bad-and-guilty-dog-socks-tween-sizes-small-from-the-sock-panda/-/A-91981947",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/yummy-delicious-donut-socks-from-the-sock-panda-tween-sizes-small/-/A-1004784274",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/venus-flytrap-socks-from-the-sock-panda-tween-sizes-small/-/A-93545084",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/elephant-celebration-socks-ages-3-5-small-ages-3-5-from-the-sock-panda/-/A-92347751",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/patriotic-sunglasses-socks-from-the-sock-panda-men-s-women-s-or-tweens-sizes/-/A-1004720298",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/peeking-eyes-socks-from-the-socks-panda-medium-purple-from-the-sock-panda-women-s-or-tweens-sizes-great-for-halloween/-/A-1004985445",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/dancing-panda-socks-tween-sizes-small-from-the-sock-panda/-/A-91982071",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/busy-bee-socks-tween-sizes-small-from-the-sock-panda/-/A-91981961",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/feather-pattern-socks-tween-sizes-small-from-the-sock-panda/-/A-91981917",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/slow-steady-turtle-socks-small-ages-3-5-from-the-sock-panda/-/A-92348329",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/owls-chorus-music-notes-socks-small-ages-3-5-from-the-sock-panda/-/A-92348160",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/winter-panda-pattern-socks-tween-sizes-small-from-the-sock-panda/-/A-92348261",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/guitar-playing-musical-robot-socks-tween-sizes-small-from-the-sock-panda/-/A-92226554",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/pete-the-cat-kids-valentine-s-day-2-pair-crew-pack/-/A-1003857478",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/everything-legwear-boys-valentines-i-dig-you-2-pair-crew-socks/-/A-1004067480",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/odd-sox-transformers-split-funny-novelty-socks-large/-/A-1000549714",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/olympic-ring-pattern-socks-from-the-sock-panda-tween-sizes-small/-/A-92358592",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/wild-and-crazy-egg-socks-tween-sizes-small-from-the-sock-panda/-/A-92348213",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/nightmare-monster-in-the-closet-socks-adult-large-adult-medium-or-tween-sizes-from-the-sock-panda-great-for-halloween/-/A-1005164574",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/comical-thanksgiving-turkey-socks-from-the-sock-panda-women-s-or-tween-sizes/-/A-1004709891",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/languages-of-the-world-socks-how-to-say-hello-small-ages-3-5-grey-from-the-sock-panda/-/A-92348023",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/lovely-purple-umbrella-socks-from-small-ages-3-5-from-the-sock-panda/-/A-92348047",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/bob-the-shark-socks-medium-ages-5-7-from-the-sock-panda/-/A-92347507",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/socksmith-9-0-inch-the-nice-list-socks-4-7-years-stripes-crew-socks/-/A-1001200502",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/a-stitch-in-time-socks-from-the-sock-panda-tween-sizes-small/-/A-91981914",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/joyful-purple-pig-socks-ages-3-5-small-ages-3-5-purple-from-the-sock-panda/-/A-92347998",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/flying-guitar-pattern-socks-tween-sizes-small-from-the-sock-panda/-/A-91981913",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/blue-raccoon-socks-ages-3-5-from-the-sock-panda/-/A-92347508",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/colorful-anchor-pattern-socks-from-the-sock-panda-adult-large-or-tween-size-small/-/A-1004444225",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/dragon-pepper-and-marshmallow-party-socks-tween-sizes-small-from-the-sock-panda/-/A-91981801",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/socksmith-9-0-inch-reindeer-games-antlers-christmas-tree-snowflakes-crew-socks/-/A-1001200457",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/everything-legwear-st-patrick-s-day-kids-rock-star-2-pair-crew/-/A-1004067409",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/pete-the-cat-kids-st-patrick-s-day-2-pair-pack-crew-socks/-/A-1003857449",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/vacationing-robot-on-the-beach-socks-from-the-sock-panda-men-s-sizes-adult-large/-/A-92348132",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/gnome-surfer-socks-from-the-sock-panda-tween-sizes-small/-/A-1001230262",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/hashtag-pattern-socks-tween-sizes-small-from-the-sock-panda/-/A-92226574",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/odd-sox-dungeons-dragons-split-funny-novelty-socks-large/-/A-1000549688",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/it-is-good-to-dream-monkey-climbing-ladder-to-the-moon-socks-tween-sizes-small-from-the-sock-panda/-/A-92226606",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/magical-owls-socks-set-of-two-small-ages-3-5-from-the-sock-panda/-/A-92348070",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/treehouse-in-the-city-socks-tween-sizes-small-from-the-sock-panda/-/A-92348074",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/interlocking-turkey-patterned-socks-tween-sizes-small-from-the-sock-panda/-/A-92226584",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/funny-faces-socks-tween-sizes-small-from-the-sock-panda/-/A-92226458",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/colorful-puzzle-socks-tween-sizes-small-from-the-sock-panda/-/A-91982023",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/breaking-gingerbread-man-socks-from-the-sock-panda-tween-sizes-small/-/A-1001230268",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/musical-smiley-emoji-sock-tween-sizes-small-from-the-sock-panda/-/A-92237329",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/chocolate-vs-toothbrush-socks-from-the-sock-panda-tween-sizes-small/-/A-92358585",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/panda-and-the-beanstalk-socks-tween-sizes-small-from-the-sock-panda/-/A-92237348",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/two-tone-polka-dots-socks-from-the-sock-panda-tween-sizes-small/-/A-1001625749",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/time-bunny-rabbit-socks-from-the-sock-panda-men-s-women-s-and-tweens-sizes/-/A-1004709883",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/under-the-sea-anchor-and-octopus-socks-size-10-13-adult-large-or-small-sizes-from-the-sock-panda/-/A-1004437069",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/meditating-mushroom-socks-from-the-sock-panda-tween-sizes-small/-/A-1001702778",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/yummy-hamburger-socks-from-the-sock-panda-tween-sizes-small/-/A-1000395552",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/many-ways-bicycle-socks-tween-sizes-small-from-the-sock-panda/-/A-92226633",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/curious-sea-lion-socks-small-ages-3-5-from-the-sock-panda/-/A-92347661",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/pilot-panda-socks-ages-3-5-from-the-sock-panda/-/A-92348221",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/fun-panda-clotheline-socks-small-ages-3-5-from-the-sock-panda/-/A-92347901",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/the-power-of-lightning-and-energy-sock-small-ages-3-5-from-the-sock-panda/-/A-92348390",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/jonathan-the-dog-socks-small-ages-3-5-from-the-sock-panda/-/A-92348560",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/kids-sonic-the-hedgehog-3-pair-pack-of-crew-socks/-/A-1004493315",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/gray-slouch-socks-the-sock-panda-adult-medium-or-small-sizes/-/A-1004445185",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/jelly-fish-socks-from-the-sock-panda-ages-3-7/-/A-1004075007",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/textiel-trade-kid-s-disney-miraculous-ladybug-and-cat-noir-crew-socks-4-pack/-/A-93563952",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/basic-color-assortment-kid-s-12-pack-socks-for-boys-and-girls-toddlers-ages-2t-5/-/A-90441275",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/skeleton-fireman-and-haunted-house-socks-from-the-sock-panda-adult-large-or-tween-size-small-great-for-halloween/-/A-1004316842",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/wizard-penguin-socks-from-the-sock-panda-ages-3-7/-/A-94000511",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/sweet-hot-dog-in-bun-foodie-socks-large-medium-or-small-from-the-sock-panda/-/A-1004316199",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/panda-sitting-in-bamboo-socks-the-sock-panda-large-medium-or-small/-/A-1004316840",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/bison-socks-from-the-sock-panda-ages-3-7/-/A-93545069",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/shamrock-socks-from-the-sock-panda-ages-3-7/-/A-1002512659",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/viscose-bamboo-kids-thin-crew-socks-uniform-boys-girls-bulk-value-unisex-basic-casual-soft-wholesale-48-pairs/-/A-1004378780",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/curious-orange-cat-socks-from-the-sock-panda-ages-3-7/-/A-1004294460",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/sun-vs-wind-socks-from-the-sock-panda-ages-3-7/-/A-1003456116",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/running-grasshopper-socks-from-the-sock-panda-ages-3-7/-/A-1004989173",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/panda-hugging-earth-socks-from-the-sock-panda-ages-3-7/-/A-1002896977",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/bison-reflection-socks-from-the-sock-panda-ages-3-7/-/A-93545068",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/garden-insect-party-socks-from-the-sock-panda-ages-3-7/-/A-1004989089",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/fire-works-over-the-city-socks-from-the-sock-panda-ages-3-7-great-for-the-4th-of-july/-/A-1004294455",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/bees-loving-flower-socks-from-the-sock-panda-ages-3-7/-/A-1004784270",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/little-love-bug-company-standard-knee-high-socks/-/A-1003631822",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights, Knee High Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/cool-socks-pencil-paper-funny-novelty-socks-large/-/A-89960581",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/cool-socks-cats-funny-novelty-socks-large/-/A-89960601",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/cool-socks-planets-funny-novelty-socks-medium/-/A-89960604",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/cool-socks-dippin-dots-funny-novelty-socks-large/-/A-89960598",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/cool-socks-for-kid-s-kellogg-s-breakfast-cereal-fun-novelty-crew-7-10-years/-/A-89960600",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/cool-socks-sock-1-sock-2-funny-novelty-socks-4-7-years/-/A-89960582",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/cool-socks-cup-noodles-funny-novelty-socks-large/-/A-1000549724",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/cool-socks-mac-n-cheese-funny-novelty-socks-medium/-/A-89960648",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/cool-socks-cupcakes-funny-novelty-socks-large/-/A-89960626",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/cool-socks-pj-masks-bolt-funny-novelty-socks-large/-/A-1000549728",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/cool-socks-lollipops-funny-novelty-socks-medium/-/A-89960610",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/cool-socks-monkeys-funny-novelty-socks-medium/-/A-89960596",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/cool-socks-pj-masks-bolt-funny-novelty-socks-medium/-/A-1000549746",
+      "tags": "Crew Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Crew Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-39-6pk-scallop-ankle-socks-cat-38-jack-8482/-/A-90873438",
+      "tags": "Dress Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Dress Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/kids-3pk-dress-socks-cat-jack-gray-black-navy-blue/-/A-79468018",
+      "tags": "Dress Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Dress Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/kids-3pk-dress-socks-cat-jack-navy/-/A-79468027",
+      "tags": "Dress Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Dress Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-3pk-bobby-socks-cat-jack-153-white-navy-black/-/A-51258242",
+      "tags": "Dress Socks, Girls’ Clothing, Kids’ Clothing, Socks & Tights",
+      "filters": {
+        "type": "Dress Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/rufflebutts-girls-3-pack-footless-ruffle-tights/-/A-1001066491",
+      "tags": "Girls’ Clothing, Hosiery Leggings, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Hosiery Leggings"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/rufflebutts-girls-rib-knit-footless-ruffled-tights/-/A-93144494",
+      "tags": "Girls’ Clothing, Hosiery Leggings, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Hosiery Leggings"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/rufflebutts-girls-footless-ruffle-tights/-/A-93969686",
+      "tags": "Girls’ Clothing, Hosiery Leggings, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Hosiery Leggings"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/rufflebutts-girls-3-pack-footless-ruffle-tights/-/A-1004823532",
+      "tags": "Girls’ Clothing, Hosiery Leggings, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Hosiery Leggings"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-knee-high-socks-2pk-cat-jack-153-white/-/A-51338568",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/rawlings-baseball-softball-belt-and-socks-combo-set/-/A-90320144",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-2pk-knee-high-socks-navy-cat-jack-153/-/A-51338565",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-knee-high-socks-2pk-cat-jack-153-black/-/A-51338573",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-fancy-floral-girls-sheer-tights-black-2-4/-/A-1004592973",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-sweet-mini-dots-sheer-tights-silver-12-14/-/A-1004593112",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-zoe-zigzag-sheer-tights-black/-/A-1004592392",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights, Leg Warmers",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-liquid-metal-girl-s-shimmer-tights-black-multi-2-4/-/A-1004590033",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-2-pair-pack-essentials-cotton-tights/-/A-1004593957",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights, Leg Warmers",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-2-pair-pack-sheer-heather-basic-tights/-/A-1004593495",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-39-2pk-knee-high-socks-cat-38-jack-8482-navy-blue-white/-/A-90850040",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-39-39-smiley-39-fashion-knee-high-cat-38-jack-8482-heather-blue/-/A-90850038",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-39-2pk-39-bees-39-knee-high-socks-cat-38-jack-8482/-/A-93276927",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-39-2pk-leopard-knee-socks-cat-38-jack-8482-mauve/-/A-94472236",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-cotton-blend-knee-high-girls-uniform-socks/-/A-1003336591",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-wide-ribbed-cotton-blend-uniform-knee-socks/-/A-1003304232",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-cable-knit-girls-cotton-blend-knee-high-socks/-/A-1003304035",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/kids-2pk-pumpkin-sparkle-and-striped-halloween-knee-high-socks-cat-38-jack-8482/-/A-94472292",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-over-the-knee-flat-knit-cotton-blend-uniform-socks/-/A-93664499",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights, Over the Knee Socks",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-chunky-ribbed-knit-knee-high-socks/-/A-1003304124",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-star-shine-knee-high-socks/-/A-1003400342",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/kids-2pk-sparkle-eye-and-striped-halloween-knee-high-socks-cat-38-jack-8482/-/A-94472297",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-chain-stitch-knee-high-socks/-/A-1003451694",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-all-over-bow-knee-high-socks/-/A-1003334796",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girl-s-3-pair-pack-soft-stripe-knee-high-socks/-/A-1003336586",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-thin-ribbed-girls-cotton-blend-knee-high-sock/-/A-1003311261",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-sweetheart-studded-knee-high-socks/-/A-1003336832",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-glitter-unicorn-knee-high-socks/-/A-1003365852",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-multi-stone-knee-high-socks/-/A-1003401588",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-twotone-varsity-stripe-knee-high-socks/-/A-1003334385",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-retro-stripe-cotton-blend-thin-ribbed-knee-high-socks/-/A-1003336431",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-sweet-bow-cotton-blend-knee-high-socks/-/A-1003365775",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-varsity-knee-high-socks/-/A-1003366098",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-cuffed-opaque-knee-high-socks/-/A-1003300106",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-fuzzy-heart-knee-high-socks/-/A-1003329330",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-ribbed-cotton-blend-beach-more-worry-less-knee-sock/-/A-1003334642",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-fly-sky-high-butterfly-girls-cotton-blend-knee-socks/-/A-1003336899",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-athletic-smiley-cotton-blend-knee-high-socks/-/A-1003336362",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-dazzling-hearts-girls-cotton-blend-knee-high-socks/-/A-1003400299",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-crochet-bow-cotton-blend-knee-high-sock/-/A-1003304382",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-fuzzy-bow-knee-high-socks/-/A-1003329139",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-ribbed-cotton-blend-knee-high-sock/-/A-1003336616",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-be-happy-bear-knee-high-socks/-/A-1003336354",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-tennis-star-knee-high-socks/-/A-1003329164",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-color-block-stripe-stretch-cotton-knee-sock/-/A-1003334324",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-crochet-ruffle-design-knee-high-socks/-/A-1003329346",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-ribbed-varsity-stripe-checkered-heart-cotton-rich-knee-sock/-/A-1003334370",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-multi-stripe-smiley-cotton-blend-knee-high-sock/-/A-1003336375",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-pastel-butterfly-girls-knee-high-sock/-/A-1003402574",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-essential-modal-knee-high-kids-socks/-/A-1003301634",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-pointelle-soft-stretch-cotton-knee-socks/-/A-1003334773",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-whatever-girls-knee-high-cotton-blend-sock/-/A-1003402114",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-triple-stripe-knee-high-socks-white-black-4/-/A-1003460613",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-pointelle-dot-knee-high-socks/-/A-1003452466",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-basic-sheer-knee-highs/-/A-1003409458",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-camp-love-knee-high-socks-blue-14/-/A-1003460598",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-jazzy-jeweled-girls-cotton-blend-knee-socks/-/A-1003336873",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-fun-fuzzy-girls-polka-dot-cotton-blend-knee-socks/-/A-1003336849",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-a-speck-of-spots-polka-dot-knee-high-socks/-/A-1003336842",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-side-pearls-cotton-blend-knee-high-socks/-/A-1003460869",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-floral-pearl-girls-cotton-blend-knee-high-socks/-/A-1003336923",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-gold-and-gilded-butterfly-knee-high-cotton-blend-girls-socks/-/A-1003336917",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-ribbed-gemstone-knee-high-socks/-/A-1003400059",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-camp-rules-girls-knee-high-sock/-/A-1003402083",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-fuzzy-and-fun-girls-pom-pom-cotton-blend-knee-socks/-/A-1003336905",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-rhinestone-heart-girls-knee-high-cotton-blend-socks/-/A-1003399968",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-foil-and-foliage-cotton-blend-girls-knee-socks/-/A-1003336867",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-omg-girls-cotton-blend-knee-high-sock/-/A-1003402237",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-sky-s-the-limit-girls-pom-pom-knee-socks/-/A-1003363907",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-hello-knee-high-socks-black-14/-/A-1003460825",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-thin-ribbed-athletic-stripe-cotton-blend-knee-high-socks/-/A-1003402898",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-opaque-stretch-cotton-blissful-bloom-knee-high-sock/-/A-1003334254",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-cotton-blend-swiss-dot-knee-high-socks/-/A-1003451744",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-bebrave-knee-high-socks/-/A-1003451552",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/100-cool-knee-high/-/A-1003329055",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-soft-stretch-cotton-ribbed-more-summer-knee-socks/-/A-1003334449",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-crystal-bear-knee-high-socks/-/A-1003336455",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-embroidered-crest-cotton-knee-high-socks/-/A-1003329119",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/embossed-summer-knee-high/-/A-1003329075",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-marled-ribbed-stripe-girls-cotton-blend-knee-high-socks/-/A-1003336421",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-fuzzy-stripe-cotton-blend-knee-high-socks/-/A-1003336398",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-diamond-zag-knee-high-sock-with-scalloped-cuff/-/A-1003451664",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-herringbone-thin-ribbed-knee-high/-/A-1003336382",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-stretch-cotton-multi-heart-design-knee-sock/-/A-1003334433",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-thin-ribbed-sport-stripe-cotton-blend-knee-high-socks/-/A-1003336303",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-tennis-m-knee-high-socks/-/A-1003329151",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-open-work-heart-knee-high-socks/-/A-1003329373",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-cotton-blend-ruler-knee-high-socks/-/A-1003336477",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-ribbed-stretch-cotton-bow-trim-knee-sock/-/A-1003334667",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-double-diamond-cotton-blend-knee-high-socks/-/A-1003451626",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-high-climbers-embroidered-floral-knee-high-socks/-/A-1003335258",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-pearls-and-stripes-jeweled-girls-knee-high-socks/-/A-1003335274",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/lands-end-kids-solid-cable-knee-socks-3-pack/-/A-89402531",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/pete-the-cat-kids-pete-rugby-knee-high-socks/-/A-1003810036",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/little-love-bug-company-lace-top-knee-high-socks/-/A-1003631835",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/wrapables-knee-high-diamond-pattern-girl-socks-set-of-4/-/A-94136162",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/rufflebutts-girls-3-pack-knee-high-socks-dark-cherry-white-fir-green-4t-6/-/A-93173589",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/little-love-bug-crochet-knee-high-socks-2-pack/-/A-1001830739",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/wrapables-lace-ruffles-and-bow-knee-high-girl-socks-set-of-3/-/A-1000900457",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/copper-zone-fun-holiday-cheer-knee-high-compression-socks-great-stockin-stuffers-3-pair-pack/-/A-88084947",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/wrapables-lace-ruffles-and-bow-knee-high-girl-socks-set-of-2/-/A-1000549869",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/pete-the-cat-kids-pete-dot-knee-high-socks/-/A-1003810035",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/wrapables-lace-ruffles-and-bow-knee-high-girl-socks-set-of-5/-/A-93998526",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/jefferies-socks-kid-s-striped-knee-high-tube-socks-1-pair-medium-shoe-sizes-12-6-yellow/-/A-1003090087",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/little-love-bug-company-eyelet-knee-high-socks/-/A-1003630652",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Knee High Socks, Socks & Tights, Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+      "filters": {
+        "type": "Knee High Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-dance-leg-warmers-cat-jack-one-size/-/A-93297697",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Leg Warmers, Socks & Tights",
+      "filters": {
+        "type": "Leg Warmers"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/kids-39-6pk-liner-socks-all-in-motion-8482-white/-/A-93276915",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Liner Socks, Socks & Tights",
+      "filters": {
+        "type": "Liner Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-10pk-lightweight-no-show-socks-cat-jack-153/-/A-53096782",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Low Cut Socks, Socks & Tights",
+      "filters": {
+        "type": "Low Cut Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-39-squishmallows-6pk-no-show-socks-ivory/-/A-90041641",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Low Cut Socks, Socks & Tights, No Show Socks",
+      "filters": {
+        "type": "Low Cut Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-frozen-6pk-no-show-socks-blue-gray/-/A-85638500",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Low Cut Socks, Socks & Tights",
+      "filters": {
+        "type": "Low Cut Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-39-10pk-low-cut-socks-cat-38-jack-8482-pink-white-blue/-/A-90898566",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Low Cut Socks, Socks & Tights",
+      "filters": {
+        "type": "Low Cut Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boys-8pk-low-cut-socks-dealworthy-8482-white-gray-black/-/A-90629748",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Low Cut Socks, Socks & Tights",
+      "filters": {
+        "type": "Low Cut Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-39-10pk-low-socks-cat-38-jack-8482-white/-/A-93276917",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Low Cut Socks, Socks & Tights",
+      "filters": {
+        "type": "Low Cut Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/kid-s-low-cut-socks-3pr-pack/-/A-1003311600",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Low Cut Socks, Socks & Tights",
+      "filters": {
+        "type": "Low Cut Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-microfiber-liner-socks-6-pack-pastel-brights/-/A-1003403096",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Low Cut Socks, Socks & Tights",
+      "filters": {
+        "type": "Low Cut Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-unisex-quarter-crew-kids-sport-socks-3-pack/-/A-1003311383",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Low Cut Socks, Socks & Tights",
+      "filters": {
+        "type": "Low Cut Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-39-8pk-ankle-socks-dealworthy-8482-dark-pink/-/A-94472266",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Low Cut Socks, Socks & Tights",
+      "filters": {
+        "type": "Low Cut Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/godzilla-kids-5-pair-pack-lowcut-socks/-/A-1003867155",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Low Cut Socks, Socks & Tights, No Show Socks",
+      "filters": {
+        "type": "Low Cut Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-watermelon-no-show-cotton-blend-socks-3-pack-assorted/-/A-1003430042",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Low Cut Socks, Socks & Tights",
+      "filters": {
+        "type": "Low Cut Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/textiel-trade-kid-s-disney-mickey-mouse-fun-day-fluffy-socks-2-pack/-/A-1003286435",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Low Cut Socks, Socks & Tights",
+      "filters": {
+        "type": "Low Cut Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/pete-the-cat-kids-rock-on-5-pair-pack-of-lowcut-socks/-/A-1003809910",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Low Cut Socks, Socks & Tights",
+      "filters": {
+        "type": "Low Cut Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/godzilla-kids-5-pair-lowcut-socks/-/A-1003883678",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Low Cut Socks, Socks & Tights, No Show Socks",
+      "filters": {
+        "type": "Low Cut Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/naruto-shippuden-kids-5-pair-pack-lowcut-socks/-/A-1003907100",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Low Cut Socks, Socks & Tights, No Show Socks",
+      "filters": {
+        "type": "Low Cut Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/dragon-ball-super-kids-5-pair-pack-lowcut-socks/-/A-1003741542",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Low Cut Socks, Socks & Tights",
+      "filters": {
+        "type": "Low Cut Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/pete-the-cat-kids-cool-cat-5-pair-pack-lowcut/-/A-1003810151",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Low Cut Socks, Socks & Tights",
+      "filters": {
+        "type": "Low Cut Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/pete-the-cat-kids-all-season-5-pair-pack-lowcut-socks/-/A-1003844148",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Low Cut Socks, Socks & Tights",
+      "filters": {
+        "type": "Low Cut Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/pete-the-cat-kids-i-heart-pete-3-pair-pack-of-lowcut-socks/-/A-1003809912",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Low Cut Socks, Socks & Tights",
+      "filters": {
+        "type": "Low Cut Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/pete-the-cat-kids-easter-3-pair-lowcut-socks/-/A-1003857437",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Low Cut Socks, Socks & Tights",
+      "filters": {
+        "type": "Low Cut Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/naruto-kids-5-pair-lowcut-socks/-/A-1003868110",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Low Cut Socks, Socks & Tights",
+      "filters": {
+        "type": "Low Cut Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/pete-the-cat-kids-christmas-3-pair-pack-lowcut-socks/-/A-1003844090",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Low Cut Socks, Socks & Tights",
+      "filters": {
+        "type": "Low Cut Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/pete-the-cat-kids-st-patrick-s-day-3-pair-pack-lowcut-socks/-/A-1003857436",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Low Cut Socks, Socks & Tights",
+      "filters": {
+        "type": "Low Cut Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/one-piece-kids-icons-5-pair-lowcut-socks/-/A-1003805340",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Low Cut Socks, Socks & Tights",
+      "filters": {
+        "type": "Low Cut Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-39-hello-kitty-6pk-no-show-socks/-/A-90021720",
+      "tags": "Girls’ Clothing, Kids’ Clothing, No Show Socks, Socks & Tights",
+      "filters": {
+        "type": "No Show Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-lilo-stitch-no-show-socks-pink/-/A-84199674",
+      "tags": "Girls’ Clothing, Kids’ Clothing, No Show Socks, Socks & Tights",
+      "filters": {
+        "type": "No Show Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-39-barbie-6pk-socks/-/A-87694813",
+      "tags": "Girls’ Clothing, Kids’ Clothing, No Show Socks, Socks & Tights",
+      "filters": {
+        "type": "No Show Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-pokemon-friends-6pk-no-show-socks-blue/-/A-88552828",
+      "tags": "Girls’ Clothing, Kids’ Clothing, No Show Socks, Socks & Tights",
+      "filters": {
+        "type": "No Show Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/kids-nintendo-super-mario-6pk-socks-blue-gray/-/A-81520856",
+      "tags": "Girls’ Clothing, Kids’ Clothing, No Show Socks, Socks & Tights",
+      "filters": {
+        "type": "No Show Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-disney-princess-6pk-socks/-/A-87694785",
+      "tags": "Girls’ Clothing, Kids’ Clothing, No Show Socks, Socks & Tights",
+      "filters": {
+        "type": "No Show Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/hanes-premium-girls-6pk-no-show-socks-colors-may-vary/-/A-81623890",
+      "tags": "Girls’ Clothing, Kids’ Clothing, No Show Socks, Socks & Tights",
+      "filters": {
+        "type": "No Show Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/hanes-premium-girls-6pk-no-show-solid-socks-colors-may-vary/-/A-81623815",
+      "tags": "Girls’ Clothing, Kids’ Clothing, No Show Socks, Socks & Tights",
+      "filters": {
+        "type": "No Show Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-39-10pk-lightweight-no-show-striped-socks-cat-38-jack-8482/-/A-89806654",
+      "tags": "Girls’ Clothing, Kids’ Clothing, No Show Socks, Socks & Tights",
+      "filters": {
+        "type": "No Show Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-39-bluey-6pk-no-show-socks-blue/-/A-90170780",
+      "tags": "Girls’ Clothing, Kids’ Clothing, No Show Socks, Socks & Tights",
+      "filters": {
+        "type": "No Show Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-39-6pk-39-marled-39-super-soft-no-show-socks-cat-38-jack-8482-purple-pink-gray/-/A-90873437",
+      "tags": "Girls’ Clothing, Kids’ Clothing, No Show Socks, Socks & Tights",
+      "filters": {
+        "type": "No Show Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-39-6pk-39-cat-dog-39-super-soft-no-show-socks-cat-38-jack-8482/-/A-90873436",
+      "tags": "Girls’ Clothing, Kids’ Clothing, No Show Socks, Socks & Tights",
+      "filters": {
+        "type": "No Show Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-6pk-no-show-socks-all-in-motion-white/-/A-92878062",
+      "tags": "Girls’ Clothing, Kids’ Clothing, No Show Socks, Socks & Tights",
+      "filters": {
+        "type": "No Show Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-39-6pk-no-show-socks-all-in-motion-8482/-/A-90898564",
+      "tags": "Girls’ Clothing, Kids’ Clothing, No Show Socks, Socks & Tights",
+      "filters": {
+        "type": "No Show Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-39-7pk-low-cut-unicorn-socks-cat-38-jack-8482-cream/-/A-90850050",
+      "tags": "Girls’ Clothing, Kids’ Clothing, No Show Socks, Socks & Tights",
+      "filters": {
+        "type": "No Show Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/kids-39-6pk-no-show-socks-all-in-motion-8482-white/-/A-93276947",
+      "tags": "Girls’ Clothing, Kids’ Clothing, No Show Socks, Socks & Tights",
+      "filters": {
+        "type": "No Show Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/hanes-girls-39-20pk-super-soft-no-show-socks/-/A-94472293",
+      "tags": "Girls’ Clothing, Kids’ Clothing, No Show Socks, Socks & Tights",
+      "filters": {
+        "type": "No Show Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/hanes-girls-20pk-no-show-socks-white/-/A-93666808",
+      "tags": "Girls’ Clothing, Kids’ Clothing, No Show Socks, Socks & Tights",
+      "filters": {
+        "type": "No Show Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-39-gabbey-39-s-dollhouse-no-show-socks-light-pink/-/A-94660049",
+      "tags": "Girls’ Clothing, Kids’ Clothing, No Show Socks, Socks & Tights",
+      "filters": {
+        "type": "No Show Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-39-no-show-socks-moana/-/A-94050325",
+      "tags": "Girls’ Clothing, Kids’ Clothing, No Show Socks, Socks & Tights",
+      "filters": {
+        "type": "No Show Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-39-wicked-6pk-no-show-socks/-/A-93717552",
+      "tags": "Girls’ Clothing, Kids’ Clothing, No Show Socks, Socks & Tights",
+      "filters": {
+        "type": "No Show Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-disney-stitch-no-show-socks-pink/-/A-94793537",
+      "tags": "Girls’ Clothing, Kids’ Clothing, No Show Socks, Socks & Tights",
+      "filters": {
+        "type": "No Show Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-wicked-no-show-socks-ivory/-/A-94781797",
+      "tags": "Girls’ Clothing, Kids’ Clothing, No Show Socks, Socks & Tights",
+      "filters": {
+        "type": "No Show Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/jurassic-park-socks-kids-t-rex-dinosaur-world-ankle-no-show-socks-4-pack-multicoloured/-/A-87877633",
+      "tags": "Girls’ Clothing, Kids’ Clothing, No Show Socks, Socks & Tights",
+      "filters": {
+        "type": "No Show Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/bioworld-kirby-character-game-design-6-pack-youth-no-shoe-ankle-socks-size-7-9-multicoloured/-/A-91963026",
+      "tags": "Girls’ Clothing, Kids’ Clothing, No Show Socks, Socks & Tights",
+      "filters": {
+        "type": "No Show Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/alexa-rose-girl-s-opaque-tights/-/A-90015041",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Over the Knee Socks, Socks & Tights",
+      "filters": {
+        "type": "Over the Knee Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-pantyhose-2pk-cat-jack-153/-/A-51263376",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Pantyhose, Socks & Tights",
+      "filters": {
+        "type": "Pantyhose"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-2pk-pantyhose-cat-jack-153/-/A-53316216",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Pantyhose, Socks & Tights",
+      "filters": {
+        "type": "Pantyhose"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-floral-embroidery-roselle-sheer-tights/-/A-1004633371",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Pantyhose, Socks & Tights, Tights",
+      "filters": {
+        "type": "Pantyhose"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-flower-bunches-sheer-tights/-/A-1004568982",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Pantyhose, Socks & Tights, Tights",
+      "filters": {
+        "type": "Pantyhose"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-honeycomb-knit-sheer-nylon-tights-glacier-gray-8-10/-/A-1004590275",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Pantyhose, Socks & Tights, Tights",
+      "filters": {
+        "type": "Pantyhose"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-mini-me-mini-net-girls-fishnet-tights/-/A-1004540109",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Pantyhose, Socks & Tights, Tights",
+      "filters": {
+        "type": "Pantyhose"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-3-pair-pack-basic-sheer-30-denier-tights-nude-a-14-16/-/A-1004546517",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Pantyhose, Socks & Tights",
+      "filters": {
+        "type": "Pantyhose"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-micronet-soft-breathable-tights-winter-white-4-6/-/A-1004540697",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Pantyhose, Socks & Tights, Tights",
+      "filters": {
+        "type": "Pantyhose"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-art-deco-sheer-net-nylon-tights-black-l/-/A-1004634333",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Pantyhose, Socks & Tights, Tights",
+      "filters": {
+        "type": "Pantyhose"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-sheer-vine-opaque-tights/-/A-93671015",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Pantyhose, Socks & Tights, Tights",
+      "filters": {
+        "type": "Pantyhose"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-glittering-butterfly-sheer-nylon-tights/-/A-1004634257",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Pantyhose, Socks & Tights, Tights",
+      "filters": {
+        "type": "Pantyhose"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-chevron-wave-sheer-nylon-tights/-/A-1004569023",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Pantyhose, Socks & Tights, Tights",
+      "filters": {
+        "type": "Pantyhose"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-polka-dot-heart-sheer-girls-tights/-/A-1004633981",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Pantyhose, Socks & Tights, Tights",
+      "filters": {
+        "type": "Pantyhose"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-sheer-geo-art-deco-inspired-tights-black-2-4/-/A-1004592883",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Pantyhose, Socks & Tights, Tights",
+      "filters": {
+        "type": "Pantyhose"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-sparkling-glitter-heart-tights/-/A-1004613828",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Pantyhose, Socks & Tights, Tights",
+      "filters": {
+        "type": "Pantyhose"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-women-s-printed-lace-back-nylon-tights/-/A-1004613024",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Pantyhose, Socks & Tights, Tights",
+      "filters": {
+        "type": "Pantyhose"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-railroad-pointelle-nylon-tights/-/A-1004541160",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Pantyhose, Socks & Tights, Tights",
+      "filters": {
+        "type": "Pantyhose"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-essential-sheer-nylon-pantyhose/-/A-92513316",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Pantyhose, Socks & Tights, Tights",
+      "filters": {
+        "type": "Pantyhose"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-sweet-blossoms-girls-sheer-floral-lace-pantyhose/-/A-92459647",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Pantyhose, Socks & Tights",
+      "filters": {
+        "type": "Pantyhose"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-kids-3-pair-pack-mid-cut-cotton-blend-socks/-/A-1003311853",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Quarter Socks, Socks & Tights",
+      "filters": {
+        "type": "Quarter Socks"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-39-fashion-cotton-39-black-dot-39-sweater-tights-cat-38-jack-8482-off-white/-/A-90873439",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Sweater Tights",
+      "filters": {
+        "type": "Sweater Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-39-39-hearts-39-cotton-tights-cat-38-jack-8482-ivory/-/A-93277665",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Sweater Tights",
+      "filters": {
+        "type": "Sweater Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-ribbed-cotton-blend-sweater-tights/-/A-92512913",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Sweater Tights, Tights",
+      "filters": {
+        "type": "Sweater Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-cotton-blend-opaque-sweater-tights/-/A-93503061",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Sweater Tights, Tights",
+      "filters": {
+        "type": "Sweater Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-metallic-shimmer-opaque-tights/-/A-93670700",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-shining-star-shimmer-tights/-/A-92513611",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-swiss-dot-tights-cat-jack-fresh-white/-/A-79382488",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-39-2pk-cotton-tights-cat-38-jack-8482-white/-/A-90752917",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-2pk-glitter-butterfly-nylon-tights-cat-jack-black-white/-/A-89805342",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/capezio-ultra-soft-self-knit-waistband-stirrup-tight-girls-toddler/-/A-86530834",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-dance-footless-tights-cat-jack-black/-/A-93297714",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-39-39-silver-smiley-39-nylon-fashion-tights-cat-38-jack-8482/-/A-90850031",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-dance-footless-tights-cat-jack/-/A-94646377",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-39-2pk-nylon-dance-tights-cat-38-jack-8482-black/-/A-93277695",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-39-2pk-cotton-tights-cat-38-jack-8482-ivory/-/A-94472273",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/girls-39-footless-ribbed-tights-cat-38-jack-8482-heather-gray/-/A-93277691",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-opaque-nylon-footless-tights/-/A-92449113",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-cotton-blend-cable-tights/-/A-92513556",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-dot-semi-opaque-nylon-tights/-/A-93706135",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-soft-pima-cotton-opaque-tights/-/A-93762925",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-wave-semi-opaque-nylon-tights/-/A-93583441",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-essentials-semi-opaque-40-denier-tights/-/A-93665492",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-flowers-and-diamonds-girls-opaque-tights/-/A-93665456",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-soft-pima-cotton-opaque-tights/-/A-93665797",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-2-pair-pack-essentials-nylon-tights/-/A-93672017",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-diamond-semi-opaque-nylon-tights/-/A-93582157",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-swirled-floral-girls-opaque-tights/-/A-93670795",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-bows-in-the-back-opaque-girls-tights/-/A-93670880",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-supreme-cotton-blend-non-pilling-opaque-tights/-/A-93731566",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-flocked-star-opaque-nylon-tights/-/A-93706164",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-velvet-touch-opaque-tights/-/A-93665378",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-double-diamond-opaque-nylon-tights/-/A-93573795",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-prism-textured-microfiber-opaque-tights/-/A-93578456",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-polka-spot-girls-opaque-tights/-/A-93669968",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-textured-toes-girls-ribbed-tights/-/A-93665289",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-sweet-heart-flocked-opaque-tights/-/A-93576773",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-dots-for-tots-flocked-opaque-tights/-/A-93670741",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-blackout-thermal-heat-tights/-/A-93665957",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-sunny-days-opaque-stretch-cotton-tights/-/A-1004617466",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-splatter-paint-opaque-stretch-cotton-tights/-/A-1004617371",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-3-pair-pack-semi-opaque-tights/-/A-93665515",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-strawberry-feet-forever-printed-girls-opaque-tights/-/A-93576244",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-rhinestone-backseam-semi-opaque-tights/-/A-93665993",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-pima-cotton-footless-tights/-/A-93665941",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-checkerboard-plaid-opaque-tights/-/A-93573817",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-heavenly-heather-girls-opaque-tights/-/A-93573724",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-into-the-woods-girls-opaque-tights/-/A-93576263",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-on-the-dot-embellished-girls-opaque-tights/-/A-93670836",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-velvet-back-seam-opaque-girls-tights/-/A-93573813",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-essentials-herringbone-opaque-tights/-/A-93573776",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-flocked-floral-opaque-tights/-/A-93671085",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-blackout-thermal-heat-footless-girls-tights/-/A-93665969",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-solid-cotton-girls-sweater-tights/-/A-1004663592",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-basic-complete-opaque-tights/-/A-93665426",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-2-pair-pack-totally-opaque-microfiber-tights/-/A-93672354",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-diamonds-on-down-jeweled-girls-opaque-tights/-/A-93670948",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-marvelous-modal-girls-opaque-tights/-/A-93665977",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-infant-winter-opaque-nylon-tights/-/A-1004530779",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-unique-link-opaque-tights/-/A-93669719",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-shiny-floral-vine-tights-light-gray-8-10/-/A-1004576783",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-outline-heart-cotton-tights-black-14/-/A-1004598507",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-basic-perfect-semi-opaque-sheer-tights-honey-8-10/-/A-1004546663",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-3-pair-pack-basic-sheer-30-denier-tights-nude-10-12/-/A-1004546514",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-chain-cotton-blend-tights-winter-white-6/-/A-1004599913",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-flocked-bow-backseam-opaque-tights-black-12-14/-/A-93576827",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-color-blocked-cotton-tights/-/A-1004602361",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-diamond-dot-semi-opaque-microfiber-tights-white-6-8/-/A-1004616796",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-pinned-ribbed-cotton-blend-girls-tights-white-14/-/A-1004652158",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-solid-girl-s-opaque-microfiber-tights-2-pack-white-white-7-10/-/A-1004639954",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-sheer-argyle-nylon-tights-black-8-10/-/A-1004549036",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-flocked-dots-nylon-tights-navy-6-8/-/A-1004576873",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-essentials-vertical-stripe-tights/-/A-1004539784",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-shine-bright-diamond-tights-white-12-14/-/A-1004576820",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-herringbone-bow-back-tights/-/A-1004610227",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-shimmering-sheer-nylon-tights/-/A-1004610363",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-opaque-fine-ribbed-nylon-tights/-/A-1004533080",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-elegant-ribbed-nylon-tights-black-2-4/-/A-1004539154",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-essential-ribbed-cotton-tights-black-6/-/A-1004651573",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-diamond-semi-opaque-tights/-/A-1004616944",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-leaping-leopard-opaque-nylon-tights/-/A-1004568939",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-essential-ribbed-heather-tights-black-8-10/-/A-1004576730",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-railroad-flip-stitch-semi-opaque-nylon-tights-winter-white-2-4/-/A-1004601159",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-heathered-heart-opaque-nylon-tights-black-12-14/-/A-1004576753",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-essential-ribbed-heather-nylon-tights/-/A-1004513293",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-feet-your-heart-out-printed-girls-tights/-/A-1004610970",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-pretty-pineapple-opaque-tights/-/A-93575454",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-retro-halftone-polka-dot-tights/-/A-1004610645",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-shimmering-star-gazer-opaque-girls-tights/-/A-1004610541",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-thin-ribbed-cotton-tights/-/A-1004568729",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-pelerine-stitch-girl-s-cotton-blend-tights/-/A-1004568899",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-lots-of-dots-fine-cotton-tights/-/A-1004611098",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-color-splatter-opaque-nylon-tights/-/A-1004576716",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-flocked-back-seam-opaque-tights-black-14-16/-/A-93576325",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-ribbed-supreme-cotton-blend-non-pilling-tights/-/A-1004568868",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-arrow-opaque-cotton-tights/-/A-1004601139",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-lurex-side-seam-opaque-sparkle-tights/-/A-1004612642",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-thin-ribbed-speckled-cotton-tights/-/A-1004568820",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-3-pair-pack-essential-rhumba-opaque-tights/-/A-1004640154",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-2-pair-pack-nylon-heart-tights/-/A-1004637693",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-floral-lace-girl-s-tights-2-pack/-/A-1004634365",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-pique-chain-pima-cotton-tights/-/A-1004600610",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-women-s-flocked-sassy-bow-nylon-tights/-/A-1004612321",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-crystal-backseam-opaque-girls-tights-black-2-4/-/A-93576399",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-all-over-star-flocked-opaque-tights/-/A-93577438",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-mini-bow-flocked-opaque-tights-white-14-16/-/A-1004598407",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-runway-ready-rhinestone-girls-tights-black-8-10/-/A-1004576702",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-studded-beauty-sparkly-tights/-/A-1004568925",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-glam-studded-crystal-opaque-girls-tights/-/A-93670755",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-infant-shimmer-pointelle-cotton-tights/-/A-1004611769",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-tennis-m-cotton-tights/-/A-1004616988",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girl-s-bow-opaque-cotton-tights/-/A-1004614185",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-cozy-chenille-abc-cotton-tights/-/A-1004614081",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-ribbed-shimmer-cotton-blend-girls-tights/-/A-1004603027",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-multi-heart-graffiti-cotton-tights/-/A-1004617050",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-bright-stripe-cotton-tights/-/A-1004617306",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/memoi-girls-iridescent-shimmer-opaque-cotton-tights-charcoal-10/-/A-1004602759",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/strawberry-shortcake-berry-child-s-tights/-/A-92998481",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/levante-funny-legs-girl-s-cotton-tights/-/A-1004640921",
+      "tags": "Girls’ Clothing, Kids’ Clothing, Socks & Tights, Tights",
+      "filters": {
+        "type": "Tights"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/paw-patrol-zuma-rubble-rocky-4-pack-t-shirts-little-kid-to-big-kid/-/A-87042291",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nickelodeon, Tops",
+      "filters": {
+        "brand": "Nickelodeon"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/seven-times-six-teenage-mutant-ninja-turtles-shirt-boy-s-raphael-short-sleeve-costume-top-green/-/A-1005103068",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nickelodeon, Tops",
+      "filters": {
+        "brand": "Nickelodeon"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/paw-patrol-chase-marshall-rubble-rocky-4-pack-graphic-t-shirts-toddler-to-big-kid/-/A-1001926051",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nickelodeon, Tops",
+      "filters": {
+        "brand": "Nickelodeon"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/teenage-mutant-ninja-turtles-leonardo-michelangelo-raphael-donatello-2-pack-t-shirts-little-kid-to-big-kid/-/A-87217892",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nickelodeon, Tops",
+      "filters": {
+        "brand": "Nickelodeon"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/nickelodeon-garfield-t-shirt-sets-1-14-year-odie-otto-pooky-outfit-party-tee-toddlers-birthday-to-collectable-kids-clothes-gift/-/A-1002409513",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nickelodeon, Tops",
+      "filters": {
+        "brand": "Nickelodeon"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-danny-phantom-classic-ghost-logo-t-shirt/-/A-82359714",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nickelodeon, Tops",
+      "filters": {
+        "brand": "Nickelodeon"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-catdog-love-the-earth-t-shirt/-/A-88716233",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nickelodeon, Tops",
+      "filters": {
+        "brand": "Nickelodeon"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/blaze-and-the-monster-machines-little-boys-2-pack-graphic-t-shirts-red-blue-7/-/A-85270906",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nickelodeon, Tops",
+      "filters": {
+        "brand": "Nickelodeon"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boys-39-nintendo-bowser-short-sleeve-graphic-t-shirt-red/-/A-92993134",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-adventure-of-link-t-shirt/-/A-87422364",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boys-nintendo-super-mario-shirt-mario-luigi-zelda-kirby-and-donkey-kong-vintage-tee/-/A-1000105600",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boys-nintendo-super-mario-shirt-mario-luigi-zelda-kirby-and-donkey-kong-vintage-tee/-/A-1000105562",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boys-nintendo-mario-costume-hoodie-mario-and-luigi-classic-video-game-cosplay-dress-up-costume-hoodie/-/A-1000105669",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-bowser-t-shirt/-/A-82358483",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-mario-big-brother-performance-tee/-/A-82370481",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-mario-sidekick-yoshi-t-shirt/-/A-82372364",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-super-mario-retro-rainbow-ring-performance-tee/-/A-85433138",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-super-mario-bros-character-guide-performance-tee/-/A-89598151",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-lil-bro-luigi-t-shirt/-/A-82354960",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-mario-piranha-oh-snap-t-shirt/-/A-79712006",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-star-fox-logo-t-shirt/-/A-86376682",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-mario-characters-t-shirt/-/A-82369613",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-animal-crossing-favorite-lineup-t-shirt/-/A-82351624",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-legend-of-zelda-merchant-buy-something-t-shirt/-/A-86061827",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-mario-and-yoshi-retro-super-t-shirt/-/A-82355942",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-legend-of-zelda-triforce-fade-t-shirt/-/A-82354616",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-mario-characters-wall-t-shirt/-/A-82361734",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-super-mario-classic-stripes-t-shirt/-/A-82366257",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-the-legend-of-zelda-tears-of-the-kingdom-game-logo-t-shirt/-/A-89419895",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-donkey-kong-arcade-performance-tee/-/A-85132409",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-running-yoshi-performance-tee/-/A-89597938",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-legend-of-zelda-explore-hyrule-performance-tee/-/A-93074545",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-legend-of-zelda-ocarina-of-time-performance-tee/-/A-89598125",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-super-mario-character-line-up-performance-tee/-/A-93074452",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-kirby-flying-portrait-performance-tee/-/A-89419990",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-the-legend-of-zelda-breath-of-the-wild-portrait-performance-tee/-/A-93074565",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-ugly-christmas-mario-jump-star-t-shirt/-/A-80219671",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-the-legend-of-zelda-my-skills-are-legendary-link-performance-tee/-/A-93074661",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-super-mario-bros-1985-box-art-performance-tee/-/A-87422458",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-super-mario-bros-pixel-cast-with-names-performance-tee/-/A-85827644",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-luigi-little-brother-performance-tee/-/A-89598014",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-mario-jump-t-shirt/-/A-82370638",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-marker-mario-performance-tee/-/A-89598032",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-flying-raccoon-mario-t-shirt/-/A-82366733",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-legend-of-zelda-performance-tee/-/A-89598156",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-super-mario-group-t-shirt/-/A-82373693",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-legend-of-zelda-link-s-awakening-switch-logo-performance-tee/-/A-89597928",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-pikmin-3-deluxe-a-guide-to-pikmin-performance-tee/-/A-93074422",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-kirby-black-and-white-portrait-performance-tee/-/A-89420131",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-classically-trained-performance-tee/-/A-87422488",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-mario-kart-cast-t-shirt/-/A-1001939510",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-super-mario-boo-ghost-mosaic-t-shirt/-/A-79711968",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-splatoon-inkling-heroes-performance-tee/-/A-89597930",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-legend-of-zelda-hidden-pattern-t-shirt/-/A-82353270",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-legend-of-zelda-triforce-t-shirt/-/A-82352305",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-controller-t-shirt/-/A-86375917",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-mario-jump-t-shirt/-/A-79783091",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-the-legend-of-zelda-a-link-to-the-past-performance-tee/-/A-1001412796",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-koopa-king-bowser-performance-tee/-/A-87422448",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-legend-of-zelda-breath-of-the-wild-arch-t-shirt/-/A-82354373",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-super-mario-group-t-shirt/-/A-1001939465",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-legend-of-zelda-spirit-tracks-link-performance-tee/-/A-89598042",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-super-mario-favorites-performance-tee/-/A-89598024",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-the-legend-of-zelda-a-link-to-the-past-t-shirt/-/A-93074501",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-mario-circle-icon-t-shirt/-/A-1001034477",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-super-mario-st-patrick-s-day-lucky-luigi-retro-performance-tee/-/A-85886817",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-mario-bros-team-performance-tee/-/A-87422366",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-super-mario-get-on-my-level-performance-tee/-/A-93074391",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-splatoon-inkling-squid-performance-tee/-/A-89598134",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-super-mario-classic-poster-performance-tee/-/A-93074417",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-legend-of-zelda-link-watercolor-pattern-t-shirt/-/A-81914538",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-legend-of-zelda-triforce-fade-performance-tee/-/A-89598019",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-retro-yoshi-t-shirt/-/A-93074342",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-super-mario-party-t-shirt/-/A-82358593",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-mario-kart-rainbow-road-racing-performance-tee/-/A-87422429",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-tanooki-racoon-mario-performance-tee/-/A-85827824",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-super-mario-st-patrick-s-day-lucky-yoshi-retro-performance-tee/-/A-85886449",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-nes-classic-controller-performance-tee/-/A-84634752",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-super-mario-watercolor-yoshi-performance-tee/-/A-93074586",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-super-mario-group-t-shirt/-/A-1001034466",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-luigi-little-brother-t-shirt/-/A-79783031",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-the-legend-of-zelda-tears-of-the-kingdom-master-sword-icon-t-shirt/-/A-89419857",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-zelda-breath-of-the-wild-eye-t-shirt/-/A-82371663",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-halloween-boo-pumpkin-t-shirt/-/A-84089601",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-the-legend-of-zelda-tears-of-the-kingdom-gold-hyrule-crest-t-shirt/-/A-89419909",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-donkey-kong-banana-barrels-t-shirt/-/A-93074387",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
+      }
+    },
+    {
+      "url": "https://www.target.com/p/boy-s-nintendo-splatoon-character-collage-t-shirt/-/A-85089398",
+      "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Nintendo, Tops",
+      "filters": {
+        "brand": "Nintendo"
       }
     }
   ]
