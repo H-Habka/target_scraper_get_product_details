@@ -20,7003 +20,7003 @@ import { saveToCSVAndExcel } from "./helpers/fileIO.js";
 
   const urls =   [
       {
-        "url": "https://www.target.com/p/boy-s-raya-and-the-last-dragon-tuk-tuk-let-s-roll-t-shirt/-/A-82523826",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Raya and the Last Dragon, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-r2-d2-6th-birthday-t-shirt/-/A-92232618",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Raya and the Last Dragon"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-raya-and-the-last-dragon-tuk-tuk-portrait-t-shirt/-/A-82524043",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Raya and the Last Dragon, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-empire-strikes-back-t-shirt/-/A-82363435",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Raya and the Last Dragon"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/red-bull-racing-f1-special-edition-austin-gp-t-shirt-s/-/A-93909088",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Red Bull, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-yoda-best-brother-t-shirt/-/A-86334405",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Red Bull"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/castore-red-bull-racing-f1-kid-s-2025-max-verstappen-team-polo-shirt/-/A-1002208397",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Red Bull, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-ewok-7th-birthday-t-shirt/-/A-92232724",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Red Bull"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/reebok-boys-train-like-a-champ-graphic-t-shirt/-/A-1004741627",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Reebok, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-the-child-shadow-t-shirt/-/A-80218788",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Reebok"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/reebok-boys-los-angeles-kings-graphic-t-shirt-black-xl/-/A-1004741047",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Reebok, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-stormtrooper-starry-night-t-shirt/-/A-82364632",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Reebok"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/reebok-boys-la-kings-logo-graphic-t-shirt/-/A-1004739973",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Reebok, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-book-of-boba-fett-rancor-on-the-loose-t-shirt/-/A-86283205",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Reebok"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/reebok-boys-la-kings-2014-western-conference-champions-graphic-t-shirt/-/A-1004741246",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Reebok, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-darth-vader-cartoon-t-shirt/-/A-86335882",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Reebok"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/reebok-boys-lit-space-dye-jersey-graphic-t-shirt-grey-4/-/A-1004733884",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Reebok, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-valentine-s-day-you-are-a-porg-able-t-shirt/-/A-85779060",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Reebok"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/reebok-boys-los-angeles-kings-2014-kopitar-graphic-t-shirt-black-l/-/A-1004730945",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Reebok, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-iconic-helmet-t-shirt/-/A-82159050",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Reebok"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/reebok-boys-train-like-a-champ-graphic-t-shirt-grey-s/-/A-1004734082",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Reebok, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-easter-stormtrooper-pastel-easter-ears-t-shirt/-/A-79782961",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Reebok"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/reebok-boys-la-crown-patch-graphic-t-shirt/-/A-1004772500",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Reebok, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-element-of-surprise-t-shirt/-/A-82067393",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Reebok"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/reebok-boys-light-the-lamp-graphic-t-shirt/-/A-1004741238",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Reebok, Tops",
+        "url": "https://www.target.com/p/boys-star-wars-victory-scene-t-shirt/-/A-1004413906",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Reebok"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/reebok-boys-la-kings-graphic-t-shirt/-/A-1004739899",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Reebok, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-chalk-masks-t-shirt/-/A-89632878",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Reebok"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/reebok-boys-space-dye-jersey-graphic-t-shirt/-/A-1004741514",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Reebok, Tops",
+        "url": "https://www.target.com/p/boy-s-husky-star-wars-tie-fighter-retro/-/A-87573261",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Reebok"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/reebok-boys-los-angeles-kings-graphic-t-shirt/-/A-1004741072",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Reebok, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-christmas-the-child-galaxy-s-greetings-t-shirt/-/A-81965904",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Reebok"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/reebok-boys-2014-stanley-cup-rangers-vs-kings-graphic-t-shirt/-/A-1004756412",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Reebok, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-solar-system-of-force-t-shirt/-/A-85827038",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Reebok"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/reebok-boys-la-kings-graphic-t-shirt/-/A-1004756434",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Reebok, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-obi-wan-kenobi-shattered-jedi-knight-kenobi-t-shirt/-/A-86825682",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Reebok"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/reebok-boys-la-kings-graphic-t-shirt/-/A-1004740826",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Reebok, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-12-cents-retro-comic-t-shirt/-/A-82149693",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Reebok"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/reebok-boys-jeff-carter-77-la-kings-graphic-t-shirt/-/A-1004739871",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Reebok, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-rise-of-skywalker-x-wing-schematic-frame-t-shirt/-/A-85270462",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Reebok"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/reebok-boys-tom-and-jerry-happy-birthday-graphic-t-shirt/-/A-1004736599",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Reebok, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-chewbacca-party-animal-t-shirt/-/A-82361413",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Reebok"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/reebok-boys-la-kings-graphic-t-shirt/-/A-1004739946",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Reebok, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-millennium-falcon-birthday-boy-t-shirt/-/A-92232209",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Reebok"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/reebok-boys-tom-and-jerry-logo-graphic-t-shirt/-/A-1004736227",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Reebok, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-obi-wan-kenobi-darth-vader-vs-kenobi-vintage-vhs-cassette-t-shirt/-/A-86826170",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Reebok"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/reebok-boys-la-kings-graphic-t-shirt/-/A-1004742193",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Reebok, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-luke-skywalker-ready-t-shirt/-/A-82353052",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Reebok"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/reebok-boys-la-kings-graphic-t-shirt/-/A-1004741334",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Reebok, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-cartoon-collage-t-shirt/-/A-85823260",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Reebok"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/reebok-boys-l-a-kings-kopitar-graphic-t-shirt/-/A-1004741349",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Reebok, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-rise-of-skywalker-halloween-sith-trooper-costume-t-shirt/-/A-81495417",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Reebok"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/reebok-boys-printed-hood-graphic-t-shirt/-/A-1004737711",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Reebok, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-daydreaming-child-t-shirt/-/A-87416889",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Reebok"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/reebok-boys-los-angeles-kings-muzzin-6-graphic-t-shirt/-/A-1004742117",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Reebok, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-protect-the-child-t-shirt/-/A-82160825",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Reebok"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/reebok-boys-la-kings-arched-fade-embellished-t-shirt/-/A-1004744670",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Reebok, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-ewok-5th-birthday-t-shirt/-/A-92232737",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Reebok"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/reebok-boys-play-dry-hooded-graphic-t-shirt/-/A-1004737927",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Reebok, Tops",
+        "url": "https://www.target.com/p/boy-s-husky-star-wars-easter-stormtrooper-pastel-easter-ears/-/A-87573133",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Reebok"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-godzilla-x-kong-3-pack-graphic-t-shirts/-/A-1004889041",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Ripple Junction, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-princess-leia-quote-i-love-you-t-shirt/-/A-85827599",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Ripple Junction"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-rocky-flag-champion-t-shirt/-/A-1004374321",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Rocky, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-periodic-table-of-elements-t-shirt/-/A-79710941",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Rocky"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-roger-waters-wall-logo-t-shirt/-/A-1004636504",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Roger Walters, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-grogu-st-patrick-s-day-pinch-proof-t-shirt/-/A-82612052",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Roger Walters"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-roger-waters-the-wall-2-t-shirt/-/A-1004636376",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Roger Walters, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-distressed-lucky-rebel-badge-t-shirt/-/A-1002301574",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Roger Walters"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-rugrats-st-patrick-s-day-reptar-good-to-be-green-t-shirt/-/A-85886393",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Rugrats, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-st-patrick-s-day-grogu-a-wee-bit-o-trouble-t-shirt/-/A-88745906",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Rugrats"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-rugrats-for-toys-short-sleeve-graphic-t-shirt/-/A-1000450142",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Rugrats, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-starry-night-best-friend-portrait-t-shirt/-/A-82156291",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Rugrats"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-rugrats-hope-short-sleeve-graphic-t-shirt/-/A-1000450780",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Rugrats, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-chewbacca-art-t-shirt/-/A-89633133",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Rugrats"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-rugrats-reptar-swirl-short-sleeve-graphic-t-shirt/-/A-1000450289",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Rugrats, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-dad-you-are-the-best-father-in-the-galaxy-t-shirt/-/A-89632993",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Rugrats"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-rugrats-valentine-s-day-is-for-babies-t-shirt/-/A-85565580",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Rugrats, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-rainbow-drip-logo-t-shirt/-/A-89632771",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Rugrats"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sol-angeles-kids-tennis-club-boxy-tee/-/A-1003706478",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SOL ANGELES, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-empire-strikes-back-boba-fett-helmet-t-shirt/-/A-87417146",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "SOL ANGELES"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sol-angeles-kids-wild-one-marlow-tee/-/A-1003709339",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SOL ANGELES, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-ugly-christmas-light-saber-battle-t-shirt/-/A-81951530",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "SOL ANGELES"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sol-angeles-kids-gradient-wave-marlow-tee/-/A-1003919643",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SOL ANGELES, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-fourth-of-july-grogu-portrait-t-shirt/-/A-83691945",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "SOL ANGELES"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sol-angeles-kids-sun-surf-tank/-/A-1004108637",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SOL ANGELES, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-millennium-falcon-gradient-circle-t-shirt/-/A-89632965",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "SOL ANGELES"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sand-land-beelzebub-poster-crew-neck-short-sleeve-boy-s-charcoal-t-shirt/-/A-1001575317",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sand Land, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-st-patrick-s-day-grogu-cutest-clover-in-the-patch-t-shirt/-/A-88746342",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sand Land"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sand-land-desert-jeep-ride-boy-s-royal-blue-crew-neck-short-sleeve-t-shirt/-/A-1000119128",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sand Land, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-this-is-the-way-t-shirt/-/A-82162179",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sand Land"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sand-land-sheriff-rao-poster-art-youth-black-crew-neck-long-sleeve-sweatshirt/-/A-1001337416",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sand Land, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-valentine-s-day-yoda-one-for-me-distressed-t-shirt/-/A-85778585",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sand Land"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/scooby-doo-boys-shark-chasing-scooby-print-design-t-shirt-kids/-/A-91314396",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-fennec-shand-portrait-t-shirt/-/A-82177721",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/scooby-doo-mystery-solved-youth-athletic-heather-long-sleeve-shirt/-/A-86218910",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-ahsoka-the-jedi-t-shirt/-/A-82066873",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/scooby-doo-checkered-background-boy-s-heather-grey-long-sleeve-shirt/-/A-85731673",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-grogu-st-patrick-s-day-little-green-cutie-t-shirt/-/A-82612032",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/scooby-doo-ghost-ruh-roh-boy-s-athletic-heather-sweater/-/A-85581110",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-r2-d2-happy-birthday-t-shirt/-/A-92233182",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/scooby-doo-laughing-scooby-boy-s-black-long-sleeve-shirt/-/A-85731690",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-dad-you-are-strong-inventive-clever-gentle-t-shirt/-/A-86502634",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/scooby-doo-mystery-inc-group-art-boy-s-athletic-heather-long-sleeve-shirt/-/A-86383526",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-obi-wan-kenobi-shattered-jedi-logo-t-shirt/-/A-86750821",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/scooby-doo-character-art-youth-black-long-sleeve-shirt/-/A-86218826",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-millennium-falcon-cake-t-shirt/-/A-92233174",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/scooby-doo-shaggy-and-scooby-men-s-black-long-sleeve-shirt/-/A-87725106",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-vader-cartoon-saber-t-shirt/-/A-86334294",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/scooby-doo-scooby-doo-3-pack-graphic-t-shirts/-/A-85688564",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-clone-wars-commander-rex-big-face-t-shirt/-/A-1001091616",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/scooby-doo-scooby-snacks-boy-s-red-t-shirt/-/A-85352567",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boys-star-wars-andor-cassian-join-the-rebellion-t-shirt/-/A-1003402021",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/scooby-doo-paranormal-investigators-boys-tee/-/A-86183936",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-villain-periodic-table-of-elements-t-shirt/-/A-89633071",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/youth-boys-scooby-doo-character-royal-blue-short-sleeve-graphic-tee-shirt/-/A-84941791",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-darth-vader-star-ship-collage-t-shirt/-/A-84645804",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/scooby-doo-shark-kids-youth-boys-blue-short-sleeve-graphic-tee/-/A-84252008",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boys-star-wars-may-the-4th-be-with-you-t-shirt/-/A-1003221113",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/scooby-doo-what-do-you-mean-no-snacks-youth-red-graphic-tee/-/A-85730947",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-red-fire-vader-t-shirt/-/A-1001941880",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/youth-boys-grey-scooby-doo-cartoon-movie-graphic-tee/-/A-84252001",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-visions-samurai-darth-vader-lightsaber-t-shirt/-/A-84643861",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/scooby-doo-this-is-all-i-m-willing-to-do-today-youth-red-graphic-tee/-/A-85729270",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-the-child-meditation-t-shirt/-/A-82179080",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/scooby-doo-scared-scooby-with-ghosts-youth-athletic-gray-graphic-tee/-/A-87337783",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-boba-fett-4th-birthday-full-of-bounty-t-shirt/-/A-92232960",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/scooby-doo-scooby-and-shaggy-with-spooky-ghost-youth-navy-blue-graphic-tee/-/A-87337755",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-valentine-s-day-r2-d2-and-c-3po-t-shirt/-/A-88323403",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/scooby-doo-scared-shaggy-with-ghosts-youth-charcoal-graphic-tee/-/A-87337759",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-ewok-6th-birthday-t-shirt/-/A-92232608",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/scooby-doo-would-you-do-it-for-a-scooby-snack-youth-royal-blue-graphic-tee/-/A-87337767",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-shamrock-darth-vader-t-shirt/-/A-1001939824",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/scooby-doo-youth-charcoal-short-sleeve-tee/-/A-92548322",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-millennium-falcon-may-the-4th-be-with-you-t-shirt/-/A-89039037",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-scooby-doo-halloween-starter-pack-t-shirt/-/A-87697459",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-st-patrick-s-day-grogu-this-is-the-way-t-shirt/-/A-85894083",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-scooby-doo-moon-silhouette-chase-t-shirt/-/A-87697519",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-chewbacca-birthday-kid-t-shirt/-/A-92232631",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/scooby-doo-too-cool-for-school-youth-black-short-sleeve-crew-neck-tee/-/A-89386705",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-yoda-st-patrick-s-day-pinch-proof-t-shirt/-/A-82612695",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/scooby-doo-face-boy-s-navy-t-shirt/-/A-85729288",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-classic-characters-t-shirt/-/A-82368837",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/scooby-doo-and-monsters-youth-black-short-sleeve-crew-neck-tee/-/A-90060814",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-comic-battle-pose-t-shirt/-/A-86335533",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/scooby-doo-run-scoob-green-monster-youth-charcoal-short-sleeve-crew-neck-tee/-/A-89386734",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-husky-star-wars-pizza-death-star/-/A-87573038",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/scooby-doo-shaggy-zoinks-gray-boy-s-short-sleeve-t-shirt/-/A-85451284",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-halloween-ghoulactic-darth-vader-t-shirt/-/A-84136676",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/scooby-doo-ruh-roh-boy-s-navy-t-shirt/-/A-86394052",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-tales-of-the-jedi-anakin-skywalker-and-obi-wan-kenobi-t-shirt/-/A-88404451",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/scooby-doo-where-are-you-pup-youth-navy-t-shirt/-/A-86103281",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-6th-birthday-grogu-bassinet-t-shirt/-/A-89404969",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/scooby-doo-stay-rad-chrome-dog-boy-s-navy-t-shirt/-/A-85451108",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-boba-fett-9-years-t-shirt/-/A-92233398",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/scooby-doo-best-friends-forever-youth-black-short-sleeve-crew-neck-tee/-/A-89386767",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-faces-filled-logo-t-shirt/-/A-1001939726",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-scooby-doo-where-are-you-villains-t-shirt/-/A-1001939928",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-logo-light-show-t-shirt/-/A-86334841",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-scooby-doo-zoinks-monster-audience-t-shirt/-/A-82355076",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-maul-8-years-t-shirt/-/A-92233406",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/scooby-doo-spooked-shaggy-and-scooby-boy-s-navy-blue-tshirt/-/A-86383162",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-valentine-s-day-yoda-one-for-me-t-shirt/-/A-85778664",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/scooby-doo-color-switch-scooby-boy-s-charcoal-t-shirt/-/A-85729657",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-last-jedi-st-patrick-s-day-lucky-porg-t-shirt/-/A-82185699",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-scooby-doo-easter-eggy-gang-t-shirt/-/A-88718103",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-st-patrick-s-yoda-clover-face-t-shirt/-/A-85894718",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/youth-boys-grey-scooby-doo-kids-cartoon-short-sleeve-shirt/-/A-84251891",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-the-child-cartoon-cards-t-shirt/-/A-86926621",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/scooby-doo-ruh-roh-youth-boy-s-charcoal-heather-t-shirt/-/A-85352274",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-birthday-boy-porg-t-shirt/-/A-89404866",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-husky-scooby-doo-zoinks-monster-audience/-/A-87572858",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-obi-wan-kenobi-original-series-logo-gold-t-shirt/-/A-86750999",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-scooby-doo-puppy-circle-t-shirt/-/A-82358028",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-ombre-logo-t-shirt/-/A-94116559",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-scooby-doo-birthday-boy-scoob-t-shirt/-/A-89404918",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-r2-d2-8th-birthday-t-shirt/-/A-92232528",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-scooby-doo-puppy-frame-t-shirt/-/A-82373650",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-stormtrooper-tropical-portrait-t-shirt/-/A-91245846",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-scooby-doo-dog-shadow-t-shirt/-/A-82356290",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-bad-batch-clone-force-t-shirt/-/A-82749789",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/scooby-doo-surfing-youth-white-short-sleeve-tee/-/A-92548227",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-grogu-father-s-day-is-for-naps-snacks-performance-tee/-/A-86501768",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/scooby-dooby-doo-youth-royal-blue-short-sleeve-crew-neck-tee/-/A-89386708",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Scooby-Doo, Tops",
+        "url": "https://www.target.com/p/boy-s-husky-star-wars-cartoon-millennium-falcon/-/A-87573196",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Scooby-Doo"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sesame-street-crew-character-heads-crew-neck-long-sleeve-athletic-heather-youth-tee/-/A-92984765",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-clan-of-two-t-shirt/-/A-82158302",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sesame-street-book-club-crew-neck-long-sleeve-youth-black-tee/-/A-92987942",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-obi-wan-kenobi-darth-vader-sith-lord-t-shirt/-/A-86751195",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/bioworld-sesame-street-ernie-i-can-t-hear-you-youth-black-crew-neck-sweatshirt/-/A-89764968",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-may-the-fourth-mando-and-grogu-t-shirt/-/A-91900874",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/bioworld-sesame-street-have-you-hugged-a-monster-today-youth-heather-gray-crew-neck-sweatshirt/-/A-89764962",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-husky-star-wars-characters-logo/-/A-87573102",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/bioworld-sesame-street-grover-anywhere-i-am-youth-black-crew-neck-sweatshirt/-/A-89721495",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-clone-wars-ahsoka-head-shot-quote-collage-performance-tee/-/A-89597535",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/bioworld-sesame-street-grover-hello-everybod-eee-youth-black-crew-neck-sweatshirt/-/A-89721507",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-clone-wars-yoda-jedi-master-action-pose-performance-tee/-/A-89597529",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/bioworld-sesame-street-core-character-group-youth-black-tee-with-short-sleeves-and-crew-neck/-/A-89764240",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-endor-summer-camp/-/A-87433595",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sesame-street-characters-with-balloons-crew-neck-short-sleeve-athletic-heather-boy-s-t-shirt/-/A-92748668",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-obi-wan-kenobi-restoring-balance-kenobi-silhouette-t-shirt/-/A-86827362",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/bioworld-sesame-street-rocks-youth-white-tee-with-short-sleeves-and-crew-neck/-/A-89764320",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-christmas-yoda-may-the-force-t-shirt/-/A-81883282",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-just-a-boy-who-loves-cookies-t-shirt/-/A-92218250",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-groovy-force-calling-you-t-shirt/-/A-85827220",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-elmo-face-ugly-christmas-sweater-print-t-shirt/-/A-92218217",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-rainbow-rebel-logo-t-shirt/-/A-89632987",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-cookie-monster-world-wide-t-shirt/-/A-92220790",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-classic-princess-leia-fearless-t-shirt/-/A-85827379",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-halloween-abbey-road-t-shirt/-/A-92219278",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-the-child-love-bassinet-t-shirt/-/A-82158906",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-bert-and-ernie-lean-on-me-t-shirt/-/A-92217508",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-luke-skywalker-use-the-force-t-shirt/-/A-89632952",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-you-are-enough-t-shirt/-/A-92218859",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-stormtrooper-basket-t-shirt/-/A-89929984",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-birthday-crew-t-shirt/-/A-92218005",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-yoda-pinch-me-will-you-not-t-shirt/-/A-82189042",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-grover-run-repeat-t-shirt/-/A-92218879",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-this-is-the-way-t-shirt/-/A-87416732",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-cookie-monster-retro-portrait-t-shirt/-/A-92220248",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-birthday-kid-r2-d2-party-t-shirt/-/A-92232048",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-friends-for-life-group-t-shirt/-/A-92220526",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-obi-wan-kenobi-jedi-lightsaber-with-brushstroke-kenobi-t-shirt/-/A-86824819",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-and-cookies-for-all-monster-t-shirt/-/A-92219459",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-rise-of-skywalker-rebel-text-performance-tee/-/A-89597398",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-elmo-red-logo-sign-t-shirt/-/A-92220019",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-rise-of-skywalker-sith-trooper-logo-performance-tee/-/A-89597380",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-trio-saturated-painting-t-shirt/-/A-92220890",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-obi-wan-kenobi-darth-vader-strong-is-the-dark-side-silhouette-t-shirt/-/A-86827007",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-me-only-here-for-the-cookies-t-shirt/-/A-92221507",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-father-s-day-yoda-best-t-shirt/-/A-82783660",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-four-panels-pals-t-shirt/-/A-92221771",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-vintage-art-frame-t-shirt/-/A-85827568",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-big-bird-100-days-of-school-t-shirt/-/A-92220089",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-darth-vader-bouquet-t-shirt/-/A-1002736975",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-birthday-boy-elmo-t-shirt/-/A-92218376",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-r2-d2-quote-t-shirt/-/A-86335078",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-elmo-heart-fill-t-shirt/-/A-92218127",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-happy-birthday-duel-cake-t-shirt/-/A-89404859",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-sesame-street-the-periodic-table-t-shirt/-/A-1004568123",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-grogu-and-din-djarin-where-dad-goes-i-go-t-shirt/-/A-86503367",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-100-days-of-school-crew-t-shirt/-/A-92217819",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-tales-of-the-jedi-distressed-obi-wan-ahsoka-and-anakin-t-shirt/-/A-88404267",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-cookie-monster-birthday-kid-t-shirt/-/A-92218505",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-easter-themed-chest-logo-t-shirt/-/A-1002737004",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-just-a-kid-who-loves-cookies-t-shirt/-/A-92218416",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-valentine-s-day-han-solo-you-re-one-in-a-millennium-t-shirt/-/A-85779044",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-oscar-the-grouch-don-t-get-pinched-t-shirt/-/A-1002303120",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-retro-explosion-t-shirt/-/A-85827215",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-pre-k-graduate-2024-t-shirt/-/A-92217631",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-helmet-pose-t-shirt/-/A-89176087",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-sign-classic-group-portrait-t-shirt/-/A-92220658",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-din-djarin-and-grogu-bounty-hunters-t-shirt/-/A-1001940436",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-the-classics-group-portrait-t-shirt/-/A-92221533",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-young-jedi-adventures-character-names-t-shirt/-/A-89580619",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-elmo-be-kind-to-your-mind-t-shirt/-/A-92218712",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-christmas-at-at-dashing-snow-t-shirt/-/A-81951812",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-group-street-smart-t-shirt/-/A-92219549",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-bad-batch-circle-logo-t-shirt/-/A-82750652",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sesame-street-core-characters-varsity-text-crew-neck-short-sleeve-black-boy-s-t-shirt/-/A-92748618",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-don-t-be-basic-stormtroopers-t-shirt/-/A-86337270",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-oscar-the-grouch-merry-christmas-t-shirt/-/A-92218979",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-expressions-of-a-stormtrooper-t-shirt/-/A-86336091",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-elmo-snack-time-t-shirt/-/A-92221595",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-the-child-circle-halo-t-shirt/-/A-80218806",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-sesame-street-comic-scene-kids-lc-oversized-infant-short-sleeve-graphic-t-shirt-short-sleeve-graphic-t-shirt/-/A-1001754972",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-the-child-cartoon-shiny-eyes-t-shirt/-/A-82159716",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-sesame-street-9-panel-puppet-grid-t-shirt/-/A-1004564502",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-stormtrooper-this-is-my-work-face-t-shirt/-/A-86338338",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-classic-1969-varsity-t-shirt/-/A-92219155",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-ig-11-portrait-t-shirt/-/A-89034444",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-s-is-for-son-t-shirt/-/A-92218510",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-visions-anime-panels-t-shirt/-/A-84644202",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-take-a-belly-breath-t-shirt/-/A-92218621",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-visions-r2-d2-warrior-t-shirt/-/A-84644668",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-cookie-lover-portrait-t-shirt/-/A-92218314",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-millennium-falcon-it-s-my-birthday-t-shirt/-/A-92232407",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-small-elmo-greetings-t-shirt/-/A-92219147",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-obi-wan-kenobi-vader-vs-kenobi-artistic-lightsaber-duel-t-shirt/-/A-86826823",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-feeling-grouchy-t-shirt/-/A-92217766",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-st-patrick-s-day-yoda-lucky-one-t-shirt/-/A-85894312",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-kawaii-characters-group-t-shirt/-/A-92219221",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-10-reasons-being-a-jedi-t-shirt/-/A-86335766",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-cookie-monster-collegiate-t-shirt/-/A-92218559",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-rebel-pilot-7-years-t-shirt/-/A-92233467",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-pinch-proof-t-shirt/-/A-1002302966",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-visions-duel-anime-vader-t-shirt/-/A-84643775",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-elmo-check-in-with-your-friends-t-shirt/-/A-92219040",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-dark-side-membership-t-shirt/-/A-86334834",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-friends-make-the-world-go-round-t-shirt/-/A-92220433",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-valentine-s-day-r2-d2-too-cute-t-shirt/-/A-85779261",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-elmo-tuxedo-checking-in-t-shirt/-/A-92218849",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-grogu-classic-logo-t-shirt/-/A-1001091681",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-let-s-all-do-our-part-t-shirt/-/A-92221155",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-the-child-strong-is-the-cuteness-t-shirt/-/A-82162207",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-kindness-matters-trio-t-shirt/-/A-92220680",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-empire-strikes-back-yoda-master-1980-t-shirt/-/A-89632925",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-teamwork-makes-the-dream-work-t-shirt/-/A-92218970",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-cute-grogu-birthday-t-shirt/-/A-87416907",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-pre-school-squad-t-shirt/-/A-92220069",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-empire-strikes-back-at-at-scene-t-shirt/-/A-89633097",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-check-in-on-your-friends-cute-elmo-t-shirt/-/A-92218273",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-stormtrooper-son-is-a-trooper-t-shirt/-/A-86334900",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-cookie-monster-and-daisies-t-shirt/-/A-92221954",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-the-child-cartoon-shy-t-shirt/-/A-79681985",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sesame-street-big-bird-100th-day-of-school-t-shirt/-/A-92219838",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sesame Street, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-grogu-and-din-djarin-happy-birthday-t-shirt/-/A-87968064",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sesame Street"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/seven-times-six-spongebob-shirt-boys-stay-weird-character-grid-short-sleeve-graphic-tee-grey/-/A-1003386194",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Seven Times Six, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-boba-fett-santa-hat-cartoon-t-shirt/-/A-81881891",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Seven Times Six"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/seven-times-six-five-nights-at-freddy-s-t-shirt-boy-s-game-over-short-sleeve-graphic-tee-blue/-/A-1004478482",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Seven Times Six, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-valentine-boba-fett-search-the-galaxy-t-shirt/-/A-82190660",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Seven Times Six"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/seven-times-six-spongebob-shirt-boys-patrick-fishing-on-shark-short-sleeve-graphic-tee-blue/-/A-1003386211",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Seven Times Six, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-distressed-millennium-falcon-logo-t-shirt/-/A-89632769",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Seven Times Six"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-2-boy-s-tails-miles-prower-kids-graphic-print-t-shirt/-/A-91272914",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Seven Times Six, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-yoda-splatter-cartoon-t-shirt/-/A-82356960",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Seven Times Six"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/seven-times-six-naruto-uzumaki-shirt-boy-s-orange-monochrome-short-sleeve-graphic-top-black/-/A-1004743168",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Seven Times Six, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-force-is-strong-valentine-rebel-logo-t-shirt/-/A-85778940",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Seven Times Six"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/nasa-boys-this-is-how-i-roll-moon-rover-astronaut-graphic-t-shirt/-/A-91257970",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Seven Times Six, Tops",
+        "url": "https://www.target.com/p/boy-s-husky-star-wars-the-mandalorian-the-child-cartoon-shy/-/A-87573104",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Seven Times Six"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-big-boys-gameon-challenge-sonic-character-t-shirt/-/A-91272711",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Seven Times Six, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-razor-crest-capture-and-containment-t-shirt/-/A-82159625",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Seven Times Six"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/seven-times-six-minecraft-boy-s-periodic-table-kids-short-sleeve-t-shirt/-/A-91272844",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Seven Times Six, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-tie-fighter-christmas-reindeer-t-shirt/-/A-84867020",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Seven Times Six"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/seven-times-six-five-nights-at-freddy-s-fnaf-shirt-boy-s-character-letters-short-sleeve-top-blue/-/A-1004742569",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Seven Times Six, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-retro-r2-d2-t-shirt/-/A-87416969",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Seven Times Six"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-boys-speedster-big-face-graphic-print-t-shirt/-/A-91272752",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Seven Times Six, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-halloween-din-djarin-haunting-galaxy-t-shirt/-/A-89186958",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Seven Times Six"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/peanuts-snoopy-little-kids-usa-skateboard-vintage-distressed-t-shirt/-/A-91272817",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Seven Times Six, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-visions-stormtroopers-anime-t-shirt/-/A-84644372",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Seven Times Six"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/nickelodeon-rugrats-little-boy-s-chuckie-finster-and-tommy-pickles-t-shirt/-/A-91272451",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Seven Times Six, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-halloween-so-cute-it-s-scary-t-shirt/-/A-89579074",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Seven Times Six"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/pokemon-detective-pikachu-big-boys-short-sleeve-t-shirt-yellow-kids/-/A-89001150",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Seven Times Six, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-stormtrooper-easter-eggs-t-shirt/-/A-88718187",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Seven Times Six"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-boys-gameon-character-design-gaming-t-shirt/-/A-91272840",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Seven Times Six, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-tropical-groovy-logo-t-shirt/-/A-1002736864",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Seven Times Six"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/seven-times-six-dragon-ball-z-t-shirt-boy-s-goku-super-saiyan-majin-buu-short-sleeve-tee-blue/-/A-1004813564",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Seven Times Six, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-chewbacca-arrrrgh-black-and-white-scene-t-shirt/-/A-89632776",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Seven Times Six"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/seven-times-six-five-night-s-at-freddy-s-shirt-boy-s-bonnie-chica-foxy-bust-through-wall-tee-black/-/A-1004478487",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Seven Times Six, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-millennium-falcon-design-t-shirt/-/A-89632947",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Seven Times Six"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/seven-times-six-five-nights-at-freddy-s-t-shirt-boy-s-chica-foxy-bonnie-faces-short-sleeve-top-blue/-/A-1004478537",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Seven Times Six, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-grogu-may-the-eggs-be-with-you-t-shirt/-/A-88718276",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Seven Times Six"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/seven-times-six-maruchan-t-shirt-boy-s-instant-lunch-short-sleeve-graphic-tee-white/-/A-1005063053",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Seven Times Six, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-hero-periodic-t-shirt/-/A-89632982",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Seven Times Six"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/seven-times-six-teenage-mutant-ninja-turtles-cartoon-big-boys-short-sleeve-kids-t-shirt/-/A-93546741",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Seven Times Six, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-yoda-best-brother-ever-t-shirt/-/A-82366691",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Seven Times Six"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/seven-times-six-five-nights-at-freddy-s-t-shirt-boys-fazbears-pizza-fast-delivery-tee/-/A-1005103070",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Seven Times Six, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-valentine-s-day-yoda-best-t-shirt/-/A-88195157",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Seven Times Six"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/seven-times-six-dragon-ball-z-t-shirt-boys-goku-running-scene-anime-tee/-/A-1005063058",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Seven Times Six, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-may-the-fourth-grogu-t-shirt/-/A-91900942",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Seven Times Six"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/seven-times-six-marvel-spiderman-t-shirt-boys-front-and-back-action-poses-tee/-/A-1005063062",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Seven Times Six, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-coloring-easter-egg-rebel-alliance-logo-t-shirt/-/A-86333788",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Seven Times Six"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/naruto-shippuden-boys-uzumaki-hidden-leaf-village-licensed-t-shirt/-/A-91272768",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Seven Times Six, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-boba-fett-armored-up-t-shirt/-/A-82178135",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Seven Times Six"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/shazam-movie-warped-text-crew-neck-short-sleeve-navy-blue-boy-s-t-shirt/-/A-88868038",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Shazam!, Tops",
+        "url": "https://www.target.com/p/boys-star-wars-a-new-hope-battle-of-yavin-t-shirt/-/A-1002995152",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Shazam!"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-shazam-fury-of-the-gods-hero-portrait-t-shirt/-/A-88356595",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Shazam!, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-obi-wan-kenobi-vader-vs-kenobi-crossed-lightsabers-t-shirt/-/A-86827244",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Shazam!"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-shazam-fury-of-the-gods-movie-logo-t-shirt/-/A-88356682",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Shazam!, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-christmas-stanta-yoda-t-shirt/-/A-81951488",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Shazam!"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/shazam-movie-character-and-lightning-bolt-pattern-crew-neck-short-sleeve-red-boy-s-t-shirt/-/A-88868113",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Shazam!, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-the-child-tiny-smile-for-you-t-shirt/-/A-89176093",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Shazam!"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/shazam-movie-character-in-circle-crew-neck-short-sleeve-charcoal-boy-s-t-shirt/-/A-88868240",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Shazam!, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-millennium-falcon-force-with-you-t-shirt/-/A-85827614",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Shazam!"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-shazam-fury-of-the-gods-strength-of-hercules-t-shirt/-/A-88356632",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Shazam!, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-visions-the-duel-t-shirt/-/A-84643528",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Shazam!"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-shazam-fury-of-the-gods-power-of-shazam-t-shirt/-/A-88356486",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Shazam!, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-ugly-christmas-the-child-frog-t-shirt/-/A-81923447",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Shazam!"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-shazam-fury-of-the-gods-shazamily-comic-book-cover-t-shirt/-/A-88356556",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Shazam!, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-vintage-art-t-shirt/-/A-85827583",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Shazam!"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/shrek-dear-santa-i-can-explain-short-sleeve-graphic-t-shirt/-/A-1000026362",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Shrek, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-rebel-alliance-birthday-boy-t-shirt/-/A-92232464",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Shrek"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/shrek-have-a-smelly-shrekmas-short-sleeve-graphic-t-shirt/-/A-94155093",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Shrek, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-may-the-fourth-grogu-portrait-distressed-t-shirt/-/A-91900916",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Shrek"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-shrek-merry-shrekmas-t-shirt/-/A-84866988",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Shrek, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-may-the-fourth-classic-characters-t-shirt/-/A-82783393",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Shrek"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-shrek-puss-in-boots-pray-for-mercy-t-shirt/-/A-85153788",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Shrek, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-christmas-have-yourself-a-wookie-t-shirt/-/A-81883226",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Shrek"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-shrek-christmas-smelly-t-shirt/-/A-84867086",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Shrek, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-pixel-millennium-falcon-t-shirt/-/A-85088340",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Shrek"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-shrek-merry-shrekmas-snowflakes-t-shirt/-/A-84867082",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Shrek, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-christmas-at-at-snow-globe-t-shirt/-/A-81948855",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Shrek"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-shrek-christmas-gingerbread-cookies-t-shirt/-/A-84868361",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Shrek, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-yuletide-yub-nub-t-shirt/-/A-90164048",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Shrek"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-shrek-donkey-and-shrek-best-friends-t-shirt/-/A-87530047",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Shrek, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-empire-strikes-back-chewbacca-faux-pocket-logo-t-shirt/-/A-89632940",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Shrek"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-shrek-standing-green-shrek-t-shirt/-/A-87529998",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Shrek, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-last-jedi-bb-8-st-patrick-s-day-pinch-proof-t-shirt/-/A-82612554",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Shrek"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-shrek-big-face-eyebrow-raised-t-shirt/-/A-85025905",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Shrek, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-may-the-fourth-be-with-you-day-t-shirt/-/A-92594676",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Shrek"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-shrek-vest-retro-circle-t-shirt/-/A-82364726",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Shrek, Tops",
+        "url": "https://www.target.com/p/boys-star-wars-andor-rebel-spy-t-shirt/-/A-1003401857",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Shrek"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-shrek-one-of-a-kind-t-shirt/-/A-85088412",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Shrek, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-cute-cartoon-rebels-t-shirt/-/A-85827639",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Shrek"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-shrek-birthday-boy-shrek-t-shirt/-/A-87528899",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Shrek, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-bad-batch-skull-logo-t-shirt/-/A-82750142",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Shrek"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-shrek-happy-easter-cartoon-portraits-t-shirt/-/A-88718483",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Shrek, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-groovy-villains-t-shirt/-/A-86334516",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Shrek"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-shrek-st-patrick-s-day-pinch-me-if-you-dare-t-shirt/-/A-88746591",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Shrek, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-faster-than-you-millennium-falcon-t-shirt/-/A-85827561",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Shrek"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-shrek-get-outta-my-swamp-shrek-face-t-shirt/-/A-87529962",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Shrek, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-the-child-cutest-bounty-in-the-galaxy-t-shirt/-/A-82155051",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Shrek"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-shrek-fairytale-squad-group-shot-t-shirt/-/A-87530024",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Shrek, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-book-of-boba-fett-riding-the-rancor-t-shirt/-/A-86283542",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Shrek"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-shrek-happy-easter-cartoon-portraits-t-shirt/-/A-1002734862",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Shrek, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-christmas-the-child-cute-season-t-shirt/-/A-81965878",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Shrek"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-shrek-ugly-christmas-shrekmas-t-shirt/-/A-84868389",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Shrek, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-the-child-snack-time-t-shirt/-/A-82067274",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Shrek"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-shrek-christmas-santa-claws-puss-in-boots-t-shirt/-/A-84868282",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Shrek, Tops",
+        "url": "https://www.target.com/p/boy-s-husky-star-wars-the-mandalorian-grogu-din-djarin-team/-/A-87573095",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Shrek"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-shrek-silent-night-smelly-night-t-shirt/-/A-84867099",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Shrek, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-valentine-s-day-the-child-precious-cargo-t-shirt/-/A-82342397",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Shrek"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sing-2-miss-crawly-your-destination-is-on-the-right-t-shirt/-/A-86051682",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sing 2, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-tales-of-the-jedi-ombre-group-t-shirt/-/A-88404301",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sing 2"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-smurfs-short-sleeve-graphic-t-shirt/-/A-1004152349",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Smurfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-obi-wan-kenobi-vader-and-kenobi-face-off-t-shirt/-/A-86751245",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Smurfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-smurfs-short-sleeve-graphic-t-shirt/-/A-1004152527",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Smurfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-join-darth-vader-to-rule-t-shirt/-/A-86336087",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Smurfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-smurfs-short-sleeve-graphic-t-shirt/-/A-1004152545",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Smurfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-ahsoka-fear-in-you-t-shirt/-/A-82066886",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Smurfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-smurfs-short-sleeve-graphic-t-shirt/-/A-1004152365",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Smurfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-bo-katan-reveal-of-the-heiress-t-shirt/-/A-82067855",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Smurfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-smurfs-short-sleeve-graphic-t-shirt/-/A-1004152391",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Smurfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-st-patrick-s-day-grogu-lucky-one-t-shirt/-/A-85887366",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Smurfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-smurfs-short-sleeve-graphic-t-shirt/-/A-1004152431",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Smurfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-visions-panels-t-shirt/-/A-84644443",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Smurfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-the-smurfs-the-blues-coach-t-shirt/-/A-1004395855",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Smurfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-color-block-character-heads-t-shirt/-/A-1001940535",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Smurfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-smurfs-short-sleeve-graphic-t-shirt/-/A-1004152333",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Smurfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-easter-stormtroopers-with-ears-line-up-poster-t-shirt/-/A-1001939774",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Smurfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-the-smurfs-smurfy-easter-t-shirt/-/A-1002734959",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Smurfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-last-jedi-christmas-snow-porg-t-shirt/-/A-81883457",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Smurfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-smurfs-short-sleeve-graphic-t-shirt/-/A-1004152302",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Smurfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-valentine-s-day-the-child-xoxo-bassinet-t-shirt/-/A-82342282",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Smurfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-the-smurfs-smurfette-love-you-t-shirt/-/A-1001935550",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Smurfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-christmas-the-child-merry-and-cute-t-shirt/-/A-81966044",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Smurfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-the-smurfs-listen-to-the-coach-t-shirt/-/A-1004382508",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Smurfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-ahsoka-survivor-of-order-66-t-shirt/-/A-82067118",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Smurfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-the-smurfs-free-hugs-t-shirt/-/A-1001935709",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Smurfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-christmas-may-you-find-the-droids-t-shirt/-/A-84868401",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Smurfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-the-smurfs-love-t-shirt/-/A-1001935595",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Smurfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-visions-alien-logo-t-shirt/-/A-84644531",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Smurfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-snow-white-and-the-seven-dwarfs-mining-camp-dwarfs-mine-t-shirt/-/A-91642352",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Snow White & the Seven Dwarfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-last-jedi-good-and-evil-t-shirt/-/A-82360260",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Snow White & the Seven Dwarfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-snow-white-and-the-seven-dwarves-birthday-grump-t-shirt/-/A-87529133",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Snow White & the Seven Dwarfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-death-star-may-the-4th-be-with-you-t-shirt/-/A-83026572",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Snow White & the Seven Dwarfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-snow-white-and-the-seven-dwarves-athletic-grumpy-performance-tee/-/A-87529196",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Snow White & the Seven Dwarfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-vader-striped-logo-t-shirt/-/A-89632981",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Snow White & the Seven Dwarfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-snow-white-and-the-seven-dwarves-grumpy-since-37-performance-tee/-/A-87529398",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Snow White & the Seven Dwarfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-tales-of-the-jedi-count-dooku-the-coming-darkness-t-shirt/-/A-88404219",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Snow White & the Seven Dwarfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-snow-white-and-the-seven-dwarfs-grumpy-i-can-t-even-t-shirt/-/A-91642527",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Snow White & the Seven Dwarfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-valentine-s-day-yoda-best-one-for-me-t-shirt/-/A-85778800",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Snow White & the Seven Dwarfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-snow-white-and-the-seven-dwarfs-i-m-grumpy-cause-you-re-dopey-t-shirt/-/A-91642505",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Snow White & the Seven Dwarfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-obi-wan-kenobi-two-suns-and-kenobi-on-the-horizon-t-shirt/-/A-86826926",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Snow White & the Seven Dwarfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-snow-white-and-the-seven-dwarves-grumpy-one-t-shirt/-/A-85154098",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Snow White & the Seven Dwarfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-father-s-day-grogu-and-mando-t-shirt/-/A-83609304",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Snow White & the Seven Dwarfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-snow-white-and-the-seven-dwarfs-classic-faces-distress-t-shirt/-/A-1002993771",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Snow White & the Seven Dwarfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-ewoks-save-our-systems-retro-t-shirt/-/A-85904398",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Snow White & the Seven Dwarfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-snow-white-and-the-seven-dwarfs-i-m-bringing-grumpy-back-t-shirt/-/A-91642417",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Snow White & the Seven Dwarfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-bo-katan-we-got-this-t-shirt/-/A-82067658",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Snow White & the Seven Dwarfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-snow-white-and-the-seven-dwarfs-with-grumpy-t-shirt/-/A-1002996162",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Snow White & the Seven Dwarfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-rise-of-skywalker-tropical-x-wing-t-shirt/-/A-85270634",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Snow White & the Seven Dwarfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-snow-white-and-the-seven-dwarfs-grumpy-diamond-mine-tour-t-shirt/-/A-91642237",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Snow White & the Seven Dwarfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-force-of-ancient-enemies-t-shirt/-/A-82066737",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Snow White & the Seven Dwarfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-snow-white-and-the-seven-dwarves-happy-one-t-shirt/-/A-85026065",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Snow White & the Seven Dwarfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-rebels-star-wars-fan-club-t-shirt/-/A-89632913",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Snow White & the Seven Dwarfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-snow-white-and-the-seven-dwarfs-lucky-seven-t-shirt/-/A-91642467",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Snow White & the Seven Dwarfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-galaxy-of-adventures-rebel-heroes-t-shirt/-/A-86378517",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Snow White & the Seven Dwarfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-snow-white-and-the-seven-dwarfs-hashtag-dopey-t-shirt/-/A-91642321",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Snow White & the Seven Dwarfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-christmas-the-child-gifts-galore-t-shirt/-/A-81966175",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Snow White & the Seven Dwarfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-snow-white-and-the-seven-dwarves-squad-goals-t-shirt/-/A-87529065",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Snow White & the Seven Dwarfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-last-jedi-bb-8-just-roll-t-shirt/-/A-85327085",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Snow White & the Seven Dwarfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-snow-white-and-the-seven-dwarves-grumpy-since-37-t-shirt/-/A-87529168",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Snow White & the Seven Dwarfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-galactic-glow-collage-t-shirt/-/A-85827718",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Snow White & the Seven Dwarfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-snow-white-and-the-seven-dwarfs-grumpy-as-usual-distressed-t-shirt/-/A-91642485",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Snow White & the Seven Dwarfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-obi-wan-kenobi-two-suns-and-kenobi-outline-t-shirt/-/A-86826439",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Snow White & the Seven Dwarfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-snow-white-and-the-seven-dwarves-sleepy-one-t-shirt/-/A-85026069",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Snow White & the Seven Dwarfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-bo-katan-nite-owl-helmets-t-shirt/-/A-82067611",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Snow White & the Seven Dwarfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-snow-white-and-the-seven-dwarfs-grumpy-expressions-t-shirt/-/A-91642449",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Snow White & the Seven Dwarfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-grogu-and-din-djarin-may-the-fourth-be-with-you-t-shirt/-/A-89039374",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Snow White & the Seven Dwarfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-snow-white-and-the-seven-dwarfs-grumpy-s-face-t-shirt/-/A-1002995949",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Snow White & the Seven Dwarfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-visions-stormtroopers-in-action-t-shirt/-/A-84644307",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Snow White & the Seven Dwarfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-snow-white-and-the-seven-dwarfs-classic-doc-t-shirt/-/A-1002994110",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Snow White & the Seven Dwarfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-floral-hibiscus-logo-t-shirt/-/A-85904513",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Snow White & the Seven Dwarfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-snow-white-and-the-seven-dwarfs-grumpy-mad-skills-t-shirt/-/A-1002996587",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Snow White & the Seven Dwarfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-bossk-yellow-text-stack-t-shirt/-/A-85302937",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Snow White & the Seven Dwarfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-snow-white-and-the-seven-dwarfs-grumpy-anywhere-but-here-t-shirt/-/A-1002994671",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Snow White & the Seven Dwarfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-galaxy-of-adventures-dark-army-t-shirt/-/A-85827866",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Snow White & the Seven Dwarfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-snow-white-and-the-seven-dwarfs-sleepy-morning-t-shirt/-/A-91642579",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Snow White & the Seven Dwarfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-last-jedi-porg-st-patrick-s-day-pinch-proof-t-shirt/-/A-82612578",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Snow White & the Seven Dwarfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-snow-white-and-the-seven-dwarfs-with-dopey-t-shirt/-/A-1002996206",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Snow White & the Seven Dwarfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-force-awakens-christmas-bb-8-merry-t-shirt/-/A-81951110",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Snow White & the Seven Dwarfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-snow-white-and-the-seven-dwarfs-doc-big-face-t-shirt/-/A-1002997249",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Snow White & the Seven Dwarfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-easter-stormtrooper-floral-helmet-fill-t-shirt/-/A-82574489",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Snow White & the Seven Dwarfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-snow-white-and-the-seven-dwarfs-grumpy-my-many-moods-t-shirt/-/A-1002996487",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Snow White & the Seven Dwarfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-obi-wan-kenobi-darth-vader-vs-kenobi-galactic-battle-poster-t-shirt/-/A-86825372",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Snow White & the Seven Dwarfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-snow-white-and-the-seven-dwarfs-forest-friends-be-kind-to-all-kinds-t-shirt/-/A-1002995870",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Snow White & the Seven Dwarfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-bad-batch-clone-force-99-co-t-shirt/-/A-82750168",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Snow White & the Seven Dwarfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-snow-white-and-the-seven-dwarfs-grumpy-do-i-look-like-i-care-t-shirt/-/A-1002995980",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Snow White & the Seven Dwarfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-visions-samurai-performance-tee/-/A-84644586",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Snow White & the Seven Dwarfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-snow-white-and-the-seven-dwarfs-fairest-goth-t-shirt/-/A-1002995927",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Snow White & the Seven Dwarfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-the-child-mando-little-bounty-t-shirt/-/A-82161875",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Snow White & the Seven Dwarfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-snow-white-and-the-seven-dwarfs-heigh-ho-heigh-ho-the-fairest-of-them-all-t-shirt/-/A-1002997032",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Snow White & the Seven Dwarfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-father-s-day-mando-grogu-love-t-shirt/-/A-83609351",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Snow White & the Seven Dwarfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-snow-white-and-the-seven-dwarfs-princess-collage-t-shirt/-/A-1002995275",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Snow White & the Seven Dwarfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-grogu-dad-s-little-bounty-of-joy-t-shirt/-/A-86503373",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Snow White & the Seven Dwarfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-snow-white-and-the-seven-dwarfs-floral-fairest-one-of-all-t-shirt/-/A-91642542",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Snow White & the Seven Dwarfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-grogu-and-din-djarin-dadalorian-banner-sketch-t-shirt/-/A-86503379",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Snow White & the Seven Dwarfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-snow-white-and-the-seven-dwarves-grumps-box-logo-t-shirt/-/A-87528915",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Snow White & the Seven Dwarfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-book-of-boba-fett-cad-bane-rancor-and-boba-standoff-t-shirt/-/A-86283641",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Snow White & the Seven Dwarfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-snow-white-and-the-seven-dwarfs-today-i-feel-faces-t-shirt/-/A-1002997054",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Snow White & the Seven Dwarfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-obi-wan-kenobi-long-live-the-jedi-vintage-crest-t-shirt/-/A-86827149",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Snow White & the Seven Dwarfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-snow-white-and-the-seven-dwarfs-periodic-table-multicolor-t-shirt/-/A-1002996741",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Snow White & the Seven Dwarfs, Tops",
+        "url": "https://www.target.com/p/boy-s-husky-star-wars-father-s-day-yoda-best/-/A-87573113",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Snow White & the Seven Dwarfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-snow-white-and-the-seven-dwarfs-sleepy-my-many-moods-t-shirt/-/A-1002996431",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Snow White & the Seven Dwarfs, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-grogu-st-patrick-s-day-force-of-luck-t-shirt/-/A-82611982",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Snow White & the Seven Dwarfs"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-solid-light-taco-lettuce-pray-short-sleeve-graphic-t-shirt/-/A-1003969607",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Solid Light, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-st-patrick-s-day-ahsoka-tano-and-grogu-t-shirt/-/A-88746323",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Solid Light"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-classic-characters-3-pack-boy-s-crew-neck-short-sleeve-t-shirt-combo-set/-/A-92354410",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-celtic-frame-luke-leia-t-shirt/-/A-85827563",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-boys-3-pack-set-includes-two-tees-and-mesh-shorts/-/A-90126003",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-ahsoka-tano-scenes-t-shirt/-/A-89675632",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sega-sonic-the-hedgehog-knuckles-tails-3-pack-graphic-t-shirts-red-blue-yellow-little-kid-to-big-kid/-/A-85001207",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-since-1977-r2-d2-t-shirt/-/A-89632797",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-don-t-stop-2-pack-boy-s-crew-neck-short-sleeve-performance-tee-combo-set/-/A-92407348",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-tales-of-the-jedi-togruta-poster-t-shirt/-/A-88404145",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-characters-kanji-boy-s-4-pack-t-shirt-set/-/A-1000860379",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-tales-of-the-jedi-ahsoka-tano-lightsaber-scenes-t-shirt/-/A-88404554",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/seven-times-six-sonic-the-hedgehog-boy-s-green-eyes-graphic-print-kids-short-sleeve-t-shirt-grey/-/A-93805564",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-grogu-and-the-alamites-t-shirt/-/A-89034570",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-modern-snowy-character-collage-crew-neck-long-sleeve-boys-black-tee/-/A-88317489",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-darth-vader-dot-art-t-shirt/-/A-89632829",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-characters-kanji-boy-s-4-pack-t-shirt-set/-/A-1001698461",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-obi-wan-kenobi-darth-vader-vs-kenobi-silhouette-lightsaber-explosion-t-shirt/-/A-86827124",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-sonic-knuckles-boy-s-black-long-sleeve-shirt/-/A-86316234",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-book-of-boba-fett-the-hutt-twins-t-shirt/-/A-85788302",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/youth-boys-sonic-3-pc-hoodie-jogger-t-shirt-combo/-/A-90021880",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-st-patrick-s-day-din-djarin-green-is-my-lucky-color-t-shirt/-/A-88746384",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-team-up-gear-up-youth-athletic-heather-crew-neck-long-sleeve-sweatshirt/-/A-1003810078",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-happy-birthday-mando-and-grogu-t-shirt/-/A-89404995",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedghog-sonic-big-boys-t-shirt-kids/-/A-91814860",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-ahsoka-tano-jedi-collage-t-shirt/-/A-82068084",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-gameon-sega-video-game-boys-t-shirt-kids/-/A-91814869",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-ewok-endor-forest-feather-t-shirt/-/A-86335411",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-boy-s-pop-art-sonic-kids-short-sleeve-t-shirt/-/A-92507078",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-tie-fighter-pew-pew-pew-performance-tee/-/A-1001940070",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sega-sonic-the-hedgehog-3-pack-graphic-t-shirts-blue-gray-black/-/A-87274726",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-darth-vader-st-patrick-s-day-your-lack-of-green-disturbing-performance-tee/-/A-85894924",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-sonic-tails-boy-s-white-t-shirt/-/A-86394165",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-clone-wars-group-shot-triple-threat-performance-tee/-/A-89597541",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/youth-boys-sonic-the-hedgehog-blue-short-sleeve-graphic-tee/-/A-84251903",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-retro-darth-vader-may-the-fourth-be-with-you-performance-tee/-/A-89038945",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sega-sonic-the-hedgehog-checkers-face-youth-royal-blue-graphic-tee/-/A-85355153",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-clone-wars-yoda-big-face-performance-tee/-/A-89597524",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-modern-remix-youth-boy-s-navy-blue-graphic-tee/-/A-84941617",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-mother-s-day-mom-runs-galaxy-performance-tee/-/A-91342858",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-modern-character-youth-charcoal-gray-graphic-tee/-/A-84941317",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-visions-the-force-is-strong-performance-tee/-/A-84644278",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-modern-character-youth-boy-s-black-graphic-tee/-/A-84940999",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-visions-the-twins-performance-tee/-/A-84644650",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-video-game-character-youth-boys-red-graphic-tee/-/A-84941079",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-christmas-sithmas-stormtroopers-t-shirt/-/A-81882923",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/youth-boys-sonic-retro-video-game-graphic-tee/-/A-88886919",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-book-of-boba-fett-fennec-and-boba-classic-circle-t-shirt/-/A-85845765",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/bioworld-sonic-the-hedgehog-mosaic-modern-character-art-youth-red-short-sleeve-tee/-/A-91530252",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-the-child-toocute-candy-hearts-t-shirt/-/A-82158314",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/bioworld-sonic-the-hedgehog-running-pose-pop-dimension-graphic-youth-boys-white-t-shirt/-/A-87057074",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-rise-of-skywalker-epic-poster-t-shirt/-/A-85827735",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-classic-animated-character-30th-anniversary-classic-charcoal-tee/-/A-84939367",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-st-patrick-s-day-yoda-good-to-be-t-shirt/-/A-82188909",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/bioworld-sonic-the-hedgehog-tails-running-pose-pop-dimension-graphic-youth-boys-black-t-shirt/-/A-87057119",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-tis-the-season-jedi-brother-t-shirt/-/A-84867853",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/bioworld-sonic-the-hedgehog-unstoppable-crew-pop-dimension-graphic-youth-boys-royal-blue-t-shirt/-/A-87057226",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-rise-of-skywalker-vintage-galaxy-tour-t-shirt/-/A-85827687",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-sega-pixelated-youth-boys-short-sleeve-graphic-t-shirt/-/A-84005127",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-christmas-the-child-wreath-t-shirt/-/A-81966120",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-classic-boys-t-shirt/-/A-83709858",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-dad-you-are-strong-like-a-jedi-t-shirt/-/A-82783414",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-gotta-go-fast-crew-neck-short-sleeve-boy-s-colorblock-t-shirt/-/A-93971836",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-visions-black-and-white-poster-t-shirt/-/A-84644559",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-sonic-the-hedgehog-6th-birthday-t-shirt/-/A-1004128471",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-boba-fett-revealed-t-shirt/-/A-82179187",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-sonic-the-hedgehog-shadow-6th-birthday-t-shirt/-/A-1004128503",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-rise-of-skywalker-r2-d2-text-t-shirt/-/A-84634687",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-distressed-shadow-bursting-out-youth-black-crew-neck-short-sleeve-t-shirt/-/A-1003429571",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-visions-the-twins-faces-t-shirt/-/A-84644486",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-sonic-the-hedgehog-shadow-7th-birthday-t-shirt/-/A-1004128485",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-empire-strikes-back-crayon-outline-t-shirt/-/A-86339341",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-sonic-the-hedgehog-shadow-action-t-shirt/-/A-1004128509",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-visions-star-waver-t-shirt/-/A-84644445",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/bioworld-sonic-the-hedgehog-classic-red-and-black-dot-art-youth-red-short-sleeve-tee/-/A-93325629",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-distressed-lack-of-candy-vader-t-shirt/-/A-89929664",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sonic-the-hedgehog-shamrock-rings-t-shirt/-/A-1002301733",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-galactic-empire-birthday-boy-t-shirt/-/A-92232472",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-sonic-the-hedgehog-shadow-stack-t-shirt/-/A-1004546199",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-may-the-force-retro-77-t-shirt/-/A-85270605",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sonic-the-hedgehog-team-in-action-t-shirt/-/A-1003021672",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-take-me-to-a-far-away-galaxy-t-shirt/-/A-85132535",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-warped-checkered-background-crew-neck-short-sleeve-gray-heather-youth-t-shirt/-/A-90064320",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-father-s-day-grogu-retro-he-goes-t-shirt/-/A-83609292",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-chili-dogs-all-over-print-youth-tofu-crew-neck-short-sleeve-t-shirt/-/A-1004470694",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-leia-never-tell-me-the-odds-t-shirt/-/A-85827469",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-modern-boys-black-crew-neck-short-sleeve-t-shirt/-/A-1004429904",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-stormtrooper-4-years-t-shirt/-/A-92232495",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-golden-rings-boy-s-black-long-sleeve-shirt/-/A-86316370",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-r2-d2-3-years-t-shirt/-/A-92232567",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/bioworld-sonic-the-hedgehog-mosaic-modern-character-art-youth-heather-gray-short-sleeve-tee/-/A-90370329",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-yoda-celebrate-you-must-t-shirt/-/A-92233024",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-sonic-the-hedgehog-classic-trio-pose-t-shirt/-/A-1004546340",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-r2-d2-3rd-birthday-t-shirt/-/A-92232563",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-sonic-the-hedgehog-8th-birthday-t-shirt/-/A-1004128419",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-birthday-boy-ewok-face-t-shirt/-/A-92232404",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/checkered-sonic-the-hedgehog-tails-and-knuckles-youth-boy-s-white-t-shirt/-/A-87143661",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-ewok-birthday-kid-t-shirt/-/A-92232272",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-classic-characters-boy-s-crew-neck-short-sleeve-t-shirt/-/A-93062883",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-tales-of-the-jedi-yaddle-poster-t-shirt/-/A-88404253",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/bioworld-sonic-the-hedgehog-classic-red-and-black-dot-art-youth-heather-gray-short-sleeve-tee/-/A-93325634",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boys-star-wars-andor-tie-fighter-pilot-escape-t-shirt/-/A-1003401795",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/pop-colors-sonic-the-hedgehog-youth-boys-navy-t-shirt/-/A-87057013",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boys-star-wars-andor-tie-fighter-pilot-helmet-t-shirt/-/A-1003401648",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-modern-characters-with-logo-youth-boy-s-royal-blue-t-shirt/-/A-87481973",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-tales-of-the-jedi-count-dooku-and-qui-gon-jinn-duo-t-shirt/-/A-88404324",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-sonic-the-hedgehog-shadow-8th-birthday-t-shirt/-/A-1004128497",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-galactic-empire-birthday-kid-t-shirt/-/A-92232451",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-sonic-the-hedgehog-shadow-text-frame-t-shirt/-/A-1004546249",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-come-to-the-dark-side-t-shirt/-/A-87417095",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-sonic-the-hedgehog-classic-poses-t-shirt/-/A-1004546298",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-ewok-4th-birthday-t-shirt/-/A-92232686",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-sonic-the-hedgehog-9th-birthday-t-shirt/-/A-1004128464",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-last-jedi-millennium-falcon-pixel-t-shirt/-/A-85391223",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/bioworld-sonic-the-hedgehog-mosaic-modern-character-art-youth-navy-blue-short-sleeve-tee/-/A-93326717",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-darth-vader-and-luke-noooo-t-shirt/-/A-89632850",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/seven-times-six-sonic-the-hedgehog-shirt-for-boys-glow-in-the-dark-neon-graphic-t-shirt-black/-/A-1001033608",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-empire-strikes-back-princess-leia-i-love-you-t-shirt/-/A-89633148",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-sonic-the-hedgehog-knuckles-portrait-t-shirt/-/A-1004563817",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-visions-the-twins-comic-panels-t-shirt/-/A-84644244",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-sonic-the-hedgehog-all-get-you-soccer-t-shirt/-/A-1004387048",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boys-star-wars-andor-k-2so-and-b2emo-dead-or-alive-t-shirt/-/A-1003401883",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-sonic-the-hedgehog-shadow-portrait-t-shirt/-/A-1004563861",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boys-star-wars-andor-kx-droid-t-shirt/-/A-1003401695",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-30th-anniversary-classic-black-tee/-/A-84939383",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boys-star-wars-andor-rebellions-are-built-on-hope-t-shirt/-/A-1003401618",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/bioworld-sonic-the-hedgehog-classic-red-and-black-dot-art-youth-white-short-sleeve-tee/-/A-90240140",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-han-solo-lucky-rebel-t-shirt/-/A-1002301631",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-classic-sonic-shadow-cut-out-boy-s-royal-blue-t-shirt/-/A-88313738",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-tales-of-the-jedi-lightsaber-jedis-t-shirt/-/A-88404468",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-sonic-the-hedgehog-faster-than-the-speed-of-sound-t-shirt/-/A-1004563462",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-not-droids-looking-for-t-shirt/-/A-86335835",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-sonic-the-hedgehog-shadow-ultimate-power-t-shirt/-/A-1004546533",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-santa-darth-vader-t-shirt/-/A-1001939526",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-gotta-go-fast-boy-s-athletic-heather-t-shirt/-/A-86316308",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boys-star-wars-andor-rebel-spy-badge-t-shirt/-/A-1003401516",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-characters-squares-boy-s-athletic-heather-t-shirt/-/A-86316540",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-grogu-frog-present-t-shirt/-/A-90164188",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-sonic-s-the-name-speed-s-my-game-boy-s-black-t-shirt/-/A-86394177",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boys-star-wars-millennium-falcon-77-vintage-stripes-t-shirt/-/A-1004407502",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-modern-boys-blue-crew-neck-short-sleeve-t-shirt/-/A-1004434578",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boys-star-wars-andor-cassian-bold-rebels-t-shirt/-/A-1003401571",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-prime-new-yoke-city-characters-crew-neck-short-sleeve-boy-s-t-shirt/-/A-89764334",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-young-jedi-adventures-kai-and-nubs-jedi-01-t-shirt/-/A-89580906",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-sonic-with-ring-boy-s-black-t-shirt/-/A-85353556",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-ewok-8th-birthday-t-shirt/-/A-92232669",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-classic-olgilvie-maurice-boy-s-royal-blue-t-shirt/-/A-87945218",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-galaxy-of-adventures-yoda-the-jedi-master-t-shirt/-/A-89845768",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-sonic-character-art-boy-s-royal-blue-t-shirt/-/A-86103809",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boys-star-wars-andor-cassian-rebel-spy-t-shirt/-/A-1003402060",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-modern-boys-black-crew-neck-short-sleeve-t-shirt/-/A-1004429930",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boys-star-wars-yoda-free-words-of-wisdom-t-shirt/-/A-1004412730",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/tails-never-fails-youth-boys-royal-blue-t-shirt/-/A-87057030",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-book-of-boba-fett-garsa-fwip-sanctuary-t-shirt/-/A-85751766",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-sonic-the-hedgehog-trio-group-shot-t-shirt/-/A-1004563489",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-din-djarin-and-bo-katan-kryze-this-is-the-way-t-shirt/-/A-89034573",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-sonic-the-hedgehog-ultimate-power-duo-2-pack-t-shirts/-/A-1003722815",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-millennium-falcon-stay-galactic-t-shirt/-/A-85827641",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-tails-i-can-do-it-boy-s-black-t-shirt/-/A-86316361",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-book-of-boba-fett-rancor-and-boba-t-shirt/-/A-85788366",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-sonic-the-hedgehog-thumbs-up-t-shirt/-/A-1004546221",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-best-egg-hunt-duo-t-shirt/-/A-88718287",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-prime-logo-crew-neck-short-sleeve-boy-s-black-t-shirt/-/A-89764253",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-floral-darth-vader-with-tie-fighters-t-shirt/-/A-85904347",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-speed-zone-tape-and-characters-boy-s-royal-blue-t-shirt/-/A-85353759",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-visions-lop-profile-t-shirt/-/A-84643918",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-vs-eggman-crew-neck-short-sleeve-boy-s-black-t-shirt/-/A-89258424",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-the-child-this-is-my-good-side-t-shirt/-/A-82162809",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-sonic-the-hedgehog-shadow-9th-birthday-t-shirt/-/A-1004128480",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boys-star-wars-andor-empire-tie-avenger-pilot-t-shirt/-/A-1003401682",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/superpowered-echidna-sonic-the-hedgehog-youth-boys-red-t-shirt/-/A-87056995",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-c-3po-and-r2-d2-presents-you-re-looking-for-t-shirt/-/A-86336810",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-sonic-modern-mosaic-art-crew-neck-short-sleeve-boys-black-t-shirt/-/A-88920548",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-ewok-2nd-birthday-t-shirt/-/A-92232763",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-game-over-pixel-characters-boy-s-black-t-shirt/-/A-86394255",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-young-jedi-adventures-character-boxes-t-shirt/-/A-89580497",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-text-logo-boy-s-charcoal-t-shirt/-/A-86394241",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-the-book-of-boba-fett-krrsantan-can-t-get-away-from-me-t-shirt/-/A-85845955",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sonic-the-hedgehog-be-my-valentine-t-shirt/-/A-1001934997",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boys-star-wars-jar-jar-binks-collage-t-shirt/-/A-1004407485",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sonic-the-hedgehog-amy-red-balloon-t-shirt/-/A-1001934710",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-star-wars-tales-of-the-jedi-sabretooth-scenes-t-shirt/-/A-88404396",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sonic-the-hedgehog-classic-pose-t-shirt/-/A-1003021685",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-husky-star-wars-chasing-the-falcon/-/A-87573050",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sonic-the-hedgehog-pink-and-blue-in-the-fast-lane-t-shirt/-/A-1001934738",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-husky-star-wars-movie-logo/-/A-87573239",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sonic-the-hedgehog-knuckles-is-my-valentine-t-shirt/-/A-1001934702",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boys-star-wars-death-star-streaks-t-shirt/-/A-1004413879",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-youth-boys-short-sleeve-t-shirt/-/A-84705700",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/star-wars-darth-vader-pullover-t-shirt-little-kid-to-big-kid/-/A-88347626",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-sonic-the-hedgehog-game-on-pose-t-shirt/-/A-1004546290",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/star-wars-the-child-2-pack-t-shirts-little-kid-to-big-kid/-/A-1000133618",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-sonic-the-hedgehog-love-in-the-fast-lane-t-shirt/-/A-1001934977",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/star-wars-darth-vader-yoda-birthday-t-shirt-toddler-to-big-kid/-/A-87196289",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Star Wars"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-classic-bioworld-sonic-classic-w-tails-star-logo-artwork-on-white-short-sleeve-youth-t-shirt/-/A-1005196852",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-steven-universe-star-t-shirt/-/A-79783191",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Steven Universe, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Steven Universe"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-modern-boys-blue-crew-neck-short-sleeve-t-shirt/-/A-1004434572",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-steven-universe-quartz-t-shirt/-/A-85089678",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Steven Universe, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Steven Universe"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-classic-bioworld-sonic-classic-character-group-artwork-on-white-short-sleeve-youth-t-shirt/-/A-1005196992",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/boy-s-steven-universe-peridot-good-to-be-green-t-shirt/-/A-90778546",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Steven Universe, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Steven Universe"
         }
       },
       {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-classic-bioworld-sonic-classic-star-rings-portrait-on-royal-blue-short-sleeve-youth-t-shirt/-/A-1005197069",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sonic the Hedgehog, Tops",
+        "url": "https://www.target.com/p/kids-star-wars-imperial-stormtroopers-join-t-shirt/-/A-1002856489",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stormtrooper, Tops",
         "filters": {
-          "brand": "Sonic the Hedgehog"
+          "brand": "Stormtrooper"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-soul-cat-purpose-t-shirt/-/A-82179362",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Soul, Tops",
+        "url": "https://www.target.com/p/kids-star-wars-stormtroopers-soldiers-are-made-not-born-t-shirt/-/A-1002856880",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stormtrooper, Tops",
         "filters": {
-          "brand": "Soul"
+          "brand": "Stormtrooper"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-soul-jazz-cat-t-shirt/-/A-82177987",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Soul, Tops",
+        "url": "https://www.target.com/p/boys-stranger-things-friends-and-fireworks-t-shirt/-/A-1004397722",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Soul"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-soul-rainbow-cat-t-shirt/-/A-82177761",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Soul, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-bold-logo-t-shirt/-/A-80328851",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Soul"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-soul-22-meh-badge-t-shirt/-/A-82178489",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Soul, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-hellfire-club-costume-t-shirt/-/A-87115441",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Soul"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/space-jam-looney-tunes-3-pack-graphic-t-shirts-little-kid-to-big-kid/-/A-87043157",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-starry-bike-ride-t-shirt/-/A-80331493",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/space-jam-2-welcome-to-the-jam-youth-charcoal-gray-graphic-tee/-/A-84941922",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-camp-know-where-costume-t-shirt/-/A-80328890",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/bioworld-space-jam-1996-collegiate-text-with-bugs-bunny-and-daffy-duck-youth-royal-blue-graphic-tee/-/A-87614742",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-retro-piggyback-poster-t-shirt/-/A-87398415",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/navy-blue-splatter-print-space-jam-2-tune-squad-youth-boys-graphic-tee/-/A-84942037",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-demogorgon-infrared-t-shirt/-/A-80331880",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/space-jam-2-tune-squad-characters-youth-athletic-gray-graphic-tee/-/A-84940354",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-retro-hawkins-bikers-t-shirt/-/A-80329314",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/bioworld-space-jam-1996-bugs-bunny-with-tune-squad-warped-graphic-youth-royal-blue-graphic-tee/-/A-87614715",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-vintage-comic-book-cover-t-shirt/-/A-80331866",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/space-jam-2-tune-squad-logo-youth-athletic-gray-graphic-tee/-/A-84942270",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-friends-don-t-lie-character-pose-t-shirt/-/A-80331689",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/space-jam-2-welcome-to-the-slam-blue-print-youth-boys-graphic-t-shirt/-/A-83888524",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-hawkins-high-school-go-tigers-t-shirt/-/A-80328665",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/bioworld-space-jam-bugs-bunny-youth-navy-blue-crew-neck-tee/-/A-88032987",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-white-hellfire-club-rockstar-eddie-munson-t-shirt/-/A-87398503",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-space-jam-a-new-legacy-pete-tunes-vs-goons-t-shirt/-/A-83439792",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-upside-down-logo-t-shirt/-/A-80331504",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-space-jam-a-new-legacy-goon-squad-star-t-shirt/-/A-83437033",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-group-shot-8-bit-box-up-t-shirt/-/A-80331957",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/space-jam-looney-tunes-cartoon-youth-boys-blue-shirt/-/A-84713964",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-scoops-ahoy-nautical-logo-t-shirt/-/A-80331757",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-space-jam-a-new-legacy-dom-james-tune-squad-t-shirt/-/A-83441567",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-don-t-lie-logo-style-t-shirt/-/A-80331709",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/space-jam-serious-bugs-bunny-boy-s-royal-blue-t-shirt/-/A-85729128",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-two-planes-collide-t-shirt/-/A-87398060",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-space-jam-a-new-legacy-goon-squad-boxes-t-shirt/-/A-83439591",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-scenes-collage-war-is-coming-to-hawkins-t-shirt/-/A-87400751",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/space-jam-2-a-new-legacy-tune-squad-grey-youth-boys-short-sleeve-t-shirt/-/A-83888499",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-four-friends-rift-apocalypse-poster-t-shirt/-/A-86797687",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/space-jam-daffy-bugs-and-taz-basketball-match-boy-s-royal-blue-t-shirt/-/A-85352719",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-title-logo-faded-t-shirt/-/A-80331700",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-space-jam-a-new-legacy-tune-squad-basketball-logo-t-shirt/-/A-83439618",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-retro-the-dive-poster-t-shirt/-/A-87400221",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/space-jam-1996-bugs-bunny-with-logo-youth-boy-s-athletic-heather-t-shirt/-/A-87450667",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-christmas-light-message-t-shirt/-/A-80331570",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/bioworld-space-jam-1996-tune-squad-character-group-youth-boys-athletic-heather-gray-t-shirt/-/A-87057127",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-retro-dear-billy-poster-t-shirt/-/A-87399129",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-space-jam-short-sleeve-t-shirt-toddler-boy-to-youth-boy/-/A-84706390",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-autumn-logo-t-shirt/-/A-87397806",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/space-jam-bugs-bunny-face-boy-s-charcoal-tshirt/-/A-86383631",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-vecna-the-upside-down-monster-t-shirt/-/A-87400393",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-space-jam-a-new-legacy-full-tune-squad-t-shirt/-/A-83439293",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-vecna-dark-stare-eye-shot-t-shirt/-/A-87399807",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/space-jam-bugs-bunny-and-daffy-duck-outline-boy-s-navy-blue-t-shirt/-/A-86103909",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-test-subject-eleven-t-shirt/-/A-87398207",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/youth-boys-space-jam-short-sleeve-t-shirt/-/A-86183734",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-it-s-shmackin-superboy-pizza-t-shirt/-/A-87397548",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/space-jam-characters-and-logo-b0y-s-royal-blue-t-shirt/-/A-86448943",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-retro-massacre-at-hawkins-lab-t-shirt/-/A-87399266",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/space-jam-lola-and-bugs-basketball-match-boy-s-royal-blue-t-shirt/-/A-85352282",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-creel-household-in-the-upside-down-t-shirt/-/A-87401014",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-space-jam-a-new-legacy-classic-logo-t-shirt/-/A-83440443",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-red-vecna-stacked-t-shirt/-/A-87399624",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-space-jam-a-new-legacy-lola-bunny-it-s-game-time-t-shirt/-/A-83437198",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-eddie-munson-and-his-guitar-t-shirt/-/A-87399242",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-space-jam-a-new-legacy-it-s-lit-t-shirt/-/A-83438196",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-palace-arcade-t-shirt/-/A-87459982",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-space-jam-a-new-legacy-bugs-bunny-mix-tapes-t-shirt/-/A-83438543",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-running-up-that-hill-t-shirt/-/A-87398063",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-space-jam-a-new-legacy-al-g-rhythm-t-shirt/-/A-83441618",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-retro-nina-project-poster-t-shirt/-/A-87398076",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-space-jam-a-new-legacy-al-g-rhythm-goon-squad-t-shirt/-/A-83439947",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-hellfire-club-dungeon-master-eddie-t-shirt/-/A-87400058",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-space-jam-a-new-legacy-tune-squad-music-t-shirt/-/A-83437155",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-orange-logo-t-shirt/-/A-87399874",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-space-jam-a-new-legacy-marvin-the-martian-boom-box-t-shirt/-/A-83437875",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-orange-group-shot-boxed-up-t-shirt/-/A-87397674",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-space-jam-a-new-legacy-lola-bunny-dj-t-shirt/-/A-83441289",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-vhs-rockstar-eddie-munson-t-shirt/-/A-87399121",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-space-jam-a-new-legacy-goon-squad-t-shirt/-/A-83441631",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-sparkling-rainbow-logo-t-shirt/-/A-87398128",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-space-jam-a-new-legacy-welcome-to-the-jam-mix-tape-t-shirt/-/A-83439559",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-vecna-s-glare-t-shirt/-/A-87399758",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-space-jam-a-new-legacy-pete-pocket-print-t-shirt/-/A-83441018",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-st-patrick-s-day-demogorgon-pinch-me-if-you-dare-t-shirt/-/A-85886761",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-space-jam-a-new-legacy-goon-squad-ready-to-jam-t-shirt/-/A-83440582",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-game-master-eddie-munson-t-shirt/-/A-87400310",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-space-jam-a-new-legacy-lola-bunny-it-s-on-and-poppin-t-shirt/-/A-83438230",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-be-vigilant-demogorgon-badge-t-shirt/-/A-86945721",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-space-jam-a-new-legacy-tune-squad-cute-logo-t-shirt/-/A-83437104",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-hibiscus-demogorgon-t-shirt/-/A-1002734852",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-space-jam-a-new-legacy-goon-squad-abstract-t-shirt/-/A-83439003",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-grandfather-clock-t-shirt/-/A-87397191",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-space-jam-a-new-legacy-arachnneka-goon-squad-t-shirt/-/A-83440763",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Space Jam, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-retro-papa-poster-t-shirt/-/A-87398568",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Space Jam"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/spellbound-elian-silhouette-love-your-self-youth-black-crew-neck-long-sleeve-tee/-/A-94246103",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spellbound, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-white-logo-t-shirt/-/A-87460046",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Spellbound"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/spellbound-fairy-flowers-love-yourself-youth-athletic-heather-crew-neck-long-sleeve-tee/-/A-94246107",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spellbound, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-rockstar-eddie-munson-t-shirt/-/A-87399159",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Spellbound"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/spellbound-treehouse-clouds-home-youth-black-crew-neck-long-sleeve-tee/-/A-1000092052",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spellbound, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-steve-the-babysitter-t-shirt/-/A-87400415",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Spellbound"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/spellbound-elian-pose-love-your-self-youth-white-crew-neck-short-sleeve-t-shirt/-/A-94244563",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spellbound, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-pumpkin-field-it-only-gets-stronger-t-shirt/-/A-87460005",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Spellbound"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/spellbound-fink-love-your-self-youth-royal-blue-crew-neck-short-sleeve-t-shirt/-/A-94244555",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spellbound, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-teen-group-shot-t-shirt/-/A-87400773",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Spellbound"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/spellbound-flink-line-art-youth-white-crew-neck-short-sleeve-t-shirt/-/A-1003316407",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spellbound, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-hellfire-club-members-t-shirt/-/A-87397063",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Spellbound"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/spellbound-flink-big-hugs-youth-navy-crew-neck-short-sleeve-t-shirt/-/A-1003316320",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spellbound, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-dustin-s-thinking-cap-costume-t-shirt/-/A-86945858",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Spellbound"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-marvel-spider-man-into-the-spider-verse-spray-paint-logo-t-shirt/-/A-79711449",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-hellfire-club-eddie-munson-t-shirt/-/A-87401069",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-marvel-spider-man-venom-vs-spidey-battle-t-shirt/-/A-1004564434",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-retro-hellfire-club-poster-t-shirt/-/A-87400700",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-marvel-spider-man-thwip-pose-starry-night-t-shirt/-/A-1001817857",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-eddie-munson-metalhead-t-shirt/-/A-87399710",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spider-man-across-the-spider-verse-2099-spider-man-logo-t-shirt/-/A-89212120",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-fourth-of-july-character-frame-t-shirt/-/A-80328938",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spider-man-across-the-spider-verse-miles-morales-movie-poster-t-shirt/-/A-89018525",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-retro-the-monster-and-the-superhero-poster-t-shirt/-/A-87399544",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-husky-marvel-spider-man-into-the-spider-verse-spray-paint-logo/-/A-87570567",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-scoops-ahoy-logo-t-shirt/-/A-80329539",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-marvel-spider-man-cool-it-webhead-t-shirt/-/A-1004563585",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-choose-your-weapon-t-shirt/-/A-87400901",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-marvel-spider-man-superhero-team-t-shirt/-/A-1004401871",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-welcome-to-the-upside-down-greeting-t-shirt/-/A-86946000",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/five-nights-at-freddy-s-spider-web-freddy-boy-s-black-t-shirt/-/A-85874184",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-retro-happy-holidays-card-t-shirt/-/A-89660215",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spider-man-across-the-spider-verse-graffiti-spider-logo-t-shirt/-/A-89018678",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-eddie-munson-hellfire-club-that-s-why-we-play-t-shirt/-/A-87400470",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spider-man-beyond-amazing-evolution-t-shirt/-/A-87898027",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/boy-s-stranger-things-christmas-hellfire-club-logo-t-shirt/-/A-89659970",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Stranger Things, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Stranger Things"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spider-man-across-the-spider-verse-spray-paint-spider-logo-t-shirt/-/A-89018830",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/boy-s-strawberry-shortcake-flower-rainbow-t-shirt/-/A-92378414",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Strawberry Shortcake, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Strawberry Shortcake"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-marvel-spider-man-into-the-spider-verse-modern-spider-gwen-t-shirt/-/A-85816226",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/boy-s-strawberry-shortcake-cute-orange-t-shirt/-/A-92378584",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Strawberry Shortcake, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Strawberry Shortcake"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spider-man-across-the-spider-verse-group-colorful-poster-t-shirt/-/A-89211943",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/boy-s-strawberry-shortcake-berry-cart-t-shirt/-/A-92378421",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Strawberry Shortcake, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Strawberry Shortcake"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spider-man-beyond-amazing-web-shooting-t-shirt/-/A-87896169",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/boy-s-strawberry-shortcake-berry-neon-day-t-shirt/-/A-92378507",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Strawberry Shortcake, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Strawberry Shortcake"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spider-man-beyond-amazing-mask-sketch-circle-t-shirt/-/A-87897156",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/boy-s-strawberry-shortcake-sweetest-pets-t-shirt/-/A-92378611",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Strawberry Shortcake, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Strawberry Shortcake"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spider-man-beyond-amazing-thwip-comic-book-panels-t-shirt/-/A-87896657",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/boy-s-strawberry-shortcake-neon-vibes-t-shirt/-/A-92378503",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Strawberry Shortcake, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Strawberry Shortcake"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spider-man-beyond-amazing-toy-villain-squares-t-shirt/-/A-87897610",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/boy-s-strawberry-shortcake-chasing-berries-t-shirt/-/A-92378477",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Strawberry Shortcake, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Strawberry Shortcake"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spider-man-beyond-amazing-comic-clippings-logo-t-shirt/-/A-87898898",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/boy-s-strawberry-shortcake-balloon-cloud-t-shirt/-/A-92378261",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Strawberry Shortcake, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Strawberry Shortcake"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spider-man-across-the-spider-verse-spider-gwen-portrait-t-shirt/-/A-89211971",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/boy-s-strawberry-shortcake-loving-boy-berry-t-shirt/-/A-92378604",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Strawberry Shortcake, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Strawberry Shortcake"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-marvel-spider-man-christmas-spider-man-santa-hat-t-shirt/-/A-1001091950",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/boy-s-strawberry-shortcake-berry-on-a-cart-t-shirt/-/A-92378417",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Strawberry Shortcake, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Strawberry Shortcake"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spider-man-beyond-amazing-60-amazing-years-t-shirt/-/A-87900143",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/boy-s-strawberry-shortcake-berry-boxed-t-shirt/-/A-92378254",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Strawberry Shortcake, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Strawberry Shortcake"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spider-man-beyond-amazing-spidey-sense-in-action-t-shirt/-/A-87898597",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/boy-s-strawberry-shortcake-flower-orange-t-shirt/-/A-92378335",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Strawberry Shortcake, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Strawberry Shortcake"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spider-man-beyond-amazing-neon-logo-t-shirt/-/A-87896423",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/boy-s-strawberry-shortcake-custard-in-the-berry-basket-t-shirt/-/A-92377905",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Strawberry Shortcake, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Strawberry Shortcake"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-marvel-spider-man-into-the-spider-verse-hooded-miles-t-shirt/-/A-79592876",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/chibi-street-fighter-classic-youth-boys-athletic-gray-long-sleeve-shirt/-/A-87216014",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Street Fighter, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Street Fighter"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-marvel-spider-man-protector-of-new-york-t-shirt/-/A-1004401335",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/street-fighter-ryu-hadouken-boy-s-heather-grey-t-shirt/-/A-85353328",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Street Fighter, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Street Fighter"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-marvel-spider-man-far-from-home-logo-splatter-t-shirt/-/A-82369986",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/street-fighter-classic-stacked-characters-crew-neck-short-sleeve-boy-s-white-t-shirt/-/A-89244039",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Street Fighter, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Street Fighter"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-marvel-gamerverse-spider-man-logo-t-shirt/-/A-85827909",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/street-fighter-classic-ryu-button-sequence-crew-neck-short-sleeve-boy-s-white-t-shirt/-/A-89208202",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Street Fighter, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Street Fighter"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spider-man-beyond-amazing-retro-1977-t-shirt/-/A-87898541",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/street-fighter-blanka-guile-gameplay-logo-crew-neck-short-sleeve-athletic-heather-youth-t-shirt/-/A-89762980",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Street Fighter, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Street Fighter"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-marvel-spider-man-stick-together-spidey-t-shirt/-/A-1001092489",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/youth-boys-street-fighter-shirt-video-game-clothing/-/A-84706930",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Street Fighter, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Street Fighter"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spider-man-across-the-spider-verse-red-glitch-spider-logo-t-shirt/-/A-89212001",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/street-fighter-classic-fighting-pose-crew-neck-short-sleeve-boy-s-white-t-shirt/-/A-89244010",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Street Fighter, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Street Fighter"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spider-man-beyond-amazing-split-distressed-circle-t-shirt/-/A-87899363",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/street-fighter-classic-character-group-with-logo-crew-neck-short-sleeve-boy-s-black-t-shirt/-/A-89244063",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Street Fighter, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Street Fighter"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spider-man-across-the-spider-verse-miles-morales-and-spider-gwen-t-shirt/-/A-89212023",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/street-fighter-classic-street-fighter-ii-player-select-crew-neck-short-sleeve-boy-s-black-t-shirt/-/A-89208214",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Street Fighter, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Street Fighter"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-marvel-spider-man-spider-webs-t-shirt/-/A-1001817874",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/street-fighter-4-ken-and-ryu-youth-boys-red-t-shirt/-/A-86829172",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Street Fighter, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Street Fighter"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spider-man-across-the-spider-verse-green-spider-logo-t-shirt/-/A-89211919",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/youth-boys-street-fighter-shirt-ryu-and-ken-apparel/-/A-84706736",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Street Fighter, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Street Fighter"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spider-man-beyond-amazing-swing-pose-t-shirt/-/A-87899337",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/street-fighter-classic-characters-above-logo-crew-neck-short-sleeve-boy-s-white-t-shirt/-/A-89244079",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Street Fighter, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Street Fighter"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spider-man-beyond-amazing-hero-mask-t-shirt/-/A-87898650",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/street-fighter-classic-ken-ryu-chips-crew-neck-short-sleeve-boy-s-white-t-shirt/-/A-89243966",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Street Fighter, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Street Fighter"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spider-man-beyond-amazing-vintage-77-t-shirt/-/A-87896577",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/street-fighter-classic-strong-ryu-crew-neck-short-sleeve-boy-s-black-t-shirt/-/A-89244030",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Street Fighter, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Street Fighter"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spider-man-beyond-amazing-retro-pose-t-shirt/-/A-87897419",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/street-fighter-classic-group-pose-crew-neck-short-sleeve-boy-s-white-t-shirt/-/A-89208228",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Street Fighter, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Street Fighter"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spider-man-across-the-spider-verse-characters-logo-t-shirt/-/A-89212038",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/street-fighter-4-ryu-chun-li-ken-youth-boys-athletic-heather-gray-t-shirt/-/A-86829154",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Street Fighter, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Street Fighter"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-marvel-christmas-spider-man-santa-hat-t-shirt/-/A-81881593",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/street-fighter-classic-retro-group-crew-neck-short-sleeve-boy-s-black-t-shirt/-/A-89244018",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Street Fighter, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Street Fighter"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spider-man-across-the-spider-verse-miles-logo-t-shirt/-/A-89212161",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/boys-super-mario-kart-embroidered-front-and-back-graphic-oversized-short-sleeve-t-shirt-navy-blue/-/A-93600084",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Super Mario, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Super Mario"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spider-man-beyond-amazing-web-slinger-circle-t-shirt/-/A-87897709",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/nintendo-super-mario-boys-princess-peach-graphic-print-t-shirt-kids/-/A-91810149",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Super Mario, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Super Mario"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-husky-marvel-spider-man-into-the-spider-verse-hooded-miles/-/A-87569929",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/super-mario-bros-mario-youth-beanie-glove-set-for-kids/-/A-88063103",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Super Mario, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Super Mario"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spider-man-across-the-spider-verse-spider-gwen-paint-splatter-t-shirt/-/A-89211924",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/super-mario-ribbed-knit-youth-beanie-and-gloves-set/-/A-89947260",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Super Mario, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Super Mario"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spider-man-beyond-amazing-mask-squares-t-shirt/-/A-87897061",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/super-mario-boys-shirt-mario-luigi-princess-peach-toad-youth-kids-t-shirt/-/A-91166462",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Super Mario, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Super Mario"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spider-man-across-the-spider-verse-spider-man-2099-logo-t-shirt/-/A-89018550",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/super-mario-brothers-and-princess-peach-youth-cuff-beanie-and-gloves-set/-/A-90012047",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Super Mario, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Super Mario"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spider-man-beyond-amazing-retro-tickets-t-shirt/-/A-87896739",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/boy-s-the-super-mario-bros-movie-luigi-plumbing-s-our-game-t-shirt/-/A-89152960",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Super Mario Bros, The Movie, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Super Mario Bros: The Movie"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spider-man-beyond-amazing-web-slinging-t-shirt/-/A-87898165",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/boy-s-the-super-mario-bros-movie-mario-our-big-adventure-begins-now-red-t-shirt/-/A-89153148",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Super Mario Bros, The Movie, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Super Mario Bros: The Movie"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spider-man-across-the-spider-verse-movie-logo-t-shirt/-/A-89018773",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/boy-s-the-super-mario-bros-movie-bowser-king-of-the-koopas-portrait-t-shirt/-/A-89153225",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Super Mario Bros, The Movie, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Super Mario Bros: The Movie"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spider-man-across-the-spider-verse-movie-logo-white-t-shirt/-/A-89018685",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/boy-s-the-super-mario-bros-movie-bowser-king-of-the-koopas-t-shirt/-/A-89153184",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Super Mario Bros, The Movie, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Super Mario Bros: The Movie"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-marvel-spider-man-across-the-spider-verse-graffiti-red-logo-t-shirt/-/A-1004546251",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/boy-s-the-super-mario-bros-movie-bowser-king-of-the-koopas-fire-scene-t-shirt/-/A-89153264",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Super Mario Bros, The Movie, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Super Mario Bros: The Movie"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spider-man-across-the-spider-verse-heroes-t-shirt/-/A-92328032",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Spider-Man, Tops",
+        "url": "https://www.target.com/p/boys-super-why-whyatt-here-long-sleeve-graphic-t-shirt/-/A-1000749410",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Super WHY!, Tops",
         "filters": {
-          "brand": "Spider-Man"
+          "brand": "Super WHY!"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-spongebob-squarepants-and-patrick-4th-of-july-cheers-t-shirt-red-large/-/A-1002705810",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob, Tops",
+        "url": "https://www.target.com/p/boys-super-why-wands-up-long-sleeve-graphic-t-shirt/-/A-1000749573",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Super WHY!, Tops",
         "filters": {
-          "brand": "SpongeBob"
+          "brand": "Super WHY!"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-spongebob-squarepants-stay-fly-on-the-4th-of-july-t-shirt-light-blue-small/-/A-1002705628",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob, Tops",
+        "url": "https://www.target.com/p/boys-super-why-super-job-super-readers-long-sleeve-graphic-t-shirt/-/A-1000749777",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Super WHY!, Tops",
         "filters": {
-          "brand": "SpongeBob"
+          "brand": "Super WHY!"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-spongebob-squarepants-shine-like-4th-of-july-fireworks-t-shirt-light-blue-medium/-/A-1002705823",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob, Tops",
+        "url": "https://www.target.com/p/boys-super-why-hip-hip-hooray-long-sleeve-graphic-t-shirt/-/A-1000749706",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Super WHY!, Tops",
         "filters": {
-          "brand": "SpongeBob"
+          "brand": "Super WHY!"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-spongebob-squarepants-cheers-it-s-4th-of-july-t-shirt-royal-large/-/A-1002706404",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob, Tops",
+        "url": "https://www.target.com/p/boys-super-why-super-why-group-youth-long-sleeve-t-shirt-long-sleeve-graphic-t-shirt/-/A-1000749295",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Super WHY!, Tops",
         "filters": {
-          "brand": "SpongeBob"
+          "brand": "Super WHY!"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-spongebob-krusty-krab-embroidered-front-and-back-graphic-oversized-short-sleeve-t-shirt-yellow/-/A-93623645",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/boys-super-why-super-why-group-long-sleeve-graphic-t-shirt/-/A-1000749716",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Super WHY!, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Super WHY!"
         }
       },
       {
-        "url": "https://www.target.com/p/spongebob-squarepants-3-pack-t-shirts-little-kid-to-big-kid/-/A-89714414",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/boys-super-why-abc-sing-with-me-long-sleeve-graphic-t-shirt/-/A-1000749784",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Super WHY!, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Super WHY!"
         }
       },
       {
-        "url": "https://www.target.com/p/spongebob-squarepants-squidward-patrick-2-pack-t-shirts-little-kid-to-big-kid/-/A-85236342",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/superman-authentic-proven-distressed-graphic-crew-neck-long-sleeve-black-youth-tee/-/A-89387541",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/spongebob-squarepants-boys-shirt-spongebob-mr-krrabs-squidward-tee-classic-spongebob-front-and-back-patch-t-shirt-light-blue-14-16/-/A-1004936127",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/superman-comic-cover-no-19-crew-neck-long-sleeve-athletic-heather-youth-tee/-/A-89387528",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/spongebob-squarepants-boys-shirt-spongebob-mr-krrabs-squidward-tee-classic-spongebob-front-and-back-patch-t-shirt-light-blue-10-12/-/A-1004936142",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/superman-pop-color-art-crew-neck-long-sleeve-youth-black-tee/-/A-93148338",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/spongebob-squarepants-boys-shirt-spongebob-mr-krrabs-squidward-tee-classic-spongebob-front-and-back-patch-t-shirt-light-blue-18-20/-/A-1004936156",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/superman-comic-cover-no-28-crew-neck-long-sleeve-black-youth-tee/-/A-89387596",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/nickelodeon-spongebob-squarepants-boys-4-pack-t-shirt-for-big-kids/-/A-1001307066",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/superman-distressed-comic-cover-no-424-crew-neck-long-sleeve-black-youth-tee/-/A-89387582",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spongebob-squarepants-distressed-best-friends-t-shirt/-/A-87693963",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/superman-comic-cover-no-300-crew-neck-long-sleeve-black-youth-tee/-/A-89387605",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spongebob-squarepants-group-friends-t-shirt/-/A-87694010",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/superman-comic-cover-no-829-crew-neck-long-sleeve-black-youth-tee/-/A-89387643",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-spongebob-squarepants-kamp-koral-character-badges-short-sleeve-graphic-t-shirt/-/A-92864779",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/dc-superhero-logos-youth-3-pack-crew-neck-short-sleeve-t-shirts/-/A-89546765",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spongebob-squarepants-like-a-boss-performance-tee/-/A-87693768",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/boys-superman-super-patriot-t-shirt/-/A-1004374195",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spongebob-squarepants-group-friends-performance-tee/-/A-87693951",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/boys-dc-retro-liberty-t-shirt/-/A-1004374304",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spongebob-squarepants-good-vibes-best-friends-t-shirt/-/A-1004164288",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/superman-text-repeated-boy-s-heather-grey-long-sleeve-shirt/-/A-85581101",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spongebob-squarepants-neon-attitude-t-shirt/-/A-82369804",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/dc-league-of-super-pets-superman-s-best-friend-youth-athletic-gray-sweatshirt/-/A-86394011",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spongebob-squarepants-christmas-wreath-t-shirt/-/A-90164182",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/superman-distressed-action-comics-cover-no-419-crew-neck-long-sleeve-black-youth-tee/-/A-89387621",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spongebob-squarepants-like-a-boss-t-shirt/-/A-87693957",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/superman-krypton-doomed-world-graphic-crew-neck-long-sleeve-black-youth-tee/-/A-89387555",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spongebob-squarepants-halloween-trick-or-treat-t-shirt/-/A-1001414773",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/boys-superman-distressed-4th-of-july-logo-t-shirt/-/A-1004374165",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spongebob-squarepants-yasss-cheer-performance-tee/-/A-87693912",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/boys-superman-all-american-t-shirt/-/A-1004374159",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spongebob-squarepants-ready-for-treats-t-shirt/-/A-87694086",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/boys-superman-u-s-shield-t-shirt/-/A-1004374128",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spongebob-squarepants-here-for-the-sponge-t-shirt/-/A-1002303194",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/boys-superman-bleeding-shield-t-shirt/-/A-1004374142",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spongebob-squarepants-skater-bob-t-shirt/-/A-87694039",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/boys-superman10-cents-logo-t-shirt/-/A-1004374182",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spongebob-squarepants-welcome-to-bikini-bottom-t-shirt/-/A-1002735071",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/superman-movie-2025-superhero-man-of-steel-dc-comics-superpowers-crypto-s-metropolis-city-of-tomorrow-on-navy-long-sleeve-youth-t-shirt/-/A-1005196979",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spongebob-squarepants-christmas-santa-can-explain-t-shirt/-/A-81881530",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/superman-classic-superhero-youth-athletic-gray-graphic-tee/-/A-85730637",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spongebob-squarepants-sponge-on-the-run-flippin-out-burger-t-shirt/-/A-85154084",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/superman-classic-logo-youth-royal-blue-graphic-tee/-/A-85731040",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-spongebob-squarepants-kamp-koral-krabby-kamper-short-sleeve-graphic-t-shirt/-/A-1000788196",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/superman-stitch-style-s-logo-youth-royal-blue-graphic-tee/-/A-85729874",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spongebob-squarepants-best-birthday-ever-t-shirt/-/A-87694070",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/superman-flying-pose-superhero-youth-royal-blue-graphic-tee/-/A-85731079",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spongebob-squarepants-i-m-a-goofy-goober-t-shirt/-/A-87694040",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/superman-character-and-s-logo-youth-royal-blue-graphic-tee/-/A-85729060",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-spongebob-squarepants-kamp-koral-badge-short-sleeve-graphic-t-shirt/-/A-92864719",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/superman-man-of-steel-youth-royal-blue-graphic-tee/-/A-85731144",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spongebob-squarepants-shenanigans-t-shirt/-/A-1002303216",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/superman-shield-logo-youth-royal-blue-graphic-tee/-/A-88297164",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spongebob-squarepants-bank-geek-practice-t-shirt/-/A-82350531",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/superman-flying-youth-royal-blue-graphic-tee/-/A-85730744",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spongebob-squarepants-birthday-sponge-t-shirt/-/A-87693985",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/superman-classic-superhero-youth-navy-blue-graphic-tee/-/A-85730835",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spongebob-squarepants-patrick-star-shamrock-bubbles-t-shirt/-/A-1002303117",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/dc-comics-superman-vintage-logo-youth-royal-blue-graphic-tee/-/A-85354255",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spongebob-squarepants-happy-patrick-star-day-t-shirt/-/A-1002303293",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/bioworld-dc-league-of-super-pets-superman-s-best-friend-youth-navy-blue-graphic-tee/-/A-86383224",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spongebob-squarepants-mr-krab-face-t-shirt/-/A-82352400",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/superman-cracked-shield-logo-youth-navy-blue-graphic-tee/-/A-88297172",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spongebob-squarepants-cupid-be-mine-t-shirt/-/A-85565276",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/superman-athletics-youth-red-graphic-tee/-/A-85729646",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spongebob-squarepants-sponge-on-the-run-baby-snail-gary-t-shirt/-/A-85088498",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/superman-classic-shield-youth-navy-blue-graphic-tee/-/A-85730690",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spongebob-squarepants-be-kind-to-our-planet-t-shirt/-/A-88715991",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/superman-repeat-shield-logo-youth-navy-blue-graphic-tee/-/A-88297187",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spongebob-squarepants-sponge-on-the-run-jellyfish-catcher-t-shirt/-/A-85154409",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/dc-comic-book-superman-youth-boys-navy-blue-graphic-tee-shirt/-/A-84940384",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spongebob-squarepants-happy-patrick-s-day-t-shirt/-/A-1002303014",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/superman-cosplay-costume-youth-royal-blue-graphic-tee/-/A-85730524",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spongebob-squarepants-happy-go-lucky-t-shirt/-/A-1002303125",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/superman-cosplay-costume-youth-royal-blue-graphic-tee/-/A-85730330",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spongebob-squarepants-st-patrick-s-day-rainbow-duo-t-shirt/-/A-1002303262",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/superman-not-done-until-i-ve-won-youth-red-graphic-tee/-/A-85730068",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spongebob-squarepants-valentine-s-day-squidward-i-m-my-own-valentine-t-shirt/-/A-88323776",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/superman-dripping-s-shield-youth-navy-blue-graphic-tee/-/A-85729081",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spongebob-squarepants-shore-thing-t-shirt/-/A-85088537",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/superman-core-monochromed-vintage-montage-graphic-boy-s-white-t-shirt/-/A-88451392",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spongebob-squarepants-colorful-hoppy-easter-t-shirt/-/A-88718558",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/superman-distressed-logo-youth-boys-navy-t-shirt/-/A-85730011",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spongebob-squarepants-love-the-earth-t-shirt/-/A-88716018",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/superman-man-of-steel-youth-navy-blue-graphic-tee/-/A-88297170",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spongebob-squarepants-boo-crew-green-ghost-t-shirt/-/A-87693798",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/superman-woah-challenge-youth-royal-blue-graphic-tee/-/A-88297180",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-spongebob-squarepants-distressed-blue-bikini-bottom-t-shirt/-/A-87693966",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/superman-dco-toyetic-super-youth-royal-blue-graphic-tee/-/A-85730060",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-spongebob-squarepants-kamp-koral-campsite-bonfire-short-sleeve-graphic-t-shirt/-/A-92864751",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, SpongeBob SquarePants, Tops",
+        "url": "https://www.target.com/p/superman-spoileralert-youth-royal-blue-graphic-tee/-/A-85729808",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "SpongeBob SquarePants"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-39-squishmallows-pizza-party-short-sleeve-graphic-t-shirt-beige/-/A-92517047",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Squishmallows, Tops",
+        "url": "https://www.target.com/p/superman-follow-me-youth-royal-blue-heather-graphic-tee/-/A-85729585",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Squishmallows"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-star-trek-americana-enterprise-t-shirt/-/A-1004374409",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-logo-boy-s-royal-blue-t-shirt/-/A-85729158",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-voyager-retro-rainbow-logo-t-shirt/-/A-85222459",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-trap-graphics-boy-s-navy-t-shirt/-/A-85783180",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-the-next-generation-lieutenant-commander-geordi-la-forge-cat-t-shirt/-/A-85976059",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-cartoon-logo-boy-s-royal-blue-t-shirt/-/A-1002893773",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/star-trek-original-series-admiral-kirk-pop-art-boy-s-atheltic-heather-t-shirt/-/A-87945254",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/justice-league-superman-glowing-logo-boy-s-navy-t-shirt/-/A-86102306",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-uss-enterprise-ugly-christmas-sweater-t-shirt/-/A-81882228",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-distressed-yellow-logo-boy-s-red-t-shirt/-/A-85729698",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/star-trek-original-series-starship-enterprise-boy-s-navy-t-shirt/-/A-87944605",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-cartoon-cosplay-boy-s-royal-blue-t-shirt/-/A-86102406",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-the-next-generation-captain-picard-palm-to-face-meme-t-shirt/-/A-85975808",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/dc-comic-youth-boys-superman-americana-symbol-navy-blue-graphic-tshirt/-/A-86103033",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-valentine-s-pixel-set-phasers-to-stun-t-shirt/-/A-85944633",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-costume-boy-s-blue-crew-neck-short-sleeve-cosplay-t-shirt-with-detachable-cape/-/A-1004206466",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-the-original-series-exploring-final-frontier-since-1966-t-shirt/-/A-85223108",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-superhero-in-flight-vintage-art-boy-s-athletic-heather-t-shirt/-/A-85729703",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-starry-night-enterprise-t-shirt/-/A-85222649",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-metallic-silver-logo-boy-s-navy-blue-t-shirt/-/A-85731020",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-the-next-generation-uss-enterprise-rainbow-streak-t-shirt/-/A-85944861",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-youth-boys-royal-blue-crew-neck-t-shirt/-/A-85731006",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-valentine-s-starfleet-candy-hearts-t-shirt/-/A-82188393",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-logo-on-royal-blue-tee/-/A-85354118",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-the-original-series-starfleet-academy-enterprise-boldly-go-t-shirt/-/A-85975210",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-stitched-logo-youth-boys-navy-t-shirt/-/A-85729671",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-be-my-starfleet-valentine-t-shirt/-/A-82189322",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-faded-logo-boy-s-navy-t-shirt/-/A-85450714",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-the-original-series-spock-always-shall-be-valentine-t-shirt/-/A-82189539",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-distressed-flying-pose-boy-s-red-t-shirt/-/A-85729820",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-valentine-s-day-your-the-only-one-in-the-galaxy-for-me-t-shirt/-/A-85944968",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-shield-black-t-shirts-for-boys/-/A-88297219",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-the-next-generation-captain-picard-history-never-forgets-the-name-enterprise-t-shirt/-/A-85943919",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-daily-planet-distressed-logo-youth-navy-blue-crew-neck-short-sleeve-tee/-/A-88451467",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-operations-starfleet-badge-t-shirt/-/A-85223290",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-cartoon-logo-boy-s-royal-blue-t-shirt/-/A-86102552",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-the-next-generation-starfleet-crew-portraits-playing-cards-frame-t-shirt/-/A-85223217",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-logo-puzzle-pieces-punchout-youth-boys-royal-blue-t-shirt/-/A-85731120",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-the-next-generation-starfleet-cozy-cat-emblem-t-shirt/-/A-85223254",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-dripping-logo-boy-s-navy-t-shirt/-/A-85450717",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-spock-live-long-and-prosper-ugly-christmas-t-shirt/-/A-84868134",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-courage-text-crew-neck-short-sleeve-royal-blue-boy-s-t-shirt/-/A-88033001",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-cat-spock-live-long-and-prosper-t-shirt/-/A-85222713",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-mosaic-youth-boys-navy-t-shirt/-/A-85730558",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-deep-space-nine-niners-ds9-baseball-league-t-shirt/-/A-85222559",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-man-of-steel-boy-s-navy-blue-t-shirt/-/A-85354436",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-the-next-generation-captain-jean-luc-picard-cat-t-shirt/-/A-85945189",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-colorful-text-youth-boy-s-navy-blue-t-shirt/-/A-85351971",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-starfleet-ship-collage-t-shirt/-/A-85222596",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-my-dad-is-my-hero-boy-s-navy-t-shirt/-/A-85352826",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-the-next-generation-starfleet-classic-color-crew-poster-t-shirt/-/A-85223248",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-classic-logo-boy-s-royal-blue-t-shirt/-/A-85782379",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-captain-kirk-cat-t-shirt/-/A-85223572",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-american-flag-logo-boy-s-royal-blue-t-shirt/-/A-85450780",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-the-next-generation-borg-armor-t-shirt/-/A-86377481",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-hero-and-logo-fist-pump-boy-s-royal-blue-t-shirt/-/A-85450760",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/star-trek-original-series-cast-with-logo-boy-s-white-t-shirt/-/A-87944596",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-arms-crossed-pose-inside-logo-boy-s-royal-blue-t-shirt/-/A-86102307",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-spaceship-rainbow-streak-t-shirt/-/A-85223147",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-core-white-monochrome-character-art-boy-s-black-t-shirt/-/A-88451437",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-the-next-generation-cartoon-data-and-cat-t-shirt/-/A-85222810",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-red-logo-boy-s-navy-t-shirt/-/A-85783083",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-the-next-generation-captain-picard-color-streak-engage-t-shirt/-/A-85222735",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-upside-down-pocket-boy-s-royal-blue-t-shirt/-/A-85782262",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-periodic-table-of-starfleet-t-shirt/-/A-85952094",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-heroic-pose-crew-neck-short-sleeve-black-boy-s-t-shirt/-/A-91217592",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-the-next-generation-lieutenant-commander-worf-cat-t-shirt/-/A-85974829",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-logo-youth-crew-neck-short-sleeve-t-shirt/-/A-1004727535",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-5-year-mission-text-t-shirt/-/A-85223273",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-sketch-crew-neck-short-sleeve-white-boy-s-t-shirt/-/A-91216904",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-starfleet-academy-emblem-est-2161-t-shirt/-/A-85222976",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-wire-frame-superhero-boy-s-navy-t-shirt/-/A-85782978",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-the-original-series-uss-enterprise-nc-1701-bridge-owners-manual-t-shirt/-/A-85976429",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-logo-blue-boy-s-short-sleeve-t-shirt/-/A-85451177",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-to-boldly-go-starfleet-t-shirt/-/A-85976298",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-stars-stripes-mask-youth-boys-royal-blue-t-shirt/-/A-85729188",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-discovery-artistic-rainbow-starfleet-logo-t-shirt/-/A-85223578",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-star-spangled-logo-boy-s-red-t-shirt/-/A-85450597",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-the-original-series-space-the-final-frontier-t-shirt/-/A-85222666",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-i-only-protect-our-planet-no-big-deal-boy-s-royal-blue-t-shirt/-/A-85730711",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-enterprise-starfleet-rainbow-streak-t-shirt/-/A-85223347",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-amazing-x-ray-specs-vintage-art-youth-boy-s-heather-gray-t-shirt/-/A-85352363",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-enterprise-pixel-video-game-battle-t-shirt/-/A-85222524",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-don-t-worry-i-m-invincible-boy-s-red-t-shirt/-/A-85729866",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-the-next-generation-cup-of-tea-earl-grey-hot-captain-picard-t-shirt/-/A-85222935",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-vintage-graffiti-artwork-youth-boy-s-royal-blue-t-shirt/-/A-85352168",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-the-original-series-st-patrick-s-day-spock-lucky-science-officer-performance-tee/-/A-85976025",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-man-of-steel-comic-art-boy-s-navy-t-shirt/-/A-85451312",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-the-original-series-st-patrick-s-day-captain-kirk-set-phasers-to-lucky-performance-tee/-/A-85975986",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-man-of-steel-comic-book-logo-boy-s-royal-blue-t-shirt/-/A-85354284",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-the-original-series-st-patrick-s-day-lucky-doctor-mccoy-performance-tee/-/A-85975970",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-super-strength-sketch-crew-neck-short-sleeve-white-boy-s-t-shirt/-/A-91216954",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-the-original-series-uss-enterprise-space-the-final-frontier-t-shirt/-/A-85944602",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-hero-inside-logo-boy-s-royal-blue-t-shirt/-/A-85782250",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-rainbow-enterprise-crew-playing-cards-t-shirt/-/A-85223623",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-metropolis-superman-varsity-crew-neck-short-sleeve-royal-blue-boy-s-t-shirt/-/A-91216821",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-deep-space-nine-space-station-schematics-t-shirt/-/A-85222481",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-ripped-logo-boy-s-navy-t-shirt/-/A-85782929",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-the-next-generation-captain-picard-make-it-snow-t-shirt/-/A-84867987",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-man-of-steel-youth-boy-s-heather-gray-t-shirt/-/A-85352430",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-the-next-generation-worf-judging-you-in-klingon-t-shirt/-/A-85975751",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-cospaly-boy-s-royal-blue-t-shirt/-/A-85730493",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-the-next-generation-enterprise-galaxy-class-ncc-1701-d-schematics-t-shirt/-/A-85223397",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-man-of-steel-two-tone-logo-boy-s-royal-blue-t-shirt/-/A-85782261",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-the-next-generation-st-patrick-s-day-lucky-doctor-beverly-crusher-performance-tee/-/A-85974932",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-pixel-logo-boy-s-navy-t-shirt/-/A-85782945",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-the-original-series-my-mirror-spock-costume-t-shirt/-/A-81494794",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-red-logo-boy-s-royal-blue-t-shirt/-/A-85729423",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-the-next-generation-commander-data-st-patrick-s-day-lucky-android-t-shirt/-/A-85894036",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-man-of-steel-serious-pose-boy-s-athletic-heather-t-shirt/-/A-86102339",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-the-next-generation-st-patrick-s-day-lucky-captain-picard-t-shirt/-/A-85894941",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-core-man-of-steel-wireframe-on-black-youth-t-shirt/-/A-1005131128",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-st-patrick-s-day-kirk-this-is-my-lucky-green-shirt-t-shirt/-/A-85975694",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-movie-2025-superhero-man-of-steel-dc-comics-superpowers-crypto-s-look-up-on-white-short-sleeve-youth-t-shirt/-/A-1005197004",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-the-motion-picture-rainbow-poster-there-is-no-comparison-t-shirt/-/A-85222700",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-movie-2025-superhero-man-of-steel-dc-comics-superpowers-crypto-s-fly-on-white-short-sleeve-youth-t-shirt/-/A-1005196754",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-the-next-generation-st-patrick-s-day-lucky-engineer-la-forge-t-shirt/-/A-85974956",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-core-superhero-with-sports-text-on-navy-short-sleeve-youth-t-shirt/-/A-1005197049",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-this-is-my-lucky-red-shirt-t-shirt/-/A-85223458",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-core-bubble-text-with-superhero-shield-on-royal-blue-short-sleeve-youth-t-shirt/-/A-1005197036",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-ugly-christmas-enterprise-boldly-go-t-shirt/-/A-84867966",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/kids-superman-core-tee-doodle-flying-sup-on-med-grey/-/A-1005131133",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-the-next-generation-st-patrick-s-day-lucky-doctor-beverly-crusher-t-shirt/-/A-85895608",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-core-logo-w-crest-on-black-short-sleeve-youth-t-shirt/-/A-1005131122",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-the-next-generation-this-is-my-borg-costume-t-shirt/-/A-87257064",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-core-brushed-logo-on-navy-short-sleeve-youth-t-shirt/-/A-1005131117",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-the-next-generation-dad-you-are-as-smart-as-data-as-strong-as-worf-as-dependable-as-geordi-as-brave-as-picard-t-shirt/-/A-87336960",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-movie-2025-superhero-man-of-steel-dc-comics-superpowers-crypto-s-on-royal-short-sleeve-youth-t-shirt/-/A-1005196836",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-uss-enterprise-stained-glass-to-boldly-go-t-shirt/-/A-85944935",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/superman-selfie-youth-boys-navy-t-shirt/-/A-85729458",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Superman, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Superman"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-the-next-generation-uss-enterprise-vertical-retro-rainbow-logo-t-shirt/-/A-85945560",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/boy-s-kid-s-lovesaurus-long-sleeve-tee-sweet-wink/-/A-1001116154",
+        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Sweet Wink, Tops",
         "filters": {
-          "brand": "Star Trek"
+          "brand": "Sweet Wink"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-dilithium-element-87-t-shirt/-/A-85952366",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/carter-s-just-one-you-toddler-boys-2pk-cotton-snug-fit-footed-pajama/-/A-93611092",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Trek"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-trek-deep-space-nine-defiant-development-assimilate-this-t-shirt/-/A-85222542",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Trek, Tops",
+        "url": "https://www.target.com/p/carter-s-just-one-you-toddler-boys-comfy-soft-snug-fit-footed-pajama/-/A-92908370",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Trek"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/star-wars-w-is-for-wookie-little-boys-t-shirt-kids/-/A-91882557",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-shark-frenzy-toddler-hoodie-fleece-onesie/-/A-90176022",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/star-wars-the-child-baby-yoda-kids-5-piece-gift-set-shirt-socks-sticker-4-multicoloured/-/A-1000995764",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/g-nam-na-baby-bamboo-rayon-sleeper-pajama-with-diaper-zip/-/A-87905821",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/star-wars-2-pack-t-shirts-little-kid-to-big-kid/-/A-84932970",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/carter-s-just-one-you-toddler-boys-2pk-footed-pajama/-/A-94651548",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/star-wars-the-mandalorian-c-3po-chewbacca-stormtrooper-3-pack-t-shirts-little-kid-to-big-kid/-/A-89711046",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-toddler-footed-cotton-solid-boho-color-pajama/-/A-89501580",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/star-wars-chewbacca-stormtrooper-darth-vader-4-pack-t-shirts-little-kid-to-big-kid/-/A-93615716",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-kids-footed-cotton-tie-dye-pajama/-/A-89398912",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/star-wars-3-pack-t-shirts/-/A-1002540652",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-footed-cotton-pajamas-classic-prints/-/A-93849862",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-vintage-hero-character-frame-t-shirt/-/A-81914591",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-toddler-footed-cotton-solid-neutral-color-pajamas/-/A-89505906",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-clone-wars-captain-rex-mashup-performance-tee/-/A-82350510",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-kids-footed-boys-striped-cotton-pajamas/-/A-89604215",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-starship-battle-t-shirt/-/A-86333525",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-toddler-footed-cotton-solid-classic-color-pajamas/-/A-89505793",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-epic-darth-vader-t-shirt/-/A-82361683",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-footed-cotton-pajamas-classic-prints/-/A-93849855",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-chewbacca-basketball-who-invited-him-t-shirt/-/A-79711218",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-kids-cotton-footed-pajamas/-/A-1000115886",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-santa-yoda-t-shirt/-/A-81883040",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-cotton-kids-footed-pajamas-buffalo-plaid-buffalo-check-christmas-pajamas-xmas-pjs/-/A-1000115567",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-cute-sketches-t-shirt/-/A-86926786",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-kids-cotton-footed-pajamas-animal-prints/-/A-1000115740",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-essentials-t-shirt/-/A-86337802",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-footed-fleece-christmas-pajamas/-/A-93851978",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-pixel-character-square-t-shirt/-/A-82360450",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-kids-cotton-footed-pajamas-classic-prints/-/A-1000116115",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-ewok-protect-our-forests-t-shirt/-/A-79712262",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-footed-cotton-christmas-pajamas/-/A-93849866",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-young-jedi-adventures-lightsaber-group-logo-t-shirt/-/A-89580830",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-footed-fleece-pajamas/-/A-93856671",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-millennium-falcon-cartoon-performance-tee/-/A-1001023054",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/honest-baby-organic-cotton-snug-fit-footed-pajamas/-/A-1001338618",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-clone-wars-ahsoka-rebel-padawan-portrait-performance-tee/-/A-82353508",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-jet-black-toddler-hoodie-chenille-onesie/-/A-90176013",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-warrior-emblem-performance-tee/-/A-79783033",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-nordic-christmas-toddler-hoodie-fleece-onesie/-/A-90176008",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-pixel-character-guide-t-shirt/-/A-86334243",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-cheetah-spots-toddler-hoodie-chenille-onesie/-/A-90176154",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-falcon-t-shirt/-/A-81914515",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-family-matching-merry-gnomes-hoodie-fleece-onesie-for-boys-girls-men-and-women-unisex/-/A-90522581",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-darth-vader-dot-helmet-performance-tee/-/A-86333997",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-family-matching-navy-pink-polka-hoodie-chenille-onesie-for-boys-girls-men-and-women-unisex/-/A-90518232",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-tie-fighter-retro-t-shirt/-/A-85270291",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-family-matching-under-the-sea-hoodie-chenille-onesie-for-boys-girls-men-and-women-unisex/-/A-90517963",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-galactic-empire-essentials-t-shirt/-/A-85827923",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-family-matching-its-a-snow-day-hoodie-fleece-onesie-for-boys-girls-men-and-women-unisex/-/A-90522499",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-clone-wars-group-shot-comic-panels-performance-tee/-/A-89597488",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-heatwave-toddler-hoodie-chenille-onesie/-/A-89963807",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-clone-wars-group-shot-panels-performance-tee/-/A-89597645",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-brilliant-blue-toddler-hoodie-fleece-onesie/-/A-90176064",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-clone-wars-group-shot-box-up-performance-tee/-/A-89597514",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-dinosaur-kingdom-toddler-hoodie-fleece-onesie/-/A-90176140",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-clone-wars-yoda-size-matters-not-performance-tee/-/A-89597495",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-winter-llamas-toddler-hoodie-chenille-onesie/-/A-90176162",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-visions-trooper-performance-tee/-/A-84644367",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-winter-wonderland-toddler-hoodie-fleece-onesie/-/A-89963863",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-may-the-fourth-classic-characters-performance-tee/-/A-89039054",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-its-a-snow-day-toddler-fleece-onesie/-/A-90177292",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-visions-retro-vader-performance-tee/-/A-84644547",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-family-matching-shark-frenzy-hoodie-fleece-onesie-for-boys-girls-men-and-women-unisex/-/A-90522526",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-clone-wars-square-group-photos-performance-tee/-/A-89597630",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-family-matching-in-the-clouds-hoodie-chenille-onesie-for-boys-girls-men-and-women-unisex/-/A-90517890",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-clone-wars-commander-rex-big-face-performance-tee/-/A-85302247",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-its-a-snow-day-toddler-hoodie-fleece-onesie/-/A-89963850",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-dusty-sunset-performance-tee/-/A-82159848",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-merry-gnomes-toddler-hoodie-fleece-onesie/-/A-90176072",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-clone-wars-captain-rex-experience-performance-tee/-/A-82350648",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-family-matching-cheetah-spots-hoodie-chenille-onesie-for-boys-girls-men-and-women-unisex/-/A-90522410",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-character-party-t-shirt/-/A-85827827",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-winter-wonderland-toddler-fleece-onesie/-/A-90177261",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-map-points-of-interest-t-shirt/-/A-85827406",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/owlivia-baby-bamboo-footed-pajama-sleep-n-play-feather-mauve/-/A-1001915189",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-st-patrick-s-day-porg-and-a-shamrock-performance-tee/-/A-85894744",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-emerald-green-toddler-fleece-onesie/-/A-90177311",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-millennium-falcon-stay-galactic-performance-tee/-/A-86339424",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-family-matching-brilliant-blue-hoodie-fleece-onesie-for-boys-girls-men-and-women-unisex/-/A-90518169",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-millennium-falcon-shadow-t-shirt/-/A-79681984",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-family-matching-creamsicle-hoodie-fleece-onesie-for-boys-girls-men-and-women-unisex/-/A-90518180",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-chewbacca-basketball-who-invited-him-t-shirt/-/A-1001939754",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-in-the-clouds-toddler-hoodie-chenille-onesie/-/A-89963811",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-galaxy-of-adventures-stormtrooper-loyalty-performance-tee/-/A-1001091092",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-creamsicle-toddler-hoodie-fleece-onesie/-/A-90176081",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-colorful-icons-t-shirt/-/A-86926450",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/owlivia-organic-cotton-pajama-baby-sleep-n-play-feather-green/-/A-1001915275",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-stormtrooper-group-t-shirt/-/A-86926504",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-family-matching-purple-rain-hoodie-fleece-onesie-for-boys-girls-men-and-women-unisex/-/A-90518158",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-clone-wars-darth-maul-savage-opress-performance-tee/-/A-89597614",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-lemon-yellow-toddler-hoodie-fleece-onesie/-/A-90176037",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-pop-character-bingo-t-shirt/-/A-81914532",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-family-matching-teddy-bear-hoodie-chenille-onesie-for-boys-girls-men-and-women-unisex/-/A-90518007",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-clone-wars-captain-head-shot-portrait-performance-tee/-/A-89597496",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-family-matching-bright-red-hoodie-fleece-onesie-for-boys-girls-men-and-women-unisex/-/A-90518164",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-christmas-chewbacca-lights-t-shirt/-/A-81883068",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/owlivia-organic-cotton-pajama-baby-sleep-n-play-rainbow-hearts/-/A-1001915313",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-retro-darth-vader-poster-t-shirt/-/A-92649692",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-family-matching-dinosaur-kingdom-hoodie-fleece-onesie-for-boys-girls-men-and-women-unisex/-/A-90522508",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-clone-wars-darth-maul-big-face-performance-tee/-/A-89597610",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-family-matching-jet-black-hoodie-chenille-onesie-for-boys-girls-men-and-women-unisex/-/A-90518324",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-clone-wars-yoda-force-is-strong-performance-tee/-/A-89597531",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-howling-moon-toddler-hoodie-chenille-onesie/-/A-90176000",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-stormtrooper-halloween-costumes-t-shirt/-/A-87697600",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-teddy-bear-toddler-hoodie-chenille-onesie/-/A-90176004",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-simple-grogu-animation-t-shirt/-/A-89175865",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-navy-pink-polka-toddler-hoodie-chenille-onesie/-/A-90126105",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-tie-fighterprint-t-shirt/-/A-82352749",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-family-matching-winter-wonderland-hoodie-fleece-onesie-for-boys-girls-men-and-women-unisex/-/A-90522407",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-force-is-strong-with-this-one-performance-tee/-/A-79783035",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-arctic-white-toddler-hoodie-fleece-onesie/-/A-90176071",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-christmas-galactic-ornaments-t-shirt/-/A-81951473",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-bright-red-toddler-hoodie-fleece-onesie/-/A-90176128",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-darth-vader-at-at-walking-the-dog-t-shirt/-/A-1001939778",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-purple-rain-toddler-hoodie-fleece-onesie/-/A-90176024",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-clone-wars-darth-maul-dark-side-warrior-performance-tee/-/A-89597636",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-under-the-sea-toddler-hoodie-chenille-onesie/-/A-90176009",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-clone-wars-jedi-sith-panels-performance-tee/-/A-89597502",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-bright-red-toddler-fleece-onesie/-/A-90177349",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-visions-the-force-performance-tee/-/A-84644591",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/owlivia-2pk-organic-cotton-pajamas-baby-sleep-n-play-mini-bears-12-18-months/-/A-1001915203",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-stormtroopers-march-shadow-performance-tee/-/A-86334418",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/owlivia-organic-cotton-pajama-baby-sleep-n-play-off-white/-/A-1001915211",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-rise-of-skywalker-droid-cuties-performance-tee/-/A-89597367",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/rufflebutts-gender-inclusive-modal-blend-baby-one-piece-footie-pajamas/-/A-1004644941",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-visions-samurai-darth-vader-performance-tee/-/A-84644301",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/rufflebutts-gender-inclusive-viscose-from-bamboo-baby-convertible-one-piece-pajama/-/A-1004644930",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-dark-side-halloween-performance-tee/-/A-87417060",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-family-matching-lemon-yellow-hoodie-fleece-onesie-for-boys-girls-men-and-women-unisex/-/A-90518381",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-rise-of-skywalker-droid-party-performance-tee/-/A-89597315",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-family-matching-howling-moon-hoodie-chenille-onesie-for-boys-girls-men-and-women-unisex/-/A-90517979",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-clone-wars-threat-to-the-dark-side-we-are-performance-tee/-/A-89597498",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-family-matching-heatwave-hoodie-chenille-onesie-for-boys-girls-men-and-women-unisex/-/A-90518130",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-faster-than-you-millennium-falcon-performance-tee/-/A-86338987",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/footed-pajamas-family-matching-arctic-white-hoodie-fleece-onesie-for-boys-girls-men-and-women-unisex/-/A-90518079",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-rise-of-skywalker-sith-trooper-rocket-performance-tee/-/A-89597373",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/deux-par-deux-boy-printed-organic-cotton-one-piece-pajama-light-sage-and-gray-crocodile/-/A-1002952475",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-helmet-box-up-t-shirt/-/A-82157728",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/bellabu-bear-baby-milk-and-cookies-blue-bamboo-convertible-footie/-/A-1004643433",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-fourth-of-july-tie-fighter-stripes-t-shirt/-/A-82358204",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/primary-kids-baby-organic-zip-footie-in-stripe/-/A-1003027721",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-characters-logo-t-shirt/-/A-87417078",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/peyton-zipper-sleeper/-/A-1004304535",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-christmas-gingerbread-characters-t-shirt/-/A-81951563",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/primary-baby-organic-animal-friends-zip-footie/-/A-1003027823",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-star-wars-tie-fighter-schematic-t-shirt/-/A-1004413917",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/modern-moments-by-gerber-baby-and-toddler-neutral-blanket-sleeper/-/A-1001628330",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-legendary-warrior-performance-tee/-/A-82159998",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/colored-organics-peyton-zipper-sleeper/-/A-1002454846",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-star-wars-epic-logo-t-shirt/-/A-1004413998",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/bellabu-bear-baby-milk-and-cookies-white-bamboo-convertible-footie/-/A-1004643838",
+        "tags": "Footed Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, One Piece Pajamas",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Footed Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-star-wars-corellian-freighter-t-shirt/-/A-1004407739",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/toddler-adaptive-2pk-reversible-pajamas-cat-38-jack-8482/-/A-92824105",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Pajama Jumpsuits, Toddler Boys’ Adaptive Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-star-wars-may-the-force-be-with-you-bold-logo-t-shirt/-/A-1004407825",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/toddlers-39-2pk-adaptive-reversible-pajamas-cat-38-jack-8482-coral-red-lavender/-/A-94486498",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Union Suits, Toddler Boys’ Adaptive Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-star-wars-galactic-battle-t-shirt/-/A-1004407393",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/toddler-adaptive-abdominal-access-fleece-union-suit-pajamas-cat-jack/-/A-90941037",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Pajama Jumpsuits",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-rise-of-skywalker-sith-trooper-cartoon-performance-tee/-/A-89597378",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/toddlers-39-2pk-adaptive-reversible-union-suit-cat-38-jack-8482-blue-green/-/A-94472308",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Union Suits, Toddler Boys’ Adaptive Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-distressed-darth-vader-birthday-kid-t-shirt/-/A-92232323",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/modern-moments-by-gerber-baby-neutral-shawl-collar-robe/-/A-1001773063",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Robes",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-valentine-s-day-yoda-one-for-me-simple-t-shirt/-/A-85778542",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/gerber-baby-toddler-boys-snug-fit-footless-pajamas-3-pack/-/A-89434487",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Pajama Rompers",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-cartoon-sounds-t-shirt/-/A-86339406",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/scooby-doo-toddler-hooded-costume-robe-soft-plush-w-ears/-/A-87252832",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Robes",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-halloween-darth-vader-scene-t-shirt/-/A-87697562",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/pj-masks-toddler-boys-gekko-catboy-owlette-hero-footless-sleeper-pajama-blue/-/A-90060238",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Union Suits",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-st-patrick-s-day-it-s-not-wise-to-pinch-a-wookie-performance-tee/-/A-85895540",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/toddler-smooth-jersey-stars-and-moon-union-suit-cloud-island-brown/-/A-92890312",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Union Suits",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-visions-boba-fett-jetpack-performance-tee/-/A-84644085",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/modern-moments-by-gerber-baby-boys-2-pack-tight-fitting-footless-pajamas/-/A-1002284261",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Union Suits",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-tropical-print-darth-vader-helmet-t-shirt/-/A-89632786",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/modern-moments-by-gerber-baby-and-toddler-neutral-2-pack-tight-fitting-footless-pajamas/-/A-1002284215",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Union Suits",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-paint-splatter-emblem-performance-tee/-/A-82158354",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/scooby-doo-toddler-kids-scooby-doo-costume-pajama-union-suit-onesie/-/A-84602844",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Union Suits",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-star-wars-retro-77-millennium-falcon-stripes-t-shirt/-/A-1004407872",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/nickelodeon-toddler-boys-bubble-guppies-union-suit-footless-sleep-pajama-turquoise/-/A-85922212",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Union Suits",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-star-wars-sith-lord-maul-t-shirt/-/A-1004407278",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/scooby-doo-fleece-zip-up-cosplay-pajama-coverall-toddler/-/A-87527003",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Pajama Jumpsuits",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-ewok-kindness-matters-t-shirt/-/A-85904443",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/dc-toddler-boys-classic-the-flash-union-suit-footless-pajama-costume-red/-/A-85343457",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Union Suits",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-fourth-of-july-x-wing-performance-tee/-/A-1001023059",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/dc-comics-justice-league-the-flash-superman-batman-zip-up-pajama-coverall/-/A-88697376",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Pajama Jumpsuits",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-halloween-grogu-trick-or-treat-t-shirt/-/A-84172864",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/nickelodeon-toddler-boys-blue-s-clues-union-suit-footless-sleep-pajama-white/-/A-85922219",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Union Suits",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-halloween-stormtrooper-have-a-ghoul-actic-halloween-t-shirt/-/A-89929977",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/sesame-street-toddler-kids-union-suit-footless-costume-pajama/-/A-94228095",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Union Suits",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-cute-cartoon-ewok-t-shirt/-/A-86332821",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/owlivia-organic-cotton-footless-pajama-baby-romper-purple-feather/-/A-1001915375",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Pajama Rompers",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-st-patrick-s-day-cartoon-yoda-lucky-one-performance-tee/-/A-85894608",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/dc-comics-toddler-kids-superhero-character-hooded-union-suit-footless-pajamas/-/A-85922261",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Union Suits",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-rise-of-skywalker-x-wing-squadron-t-shirt/-/A-85270337",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/owlivia-organic-cotton-footless-pajama-baby-romper-starry-sky/-/A-1001915255",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Pajama Rompers",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-valentine-s-day-boba-fett-cupid-t-shirt/-/A-85779120",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/owlivia-organic-cotton-footless-pajama-baby-romper-green-cheetah/-/A-1001915356",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Pajama Rompers",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-star-wars-red-white-and-popsicles-t-shirt/-/A-1004401370",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/owlivia-bamboo-footless-pajama-baby-romper-feather-mauve/-/A-1001915291",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Pajama Rompers",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-ghoulactic-halloween-stormtrooper-t-shirt/-/A-84090087",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/owlivia-bamboo-footless-pajama-baby-romper-moon-rabbit/-/A-1001915298",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Pajama Rompers",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-galactic-ship-journey-t-shirt/-/A-85827611",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/owlivia-organic-cotton-footless-pajama-baby-romper-green-cheetah-12-18-months/-/A-1001915359",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Pajama Rompers",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-helmet-cartoon-performance-tee/-/A-79783004",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/deux-par-deux-boy-printed-organic-cotton-one-piece-pajama-sloths-on-tan-background/-/A-1002952985",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-galaxy-of-adventures-darth-vader-lord-of-the-sith-t-shirt/-/A-89845813",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/toddler-boys-smooth-jersey-paper-airplanes-union-suit-cloud-island-blue/-/A-92900131",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Union Suits",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-feel-force-performance-tee/-/A-86334739",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/toddler-boys-smooth-jersey-snug-fit-union-suit-cloud-island-blue/-/A-94473782",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Union Suits",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-only-one-way-t-shirt/-/A-82067919",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/pj-masks-toddler-little-boy-s-costume-plush-fleece-robe-catboy/-/A-91968126",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Robes",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-darth-vader-cartoon-costume-t-shirt/-/A-81495339",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/onesies-brand-baby-boys-4-pack-union-suits/-/A-1001647744",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Union Suits",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-halloween-characters-trick-or-treat-t-shirt/-/A-81496274",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/nickelodeon-blue-s-clues-toddler-boys-and-girls-unisex-plush-fleece-robe/-/A-92170687",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Robes",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-clone-wars-maul-strikes-performance-tee/-/A-89597597",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/dc-comics-little-big-boys-batman-velvet-fleece-hooded-robe/-/A-1001934539",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Robes",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-clone-wars-darth-maul-the-galaxy-s-most-wanted-performance-tee/-/A-89597518",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/nickelodeon-toddler-boys-paw-patrol-luxe-plush-robe/-/A-94162283",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Robes",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-distressed-rainbow-cast-performance-tee/-/A-1001939680",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/nickelodeon-pinkfong-toddler-boys-and-girls-baby-shark-plush-fleece-robe/-/A-92177928",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Robes",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-valentine-darth-vader-invitation-t-shirt/-/A-85779322",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/disney-toddler-boy-s-costume-hooded-plush-fleece-robe/-/A-92272665",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Robes",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-darth-vader-choke-t-shirt/-/A-87417017",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/modern-moments-by-gerber-baby-and-toddler-gender-neutral-unionsuit/-/A-1001625094",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Union Suits",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-dark-side-halloween-t-shirt/-/A-87417025",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/hot-wheels-zip-up-coverall-toddler/-/A-1004702562",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Pajama Jumpsuits",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-darth-vader-at-at-walking-the-dog-t-shirt/-/A-79681982",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/toddler-zoo-babies-convertible-one-piece-posh-peanut/-/A-1003607904",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Pajama Jumpsuits",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-rise-of-skywalker-groovy-droid-duo-performance-tee/-/A-89597363",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/owlivia-organic-cotton-2pk-footless-short-sleeve-romper-dinosaur/-/A-1001915349",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Pajama Rompers",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-rise-of-skywalker-darkness-rises-performance-tee/-/A-89597358",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/toddler-black-rib-convertible-one-piece-posh-peanut/-/A-1001552749",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Pajama Jumpsuits",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-clone-wars-stormtrooper-portrait-performance-tee/-/A-89597604",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/infant-slam-dunk-convertible-one-piece-posh-peanut/-/A-1002358722",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Pajama Jumpsuits",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-the-child-square-frame-t-shirt/-/A-79592950",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/infant-posh-planes-convertible-one-piece-posh-peanut/-/A-1003054626",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Pajama Jumpsuits",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-star-wars-at-at-retro-circle-t-shirt/-/A-1004407617",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/g-nam-na-cotton-shortie-romper-with-diaper-zip/-/A-1002931689",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Pajama Rompers",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-grogu-green-birthday-boy-t-shirt/-/A-89404992",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/g-nam-na-cotton-jumpsuit-with-diaper-zip/-/A-1002931568",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Pajama Rompers",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-darth-vader-st-patrick-s-day-luck-is-strong-with-this-one-performance-tee/-/A-85894384",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/toddler-travel-bug-convertible-one-piece-posh-peanut/-/A-1003028556",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Pajama Jumpsuits",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-ugly-sweater-christmas-tree-t-shirt/-/A-84867238",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/ergopouch-long-sleeve-romper-1-0-tog-vanilla/-/A-1003100464",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Pajama Rompers",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-clone-wars-ahsoka-big-face-performance-tee/-/A-89597637",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/g-nam-na-baby-bamboo-rayon-with-diaper-zipper-collared-jumpsuit/-/A-1004011457",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Pajama Rompers",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-rise-of-skywalker-ombre-millennium-falcon-performance-tee/-/A-89597390",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/posh-peanut-buddy-convertible-one-piece/-/A-1001190538",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Pajama Jumpsuits",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-force-is-strong-darth-vader-t-shirt/-/A-86338066",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/g-nam-na-cotton-t-shirt-short-set-with-diaper-zip/-/A-1002931566",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Pajama Rompers",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-millennium-falcon-may-the-4th-be-with-you-performance-tee/-/A-89039216",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/toddler-balloon-wonder-convertible-one-piece-posh-peanut/-/A-1003054608",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Pajama Jumpsuits",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-halloween-grogu-trick-or-treat-bag-t-shirt/-/A-84172994",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/birdie-bean-care-bears-baby-pink-stars-convertible-romper/-/A-1001904318",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Pajama Rompers",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-darth-vader-sparklers-t-shirt/-/A-83027392",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/ergopouch-long-sleeve-romper-1-0-tog-sage/-/A-1003100415",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Pajama Rompers",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-rise-of-skywalker-bb-8-on-the-run-performance-tee/-/A-89597320",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/owlivia-organic-cotton-footless-short-sleeve-romper-feather-mauve/-/A-1001915260",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Pajama Rompers",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-darth-vader-artistic-helmet-t-shirt/-/A-85827832",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/ergopouch-long-sleeve-romper-1-0-tog-daisies/-/A-1003100332",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Pajama Rompers",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-the-child-collage-t-shirt/-/A-82157726",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/g-nam-na-bamboo-sweatshirt/-/A-1002931669",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Pajama Jumpsuits",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-halloween-darth-vader-and-stormtroopers-i-find-your-lack-of-candy-disturbing-t-shirt/-/A-87697555",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/toddler-milo-convertible-one-piece-posh-peanut/-/A-1003607896",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Pajama Jumpsuits",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-halloween-candy-collage-t-shirt/-/A-84172983",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/ergopouch-long-sleeve-romper-1-0-tog-moss/-/A-1003100505",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Pajama Rompers",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-galaxy-of-adventures-darth-vader-dark-lord-t-shirt/-/A-85827877",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/g-nam-na-baby-bamboo-rayon-with-diaper-zipper-overall-set/-/A-1004011466",
+        "tags": "One Piece Pajamas, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Pajama Rompers",
         "filters": {
-          "brand": "Star Wars"
+          "type": "One Piece Pajamas"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-death-star-streaks-t-shirt/-/A-1001023049",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/toddler-gatsby-convertible-one-piece-posh-peanut/-/A-1003607906",
+        "tags": "Pajama Jumpsuits, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Jumpsuits"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-arcade-game-t-shirt/-/A-85132518",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/sports-print-2-pack-toddler-boy-s-to-youth-boy-s-sleep-pajama-pants/-/A-93781733",
+        "tags": "Pajama Pants, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Pants"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-retro-luke-skywalker-silhouette-t-shirt/-/A-86334639",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/ergopouch-long-sleeve-romper-1-0-tog-willow/-/A-1003100373",
+        "tags": "Pajama Rompers, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Rompers"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-the-child-2d-bassinet-force-is-strong-t-shirt/-/A-82162268",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/ergopouch-long-sleeve-romper-1-0-tog-ink/-/A-1003100429",
+        "tags": "Pajama Rompers, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Rompers"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-star-wars-cartoon-portraits-t-shirt/-/A-1004407575",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/ergopouch-long-sleeve-romper-1-0-tog-dragonflies/-/A-1003100342",
+        "tags": "Pajama Rompers, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Rompers"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-st-patrick-s-day-i-find-your-lack-of-disturbing-t-shirt/-/A-82188939",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/ergopouch-long-sleeve-romper-1-0-tog-oatmeal-marle/-/A-1003100353",
+        "tags": "Pajama Rompers, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Rompers"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-last-jedi-bb-8-sunset-t-shirt/-/A-85390832",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/carter-s-just-one-you-toddler-boys-3pc-short-sleeve-pajama-set/-/A-94334402",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-halloween-death-star-drip-t-shirt/-/A-84089791",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/carter-s-just-one-you-toddler-boys-4pc-cotton-short-sleeve-dinosaur-halloween-pajama-set-black-orange/-/A-94334034",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-halloween-stormtrooper-crossbones-t-shirt/-/A-84089832",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/toddler-boys-2pc-ghosts-and-candy-pajama-set-cat-jack-black/-/A-90628733",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-star-wars-dark-side-unite-t-shirt/-/A-1004407673",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/toddler-adaptive-2pc-port-access-pajama-set-cat-jack-green/-/A-92199297",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing, Toddler Boys’ Adaptive Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-halloween-death-star-t-shirt/-/A-84090178",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/toddler-boys-4pc-ribbed-pajama-set-cat-jack/-/A-92557925",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-mad-sith-skills-t-shirt/-/A-83979458",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/toddler-boys-2pc-snuggly-soft-snug-fit-pajama-set-cat-jack/-/A-94473783",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-grogu-djarin-red-sunset-art-t-shirt/-/A-1001091537",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/carter-s-just-one-you-toddler-boys-4pc-cotton-long-sleeve-dinosaur-halloween-pajama-set-black-orange/-/A-94334044",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-dark-side-partners-t-shirt/-/A-82364284",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/carter-s-just-one-you-toddler-boys-4pc-cotton-short-sleeve-pajama-set/-/A-94334033",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-classic-yoda-man-t-shirt/-/A-86334971",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/carter-s-just-one-you-toddler-boys-4pc-cotton-long-sleeve-pajama-set/-/A-94334043",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-this-is-the-way-mando-t-shirt/-/A-79681988",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/sleep-on-it-100-organic-cotton-rib-knit-snug-fit-4-piece-and-6-piece-pajama-sets-for-boys-girls/-/A-90016652",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-yoda-nice-or-not-nice-t-shirt/-/A-86339438",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-kids-two-piece-button-down-christmas-pajamas/-/A-89931460",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-darth-vadercute-cartoon-t-shirt/-/A-85154088",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/sleep-on-it-boys-2-piece-super-soft-jersey-snug-fit-pajama-set/-/A-84686882",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-patriotic-vintage-millennium-falcon-t-shirt/-/A-86926836",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/sleep-on-it-infant-toddler-boys-2-piece-super-soft-jersey-snug-fit-pajama-set-with-matching-socks/-/A-84235641",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-boba-it-s-cold-outside-t-shirt/-/A-81883326",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/mightly-toddler-fair-trade-100-organic-cotton-tight-fit-pajama-set/-/A-89718284",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-clone-wars-yoda-epic-are-my-jedi-skills-performance-tee/-/A-89597549",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/boys-disney-avengers-2pc-sleep-pajama-set-gray/-/A-86911267",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-valentine-s-day-boba-fett-bounty-on-heart-t-shirt/-/A-85778989",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/pj-masks-toddler-girls-boys-catboy-character-costume-sleep-pajama-set-blue/-/A-89531211",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-classic-scene-circle-t-shirt/-/A-85827742",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/touched-by-nature-baby-toddler-and-kids-unisex-organic-cotton-tight-fit-pajama-set-birch-trees/-/A-82733666",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-valentine-s-day-yoda-one-for-me-cartoon-t-shirt/-/A-85778707",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/pj-masks-toddler-boys-gekko-catboy-owlette-title-logo-sleep-pajama-set-multicolored/-/A-89531415",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-bad-batch-clone-force-99-t-shirt/-/A-82749976",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/sesame-street-toddler-boys-elmo-all-star-cuddle-monster-pajama-set-short-blue/-/A-91158287",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-patriotic-vintage-millennium-falcon-t-shirt/-/A-86926837",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/intimo-harry-potter-kids-all-houses-crest-pajamas/-/A-88116542",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-grogu-st-patrick-s-day-stars-luck-is-strong-with-this-one-t-shirt/-/A-85893927",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/dc-comics-justice-league-robin-cosplay-pajama-shirt-and-pants-sleep-set-toddler/-/A-87449390",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-birthday-cake-logo-t-shirt/-/A-92233006",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/dc-comics-toddler-boys-batman-pajamas-ready-for-action-2-piece-pajama-set-yellow-black/-/A-84628746",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-valentine-s-day-i-chews-you-t-shirt/-/A-85779014",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/touched-by-nature-baby-toddler-and-kids-unisex-organic-cotton-tight-fit-pajama-set-arctic/-/A-82733790",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-galaxy-of-adventures-stormtrooper-loyalty-t-shirt/-/A-86378687",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/touched-by-nature-toddler-and-kids-boy-organic-cotton-tight-fit-pajama-set-moose/-/A-83955568",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-halloween-vader-skeleton-dance-t-shirt/-/A-82372765",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/bluey-toddler-boys-2-piece-polyester-sleepwear-pajama-sets/-/A-1001767362",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-galaxy-of-adventures-c-3po-madness-t-shirt/-/A-86378668",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/pj-masks-toddler-boys-4-piece-long-sleeve-cotton-pajama-sets/-/A-1000901171",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-husky-star-wars-the-mandalorian-father-s-day-grogu-retro-he-goes/-/A-87573112",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/pj-masks-toddler-boys-gekko-catboy-owlette-we-re-on-our-way-pajama-set-blue/-/A-92046504",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-8th-birthday-grogu-bassinet-t-shirt/-/A-89404915",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/owlivia-organic-cotton-girl-s-short-sleeve-pajama-sets-baby-summer-2pc-sleepwear-pink-strawberry/-/A-1001915385",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-the-child-retro-stripes-t-shirt/-/A-82162844",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/blue-stripes-kids-pajamas/-/A-93130966",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-rise-of-skywalker-kylo-ren-emblem-t-shirt/-/A-82356324",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/carter-s-just-one-you-toddler-2pc-short-sleeve-comfy-soft-pumpkins-pajama-set-cream/-/A-94334327",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-the-child-bassinet-t-shirt/-/A-80219578",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/carter-s-just-one-you-toddler-2pc-short-sleeve-comfy-soft-snug-fit-pajama-set/-/A-94334328",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-boba-fett-portrait-t-shirt/-/A-82179529",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/pj-masks-toddler-boys-gekko-catboy-owlette-power-heroes-pajama-set-blue/-/A-1003215279",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-chewbacca-don-t-care-t-shirt/-/A-82368809",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/2t-5t-toddler-snoopy-family-matching-pajamas-sleepwear-2-piece-sets-for-christmas-with-woodstock-charlie-brown-linus-peanuts/-/A-1001184107",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-geometric-stormtrooper-helmet-t-shirt/-/A-82362728",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/owlivia-organic-cotton-toddler-short-sleeve-pajama-sets-baby-summer-2pc-sleepwear-blue-dinosaur/-/A-1001915179",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-young-jedi-adventures-jedi-master-yoda-may-the-force-be-with-you-t-shirt/-/A-89580367",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/pj-masks-toddler-boys-2-piece-top-with-shorts-pajama-set-red-3t/-/A-1003634782",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-ugly-christmas-yoda-silent-night-t-shirt/-/A-81881966",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/carter-s-just-one-you-toddler-2pc-short-sleeve-comfy-soft-ghosts-pajama-set-black/-/A-94334323",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-halloween-grogu-this-is-the-way-t-shirt/-/A-84172985",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/posh-peanut-miles-classic-pajama-set/-/A-1001576924",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-darth-vader-large-icon-t-shirt/-/A-89632845",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/harry-potter-boys-raglan-shirt-and-plaid-pajama-pants-set/-/A-84982552",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-visions-retro-anime-darth-vader-t-shirt/-/A-84644283",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/owlivia-organic-cotton-toddler-short-sleeve-pajama-sets-baby-summer-2pc-sleepwear-olive-green/-/A-1001915328",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-may-the-fourth-classic-poster-t-shirt/-/A-83026087",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/intimo-big-boys-harry-potter-hogwarts-school-crest-raglan-pajama-set-black/-/A-85922247",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-vintage-japanese-movie-poster-t-shirt/-/A-85827839",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/pj-masks-toddler-boys-4-piece-short-sleeve-cotton-pajama-sets-size-2t/-/A-1000901178",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-last-jedi-lights-t-shirt/-/A-85026292",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/carter-s-just-one-you-toddler-boys-2pc-short-sleeve-comfy-soft-snug-fit-pajama-set/-/A-92908369",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-merry-christmas-r2-d2-t-shirt/-/A-81951714",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/carter-s-just-one-you-toddler-boys-4pc-cotton-snug-fit-pajama-set/-/A-92908368",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-halloween-not-the-treats-t-shirt/-/A-84090940",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/carter-s-just-one-you-toddler-boys-4pc-cotton-snug-fit-pajama-set/-/A-93611091",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-r2-d2-5th-birthday-t-shirt/-/A-92232638",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/carter-s-just-one-you-toddler-boys-3pc-pajama-set/-/A-93611096",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-darth-vader-it-s-my-birthday-t-shirt/-/A-92232905",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/carter-s-just-one-you-toddler-boys-2pc-snug-fit-sting-rays-comfy-soft-pajama-set-blue/-/A-93611093",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-husky-star-wars-helmet-choice/-/A-87573231",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/owlivia-organic-cotton-toddler-short-sleeve-pajama-sets-baby-summer-2pc-sleepwear-navy/-/A-1001915200",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-characters-trick-or-treat-t-shirt/-/A-81914683",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/owlivia-organic-cotton-baby-long-sleeve-pajama-sets-toddler-2pc-sleepwear-mini-bears/-/A-1002252877",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-may-the-fourth-two-tone-box-t-shirt/-/A-83026123",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/pj-masks-toddler-boys-2-piece-heroes-micro-fleece-pajama-set/-/A-1000598704",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-cartoon-character-squares-t-shirt/-/A-86334656",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/pj-masks-toddler-boys-4-piece-cotton-pajama-sets-size-2t/-/A-1000901168",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-din-djarin-beskar-armor-t-shirt/-/A-82177652",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/owlivia-organic-cotton-baby-long-sleeve-pajama-sets-toddler-2pc-sleepwear-green-cheetah/-/A-1002252873",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-darth-vader-dark-side-empire-t-shirt/-/A-89633043",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/owlivia-organic-cotton-baby-long-sleeve-pajama-sets-toddler-2pc-sleepwear-blue-dinosaur/-/A-1002252872",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-ugly-christmas-lack-of-cheer-disturbing-t-shirt/-/A-81883257",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/chick-pea-baby-girl-toddler-and-infant-pajama-sleeper-matching-set-shorts-and-long-4-pc-set-floral-pink-size-4t-reindeer-red/-/A-89794066",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-bad-guy-panel-t-shirt/-/A-82359005",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/pj-masks-toddler-boys-4-piece-cotton-pajama-sets-multi-crew-2t/-/A-1005162811",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-visions-logo-performance-tee/-/A-84643721",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/pj-masks-toddler-boys-2-piece-or-3-piece-polyester-pajama-sets/-/A-1005162734",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-may-the-fourth-opening-crawl-t-shirt/-/A-83027016",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/toddler-boys-4pc-snug-fit-cotton-spider-man-pajama-set-red/-/A-92205171",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-visions-anime-r2-d2-performance-tee/-/A-84643694",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/toddler-2pc-snug-fit-mickey-mouse-and-friends-pajama-set-white/-/A-92205183",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-christmas-stormtrooper-helmets-t-shirt/-/A-81881499",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/toddler-boys-4pc-snug-fit-cotton-bluey-pajama-set-white/-/A-92205174",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-valentine-s-day-yoda-one-for-me-black-t-shirt/-/A-85778798",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/toddler-boys-4pc-teenage-mutant-ninja-turtles-cotton-long-sleeve-pajama-set-green-gray/-/A-94332397",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-death-star-out-of-service-t-shirt/-/A-85132567",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/toddler-boys-4pc-cars-cotton-long-sleeve-pajama-set-red-white-black/-/A-94332398",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-christmas-lights-grogu-t-shirt/-/A-87416904",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/toddler-boys-4pc-snug-fit-ms-rachel-cotton-pajama-set-blue/-/A-92367047",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-star-wars-stellar-scene-t-shirt/-/A-1004411978",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/toddler-boys-4pc-bluey-cotton-long-sleeve-halloween-pajama-set-white-black-orange/-/A-94332400",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-yoda-words-of-wisdom-t-shirt/-/A-79782923",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/toddler-4pc-ms-rachel-cotton-long-sleeve-halloween-pajama-set-orange-white-black/-/A-94266946",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-x-wing-starfighter-6-years-t-shirt/-/A-92233488",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/toddler-4pc-ms-rachel-cotton-long-sleeve-bus-pajama-set-yellow-white-blue/-/A-94266944",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-halloween-stormtrooper-pumpkin-t-shirt/-/A-87697646",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/toddler-boys-4pc-monsters-inc-cotton-long-sleeve-pajama-set-green-gray-teal-blue/-/A-94332406",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-the-child-scene-t-shirt/-/A-82161086",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/toddler-boys-4pc-mickey-mouse-friends-cotton-long-sleeve-pajama-set-gray-maroon-teal-blue/-/A-94332399",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-find-droids-for-christmas-t-shirt/-/A-81951379",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/toddler-boys-4pc-snug-fit-cotton-toy-story-pajama-set-white/-/A-92205176",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-last-jedi-porg-cartoon-t-shirt/-/A-82364386",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/toddler-boys-4pc-mickey-mouse-friends-cotton-long-sleeve-halloween-pajama-set-orange-gray-black/-/A-94332401",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-at-at-epic-fail-t-shirt/-/A-82359848",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/toddler-boys-2pc-long-sleeve-smooth-jersey-snug-fit-pajama-set-cloud-island/-/A-94473769",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-boba-fett-may-the-fourth-be-with-you-t-shirt/-/A-89039240",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/toddler-boys-4pc-snug-fit-teenage-mutant-ninja-turtles-cotton-pajama-set-gray/-/A-93723057",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-it-s-my-birthday-grogu-cupcake-t-shirt/-/A-89405010",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/toddler-boys-4pc-superman-cotton-long-sleeve-pajama-set-blue-white-red/-/A-94266947",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-empire-emblem-t-shirt/-/A-89633084",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/toddler-2pc-snug-fit-long-sleeve-ribbed-pajama-set-cloud-island/-/A-94444420",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-duo-schematics-t-shirt/-/A-82018511",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/toddler-4pc-peanuts-cotton-long-sleeve-halloween-pajama-set-orange-white/-/A-94266945",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-star-wars-r2-d2-retro-vibes-t-shirt/-/A-1004411984",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/hot-wheels-toddler-boy-s-monster-trucks-toys-tossed-print-pajama-set-short-blue/-/A-1000079353",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-the-child-grogu-t-shirt/-/A-82179481",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-kids-cotton-short-pajamas-vehicle-prints/-/A-93871444",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-character-frame-t-shirt/-/A-82156487",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-matching-family-christmas-pajamas-reindeer-red-and-white-print/-/A-93303164",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-may-the-fourth-lightsabers-t-shirt/-/A-89039182",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/dc-comics-justice-league-cosplay-pajama-shirt-pajama-shorts-and-detachable-cape-3-piece-sleep-set-toddler/-/A-1002841571",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-complicated-bounty-hunting-t-shirt/-/A-82158555",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/sesame-street-toddler-boy-s-3-piece-set-pajama-with-matching-slippers/-/A-92272670",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-grogu-may-the-fourth-be-with-you-starry-night-t-shirt/-/A-82783603",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/thomas-friends-toddler-boy-s-4-piece-cotton-pajama-set/-/A-92272639",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-halloween-vader-skeletons-t-shirt/-/A-84089119",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-matching-family-christmas-pajamas-red-and-white-striped/-/A-93303113",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-r2-d2-7th-birthday-t-shirt/-/A-92232511",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/modern-moments-by-gerber-toddler-gender-neutral-4-piece-tight-fitting-pajamas-set/-/A-1001974021",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-mythosaur-skull-logo-performance-tee/-/A-82160949",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-kids-cotton-pajamas-vehicle-prints/-/A-93871076",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-stormtrooper-helmet-frame-t-shirt/-/A-86338096",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/little-blue-truck-kids-snug-fit-2-piece-pajamas-set/-/A-1001028167",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-classic-poster-t-shirt/-/A-86334523",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/dc-comics-justice-league-superman-batman-pajama-shirt-and-pants-detachable-cape-sleep-set-toddler/-/A-85949320",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-cartoon-at-at-journey-t-shirt/-/A-86332936",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/sleep-on-it-boys-viscose-from-bamboo-2-piece-snug-fit-pajama-set-2-pack/-/A-1002198100",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-boba-fett-no-threats-only-promises-t-shirt/-/A-85271656",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/curious-george-toddler-boys-tight-fit-striped-sleep-pajama-set-long-sleeves-blue/-/A-88857911",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-last-jedi-porg-eyes-t-shirt/-/A-82365497",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/john-deere-tractor-pajama-shirt-and-pajama-pants-sleep-set-toddler/-/A-1003394829",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-pizza-empire-t-shirt/-/A-87416996",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/disney-toy-story-toddler-boy-s-4-piece-cotton-pajama-set/-/A-92161350",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-tie-fighter-pew-pew-pew-t-shirt/-/A-89633101",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/star-wars-toddler-boy-s-4-piece-cotton-pajama-sets/-/A-92336858",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-bad-batch-character-helmets-t-shirt/-/A-1001091633",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/disney-mickey-mouse-toddler-boys-2-piece-short-sleeve-with-shorts-pajama-set/-/A-1003111767",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-yoda-best-mom-cartoon-t-shirt/-/A-91342941",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-kids-two-piece-cotton-striped-boys-pajamas/-/A-89618924",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-galaxy-of-adventures-stormtrooper-shadow-t-shirt/-/A-86378631",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-kids-cotton-pajamas-animal-prints/-/A-93860813",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-r2-d2-coolest-kid-in-the-galaxy-t-shirt/-/A-92233254",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/sesame-street-toddler-boy-s-cookie-monster-hungry-boy-sleep-pajama-set-short-blue/-/A-91158371",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-return-of-the-jedi-ombre-ewok-scene-t-shirt/-/A-89632989",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/nickelodeon-blue-s-clues-toddler-boys-and-girls-4-piece-cotton-pajama-set/-/A-92177933",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-husky-star-wars-valentine-s-day-boba-fett-cupid/-/A-87573271",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/dc-comics-justice-league-batman-christmas-pajama-shirt-and-pants-sleep-set-toddler/-/A-87574821",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-rise-of-skywalker-groovy-flight-t-shirt/-/A-85270527",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/sesame-street-toddler-boys-cookie-monster-elmo-best-pals-pajama-set-blue/-/A-1003105473",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-christmas-the-child-ugly-force-mas-t-shirt/-/A-81966050",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/nickelodeon-paw-patrol-toddler-boys-2-piece-polyester-pajama-sets/-/A-1003118926",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-obi-wan-kenobi-jedi-kenobi-logo-t-shirt/-/A-86751102",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-cotton-matching-family-pajamas-colorful-stripes/-/A-92943965",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-x-wing-schematics-t-shirt/-/A-85270304",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/onesies-brand-baby-and-toddler-boys-4-piece-pajamas-sets/-/A-1002175746",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-messy-boba-fett-painted-helmet-t-shirt/-/A-85155180",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/nickelodeon-toddler-boys-bubble-guppies-that-sounds-fishy-sleep-pajama-set-turquoise/-/A-84851162",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-christmas-tis-the-season-brother-t-shirt/-/A-84867450",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-matching-family-christmas-pajamas-buffalo-check-black-and-navy-plaid/-/A-93319101",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-halloween-stormtrooper-t-shirt/-/A-87416934",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/honest-baby-organic-cotton-matching-family-pajamas/-/A-1002588629",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-classic-poster-logo-t-shirt/-/A-89633098",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-matching-family-christmas-pajamas-red-green-and-white-striped/-/A-93318754",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-darth-vader-battle-t-shirt/-/A-81914485",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-cotton-matching-family-christmas-pajamas-moose-print/-/A-92905518",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-darth-vader-7th-birthday-abstract-background-t-shirt/-/A-1001942132",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/despicable-me-boys-movie-minions-1-in-a-minion-sleep-pajama-set-shorts-multicolored/-/A-88871480",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-retro-icons-t-shirt/-/A-89632918",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-kids-two-piece-cotton-striped-girls-pajamas/-/A-89619077",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-christmas-darth-vader-santa-s-sleigh-t-shirt/-/A-81882695",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/world-of-eric-carle-kids-2-piece-snug-fit-pajamas-set/-/A-1001028181",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-visions-kanji-logo-t-shirt/-/A-84644117",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/milkberry-rayon-from-bamboo-short-sleeve-pajama-set-for-girls-boys-sizes-12-months-5t/-/A-1000513761",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-gingerbread-cookies-mando-grogu-t-shirt/-/A-90164142",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/milkberry-rayon-from-bamboo-infant-to-toddler-pajama-set-for-girls-boys-sizes-12-months-5t/-/A-1000018035",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-hairy-chewbacca-2nd-birthday-t-shirt/-/A-92232523",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-kids-halloween-pajamas-cotton/-/A-94093399",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-yoda-luck-of-the-jedi-t-shirt/-/A-90778414",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-cotton-matching-family-pajamas-fish-tank-print/-/A-92905974",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-the-armorer-time-for-a-fight-t-shirt/-/A-89034769",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-matching-family-christmas-pajamas-green-and-white-striped/-/A-93318734",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-darth-vader-need-space-t-shirt/-/A-85390811",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/honest-baby-organic-cotton-fun-foods-pajamas-for-babies-toddlers/-/A-1002590943",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-stormtrooper-faux-pocket-logo-t-shirt/-/A-89632808",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/intimo-boys-toddler-superman-pajama-set/-/A-87330060",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-cute-grogu-birthday-boy-t-shirt/-/A-89186896",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/textiel-trade-boy-s-space-jam-long-pajama-set/-/A-90216361",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-empire-strikes-back-boba-fett-helmet-t-shirt/-/A-89633081",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/ruggedbutts-modal-blend-toddler-boys-long-sleeve-pajama-set/-/A-93908252",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-the-way-silhouette-t-shirt/-/A-85404718",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/juniors-slam-dunk-classic-pajama-set-posh-peanut/-/A-1002357944",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-empire-strikes-back-darth-vader-and-stormtroopers-join-the-empire-poster-t-shirt/-/A-89632757",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/touched-by-nature-baby-toddler-and-kids-unisex-holiday-pajamas-kids-merry-and-bright/-/A-82730317",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-darth-vader-the-force-is-strong-with-this-one-t-shirt/-/A-89632870",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-cotton-matching-family-pajamas-cow-print/-/A-92747979",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-christmas-grogu-and-din-djarin-santa-hats-t-shirt/-/A-89660805",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-matching-family-christmas-pajamas-red-and-white-argyle/-/A-93318730",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-darth-vader-strong-force-t-shirt/-/A-85154733",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/nickelodeon-toddler-boys-blue-s-clues-sleep-raglan-shirt-pant-pajama-set-blue/-/A-84851122",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-boba-fett-lives-t-shirt/-/A-82178934",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/dc-comics-justice-league-superman-batman-sweatshirt-and-pants-set-infant-to-toddler/-/A-88853587",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-book-of-boba-fett-distressed-character-line-up-t-shirt/-/A-85751775",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-matching-family-pajamas-orca-stripes/-/A-93302709",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-choking-hazard-t-shirt/-/A-86333164",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/patpat-christmas-family-matching-red-pajamas-sets-for-family/-/A-1000401067",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-r2-d2-4th-birthday-t-shirt/-/A-92232564",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-cotton-matching-family-pajamas-panda-print/-/A-92932506",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-halloween-darth-vader-pumpkin-t-shirt/-/A-87697679",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-kids-two-piece-neutral-solid-color-thermal-pajamas/-/A-89893314",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-rise-of-skywalker-first-order-sith-trooper-performance-tee/-/A-89597388",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/patpat-family-christmas-pjs-matching-sets-reindeer-and-snowflake-patterned-sleepwear-xmas-pjs-set-for-family/-/A-1000402637",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-egg-cellent-easter-t-shirt/-/A-88718363",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-kids-poly-top-and-flannel-feel-pants-christmas-pajamas/-/A-89911032",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-obi-wan-kenobi-darth-vader-vs-obi-wan-kenobi-color-block-t-shirt/-/A-86751285",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/touched-by-nature-baby-toddler-and-kids-unisex-organic-cotton-tight-fit-pajama-set-buffalo-plaid/-/A-82733714",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-paradise-floral-stormtrooper-helmet-t-shirt/-/A-89632871",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-kids-christmas-pajamas-cotton/-/A-93857056",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-the-child-sparkles-t-shirt/-/A-89175717",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/touched-by-nature-baby-toddler-and-kids-unisex-holiday-pajamas-kids-bear/-/A-82730328",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-birthday-boy-cartoon-darth-vader-t-shirt/-/A-92232395",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-cotton-matching-family-pajamas-koala-print/-/A-92749855",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-easter-come-to-the-dyed-side-text-t-shirt/-/A-82574504",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-cotton-matching-family-pajamas-avocado-print/-/A-92710964",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-easter-egg-rebel-alliance-logo-t-shirt/-/A-86338978",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-matching-family-pajamas-moon-print/-/A-93290029",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-din-djarin-schematics-t-shirt/-/A-82156728",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/touched-by-nature-baby-toddler-and-kids-unisex-holiday-pajamas-kids-moose/-/A-82733396",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-r2-d2-beep-t-shirt/-/A-86333235",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/blues-clues-toddler-boys-4-piece-cotton-pajama-sets/-/A-1000888513",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-yoda-best-son-ever-t-shirt/-/A-89633055",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-kids-cotton-pajamas-classic-prints/-/A-93870735",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-darth-vader-one-and-only-t-shirt/-/A-85827892",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/nickelodeon-paw-patrol-toddler-boys-2-piece-pajama-set-with-cape-red-yellow-2t/-/A-1003120009",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-revenge-of-the-sith-darth-vader-tile-mosaic-t-shirt/-/A-89633033",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/modern-moments-by-gerber-toddler-neutral-2-piece-pajama-set/-/A-1001911507",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-darth-vader-1-dad-t-shirt/-/A-86502558",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/sleep-on-it-boys-2-piece-velour-pajama-set/-/A-89914661",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-may-the-fourth-space-t-shirt/-/A-83026066",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-matching-family-pajamas-birds-print/-/A-93334900",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-obi-wan-kenobi-silhouette-kenobi-two-suns-t-shirt/-/A-86827174",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/touched-by-nature-baby-toddler-and-kids-unisex-organic-cotton-tight-fit-pajama-set-black-plaid/-/A-82733718",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-valentine-s-day-han-and-leia-holding-hands-t-shirt/-/A-85778936",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-cotton-matching-family-pajamas-rainbow-print/-/A-92948826",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-obi-wan-kenobi-darth-vader-menacing-glow-t-shirt/-/A-86826656",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/dc-comics-toddler-boys-classic-the-flash-logo-raglan-sleep-pajama-set-red/-/A-85724476",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-st-patrick-s-day-cartoon-yoda-lucky-one-t-shirt/-/A-85894699",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/power-rangers-toddler-boys-red-ranger-character-costume-sleep-pajama-set-red/-/A-89531275",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-obi-wan-kenobi-jedi-and-empire-logo-t-shirt/-/A-86750815",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-matching-family-pajamas-moon-print/-/A-93303140",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-darth-vader-lightsaber-outline-t-shirt/-/A-85827875",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-matching-family-christmas-pajamas-black-and-white-argyle/-/A-93303231",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-last-jedi-st-patrick-s-day-porg-shamrock-t-shirt/-/A-79782888",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/ruggedbutts-softsnooze-viscose-from-bamboo-toddler-boys-long-sleeve-pajama-set/-/A-93908221",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-luke-and-leia-grayscale-t-shirt/-/A-85827027",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/birdie-bean-care-bears-cosmic-constellations-2-piece-pajamas/-/A-1001449692",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-stormtroopers-are-ready-to-hunt-eggs-on-easter-t-shirt/-/A-86089005",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/nickelodeon-paw-patrol-toddler-boys-2-piece-or-3-piece-loose-fit-pajama-sets/-/A-1003132541",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-may-the-force-opening-crawl-t-shirt/-/A-86335434",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/disney-toddler-boys-mickey-mouse-3-piece-pajama-set-red-gray-2t/-/A-1003106220",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-yoda-best-cousin-t-shirt/-/A-86336641",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/jurassic-world-toddler-boys-movie-film-park-tight-fit-sleep-pajama-set-multicolored/-/A-88858369",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-valentine-s-day-you-r2-awesome-t-shirt/-/A-85778683",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/rufflebutts-gender-inclusive-modal-blend-toddler-long-sleeve-pajama-set/-/A-1004644981",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-birthday-grogu-t-shirt/-/A-87416796",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/birdie-bean-care-bears-back-to-school-2-piece-pajamas/-/A-1003267985",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-st-patrick-s-day-yoda-lucky-one-t-shirt/-/A-85893848",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-cotton-matching-family-pajamas-pineapple-print/-/A-92906025",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-christmas-sith-day-t-shirt/-/A-81951571",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-matching-family-christmas-pajamas-black-and-red-argyle/-/A-93303187",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-happy-easter-egg-porg-style-t-shirt/-/A-86089200",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-matching-family-pajamas-wolf-print/-/A-93302719",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-christmas-grogu-and-din-djarin-joy-is-the-way-t-shirt/-/A-89660552",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/disney-toddler-boys-mickey-mouse-2-piece-micro-flecced-pajama-sets/-/A-1003106214",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-darth-vader-loves-easter-and-baby-chickens-t-shirt/-/A-85904630",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-cotton-matching-family-pajamas-black-skeleton-print/-/A-93405931",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-rise-of-skywalker-sith-villain-trooper-t-shirt/-/A-82350608",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/dark-dinosaurs-sports-2-pack-shortsleeve-pajamas/-/A-93225743",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-halloween-grogu-big-treats-t-shirt/-/A-84173007",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-cotton-matching-family-pajamas-easter-rabbit-print/-/A-92749080",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-christmas-the-child-ugly-space-pod-t-shirt/-/A-81966027",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/minions-boys-pajamas-one-in-a-minion-sleep-shirt-and-pant-2-piece-sleep-set-multicolored/-/A-1003105440",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-mc-darth-vader-t-shirt/-/A-89633144",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/power-rangers-kids-ranger-character-tight-fit-shorts-sleep-pajama-set/-/A-1003105532",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-husky-star-wars-stormtrooper-group/-/A-87573186",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/lego-movie-2-toddler-boys-4-piece-glow-in-the-dark-pajama-sets/-/A-1000902754",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-husky-star-wars-bb-8-porg-party/-/A-87573087",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/transformers-toddler-boy-s-bumblebee-tight-fit-long-sleeve-sleep-pajama-set-bumblebee-t/-/A-1000153981",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-star-wars-x-wing-starfighter-flyby-t-shirt/-/A-1004413920",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/space-jam-looney-tunes-tasmanian-devil-buggs-bunny-pajama-shirt-and-pants-sleep-set-toddler/-/A-85954917",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-jedi-knight-academy-t-shirt/-/A-86335306",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/dark-dinosaurs-stripes-2-pack-kids-pajamas/-/A-93163505",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-strong-attachment-t-shirt/-/A-82157318",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/kids-3-pack-pajamas-shortsleeve-set-yellow-flowers-dots-fruits/-/A-93163891",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-return-of-the-jedi-forest-of-endor-summer-camp-83-t-shirt/-/A-89633012",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/wildbird-cloudblend-long-sleeve-pajamas-set/-/A-1001243482",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-classic-gold-logo-t-shirt/-/A-89632908",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/transformers-toddler-boys-optimus-prime-2-piece-long-sleeve-pajama-set-red/-/A-1003011719",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-star-wars-darth-vader-and-stormtrooper-pose-t-shirt/-/A-1004407295",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/paw-patrol-toddler-boys-4-piece-cotton-pajama-sets/-/A-1000870422",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-star-wars-welcome-to-tatooine-t-shirt/-/A-1004414056",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/city-threads-usa-made-boys-and-girls-soft-organic-cotton-pajama-sets/-/A-90644540",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-last-jedi-r2-d2-schematics-t-shirt/-/A-86335867",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/nickelodeon-paw-patrol-toddler-boys-2-piece-fleece-pajama-sets/-/A-1000525956",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-halloween-grogu-mummy-t-shirt/-/A-89579171",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/kung-fu-panda-4-toddler-boy-s-heart-of-a-dragon-warrior-sleep-pajama-set-blue/-/A-91158365",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-may-the-fourth-be-with-you-din-djarin-t-shirt/-/A-89039131",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-cotton-kids-buffalo-plaid-buffalo-check-christmas-pajamas-xmas-pjs/-/A-94093557",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-spooky-death-star-t-shirt/-/A-87416948",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-kids-cotton-pajamas-animal-print/-/A-94108028",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-star-wars-protect-the-endor-forest-t-shirt/-/A-1004407521",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/juniors-gatsby-classic-pajama-set-posh-peanut/-/A-1003607937",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-young-jedi-adventures-master-yoda-portrait-t-shirt/-/A-89580669",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-cotton-matching-girl-and-doll-christmas-pajamas/-/A-94106728",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-star-wars-sith-lord-darth-vader-face-t-shirt/-/A-1004407384",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-matching-family-christmas-pajamas-buffalo-check-black-and-green-plaid/-/A-93318946",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-ewok-summer-camp-t-shirt/-/A-82361890",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-matching-family-pajamas-cow-print/-/A-93289817",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-halftone-characters-t-shirt/-/A-1001938933",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/lego-duplo-toddler-boys-4-piece-chicken-cotton-pajama-sets/-/A-1003135467",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-force-awakens-halloween-pumpkin-bb-8-t-shirt/-/A-87257084",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/despicable-me-boys-minions-bello-raglan-sleep-pajama-set-shorts-shirt-multicolored/-/A-86058204",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-boba-fett-birthday-kid-t-shirt/-/A-92232141",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/pajama-set-mama-s-boy-charlie-lou-baby/-/A-1003331875",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-star-wars-anakin-skywalker-collage-t-shirt/-/A-1004407165",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/touched-by-nature-baby-toddler-and-kids-unisex-organic-cotton-tight-fit-pajama-set-woodland/-/A-82733687",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-obi-wan-kenobi-geometric-obi-wan-t-shirt/-/A-86751352",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/touched-by-nature-baby-boy-organic-cotton-tight-fit-pajama-set-moose-12-18-months/-/A-82733536",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-follow-the-candy-t-shirt/-/A-87416861",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/nickelodeon-toddler-boy-s-blue-s-clues-smile-blue-sleep-pajama-set-short-blue/-/A-1001028222",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-st-patrick-s-day-grogu-may-luck-be-with-you-distressed-t-shirt/-/A-85893923",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/mightly-toddler-fair-trade-100-organic-cotton-tight-fit-shorite-pajamas-set/-/A-1004010319",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-christmas-grogu-galaxy-s-greetings-cute-t-shirt/-/A-89660770",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/tonka-toddler-boys-dump-truck-i-play-tough-2-piece-long-sleeve-pajama-set-grey/-/A-1003215446",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-9th-birthday-grogu-bassinet-t-shirt/-/A-89404894",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/sonic-the-hedgehog-toddler-boy-s-4-piece-cotton-pajama-set/-/A-92161371",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-christmas-logo-string-lights-t-shirt/-/A-81951313",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-short-sleeve-animals-cotton-pajamas/-/A-85385013",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-halloween-vader-helmet-spray-paint-t-shirt/-/A-82355586",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-cotton-matching-family-easter-pajamas-bunny-print/-/A-92898404",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-galactic-empire-kit-t-shirt/-/A-83978607",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-matching-family-bamboo-pajamas-polar-bear-print/-/A-1001731884",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-spooky-trooper-performance-tee/-/A-87416957",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/lego-duplo-toddler-boys-2-piece-polyester-pajama-set-yellow-white-2t/-/A-1003128939",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-the-child-i-m-all-ears-t-shirt/-/A-80219634",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/touched-by-nature-baby-boy-organic-cotton-tight-fit-pajama-set-blue-elephant-12-18-months/-/A-82733706",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-visions-darth-vader-portrait-performance-tee/-/A-84644217",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/mightly-toddler-fair-trade-100-organic-cotton-tight-fit-shortie-pajamas-3t-rainbow-stripe-set/-/A-89718325",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-wicket-ewok-cartoon-t-shirt/-/A-86339270",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/nickelodeon-paw-patrol-toddler-boys-2-piece-pajama-set-blue-chase-2t/-/A-1003128937",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-last-jedi-christmas-cold-bb-8-t-shirt/-/A-81883538",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-matching-family-pajamas-toucan-bird-print/-/A-93335770",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-young-jedi-adventures-kai-brightstar-portrait-t-shirt/-/A-89580833",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/nickelodeon-paw-patrol-toddler-boys-2-piece-button-down-pajama-set-gray-multi-print-2t/-/A-1003128938",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-grogu-trick-or-treat-t-shirt/-/A-87416751",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/sleep-on-it-boys-2-piece-super-soft-jersey-long-sleeve-snug-fit-pajama-set/-/A-91944266",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-book-of-boba-fett-rancor-attack-t-shirt/-/A-86283232",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/mightly-toddler-fair-trade-100-organic-cotton-tight-fit-shortie-pajamas-2t-rainbow-stripe-set/-/A-89718327",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-visions-death-dishonor-t-shirt/-/A-84644060",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/dc-comics-toddler-boys-superhero-tight-fit-multiple-styles-sleep-pajama-set/-/A-1001000061",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-valentine-s-day-the-child-heart-portrait-t-shirt/-/A-82342637",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/birdie-bean-care-bears-back-to-school-2-piece-pajamas/-/A-1003270732",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-stormtrooper-helmet-flamingo-print-t-shirt/-/A-89632855",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-kids-two-piece-cotton-easter-pajamas/-/A-89927150",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-millennium-falcon-outline-t-shirt/-/A-85827028",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/modern-moments-by-gerber-toddler-neutral-4-piece-tight-fitting-footless-pajamas/-/A-1002549259",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-boba-fett-birthday-boy-t-shirt/-/A-92232161",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/where-the-wild-things-are-little-boys-rumpus-start-striped-pajama-sleep-set-multi/-/A-88028237",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-clone-wars-yoda-size-matters-not-t-shirt/-/A-86926769",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-matching-family-pajamas-whale-print/-/A-93334511",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-tales-of-the-jedi-official-logo-t-shirt/-/A-88404374",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-matching-family-pajamas-wolf-print/-/A-93302723",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-star-wars-the-mandalorian-may-the-force-and-fireworks-t-shirt/-/A-1004401376",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-cotton-matching-family-pajamas-camouflage-print/-/A-92905966",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-tales-of-the-jedi-ahsoka-tano-use-the-force-t-shirt/-/A-88404506",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-cotton-matching-family-pajamas-alien-print/-/A-92905557",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-stop-wearing-darth-vader-t-shirt/-/A-86333152",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-cotton-matching-family-pajamas-dog-paw-print/-/A-92711073",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-the-child-frame-t-shirt/-/A-79782897",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/pajama-set-gone-fishin-charlie-lou-baby/-/A-1003754703",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-bad-batch-square-logo-t-shirt/-/A-82750822",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-matching-family-pajamas-solid-orange-100-cotton-customizable-for-personalization/-/A-1004975087",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-st-patrick-s-day-porg-and-a-shamrock-t-shirt/-/A-85895051",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-matching-family-pajamas-solid-beige-100-cotton-customizable-for-personalization/-/A-1004951022",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-return-of-the-jedi-tiny-ewok-t-shirt/-/A-89632821",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-matching-family-bamboo-pajamas-leopard-print/-/A-1001731847",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-happy-easter-stormtroopers-t-shirt/-/A-85904680",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-cotton-matching-family-pajamas-dinosaur-print/-/A-92943573",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-grogu-st-patrick-s-day-galaxy-stars-pinch-proof-t-shirt/-/A-85894480",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/cocomelon-infant-toddler-boys-4-piece-cotton-pajama-sets/-/A-1005084244",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-fourth-of-july-grogu-t-shirt/-/A-83691675",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/sesame-street-infant-toddler-boys-4-piece-sesame-squad-cotton-pajama-sets/-/A-1005100728",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-st-patrick-s-day-grogu-pot-of-gold-t-shirt/-/A-88746365",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/birdie-bean-care-bears-cosmic-bears-blue-2-piece-pajamas/-/A-1001453184",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-st-patrick-s-day-yoda-pinch-me-not-t-shirt/-/A-79712171",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-matching-family-bamboo-pajamas-reindeer-print/-/A-1001731944",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-millennium-falcon-schematics-t-shirt/-/A-82369915",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/birdie-bean-care-bears-baby-pink-stars-2-piece-pajamas/-/A-1001854818",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-grogu-easter-egging-around-t-shirt/-/A-82611938",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/birdie-bean-ellis-2-piece-pajamas/-/A-1003918571",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-st-patrick-s-day-grogu-luck-is-strong-with-this-one-distressed-t-shirt/-/A-85894678",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-kids-two-piece-bamboo-christmas-pajamas/-/A-1001130802",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-grogu-st-patrick-s-day-the-luck-is-strong-with-this-one-t-shirt/-/A-82612109",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/birdie-bean-care-bears-america-cares-2-piece-pajamas/-/A-1002731595",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-book-of-boba-fett-cad-bane-mercenary-and-bounty-hunter-t-shirt/-/A-86220990",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-matching-family-pajamas-solid-teal-100-cotton-customizable-for-personalization/-/A-1005006348",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-do-not-pinch-yoda-t-shirt/-/A-85894435",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-matching-family-pajamas-solid-maroon-100-cotton-customizable-for-personalization/-/A-1004974093",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-birthday-boy-r2-d2-party-t-shirt/-/A-92232216",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-matching-family-pajamas-tie-dye-ombre-print-blue-pink-100-cotton-customizable-for-personalization/-/A-1005132124",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-the-child-luckiest-in-the-galaxy-t-shirt/-/A-82157488",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-matching-family-pajamas-solid-royal-blue-100-cotton-customizable-for-personalization/-/A-1005006196",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-tropical-stormtrooper-t-shirt/-/A-82372165",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/mary-engelbreit-bedtime-stories-pajama-set/-/A-1004708339",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-star-wars-join-darth-vader-and-stormtroopers-t-shirt/-/A-1004407323",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-matching-family-pajamas-solid-light-gray-100-cotton-customizable-for-personalization/-/A-1005132229",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-st-patrick-s-day-yoda-lucky-you-are-t-shirt/-/A-79782891",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-matching-family-pajamas-solid-brown-100-cotton-customizable-for-personalization/-/A-1004951156",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-grogu-st-patrick-s-day-may-the-luck-be-with-you-t-shirt/-/A-82612045",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-matching-family-pajamas-tie-dye-ombre-beige-print-100-cotton-customizable-for-personalization/-/A-1004950881",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-valentine-s-day-the-child-little-valentine-panels-t-shirt/-/A-82342623",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/city-threads-usa-made-organic-cotton-soft-pajama-short-sleeve-set-for-boys-and-girls-snug-fit/-/A-92746758",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-st-patrick-s-day-grogu-may-the-luck-be-with-you-distressed-t-shirt/-/A-85894974",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-matching-family-pajamas-solid-yellow-100-cotton-customizable-for-personalization/-/A-1004951775",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-grogu-st-patrick-s-day-rainbow-lucky-and-cute-t-shirt/-/A-85893971",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/the-smurfs-toddler-kids-smurfette-papa-smurf-brainy-smurf-pajama-set-white/-/A-1003105458",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-st-patrick-s-day-don-t-pinch-a-wookiee-t-shirt/-/A-79782884",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-matching-family-pajamas-solid-back-100-cotton-customizable-for-personalization/-/A-1004951114",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-grogu-and-din-djarin-fall-leaves-apple-of-my-eye-t-shirt/-/A-89578989",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/hot-wheels-toddler-boys-cars-team-hot-wheels-race-sleep-pajama-set-shorts-blue/-/A-1004457331",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-halloween-candy-bounty-hunter-din-djarin-and-grogu-t-shirt/-/A-87697977",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-matching-family-bamboo-pajamas-trees-print/-/A-1001732040",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-bad-batch-crosshair-logo-t-shirt/-/A-82750273",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-matching-family-pajamas-solid-uniform-green-100-cotton-customizable-for-personalization/-/A-1005019728",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-st-patrick-s-day-grogu-the-luck-is-strong-with-this-one-t-shirt/-/A-85887581",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-matching-family-bamboo-pajamas-dogs-print/-/A-1001731365",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-happy-holidays-chibi-characters-t-shirt/-/A-90163891",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-matching-family-pajamas-solid-dark-gray-100-cotton-customizable-for-personalization/-/A-1004951208",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-the-child-trading-card-t-shirt/-/A-82160227",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-matching-family-pajamas-solid-dark-purple-100-cotton-customizable-for-personalization/-/A-1004952253",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-death-star-streaks-t-shirt/-/A-85132497",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/birdie-bean-care-bears-baby-blue-stars-2-piece-pajamas/-/A-1002198280",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-darth-vader-woke-up-like-this-t-shirt/-/A-85827886",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/minimoi-2-piece-kids-mini-stripe-generation-minimoi-pajama-set/-/A-1002435180",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-a-new-hope-c-3po-chewbacca-and-r2-d2-i-got-your-back-t-shirt/-/A-89632934",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-matching-family-pajamas-solid-red-100-cotton-customizable-for-personalization/-/A-1005006011",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-becoming-darth-vader-t-shirt/-/A-85088336",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-kids-cotton-pajamas-classic-prints/-/A-94093868",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-simple-logo-t-shirt/-/A-86388382",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-matching-family-bamboo-pajamas-fish-print/-/A-1001731800",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-father-s-day-grogu-he-goes-t-shirt/-/A-83609299",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-matching-family-pajamas-solid-green-100-cotton-customizable-for-personalization/-/A-1005132191",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-christmas-dark-side-snowflakes-t-shirt/-/A-84868230",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-matching-family-pajamas-solid-mustard-100-cotton-customizable-for-personalization/-/A-1004974166",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-the-child-considered-armed-and-dangerous-t-shirt/-/A-82159865",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-matching-family-pajamas-dark-colorful-tie-dye-print-100-cotton-customizable-for-personalization/-/A-1004950798",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-christmas-empire-lack-of-cheer-t-shirt/-/A-81882026",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/leveret-matching-family-pajamas-solid-olive-100-cotton-customizable-for-personalization/-/A-1004974636",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-fourth-of-july-cute-grogu-t-shirt/-/A-83691501",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/tiny-knot-co-toddler-gender-neutral-buttery-soft-durable-tagless-printed-tencel-modal-pajama-set/-/A-1001654225",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-empire-cartoon-characters-t-shirt/-/A-86337634",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/disney-mickey-mouse-toddler-boys-2-piece-polyester-sleepwear-sets/-/A-1003141247",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-galaxy-of-stars-poster-t-shirt/-/A-85826954",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/intimo-dc-comics-baby-boys-flash-2-piece-sleep-set/-/A-84262668",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-rebel-symbol-clover-fade-t-shirt/-/A-82188314",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/birdie-bean-care-bears-baby-summer-fun-2-piece-set/-/A-1002219272",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-r2-d2-and-bb-8-you-re-the-droid-i-m-looking-for-t-shirt/-/A-85779284",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/minimoi-tiny-stripe-set/-/A-1002443131",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-the-child-force-is-strong-t-shirt/-/A-82154891",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/birdie-bean-care-bears-bedtime-pizza-2-piece-pj-short/-/A-1003090639",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-vintage-rebel-frame-t-shirt/-/A-85827589",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/minime-3-piece-ribbed-flower-bud-cotton-rich-footie-set/-/A-1002444820",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-the-child-starry-night-t-shirt/-/A-82174182",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/birdie-bean-care-bears-bedtime-pizza-2-piece-pj-long/-/A-1003237226",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-father-s-day-darth-vader-1-dad-t-shirt/-/A-82783741",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/minime-2-piece-baby-and-toddler-boys-reversible-sail-away-100-cotton-pointelle-snap-up-top-and-pants-set/-/A-1002444807",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-yoda-force-with-this-one-t-shirt/-/A-82353851",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/minime-2-piece-baby-three-little-bears-rayon-from-bamboo-blend-footie-set/-/A-1002444568",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-valentine-s-day-the-child-floating-candy-hearts-t-shirt/-/A-82342594",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/minime-3-piece-unisex-baby-ribbed-shimmer-stripe-footie-set/-/A-1002444975",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-last-jedi-porgs-frame-t-shirt/-/A-82355675",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/minime-3-piece-baby-boys-airplane-ribbed-cotton-rich-footie-set/-/A-1002444827",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-christmas-at-at-reindeer-t-shirt/-/A-81951150",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/minime-3-piece-baby-cotton-rich-aviation-footie-set/-/A-1002444575",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-hoppy-easter-from-the-jawas-t-shirt/-/A-86089084",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/minime-2-piece-baby-lurex-trimmed-ribbed-cotton-footie/-/A-1002444554",
+        "tags": "Pajama Sets, Pajamas, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Pajama Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-boba-fett-retro-circle-t-shirt/-/A-82373094",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/dc-comics-toddler-boys-costume-plush-fleece-robes/-/A-1000525951",
+        "tags": "Pajamas, Robes, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Robes"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-bad-batch-badge-t-shirt/-/A-82750267",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/cocomelon-toddler-boys-and-girls-jj-playtime-plush-fleece-robe/-/A-92250423",
+        "tags": "Pajamas, Robes, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Robes"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-st-patrick-s-day-vader-lack-of-clover-t-shirt/-/A-82188251",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/gerber-baby-boys-twill-shorts/-/A-1003386649",
+        "tags": "Bottoms, Cargo Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing, Pull-on Shorts",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Cargo Shorts"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-pixel-darth-vader-and-stormtroopers-t-shirt/-/A-85827847",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/toddler-boys-pull-on-denim-cargo-shorts-cat-jack-light-wash/-/A-93016698",
+        "tags": "Bottoms, Cargo Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Cargo Shorts"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-husky-star-wars-park-ranger-endor-ewok-badge/-/A-87573083",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/toddler-boys-39-button-front-denim-shorts-cat-38-jack-8482-orange/-/A-90115331",
+        "tags": "Bottoms, Cargo Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Cargo Shorts"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-the-child-bounty-heart-pocket-t-shirt/-/A-82158348",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/grayson-mini-toddler-boys-french-terry-pull-on-cargo-shorts-beige/-/A-90429369",
+        "tags": "Bottoms, Cargo Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Cargo Shorts"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-the-child-cutest-in-the-galaxy-pocket-t-shirt/-/A-82155380",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/deux-par-deux-boy-french-terry-short-pale-blue/-/A-1003635336",
+        "tags": "Bottoms, Cargo Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Cargo Shorts"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-the-mandalorian-the-child-wanted-unknown-species-t-shirt/-/A-82163265",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/deux-par-deux-boy-parachute-cargo-pocket-shorts-light-beige/-/A-1003636000",
+        "tags": "Bottoms, Cargo Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Cargo Shorts"
         }
       },
       {
-        "url": "https://www.target.com/p/boy-s-star-wars-galaxy-of-adventures-yoda-feel-the-force-animated-t-shirt/-/A-89845831",
-        "tags": "Boys’ Clothing, Graphic Tees, Kids’ Clothing, Netflix, Star Wars, Tops",
+        "url": "https://www.target.com/p/deux-par-deux-boy-parachute-cargo-pocket-shorts-royal-blue/-/A-1003636010",
+        "tags": "Bottoms, Cargo Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
         "filters": {
-          "brand": "Star Wars"
+          "type": "Cargo Shorts"
         }
       }
     ]
