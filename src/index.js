@@ -20,7007 +20,7006 @@ import { saveToCSVAndExcel } from "./helpers/fileIO.js";
 
   const urls =  [
       {
-        "url": "https://www.target.com/p/deux-par-deux-boy-parachute-cargo-pocket-shorts-dark-gray/-/A-1003635976",
-        "tags": "Bottoms, Cargo Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Cargo Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/deux-par-deux-boy-parachute-cargo-pocket-shorts-dark-teal/-/A-1003636029",
-        "tags": "Bottoms, Cargo Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Cargo Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-39-quick-dry-chino-shorts-cat-38-jack-8482-khaki-4t/-/A-92698507",
-        "tags": "Bottoms, Chino Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Chino Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-39-quick-dry-chino-shorts-cat-38-jack-8482-khaki-3t/-/A-92698506",
-        "tags": "Bottoms, Chino Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Chino Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-stretch-flat-front-uniform-chino-shorts-cat-jack/-/A-87050930",
-        "tags": "Bottoms, Chino Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Chino Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-39-quick-dry-chino-shorts-cat-38-jack-8482-gray-3t/-/A-92698500",
-        "tags": "Bottoms, Chino Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Chino Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-39-quick-dry-chino-shorts-cat-38-jack-8482-khaki-2t/-/A-92698505",
-        "tags": "Bottoms, Chino Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Chino Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-39-quick-dry-chino-shorts-cat-38-jack-8482-gray-4t/-/A-92698501",
-        "tags": "Bottoms, Chino Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Chino Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-39-quick-dry-chino-shorts-cat-38-jack-8482-khaki-5t/-/A-92698508",
-        "tags": "Bottoms, Chino Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Chino Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-39-quick-dry-chino-shorts-cat-38-jack-8482-gray-2t/-/A-92698499",
-        "tags": "Bottoms, Chino Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Chino Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-39-quick-dry-chino-shorts-cat-38-jack-8482-gray-5t/-/A-92698502",
-        "tags": "Bottoms, Chino Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Chino Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-39-quick-dry-chino-shorts-cat-38-jack-8482-khaki-18m/-/A-92698504",
-        "tags": "Bottoms, Chino Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Chino Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-39-quick-dry-chino-shorts-cat-38-jack-8482-gray-18m/-/A-92698498",
-        "tags": "Bottoms, Chino Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Chino Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-39-quick-dry-chino-shorts-cat-38-jack-8482-khaki-12m/-/A-92698503",
-        "tags": "Bottoms, Chino Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Chino Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-39-quick-dry-chino-shorts-cat-38-jack-8482-gray-12m/-/A-92698497",
-        "tags": "Bottoms, Chino Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Chino Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-quick-dry-chino-shorts-cat-jack/-/A-94887860",
-        "tags": "Bottoms, Chino Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Chino Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-39-uniform-quick-dry-shorts-cat-38-jack-8482/-/A-94253665",
-        "tags": "Bottoms, Chino Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Chino Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-39-quick-dry-pull-on-shorts-cat-38-jack-8482/-/A-94087123",
-        "tags": "Bottoms, Chino Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing, Pull-on Shorts",
-        "filters": {
-          "type": "Chino Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-39-adaptive-quick-dry-shorts-cat-38-jack-8482-tan/-/A-93300537",
-        "tags": "Bottoms, Chino Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing, Toddler Boys’ Adaptive Clothing",
-        "filters": {
-          "type": "Chino Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hope-henry-boys-organic-cotton-stretch-chino-short-toddler/-/A-85566581",
-        "tags": "Bottoms, Chino Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing, Trouser Shorts",
-        "filters": {
-          "type": "Chino Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/oshkosh-b-gosh-toddler-boys-chino-shorts-navy-blue/-/A-93780397",
-        "tags": "Bottoms, Chino Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Chino Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/oshkosh-b-gosh-toddler-boys-chino-shorts-green/-/A-92929733",
-        "tags": "Bottoms, Chino Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Chino Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/ruggedbutts-toddler-boys-stretch-chino-shorts/-/A-1003239776",
-        "tags": "Bottoms, Chino Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Chino Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/deux-par-deux-boy-stretch-twill-short-vibrant-orange/-/A-1003484721",
-        "tags": "Bottoms, Chino Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing, Pull-on Shorts",
-        "filters": {
-          "type": "Chino Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hope-henry-boys-linen-blend-short-toddler/-/A-1002929846",
-        "tags": "Bottoms, Chino Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing, Trouser Shorts",
-        "filters": {
-          "type": "Chino Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/deux-par-deux-boy-slant-pocket-bermuda-shorts-royal-blue-striped/-/A-1003635299",
-        "tags": "Bottoms, Chino Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Chino Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/deux-par-deux-boy-slant-pocket-bermuda-shorts-navy-blue-striped/-/A-1003635251",
-        "tags": "Bottoms, Chino Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Chino Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/deux-par-deux-boy-slant-pocket-bermuda-shorts-light-taupe/-/A-1003607654",
-        "tags": "Bottoms, Chino Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Chino Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/deux-par-deux-boy-slant-pocket-bermuda-shorts-navy-blue/-/A-1003635287",
-        "tags": "Bottoms, Chino Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Chino Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/ruggedbutts-toddler-boys-hybrid-shorts/-/A-1002893230",
-        "tags": "Bottoms, Fashion Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing, Pull-on Shorts",
-        "filters": {
-          "type": "Fashion Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/deux-par-deux-boy-printed-french-terry-short-beige-with-palm-trees/-/A-1003635356",
-        "tags": "Bottoms, Fashion Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing, Pull-on Shorts",
-        "filters": {
-          "type": "Fashion Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/deux-par-deux-boy-french-terry-short-gradient-beige-and-teal/-/A-1003636810",
-        "tags": "Bottoms, Fashion Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Fashion Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/deux-par-deux-boy-printed-chambray-short-pale-blue-and-navy/-/A-1003635375",
-        "tags": "Bottoms, Fashion Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Fashion Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hope-henry-boys-organic-cotton-chambray-short-toddler/-/A-91302777",
-        "tags": "Bottoms, Jean Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Jean Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/oshkosh-b-gosh-toddler-boys-denim-shortalls-medium-wash/-/A-93780393",
-        "tags": "Bottoms, Jean Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Jean Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/oshkosh-b-gosh-toddler-boys-railroad-striped-shortalls-red/-/A-93780372",
-        "tags": "Bottoms, Jean Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Jean Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/rufflebutts-toddler-boys-stretch-denim-shorts/-/A-91546913",
-        "tags": "Bottoms, Jean Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Jean Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/deux-par-deux-boy-french-terry-denim-short-black-jeans/-/A-1003636053",
-        "tags": "Bottoms, Jean Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Jean Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/deux-par-deux-boy-french-terry-denim-short-dark-denim-blue/-/A-1003484669",
-        "tags": "Bottoms, Jean Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Jean Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/deux-par-deux-boy-french-terry-denim-short-denim-blue/-/A-1003636054",
-        "tags": "Bottoms, Jean Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Jean Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/mixed-up-clothing-boys-sweatshorts-jacquard-stripe/-/A-93209666",
-        "tags": "Bottoms, Jogger Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing, Pull-on Shorts",
-        "filters": {
-          "type": "Jogger Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/mykids-usa-boys-solid-color-green-soft-casual-style-shorts/-/A-1003286350",
-        "tags": "Bottoms, Jogger Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing, Pull-on Shorts",
-        "filters": {
-          "type": "Jogger Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/deux-par-deux-boy-french-terry-short-teal/-/A-1003635409",
-        "tags": "Bottoms, Lounge Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing, Pull-on Shorts",
-        "filters": {
-          "type": "Lounge Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/deux-par-deux-boy-french-terry-short-vibrant-orange/-/A-1003635279",
-        "tags": "Bottoms, Lounge Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing, Pull-on Shorts",
-        "filters": {
-          "type": "Lounge Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/deux-par-deux-boy-french-terry-zip-pocket-shorts-navy-blue/-/A-1003635466",
-        "tags": "Bottoms, Lounge Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Lounge Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/deux-par-deux-boy-french-terry-short-black/-/A-1003635453",
-        "tags": "Bottoms, Lounge Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Lounge Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/deux-par-deux-boy-french-terry-zip-pocket-shorts-pale-mauve-blue/-/A-1003635432",
-        "tags": "Bottoms, Lounge Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing, Pull-on Shorts",
-        "filters": {
-          "type": "Lounge Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-pull-on-shorts-cat-jack/-/A-89735210",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-pull-on-woven-shorts-cat-jack/-/A-93536722",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-pull-on-knit-shorts-cat-jack/-/A-92761977",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-pull-on-denim-shorts-cat-jack/-/A-94743237",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-pull-on-cargo-shorts-cat-jack/-/A-93876110",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-39-button-front-destructed-shorts-cat-38-jack-8482-light-blue/-/A-94280113",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-39-3pk-fun-shorts-cat-38-jack-8482-red-gray-blue/-/A-94068015",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-39-3pk-dino-printed-pull-on-shorts-cat-38-jack-8482-dark-olive-green/-/A-94087121",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-39-pull-on-denim-shorts-cat-38-jack-8482/-/A-93276635",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-39-3pk-racecar-shorts-cat-38-jack-8482-blue/-/A-94474450",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-pull-on-denim-shorts-cat-jack-black/-/A-94474468",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-pull-on-woven-shorts-cat-jack-brown/-/A-94621426",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-denim-shorts-cat-jack/-/A-93016711",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-knit-shorts-cat-jack-green/-/A-94579538",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-39-2pk-adaptive-knit-shorts-cat-38-jack-8482-black-red/-/A-93300536",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing, Toddler Boys’ Adaptive Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-39-2pk-adaptive-knit-shorts-cat-38-jack-8482-navy-blue-olive-green/-/A-93300714",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing, Toddler Boys’ Adaptive Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-chambray-solid-pull-on-shorts-cat-jack/-/A-90748190",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-39-5pk-knit-shorts-cat-38-jack-8482-white-green-blue/-/A-94582866",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-39-5pk-knit-shorts-cat-38-jack-8482/-/A-89646905",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-striped-chambray-pull-on-shorts-cat-jack/-/A-90047395",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-2pk-knit-shorts-cat-jack/-/A-94664496",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/gerber-baby-and-toddler-boys-shorts-2-pack/-/A-91511134",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/gerber-baby-and-toddler-boys-knit-short-3-pack/-/A-91212269",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/gerber-baby-and-toddler-boys-pull-on-knit-shorts-3-pack/-/A-91219730",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hope-henry-boys-relaxed-linen-pull-on-short-toddler/-/A-86713686",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/grayson-mini-toddler-boys-camo-shorts/-/A-94486229",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/grayson-mini-toddler-boys-striped-shorts/-/A-94339708",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/grayson-mini-toddler-boys-checkered-shorts/-/A-94486231",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/grayson-mini-toddler-boys-french-terry-drop-crotch-pull-on-shorts-blue/-/A-91553007",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/grayson-mini-toddler-boys-tie-dye-french-terry-drop-crotch-pull-on-shorts/-/A-91553008",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/ruggedbutts-toddler-boys-pull-on-shorts/-/A-1003240302",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/city-threads-usa-made-cotton-boys-soft-above-knee-side-pocket-shorts-upf-50/-/A-92721418",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/deux-par-deux-boy-printed-organic-cotton-boxer-shorts-light-sage-and-gray-crocodile/-/A-1004084211",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/deux-par-deux-boy-printed-organic-cotton-boxer-shorts-dinosaur-on-mottled-and-tan-background/-/A-1004084250",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/andy-evan-toddler-boys-hybrid-shorts/-/A-1002728062",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/andy-evan-toddler-coral-seersucker-shorts/-/A-1002727979",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/deux-par-deux-boy-printed-boardshorts-blue-wave-and-black/-/A-1004084047",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/deux-par-deux-boy-printed-organic-cotton-boxer-shorts-sloths-on-tan-background/-/A-1004084208",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/deux-par-deux-boy-stretch-twill-short-green/-/A-1003484695",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/deux-par-deux-boy-stretch-twill-short-dark-olive-green/-/A-1003484708",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/deux-par-deux-boy-printed-boardshorts-orange-red-and-blue-sharks-on-gray/-/A-1004084093",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/mykids-usa-boys-solid-color-cotton-casual-style-shorts/-/A-1003193942",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/deux-par-deux-boy-stretch-twill-short-tan/-/A-1003484682",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/deux-par-deux-boy-printed-organic-cotton-boxer-shorts-pack-of-3-multicolored/-/A-1004084256",
-        "tags": "Bottoms, Pull-on Shorts, Shorts, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Pull-on Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hope-henry-boys-organic-cotton-seersucker-short-toddler/-/A-83229503",
-        "tags": "Bottoms, Shorts, Toddler Boys’ Clothing, Toddler Clothing, Trouser Shorts",
-        "filters": {
-          "type": "Trouser Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hope-henry-boys-organic-seersucker-short-toddler/-/A-91302827",
-        "tags": "Bottoms, Shorts, Toddler Boys’ Clothing, Toddler Clothing, Trouser Shorts",
-        "filters": {
-          "type": "Trouser Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hope-henry-heirloom-boys-linen-blend-short-toddler/-/A-1001269810",
-        "tags": "Bottoms, Shorts, Toddler Boys’ Clothing, Toddler Clothing, Trouser Shorts",
-        "filters": {
-          "type": "Trouser Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-sharks-printed-embossed-pullover-cover-up-cat-jack-blue/-/A-92000741",
-        "tags": "Cover Ups, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Cover Ups"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-towel-terry-full-zip-hoodie-cover-up-top-cat-jack-white/-/A-89417645",
-        "tags": "Cover Ups, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing, Hoodies & Sweatshirts, Tops",
-        "filters": {
-          "type": "Cover Ups"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/ruggedbutts-navy-sun-protective-button-down-shirt/-/A-88348863",
-        "tags": "Cover Ups, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Cover Ups"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-cars-one-piece-rash-guard-red-black/-/A-91940264",
-        "tags": "One-piece Rash Guards, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "One-piece Rash Guards"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/adaptive-short-sleeve-reversible-one-piece-rashguard-cat-38-jack-8482-blue-yellow/-/A-93575146",
-        "tags": "One-piece Rash Guards, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "One-piece Rash Guards"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/gerber-toddler-boys-rashguard/-/A-91257182",
-        "tags": "One-piece Rash Guards, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "One-piece Rash Guards"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/deux-par-deux-boy-printed-long-sleeve-rashguard-light-blue-beach-on-black/-/A-1004084282",
-        "tags": "One-piece Rash Guards, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "One-piece Rash Guards"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/marvel-avengers-spider-man-zip-up-one-piece-bathing-suit-toddler/-/A-87972642",
-        "tags": "One-piece Swimsuits, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "One-piece Swimsuits"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/city-threads-usa-made-swim-upf-50-rashguard-lap-onesie-for-boys-and-girls/-/A-91487752",
-        "tags": "One-piece Swimsuits, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "One-piece Swimsuits"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/gerber-baby-and-toddler-boys-long-sleeved-rashguard-one-piece-swimsuit/-/A-1001847462",
-        "tags": "One-piece Swimsuits, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "One-piece Swimsuits"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/finis-cozy-kids-one-piece-thermal-swimmer-upf-50/-/A-1001873233",
-        "tags": "One-piece Swimsuits, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "One-piece Swimsuits"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/carter-s-just-one-you-toddler-boys-long-sleeve-solid-rash-guard-and-trunk-set-green/-/A-94087239",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/carter-s-just-one-you-toddler-boys-long-sleeve-dinosaur-rash-guard-and-trunk-set-blue/-/A-94087238",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-mickey-mouse-palm-tree-rash-guard-set-green/-/A-92000718",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-spider-man-rash-guard-set-white-blue-red/-/A-92000712",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/carter-s-just-one-you-baby-boys-long-sleeve-landscape-printed-rash-guard-set-blue-orange/-/A-94582900",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/carter-s-just-one-you-toddler-boys-long-sleeve-gingham-checkered-rash-guard-set-blue-navy-blue/-/A-92198435",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/carter-s-just-one-you-toddler-boys-long-sleeve-sharks-printed-rash-guard-set-navy-blue/-/A-94582918",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/carter-s-just-one-you-toddler-boys-long-sleeve-anchors-printed-rash-guard-set-blue-red/-/A-94582917",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/carter-s-just-one-you-toddler-boys-long-sleeve-dinosaur-printed-rash-guard-set-green/-/A-94582919",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/carter-s-just-one-you-toddler-boys-4th-of-july-long-sleeve-shark-rash-guard-and-trunk-set-red-white-blue/-/A-94087240",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-crab-printed-rash-guard-set-cat-jack-red/-/A-93447252",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-short-sleeve-skateboarding-flamingo-rashguard-swim-set-cat-jack-blue/-/A-94342798",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/carter-s-just-one-you-toddler-boys-long-sleeve-rash-guard-set/-/A-90573294",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/marvel-avengers-spider-man-captain-america-hulk-iron-man-pullover-rash-guard-swim-trunks-outfit-set-toddler-to-big-kid/-/A-86918016",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/gerber-baby-and-toddler-boys-long-sleeved-rashguard-swimsuit-set-2-piece/-/A-91114577",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/gerber-baby-and-toddler-boys-rashguard-and-swim-trunks-and-trunks-set-2-piece/-/A-91257135",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/bluey-bingo-dad-mom-pullover-rash-guard-and-swim-trunks-outfit-set-toddler/-/A-86918185",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hudson-baby-boys-swim-rashguard-set-desert-cactus/-/A-91838510",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hudson-baby-boys-swim-rashguard-set-gone-surfing/-/A-91838485",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/disney-pixar-cars-lightning-mcqueen-rash-guard-and-swim-trunks-outfit-set-toddler-to-little-kid/-/A-86918112",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/disney-pixar-d100-toy-story-monsters-inc-mickey-mouse-buzz-lightyear-rash-guard-and-swim-trunks-outfit-infant-to-toddler/-/A-89277207",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hudson-baby-boys-swim-rashguard-set-sea-turtle/-/A-91838441",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hudson-baby-boys-swim-rashguard-set-shark-patrol/-/A-91838644",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hudson-baby-boys-swim-rashguard-set-mint-surfer/-/A-91838629",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/carter-s-just-one-you-toddler-boys-long-sleeve-hooded-dino-rash-guard-set-navy-blue-orange/-/A-89456421",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/disney-mickey-mouse-surfboard-upf-50-rash-guard-shirt-swim-trunks-outfit-set-toddler/-/A-86953399",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/marvel-avengers-spider-man-toddler-boys-swim-rash-guard-swim-trunks-blue-4t/-/A-86952001",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/paw-patrol-rubble-marshall-chase-pullover-rash-guard-and-swim-trunks-outfit-set-toddler/-/A-86906912",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/transformers-megatron-optimus-prime-bumblebee-rash-guard-and-swim-trunks-outfit-set-toddler-to-big-kid/-/A-88164891",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hudson-baby-boys-swim-rashguard-set-ice-cream-truck/-/A-91838541",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hudson-baby-boys-swim-rashguard-set-pirate-octopus/-/A-91838589",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hudson-baby-boys-swim-rashguard-set-space/-/A-91838641",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hudson-baby-boys-swim-rashguard-set-whale-hello-there/-/A-91876469",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hudson-baby-boys-swim-rashguard-set-navy-palm/-/A-91838368",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hudson-baby-boys-swim-rashguard-set-rawr/-/A-91838337",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hudson-baby-boys-swim-rashguard-set-sea-octopus/-/A-91838592",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hudson-baby-boys-swim-rashguard-set-looking-sharp-shark/-/A-91838338",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hudson-baby-boys-swim-rashguard-set-beach-vibe-dino/-/A-91838392",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hudson-baby-boys-swim-rashguard-set-chameleon/-/A-91838595",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hudson-baby-boys-swim-rashguard-set-taco/-/A-91838519",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hudson-baby-boys-swim-rashguard-set-sea-characters/-/A-91876490",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/quicksand-infant-toddler-and-little-boy-s-rash-guard-and-trunks-swimsuit-sets/-/A-92447312",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/ocean-pacific-toddler-little-and-big-boy-s-rash-guard-and-trunks-swimsuit-sets/-/A-92359809",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/lands-end-kids-chlorine-resistant-short-sleeve-upf-50-rash-guard-swim-trunk-set/-/A-91687429",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/disney-pixar-toy-story-alien-rex-slinky-dog-woody-baby-pullover-rash-guard-and-swim-trunks-outfit-set-infant-to-little-kid/-/A-86908194",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hudson-baby-boys-swim-rashguard-set-navy-anchor/-/A-91838321",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/disney-junior-surfboard-upf-50-rash-guard-and-swim-trunks-outfit-set-toddler/-/A-1002443450",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/ms-rachel-dinosaur-upf-50-rash-guard-and-swim-trunks-outfit-set-toddler/-/A-1003546592",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/marvel-spider-man-rash-guard-shirt-and-swim-trunks-outfit-set-toddler-sizes-2t-14-16/-/A-86964158",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/teenage-mutant-ninja-turtles-upf-50-pullover-rash-guard-and-swim-trunks-outfit-set-toddler/-/A-1001808895",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/marvel-avengers-hulk-spider-man-boys-rash-guard-and-swim-trunks-outfit-set-toddler-to-big-kid/-/A-88140562",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hudson-baby-boys-swim-rashguard-set-just-chillin/-/A-91876485",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hudson-baby-boys-swim-rashguard-set-surfer-dude/-/A-91838351",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hudson-baby-boys-swim-rashguard-set-ride-the-waves/-/A-91838661",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hudson-baby-boys-swim-rashguard-set-pineapple/-/A-92180138",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/marvel-upf-50-pullover-rash-guard-and-swim-trunks-outfit-set-toddler-sizes-2t-18-20/-/A-1002634240",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/thomas-friends-toddler-boys-upf-50-rash-guard-and-swim-trunks-outfit-set-bright-blue-red-5t/-/A-1001646437",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/gerber-baby-toddler-boys-two-piece-swim-trunks-and-long-sleeve-rash-guard-set/-/A-1002881110",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hudson-baby-boys-swim-rashguard-set-vacay-mode/-/A-91876414",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hudson-baby-boys-swim-rashguard-set-ocean-explorer/-/A-92180187",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hudson-baby-boys-swim-rashguard-set-ahoy-mate-shark/-/A-91876437",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hudson-baby-boys-swim-rashguard-set-going-on-safari/-/A-91838489",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hudson-baby-boys-swim-rashguard-set-pirate-shark/-/A-92125733",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hudson-baby-boys-swim-rashguard-set-shark-expert/-/A-91876450",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/ruggedbutts-navy-short-sleeve-rashguard-and-mint-colorblock-swim-trunk/-/A-88271242",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hudson-baby-boys-swim-rashguard-set-dino-mite/-/A-91838600",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/p-s-from-aeropostale-little-boy-s-2-piece-rashguard-swim-sets/-/A-92725476",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/cocomelon-tomtom-jj-cody-nico-mochi-wally-short-sleeve-rash-guard-swim-shirt-swim-trunks-bathing-suit/-/A-86918164",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/jurassic-park-t-rex-upf-50-rash-guard-twill-swim-trunks-outfit-set-toddler/-/A-92194700",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/andy-evan-toddler-flamingo-graphic-raglan-rashguard-and-boardshort-set/-/A-90719709",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/andy-evan-toddler-sailboat-graphic-rashguard-set/-/A-1001718584",
-        "tags": "Rash Guard Sets, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Sets"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/ruggedbutts-toddler-long-sleeve-rash-guard/-/A-89242052",
-        "tags": "Rash Guard Tops, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Tops"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/rufflebutts-gender-inclusive-long-sleeve-full-zip-rash-guard/-/A-1003432669",
-        "tags": "Rash Guard Tops, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Tops"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-long-sleeve-rash-guard-top-cat-jack/-/A-90008443",
-        "tags": "Rash Guard Tops, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Tops"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-short-sleeve-rash-guard-top-cat-jack/-/A-90008391",
-        "tags": "Rash Guard Tops, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Tops"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-short-sleeve-rash-guard-top-cat-jack-red/-/A-94342790",
-        "tags": "Rash Guard Tops, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Tops"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-short-sleeve-rash-guard-top-cat-jack-lime-green/-/A-93447257",
-        "tags": "Rash Guard Tops, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Tops"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/ruggedbutts-baby-long-sleeve-rash-guard/-/A-89242053",
-        "tags": "Rash Guard Tops, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Tops"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/city-threads-usa-made-swim-upf-50-hooded-long-sleeve-rashguard-tee-for-boys-and-girls/-/A-91533747",
-        "tags": "Rash Guard Tops, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Tops"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/leveret-toddler-long-sleeve-rashguard-upf-50/-/A-89083504",
-        "tags": "Rash Guard Tops, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Tops"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/green-sprouts-baby-toddler-long-sleeve-zip-rashguard-shirt/-/A-89227483",
-        "tags": "Rash Guard Tops, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Tops"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/city-threads-usa-made-boys-upf-50-long-sleeve-rashguard/-/A-91332879",
-        "tags": "Rash Guard Tops, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Tops"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/marvel-avengers-spider-man-captain-america-hulk-thor-black-widow-black-panther-rash-guard-swim-shirt-toddler-to-big-kid/-/A-88031554",
-        "tags": "Rash Guard Tops, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Tops"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/leveret-toddler-short-sleeve-rashguard-upf-50/-/A-89083661",
-        "tags": "Rash Guard Tops, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Tops"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/primary-baby-rash-guard/-/A-1003056191",
-        "tags": "Rash Guard Tops, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Tops"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/gerber-baby-toddler-neutral-swim-rashguard-upf-50/-/A-1002929681",
-        "tags": "Rash Guard Tops, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Tops"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/ruggedbutts-boys-upf50-sun-protected-zipper-long-sleeve-rash-guard/-/A-1001533343",
-        "tags": "Rash Guard Tops, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Tops"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/city-threads-usa-made-boys-upf-50-short-sleeve-rashguard/-/A-92082592",
-        "tags": "Rash Guard Tops, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Tops"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/city-threads-usa-made-swim-upf-50-boys-color-block-long-sleeve-rashguard-shirt/-/A-91534089",
-        "tags": "Rash Guard Tops, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Tops"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/ruggedbutts-toddler-boys-upf50-short-sleeve-rash-guard-coral-2t/-/A-1001818053",
-        "tags": "Rash Guard Tops, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Tops"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/saro-2025-long-sleeve-upf-50-swim-shirt-for-kids-ultra-soft-chlorine-resistant-quick-dry-sun-protection-top/-/A-1003127068",
-        "tags": "Rash Guard Tops, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Rash Guard Tops"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/leveret-baby-reusable-swim-diaper-upf-50/-/A-1002371232",
-        "tags": "Swim Pants, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Pants"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/city-threads-usa-made-swim-leggings-for-girls-and-boys-upf-50/-/A-91372641",
-        "tags": "Swim Pants, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Pants"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/green-sprouts-baby-toddler-eco-snap-swim-diaper/-/A-1003484744",
-        "tags": "Swim Pants, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Pants"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/ruggedbutts-boys-swim-trunks/-/A-88678445",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/ruggedbutts-toddler-boys-upf50-swim-trunks/-/A-91269906",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-bluey-swim-shorts-blue/-/A-91940233",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-bluey-4th-of-july-stripe-swim-shorts-red-white-blue/-/A-94336251",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-monster-jam-checker-swim-shorts-black/-/A-94336252",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-toy-story-striped-swim-shorts-green/-/A-94336253",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/ruggedbutts-baby-upf50-seersucker-swim-trunks/-/A-1003418237",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-mattel-hot-wheels-checkered-swim-shorts-white-black/-/A-92000710",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-shark-bite-printed-swim-shorts-cat-jack-navy/-/A-94624656",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-dinosaur-printed-swim-board-shorts-cat-jack-black/-/A-94624678",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-striped-seersucker-swim-shorts-cat-jack-blue/-/A-92000733",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-sharks-printed-aqua-magic-swim-shorts-cat-jack-orange/-/A-92000738",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-dolphin-hem-race-car-printed-swim-shorts-cat-jack-dark-blue/-/A-94624674",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-4th-of-july-sharks-with-sparklers-swim-shorts-cat-jack-blue/-/A-94567273",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-4th-of-july-american-flag-swim-shorts-cat-jack-red-white-blue/-/A-94567271",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-swim-board-shorts-cat-jack-dark-blue/-/A-94624680",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-beach-scenic-printed-swim-board-shorts-cat-jack-light-blue/-/A-94598578",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-postcard-print-dolphin-hem-swim-shorts-cat-jack-green/-/A-94596336",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-gingham-trunk-cat-jack-blue/-/A-94467804",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-dinosaur-printed-ombre-swim-shorts-cat-jack/-/A-93447230",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-sea-gull-printed-swim-shorts-cat-jack-aqua-green/-/A-94596274",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-palm-tree-printed-swim-shorts-cat-jack-pink/-/A-94596304",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-checkered-swim-shorts-cat-jack-yellow/-/A-94624659",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-ombre-chameleon-swim-shorts-cat-jack-green/-/A-94567268",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-striped-trunk-cat-jack-red-white-blue/-/A-94467831",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-39-striped-swim-shorts-cat-38-jack-8482/-/A-94567272",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-scenic-beach-swim-shorts-cat-jack-pink-blue/-/A-94567269",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-snack-time-swim-shorts-cat-jack-light-blue/-/A-94567267",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-sailboat-and-striped-2pk-value-swim-shorts-cat-jack/-/A-94683018",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-dolphin-hem-dragon-printed-swim-shorts-cat-jack-pink/-/A-94624676",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-tree-and-bird-printed-tropical-toucan-swim-shorts-cat-jack-cream/-/A-94624672",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-2pk-value-swim-shorts-cat-jack/-/A-93447249",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/gerber-baby-and-toddler-boys-swim-trunks-2-pack/-/A-91235119",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/paw-patrol-rubble-marshall-chase-skye-swim-trunks-bathing-suit-toddler/-/A-87872344",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/marvel-spider-man-avengers-spidey-and-his-amazing-friends-upf-50-swim-trunks-toddler-to-big-kid/-/A-86906576",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/city-threads-usa-made-swim-jammer-for-boys-and-girls-upf-50/-/A-91380182",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/monster-jam-maximum-destruction-megalodon-grave-digger-el-toro-loco-swim-trunks-bathing-suit-toddler/-/A-87872320",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/ruggedbutts-boys-seersucker-swim-trunks/-/A-89096140",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/gerber-baby-and-toddler-boys-swim-trunks-2-pack/-/A-91210776",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/disney-mickey-mouse-baby-swim-trunks-bathing-suit-toddler/-/A-87991644",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hot-wheels-upf-50-swim-trunks-bathing-suit-toddler/-/A-1002989771",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/john-deere-upf-50-swim-trunks-bathing-suit-toddler/-/A-1002769030",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/marvel-spidey-and-his-amazing-friends-boys-upf-50-swim-trunks-bathing-suit-for-toddler-and-big-kids-2t/-/A-1003763974",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/minions-upf-50-swim-trunks-bathing-suit-toddler/-/A-1002768984",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/cocomelon-nico-tomtom-cody-jj-baby-swim-trunks-bathing-suit-toddler/-/A-88279812",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/disney-mickey-mouse-boys-upf-50-swim-trunks-bathing-suit-for-toddler-and-big-kids-size-6/-/A-1003763981",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/city-threads-usa-made-boys-swim-liner-for-under-boys-trunks/-/A-92090523",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/disney-pixar-cars-lightning-mcqueen-swim-trunks-bathing-suit-toddler/-/A-86953420",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/kids-smile-graphic-print-boardshorts-olive-scout/-/A-1003241516",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/teenage-mutant-ninja-turtles-michelangelo-donatello-raphael-leonardo-upf-50-swim-trunks-toddler-to-little-kid/-/A-91525264",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/ruggedbutts-toddler-upf50-gingham-swim-trunks/-/A-1002893081",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/ruggedbutts-toddler-upf50-seersucker-swim-trunks/-/A-1003418263",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/andy-evan-toddler-geometric-print-boardshort-w-built-in-comfort-stretch-short-liner/-/A-90715504",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/ruggedbutts-toddler-upf50-americana-swim-trunks/-/A-1003418260",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/twilight-blossoms-swim-shorts-charlie-lou-baby/-/A-1002579202",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/city-threads-usa-made-boys-upf-50-soft-stretch-below-the-knee-swim-board-shorts/-/A-92487962",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/city-threads-usa-made-swim-jammer-color-block-for-boys-and-girls-upf-50/-/A-92349178",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/city-threads-usa-made-boys-upf-50-recycled-polyester-soft-stretch-below-the-knee-printed-swim-board-shorts/-/A-92487833",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/city-threads-boys-upf-50-soft-stretch-club-above-the-knee-swim-trunks-usa-made/-/A-1003611294",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/andy-evan-toddler-tropical-print-boardshort-w-built-in-comfort-stretch-short-liner/-/A-90715509",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/ruggedbutts-baby-boys-upf50-swim-trunks/-/A-91267489",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/ruggedbutts-baby-upf50-americana-swim-trunks/-/A-1003418253",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/deux-par-deux-boy-swim-trunks-blue-green-and-lime-gradient/-/A-1004104697",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/deux-par-deux-boy-printed-swim-trunks-orange-sloths-on-navy-blue/-/A-1004104724",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/deux-par-deux-boy-printed-swim-trunks-light-blue-beach-on-black/-/A-1004104716",
-        "tags": "Swim Shorts, Swimsuits, Toddler Boys’ Clothing, Toddler Clothing",
-        "filters": {
-          "type": "Swim Shorts"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/beverly-hills-polo-club-toddler-sport-sandals-outdoor-hook-and-loop-closure/-/A-86925661",
-        "tags": "Ankle Strap Sandals, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Ankle Strap Sandals"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/xray-footwear-erwin-boy-s-toddler-boat-shoe/-/A-93864492",
-        "tags": "Boat Shoes, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Boat Shoes"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/josmo-kids-boys-casual-shoes-moccasin-driving-loafers-casual-dress-penny-slip-on-boat-shoes-toddler-little-kids/-/A-86417693",
-        "tags": "Boat Shoes, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Boat Shoes"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/josmo-little-kids-boys-loafer-little-kid-sizes/-/A-86276045",
-        "tags": "Boat Shoes, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Boat Shoes"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/dr-scholl-s-infant-girls-maplewood-toddler-boot-first-walker-shoe/-/A-1001661691",
-        "tags": "Booties, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Booties"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/little-love-bug-company-chelsea-boot/-/A-1005162164",
-        "tags": "Chelsea Boots, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Chelsea Boots"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/deer-stags-kids-brock-jr-chelsea-boot/-/A-87137423",
-        "tags": "Chelsea Boots, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Chelsea Boots"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-lucas-chelsea-boots-cat-38-jack-8482-cognac/-/A-87876240",
-        "tags": "Chukka Boots, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Chukka Boots"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hot-wheels-toddler-boys-clogs-with-adjustable-strap/-/A-1005061529",
-        "tags": "Clogs, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Clogs"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/foamwalk-toddler-boy-s-novelty-clogs-with-faux-shearling-and-fur-lining-cute-shark-and-dog-clogs-for-toddler/-/A-93728871",
-        "tags": "Clogs, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Clogs"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/foamwalk-toddler-boy-s-furry-little-solid-clog-with-faux-shearling-lining-toddler-classic-lined-clog/-/A-93728879",
-        "tags": "Clogs, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Clogs"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/crocs-toddler-realtree-edge-baya-camo-clogs/-/A-1002211227",
-        "tags": "Clogs, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Clogs"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/crocs-toddler-baya-marbled-clogs/-/A-1000556354",
-        "tags": "Clogs, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Clogs"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/rugged-bear-girls-snow-boots/-/A-87887909",
-        "tags": "Combat Boots, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Combat Boots"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/rugged-bear-girls-snow-boots/-/A-87887896",
-        "tags": "Combat Boots, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Combat Boots"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-timberland-classic-6-inch-waterproof-boot/-/A-82028994",
-        "tags": "Combat Boots, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Combat Boots"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/french-toast-boy-s-school-shoes-toddler-sizes/-/A-88790718",
-        "tags": "Derby Shoes, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Derby Shoes"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/josmo-boys-double-hook-and-loop-school-little-kids/-/A-86926028",
-        "tags": "Derby Shoes, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Derby Shoes"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/josmo-unisex-dress-shoes-for-toddlers-and-little-kids-oxford-style-with-faux-leather-lace-up-closure-perfect-for-weddings-church-school-uniform/-/A-88218845",
-        "tags": "Derby Shoes, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Derby Shoes"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/josmo-boys-slip-on-buckle-school-shoes-toddler-big-kids/-/A-1001533675",
-        "tags": "Derby Shoes, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Derby Shoes"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/french-toast-boys-hook-and-loop-school-shoes-toddler-sizes/-/A-88790714",
-        "tags": "Derby Shoes, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Derby Shoes"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/french-toast-boys-slip-on-comfort-school-shoes-with-buckle-detail-toddler-sizes/-/A-86926031",
-        "tags": "Derby Shoes, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Derby Shoes"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/french-toast-boy-s-school-shoes-little-kids-sizes/-/A-86985955",
-        "tags": "Derby Shoes, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Derby Shoes"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/josmo-baby-toddler-walking-shoes-with-lace-up-closure-and-hard-sole-for-better-support-infant-toddler-sizes/-/A-86926248",
-        "tags": "Derby Shoes, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Derby Shoes"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/french-toast-boys-hook-and-loop-school-shoes-little-kids-sizes/-/A-86985988",
-        "tags": "Derby Shoes, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Derby Shoes"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/sesame-street-kids-first-walking-shoes-infant-little-kids/-/A-88073468",
-        "tags": "Derby Shoes, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Derby Shoes"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/rugged-bear-boy-closed-toe-toddler-sport-sandals/-/A-86925428",
-        "tags": "Fisherman Sandals, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Fisherman Sandals"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/foamwalk-toddler-boy-s-eva-comfy-cute-shark-clogs-and-fisherman-sandals-for-boys/-/A-92083386",
-        "tags": "Fisherman Sandals, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Fisherman Sandals"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/paw-patrol-chase-marshall-light-up-summer-sandals-hook-loop-adjustable-strap-closed-toe-sandal-water-shoe-blue-sizes-6-12-toddler-little-kid/-/A-86925860",
-        "tags": "Fisherman Sandals, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Fisherman Sandals"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/dr-scholl-s-infant-boys-island-toddler-sandals/-/A-1001661115",
-        "tags": "Fisherman Sandals, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Fisherman Sandals"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/spider-man-boys-flip-flops-toddler-little-kids/-/A-1001036277",
-        "tags": "Flip Flops, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Flip Flops"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/disney-mickey-mouse-boy-toddler-flip-flops-with-back-strap/-/A-86925905",
-        "tags": "Flip Flops, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Flip Flops"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/disney-characters-flip-flop-sandals-kid-water-shoes-minnie-moana-toystory-frozen-cars-thong-beach-slides-summer-slip-on-quick-dry-toddler-little-kid/-/A-86924824",
-        "tags": "Flip Flops, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Flip Flops"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-boys-slip-on-flip-flops-toddler-little-kids/-/A-1001195739",
-        "tags": "Flip Flops, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Flip Flops"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/disney-pixar-toy-story-boys-dual-sizes-sandals-toddler-little-kids/-/A-86925955",
-        "tags": "Flip Flops, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Flip Flops"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/carter-39-s-just-one-you-174-toddler-boys-39-olive-first-walker-sandals-tan/-/A-92802176",
-        "tags": "Footbed Sandals, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Footbed Sandals"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-spider-man-eva-sandals-black/-/A-92605571",
-        "tags": "Footbed Sandals, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Footbed Sandals"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/rugged-bear-hook-and-loop-girls-boys-footbed-sandals-with-buckle-detail-casual-flat-open-toe-lightweight-summer-shoes-toddler/-/A-86925279",
-        "tags": "Footbed Sandals, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Footbed Sandals"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-bluey-eva-sandals-blue/-/A-92827486",
-        "tags": "Footbed Sandals, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Footbed Sandals"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/josmo-girls-leather-open-toe-sandals-toddler-little-kids/-/A-1001888725",
-        "tags": "Footbed Sandals, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Footbed Sandals"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/rugged-bear-boys-toddler-closed-toe-officer-and-fireman-theme-active-sport-sandals-with-adjustable-hook-and-loop-closure-toddler/-/A-89190734",
-        "tags": "Footbed Sandals, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Footbed Sandals"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-bruce-shark-loafer-slippers-cat-jack-blue/-/A-89514984",
-        "tags": "Loafer Slippers, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Loafer Slippers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/spider-man-toddler-slipper-multi/-/A-93484303",
-        "tags": "Loafer Slippers, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Loafer Slippers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/marvel-avengers-toddler-slipper/-/A-93278987",
-        "tags": "Loafer Slippers, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Loafer Slippers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/josmo-toddler-boys-loafer-shoes-penny-loafer-casual-slip-on-moccasin-flats-for-boys-dress-shoes-toddler/-/A-87792921",
-        "tags": "Loafers, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Loafers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/josmo-baby-boys-first-walking-shoes-non-slip-lace-up-soft-flexible-and-comfortable-for-all-day-wear-infant-toddler/-/A-87789910",
-        "tags": "Loafers, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Loafers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/josmo-baby-boys-first-walking-shoes-flexible-and-comfortable-for-all-day-wear-perfect-for-baptisms-weddings-and-special-events-infant-toddler/-/A-87789788",
-        "tags": "Loafers, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Loafers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/sail-toddler-boys-rope-boat-shoes-toddler-little-kids-sizes/-/A-87969868",
-        "tags": "Loafers, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Loafers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/josmo-baby-boys-lace-up-first-walking-shoes-soft-and-flexible-for-all-day-wear-perfect-for-baptisms-weddings-and-special-events-infant-toddler/-/A-87789840",
-        "tags": "Loafers, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Loafers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/josmo-boys-dress-shoes-school-uniform-derby-shoes-loafers-toddler-boy/-/A-88508647",
-        "tags": "Loafers, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Loafers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/josmo-little-kids-boys-loafer-shoes-penny-loafer-casual-slip-on-moccasin-flats-for-boys-dress-shoes-little-kids/-/A-87739079",
-        "tags": "Loafers, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Loafers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/josmo-boys-lace-up-closure-dress-shoes-classic-oxford-with-lace-up-design-toddler-sizes/-/A-87951324",
-        "tags": "Loafers, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Loafers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/josmo-boys-loafers-casual-slip-on-lightweight-driving-shoes-toddler-sizes/-/A-91380301",
-        "tags": "Loafers, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Loafers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/dr-scholl-s-youth-girls-madison-play-kids-slip-ons/-/A-92656626",
-        "tags": "Loafers, Shoes, Toddler Boys’ Shoes, Toddler Shoes, Sneakers",
-        "filters": {
-          "type": "Loafers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/josmo-classic-hook-and-loop-boys-school-shoes/-/A-88073571",
-        "tags": "Loafers, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Loafers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/josmo-boys-slip-on-casual-boat-style-shoes-little-kids-toddler/-/A-94089021",
-        "tags": "Loafers, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Loafers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/josmo-boys-loafer-boat-shoes-toddler-casual-dress-boat-shoe-loafers-with-comfortable-moccasin-design/-/A-87803119",
-        "tags": "Loafers, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Loafers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/french-toast-boys-school-shoes/-/A-87739066",
-        "tags": "Loafers, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Loafers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hey-dude-boys-wally-boys-comfortable-slip-on-shoes/-/A-1005080004",
-        "tags": "Loafers, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Loafers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hey-dude-wally-toddler-boys-comfortable-slip-on-shoe/-/A-1005040061",
-        "tags": "Loafers, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Loafers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hey-dude-wally-basic-kids-kid-s-comfortable-slip-on-shoes/-/A-1005079950",
-        "tags": "Loafers, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Loafers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hey-dude-wally-stretch-sox-youth-kid-s-comfortable-slip-on-shoes/-/A-1005039982",
-        "tags": "Loafers, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Loafers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/xray-footwear-boy-s-toddler-viggo/-/A-1001314124",
-        "tags": "Loafers, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Loafers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/xray-footwear-boy-s-toddler-murphy/-/A-1001314087",
-        "tags": "Loafers, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Loafers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/xray-footwear-dorian-boy-s-toddler-loafers/-/A-93864495",
-        "tags": "Loafers, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Loafers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/josmo-boys-oxford-dress-shoes-little-kids-big-kids/-/A-87513779",
-        "tags": "Loafers, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Loafers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/josmo-boys-school-shoes-teen-sizes/-/A-88508638",
-        "tags": "Loafers, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Loafers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/french-toast-slip-on-boys-school-uniform-dress-shoes-little-kids/-/A-86986084",
-        "tags": "Loafers, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Loafers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/xray-footwear-rio-loafer-casual-shoe/-/A-1004133581",
-        "tags": "Loafers, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Loafers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/josmo-boys-slip-on-buckle-school-shoes-toddler-sizes/-/A-90034777",
-        "tags": "Mary Jane Flats, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Mary Jane Flats"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-carter-moccasin-slippers-cat-jack-chestnut/-/A-88742774",
-        "tags": "Moccasin Slippers, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Moccasin Slippers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/beverly-hills-polo-club-boys-moccasins-slippers-unisex-indoor-outdoor-house-shoes-with-anti-slip-sole-toddler/-/A-88790669",
-        "tags": "Moccasin Slippers, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Moccasin Slippers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/josmo-boy-s-metal-buckle-accent-dress-oxford-boys-shoes-comfortable-uniform-formal-boys-shoes-toddler-little-kid/-/A-88375580",
-        "tags": "Monks, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Monks"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-shane-knit-dress-shoes-cat-jack-charcoal-gray/-/A-90413871",
-        "tags": "Oxfords, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Oxfords"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/josmo-boys-classic-oxford-casual-dress-shoe-toddler-little-kids/-/A-86770659",
-        "tags": "Oxfords, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Oxfords"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/josmo-boys-wingtip-oxford-lace-dress-shoes-toddler-little-kids/-/A-86923029",
-        "tags": "Oxfords, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Oxfords"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toy-story-kids-casual-no-lace-shoes-buzz-lightyear-sheriff-woody-low-top-canvas-slip-on-tennis-boys-sneakers-size-5-12-toddler-little-kid/-/A-87537536",
-        "tags": "Performance Sneakers, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Performance Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/avalanche-boys-sneakers-lightweight-tennis-breathable-athletic-running-shoes-little-kid/-/A-87892779",
-        "tags": "Performance Sneakers, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Performance Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/beverly-hills-boys-open-toe-sport-sandals-toddler-sizes/-/A-87891467",
-        "tags": "Platform Sandals, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Platform Sandals"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/disney-malver-spider-man-cars-boys-casual-boots-toddler-little-kids/-/A-1002191875",
-        "tags": "Rain Boots, Shoes, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Rain Boots"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-spider-man-3d-plush-microsuede-slippers-red/-/A-92830116",
-        "tags": "Shoes, Slide Slippers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Slide Slippers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-disney-captain-america-slide-slippers-blue/-/A-93146282",
-        "tags": "Shoes, Slide Slippers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Slide Slippers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/marvel-avengers-dual-boys-dual-sizes-slippers-toddler-little-kids/-/A-87258292",
-        "tags": "Shoes, Slide Slippers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Slide Slippers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/disney-pixar-cars-lightning-mcqueen-plush-slippers-toddler/-/A-86770688",
-        "tags": "Shoes, Slide Slippers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Slide Slippers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/disney-lilo-stitch-dual-sizes-slippers-toddler-little-kids/-/A-1002744481",
-        "tags": "Shoes, Slide Slippers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Slide Slippers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/nickelodeon-paw-patrol-boys-slippers-toddler/-/A-86770793",
-        "tags": "Shoes, Slide Slippers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Slide Slippers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/nickelodeon-paw-patrol-toddler-girls-dual-sizes-slippers/-/A-87446062",
-        "tags": "Shoes, Slide Slippers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Slide Slippers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/marvel-spider-man-dual-boys-dual-sizes-slippers-toddler-little-kids/-/A-87261217",
-        "tags": "Shoes, Slide Slippers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Slide Slippers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/dc-comics-batman-boys-slippers-toddler/-/A-86770810",
-        "tags": "Shoes, Slide Slippers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Slide Slippers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/nickelodeon-paw-patrol-marshall-and-chase-toddler-boys-dual-sizes-slippers/-/A-87261219",
-        "tags": "Shoes, Slide Slippers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Slide Slippers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/sega-sonic-the-hedgehog-boys-dual-sizes-slippers-toddler-little-kids/-/A-86697411",
-        "tags": "Shoes, Slide Slippers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Slide Slippers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/sesame-street-kids-happy-cookie-monster-dual-sizes-slippers-toddler-little-kids/-/A-87664189",
-        "tags": "Shoes, Slide Slippers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Slide Slippers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/nickelodeon-paw-patrol-toddler-girls-dual-sizes-slippers/-/A-87446065",
-        "tags": "Shoes, Slide Slippers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Slide Slippers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/nickelodeon-paw-patrol-marshall-and-chase-3d-toddler-boys-dual-sizes-slippers/-/A-87261206",
-        "tags": "Shoes, Slide Slippers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Slide Slippers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/jurassic-world-t-rex-boys-dual-size-slippers-toddler-little-kids/-/A-87900655",
-        "tags": "Shoes, Slide Slippers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Slide Slippers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/badgley-mischka-formal-sandals-hig-heels/-/A-87446124",
-        "tags": "Shoes, Slide Slippers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Slide Slippers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/tmnt-boys-dual-sizes-slippers-toddler-little-kids/-/A-86925900",
-        "tags": "Shoes, Slide Slippers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Slide Slippers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/sega-sonic-the-hedgehog-boys-dual-sizes-3d-slippers-toddler-little-kids/-/A-91793520",
-        "tags": "Shoes, Slide Slippers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Slide Slippers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/cocomelon-dual-sizes-boys-slippers-toddler/-/A-86770644",
-        "tags": "Shoes, Slide Slippers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Slide Slippers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/avalanche-girls-boys-snow-boots-winter-outdoor-waterproof-slip-resistant-cold-weather-shoes-toddler-little-kid/-/A-87664146",
-        "tags": "Shoes, Slide Slippers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Slide Slippers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/boys-39-the-avengers-slide-sandals-blue/-/A-93666953",
-        "tags": "Shoes, Slides, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Slides"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/boys-39-spider-man-slide-sandals-black/-/A-93666952",
-        "tags": "Shoes, Slides, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Slides"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/spider-man-boys-closed-toe-sport-sandals-toddler-little-kids/-/A-1001008309",
-        "tags": "Shoes, Slides, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Slides"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/disney-cars-lightning-mcqueen-boys-slides-toddler-little-kids/-/A-1001008296",
-        "tags": "Shoes, Slides, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Slides"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/spider-man-boys-slides-toddler-little-kids/-/A-1001008307",
-        "tags": "Shoes, Slides, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Slides"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/aeropostale-toddler-boys-shark-eva-clog-slides-lightweight-water-sandals-w-heel-strap-non-slip-sole/-/A-1004197322",
-        "tags": "Shoes, Slides, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Slides"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/beverly-hills-polo-club-boys-sport-sandals-toddler-sizes/-/A-88513181",
-        "tags": "Shoes, Slides, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Slides"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/nickelodeon-paw-patrol-boys-dual-sizes-sandals-toddler-little-kids/-/A-89776088",
-        "tags": "Shoes, Slides, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Slides"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/spider-man-boys-open-toe-sport-sandals-toddler-little-kids/-/A-1001008344",
-        "tags": "Shoes, Slides, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Slides"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-sonic-the-hedgehog-comfort-slides/-/A-93632607",
-        "tags": "Shoes, Slides, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Slides"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/boys-39-disney-pixar-cars-slide-sandals-red/-/A-93666951",
-        "tags": "Shoes, Slides, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Slides"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-boys-dual-sizes-slides-little-kids-toddler/-/A-1001036221",
-        "tags": "Shoes, Slides, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Slides"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/beverly-hills-polo-club-boys-sport-sandals-toddler-sizes/-/A-88513187",
-        "tags": "Shoes, Slides, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Slides"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/paw-patrol-chase-marshall-light-up-summer-sandals-hook-loop-adjustable-strap-open-toe-sandal-water-shoe-blue-sizes-6-12-toddler-little-kid/-/A-86925877",
-        "tags": "Shoes, Slides, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Slides"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/sonic-the-hedgehog-boys-dual-sizes-clogs-toddler-little-kids/-/A-1001036246",
-        "tags": "Shoes, Slides, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Slides"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/kids-bluey-and-bingo-mismatch-flip-flop-slides/-/A-1004842642",
-        "tags": "Shoes, Slides, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Slides"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/nickelodeon-paw-patrol-boys-slides-toddler-little-kids/-/A-1000966742",
-        "tags": "Shoes, Slides, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Slides"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/marvel-avengers-super-heroes-boys-slides-toddler-little-kids/-/A-1001153943",
-        "tags": "Shoes, Slides, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Slides"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/kids-blippi-stripes-slippers-slides-flip-flops/-/A-1004842557",
-        "tags": "Shoes, Slides, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Slides"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-mateo-high-top-sneakers-cat-jack/-/A-87854453",
-        "tags": "Shoes, Sneaker Boots, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneaker Boots"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/little-love-bug-company-william-high-top-sneaker/-/A-1003752020",
-        "tags": "Shoes, Sneaker Boots, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneaker Boots"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/deer-stags-boys-niles-hybrid-fashion-sneaker-boot/-/A-87071493",
-        "tags": "Shoes, Sneaker Boots, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneaker Boots"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-ezra-canvas-sneakers-cat-jack/-/A-87854315",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-levi-boat-shoes-cat-38-jack-8482-cognac/-/A-92781772",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-rylie-retro-sneakers-cat-jack/-/A-92606860",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-samson-retro-sneakers-cat-jack-navy-blue/-/A-94267128",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-boys-spider-man-high-top-sneakers-red/-/A-92605586",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/carter-39-s-just-one-you-174-toddler-boys-39-first-walker-sneakers-khaki/-/A-90880032",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/carter-39-s-just-one-you-174-toddler-boys-39-daily-first-walker-sneakers-white/-/A-92802194",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/carter-39-s-just-one-you-174-toddler-boys-39-dino-ash-first-walker-sneakers-navy-blue/-/A-93160196",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/s-sport-by-skechers-toddler-jarrod-sneakers-black/-/A-89530815",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/disney-toddler-boys-mickey-mouse-sneakers-with-2-red-lights/-/A-87792920",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/dc-comics-batman-boys-sneakers-w-one-white-light-toddler/-/A-86262006",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/mickey-mouse-kids-casual-no-lace-shoes-low-top-canvas-slip-on-tennis-boys-sneakers-disney-character-sneaker-shoe-size-5-12-toddler-little-kid/-/A-87537557",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/nickelodeon-paw-patrol-boys-w-two-red-lights-sneakers-toddler/-/A-86276173",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/s-sport-by-skechers-toddler-myles-sneakers-lime-green/-/A-92605565",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/disney-pixar-cars-boys-w-two-red-lights-sneakers-toddler/-/A-86276972",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/disney-pixar-cars-boys-vintage-sneakers-toddler-little-kids/-/A-1002191840",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/marvel-spider-man-boys-canvas-sneakers-toddler-little-kids/-/A-90867542",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/french-toast-boys-lace-up-casual-sneakers-toddler-little-kids/-/A-87537501",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/dr-scholl-s-infant-boys-madison-boat-toddler-shoes/-/A-1001661596",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-disney-spider-man-athletic-sneakers-black/-/A-92781770",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/s-sport-by-skechers-toddler-remmie-sneakers-black/-/A-92605566",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/s-sport-by-skechers-toddler-everett-sneakers-blue/-/A-94072080",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/natural-steps-toddler-slip-on-adjustable-strap-sneaker-blue/-/A-93500758",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/natural-steps-toddler-slip-on-sneaker/-/A-1002394886",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/disney-mickey-mouse-minnie-mouse-baby-boys-bootie-shoe-infant/-/A-1002849294",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/disney-pixar-toy-story-toddler-boys-light-up-sneakers/-/A-87537464",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/disney-mickey-mouse-boys-sneakers-toddler-little-kids/-/A-86922850",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/marvel-spider-man-boys-light-up-sneakers-toddler-little-kids/-/A-90018401",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/marvel-spider-man-boys-sneakers-toddler/-/A-90018410",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/nickelodeon-paw-patrol-boy-s-with-two-red-lights-sneakers/-/A-86276190",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/marvel-spider-man-amazing-sneakers-toddler-little-kids/-/A-1002191842",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/natural-steps-toddler-slip-on-sneaker-green/-/A-93500755",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/natural-steps-toddler-slip-on-sneaker-black/-/A-93500772",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/josmo-disney-boy-s-lightning-mcqueen-cars-slip-on-shoes-lowtop-canvas-sneakers-for-boys-sizes-5-10-toddlers-11-12-little-kids/-/A-1002782854",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/french-toast-boys-lace-up-casual-sneakers-toddler-little-kids/-/A-87446205",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hot-wheels-toddler-boys-sneakers/-/A-1005036099",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hot-wheels-toddler-boys-light-up-sneakers/-/A-1005078722",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-paw-patrol-athletic-sneakers-black/-/A-92605567",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/beverly-hills-polo-club-toddler-boys-slip-on-canvas-sneakers-toddler/-/A-86276297",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/teenage-mutant-ninja-turtles-toddler-boys-light-up-sneakers-black-green/-/A-87880554",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hot-wheels-monster-trucks-toddler-boys-sneakers/-/A-1005078239",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hot-wheels-monster-trucks-toddler-boys-light-up-sneakers/-/A-1005078735",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/dr-scholl-s-infant-boys-sync-toddler-oxfords-dark-honey-smooth-10-m/-/A-1000051133",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/beverly-hills-polo-club-boys-fashion-sneakers-boat-shoes-slip-on-loafers-casual-school-shoes/-/A-88790666",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/disney-minnie-mouse-girls-sneakers-w-one-red-light-and-cute-bowknot-toddler/-/A-86276799",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/nickelodeon-paw-patrol-boys-canvas-sneakers-toddler-little-kids/-/A-1000966693",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/marvel-avengers-iron-man-captain-america-boys-light-up-sneakers-toddler-little-kids/-/A-90867566",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/nickelodeon-teenage-mutant-ninja-turtles-boys-light-up-sneakers-toddler-little-kids/-/A-90899240",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/jurassic-world-boys-light-up-fashion-sneakers-toddler-little-kids/-/A-90018395",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/komuello-toddler-boy-first-walk-sock-shoes-train/-/A-89299663",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-teenage-mutant-ninja-turtles-sneakers-black/-/A-90430394",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-jurassic-athletic-sneakers/-/A-94268900",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-bluey-athletic-sneakers-blue/-/A-94268894",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/beverly-hills-polo-club-boys-high-top-casual-sneakers-little-kids/-/A-86276264",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/beverly-hills-polo-club-little-kids-boys-lace-up-sneakers/-/A-88375577",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/komuello-baby-boy-first-walk-sock-shoes-crown-prince/-/A-89299562",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/nickelodeon-paw-patrol-boys-sneakers-w-two-red-lights-toddler/-/A-86276159",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/french-toast-kids-sneakers-little-kid-sizes/-/A-90906752",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/kensie-girl-toddler-lace-up-sneakers/-/A-1004853955",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/baby-deer-toddler-lace-up-canvas-sneaker/-/A-1004461073",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/timberland-toddler-allston-low-lace-up-sneaker/-/A-1001519545",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/s-sport-by-skechers-toddler-fluxe-sneakers-black/-/A-90430393",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/disney-pixar-cars-lightning-mcqueen-speedster-slippers-toddler-little-kids/-/A-1002191861",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/josmo-unisex-kids-walking-shoes-first-walker-medium-width-non-slip-sole-toddler/-/A-1001533677",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/komuello-toddler-shoes-sneakers-blue-12-18m/-/A-89236174",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/crocs-toddler-classic-sneaker-t/-/A-1004707810",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/komuello-toddler-shoes-simple-black/-/A-92158653",
-        "tags": "Shoes, Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-bluey-character-sock-slippers-blue/-/A-94857257",
-        "tags": "Shoes, Sock Slippers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sock Slippers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-marvel-spiderman-character-sock-slippers-red/-/A-94585974",
-        "tags": "Shoes, Sock Slippers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sock Slippers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-lilo-stitch-character-sock-slippers-blue/-/A-94585973",
-        "tags": "Shoes, Sock Slippers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sock Slippers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/komuello-toddler-boy-girl-first-walk-sock-shoes-flat-style-brown-stripe/-/A-89336729",
-        "tags": "Shoes, Sock Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sock Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/komuello-baby-boy-first-walk-sock-shoes-galaxy/-/A-89299530",
-        "tags": "Shoes, Sock Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sock Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/komuello-baby-boy-first-walk-sock-shoes-shark-tank/-/A-89299554",
-        "tags": "Shoes, Sock Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sock Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/komuello-toddler-boy-first-walk-sock-shoes-tyno/-/A-89299649",
-        "tags": "Shoes, Sock Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sock Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/komuello-toddler-boy-girl-first-walk-sock-shoes-white-tiger/-/A-89299585",
-        "tags": "Shoes, Sock Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sock Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/komuello-toddler-boy-first-walk-sock-shoes-big-bear/-/A-89299644",
-        "tags": "Shoes, Sock Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sock Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/komuello-baby-boyfirst-walk-sock-shoes-aeroplanes/-/A-89299546",
-        "tags": "Shoes, Sock Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sock Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/komuello-toddler-boy-first-walk-sock-shoes-dinos/-/A-89299597",
-        "tags": "Shoes, Sock Sneakers, Toddler Boys’ Shoes, Toddler Shoes",
-        "filters": {
-          "type": "Sock Sneakers"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/spider-man-boys-dual-sizes-water-shoes-toddler-little-kids/-/A-1001036213",
-        "tags": "Shoes, Toddler Boys’ Shoes, Toddler Shoes, Water Shoes",
-        "filters": {
-          "type": "Water Shoes"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/marvel-avengers-super-heroes-boys-water-shoes-toddler-little-kids/-/A-1001153977",
-        "tags": "Shoes, Toddler Boys’ Shoes, Toddler Shoes, Water Shoes",
-        "filters": {
-          "type": "Water Shoes"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hudson-baby-infant-toddler-and-kids-boy-sandal-and-water-shoe-palm-tree/-/A-86502776",
-        "tags": "Shoes, Toddler Boys’ Shoes, Toddler Shoes, Water Shoes",
-        "filters": {
-          "type": "Water Shoes"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hudson-baby-infant-toddler-and-kids-boy-sandal-and-water-shoe-anchor/-/A-86502667",
-        "tags": "Shoes, Toddler Boys’ Shoes, Toddler Shoes, Water Shoes",
-        "filters": {
-          "type": "Water Shoes"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hudson-baby-infant-toddler-and-kids-boy-sandal-and-water-shoe-palm-leaf/-/A-86502728",
-        "tags": "Shoes, Toddler Boys’ Shoes, Toddler Shoes, Water Shoes",
-        "filters": {
-          "type": "Water Shoes"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hudson-baby-infant-toddler-and-kids-boy-sandal-and-water-shoe-blue-shark/-/A-86502683",
-        "tags": "Shoes, Toddler Boys’ Shoes, Toddler Shoes, Water Shoes",
-        "filters": {
-          "type": "Water Shoes"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hudson-baby-infant-toddler-and-kids-boy-sandal-and-water-shoe-whale/-/A-86502826",
-        "tags": "Shoes, Toddler Boys’ Shoes, Toddler Shoes, Water Shoes",
-        "filters": {
-          "type": "Water Shoes"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hudson-baby-infant-toddler-and-kids-boy-sandal-and-water-shoe-green-dinosaur/-/A-86502708",
-        "tags": "Shoes, Toddler Boys’ Shoes, Toddler Shoes, Water Shoes",
-        "filters": {
-          "type": "Water Shoes"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/hudson-baby-infant-toddler-and-kids-boy-sandal-and-water-shoe-dinosaurs/-/A-86502686",
-        "tags": "Shoes, Toddler Boys’ Shoes, Toddler Shoes, Water Shoes",
-        "filters": {
-          "type": "Water Shoes"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/dc-comics-batman-boys-water-shoes-kids-aqua-socks-sandals-waterproof-sports-slip-on-superhero-beach-slides-swim-slippers-toddler-little-kid/-/A-86770771",
-        "tags": "Shoes, Toddler Boys’ Shoes, Toddler Shoes, Water Shoes",
-        "filters": {
-          "type": "Water Shoes"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/speedo-toddler-solid-shore-explorer-water-shoes-blue/-/A-85918454",
-        "tags": "Shoes, Toddler Boys’ Shoes, Toddler Shoes, Water Shoes",
-        "filters": {
-          "type": "Water Shoes"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/speedo-toddler-shore-explorer-water-shoe/-/A-89300365",
-        "tags": "Shoes, Toddler Boys’ Shoes, Toddler Shoes, Water Shoes",
-        "filters": {
-          "type": "Water Shoes"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/disney-pixar-toy-story-slip-on-boots-toddler/-/A-86923468",
-        "tags": "Shoes, Toddler Boys’ Shoes, Toddler Shoes, Western Boots",
-        "filters": {
-          "type": "Western Boots"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/josmo-kids-paw-patrol-cowboy-boots-chase-and-marshall-calf-high-western-country-cow-boy-boot-toddler-little-kid/-/A-1000034638",
-        "tags": "Shoes, Toddler Boys’ Shoes, Toddler Shoes, Western Boots",
-        "filters": {
-          "type": "Western Boots"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-toy-story-pull-on-boots-brown/-/A-85361829",
-        "tags": "Shoes, Toddler Boys’ Shoes, Toddler Shoes, Western Boots",
-        "filters": {
-          "type": "Western Boots"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/little-love-bug-company-winter-boot/-/A-1005240928",
-        "tags": "Shoes, Toddler Boys’ Shoes, Toddler Shoes, Winter Boots",
-        "filters": {
-          "type": "Winter Boots"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-adaptive-short-sleeve-2pk-bodysuit-cat-38-jack-8482/-/A-93313614",
-        "tags": "Child Bodysuits, Toddler Boys’ Adaptive Clothing, Toddler Boys’ Clothing, Toddler Clothing, Leotards and Bodysuits",
-        "filters": {
-          "type": "Child Bodysuits"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-adaptive-short-sleeve-2pk-abdominal-access-bodysuit-cat-38-jack-8482/-/A-93313859",
-        "tags": "Child Bodysuits, Toddler Boys’ Adaptive Clothing, Toddler Boys’ Clothing, Toddler Clothing, Leotards and Bodysuits",
-        "filters": {
-          "type": "Child Bodysuits"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-adaptive-short-sleeve-bodysuit-with-abdominal-access-cat-jack/-/A-86038665",
-        "tags": "Child Bodysuits, Toddler Boys’ Adaptive Clothing, Toddler Boys’ Clothing, Toddler Clothing, Leotards and Bodysuits",
-        "filters": {
-          "type": "Child Bodysuits"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-kids-adaptive-long-sleeve-bodysuit-with-abdominal-access-cat-jack/-/A-86038654",
-        "tags": "Child Bodysuits, Toddler Boys’ Adaptive Clothing, Toddler Boys’ Clothing, Toddler Clothing, Leotards and Bodysuits",
-        "filters": {
-          "type": "Child Bodysuits"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-adaptive-2pk-tank-bodysuit-with-abdominal-access-cat-38-jack-8482-white-gray/-/A-91212390",
-        "tags": "Child Bodysuits, Toddler Boys’ Adaptive Clothing, Toddler Boys’ Clothing, Toddler Clothing, Leotards and Bodysuits",
-        "filters": {
-          "type": "Child Bodysuits"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddlers-39-2pk-adaptive-long-sleeve-bodysuit-with-abdominal-access-cat-38-jack-8482-navy-blue-green/-/A-94576203",
-        "tags": "Child Bodysuits, Toddler Boys’ Adaptive Clothing, Toddler Boys’ Clothing, Toddler Clothing, Leotards and Bodysuits",
-        "filters": {
-          "type": "Child Bodysuits"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddler-adaptive-long-sleeve-2pk-abdominal-access-bodysuit-cat-38-jack-8482/-/A-93315711",
-        "tags": "Child Bodysuits, Toddler Boys’ Adaptive Clothing, Toddler Boys’ Clothing, Toddler Clothing, Leotards and Bodysuits",
-        "filters": {
-          "type": "Child Bodysuits"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddlers-39-2pk-adaptive-short-sleeve-bodysuit-with-abdominal-access-cat-38-jack-8482-burgundy-coral-pink/-/A-94576207",
-        "tags": "Child Bodysuits, Toddler Boys’ Adaptive Clothing, Toddler Boys’ Clothing, Toddler Clothing, Leotards and Bodysuits",
-        "filters": {
-          "type": "Child Bodysuits"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddlers-39-2pk-adaptive-long-sleeve-bodysuit-with-abdominal-access-cat-38-jack-8482-burgundy-coral-pink/-/A-94576202",
-        "tags": "Child Bodysuits, Toddler Boys’ Adaptive Clothing, Toddler Boys’ Clothing, Toddler Clothing, Leotards and Bodysuits",
-        "filters": {
-          "type": "Child Bodysuits"
-        }
-      },
-      {
-        "url": "https://www.target.com/p/toddlers-39-adaptive-halloween-fleece-set-cat-38-jack-8482-light-olive-green/-/A-94492966",
-        "tags": "Coordinate Sets, Toddler Boys’ Adaptive Clothing, Toddler Boys’ Clothing, Toddler Clothing, Top and Bottom Sets",
+        "url": "https://www.target.com/p/disney-winnie-the-pooh-mickey-mouse-fleece-sweatshirt-and-denim-pants-outfit-set-toddler/-/A-1000179152",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
         "filters": {
           "type": "Coordinate Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/boys-39-adaptive-jeans-cat-38-jack-8482/-/A-94600602",
-        "tags": "Jeans, Toddler Boys’ Adaptive Clothing, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/honest-baby-2-piece-cozy-velour-zip-front-hoodie-and-sweatpant-set/-/A-1001321993",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
         "filters": {
-          "type": "Jeans"
+          "type": "Coordinate Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/toddlers-39-adaptive-fleece-jogger-pants-cat-38-jack-8482/-/A-94576196",
-        "tags": "Jogger Pants, Toddler Boys’ Adaptive Clothing, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/star-wars-the-mandalorian-fleece-pullover-hoodie-and-pants-outfit-set-toddler/-/A-93782790",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
         "filters": {
-          "type": "Jogger Pants"
+          "type": "Coordinate Sets"
         }
       },
       {
-        "url": "https://www.target.com/p/toddlers-39-adaptive-fleece-crew-sweatshirt-cat-38-jack-8482-navy-blue/-/A-94576199",
-        "tags": "Pullover Sweatshirts, Toddler Boys’ Adaptive Clothing, Toddler Boys’ Clothing, Toddler Clothing, Hoodies & Sweatshirts, Tops",
+        "url": "https://www.target.com/p/hudson-baby-infant-and-toddler-boy-cotton-hoodie-bodysuit-or-tee-top-and-pant-set-football-toddler/-/A-82740201",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "filters": {
+          "type": "Coordinate Sets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/marvel-spider-man-boys-hooded-sweatshirt-and-pants-set-for-toddler-to-big-kids-size-4/-/A-1005269668",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "filters": {
+          "type": "Coordinate Sets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/sega-sonic-the-hedgehog-boys-2-piece-sweatshirt-and-pant-sets-for-toddlers-and-kids-size-4t/-/A-1004891663",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "filters": {
+          "type": "Coordinate Sets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/marvel-avengers-spider-man-little-boys-zip-up-fleece-hoodie-graphic-t-shirt-and-jogger-3-piece-outfit-set-toddler-to-big-kid/-/A-88247864",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "filters": {
+          "type": "Coordinate Sets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/marvel-spidey-and-his-amazing-friends-spider-man-fleece-sweatshirt-and-jogger-and-pants-outfit-set-toddler/-/A-1001856639",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "filters": {
+          "type": "Coordinate Sets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/yoga-sprout-baby-and-toddler-boy-cotton-hoodie-bodysuit-or-tee-top-and-pant-moon-toddler/-/A-82738879",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "filters": {
+          "type": "Coordinate Sets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/disney-junior-french-terry-pullover-hoodie-and-shorts-toddler/-/A-1003006328",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "filters": {
+          "type": "Coordinate Sets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/little-treasure-baby-and-toddler-boy-hoodie-bodysuit-or-tee-top-and-pant-set-little-bear/-/A-82739666",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "filters": {
+          "type": "Coordinate Sets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/teenage-mutant-ninja-turtles-donatello-raphael-leonardo-fleece-sweatshirt-and-pants-set-toddler-to-big-kid/-/A-89430028",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "filters": {
+          "type": "Coordinate Sets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/blaze-and-the-monster-machines-toddler-boys-fleece-pullover-hoodie-pant-set-gray-red/-/A-85069767",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "filters": {
+          "type": "Coordinate Sets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/sega-sonic-the-hedgehog-french-terry-pullover-hoodie-and-shorts-outfit-set-toddler/-/A-1003005815",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "filters": {
+          "type": "Coordinate Sets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/scooby-doo-scooby-doo-fleece-hoodie-and-pants-outfit-set-toddler/-/A-87249105",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "filters": {
+          "type": "Coordinate Sets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/bluey-bingo-chloe-halloween-toddler-boys-fleece-sweatshirt-and-jogger-pants-outfit-set-white-black-2t/-/A-1000163232",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "filters": {
+          "type": "Coordinate Sets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/disney-mickey-mouse-boys-sweatshirt-and-pants-set-for-toddler-and-little-kids/-/A-93233943",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "filters": {
+          "type": "Coordinate Sets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/sesame-street-elmo-fleece-half-zip-sweatshirt-and-pants-set-infant-to-toddler/-/A-88290222",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "filters": {
+          "type": "Coordinate Sets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/disney-mickey-mouse-toddler-boys-long-sleeve-t-shirt-fleece-pant-set-yellow/-/A-85167597",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "filters": {
+          "type": "Coordinate Sets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/hudson-baby-unisex-baby-and-toddler-cotton-hoodie-bodysuit-or-tee-top-and-pant-set-forest-animals/-/A-89267349",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Accessory Sets",
+        "filters": {
+          "type": "Coordinate Sets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/warner-bros-where-the-wild-things-are-max-cozy-faux-sherling-sweatshirt-and-felt-faux-fur-crown-toddler/-/A-1001188612",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Accessory Sets",
+        "filters": {
+          "type": "Coordinate Sets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/marvel-spider-man-tie-dye-french-terry-zip-up-hoodie-graphic-t-shirt-pants-infant-to-toddler/-/A-88398370",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "filters": {
+          "type": "Coordinate Sets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/hudson-baby-infant-and-toddler-boy-cotton-hoodie-bodysuit-or-tee-top-and-pant-set-plaid-moose-toddler/-/A-82740387",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "filters": {
+          "type": "Coordinate Sets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/disney-mickey-mouse-baby-fleece-pullover-hoodie-and-jogger-pants-set-infant/-/A-88316329",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "filters": {
+          "type": "Coordinate Sets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/hudson-baby-infant-and-toddler-boy-cotton-hoodie-bodysuit-or-tee-top-and-pant-set-forest-toddler/-/A-82740390",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "filters": {
+          "type": "Coordinate Sets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/disney-junior-fleece-sweatshirt-and-twill-jogger-pants-outfit-set-toddler/-/A-1002541453",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "filters": {
+          "type": "Coordinate Sets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/honest-baby-2-piece-cozy-velour-pop-over-hoodie-and-sweatpant-set/-/A-1001324086",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "filters": {
+          "type": "Coordinate Sets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/marvel-avengers-spider-man-french-terry-sweatshirt-and-pants-set-toddler-to-little-kid/-/A-87913963",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "filters": {
+          "type": "Coordinate Sets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/marvel-avengers-iron-man-thor-captain-america-zip-up-vest-2fer-jacket-and-pullover-fleece-hoodie-toddler/-/A-90541197",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Accessory Sets",
+        "filters": {
+          "type": "Coordinate Sets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/mixed-up-clothing-rand-hoodie-jogger-set/-/A-1001314540",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "filters": {
+          "type": "Coordinate Sets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/cocomelon-cody-jj-fleece-pullover-sweatshirt-and-jogger-pants-set-infant-to-toddler/-/A-87290877",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "filters": {
+          "type": "Coordinate Sets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/teenage-mutant-ninja-turtles-french-terry-pullover-hoodie-and-shorts-outfit-set-toddler/-/A-1003006501",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "filters": {
+          "type": "Coordinate Sets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/spongebob-squarepants-french-terry-pullover-hoodie-and-shorts-outfit-set-toddler/-/A-1003006299",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "filters": {
+          "type": "Coordinate Sets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/cocomelon-jj-pullover-hoodie-and-pants-outfit-set-infant-to-toddler/-/A-85071265",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "filters": {
+          "type": "Coordinate Sets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/dc-comics-justice-league-batman-toddler-boys-fleece-fleece-jogger-pullover-hoodie-pants-set/-/A-85069781",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "filters": {
+          "type": "Coordinate Sets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/yoga-sprout-baby-and-toddler-boy-cotton-hoodie-bodysuit-or-tee-top-and-pant-bear-hugs-toddler/-/A-82738857",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "filters": {
+          "type": "Coordinate Sets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/touched-by-nature-baby-and-toddler-unisex-organic-cotton-hoodie-bodysuit-or-tee-top-and-pant-stripe-elephant-toddler/-/A-82740056",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "filters": {
+          "type": "Coordinate Sets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/bluey-fleece-zip-up-hoodie-and-jogger-pants-set-toddler/-/A-88155672",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "filters": {
+          "type": "Coordinate Sets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/colored-organics-organic-hoodie-and-pant-set/-/A-1002574339",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "filters": {
+          "type": "Coordinate Sets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/minecraft-french-terry-pullover-hoodie-and-shorts-toddler/-/A-1003415306",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "filters": {
+          "type": "Coordinate Sets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/organic-cotton-hoodie-jogger-set-beige-charlie-lou-baby/-/A-1002113062",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "filters": {
+          "type": "Coordinate Sets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/mixed-up-clothing-baby-crewneck-sweatshirt-and-jogger-pant-set-black-white-hello/-/A-93720208",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "filters": {
+          "type": "Coordinate Sets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/mixed-up-clothing-baby-crewneck-sweatshirt-and-jogger-pant-set-red-multicolor/-/A-93720063",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "filters": {
+          "type": "Coordinate Sets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/mixed-up-clothing-boys-sweatshirt-and-jogger-set-red-multicolor/-/A-93720144",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "filters": {
+          "type": "Coordinate Sets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/mixed-up-clothing-boys-sweatshirt-and-jogger-set-blue-multicolor/-/A-93720040",
+        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "filters": {
+          "type": "Coordinate Sets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/mightly-toddler-fair-trade-organic-cotton-zip-up-pocket-hoodie/-/A-1004010368",
+        "tags": "Fleece Jackets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Fleece Jackets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/mightly-toddler-fair-trade-organic-cotton-zip-up-pocket-hoodie-magenta-3t/-/A-1004486152",
+        "tags": "Fleece Jackets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Fleece Jackets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/mightly-toddler-organic-cotton-print-lightweight-zip-up-pocket-hoodie/-/A-1004010370",
+        "tags": "Fleece Jackets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Fleece Jackets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/toddler-boys-marvel-spider-man-knit-denim-button-up-hoodie-jacket-blue/-/A-94618306",
+        "tags": "Hoodies & Sweatshirts, Jean Jackets, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Jean Jackets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/toddler-boys-bluey-knit-denim-button-up-hoodie-jacket-blue/-/A-94618307",
+        "tags": "Hoodies & Sweatshirts, Jean Jackets, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Jean Jackets"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/disney-pixar-cars-lightning-mcqueen-mater-hoodie-toddler-to-little-kid/-/A-88290176",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
           "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-girls-39-2pk-adaptive-short-sleeve-graphic-t-shirt-cat-38-jack-8482-cream-gentle-pink/-/A-94638341",
-        "tags": "T-shirts, Toddler Boys’ Adaptive Clothing, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/disney-pixar-toy-story-buzz-lightyear-half-zip-hoodie-toddler/-/A-89300098",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "T-shirts"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-adaptive-2pk-long-sleeve-t-shirt-cat-38-jack-8482/-/A-93575176",
-        "tags": "T-shirts, Toddler Boys’ Adaptive Clothing, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/marvel-avengers-spider-man-hoodie/-/A-85075292",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "T-shirts"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddlers-adaptive-short-sleeve-graphic-t-shirt-cat-jack/-/A-94569191",
-        "tags": "T-shirts, Toddler Boys’ Adaptive Clothing, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/teenage-mutant-ninja-turtles-donatello-leonardo-michelangelo-raphael-fleece-pullover-hoodie-toddler-to-big-kid/-/A-85028583",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "T-shirts"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-girls-39-halloween-graphic-t-shirt-cat-38-jack-8482-purple/-/A-94638339",
-        "tags": "T-shirts, Toddler Boys’ Adaptive Clothing, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/marvel-spider-man-fleece-pullover-hoodie-toddler/-/A-87364362",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "T-shirts"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-2pk-adaptive-short-sleeve-graphic-t-shirt-cat-38-jack-8482/-/A-94645683",
-        "tags": "T-shirts, Toddler Boys’ Adaptive Clothing, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/hot-wheels-fleece-half-zip-hoodie-toddler/-/A-88014843",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "T-shirts"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-adaptive-2pk-short-sleeve-t-shirt-cat-38-jack-8482/-/A-93575170",
-        "tags": "T-shirts, Toddler Boys’ Adaptive Clothing, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/bluey-bingo-fleece-half-zip-hoodie-toddler-to-big-kid/-/A-85001201",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "T-shirts"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-girls-39-2pk-adaptive-short-sleeve-graphic-t-shirt-cat-38-jack-8482/-/A-94645686",
-        "tags": "T-shirts, Toddler Boys’ Adaptive Clothing, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/disney-pixar-cars-lightning-mcqueen-fleece-pullover-hoodie-toddler-to-big-kid/-/A-90111561",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "T-shirts"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-kids-adaptive-2pk-short-sleeve-undershirt-with-abdominal-access-cat-jack-gray-white/-/A-86038653",
-        "tags": "T-shirts, Toddler Boys’ Adaptive Clothing, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/hot-wheels-fleece-pullover-hoodie-toddler/-/A-85562215",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "T-shirts"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddlers-39-adaptive-fleece-zip-up-hoodie-cat-38-jack-8482-black/-/A-94576200",
-        "tags": "Toddler Boys’ Adaptive Clothing, Toddler Boys’ Clothing, Toddler Clothing, Zip-Up Sweatshirts, Hoodies & Sweatshirts, Tops",
+        "url": "https://www.target.com/p/marvel-spider-man-fleece-hangdown-hoodie-toddler-to-big-kid/-/A-90042540",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Zip-Up Sweatshirts"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/hanes-toddler-boys-10pk-athletic-socks-colors-may-vary/-/A-50905683",
-        "tags": "Ankle Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/disney-pixar-cars-lightning-mcqueen-fleece-pullover-hoodie-toddler/-/A-85404383",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Ankle Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-10pk-fruits-ankle-socks-cat-jack/-/A-93083778",
-        "tags": "Ankle Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/disney-pixar-cars-lightning-mcqueen-toddler-boys-fleece-half-zip-pullover-hoodie/-/A-85411028",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Ankle Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/hanes-toddler-boys-39-6pk-pure-comfort-ankle-socks-white-green-blue/-/A-94655542",
-        "tags": "Ankle Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/bluey-bingo-fleece-pullover-hoodie-and-sweatshirt-toddler/-/A-88300419",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Ankle Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-6pk-waffle-ribbed-ankle-socks-cat-jack/-/A-94591673",
-        "tags": "Ankle Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/sesame-street-elmo-hoodie/-/A-85036813",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Ankle Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-8pk-ankle-socks-dealworthy-8482/-/A-90873550",
-        "tags": "Ankle Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/grayson-mini-toddler-boys-camo-french-terry-pullover-hoodie-t-shirt-green-black/-/A-90789935",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Ankle Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-8pk-low-cut-socks-dealworthy-8482-white/-/A-90850103",
-        "tags": "Ankle Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/marvel-spider-man-captain-america-hulk-black-panther-miles-morales-venom-iron-man-half-zip-hoodie-toddler-to-little-kid/-/A-88074690",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Ankle Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-cozyway-non-slip-ankle-style-socks-with-grippers-6-pack-for-baby-boys-and-girls-black-white-and-gray-1-3-years/-/A-92760521",
-        "tags": "Ankle Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/jurassic-park-fleece-pullover-hoodie-toddler-to-little-kid/-/A-87051046",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Ankle Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-ankle-style-socks-with-grippers-12-pack-for-baby-boys-and-girls-black-white-and-dark-gray-1-3-years/-/A-92760511",
-        "tags": "Ankle Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/bluey-mom-dad-bingo-fleece-hoodie-toddler/-/A-89675030",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Ankle Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-ankle-style-socks-with-grippers-12-pack-for-baby-boys-and-girls-solid-white-1-3-years/-/A-92760482",
-        "tags": "Ankle Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/disney-toy-story-buzz-lightyear-boys-pullover-hoodie-for-toddler-and-little-kids-white/-/A-1003555632",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Ankle Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-ankle-style-socks-with-grippers-12-pack-for-baby-boys-and-girls-solid-gray-1-3-years/-/A-92760489",
-        "tags": "Ankle Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/sonic-the-hedgehog-tails-knuckles-hoodie-toddler/-/A-87232038",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Ankle Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-cozyway-non-slip-ankle-style-socks-with-grippers-6-pack-for-baby-boys-and-girls-white-3-5-years/-/A-92760464",
-        "tags": "Ankle Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/monster-jam-maximum-destruction-el-toro-loco-grave-digger-fleece-pullover-hoodie-toddler/-/A-85040294",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Ankle Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/the-peanutshell-baby-boys-and-girls-12pk-organic-cotton-socks/-/A-1001195626",
-        "tags": "Ankle Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Crew Socks",
+        "url": "https://www.target.com/p/harry-potter-fleece-pullover-hoodie-little-kid-to-big-kid/-/A-88289926",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Ankle Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-ankle-style-socks-with-grippers-12-pack-for-baby-boys-and-girls-color-block-1-3-years/-/A-92760400",
-        "tags": "Ankle Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/marvel-avengers-spider-man-cozy-faux-sherling-cosplay-hoodie-toddler/-/A-93890145",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Ankle Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-cozyway-non-slip-ankle-style-socks-with-grippers-12-pack-for-baby-boys-and-girls-solid-black-1-3-years/-/A-92760509",
-        "tags": "Ankle Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/marvel-spider-man-avengers-pullover-hoodie-toddler/-/A-93680956",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Ankle Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-ankle-style-socks-with-grippers-12-pack-for-baby-boys-and-girls-multi-colored-1-3-years/-/A-92760474",
-        "tags": "Ankle Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/marvel-spidey-and-his-amazing-friends-ghost-spider-miles-morales-spider-man-fleece-half-zip-hoodie-toddler-to-little-kid/-/A-87246027",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Ankle Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-ankle-style-socks-with-grippers-9-pack-for-baby-boys-and-girls-assorted-colors-1-3-years/-/A-92760530",
-        "tags": "Ankle Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/disney-nightmare-before-christmas-jack-skellington-oogie-boogie-sally-fleece-quarter-zip-hoodie-toddler/-/A-87921514",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Ankle Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/the-peanutshell-baby-boys-and-girls-12pk-organic-cotton-socks-grey-oatmeal-mint/-/A-1001689859",
-        "tags": "Ankle Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Crew Socks",
+        "url": "https://www.target.com/p/kids-joey-hoodie-olive-scout/-/A-1001820765",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Ankle Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/gamago-funny-feet-toddler-socks-future-ceo/-/A-91318014",
-        "tags": "Ankle Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Crew Socks",
+        "url": "https://www.target.com/p/blue-s-clues-you-fleece-pullover-hoodie-toddler/-/A-87219334",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Ankle Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-non-slip-cute-mary-jane-socks-for-baby-set-of-5/-/A-94114900",
-        "tags": "Ankle Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Crew Socks",
+        "url": "https://www.target.com/p/disney-frozen-fleece-hoodie-toddler/-/A-87539387",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Ankle Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-ankle-style-socks-with-grippers-12-pack-for-baby-boys-and-girls-assorted-colors-1-3-years/-/A-92760531",
-        "tags": "Ankle Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/teenage-mutant-ninja-turtles-tmnt-leonardo-michelangelo-donatello-raphael-fleece-pullover-hoodie-toddler-to-big-kid/-/A-87643350",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Ankle Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-ankle-style-socks-with-grippers-9-pack-for-baby-boys-and-girls-assorted-colors-1-3-years/-/A-92760503",
-        "tags": "Ankle Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/star-wars-the-mandalorian-grogu-fleece-pullover-hoodie/-/A-88290144",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Ankle Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/mykids-usa-pairs-summer-super-thin-breathable-socks-for-kids-baby-plaid-socks/-/A-1003058592",
-        "tags": "Ankle Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/pj-masks-catboy-fleece-half-zip-hoodie-toddler/-/A-87974564",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Ankle Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-ankle-style-socks-with-grippers-12-pack-for-baby-boys-and-girls-assorted-color-block-1-3-years/-/A-92760434",
-        "tags": "Ankle Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/nickelodeon-paw-patrol-marshall-toddler-boys-fleece-cosplay-pullover-hoodie-red/-/A-85236177",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Ankle Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/dots-and-stripes-toddler-socks-set-of-5/-/A-1002652459",
-        "tags": "Ankle Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Crew Socks",
+        "url": "https://www.target.com/p/the-juniper-shop-teddy-bear-fisherman-toddler-graphic-hoodie/-/A-1002313426",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Ankle Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-cozyway-non-slip-ankle-style-socks-with-grippers-6-pack-for-baby-boys-and-girls-assorted-colors-1-3-years/-/A-92760536",
-        "tags": "Ankle Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-embroidered-hand-drawn-heart-toddler-graphic-hoodie/-/A-1001710086",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Ankle Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-dino-stripes-toddler-socks-set-of-5/-/A-1002652460",
-        "tags": "Ankle Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Crew Socks",
+        "url": "https://www.target.com/p/peanuts-cozy-faux-sherling-cosplay-hoodie-toddler/-/A-93890128",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Ankle Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-doggy-and-stripes-toddler-socks-set-of-5/-/A-1002652182",
-        "tags": "Ankle Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Crew Socks",
+        "url": "https://www.target.com/p/paw-patrol-rocky-zuma-rubble-fleece-pullover-hoodie-toddler/-/A-88328144",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Ankle Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-ankle-style-socks-with-grippers-12-pack-for-baby-boys-and-girls-multi-colored-1-3-years/-/A-92760499",
-        "tags": "Ankle Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/disney-mickey-mouse-fleece-drop-shoulder-pullover-hoodie-toddler/-/A-1003050222",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Ankle Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/gamago-funny-feet-toddler-socks-space-cadet/-/A-91317981",
-        "tags": "Ankle Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Crew Socks",
+        "url": "https://www.target.com/p/deux-par-deux-boy-french-terry-full-zip-hoodie-sweatshirt-pale-blue-and-dark-old-rose/-/A-1003010961",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Ankle Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/gamago-funny-feet-toddler-socks-whatever/-/A-91317991",
-        "tags": "Ankle Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Crew Socks",
+        "url": "https://www.target.com/p/monster-jam-maximum-destruction-son-uva-digger-earth-shaker-fleece-pullover-hoodie-toddler/-/A-88096499",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Ankle Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-ankle-style-socks-with-grippers-12-pack-for-baby-boys-and-girls-assorted-colors-1-3-years/-/A-92760492",
-        "tags": "Ankle Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/dc-comics-justice-league-superman-batman-the-flash-fleece-pullover-hoodie-toddler-to-big-kid/-/A-87915786",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Ankle Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-ankle-style-socks-with-grippers-12-pack-for-baby-boys-and-girls-black-white-and-gray-1-3-years/-/A-92760493",
-        "tags": "Ankle Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/deux-par-deux-boy-french-terry-color-block-pullover-hoodie-sweatshirt-beige-and-off-white/-/A-1003011725",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Ankle Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/gamago-funny-feet-toddler-socks-old-school-dinosaur/-/A-91318011",
-        "tags": "Ankle Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Crew Socks",
+        "url": "https://www.target.com/p/dreamworks-how-to-train-your-dragon-fleece-cosplay-hoodie-toddler/-/A-1003029708",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Ankle Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-ankle-cotton-toddler-socks-12-pack-stretch-toddler-boy-socks-socks-for-toddler-boys-boys-multicolor-1t-3t/-/A-92760322",
-        "tags": "Ankle Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/thomas-friends-tank-engine-big-boys-fleece-half-zip-hoodie/-/A-85015711",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Ankle Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-ankle-style-socks-with-grippers-12-pack-for-baby-boys-and-girls-mixed-colors-1-3-years/-/A-92760490",
-        "tags": "Ankle Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/transformers-optimus-prime-bumblebee-megatron-fleece-pullover-hoodie-toddler/-/A-88163688",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Ankle Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-ankle-cotton-toddler-socks-12-pack-stretch-toddler-girl-socks-toddler-boy-socks-black-white-dark-gray-1t-3t/-/A-92760356",
-        "tags": "Ankle Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/thomas-friends-thomas-the-train-pullover-hoodie-toddler/-/A-88290906",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Ankle Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/gamago-funny-feet-toddler-socks-free-hugs/-/A-91318026",
-        "tags": "Ankle Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Crew Socks",
+        "url": "https://www.target.com/p/jurassic-world-dinosaur-t-rex-fleece-pullover-hoodie/-/A-87974668",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Ankle Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/gamago-funny-feet-toddler-socks-book-nerd/-/A-91317995",
-        "tags": "Ankle Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Crew Socks",
+        "url": "https://www.target.com/p/disney-nightmare-before-christmas-jack-skellington-hoodie/-/A-85183749",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Ankle Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-cozyway-non-slip-ankle-style-socks-with-grippers-6-pack-for-baby-boys-and-girls-white-6-12-months/-/A-92760461",
-        "tags": "Ankle Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/star-wars-the-mandalorian-grogu-cozy-faux-sherling-cosplay-hoodie-toddler/-/A-1000006140",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Ankle Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/ctm-infant-s-soft-fancy-solid-and-patterned-socks-3-pack/-/A-92401732",
-        "tags": "Ankle Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Crew Socks",
+        "url": "https://www.target.com/p/marvel-spider-man-boys-hoodie-for-toddlers-and-big-boys/-/A-1001306991",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Ankle Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/mykids-usa-spring-baby-breathable-animals-cartoon-color-patchwork-socks/-/A-1003089818",
-        "tags": "Ankle Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Crew Socks",
+        "url": "https://www.target.com/p/pj-masks-catboy-owlette-gekko-fleece-hoodie/-/A-85411040",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Ankle Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/mykids-usa-kid-embroidered-pattern-color-matching-design-non-slip-socks-1-lot-3-pairs/-/A-1004660970",
-        "tags": "Ankle Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/marvel-avengers-spider-man-hulk-fleece-pullover-hoodie-toddler/-/A-89728507",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Ankle Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-athletic-6pk-low-cut-socks-cat-jack-white/-/A-82218318",
-        "tags": "Athletic Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/spongebob-squarepants-fleece-pullover-hoodie-toddler/-/A-85047480",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Athletic Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-boys-10pk-ankle-socks-cat-jack-black-gray/-/A-81555256",
-        "tags": "Athletic Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/marvel-avengers-hulk-miles-morales-spider-man-athletic-cosplay-hoodie-toddler-to-big-kid/-/A-88417222",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Athletic Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-1-chevron-purple-and-lilac/-/A-93985708",
-        "tags": "Athletic Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/disney-monsters-inc-cozy-faux-sherling-cosplay-hoodie-toddler-sizes-12-months-6/-/A-93890164",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Athletic Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/city-threads-usa-made-girls-and-boys-soft-organic-cotton-diaper-cover/-/A-91116763",
-        "tags": "Bloomers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/nasa-astronaut-fleece-pullover-hoodie-toddler-to-big-kid/-/A-88298213",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Bloomers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/city-threads-usa-made-girls-and-boys-soft-cotton-diaper-cover/-/A-90936284",
-        "tags": "Bloomers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/disney-mickey-mouse-goofy-donald-duck-fleece-pullover-hoodie-infant-to-big-kid/-/A-87358574",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Bloomers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/lucky-me-grayson-boys-organic-cotton-boxer-brief-underwear-multiple-colors-and-sizes-6-pack/-/A-1002422214",
-        "tags": "Boxer Briefs, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/bluey-bingo-dad-mom-fleece-matching-family-cosplay-pullover-hoodie-infant-to-little-kid/-/A-87236261",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Boxer Briefs"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/lucky-me-jameson-boys-performance-brief-underwear-multiple-colors-and-sizes-5-pack/-/A-1002267293",
-        "tags": "Boxer Briefs, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Briefs",
+        "url": "https://www.target.com/p/disney-mickey-mouse-winnie-the-pooh-fleece-cosplay-pullover-hoodie-toddler/-/A-89300119",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Boxer Briefs"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/hanes-toddler-boys-10pk-boxer-briefs-colors-may-vary/-/A-79373015",
-        "tags": "Boxer Briefs, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/mixed-up-clothing-kids-viaje-hoodie/-/A-94053594",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Boxer Briefs"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-boys-disney-3pk-boxer-briefs/-/A-90511988",
-        "tags": "Boxer Briefs, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/marvel-comics-iconic-logo-fleece-pullover-hoodie-toddler-to-big-kid/-/A-88688193",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Boxer Briefs"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-boys-spider-man-3pk-boxer-briefs/-/A-89262426",
-        "tags": "Boxer Briefs, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/scooby-doo-toddler-boys-fleece-half-zip-pullover-hoodie-grey-black/-/A-85046974",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Boxer Briefs"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/city-threads-usa-made-boys-soft-cotton-boxer-brief/-/A-90832046",
-        "tags": "Boxer Briefs, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/disney-mickey-mouse-fleece-pullover-hoodie-toddler/-/A-85075116",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Boxer Briefs"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/hanes-toddler-boys-39-6pk-organic-cotton-boxer-briefs/-/A-91683921",
-        "tags": "Boxer Briefs, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-block-checkered-lucky-dude-toddler-graphic-hoodie/-/A-1001345255",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Boxer Briefs"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-boys-39-6pk-39-monsters-39-boxer-briefs-cat-38-jack-8482/-/A-93006484",
-        "tags": "Boxer Briefs, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/disney-lion-king-winnie-the-pooh-pixar-monsters-inc-mickey-mouse-lilo-stitch-fleece-pullover-hoodie-infant-to-little-kid/-/A-88290669",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Boxer Briefs"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/john-deere-construction-trucks-3-pack-boxer-briefs-underwear-toddler/-/A-1003757670",
-        "tags": "Boxer Briefs, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-here-comes-the-fun-puff-print-toddler-graphic-hoodie/-/A-1000157687",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Boxer Briefs"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/lucky-me-nolan-boys-organic-cotton-boxer-briefs/-/A-1000470741",
-        "tags": "Boxer Briefs, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/scooby-doo-scooby-doo-fleece-pullover-hoodie-toddler/-/A-87197573",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Boxer Briefs"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/city-threads-usa-made-boys-organic-cotton-boxer-brief/-/A-90831965",
-        "tags": "Boxer Briefs, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/looney-tunes-buggs-bunny-toddler-boys-fleece-fashion-pullover-hoodie-blue-2t/-/A-88296709",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Boxer Briefs"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/stretchy-boxer-briefs-gone-fishin-charlie-lou-baby/-/A-1003754708",
-        "tags": "Boxer Briefs, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/star-wars-the-child-hoodie-black/-/A-87280403",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Boxer Briefs"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/lucky-me-nolan-boys-organic-cotton-briefs-underwear-multi-colored-multiple-sizes-7-pack/-/A-1001176354",
-        "tags": "Boxer Briefs, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Briefs",
+        "url": "https://www.target.com/p/star-wars-mandalorian-the-child-costume-hoodie-infant-to-big-kid/-/A-89665841",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Boxer Briefs"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/city-threads-boys-100-organic-cotton-briefs-3-pack-usa-made/-/A-1004707323",
-        "tags": "Boxer Briefs, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Briefs",
+        "url": "https://www.target.com/p/disney-mickey-mouse-fleece-hoodie-toddler/-/A-87274502",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Boxer Briefs"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/lucy-me-jameson-boys-performance-boxer-briefs-multi-colored-multiple-sizes-5-pack/-/A-1000382639",
-        "tags": "Boxer Briefs, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/teenage-mutant-ninja-turtles-tmnt-ninja-turtles-toddler-boys-half-zip-fleece-pullover-hoodie-green/-/A-85219999",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Boxer Briefs"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/city-threads-boys-100-organic-cotton-boxer-briefs-3-pack-usa-made/-/A-1005040560",
-        "tags": "Boxer Briefs, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/star-wars-the-child-fleece-half-zip-hoodie-toddler/-/A-89727562",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Boxer Briefs"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/city-threads-boys-100-organic-cotton-athletic-boxer-brief-usa-made/-/A-1004356104",
-        "tags": "Boxer Briefs, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/avatar-the-last-airbender-aang-katara-sokka-hoodie-toddler/-/A-87132601",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Boxer Briefs"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/hanes-toddler-boys-6pk-briefs-colors-may-vary/-/A-84727964",
-        "tags": "Briefs, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/blaze-and-the-monster-machines-fleece-half-zip-hoodie-toddler/-/A-1003647369",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Briefs"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/hanes-toddler-boys-briefs-blue/-/A-85864523",
-        "tags": "Briefs, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/sega-sonic-the-hedgehog-fleece-half-zip-hoodie-toddler-to-big-kid/-/A-87246037",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Briefs"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-boys-marvel-spider-man-7pk-underwear/-/A-82758583",
-        "tags": "Briefs, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-lucky-duck-toddler-graphic-hoodie/-/A-1002532799",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Briefs"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-boys-7pk-toy-story-pixar-briefs/-/A-54607696",
-        "tags": "Briefs, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-pushin-my-luck-toddler-graphic-hoodie/-/A-1001890689",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Briefs"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-boys-jurassic-world-7pk-briefs/-/A-89262425",
-        "tags": "Briefs, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-lucky-clover-distressed-toddler-graphic-hoodie/-/A-1001890640",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Briefs"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-boys-mickey-mouse-7pk-briefs/-/A-90511989",
-        "tags": "Briefs, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/marvel-avengers-captain-america-fleece-hoodie-toddler/-/A-87369339",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Briefs"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/city-threads-usa-made-boys-soft-cotton-briefs/-/A-90831962",
-        "tags": "Briefs, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-embroidered-love-typewriter-toddler-graphic-hoodie/-/A-1001710131",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Briefs"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-boys-cars-7pk-underwear/-/A-93719526",
-        "tags": "Briefs, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-embroidered-lucky-clover-toddler-graphic-hoodie/-/A-1001890636",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Briefs"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/hanes-toddler-boys-39-6pk-organic-cotton-briefs/-/A-91683920",
-        "tags": "Briefs, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-embroidered-lucky-clover-toddler-graphic-hoodie/-/A-1001890680",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Briefs"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-boys-39-7pk-39-dinos-39-briefs-cat-38-jack-8482/-/A-93006486",
-        "tags": "Briefs, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-football-game-day-toddler-graphic-hoodie/-/A-1001823823",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Briefs"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-boys-39-7pk-briefs-cat-38-jack-8482/-/A-93006487",
-        "tags": "Briefs, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-shenanigans-squad-toddler-graphic-hoodie/-/A-1001345199",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Briefs"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-boys-7pk-paw-patrol-classic-briefs/-/A-93482482",
-        "tags": "Briefs, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-embroidered-hand-drawn-heart-toddler-graphic-hoodie/-/A-1001709774",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Briefs"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-boys-39-7pk-mickey-mouse-briefs/-/A-94640351",
-        "tags": "Briefs, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-charmer-clover-toddler-graphic-hoodie/-/A-1001890704",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Briefs"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-boys-39-4pk-briefs-dealworthy-8482/-/A-90827459",
-        "tags": "Briefs, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-a-wee-bit-irish-toddler-graphic-hoodie/-/A-1001345262",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Briefs"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-boys-7pk-bluey-underwear/-/A-82344233",
-        "tags": "Briefs, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/marvel-avengers-captain-america-spider-man-iron-man-venom-fleece-pullover-hoodie-toddler-to-big-kid/-/A-88290194",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Briefs"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/lucky-me-lucas-boys-organic-cotton-briefs-multiple-colors-and-sizes-6-pack/-/A-1002093611",
-        "tags": "Briefs, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-embroidered-choose-happy-smiley-face-toddler-graphic-hoodie/-/A-1002350067",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Briefs"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/city-threads-usa-made-boys-organic-cotton-brief/-/A-90832124",
-        "tags": "Briefs, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-golf-icons-watercolor-toddler-graphic-hoodie/-/A-1002444268",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Briefs"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/city-threads-usa-made-boys-and-girls-soft-cotton-simple-brief/-/A-91043686",
-        "tags": "Briefs, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-embroidered-hand-drawn-heart-toddler-graphic-hoodie/-/A-1001709650",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Briefs"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/baby-boys-6pk-crew-socks-cat-jack/-/A-84606929",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/disney-pixar-toy-story-woody-buzz-lightyear-rex-forky-pullover-hoodie-toddler/-/A-87557236",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-6pk-dino-crew-socks-cat-jack/-/A-93083780",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-two-two-two-toddler-graphic-hoodie/-/A-1000116421",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-6pk-critter-crew-socks-cat-jack/-/A-94591672",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-embroidered-be-good-do-good-smiley-face-toddler-graphic-hoodie/-/A-1002350147",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-crew-grip-toddler-socks-12-pack-for-boys-stripes-dinosaur-design-3-5-years-old/-/A-92809594",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Low Cut Socks",
+        "url": "https://www.target.com/p/mixed-up-clothing-kids-baja-hoodie/-/A-93162544",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-crew-grip-toddler-socks-12-pack-for-boys-black-white-gray-blue-light-blue-3-5-years-old/-/A-92809766",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Low Cut Socks",
+        "url": "https://www.target.com/p/sega-sonic-the-hedgehog-toddler-boys-fleece-fashion-pullover-hoodie-navy/-/A-85411043",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-crew-grip-toddler-socks-12-pack-for-boys-girls-white-3-5-years-old/-/A-92809756",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Low Cut Socks",
+        "url": "https://www.target.com/p/jurassic-park-fleece-pullover-hoodie-logo-toddler-to-big-kid/-/A-88298304",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-crew-grip-toddler-socks-12-pack-for-boys-girls-white-1-3-years-old/-/A-92809753",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Low Cut Socks",
+        "url": "https://www.target.com/p/the-juniper-shop-heart-breaker-sunglasses-toddler-graphic-hoodie/-/A-1001647015",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-crew-grip-toddler-socks-12-pack-for-boys-girls-black-3-5-years-old/-/A-92809772",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Low Cut Socks",
+        "url": "https://www.target.com/p/the-juniper-shop-march-vibes-basketball-toddler-graphic-hoodie/-/A-1002399650",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/john-deere-truck-farm-animal-3-pack-non-slip-grip-crew-socks-toddler/-/A-1002927671",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/paw-patrol-chase-marshall-rubble-zuma-fleece-pullover-hoodie-toddler-to-little-kid/-/A-85038148",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-crew-cotton-toddler-socks-12-pack-stretch-toddler-girl-socks-toddler-boy-socks-toddler-white-socks-white-1t-3t/-/A-92809764",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Low Cut Socks",
+        "url": "https://www.target.com/p/marvel-avengers-black-panther-fleece-pullover-hoodie-toddler/-/A-88040199",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-crew-cotton-toddler-socks-12-pack-stretch-toddler-girl-socks-toddler-boy-socks-black-white-gray-1t-3t/-/A-92809694",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Low Cut Socks",
+        "url": "https://www.target.com/p/peppa-pig-kids-xs-snugible-blanket-hoodie-pillow/-/A-1000384762",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-crew-cotton-toddler-socks-12-pack-stretch-toddler-girl-socks-toddler-boy-socks-girls-multicolor-3t-5t/-/A-92809707",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Low Cut Socks",
+        "url": "https://www.target.com/p/disney-lilo-and-stitch-unisex-pullover-hoodie-for-toddlers-and-big-kids-size-10/-/A-1005039444",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-crew-grip-toddler-socks-12-pack-for-boys-black-blue-light-blue-gray-3-5-years-old/-/A-92809779",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Low Cut Socks",
+        "url": "https://www.target.com/p/the-juniper-shop-game-day-toddler-graphic-hoodie/-/A-1001831865",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-crew-grip-toddler-socks-12-pack-for-boys-girls-gray-1-3-years-old/-/A-92809679",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Low Cut Socks",
+        "url": "https://www.target.com/p/the-juniper-shop-embroidered-lucky-typewriter-toddler-graphic-hoodie/-/A-1002225775",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-crew-grip-toddler-socks-6-pack-for-boys-black-white-gray-3-5-years-old/-/A-92809584",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Low Cut Socks",
+        "url": "https://www.target.com/p/the-juniper-shop-lucky-charm-friends-toddler-graphic-hoodie/-/A-1002532776",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/kids-marvel-superhero-adventures-baby-variety-crew-socks-6-pack/-/A-1004493368",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-embroidered-i-love-you-words-toddler-graphic-hoodie/-/A-1001709653",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/gerber-baby-wiggle-proof-jersey-crew-socks-8-pack/-/A-93046964",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-loads-of-luck-retro-truck-toddler-graphic-hoodie/-/A-1001890511",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-gathered-ruffles-baby-leg-warmers-set-of-3-lilac-ballet-pink-sky-blue/-/A-93639321",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Leg Warmers",
+        "url": "https://www.target.com/p/the-juniper-shop-embroidered-choose-happy-smiley-face-toddler-graphic-hoodie/-/A-1002350124",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/onesies-brand-boys-jersey-crew-wiggle-proof-socks-12-pack/-/A-90835471",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-embroidered-be-good-do-good-smiley-face-toddler-graphic-hoodie/-/A-1002349908",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-peek-a-boo-animal-non-skid-toddler-socks-set-of-6-owl-and-lion-large/-/A-94144456",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-shamrock-and-roll-toddler-graphic-hoodie/-/A-1001345168",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/kids-crew-socks-3-pack-olive-scout/-/A-1001300421",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-deer-snowman-scene-toddler-graphic-hoodie/-/A-1001646988",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-crew-cotton-toddler-socks-12-pack-stretch-toddler-girl-socks-for-all-day-comfort-toddler-boy-socks-black-3t-5t/-/A-92809696",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Low Cut Socks",
+        "url": "https://www.target.com/p/the-juniper-shop-embroidered-love-typewriter-toddler-graphic-hoodie/-/A-1001710137",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-full-steam-ahead-train-socks-set-of-4/-/A-94114986",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-embroidered-lucky-typewriter-toddler-graphic-hoodie/-/A-1002225786",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-crew-grip-toddler-socks-12-pack-for-boys-girls-black-white-gray-1-3-years-old/-/A-92809787",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Low Cut Socks",
+        "url": "https://www.target.com/p/the-juniper-shop-cutest-clover-toddler-graphic-hoodie/-/A-1001345181",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-peek-a-boo-animal-non-skid-toddler-socks-set-of-6-cat-and-duck-large/-/A-94142633",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-game-day-football-toddler-graphic-hoodie/-/A-1001823647",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-peek-a-boo-animal-non-skid-toddler-socks-set-of-6-cat-and-owl-large/-/A-94142721",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-football-game-day-stripes-toddler-graphic-hoodie/-/A-1001831854",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-peek-a-boo-animal-non-skid-toddler-socks-set-of-6-zoo-animals-large/-/A-94142204",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-time-to-celebrate-toddler-graphic-hoodie/-/A-1000157631",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-peek-a-boo-animal-non-skid-toddler-socks-set-of-6-cat-and-duck-small/-/A-94142685",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-embroidered-i-love-you-words-toddler-graphic-hoodie/-/A-1001709692",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-baby-knee-high-non-slip-socks-cable-knit-tube-stockings-with-grips-for-toddlers-newborn-girls-boys-5-pairs-18-36-months/-/A-92809652",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Knee High Socks",
+        "url": "https://www.target.com/p/the-juniper-shop-happy-go-lucky-smiley-face-toddler-graphic-hoodie/-/A-1001890679",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-cutie-bear-mesh-socks-set-of-5/-/A-1001282001",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-happy-go-lucky-pot-of-gold-toddler-graphic-hoodie/-/A-1001890724",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-funny-zoo-animal-socks-for-toddlers-set-of-3/-/A-94135832",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/mykids-usa-baby-boy-excavator-pattern-long-sleeve-quality-fashion-hoodie/-/A-1004642292",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-my-best-buddy-socks-for-baby-set-of-6-arctic-buddies-1-3/-/A-94143429",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/rabble-gender-neutral-hoodie-and-magic-wonders-dabblz-bundle/-/A-1002108293",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-blue-baby-leg-warmers-set-of-3-owls-moustaches-chevron/-/A-93655146",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Leg Warmers",
+        "url": "https://www.target.com/p/toddler-boys-french-terry-sweatshirt-cat-jack-white/-/A-94436167",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/magical-seahorse-socks-0-2-from-the-sock-panda/-/A-92434801",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/toddler-boys-washed-french-terry-sweatshirt-cat-jack/-/A-94465143",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-crew-cotton-toddler-socks-12-pack-stretch-toddler-boy-socks-socks-for-toddler-boys-boys-multicolor-3t-5t/-/A-92809702",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Low Cut Socks",
+        "url": "https://www.target.com/p/toddler-boys-fleece-crew-sweatshirt-cat-jack/-/A-94465235",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-boys-casual-scrunch-socks-set-of-6-set-1/-/A-1002630532",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Knee High Socks",
+        "url": "https://www.target.com/p/toddler-boys-fleece-crewneck-sweatshirt-cat-jack/-/A-90940493",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-ruffled-knee-high-socks-3-pairs-for-baby-girls-black-white-grey-1-3-years/-/A-92760358",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Knee High Socks",
+        "url": "https://www.target.com/p/toddler-boys-disney-mickey-mouse-striped-fleece-pullover-green/-/A-94609702",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-vintage-floral-pattern-toddler-socks-set-of-5/-/A-94115777",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/toddler-ms-rachel-herbie-fleece-pullover-sweatshirt-ivory/-/A-94505142",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-peek-a-boo-animal-non-skid-toddler-socks-set-of-6-zoo-animals-small/-/A-94142562",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/grayson-mini-toddler-boys-french-terry-crewneck-sweatshirt-white/-/A-93058800",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-toddler-s-thick-casual-ankle-socks-set-of-3-leopard-small/-/A-94135498",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/grayson-mini-toddler-boys-french-terry-crewneck-sweatshirt-brown/-/A-93058796",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-adorable-pets-baby-socks-set-of-5-boy/-/A-94143744",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/grayson-mini-toddler-boys-have-more-fun-french-terry-crewneck-pullover-t-shirt-blue/-/A-90798566",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-non-slip-cute-mary-jane-socks-for-baby-set-of-4/-/A-94115248",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-mickey-and-friends-christmas-graphic-long-sleeve-fleece-sweatshirt/-/A-1000576495",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-sporty-shoe-socks-set-of-6/-/A-1000019613",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-little-turkey-typewriter-toddler-graphic-sweatshirt/-/A-92793368",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-peek-a-boo-animal-non-skid-toddler-socks-set-of-6-bears-and-buddies-small/-/A-1000021913",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-holly-jolly-christmas-tree-toddler-graphic-sweatshirt/-/A-93544680",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-peek-a-boo-animal-non-skid-toddler-socks-set-of-6-owl-lion-small/-/A-94142723",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-retro-football-game-day-toddler-graphic-sweatshirt/-/A-90213771",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-my-best-buddy-socks-for-baby-set-of-6-pastel-pals/-/A-94144349",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Knee High Socks",
+        "url": "https://www.target.com/p/the-juniper-shop-football-game-day-toddler-graphic-sweatshirt/-/A-90203637",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-my-best-buddy-socks-for-baby-set-of-6-forest-friends-1-3/-/A-94143428",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-christmas-crew-toddler-graphic-sweatshirt-5-6-pink/-/A-93207521",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-adorable-pets-baby-socks-set-of-5-nautical/-/A-94143741",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000836522",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-cutie-bear-mesh-socks-set-of-5/-/A-94116226",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000841356",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-pastel-dots-baby-leg-warmers-set-of-3-pink-aqua-lavender/-/A-93639320",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Leg Warmers",
+        "url": "https://www.target.com/p/the-juniper-shop-christmas-crew-hat-toddler-graphic-sweatshirt-5-6-pink/-/A-90229047",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/socksmith-8-0-inch-reindeer-games-antlers-christmas-tree-snowflakes-crew-socks/-/A-1001200477",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-get-your-cray-on-toddler-graphic-sweatshirt/-/A-90568458",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-toddler-s-thick-casual-ankle-socks-set-of-3-monkey-small/-/A-94135685",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-we-scare-because-we-care-graphic-long-sleeve-fleece-sweatshirt/-/A-1000654920",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/socksmith-8-0-inch-festive-snowman-lights-holidays-scarf-top-hat-crew-socks/-/A-1001200505",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-mickey-friends-graphic-long-sleeve-fleece-sweatshirt/-/A-1000825696",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-animals-and-fun-colorful-baby-toddler-leg-warmers-giraffe/-/A-93970095",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Leg Warmers",
+        "url": "https://www.target.com/p/boys-disney-space-logo-graphic-long-sleeve-fleece-sweatshirt/-/A-1000655558",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-casual-cute-socks-for-baby-set-of-4-berry-pink/-/A-94142732",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-peanuts-snoopy-s-hockey-camp-graphic-long-sleeve-fleece-sweatshirt/-/A-1000698264",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-my-best-buddy-socks-for-baby-set-of-6-woodland-buddies/-/A-94143422",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Knee High Socks",
+        "url": "https://www.target.com/p/boys-disney-firefighter-mickey-graphic-long-sleeve-fleece-sweatshirt/-/A-1000660055",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-casual-cute-socks-for-baby-set-of-4-slate-blue/-/A-94142722",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-mickey-sunbathe-graphic-long-sleeve-fleece-sweatshirt/-/A-1000813420",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-peek-a-boo-animal-non-skid-toddler-socks-set-of-6-bears-and-buddies-large/-/A-94142496",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-mickey-friends-graphic-long-sleeve-fleece-sweatshirt/-/A-1000824640",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-fun-and-playtime-baby-leg-warmers-set-of-3-robots-checkers-sea-adventures/-/A-93655141",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Leg Warmers",
+        "url": "https://www.target.com/p/the-juniper-shop-halloween-candy-bucket-chart-toddler-graphic-sweatshirt/-/A-92726066",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-wilderness-buddies-baby-leg-warmers-set-of-3-piggies-and-flowers/-/A-93655273",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Leg Warmers",
+        "url": "https://www.target.com/p/boys-cars-rusteze-pit-crew-graphic-long-sleeve-fleece-sweatshirt/-/A-1000659344",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/socksmith-8-0-inch-fashionable-penguins-2-4-years-snow-seamless-toe-crew-socks/-/A-1001200507",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-cars-designed-for-speed-graphic-long-sleeve-fleece-sweatshirt/-/A-1000659470",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-animals-and-fun-colorful-baby-toddler-leg-warmers-panda/-/A-93970097",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Leg Warmers",
+        "url": "https://www.target.com/p/the-juniper-shop-cousin-crew-lights-toddler-graphic-sweatshirt/-/A-93207542",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-playful-patterns-baby-toddler-leg-warmers-elephants-and-cars/-/A-93877576",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Leg Warmers",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000792583",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-animals-and-fun-colorful-baby-toddler-leg-warmers-brown-bear/-/A-93970092",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Leg Warmers",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000790441",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/mykids-usa-baby-unisex-breathable-thermal-cartoon-patchwork-socks-non-slip/-/A-1003452055",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-mickey-and-friends-tis-the-season-christmas-graphic-long-sleeve-fleece-sweatshirt/-/A-1000640273",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/mykids-usa-baby-cartoon-3d-doll-patched-pattern-non-slip-floor-socks/-/A-1004429374",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/bluey-fleece-sweatshirt-and-cotton-gauze-hat-toddler-to-little-kid/-/A-90518569",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-crew-grip-toddler-socks-6-pack-for-boys-black-white-gray-1-3-years-old/-/A-92809595",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Low Cut Socks",
+        "url": "https://www.target.com/p/the-juniper-shop-watercolor-candy-corn-toddler-graphic-sweatshirt/-/A-92942546",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-fun-and-playtime-baby-leg-warmers-set-of-3-apple-owls-dots/-/A-93655230",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Leg Warmers",
+        "url": "https://www.target.com/p/boys-peanuts-snoopy-woodstock-chasing-snowflakes-christmas-graphic-long-sleeve-fleece-sweatshirt/-/A-1000726781",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-crew-cotton-toddler-socks-12-pack-stretch-toddler-girl-socks-toddler-boy-socks-toddler-white-socks-white-3t-5t/-/A-92809705",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Low Cut Socks",
+        "url": "https://www.target.com/p/boys-disney-i-m-ready-for-school-graphic-long-sleeve-fleece-sweatshirt/-/A-1000635717",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-crew-cotton-toddler-socks-12-pack-stretch-toddler-girl-socks-for-all-day-comfort-toddler-boy-socks-black-1t-3t/-/A-92809695",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Low Cut Socks",
+        "url": "https://www.target.com/p/boys-trolls-turn-it-up-poppy-graphic-long-sleeve-fleece-sweatshirt/-/A-1000797731",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-my-best-buddy-socks-for-baby-set-of-6-nocturnal-friends/-/A-94143407",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Knee High Socks",
+        "url": "https://www.target.com/p/boys-disney-mickey-friends-graphic-long-sleeve-fleece-sweatshirt/-/A-1000822828",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/socksmith-9-0-inch-festive-snowman-lights-holidays-scarf-top-hat-crew-socks/-/A-1001200504",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-merry-christmas-dude-graphic-long-sleeve-fleece-sweatshirt/-/A-1000751025",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/socksmith-9-0-inch-fashionable-penguins-4-7-years-snow-seamless-toe-crew-socks/-/A-1001200458",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-mickey-head-nature-fill-graphic-long-sleeve-fleece-sweatshirt/-/A-1000648187",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-fun-and-playtime-baby-leg-warmers-set-of-3-stripes-apple-robots/-/A-93655144",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Leg Warmers",
+        "url": "https://www.target.com/p/boys-disney-jesse-yeehaw-graphic-long-sleeve-fleece-sweatshirt/-/A-1000792894",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-fun-and-playtime-baby-leg-warmers-set-of-3-multicolor-owls-pink-ruffles/-/A-93655138",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Leg Warmers",
+        "url": "https://www.target.com/p/the-juniper-shop-big-bro-square-toddler-graphic-sweatshirt/-/A-91813141",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/mykids-usa-baby-print-pattern-spring-autumn-cotton-1bag-5pairs-socks/-/A-1004437495",
-        "tags": "Crew Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-barbie-classic-pink-logo-graphic-long-sleeve-fleece-sweatshirt/-/A-1000610468",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Crew Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-warm-non-skid-tights-for-toddlers-set-of-2-mary-janes-diamonds/-/A-1002654212",
-        "tags": "Knee High Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Leg Warmers",
+        "url": "https://www.target.com/p/the-juniper-shop-santa-squad-toddler-graphic-sweatshirt/-/A-90416562",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Knee High Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-leg-warmers-set-of-3-ruched-white-black-pink/-/A-93639619",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-cereal-killer-toddler-graphic-sweatshirt/-/A-92954551",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-ruffle-leg-warmers-for-toddler-gray/-/A-93877605",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-snowman-face-toddler-graphic-sweatshirt/-/A-90265826",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-ruffle-leg-warmers-for-toddler-pink/-/A-93877609",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-paw-patrol-chase-rubble-marshall-hexagons-graphic-long-sleeve-fleece-sweatshirt/-/A-1000666020",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-2-striped-ruching-black/-/A-1000550134",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-mickey-and-minnie-reindeer-crossing-christmas-graphic-long-sleeve-fleece-sweatshirt/-/A-1000640551",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-solid-colored-baby-leg-warmers-set-of-3-lavender-light-pink-hot-pink/-/A-93654992",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-mickey-friends-graphic-long-sleeve-fleece-sweatshirt/-/A-1000824798",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-2-striped-ruching-white/-/A-1000550136",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-don-t-worry-be-hoppy-smiley-bunny-toddler-graphic-sweatshirt/-/A-91192855",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-really-ruffly-baby-toddler-leg-warmers-dark-navy/-/A-93864775",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-cool-kids-club-toddler-graphic-sweatshirt/-/A-93792992",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-leg-warmers-football/-/A-93639608",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-encanto-graphic-long-sleeve-fleece-sweatshirt/-/A-1000598469",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-2-checkers-black-and-white/-/A-93986283",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-paw-patrol-time-to-embark-on-adventure-graphic-long-sleeve-fleece-sweatshirt/-/A-1000665883",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-really-ruffly-baby-toddler-leg-warmers-red/-/A-93864773",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-cool-dudes-club-toddler-graphic-sweatshirt/-/A-94069957",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-hearts-pink/-/A-93969955",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-touch-down-red-helmet-distressed-toddler-graphic-sweatshirt/-/A-91117514",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-solid-colored-baby-leg-warmers-set-of-3-black-blue-red/-/A-93654977",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-dinosaur-moon-toddler-graphic-sweatshirt/-/A-93869135",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-solid-colored-baby-leg-warmers-set-of-3-red-white-black/-/A-93654988",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-best-doggone-valentine-graphic-long-sleeve-fleece-sweatshirt/-/A-1000645599",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-1-moustache-white-and-multicolored/-/A-93985728",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-cars-under-the-lights-jackson-storm-graphic-long-sleeve-fleece-sweatshirt/-/A-1000659332",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-animals-and-fun-colorful-baby-toddler-leg-warmers-argyle-pink/-/A-93985116",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-pushin-my-luck-toddler-graphic-sweatshirt/-/A-1001890548",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-stripes-multi-blue/-/A-93970075",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-believe-puff-print-toddler-graphic-sweatshirt/-/A-93246344",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-animals-and-fun-colorful-baby-toddler-leg-warmers-elephant/-/A-93970093",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-dr-seuss-dr-seuss-icons-graphic-long-sleeve-fleece-sweatshirt/-/A-1000598013",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-wilderness-buddies-baby-leg-warmers-set-of-3-giraffe-tiger-panda/-/A-93655177",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000679138",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-sports-baby-leg-warmers-set-of-3-basketball-football-baseball/-/A-93655155",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/teenage-mutant-ninja-turtles-fleece-sweatshirt-and-hat-toddler/-/A-92579248",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-animals-and-fun-colorful-baby-toddler-leg-warmers-argyle-yellow/-/A-93985110",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-distressed-smiley-face-toddler-graphic-sweatshirt/-/A-90568428",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-happy-legs-baby-and-toddler-leg-warmers-set-of-3-blue/-/A-93655199",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/paw-patrol-ready-for-action-chase-rubble-marshall/-/A-1000780999",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-really-ruffly-baby-toddler-leg-warmers-white/-/A-93877407",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-mickeys-golf-team-graphic-long-sleeve-fleece-sweatshirt/-/A-1000615546",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-1-animal-print/-/A-1000007781",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-leo-graphic-long-sleeve-fleece-sweatshirt/-/A-1000786869",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-really-ruffly-baby-toddler-leg-warmers-pink/-/A-93877408",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-mickey-sketch-graphic-long-sleeve-fleece-sweatshirt/-/A-1000624360",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-rainbow-brite/-/A-1000006245",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/paw-patrol-be-brave-everest-chase-marshall-rubble/-/A-1000780988",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-1-pink-football/-/A-93985729",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-lucky-clover-distressed-toddler-graphic-sweatshirt/-/A-1001890786",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-2-stripes-multi-fun/-/A-93987361",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-big-bro-wavy-toddler-graphic-sweatshirt/-/A-91813142",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-1-solid-black/-/A-93985382",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-go-taylor-s-boyfriend-sparkle-toddler-graphic-sweatshirt/-/A-1001806584",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-guitar/-/A-93970034",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-cars-lightning-mcqueen-i-am-speed-graphic-long-sleeve-fleece-sweatshirt/-/A-1000609841",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-animals-and-fun-colorful-baby-toddler-leg-warmers-pig/-/A-93970096",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-big-bro-club-stars-toddler-graphic-sweatshirt/-/A-91813154",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-1-solid-white/-/A-1000007767",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-bear-head-toddler-graphic-sweatshirt/-/A-91513866",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-1-dots-yellow-and-white/-/A-93985204",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-paw-patrol-valentine-s-heartbreaker-graphic-long-sleeve-fleece-sweatshirt/-/A-1000833230",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-1-solid-red/-/A-93985206",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-shamrock-rocker-toddler-graphic-sweatshirt/-/A-90928223",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-hearts-ruffles/-/A-93969966",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000679073",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-animals-and-fun-colorful-baby-toddler-leg-warmers-striped-ruching-pink/-/A-93984712",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-cars-mach-speed-graphic-long-sleeve-fleece-sweatshirt/-/A-1000659525",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-1-stripes-green-and-white/-/A-93986279",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-instant-message-st-patrick-s-day-rad-little-lad-graphic-long-sleeve-fleece-sweatshirt/-/A-1001600724",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-children-s-argyle-knit-leg-warmers-set-of-3/-/A-93639621",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-daddy-s-gaming-buddy-toddler-graphic-sweatshirt/-/A-90568413",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-1-stripes-orange-and-black/-/A-93986280",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000679203",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-animals-and-fun-colorful-baby-toddler-leg-warmers-argyle-black/-/A-1000007759",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-cars-tow-mater-towing-and-salvage-graphic-long-sleeve-fleece-sweatshirt/-/A-1000594364",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-ballerina/-/A-93970062",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000831934",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-ruffle-leg-warmers-for-toddler-light-blue/-/A-93877604",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-cars-lightning-mcqueen-think-fast-graphic-long-sleeve-fleece-sweatshirt/-/A-1000578586",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-ruched-and-dots-baby-toddler-leg-warmers-white-ruched-and-dots/-/A-93877595",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000622120",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-1-stripes-kelly-green-and-black/-/A-93986274",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-honey-bunny-toddler-graphic-sweatshirt/-/A-91373351",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-playful-patterns-baby-toddler-leg-warmers-orange-and-black-polka-dots/-/A-93877572",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-camp-fire-s-mores-toddler-graphic-sweatshirt/-/A-91513844",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-leg-warmers-stripes-black-yellow/-/A-1004525939",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-toy-story-4-graphic-long-sleeve-fleece-sweatshirt/-/A-1000789044",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-playful-patterns-baby-toddler-leg-warmers-eiffel-tower/-/A-93877577",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-oh-boy-stroll-graphic-long-sleeve-fleece-sweatshirt/-/A-1000670146",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-solid-pink/-/A-93970089",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-the-hunt-is-on-easter-toddler-graphic-sweatshirt/-/A-91333423",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-dots-pink-white-with-ruffles/-/A-93970033",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-despicable-me-minions-make-yourself-heard-graphic-long-sleeve-fleece-sweatshirt/-/A-1000799342",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-happy-legs-baby-and-toddler-leg-warmers-set-of-3-pink/-/A-93655200",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-mike-yay-it-s-my-birthday-graphic-long-sleeve-fleece-sweatshirt/-/A-1000807959",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-animals-and-fun-colorful-baby-toddler-leg-warmers-argyle-sky-blue/-/A-1000007760",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-big-brother-checkered-toddler-graphic-sweatshirt/-/A-91813181",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-soccer/-/A-93969950",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-dr-seuss-american-thing-two-graphic-long-sleeve-fleece-sweatshirt/-/A-1000580470",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-1-space-trip/-/A-93985428",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-cars-lightning-mcqueen-graphic-graphic-long-sleeve-fleece-sweatshirt/-/A-1000659234",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-2-chevron-aqua-and-white/-/A-93986284",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-toying-around-graphic-long-sleeve-fleece-sweatshirt/-/A-1000793070",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-animals-and-fun-colorful-baby-toddler-leg-warmers-tiger/-/A-93970094",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-minnies-tennis-club-graphic-long-sleeve-fleece-sweatshirt/-/A-1000833410",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-2-striped-ruching-aqua/-/A-1000550133",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-good-vibes-skeleton-toddler-graphic-sweatshirt/-/A-92299511",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-striped-leg-warmers-for-baby-and-toddler-cool-blue/-/A-93639609",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-checker-board-smiley-face-toddler-graphic-sweatshirt/-/A-92289169",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-ruched-and-dots-baby-toddler-leg-warmers-lavender-ruched-and-dots/-/A-93877586",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/transformers-fleece-sweatshirt-and-cosplay-costume-hat-toddler/-/A-93259192",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-really-ruffly-baby-toddler-leg-warmers-mustard/-/A-93864957",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-peanuts-snoopy-ski-ya-later-graphic-long-sleeve-fleece-sweatshirt/-/A-1000782746",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-stripes-pink-orange/-/A-93970071",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-cars-lightning-mcqueen-95-graphic-long-sleeve-fleece-sweatshirt/-/A-1000594472",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-ruched-and-dots-baby-toddler-leg-warmers-pink-ruched-and-dots/-/A-93877585",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-instant-message-st-patrick-s-day-outlined-shamrock-graphic-long-sleeve-fleece-sweatshirt/-/A-1001601981",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-1-stripes-red-and-white/-/A-93985405",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-mickey-nature-graphic-long-sleeve-fleece-sweatshirt/-/A-1000615639",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-ruched-and-dots-baby-toddler-leg-warmers-black-ruched-and-dots/-/A-93877587",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-paw-patrol-pawsome-explorers-graphic-long-sleeve-fleece-sweatshirt/-/A-1000589730",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-leopard/-/A-93969901",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-olaf-it-s-my-birthday-graphic-long-sleeve-fleece-sweatshirt/-/A-1000808661",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-2-blue-owls/-/A-93986281",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-cars-need-a-lift-graphic-long-sleeve-fleece-sweatshirt/-/A-1000659478",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-1-chevron-yellow-and-grey/-/A-93985171",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-instant-message-st-patrick-s-day-pushing-my-luck-today-graphic-long-sleeve-fleece-sweatshirt/-/A-1001601175",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-playful-patterns-baby-toddler-leg-warmers-clouds-and-stars/-/A-93877573",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-pete-the-cat-explore-your-imagination-toddler-and-youth-crewneck-fleece-sweatshirt-graphic-long-sleeve-fleece-sweatshirt/-/A-1003968669",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-1-solid-hot-pink/-/A-93985207",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-dory-nemo-marlin-graphic-long-sleeve-fleece-sweatshirt/-/A-1000579714",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-ruched-and-dots-baby-toddler-leg-warmers-gray-ruched-and-dots/-/A-93969128",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000836369",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-gathered-ruffles-baby-leg-warmers-set-of-3-sky-blue-foggy-gray-cloudy-white/-/A-93639614",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-embroidered-hand-drawn-heart-toddler-graphic-sweatshirt/-/A-1001709954",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-1-dots-lilac-and-white/-/A-93985172",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-princess-heart-grid-graphic-long-sleeve-fleece-sweatshirt/-/A-1000835399",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-really-ruffly-baby-toddler-leg-warmers-black/-/A-93877390",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000836528",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-layered-ruffles-baby-leg-warmers-set-of-3-aqua-lavender-amber/-/A-93655070",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-mickey-pose-graphic-long-sleeve-fleece-sweatshirt/-/A-1000670212",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-pink-zebra/-/A-93969908",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-rugrats-the-great-chase-graphic-long-sleeve-fleece-sweatshirt/-/A-1000618333",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-dots-multi-color/-/A-93970069",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000819995",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-animals-and-fun-colorful-baby-toddler-leg-warmers-blue-bear/-/A-93970090",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-paw-patrol-zuma-sketch-graphic-long-sleeve-fleece-sweatshirt/-/A-1000626871",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-rainbow-clouds/-/A-93969968",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-embroidered-lucky-clover-toddler-graphic-sweatshirt/-/A-1001890797",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-ruched-and-dots-baby-toddler-leg-warmers-red-ruched-and-dots/-/A-93877588",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-shamrock-truck-toddler-graphic-sweatshirt/-/A-1002225592",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-1-white-zebra/-/A-93985725",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-paw-patrol-skye-conversation-hearts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000833363",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-playful-patterns-baby-toddler-leg-warmers-colorful-flowers/-/A-93877574",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-embroidered-love-typewriter-toddler-graphic-sweatshirt/-/A-1001709877",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-nature-ruched/-/A-93969929",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-hip-hop-bunny-with-glasses-toddler-graphic-sweatshirt/-/A-91373334",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-1-chevron-pink-and-white/-/A-93985146",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-mickey-mouse-checker-badge-graphic-long-sleeve-fleece-sweatshirt/-/A-1000615447",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-owl-and-flower-leg-warmers/-/A-93639607",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-belle-be-true-be-you-graphic-long-sleeve-fleece-sweatshirt/-/A-1000638754",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-2-stripes-blue-rainbow/-/A-1000549909",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-in-my-game-day-era-red-toddler-graphic-sweatshirt/-/A-1001805970",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-playful-patterns-baby-toddler-leg-warmers-black-and-white-polka-dots/-/A-93877575",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-football-season-star-toddler-graphic-sweatshirt/-/A-1001823573",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-2-dots-light-pink-white/-/A-1000881583",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-paw-patrol-squad-preschool-graphic-long-sleeve-fleece-sweatshirt/-/A-1000626765",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-2-dots-aqua-white/-/A-1000881586",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-paw-patrol-rubble-sketch-graphic-long-sleeve-fleece-sweatshirt/-/A-1000626920",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-1-dots-red-and-black/-/A-1000007762",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-spongebob-squarepants-plankton-one-percent-evil-graphic-long-sleeve-fleece-sweatshirt/-/A-1000618846",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-cupcakes/-/A-93970058",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-be-wild-bear-paw-toddler-graphic-sweatshirt/-/A-91513848",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-2-striped-ruching-marigold/-/A-1000550135",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-elsa-it-s-my-birthday-graphic-long-sleeve-fleece-sweatshirt/-/A-1000747890",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-really-ruffly-baby-toddler-leg-warmers-gray/-/A-93877401",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-retro-group-graphic-long-sleeve-fleece-sweatshirt/-/A-1000575266",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-ruffle-leg-warmers-for-toddler-lavender/-/A-93877606",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-snacks-are-my-love-language-toddler-graphic-sweatshirt/-/A-90568453",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-dots-pink-white/-/A-93877652",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-block-checkered-lucky-dude-toddler-graphic-sweatshirt/-/A-1001346983",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-1-chevron-hot-pink-and-white/-/A-93985495",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-paw-patrol-al-big-haul-no-problem-graphic-long-sleeve-fleece-sweatshirt/-/A-1000842132",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-animals-and-fun-colorful-baby-toddler-leg-warmers-argyle-red/-/A-93985109",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-paw-patrol-skye-lightning-graphic-long-sleeve-fleece-sweatshirt/-/A-1000807418",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-ruffle-leg-warmers-for-toddler-hot-pink/-/A-93877603",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-teenage-muntant-ninja-turtles-all-i-want-for-christmas-graphic-long-sleeve-fleece-sweatshirt/-/A-1000844373",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-rocker-baby-leg-warmers/-/A-93754591",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-baby-shark-fintastic-family-graphic-long-sleeve-fleece-sweatshirt/-/A-1000588556",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-2-basketball/-/A-1000989839",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-moana-strong-spirit-graphic-long-sleeve-fleece-sweatshirt/-/A-1000791064",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-skulls-green/-/A-93877651",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000633194",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-thin-stripes-black-white/-/A-93970076",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-egg-hunting-crew-bunny-toddler-graphic-sweatshirt/-/A-91235625",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-animals-and-fun-colorful-baby-toddler-leg-warmers-argyle-gray/-/A-93985118",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000792022",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-2-chevron-red-and-white/-/A-1000881602",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-embroidered-hand-drawn-heart-toddler-graphic-sweatshirt/-/A-1001709984",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-pirates-baby-leg-warmers/-/A-93639618",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000721245",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-2-red-baseball/-/A-1000881584",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-despicable-me-minions-a-lil-bit-bananas-graphic-long-sleeve-fleece-sweatshirt/-/A-1000799789",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-stripes-pink-white/-/A-93970078",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/the-juniper-shop-bear-trees-toddler-graphic-sweatshirt/-/A-91513973",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-ruffle-leg-warmers-for-toddler-red/-/A-93877607",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-hot-wheels-valentine-s-hot-wheels-graphic-long-sleeve-fleece-sweatshirt/-/A-1002023849",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-2-chevron-gray-and-white/-/A-93986286",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/latino-heritage-month-toddler-sweatshirt-black/-/A-91007647",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-1-chevron-black-and-white/-/A-93985148",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-cars-taking-the-circuit-by-storm-graphic-long-sleeve-fleece-sweatshirt/-/A-1000594013",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-2-solid-purple/-/A-1000881585",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-dr-seuss-the-grinch-america-s-favorite-mean-one-graphic-long-sleeve-fleece-sweatshirt/-/A-1000590337",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-2-stripes-ice-blue/-/A-1000550132",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-garfield-have-an-ice-day-graphic-long-sleeve-fleece-sweatshirt/-/A-1000706889",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-1-cars/-/A-93985493",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000720867",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-1-solid-brown/-/A-1000007766",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-paw-patrol-pup-pup-lights-up-graphic-long-sleeve-fleece-sweatshirt/-/A-1000852284",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-toddler-leg-warmers-2-solid-blue/-/A-1000881274",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-hey-arnold-fresh-arnold-graphic-long-sleeve-fleece-sweatshirt/-/A-1000855674",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-colorful-baby-leg-warmers-stripes-green-black/-/A-1004525899",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-hot-wheels-usa-stripes-graphic-long-sleeve-fleece-sweatshirt/-/A-1002104592",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-baby-toddler-leg-warmer-collection-premium-value-pack-set-of-5-vs7/-/A-93655193",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-lol-surprise-you-glow-girl-graphic-long-sleeve-fleece-sweatshirt/-/A-1001998710",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-dots-baby-leg-warmers-set-of-3-aqua-pink-yellow/-/A-93654852",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-hey-arnold-cool-arnold-graphic-long-sleeve-fleece-sweatshirt/-/A-1000855931",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-purple-baby-leg-warmers-set-of-3-ruched-solid-dots/-/A-93654859",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-less-dont-more-dos-soccer-graphic-long-sleeve-fleece-sweatshirt/-/A-1000647819",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-stripes-baby-leg-warmers-set-of-3-orange-pink-rainbow-pink-ruffle/-/A-93655067",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-graphic-long-sleeve-fleece-sweatshirt/-/A-1000658536",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-dots-and-ruffles-baby-leg-warmers-set-of-3/-/A-93655081",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/deux-par-deux-boy-pullover-french-terry-graphic-sweatshirt-teal-and-peach/-/A-1003012651",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-gathered-ruffles-baby-leg-warmers-set-of-3-lilac-cherry-red-fuschia/-/A-93806497",
-        "tags": "Leg Warmers, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-paw-patrol-snow-patrol-graphic-long-sleeve-fleece-sweatshirt/-/A-1000840649",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Leg Warmers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/hanes-toddler-boys-10pk-heel-shield-athletic-socks-colors-may-vary/-/A-79797860",
-        "tags": "Low Cut Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-music-and-mickey-graphic-long-sleeve-fleece-sweatshirt/-/A-1000783759",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Low Cut Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/hanes-toddler-boys-6pk-low-cut-super-soft-socks/-/A-79720556",
-        "tags": "Low Cut Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-lol-surprise-lol-bffs-4-eva-graphic-long-sleeve-fleece-sweatshirt/-/A-1002005260",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Low Cut Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-20pk-low-cut-socks-cat-jack-black-white/-/A-89262464",
-        "tags": "Low Cut Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-player-2-start-graphic-long-sleeve-fleece-sweatshirt/-/A-1000659093",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Low Cut Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-low-cut-shoes-cat-38-jack-8482/-/A-91188151",
-        "tags": "Low Cut Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000592655",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Low Cut Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/hanes-girls-10pk-heel-shield-athletic-socks-colors-may-vary/-/A-79797861",
-        "tags": "Low Cut Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-day-dreaming-sheep-graphic-long-sleeve-fleece-sweatshirt/-/A-1000646295",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Low Cut Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-8pk-low-cut-socks-dealworthy-8482/-/A-90873539",
-        "tags": "Low Cut Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-paw-patrol-team-paw-everest-graphic-long-sleeve-fleece-sweatshirt/-/A-1000666000",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Low Cut Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-10pk-low-cut-socks-cat-jack/-/A-93083779",
-        "tags": "Low Cut Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-mickeys-ski-shop-graphic-long-sleeve-fleece-sweatshirt/-/A-1000793522",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Low Cut Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-boys-6pk-colorblock-ankle-socks-cat-jack/-/A-94591667",
-        "tags": "Low Cut Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-heart-grid-graphic-long-sleeve-fleece-sweatshirt/-/A-1000645286",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Low Cut Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-boys-10pk-dino-striped-ankle-socks-cat-jack/-/A-94591665",
-        "tags": "Low Cut Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-hopps-wilde-graphic-long-sleeve-fleece-sweatshirt/-/A-1000655926",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Low Cut Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-ankle-grip-low-cut-toddler-socks-14-pack-for-girls-pastel-colors-1-3-years-old/-/A-92809777",
-        "tags": "Low Cut Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-firefighter-mickey-graphic-long-sleeve-fleece-sweatshirt/-/A-1000659805",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Low Cut Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-crew-grip-toddler-socks-12-pack-for-boys-stripes-dinosaur-design-1-3-years-old/-/A-92809673",
-        "tags": "Low Cut Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-building-the-future-one-cube-at-a-time-graphic-long-sleeve-fleece-sweatshirt/-/A-1000655562",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Low Cut Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-crew-grip-toddler-socks-12-pack-for-boys-girls-black-white-gray-3-5-years-old/-/A-92809798",
-        "tags": "Low Cut Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-hybrid-apparel-lewis-graphic-long-sleeve-fleece-sweatshirt/-/A-1001969116",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Low Cut Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-crew-grip-toddler-socks-12-pack-for-boys-black-white-gray-blue-light-blue-1-3-years-old/-/A-92809791",
-        "tags": "Low Cut Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-barbie-easter-vibes-graphic-long-sleeve-fleece-sweatshirt/-/A-1002072414",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Low Cut Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-ankle-grip-low-cut-toddler-socks-12-pack-for-girls-pastel-colors-3-5-years-old/-/A-92809790",
-        "tags": "Low Cut Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-alice-in-wonderland-graphic-long-sleeve-fleece-sweatshirt/-/A-1000784105",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Low Cut Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-crew-grip-toddler-socks-12-pack-for-boys-girls-black-1-3-years-old/-/A-92809795",
-        "tags": "Low Cut Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-mickey-friends-graphic-long-sleeve-fleece-sweatshirt/-/A-1000825092",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Low Cut Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-crew-grip-toddler-socks-12-pack-for-boys-bears-and-cars-1-3-years-old/-/A-92809618",
-        "tags": "Low Cut Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-paw-patrol-americana-graphic-long-sleeve-fleece-sweatshirt/-/A-1000816964",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Low Cut Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-crew-cotton-toddler-socks-12-pack-stretch-toddler-girl-socks-for-all-day-comfort-toddler-boy-socks-rainbow-1t-3t/-/A-92809713",
-        "tags": "Low Cut Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000643941",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Low Cut Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-ankle-grip-low-cut-toddler-socks-15-pack-for-boys-girls-black-white-gray-3-5-years-old/-/A-92809762",
-        "tags": "Low Cut Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-hakuna-matata-graphic-long-sleeve-fleece-sweatshirt/-/A-1000727634",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Low Cut Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-toddler-ankle-socks-with-grips-low-cut-socks-for-baby-girls-boys-14-pairs-1-3-years/-/A-92809623",
-        "tags": "Low Cut Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000788687",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Low Cut Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-ankle-grip-low-cut-toddler-socks-12-pack-for-boys-girls-white-1-3-years-old/-/A-92809796",
-        "tags": "Low Cut Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-colorful-simba-graphic-long-sleeve-fleece-sweatshirt/-/A-1000730310",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Low Cut Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-crew-grip-toddler-socks-12-pack-for-boys-black-white-gray-with-black-or-gray-heel-3-5-years-old/-/A-92809789",
-        "tags": "Low Cut Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-mad-flex-sully-graphic-long-sleeve-fleece-sweatshirt/-/A-1000795771",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Low Cut Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-crew-cotton-toddler-socks-12-pack-stretch-toddler-girl-socks-for-all-day-comfort-toddler-boy-socks-rainbow-1t-3t/-/A-92809760",
-        "tags": "Low Cut Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-paw-patrol-pawsome-pups-to-the-rescue-graphic-long-sleeve-fleece-sweatshirt/-/A-1000842272",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Low Cut Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-crew-grip-toddler-socks-12-pack-for-boys-black-white-gray-aqua-blue-sky-blue-lime-green-3-5-years-old/-/A-92809774",
-        "tags": "Low Cut Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-beyond-cool-graphic-long-sleeve-fleece-sweatshirt/-/A-1000813557",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Low Cut Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-crew-grip-toddler-socks-12-pack-for-boys-black-white-gray-aqua-blue-sky-blue-lime-green-1-3-years-old/-/A-92809802",
-        "tags": "Low Cut Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-lilo-stitch-graphic-long-sleeve-fleece-sweatshirt/-/A-1000799900",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Low Cut Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-crew-grip-toddler-socks-6-pack-for-boys-black-blue-light-blue-gray-stripes-1-3-years-old/-/A-92809805",
-        "tags": "Low Cut Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000628827",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Low Cut Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-ankle-or-crew-grip-toddler-socks-12-pack-for-boys-girls-colorful-3-5-years-old/-/A-92809588",
-        "tags": "Low Cut Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-love-you-lots-graphic-long-sleeve-fleece-sweatshirt/-/A-1000645296",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Low Cut Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-ankle-grip-low-cut-toddler-socks-15-pack-for-boys-girls-black-white-gray-1-3-years-old/-/A-92809807",
-        "tags": "Low Cut Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-instant-message-scandinavian-bunny-with-flowers-graphic-long-sleeve-fleece-sweatshirt/-/A-1002611669",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Low Cut Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-crew-grip-toddler-socks-6-pack-for-boys-black-blue-light-blue-gray-1-3-years-old/-/A-92809784",
-        "tags": "Low Cut Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-paw-patrol-pups-at-play-graphic-long-sleeve-fleece-sweatshirt/-/A-1000665857",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Low Cut Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-crew-grip-toddler-socks-12-pack-for-boys-black-white-gray-with-black-or-gray-heel-1-3-years-old/-/A-92809788",
-        "tags": "Low Cut Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000605538",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Low Cut Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-ankle-grip-low-cut-toddler-socks-12-pack-for-boys-girls-black-white-gray-1-3-years-old/-/A-92809642",
-        "tags": "Low Cut Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000790166",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Low Cut Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-crew-grip-toddler-socks-12-pack-for-boys-girls-gray-3-5-years-old/-/A-92809797",
-        "tags": "Low Cut Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-all-star-mickey-graphic-long-sleeve-fleece-sweatshirt/-/A-1000670089",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Low Cut Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-crew-grip-toddler-socks-12-pack-for-boys-black-blue-light-blue-gray-stripe-3-5-years-old/-/A-92809803",
-        "tags": "Low Cut Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000605682",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Low Cut Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-ankle-grip-low-cut-toddler-socks-14-pack-for-boys-black-white-gray-dark-gray-blue-light-blue-1-3-years-old/-/A-92809641",
-        "tags": "Low Cut Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000678909",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Low Cut Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/cozyway-non-slip-ankle-grip-low-cut-toddler-socks-14-pack-for-boys-girls-gray-3-5-years-old/-/A-92809635",
-        "tags": "Low Cut Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-instant-message-easter-egg-every-kid-graphic-long-sleeve-fleece-sweatshirt/-/A-1002611142",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Low Cut Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/gerber-baby-wiggle-proof-no-show-socks-white-8-pack/-/A-93046955",
-        "tags": "No Show Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-disney-villains-cruella-devil-spatter-graphic-long-sleeve-fleece-sweatshirt/-/A-1000802557",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "No Show Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-cotton-rhumba-tights-for-baby-toddlers-set-of-2-6-12-mos/-/A-1000105035",
-        "tags": "Over the Knee Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-spongebob-squarepants-spongeboo-graphic-long-sleeve-fleece-sweatshirt/-/A-1000728135",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Over the Knee Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-cotton-rhumba-tights-for-baby-toddlers-set-of-2-18-24-mos/-/A-1000105016",
-        "tags": "Over the Knee Socks, Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing",
+        "url": "https://www.target.com/p/boys-instant-message-ready-to-rock-pre-k-graphic-long-sleeve-fleece-sweatshirt/-/A-1003968063",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Over the Knee Socks"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-pixar-6pk-training-underwear/-/A-91683816",
-        "tags": "Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Training Underwear",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000711413",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Training Underwear"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-paw-patrol-6pk-training-underwear/-/A-91683834",
-        "tags": "Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Training Underwear",
+        "url": "https://www.target.com/p/boys-spongebob-squarepants-2nd-grade-squad-graphic-long-sleeve-fleece-sweatshirt/-/A-1000619016",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Training Underwear"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-peppa-pig-potty-training-underwear/-/A-93276669",
-        "tags": "Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Training Underwear",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000803444",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Training Underwear"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-6pk-minnie-mouse-potty-training-underwear/-/A-94640352",
-        "tags": "Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Training Underwear",
+        "url": "https://www.target.com/p/boys-disney-self-rescuing-damsel-graphic-long-sleeve-fleece-sweatshirt/-/A-1000646012",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Training Underwear"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-6pk-spider-man-potty-training-underwear/-/A-94640354",
-        "tags": "Socks & Underwear, Toddler Boys’ Clothing, Toddler Clothing, Training Underwear",
+        "url": "https://www.target.com/p/boys-disney-mickey-and-minnie-christmas-cookie-crew-graphic-long-sleeve-fleece-sweatshirt/-/A-1000581054",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Training Underwear"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/itzy-ritzy-pack-like-a-boss-packing-cubes/-/A-80751814",
-        "tags": "Accessories, Bag and Luggage Sets, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories, Packing Cube Sets",
+        "url": "https://www.target.com/p/boys-paw-patrol-adventure-citys-heroes-graphic-long-sleeve-fleece-sweatshirt/-/A-1000807412",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Bag and Luggage Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-boys-dinosaur-baseball-hat-cat-jack-green/-/A-94502386",
-        "tags": "Accessories, Baseball Hats, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-disney-peter-pan-graphic-long-sleeve-fleece-sweatshirt/-/A-1000716960",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Baseball Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-boys-39-spider-man-baseball-hat/-/A-92423793",
-        "tags": "Accessories, Baseball Hats, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-disney-villains-cruella-savage-graphic-long-sleeve-fleece-sweatshirt/-/A-1000802271",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Baseball Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-boys-39-disney-cars-cotton-baseball-hat-red-one-size-fits-most/-/A-94591158",
-        "tags": "Accessories, Baseball Hats, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-disney-better-together-valentino-graphic-long-sleeve-fleece-sweatshirt/-/A-1000657342",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Baseball Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/monster-jam-grave-digger-earth-shaker-maximum-destruction-el-toro-loco-megalodon-adjustable-snapback-baseball-cap-one-size/-/A-93164369",
-        "tags": "Accessories, Baseball Hats, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-barbie-ken-not-just-arm-candy-graphic-long-sleeve-fleece-sweatshirt/-/A-1002050452",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Baseball Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/monster-jam-grave-digger-el-toro-loco-megalodon-mesh-adjustable-snapback-baseball-cap-one-size/-/A-93164372",
-        "tags": "Accessories, Baseball Hats, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-disney-in-good-spirits-graphic-long-sleeve-fleece-sweatshirt/-/A-1000713761",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Baseball Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/dalix-infant-toddler-baseball-hat-baby-cap-tiny-extra-small-girls-boys/-/A-93525818",
-        "tags": "Accessories, Baseball Hats, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-garfield-witch-way-to-the-candy-graphic-long-sleeve-fleece-sweatshirt/-/A-1000585377",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Baseball Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/speedo-sms-trucker-hat/-/A-92289141",
-        "tags": "Accessories, Baseball Hats, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-hey-arnold-retro-arnold-and-gerald-graphic-long-sleeve-fleece-sweatshirt/-/A-1000855237",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Baseball Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/speedo-sms-new-trucker-hat/-/A-92289082",
-        "tags": "Accessories, Baseball Hats, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-spongebob-squarepants-happy-halloween-y-all-graphic-long-sleeve-fleece-sweatshirt/-/A-1000670651",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Baseball Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/john-deere-twill-baseball-cap-hat-one-size-sizes-os-toddler-os-youth/-/A-1002869620",
-        "tags": "Accessories, Baseball Hats, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-mutant-mayhem-rocksteady-graphic-long-sleeve-fleece-sweatshirt/-/A-1000803570",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Baseball Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/john-deere-mesh-adjustable-snapback-baseball-cap-one-size-sizes-os-toddler-os-youth/-/A-1002869616",
-        "tags": "Accessories, Baseball Hats, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000709993",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Baseball Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/mykids-usa-children-s-baseball-cap-2025-cross-border-baby-duckbill-cap-outdoor-beach-sun-hat/-/A-1005175502",
-        "tags": "Accessories, Baseball Hats, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-disney-mickey-friends-graphic-long-sleeve-fleece-sweatshirt/-/A-1000825003",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Baseball Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/mykids-usa-baby-smiley-embroidered-pattern-color-matching-design-sunshade-peaked-hats/-/A-1004417661",
-        "tags": "Accessories, Baseball Hats, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-bubble-guppies-bub-bub-bubble-gup-gup-guppies-graphic-long-sleeve-fleece-sweatshirt/-/A-1000759782",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Baseball Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/nickelodeon-boys-blaze-the-monster-machines-2-pack-cotton-baseball-cap-ages-2-4-with-sunglasses-blaze-blue-red/-/A-1004233548",
-        "tags": "Accessories, Baseball Hats, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-instant-message-kids-crew-fleece-graphic-long-sleeve-fleece-sweatshirt/-/A-1002035929",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Baseball Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-international-harvester-daddy-s-little-helper-trucker-cap-a3487/-/A-1000993432",
-        "tags": "Accessories, Baseball Hats, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/the-juniper-shop-embroidered-lucky-typewriter-toddler-graphic-sweatshirt/-/A-1002225720",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Baseball Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/case-ih-t-is-for-tractor-ih-toddler-red-black-twill-cap-hat-a1610-tod/-/A-1001910724",
-        "tags": "Accessories, Baseball Hats, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-disney-slinky-dog-bend-stretch-chill-graphic-long-sleeve-fleece-sweatshirt/-/A-1000646218",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Baseball Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-case-ih-this-kiddo-is-raised-red-tan-denim-hat-ih07-2806/-/A-1001036311",
-        "tags": "Accessories, Baseball Hats, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-blue-s-clues-you-mommy-is-my-sunshine-graphic-long-sleeve-fleece-sweatshirt/-/A-1000766223",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Baseball Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-international-harvester-my-dad-feeds-your-dad-trucker-cap-a3488/-/A-1000993439",
-        "tags": "Accessories, Baseball Hats, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000826539",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Baseball Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/keababies-3pk-warmzy-baby-beanies-0-36-months-baby-hats-baby-winter-hat-for-newborn-infant-toddlers-boys-girls/-/A-85359635",
-        "tags": "Accessories, Beanies, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-spongebob-squarepants-christmas-crew-graphic-long-sleeve-fleece-sweatshirt/-/A-1000840376",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Beanies"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/keababies-muff-baby-beanie-baby-hat-for-baby-boys-girls-winter-hats-for-kids-newborn-infant-toddler-6-36-months/-/A-89647113",
-        "tags": "Accessories, Beanies, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-spongebob-squarepants-sbob-and-gary-graphic-long-sleeve-fleece-sweatshirt/-/A-1000619076",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Beanies"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/monster-jam-grave-digger-el-toro-loco-megalodon-monster-truck-onesize-beanie-winter-hat/-/A-92749963",
-        "tags": "Accessories, Beanies, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-little-tikes-fast-food-towing-graphic-long-sleeve-fleece-sweatshirt/-/A-1001989092",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Beanies"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/keababies-2pk-baby-hats-baby-beanies-newborn-hats-for-baby-girls-boys-baby-winter-hat-6-36-months-infant-hat/-/A-89872515",
-        "tags": "Accessories, Beanies, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-garfield-cat-scratches-graphic-long-sleeve-fleece-sweatshirt/-/A-1000634870",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Beanies"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/arctic-gear-toddler-acrylic-beanie-winter-hat/-/A-89440989",
-        "tags": "Accessories, Beanies, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-disney-there-s-always-a-way-graphic-long-sleeve-fleece-sweatshirt/-/A-1000658381",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Beanies"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/arctic-gear-toddler-acrylic-cuff-winter-hat/-/A-89440963",
-        "tags": "Accessories, Beanies, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000841190",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Beanies"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/arctic-gear-toddler-acrylic-ribbed-cuff-with-matching-pom/-/A-90208258",
-        "tags": "Accessories, Beanies, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-garfield-have-a-nice-day-graphic-long-sleeve-fleece-sweatshirt/-/A-1000586843",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Beanies"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/hudson-baby-unisex-baby-knit-cuffed-beanie-3pk-cream-black/-/A-84822141",
-        "tags": "Accessories, Beanies, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-hot-wheels-birthday-boy-graphic-long-sleeve-fleece-sweatshirt/-/A-1002086711",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Beanies"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/hudson-baby-family-knit-cuffed-beanie-3pk-navy-burgundy/-/A-84014956",
-        "tags": "Accessories, Beanies, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-disney-streetwear-shot-graphic-long-sleeve-fleece-sweatshirt/-/A-1000624809",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Beanies"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/hudson-baby-family-knit-cuffed-beanie-3pk-navy-black/-/A-84014990",
-        "tags": "Accessories, Beanies, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-toy-story-4-graphic-long-sleeve-fleece-sweatshirt/-/A-1000630695",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Beanies"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/arctic-gear-toddler-acrylic-ribbed-cuff-winter-hat/-/A-89440954",
-        "tags": "Accessories, Beanies, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000643917",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Beanies"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/wrapables-winter-warm-knitted-animal-ears-earflap-hood-beanie-hat-for-baby-and-toddlers/-/A-1001284177",
-        "tags": "Accessories, Beanies, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-teenage-muntant-ninja-turtles-get-into-the-ninja-spirit-graphic-long-sleeve-fleece-sweatshirt/-/A-1000844333",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Beanies"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/hudson-baby-6pc-knit-cuffed-beanie-rust-cream-black/-/A-90253780",
-        "tags": "Accessories, Beanies, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-mutant-mayhem-ninja-diet-graphic-long-sleeve-fleece-sweatshirt/-/A-1000804042",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Beanies"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/kids-fisherman-beanie-olive-scout/-/A-1001134772",
-        "tags": "Accessories, Beanies, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-paw-patrol-yelp-for-halloween-help-graphic-long-sleeve-fleece-sweatshirt/-/A-1000730658",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Beanies"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/arctic-gear-toddler-acrylic-wool-beanie/-/A-89511547",
-        "tags": "Accessories, Boater Hats, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-disney-love-is-in-the-air-graphic-long-sleeve-fleece-sweatshirt/-/A-1000835223",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Boater Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/arctic-gear-toddler-acrylic-ribbed-cuff-winter-hat-with-pom/-/A-89440953",
-        "tags": "Accessories, Boater Hats, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/the-juniper-shop-shenanigans-squad-toddler-graphic-sweatshirt/-/A-1001347037",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Boater Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/arctic-gear-toddler-acrylic-wool-beanie-2-pack/-/A-89483113",
-        "tags": "Accessories, Boater Hats, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-encanto-graphic-long-sleeve-fleece-sweatshirt/-/A-1000598517",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Boater Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/arctic-gear-toddler-specialty-winter-hat/-/A-89440977",
-        "tags": "Accessories, Boater Hats, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000681746",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Boater Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/arctic-gear-toddler-fleece-cap-winter-hat/-/A-89446484",
-        "tags": "Accessories, Boater Hats, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-despicable-me-minions-living-the-good-life-graphic-long-sleeve-fleece-sweatshirt/-/A-1000750122",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Boater Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/hope-henry-baby-brimmed-linen-baby-bonnet-infant/-/A-1001314081",
-        "tags": "Accessories, Bonnets, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-disney-lilo-stitch-graphic-long-sleeve-fleece-sweatshirt/-/A-1000617640",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Bonnets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/speedo-toddler-bucket-hat-rainbow/-/A-91318866",
-        "tags": "Accessories, Bucket Hats, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-disney-pixar-character-shapes-graphic-long-sleeve-fleece-sweatshirt/-/A-1000796301",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Bucket Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/baby-boys-reversible-crab-swim-hat-cat-38-jack-8482-orange/-/A-93160189",
-        "tags": "Accessories, Bucket Hats, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-despicable-me-minions-hippie-lil-thing-graphic-long-sleeve-fleece-sweatshirt/-/A-1000799296",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Bucket Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/monster-jam-el-toro-loco-grave-digger-maximum-destruction-megalodon-monster-mutt-zombie-bucket-sun-hat-one-size/-/A-1001323948",
-        "tags": "Accessories, Bucket Hats, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-born-raised-usa-graphic-long-sleeve-fleece-sweatshirt/-/A-1000847879",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Bucket Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/batman-boys-bucket-hat-and-matching-baseball-cap-kids-ages-2-4/-/A-90149421",
-        "tags": "Accessories, Bucket Hats, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-hot-wheels-sister-of-birthday-boy-graphic-long-sleeve-fleece-sweatshirt/-/A-1002085621",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Bucket Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/speedo-toddler-bucket-hat-blue-shark/-/A-91318865",
-        "tags": "Accessories, Bucket Hats, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-disney-mickey-pumpkin-graphic-long-sleeve-fleece-sweatshirt/-/A-1000713353",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Bucket Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/speedo-kids-bucket-hat-parfait-pink/-/A-94570684",
-        "tags": "Accessories, Bucket Hats, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-mattel-halloween-graphic-long-sleeve-fleece-sweatshirt/-/A-1001972730",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Bucket Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/speedo-kids-bucket-hat-picton-blue/-/A-94570685",
-        "tags": "Accessories, Bucket Hats, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/the-juniper-shop-embroidered-choose-happy-smiley-face-toddler-graphic-sweatshirt/-/A-1002350228",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Bucket Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/mykids-usa-baby-cartoon-embroidered-pattern-solid-color-sunshade-bucket-hats/-/A-1004417710",
-        "tags": "Accessories, Bucket Hats, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000605526",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Bucket Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/monster-jam-grave-digger-truck-baby-fleece-ear-muffs-newborn/-/A-1002841100",
-        "tags": "Accessories, Earmuffs, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-trolls-show-up-glow-up-poppy-graphic-long-sleeve-fleece-sweatshirt/-/A-1000797668",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Earmuffs"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/mykids-usa-winter-infant-baby-boys-and-girls-solid-fluffy-thermal-bomber-hats/-/A-1003385564",
-        "tags": "Accessories, Earmuffs, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000669319",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Earmuffs"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/baby-boys-paper-straw-fedora-cat-jack-beige/-/A-93160187",
-        "tags": "Accessories, Fedoras, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-disney-firefighter-mickey-graphic-long-sleeve-fleece-sweatshirt/-/A-1000660116",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Fedoras"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/andy-evan-toddler-kids-zipper-gloves/-/A-89959661",
-        "tags": "Accessories, Gloves, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-spongebob-squarepants-hey-boo-graphic-long-sleeve-fleece-sweatshirt/-/A-1000728527",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Gloves"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/tushbaby-vegan-leather-paci-pod/-/A-84987861",
-        "tags": "Accessories, Handbag Organizers, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000605718",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Handbag Organizers"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/hudson-baby-toddler-boy-fleece-trapper-hat-and-mitten-2pc-set-coronet-blue/-/A-82246364",
-        "tags": "Accessories, Hat and Glove Sets, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-disney-mickey-friends-graphic-long-sleeve-fleece-sweatshirt/-/A-1000824565",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Hat and Glove Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/hudson-baby-infant-and-toddler-fleece-trapper-hat-and-mitten-2pc-set-black-red-plaid/-/A-82873288",
-        "tags": "Accessories, Hat and Glove Sets, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-graphic-long-sleeve-fleece-sweatshirt/-/A-1000800905",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Hat and Glove Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/hudson-baby-6pc-trapper-hat-mitten-and-bootie-set-blue-elephant-giraffe/-/A-90238544",
-        "tags": "Accessories, Hat and Glove Sets, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-blue-s-clues-you-i-m-so-smart-graphic-long-sleeve-fleece-sweatshirt/-/A-1000752874",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Hat and Glove Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/dr-seuss-thing-1-and-thing-2-youth-cuffed-pom-beanie-and-gloves-set/-/A-90211777",
-        "tags": "Accessories, Hat and Glove Sets, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000836497",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Hat and Glove Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/hudson-baby-6pc-trapper-hat-mitten-and-bootie-set-green-elf-reindeer/-/A-90238494",
-        "tags": "Accessories, Hat and Glove Sets, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000785394",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Hat and Glove Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/hudson-baby-6pc-trapper-hat-mitten-and-bootie-set-santa-reindeer/-/A-90238508",
-        "tags": "Accessories, Hat and Glove Sets, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-garfield-peeking-out-graphic-long-sleeve-fleece-sweatshirt/-/A-1000575228",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Hat and Glove Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/hudson-baby-6pc-trapper-hat-mitten-and-bootie-set-santa-green-elf/-/A-90238504",
-        "tags": "Accessories, Hat and Glove Sets, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000709977",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Hat and Glove Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/hudson-baby-6pc-trapper-hat-mitten-and-bootie-set-santa-red-elf/-/A-90238551",
-        "tags": "Accessories, Hat and Glove Sets, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-disney-kicking-it-in-the-ole-west-graphic-long-sleeve-fleece-sweatshirt/-/A-1000792998",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Hat and Glove Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/hudson-baby-6pc-trapper-hat-mitten-and-bootie-set-cream-bear-gray-elephant/-/A-90238556",
-        "tags": "Accessories, Hat and Glove Sets, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-disney-mickey-and-pluto-graphic-long-sleeve-fleece-sweatshirt/-/A-1000793904",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Hat and Glove Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/hudson-baby-6pc-trapper-hat-mitten-and-bootie-set-red-elf-reindeer/-/A-90238539",
-        "tags": "Accessories, Hat and Glove Sets, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-disney-explore-nature-graphic-long-sleeve-fleece-sweatshirt/-/A-1000793693",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Hat and Glove Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/hudson-baby-6pc-trapper-hat-mitten-and-bootie-set-navy-penguin-reindeer/-/A-90238516",
-        "tags": "Accessories, Hat and Glove Sets, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-trolls-tis-the-season-trolly-branch-and-friends-graphic-long-sleeve-fleece-sweatshirt/-/A-1000797259",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Hat and Glove Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/hudson-baby-6pc-trapper-hat-mitten-and-bootie-set-red-elf-green-elf/-/A-90238474",
-        "tags": "Accessories, Hat and Glove Sets, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-hot-wheels-radical-rides-80s-graphic-long-sleeve-fleece-sweatshirt/-/A-1001948470",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Hat and Glove Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/rugged-bear-toddler-winter-hat-ski-mittens-set-cozy-beanie-with-pom-pom-warm-mittens-for-boys-girls-ages-2-3-years/-/A-1000462833",
-        "tags": "Accessories, Hat and Mitten Sets, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-garfield-more-bored-than-you-graphic-long-sleeve-fleece-sweatshirt/-/A-1000586264",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Hat and Mitten Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/rising-star-baby-girls-and-boys-hat-with-mittens-set-winter-set-for-infants-ages-0-24-months/-/A-92643775",
-        "tags": "Accessories, Hat and Mitten Sets, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-trolls-poppy-holidays-graphic-long-sleeve-fleece-sweatshirt/-/A-1000797200",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Hat and Mitten Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/arctic-gear-toddler-winter-fleece-cap-and-gaiter-set/-/A-89619380",
-        "tags": "Accessories, Hat and Scarf Sets, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-blue-s-clues-you-snow-cute-graphic-long-sleeve-fleece-sweatshirt/-/A-1000757184",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Hat and Scarf Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/monster-jam-grave-digger-monster-truck-baby-beanie-scarf-and-and-gloves-3-piece-winter-accessory-set/-/A-1002888798",
-        "tags": "Accessories, Hat, Glove and Scarf Sets, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-paw-patrol-scary-cute-graphic-long-sleeve-fleece-sweatshirt/-/A-1000730853",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Hat, Glove and Scarf Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/superman-boys-4-pack-mittens-set-for-winter-toddler-boys-ages-2-4/-/A-90514075",
-        "tags": "Accessories, Kids’ Accessories, Mittens, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-disney-cats-dogs-graphic-long-sleeve-fleece-sweatshirt/-/A-1000832509",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Mittens"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/justice-league-boys-4-pack-winter-mittens-set-for-toddler-ages-2-4/-/A-90514070",
-        "tags": "Accessories, Kids’ Accessories, Mittens, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-instant-message-st-patrick-s-day-tiny-hooligan-graphic-long-sleeve-fleece-sweatshirt/-/A-1001600375",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Mittens"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-cloud-umbrella-cat-38-jack-8482/-/A-92616607",
-        "tags": "Accessories, Kids’ Accessories, Stick Umbrellas, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000831710",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Stick Umbrellas"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/tiara-kid-s-bow-tie-stud-earrings-in-14k-yellow-gold/-/A-18818907",
-        "tags": "Accessories, Kids’ Accessories, Stud Earrings, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/the-juniper-shop-in-my-football-era-red-toddler-graphic-sweatshirt/-/A-1001805994",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Stud Earrings"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/tiara-kid-39-s-heart-stud-earrings-in-14k-yellow-gold/-/A-18818929",
-        "tags": "Accessories, Kids’ Accessories, Stud Earrings, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-disney-minnie-cookie-christmas-graphic-long-sleeve-fleece-sweatshirt/-/A-1000640358",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Stud Earrings"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/green-sprouts-baby-toddler-upf-50-eco-flap-hat/-/A-89240648",
-        "tags": "Accessories, Kids’ Accessories, Sun Hats, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-mtv-icon-collage-logo-graphic-long-sleeve-fleece-sweatshirt/-/A-1001982827",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sun Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/hudson-baby-infant-and-toddler-boy-sun-protection-hat-dark-blue-whale/-/A-82732741",
-        "tags": "Accessories, Kids’ Accessories, Sun Hats, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-garfield-family-is-everything-graphic-long-sleeve-fleece-sweatshirt/-/A-1000635502",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sun Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/hudson-baby-infant-and-toddler-boy-sun-protection-hat-blue-shark/-/A-82732745",
-        "tags": "Accessories, Kids’ Accessories, Sun Hats, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/patpat-disney-winnie-the-pooh-sweatshirt-for-toddler-fall-winter-oufits/-/A-1005211976",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sun Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/hudson-baby-infant-and-toddler-boy-sun-protection-hat-blue-whale/-/A-82732776",
-        "tags": "Accessories, Kids’ Accessories, Sun Hats, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-disney-will-trade-brother-for-candy-graphic-long-sleeve-fleece-sweatshirt/-/A-1000712674",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sun Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/hudson-baby-infant-and-toddler-boy-sun-protection-hat-blue-sailboat/-/A-82732727",
-        "tags": "Accessories, Kids’ Accessories, Sun Hats, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-disney-i-love-mickey-graphic-long-sleeve-fleece-sweatshirt/-/A-1000645262",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sun Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/hudson-baby-infant-and-toddler-boy-sun-protection-hat-shark/-/A-82732780",
-        "tags": "Accessories, Kids’ Accessories, Sun Hats, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-80s-bebop-rocksteady-graphic-long-sleeve-fleece-sweatshirt/-/A-1000626330",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sun Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/hudson-baby-infant-and-toddler-boy-sun-protection-hat-sailboat/-/A-82732772",
-        "tags": "Accessories, Kids’ Accessories, Sun Hats, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-disney-jessie-graphic-graphic-long-sleeve-fleece-sweatshirt/-/A-1000646142",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sun Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/tiny-twinkle-sun-protection-baby-flap-hat-with-upf-50-for-infants-toddlers-boys-and-girls/-/A-1002531610",
-        "tags": "Accessories, Kids’ Accessories, Sun Hats, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-disney-rock-the-house-graphic-long-sleeve-fleece-sweatshirt/-/A-1000815346",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sun Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/tiny-twinkle-sun-hat-with-upf-50-uv-protection-and-adjustable-brim-for-toddlers/-/A-1002531589",
-        "tags": "Accessories, Kids’ Accessories, Sun Hats, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-hot-wheels-race-crew-3-yrs-graphic-long-sleeve-fleece-sweatshirt/-/A-1002086588",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sun Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/hudson-baby-infant-and-toddler-boy-sun-protection-hat-blue-white-stripe/-/A-82730489",
-        "tags": "Accessories, Kids’ Accessories, Sun Hats, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-disney-mickey-friends-graphic-long-sleeve-fleece-sweatshirt/-/A-1000824328",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sun Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/hudson-baby-infant-and-toddler-boy-sun-protection-hat-blue-stripe/-/A-82730505",
-        "tags": "Accessories, Kids’ Accessories, Sun Hats, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-paw-patrol-shine-on-graphic-long-sleeve-fleece-sweatshirt/-/A-1000852242",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sun Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/makemake-organics-organic-baby-bucket-sun-hat-linen-palms/-/A-1004323030",
-        "tags": "Accessories, Kids’ Accessories, Sun Hats, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-disney-mickey-oh-boy-graphic-long-sleeve-fleece-sweatshirt/-/A-1000659126",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sun Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/gerber-baby-and-toddler-sunhat-one-size-fits-most/-/A-91252823",
-        "tags": "Accessories, Kids’ Accessories, Sun Hats, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-ren-stimpy-friendly-laughter-graphic-long-sleeve-fleece-sweatshirt/-/A-1000738983",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sun Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/organic-bucket-sun-hat-mandarin/-/A-1004049321",
-        "tags": "Accessories, Kids’ Accessories, Sun Hats, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-disney-mickey-friends-graphic-long-sleeve-fleece-sweatshirt/-/A-1000824219",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sun Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/organic-baby-sun-hat-muslin-periwinkle/-/A-1004322993",
-        "tags": "Accessories, Kids’ Accessories, Sun Hats, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000679259",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sun Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/organic-bucket-sun-hat-brown-stripes/-/A-1004049346",
-        "tags": "Accessories, Kids’ Accessories, Sun Hats, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-lilo-and-stitch-alo-ho-ho-ho-ha-graphic-long-sleeve-fleece-sweatshirt/-/A-1000703474",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sun Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/makemake-organics-organic-bucket-sun-hat-bohemia-6-24-months/-/A-1004049317",
-        "tags": "Accessories, Kids’ Accessories, Sun Hats, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-spongebob-squarepants-squidward-i-dont-get-paid-enough-graphic-long-sleeve-fleece-sweatshirt/-/A-1000619103",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sun Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/organic-bucket-sun-hat-green-stripes/-/A-1004049343",
-        "tags": "Accessories, Kids’ Accessories, Sun Hats, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000728153",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sun Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/organic-bucket-sun-hat-palm/-/A-1004037873",
-        "tags": "Accessories, Kids’ Accessories, Sun Hats, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-disney-believe-in-the-impossible-graphic-long-sleeve-fleece-sweatshirt/-/A-1000795958",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sun Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/organic-bucket-sun-hat-wild-meadow/-/A-1004049337",
-        "tags": "Accessories, Kids’ Accessories, Sun Hats, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-hot-wheels-ready-to-smash-cake-graphic-long-sleeve-fleece-sweatshirt/-/A-1002086387",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sun Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/organic-bucket-sun-hat-wild-tropics/-/A-1004049383",
-        "tags": "Accessories, Kids’ Accessories, Sun Hats, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-barbie-valentine-s-squad-graphic-long-sleeve-fleece-sweatshirt/-/A-1002054149",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sun Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/organic-bucket-sun-hat-brown-checkered/-/A-1004049340",
-        "tags": "Accessories, Kids’ Accessories, Sun Hats, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-barbie-back-to-school-graphic-long-sleeve-fleece-sweatshirt/-/A-1002095057",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sun Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/makemake-organics-organic-bucket-sun-hat-blue-petunia/-/A-1004049334",
-        "tags": "Accessories, Kids’ Accessories, Sun Hats, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-blue-s-clues-you-colors-of-the-rainbow-graphic-long-sleeve-fleece-sweatshirt/-/A-1000766520",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sun Hats"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/carter-39-s-just-one-you-174-toddler-sunglasses-green/-/A-89120288",
-        "tags": "Accessories, Kids’ Accessories, Sunglasses, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-disney-mickey-friends-graphic-long-sleeve-fleece-sweatshirt/-/A-1000824003",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sunglasses"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/roshambo-bend-in-half-flexible-round-kids-sunglasses-made-in-italy-polarized-uv400-lens-carrying-sleeve-silicone-strap-ear-locks-included/-/A-91516897",
-        "tags": "Accessories, Kids’ Accessories, Sunglasses, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-little-tikes-imagination-is-all-it-takes-graphic-long-sleeve-fleece-sweatshirt/-/A-1001988162",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sunglasses"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/roshambo-bend-in-half-flexible-heart-kids-sunglasses-made-in-italy-polarized-uv400-lens-carrying-sleeve-silicone-strap-ear-locks-included/-/A-91516880",
-        "tags": "Accessories, Kids’ Accessories, Sunglasses, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-lol-surprise-lol-time-to-shine-graphic-long-sleeve-fleece-sweatshirt/-/A-1002004600",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sunglasses"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/roshambo-bend-in-half-flexible-kids-sunglasses-made-in-italy-polarized-uv400-lens-carrying-sleeve-silicone-strap-ear-locks-included/-/A-91516873",
-        "tags": "Accessories, Kids’ Accessories, Sunglasses, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-disney-wish-upon-a-star-graphic-long-sleeve-fleece-sweatshirt/-/A-1000657095",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sunglasses"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-sunglass-cat-jack/-/A-94495028",
-        "tags": "Accessories, Kids’ Accessories, Sunglasses, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000789226",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sunglasses"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-boys-39-shark-sunglasses-cat-38-jack-8482-blue/-/A-92616604",
-        "tags": "Accessories, Kids’ Accessories, Sunglasses, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-spongebob-squarepants-patrick-it-s-lit-graphic-long-sleeve-fleece-sweatshirt/-/A-1000851079",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sunglasses"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/tiny-twinkle-toddler-round-retro-polarized-flexible-sunglasses-with-strap-ages-0-48-months/-/A-1004912078",
-        "tags": "Accessories, Kids’ Accessories, Sunglasses, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-barbie-inspired-by-barbie-graphic-long-sleeve-fleece-sweatshirt/-/A-1002080173",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sunglasses"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/babiators-aviator-sunglasses/-/A-89970013",
-        "tags": "Accessories, Kids’ Accessories, Sunglasses, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-disney-lilo-stitch-graphic-long-sleeve-fleece-sweatshirt/-/A-1000799996",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sunglasses"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/go-by-goldbug-sunglasses/-/A-89854002",
-        "tags": "Accessories, Kids’ Accessories, Sunglasses, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-garfield-ready-for-shenanigans-graphic-long-sleeve-fleece-sweatshirt/-/A-1000835741",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sunglasses"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/babiators-original-keyhole-jet-black-smoke-lens-0-2-years/-/A-93283985",
-        "tags": "Accessories, Kids’ Accessories, Sunglasses, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-garfield-varsity-seal-graphic-long-sleeve-fleece-sweatshirt/-/A-1000784638",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sunglasses"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/babiators-original-navigator-think-pink-smoke-lens-0-2-years/-/A-93284002",
-        "tags": "Accessories, Kids’ Accessories, Sunglasses, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-santiago-of-the-sea-the-crew-graphic-long-sleeve-fleece-sweatshirt/-/A-1000771231",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sunglasses"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/babiators-polarized-flower-peachy-keen-rose-gold-mirrored-lens-0-2-years/-/A-93283992",
-        "tags": "Accessories, Kids’ Accessories, Sunglasses, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/the-juniper-shop-in-my-football-era-maroon-toddler-graphic-sweatshirt/-/A-1001806273",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sunglasses"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/babiators-originals-navigator-jet-black-smoke-lenses-0-2-years/-/A-93283979",
-        "tags": "Accessories, Kids’ Accessories, Sunglasses, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-spongebob-squarepants-christmas-photo-collage-graphic-long-sleeve-fleece-sweatshirt/-/A-1000840300",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sunglasses"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/babiators-polarized-heart-frosted-pink-purple-mirrored-lens-0-2-years/-/A-93283998",
-        "tags": "Accessories, Kids’ Accessories, Sunglasses, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000580614",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sunglasses"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/babiators-original-navigator-good-as-blue-smoke-lens-0-2-years/-/A-93284009",
-        "tags": "Accessories, Kids’ Accessories, Sunglasses, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000592282",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sunglasses"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/babiators-original-keyhole-mint-to-be-smoke-lens-ages-0-2/-/A-93284014",
-        "tags": "Accessories, Kids’ Accessories, Sunglasses, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-disney-wish-hope-dream-grid-graphic-long-sleeve-fleece-sweatshirt/-/A-1000796113",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sunglasses"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/little-suns-by-babiators-keyhole-sunglasses-blue/-/A-93445569",
-        "tags": "Accessories, Kids’ Accessories, Sunglasses, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-winnie-the-pooh-christmas-cookie-testing-crew-graphic-long-sleeve-fleece-sweatshirt/-/A-1000729283",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sunglasses"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/little-suns-by-babiators-flower-sunglasses-yellow/-/A-93445570",
-        "tags": "Accessories, Kids’ Accessories, Sunglasses, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-disney-be-creative-graphic-long-sleeve-fleece-sweatshirt/-/A-1000638766",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sunglasses"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/sunnies-thank-you-berry-punch-glare-free-kids-sunglasses-polarized-lenses-100-uv-protection-anti-slip-stylish-eye-protection/-/A-92391553",
-        "tags": "Accessories, Kids’ Accessories, Sunglasses, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-paw-patrol-just-a-pup-who-loves-snow-graphic-long-sleeve-fleece-sweatshirt/-/A-1000840773",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sunglasses"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/blippi-s-officially-licensed-flexible-kids-sunglasses-made-in-italy-polarized-uv400-lens-polishing-sleeve-silicone-strap-ear-locks-included/-/A-91516887",
-        "tags": "Accessories, Kids’ Accessories, Sunglasses, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-disney-8-bit-mickey-name-square-graphic-long-sleeve-fleece-sweatshirt/-/A-1000615797",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sunglasses"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/sunnies-not-my-gumdrop-button-littles-glare-free-kids-sunglasses-polarized-lenses-100-uv-protection-anti-slip-stylish-eye-protection/-/A-92128268",
-        "tags": "Accessories, Kids’ Accessories, Sunglasses, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-paw-patrol-team-awesome-graphic-long-sleeve-fleece-sweatshirt/-/A-1000589472",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sunglasses"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/babiators-polarized-flower-peachy-keen-rose-gold-mirrored-lens-6-years/-/A-93284008",
-        "tags": "Accessories, Kids’ Accessories, Sunglasses, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-cars-i-m-a-winner-graphic-long-sleeve-fleece-sweatshirt/-/A-1000594562",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sunglasses"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/sunnies-tea-time-with-poodles-littles-glare-free-kids-sunglasses-polarized-lenses-100-uv-protection-anti-slip-stylish-eye-protection/-/A-92158018",
-        "tags": "Accessories, Kids’ Accessories, Sunglasses, Toddler Accessories, Toddler Boys’ Accessories",
+        "url": "https://www.target.com/p/boys-paw-patrol-yelp-for-snow-day-graphic-long-sleeve-fleece-sweatshirt/-/A-1000840884",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Sunglasses"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/saro-toddler-weekender-bag-large-capacity-travel-carrier-with-pockets-adjustable-shoulder-strap/-/A-1003700995",
-        "tags": "Accessories, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories, Top Handle Bags",
+        "url": "https://www.target.com/p/boys-paw-patrol-chase-lightning-graphic-long-sleeve-fleece-sweatshirt/-/A-1000663394",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Top Handle Bags"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/textiel-trade-kids-marvel-hulk-mini-backpack/-/A-1002361406",
-        "tags": "Accessories, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories, Tote Bags",
+        "url": "https://www.target.com/p/boys-barbie-welcome-to-the-dreamhouse-graphic-long-sleeve-fleece-sweatshirt/-/A-1002052498",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Tote Bags"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/textiel-trade-kids-pj-masks-trio-duffle-bag/-/A-1002201016",
-        "tags": "Accessories, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories, Tote Bags",
+        "url": "https://www.target.com/p/boys-instant-message-st-patrick-s-day-coolest-clover-in-the-patch-graphic-long-sleeve-fleece-sweatshirt/-/A-1001600966",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Tote Bags"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/nuroo-soft-newborn-beanie-with-foldable-cuff-pinwheels/-/A-88190754",
-        "tags": "Accessories, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories, Winter Headbands",
+        "url": "https://www.target.com/p/boys-paw-patrol-life-is-an-adventure-graphic-long-sleeve-fleece-sweatshirt/-/A-1000589948",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Winter Headbands"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/mykids-usa-newborn-baby-solid-color-rabbit-patched-design-wool-knitting-tire-caps/-/A-1004784366",
-        "tags": "Accessories, Kids’ Accessories, Toddler Accessories, Toddler Boys’ Accessories, Winter Headbands",
+        "url": "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-respect-the-brotherhood-graphic-long-sleeve-fleece-sweatshirt/-/A-1000665337",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Winter Headbands"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/andy-evan-toddler-plaid-flannel-twofer-hoodie/-/A-93590560",
-        "tags": "Button Down Shirts, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Shirts & Polos",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000622129",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Button Down Shirts"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/deux-par-deux-boy-printed-french-terry-hooded-full-zip-cardigan-sweatshirt-monkey-on-navy-moped/-/A-1002991886",
-        "tags": "Cardigans, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Sweaters",
+        "url": "https://www.target.com/p/boys-teenage-muntant-ninja-turtles-turtley-awesome-group-graphic-long-sleeve-fleece-sweatshirt/-/A-1000844221",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Cardigans"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/modern-moments-by-gerber-baby-boys-2-piece-hoodie-and-pant-set/-/A-1001642421",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-winnie-the-pooh-tigger-christmas-ho-ho-ho-graphic-long-sleeve-fleece-sweatshirt/-/A-1000729239",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/modern-moments-by-gerber-baby-neutral-2-piece-hoodie-and-pant-set/-/A-1001642424",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000733865",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/disney-mickey-mouse-donald-duck-goofy-pluto-french-terry-pullover-hoodie-and-set-infant-to-big-kid/-/A-87290826",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000832205",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/disney-mickey-mouse-french-terry-sweatshirt-shorts-grey/-/A-87289078",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/the-juniper-shop-i-m-just-here-for-the-snacks-disco-toddler-graphic-sweatshirt/-/A-1001806131",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/gerber-baby-and-toddler-boys-2-piece-sweatshirt-pant-set/-/A-89651372",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-mutant-mayhem-turtle-time-graphic-long-sleeve-fleece-sweatshirt/-/A-1000803587",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/marvel-spider-man-fleece-sweatshirt-and-pants-set-toddler/-/A-85315911",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-disney-the-sword-and-the-stone-graphic-long-sleeve-fleece-sweatshirt/-/A-1000812451",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/disney-lion-king-mickey-mouse-pumbaa-timon-simba-fleece-sweatshirt-and-pants-set-newborn-to-little-kid/-/A-89618155",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-paw-patrol-halloween-graphic-long-sleeve-fleece-sweatshirt/-/A-1004250678",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/pj-masks-gekko-owlette-catboy-fleece-pullover-hoodie-and-pants-outfit-set-toddler/-/A-87974693",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/the-juniper-shop-trick-rawr-treat-toddler-graphic-sweatshirt/-/A-93869254",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/disney-lion-king-simba-baby-fleece-pullover-hoodie-pants/-/A-85411035",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000792497",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/hudson-baby-infant-and-toddler-boy-cotton-hoodie-bodysuit-or-tee-top-and-pant-set-one-draft-pick-toddler/-/A-82740431",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-disney-donald-duck-bogey-club-graphic-long-sleeve-fleece-sweatshirt/-/A-1000615515",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/london-fog-little-big-boys-2-piece-fleece-hoodie-and-sweatpants-sets/-/A-94003242",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Suit Sets",
+        "url": "https://www.target.com/p/boys-little-tikes-summer-fun-graphic-long-sleeve-fleece-sweatshirt/-/A-1001988374",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/honest-baby-2-piece-light-weight-hoodie-sweatpant-set/-/A-1001313761",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-disney-americana-graphic-long-sleeve-fleece-sweatshirt/-/A-1000698414",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-boys-39-pocket-crewneck-sweatshirt-and-joggers-set-cat-38-jack-8482/-/A-94598581",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000794892",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/paw-patrol-rubble-marshall-chase-fleece-pullover-hoodie-and-pants-outfit-set-toddler/-/A-90127642",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000591964",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-2pc-halloween-teddy-bear-pumpkin-fleece-sweatshirt-pants-set-orange/-/A-94609704",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-garfield-just-a-cat-who-loves-chickens-graphic-long-sleeve-fleece-sweatshirt/-/A-1000634668",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-boys-disney-mickey-mouse-halloween-fleece-sweatshirt-pants-set-black/-/A-94619919",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-paw-patrol-americana-graphic-long-sleeve-fleece-sweatshirt/-/A-1000675656",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-boys-2pk-ms-rachel-bus-pullover-sweatshirt-and-shorts-set-heather-gray/-/A-94505133",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-disney-minnie-track-and-field-graphic-long-sleeve-fleece-sweatshirt/-/A-1000748090",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-boys-2pc-hot-wheels-fleece-sweatshirt-pants-set-blue/-/A-94609699",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000836096",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-boys-2pc-ford-bronco-fleece-sweatshirt-pants-set-off-white/-/A-94609698",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-disney-the-founding-feather-graphic-long-sleeve-fleece-sweatshirt/-/A-1000624296",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/toddler-boys-2pc-teenage-mutant-ninja-turtles-fleece-sweatshirt-pants-set-blue/-/A-94609700",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-disney-lilo-stitch-graphic-long-sleeve-fleece-sweatshirt/-/A-1000799857",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/marvel-spidey-and-his-amazing-friends-pullover-hoodie-and-french-terry-shorts-toddler-sizes-2t-10-12/-/A-1002768857",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000783441",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/marvel-avengers-spider-man-iron-man-hulk-captain-america-fleece-sweatshirt-and-pants-set-toddler-to-little-kid/-/A-89622795",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000832172",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/disney-winnie-the-pooh-pullover-hoodie-and-french-terry-shorts-toddler/-/A-92205929",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000688716",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/disney-pixar-cars-lightning-mcqueen-fleece-pullover-hoodie-and-pants-outfit-set-toddler/-/A-85015716",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000622309",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/disney-christmas-halloween-fleece-sweatshirt-and-jogger-pants-outfit-set-toddler/-/A-93444487",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-paw-patrol-nature-patrol-graphic-long-sleeve-fleece-sweatshirt/-/A-1000590060",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/monster-jam-grave-digger-fleece-sweatshirt-and-jogger-pants-outfit-set-toddler/-/A-1001847939",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-garfield-logo-vertical-graphic-long-sleeve-fleece-sweatshirt/-/A-1000634434",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/paw-patrol-waffle-knit-pullover-sweatshirt-and-jogger-pants-outfit-set-toddler/-/A-1002034821",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-disney-goofy-graphic-long-sleeve-fleece-sweatshirt/-/A-1000659016",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/disney-lion-king-mickey-mouse-goofy-donald-duck-simba-waffle-knit-pullover-hoodie-and-shorts-toddler/-/A-92302234",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-disney-next-adventure-graphic-long-sleeve-fleece-sweatshirt/-/A-1000638730",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/paw-patrol-pullover-hoodie-and-french-terry-shorts-toddler/-/A-1003487790",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-hot-wheels-halloween-graphic-long-sleeve-fleece-sweatshirt/-/A-1001977070",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/marvel-spidey-and-his-amazing-friends-fleece-pullover-hoodie-and-pants-outfit-set-toddler/-/A-85044399",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-teenage-muntant-ninja-turtles-game-on-raph-graphic-long-sleeve-fleece-sweatshirt/-/A-1000836948",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/jurassic-world-jurassic-world-dinosaur-jurassic-park-fleece-pullover-hoodie-and-pants-outfit-set-toddler/-/A-88398407",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-hot-wheels-america-cars-graphic-long-sleeve-fleece-sweatshirt/-/A-1002105016",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/bluey-fleece-hoodie-and-pants-outfit-set-toddler-to-big-kid/-/A-89790115",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000682552",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/sesame-street-cookie-monster-pullover-hoodie-and-french-terry-shorts-toddler/-/A-92205941",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-disney-vanellope-candy-graphic-long-sleeve-fleece-sweatshirt/-/A-1000809780",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/disney-lion-king-pixar-toy-story-woody-rex-buzz-lightyear-slinky-dog-sweatshirt-and-jogger-pants-set-toddler-to-little-kid/-/A-90508476",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-blue-s-clues-you-blue-waves-hello-graphic-long-sleeve-fleece-sweatshirt/-/A-1000754083",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/harry-potter-pullover-hoodie-and-french-terry-shorts-toddler/-/A-1003612097",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-disney-mickey-mouse-rhythm-waves-graphic-long-sleeve-fleece-sweatshirt/-/A-1000783750",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/sesame-street-waffle-knit-pullover-sweatshirt-and-jogger-pants-outfit-set-toddler/-/A-1002178449",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000791953",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/gerber-baby-and-toddler-boys-2-piece-sweatshirt-pant-set/-/A-91311831",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-barbie-barbie-logo-pink-glitter-graphic-long-sleeve-fleece-sweatshirt/-/A-1002084346",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/thomas-friends-pullover-hoodie-and-french-terry-shorts-toddler/-/A-1002594944",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-disney-love-moana-graphic-long-sleeve-fleece-sweatshirt/-/A-1000747538",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/peppa-pig-george-fleece-pullover-hoodie-felt-teeth-and-puff-scales-for-realistic-dino-look-jogger-pants-outfit-set-toddler/-/A-90429243",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-disney-i-m-a-hugger-graphic-long-sleeve-fleece-sweatshirt/-/A-1000656014",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/marvel-spider-man-fleece-sweatshirt-and-twill-jogger-pants-outfit-set-toddler/-/A-1002541660",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-teenage-muntant-ninja-turtles-city-scape-with-turtles-graphic-long-sleeve-fleece-sweatshirt/-/A-1000837091",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/disney-mickey-mouse-lion-king-winnie-the-pooh-waffle-knit-drop-shoulder-sweatshirt-and-jogger-pants-set-toddler/-/A-92302256",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-disney-mulan-princess-warrior-graphic-long-sleeve-fleece-sweatshirt/-/A-1000639041",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/disney-pixar-pixar-toy-story-rex-forky-buzz-lightyear-fleece-pullover-hoodie-and-pants-outfit-set-toddler/-/A-88290903",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-instant-message-valentine-s-day-be-my-meowentine-graphic-long-sleeve-fleece-sweatshirt/-/A-1001598719",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/disney-mickey-mouse-christmas-fleece-pullover-hoodie-and-pants-outfit-set-infant-to-little-kid/-/A-89300117",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-disney-mickey-friends-graphic-long-sleeve-fleece-sweatshirt/-/A-1000825509",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/disney-nightmare-before-christmas-jack-fleece-hoodie-pants/-/A-87557184",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000679058",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/paw-patrol-nickelodeon-chase-rubble-and-marshall-boys-pullover-hoodie-and-joggers-set-for-little-kids-blue/-/A-93231819",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-disney-nature-the-antidote-to-stress-graphic-long-sleeve-fleece-sweatshirt/-/A-1000648411",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/honest-baby-2-piece-cozy-velour-pop-over-hoodie-and-sweatpant-set/-/A-1001323972",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-disney-mickey-patches-graphic-long-sleeve-fleece-sweatshirt/-/A-1000793825",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/disney-mickey-mouse-goofy-donald-duck-pluto-fleece-pullover-t-shirt-and-pants-toddler/-/A-85316092",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/the-juniper-shop-charmer-clover-toddler-graphic-sweatshirt/-/A-1001890466",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/bluey-fleece-pullover-hoodie-and-pants-outfit-set-toddler-to-little-kid/-/A-87232876",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-disney-lilo-stitch-graphic-long-sleeve-fleece-sweatshirt/-/A-1000617303",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/pinkfong-baby-shark-hoodie-pants/-/A-85050651",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-disney-shamrock-wishes-irish-kisses-graphic-long-sleeve-fleece-sweatshirt/-/A-1000828085",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/peanuts-christmas-fleece-sweatshirt-and-jogger-pants-outfit-set-toddler/-/A-93161086",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-disney-mickey-and-minnie-merry-christmas-ice-skating-graphic-long-sleeve-fleece-sweatshirt/-/A-1000640269",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/blippi-boys-2-piece-sweatshirt-and-pants-set-for-toddlers/-/A-1001307958",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-disney-mickey-friends-graphic-long-sleeve-fleece-sweatshirt/-/A-1000824664",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/paw-patrol-rubble-marshall-chase-fleece-t-shirt-and-pants-toddler/-/A-87132561",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000819220",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
         }
       },
       {
-        "url": "https://www.target.com/p/marvel-avengers-spider-man-miles-morales-spider-man-fleece-pullover-hoodie-and-pants-outfit-set-toddler/-/A-88291190",
-        "tags": "Coordinate Sets, Hoodies & Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops, Top and Bottom Sets",
+        "url": "https://www.target.com/p/boys-rugrats-reptar-meme-graphic-long-sleeve-fleece-sweatshirt/-/A-1000618346",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
         "filters": {
-          "type": "Coordinate Sets"
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000629053",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-cars-lets-race-graphic-long-sleeve-fleece-sweatshirt/-/A-1000659515",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-garfield-charmed-im-sure-graphic-long-sleeve-fleece-sweatshirt/-/A-1000835624",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-dr-seuss-all-things-red-white-and-blue-graphic-long-sleeve-fleece-sweatshirt/-/A-1000595260",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-firefighter-graphic-long-sleeve-fleece-sweatshirt/-/A-1000802776",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-paw-patrol-team-paw-skye-graphic-long-sleeve-fleece-sweatshirt/-/A-1000580585",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-garfield-happy-holidays-wreath-graphic-long-sleeve-fleece-sweatshirt/-/A-1000706456",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-blue-s-clues-you-blue-s-thinking-chair-graphic-long-sleeve-fleece-sweatshirt/-/A-1000766642",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-rugrats-retro-rugrats-graphic-long-sleeve-fleece-sweatshirt/-/A-1000618265",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-spongebob-squarepants-3rd-grade-squad-graphic-long-sleeve-fleece-sweatshirt/-/A-1000618908",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-squad-ghouls-graphic-long-sleeve-fleece-sweatshirt/-/A-1000713221",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/the-juniper-shop-embroidered-varsity-love-vibes-toddler-graphic-sweatshirt/-/A-1001743381",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000710150",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-spongebob-squarepants-happy-st-patricks-day-graphic-long-sleeve-fleece-sweatshirt/-/A-1000849743",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-dinotastic-graphic-long-sleeve-fleece-sweatshirt/-/A-1000793060",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-wish-graphic-long-sleeve-fleece-sweatshirt/-/A-1000792668",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-living-in-the-moment-graphic-long-sleeve-fleece-sweatshirt/-/A-1000630078",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000643961",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-retro-sunset-graphic-long-sleeve-fleece-sweatshirt/-/A-1000626589",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-mickey-sunset-shades-graphic-long-sleeve-fleece-sweatshirt/-/A-1000813715",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-mickey-stacked-graphic-long-sleeve-fleece-sweatshirt/-/A-1000658862",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000714568",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-charlie-brown-and-linus-skiing-graphic-long-sleeve-fleece-sweatshirt/-/A-1000840584",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-charlie-brown-snoopy-merry-christmas-warm-wishes-graphic-long-sleeve-fleece-sweatshirt/-/A-1000726331",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000669479",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000662635",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-living-legend-1934-graphic-long-sleeve-fleece-sweatshirt/-/A-1000624668",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-cars-friends-from-the-start-graphic-long-sleeve-fleece-sweatshirt/-/A-1000594736",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-blue-s-clues-you-no-clue-why-i-m-out-of-bed-graphic-long-sleeve-fleece-sweatshirt/-/A-1000767097",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-tmnt-rebel-road-group-graphic-long-sleeve-fleece-sweatshirt/-/A-1000665346",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-mickey-friends-graphic-long-sleeve-fleece-sweatshirt/-/A-1000823760",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-americana-graphic-long-sleeve-fleece-sweatshirt/-/A-1000698544",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000790112",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000662586",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-retro-styled-graphic-long-sleeve-fleece-sweatshirt/-/A-1000727359",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-mickey-friends-graphic-long-sleeve-fleece-sweatshirt/-/A-1000825529",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-polly-pocket-90s-doll-graphic-long-sleeve-fleece-sweatshirt/-/A-1002021794",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-top-scarer-graphic-long-sleeve-fleece-sweatshirt/-/A-1000795789",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-santiago-of-the-sea-a-good-pirate-graphic-long-sleeve-fleece-sweatshirt/-/A-1000773516",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-cars-thunder-hollow-piston-cup-graphic-long-sleeve-fleece-sweatshirt/-/A-1000594061",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/the-juniper-shop-but-did-you-dye-toddler-graphic-sweatshirt/-/A-91109312",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000652018",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-instant-message-st-patrick-s-day-sheep-holding-a-shamrock-graphic-long-sleeve-fleece-sweatshirt/-/A-1001601289",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000790256",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-spongebob-squarepants-kamp-koral-happy-kampers-graphic-long-sleeve-fleece-sweatshirt/-/A-1000787771",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000790317",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-little-tikes-teamwork-makes-the-dream-work-graphic-long-sleeve-fleece-sweatshirt/-/A-1001988322",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-mickey-friends-graphic-long-sleeve-fleece-sweatshirt/-/A-1000824381",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/the-juniper-shop-lucky-vibes-lightning-bolt-toddler-graphic-sweatshirt/-/A-1002533009",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-mickey-friends-graphic-long-sleeve-fleece-sweatshirt/-/A-1000822959",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000731363",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-spongebob-squarepants-squidward-bah-humbug-graphic-long-sleeve-fleece-sweatshirt/-/A-1000704369",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-hakuna-matata-graphic-long-sleeve-fleece-sweatshirt/-/A-1000728011",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-minnie-all-star-1928-graphic-long-sleeve-fleece-sweatshirt/-/A-1000833443",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000788834",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-barbie-back-to-school-graphic-long-sleeve-fleece-sweatshirt/-/A-1002095323",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-zootopia-signage-graphic-long-sleeve-fleece-sweatshirt/-/A-1000655879",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-out-there-graphic-long-sleeve-fleece-sweatshirt/-/A-1000646070",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-dr-seuss-oh-places-you-ll-go-when-you-read-graphic-long-sleeve-fleece-sweatshirt/-/A-1003965766",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/the-juniper-shop-let-s-shamrock-toddler-graphic-sweatshirt/-/A-90899391",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-paw-patrol-hugs-kisses-pup-treats-graphic-long-sleeve-fleece-sweatshirt/-/A-1000833108",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-snoopy-and-friends-thrilled-to-be-chilled-graphic-long-sleeve-fleece-sweatshirt/-/A-1000850433",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-villains-black-hearted-graphic-long-sleeve-fleece-sweatshirt/-/A-1000802244",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000792015",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-boo-hide-and-seek-graphic-long-sleeve-fleece-sweatshirt/-/A-1000655086",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-donald-bit-of-a-show-off-graphic-long-sleeve-fleece-sweatshirt/-/A-1000785880",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-harris-hubert-hamish-graphic-long-sleeve-fleece-sweatshirt/-/A-1000809625",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-woodstock-ski-pro-graphic-long-sleeve-fleece-sweatshirt/-/A-1000726390",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-the-sword-and-the-stone-graphic-long-sleeve-fleece-sweatshirt/-/A-1000812376",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-villains-ursula-glam-rock-graphic-long-sleeve-fleece-sweatshirt/-/A-1000802272",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-bubble-guppies-bubble-grid-graphic-long-sleeve-fleece-sweatshirt/-/A-1000759631",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/the-juniper-shop-you-re-my-lucky-charm-clovers-toddler-graphic-sweatshirt/-/A-1002532979",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-star-face-grid-graphic-long-sleeve-fleece-sweatshirt/-/A-1000657457",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-garfield-ask-me-if-i-care-graphic-long-sleeve-fleece-sweatshirt/-/A-1000587543",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-will-trade-sister-for-candy-graphic-long-sleeve-fleece-sweatshirt/-/A-1000712546",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-despicable-me-minions-retro-rainbow-skater-graphic-long-sleeve-fleece-sweatshirt/-/A-1000799284",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-barbie-barbie-heart-grid-graphic-long-sleeve-fleece-sweatshirt/-/A-1002082288",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-bubble-guppies-gil-graphic-long-sleeve-fleece-sweatshirt/-/A-1000758791",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-roarsome-graphic-long-sleeve-fleece-sweatshirt/-/A-1000646120",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-mutant-mayhem-graphic-long-sleeve-fleece-sweatshirt/-/A-1000819440",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-blue-s-clues-you-smiles-all-summer-graphic-long-sleeve-fleece-sweatshirt/-/A-1000751610",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000819923",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-blue-s-clues-you-daddy-is-my-sunshine-graphic-long-sleeve-fleece-sweatshirt/-/A-1000766522",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-garfield-nap-sketch-graphic-long-sleeve-fleece-sweatshirt/-/A-1000634559",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-blue-s-clues-you-blue-let-s-play-graphic-long-sleeve-fleece-sweatshirt/-/A-1000766753",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000850557",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-paw-patrol-daddy-s-pawsome-camping-buddy-graphic-long-sleeve-fleece-sweatshirt/-/A-1000590249",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-garfield-mood-graphic-long-sleeve-fleece-sweatshirt/-/A-1000586275",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-trolls-jolly-trolly-christmas-branch-and-poppy-graphic-long-sleeve-fleece-sweatshirt/-/A-1000796992",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-toy-story-graphic-long-sleeve-fleece-sweatshirt/-/A-1000784047",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-spongebob-squarepants-kamp-koral-kamp-krew-graphic-long-sleeve-fleece-sweatshirt/-/A-1000787919",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-the-one-and-only-graphic-long-sleeve-fleece-sweatshirt/-/A-1000788893",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-mickey-friends-graphic-long-sleeve-fleece-sweatshirt/-/A-1000825653",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-graphic-long-sleeve-fleece-sweatshirt/-/A-1000800551",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-hot-wheels-valentine-s-drive-to-win-graphic-long-sleeve-fleece-sweatshirt/-/A-1002025055",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-garfield-ignoring-you-graphic-long-sleeve-fleece-sweatshirt/-/A-1000586428",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/the-juniper-shop-game-day-stars-toddler-graphic-sweatshirt/-/A-1001823595",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-paw-patrol-earth-day-globe-graphic-long-sleeve-fleece-sweatshirt/-/A-1000723351",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/the-juniper-shop-embroidered-choose-happy-smiley-face-toddler-graphic-sweatshirt/-/A-1002350265",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-spongebob-squarepants-best-witches-graphic-long-sleeve-fleece-sweatshirt/-/A-1000728592",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000832030",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/disney-classic-mickey-mouse-retro-sketches/-/A-1000783359",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-spongebob-squarepants-kamp-koral-kamp-koral-badge-graphic-long-sleeve-fleece-sweatshirt/-/A-1000787922",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-instant-message-cottontail-candy-co-graphic-long-sleeve-fleece-sweatshirt/-/A-1002611657",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-foreva-whateva-eve-graphic-long-sleeve-fleece-sweatshirt/-/A-1000795887",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-instant-message-st-patrick-s-day-lucky-vibes-graphic-long-sleeve-fleece-sweatshirt/-/A-1001598653",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-ready-for-a-super-christmas-graphic-long-sleeve-fleece-sweatshirt/-/A-1000664099",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-garfield-faces-grid-graphic-long-sleeve-fleece-sweatshirt/-/A-1000587223",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-forever-a-classic-graphic-long-sleeve-fleece-sweatshirt/-/A-1000659084",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-paw-patrol-keeping-our-cool-graphic-long-sleeve-fleece-sweatshirt/-/A-1000841032",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-trolls-lets-hang-out-branch-graphic-long-sleeve-fleece-sweatshirt/-/A-1000797434",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-dr-seuss-cat-in-the-hat-usa-graphic-long-sleeve-fleece-sweatshirt/-/A-1000595100",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-uno-toddler-and-youth-crewneck-fleece-sweatshirt-graphic-long-sleeve-fleece-sweatshirt/-/A-1002096775",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-minnie-mouse-xoxo-graphic-long-sleeve-fleece-sweatshirt/-/A-1000630435",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-instant-message-st-patrick-s-day-i-don-t-need-luck-i-ve-got-skills-graphic-long-sleeve-fleece-sweatshirt/-/A-1001600058",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-mickey-merry-christmas-graphic-long-sleeve-fleece-sweatshirt/-/A-1000791297",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-hot-wheels-bonecrusher-hallo-wheels-68-with-bats-graphic-long-sleeve-fleece-sweatshirt/-/A-1000659229",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/the-juniper-shop-believe-christmas-toddler-graphic-sweatshirt/-/A-93207450",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000662268",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/the-juniper-shop-tis-the-season-football-toddler-graphic-sweatshirt/-/A-1001823575",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-hot-wheels-halloween-graphic-long-sleeve-fleece-sweatshirt/-/A-1001977169",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-play-with-me-graphic-long-sleeve-fleece-sweatshirt/-/A-1000792742",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-rugrats-snowball-fight-graphic-long-sleeve-fleece-sweatshirt/-/A-1000784865",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-lol-surprise-grow-grrrl-graphic-long-sleeve-fleece-sweatshirt/-/A-1002001048",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000795045",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-alice-in-wonderland-graphic-long-sleeve-fleece-sweatshirt/-/A-1000617073",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000826474",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-rock-em-sock-em-robots-robot-outline-graphic-long-sleeve-fleece-sweatshirt/-/A-1002011032",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-mickey-logo-graphic-long-sleeve-fleece-sweatshirt/-/A-1000615606",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-hot-wheels-pit-crew-pre-k-graphic-long-sleeve-fleece-sweatshirt/-/A-1002094355",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-the-fox-has-arrived-graphic-long-sleeve-fleece-sweatshirt/-/A-1000655873",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-americana-graphic-long-sleeve-fleece-sweatshirt/-/A-1000698658",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000633057",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000836450",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-paw-patrol-skye-character-graphic-long-sleeve-fleece-sweatshirt/-/A-1000666081",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-anna-it-s-my-birthday-graphic-long-sleeve-fleece-sweatshirt/-/A-1000808663",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-barbie-easter-graphic-long-sleeve-fleece-sweatshirt/-/A-1002072664",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-my-heart-decides-graphic-long-sleeve-fleece-sweatshirt/-/A-1000639012",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-santiago-of-the-sea-kitty-cat-crew-graphic-long-sleeve-fleece-sweatshirt/-/A-1000772435",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-blue-s-clues-you-creeping-it-real-graphic-long-sleeve-fleece-sweatshirt/-/A-1000761148",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-explore-graphic-long-sleeve-fleece-sweatshirt/-/A-1000793962",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-mickey-friends-graphic-long-sleeve-fleece-sweatshirt/-/A-1000825467",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-kisses-and-valentine-wishes-graphic-long-sleeve-fleece-sweatshirt/-/A-1000835248",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/the-juniper-shop-little-pumpkin-retro-toddler-graphic-sweatshirt/-/A-92793545",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-mickey-friends-graphic-long-sleeve-fleece-sweatshirt/-/A-1000823486",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000795100",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-toy-story-4-graphic-long-sleeve-fleece-sweatshirt/-/A-1000789077",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-mickey-friends-graphic-long-sleeve-fleece-sweatshirt/-/A-1000825338",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-bad-guys-don-t-win-medals-graphic-long-sleeve-fleece-sweatshirt/-/A-1000666809",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-mickey-friends-graphic-long-sleeve-fleece-sweatshirt/-/A-1000824118",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-encanto-graphic-long-sleeve-fleece-sweatshirt/-/A-1000598650",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-hot-wheels-xoxo-heart-graphic-long-sleeve-fleece-sweatshirt/-/A-1002026237",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-mickey-friends-graphic-long-sleeve-fleece-sweatshirt/-/A-1000825174",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-instant-message-pixel-sweater-deer-christmas-graphic-long-sleeve-fleece-sweatshirt/-/A-1000737297",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000790164",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000679877",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000579118",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-i-m-gonna-wreck-it-graphic-long-sleeve-fleece-sweatshirt/-/A-1000666970",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-paw-patrol-having-snow-much-fun-graphic-long-sleeve-fleece-sweatshirt/-/A-1000840976",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-mickey-friends-graphic-long-sleeve-fleece-sweatshirt/-/A-1000824756",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-barbie-ken-since-1961-graphic-long-sleeve-fleece-sweatshirt/-/A-1002052545",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-dr-seuss-original-i-am-green-eggs-and-ham-graphic-long-sleeve-fleece-sweatshirt/-/A-1000595083",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-mickey-scared-graphic-long-sleeve-fleece-sweatshirt/-/A-1000713466",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-monster-high-pastel-character-group-graphic-long-sleeve-fleece-sweatshirt/-/A-1002010118",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-mickey-for-days-graphic-long-sleeve-fleece-sweatshirt/-/A-1000630160",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-mickey-vampire-graphic-long-sleeve-fleece-sweatshirt/-/A-1000713613",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-paw-patrol-present-patrol-graphic-long-sleeve-fleece-sweatshirt/-/A-1000852281",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-lilo-stitch-graphic-long-sleeve-fleece-sweatshirt/-/A-1000617334",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/the-juniper-shop-will-trade-sister-for-candy-toddler-graphic-sweatshirt/-/A-93032701",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000794942",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-here-till-midnight-graphic-long-sleeve-fleece-sweatshirt/-/A-1000791230",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-paw-patrol-paw-patrol-is-on-a-roll-graphic-long-sleeve-fleece-sweatshirt/-/A-1000589799",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-autumn-leaves-and-pumpkins-please-graphic-long-sleeve-fleece-sweatshirt/-/A-1000727310",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-instant-message-cookeys-christmas-graphic-long-sleeve-fleece-sweatshirt/-/A-1000853766",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-garfield-seasons-eatings-graphic-long-sleeve-fleece-sweatshirt/-/A-1000706528",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-firefighter-mickey-friends-graphic-long-sleeve-fleece-sweatshirt/-/A-1000659866",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-instant-message-valentine-s-day-cupid-crew-graphic-long-sleeve-fleece-sweatshirt/-/A-1001598323",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-mickey-friends-graphic-long-sleeve-fleece-sweatshirt/-/A-1000719537",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-little-tikes-find-the-way-graphic-long-sleeve-fleece-sweatshirt/-/A-1001988854",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-lol-surprise-grow-gurrl-heart-earth-graphic-long-sleeve-fleece-sweatshirt/-/A-1002000626",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-never-stop-dreaming-graphic-long-sleeve-fleece-sweatshirt/-/A-1000791006",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-barbie-witch-silhouette-graphic-long-sleeve-fleece-sweatshirt/-/A-1002090628",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-americana-graphic-long-sleeve-fleece-sweatshirt/-/A-1000698693",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-i-feel-so-alive-graphic-long-sleeve-fleece-sweatshirt/-/A-1000792799",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-barbie-barbie-witch-graphic-long-sleeve-fleece-sweatshirt/-/A-1002092070",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000788924",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-packed-for-adventure-pluto-mickey-graphic-long-sleeve-fleece-sweatshirt/-/A-1000648507",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-monster-fun-graphic-long-sleeve-fleece-sweatshirt/-/A-1000654802",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-mickey-friends-graphic-long-sleeve-fleece-sweatshirt/-/A-1000825827",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-spongebob-squarepants-patrick-gary-graphic-long-sleeve-fleece-sweatshirt/-/A-1000606449",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-villains-maleficent-vicious-graphic-long-sleeve-fleece-sweatshirt/-/A-1000748752",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-instant-message-st-patrick-s-day-shenanigans-with-my-gnomies-graphic-long-sleeve-fleece-sweatshirt/-/A-1001602821",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-mickey-gamer-logo-press-button-graphic-long-sleeve-fleece-sweatshirt/-/A-1000658955",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-can-i-take-a-mulligan-graphic-long-sleeve-fleece-sweatshirt/-/A-1000615832",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-trolls-feel-the-vibes-poppy-graphic-long-sleeve-fleece-sweatshirt/-/A-1000797965",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000826121",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-paw-patrol-howl-eek-pups-graphic-long-sleeve-fleece-sweatshirt/-/A-1000730904",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/the-juniper-shop-team-halftime-distressed-toddler-graphic-sweatshirt/-/A-1001806049",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-instant-message-st-patrick-s-day-leprechaun-truck-delivering-luck-graphic-long-sleeve-fleece-sweatshirt/-/A-1001601745",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-space-cruising-graphic-long-sleeve-fleece-sweatshirt/-/A-1000655679",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-marine-life-institute-graphic-long-sleeve-fleece-sweatshirt/-/A-1000658481",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-spongebob-squarepants-i-woke-up-like-this-graphic-long-sleeve-fleece-sweatshirt/-/A-1000619068",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-mickey-minnie-pluto-sleigh-ride-together-christmas-graphic-long-sleeve-fleece-sweatshirt/-/A-1000640174",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-spongebob-squarepants-kamp-koral-kamp-koral-group-graphic-long-sleeve-fleece-sweatshirt/-/A-1000787885",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-peter-pan-graphic-long-sleeve-fleece-sweatshirt/-/A-1000717068",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-mickey-mouse-8-bit-graphic-long-sleeve-fleece-sweatshirt/-/A-1000615705",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-americana-graphic-long-sleeve-fleece-sweatshirt/-/A-1000698432",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-garfield-i-regret-nothing-graphic-long-sleeve-fleece-sweatshirt/-/A-1000706914",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-instant-message-valentine-s-day-love-you-like-pizza-graphic-long-sleeve-fleece-sweatshirt/-/A-1001598927",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-paw-patrol-have-a-pawsome-halloween-graphic-long-sleeve-fleece-sweatshirt/-/A-1000709629",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000790137",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-snoopy-and-woodstock-snow-much-fun-graphic-long-sleeve-fleece-sweatshirt/-/A-1000726282",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-garfield-life-is-just-purrfect-graphic-long-sleeve-fleece-sweatshirt/-/A-1000790047",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-hey-arnold-arnold-and-gerald-on-bike-graphic-long-sleeve-fleece-sweatshirt/-/A-1000855349",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-hot-wheels-pit-crew-1st-grade-graphic-long-sleeve-fleece-sweatshirt/-/A-1002094370",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-cars-go-go-go-graphic-long-sleeve-fleece-sweatshirt/-/A-1000659418",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000748043",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-team-girls-graphic-long-sleeve-fleece-sweatshirt/-/A-1000750643",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/the-juniper-shop-talk-football-to-me-ball-toddler-graphic-sweatshirt/-/A-1001834928",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-simba-pumbaa-timon-graphic-long-sleeve-fleece-sweatshirt/-/A-1000717723",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-spongebob-squarepants-always-be-yourself-squidward-graphic-long-sleeve-fleece-sweatshirt/-/A-1000618818",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-american-darling-minnie-graphic-long-sleeve-fleece-sweatshirt/-/A-1000785653",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-toy-story-graphic-long-sleeve-fleece-sweatshirt/-/A-1000616981",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-hot-wheels-revved-up-for-pre-k-graphic-long-sleeve-fleece-sweatshirt/-/A-1002093899",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-mutant-mayhem-ooze-your-ninja-graphic-long-sleeve-fleece-sweatshirt/-/A-1000804130",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/the-juniper-shop-embroidered-hand-drawn-heart-toddler-graphic-sweatshirt/-/A-1001709936",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000803470",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-cars-chester-whipplefilter-graphic-long-sleeve-fleece-sweatshirt/-/A-1000594714",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000629001",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-ramone-like-what-you-see-graphic-long-sleeve-fleece-sweatshirt/-/A-1000665129",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-main-characters-graphic-long-sleeve-fleece-sweatshirt/-/A-1000727896",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-be-a-rainbow-graphic-long-sleeve-fleece-sweatshirt/-/A-1000646239",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-mickey-friends-graphic-long-sleeve-fleece-sweatshirt/-/A-1000823911",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-rex-made-to-play-graphic-long-sleeve-fleece-sweatshirt/-/A-1000646050",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-winnie-the-pooh-pooh-piglet-wishing-for-a-merry-christmas-graphic-long-sleeve-fleece-sweatshirt/-/A-1000808565",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-spongebob-squarepants-spongebob-and-jellyfish-graphic-long-sleeve-fleece-sweatshirt/-/A-1000618714",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/the-juniper-shop-lucky-duck-toddler-graphic-sweatshirt/-/A-1002532877",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-make-way-for-the-future-graphic-long-sleeve-fleece-sweatshirt/-/A-1000670167",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-toy-story-graphic-long-sleeve-fleece-sweatshirt/-/A-1000783930",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-barbie-pink-is-power-graphic-long-sleeve-fleece-sweatshirt/-/A-1002051425",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-little-explorers-club-graphic-long-sleeve-fleece-sweatshirt/-/A-1000793937",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-instant-message-st-patrick-s-day-lucky-to-have-my-cousins-graphic-long-sleeve-fleece-sweatshirt/-/A-1001600181",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000732979",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-mickey-oh-boy-90s-graphic-long-sleeve-fleece-sweatshirt/-/A-1000802689",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-instant-message-peanut-butter-jellyfish-graphic-long-sleeve-fleece-sweatshirt/-/A-1004186439",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000790214",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-mutant-mayhem-its-turtle-time-graphic-long-sleeve-fleece-sweatshirt/-/A-1000803731",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/the-juniper-shop-vday-alphabet-toddler-graphic-sweatshirt/-/A-90568584",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-halloween-is-bootacular-graphic-long-sleeve-fleece-sweatshirt/-/A-1000714017",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-daisy-duck-graphic-long-sleeve-fleece-sweatshirt/-/A-1000802742",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-spongebob-squarepants-aloha-from-bikini-bottom-graphic-long-sleeve-fleece-sweatshirt/-/A-1000619144",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000788786",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-mickey-mouse-sunglasses-graphic-long-sleeve-fleece-sweatshirt/-/A-1000788864",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-mickey-punk-graphic-long-sleeve-fleece-sweatshirt/-/A-1000615787",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-spongebob-squarepants-kamp-koral-kamp-koral-logo-badge-graphic-long-sleeve-fleece-sweatshirt/-/A-1000787833",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-garfield-collegiate-graphic-long-sleeve-fleece-sweatshirt/-/A-1000587336",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-mickey-friends-graphic-long-sleeve-fleece-sweatshirt/-/A-1000581245",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-mickey-friends-graphic-long-sleeve-fleece-sweatshirt/-/A-1000823068",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-the-lion-king-graphic-long-sleeve-fleece-sweatshirt/-/A-1000623844",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/the-juniper-shop-game-day-football-toddler-graphic-sweatshirt/-/A-1001823583",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000839697",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-blue-s-clues-you-blue-s-clues-me-graphic-long-sleeve-fleece-sweatshirt/-/A-1000753571",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-jimmy-neutron-boy-genius-graphic-long-sleeve-fleece-sweatshirt/-/A-1000856467",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-americana-graphic-long-sleeve-fleece-sweatshirt/-/A-1000698463",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-shells-and-stripes-graphic-long-sleeve-fleece-sweatshirt/-/A-1000770020",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-spongebob-squarepants-lit-fireworks-patrick-graphic-long-sleeve-fleece-sweatshirt/-/A-1000675748",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-hot-wheels-its-my-birthday-graphic-long-sleeve-fleece-sweatshirt/-/A-1002086053",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-jr-comin-atcha-graphic-long-sleeve-fleece-sweatshirt/-/A-1000815085",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-mtv-retro-gamer-logo-graphic-long-sleeve-fleece-sweatshirt/-/A-1001983686",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-your-own-pace-graphic-long-sleeve-fleece-sweatshirt/-/A-1000655781",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-teenage-muntant-ninja-turtles-happy-holidays-graphic-long-sleeve-fleece-sweatshirt/-/A-1000844346",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-spongebob-squarepants-sandy-boo-y-all-graphic-long-sleeve-fleece-sweatshirt/-/A-1000728424",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-paw-patrol-happy-halloween-character-grid-graphic-long-sleeve-fleece-sweatshirt/-/A-1000709553",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-toy-story-graphic-long-sleeve-fleece-sweatshirt/-/A-1000783926",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-mickey-friends-graphic-long-sleeve-fleece-sweatshirt/-/A-1000822957",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-turtle-power-graphic-long-sleeve-fleece-sweatshirt/-/A-1000665643",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-toy-story-tacos-are-my-valentine-graphic-long-sleeve-fleece-sweatshirt/-/A-1003933569",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-less-dont-more-dos-tennis-graphic-long-sleeve-fleece-sweatshirt/-/A-1000647851",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-encanto-graphic-long-sleeve-fleece-sweatshirt/-/A-1000598480",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-baby-shark-don-t-mess-with-mama-shark-graphic-long-sleeve-fleece-sweatshirt/-/A-1000588633",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000720751",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-spongebob-squarepants-sandy-cheeks-graphic-long-sleeve-fleece-sweatshirt/-/A-1000618663",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-peter-pan-graphic-long-sleeve-fleece-sweatshirt/-/A-1000717471",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000592244",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-blue-s-clues-you-let-s-play-graphic-long-sleeve-fleece-sweatshirt/-/A-1000752355",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-only-good-days-ahead-graphic-long-sleeve-fleece-sweatshirt/-/A-1000657651",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-teenage-mutant-ninja-turtles-mutant-mayhem-superfly-graphic-long-sleeve-fleece-sweatshirt/-/A-1000803637",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000826591",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/the-juniper-shop-embroidered-be-kind-turning-smiles-toddler-graphic-sweatshirt/-/A-1002349888",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-the-sword-and-the-stone-graphic-long-sleeve-fleece-sweatshirt/-/A-1000812482",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/the-juniper-shop-candy-inspector-colorful-toddler-graphic-sweatshirt/-/A-92942525",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/the-juniper-shop-embroidered-lucky-clover-toddler-graphic-sweatshirt/-/A-1001890853",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-road-trip-ready-graphic-long-sleeve-fleece-sweatshirt/-/A-1000793472",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-santiago-of-the-sea-adventure-awaits-amigos-graphic-long-sleeve-fleece-sweatshirt/-/A-1000773139",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-spongebob-squarepants-happy-st-patricks-day-graphic-long-sleeve-fleece-sweatshirt/-/A-1000827835",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-paw-patrol-tracker-paw-patrol-graphic-long-sleeve-fleece-sweatshirt/-/A-1000626848",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000831893",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-the-brady-bunch-the-brady-kids-graphic-long-sleeve-fleece-sweatshirt/-/A-1001991050",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-barbie-xoxo-barbie-graphic-long-sleeve-fleece-sweatshirt/-/A-1002058014",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-barbie-barbie-arrow-heart-logo-graphic-long-sleeve-fleece-sweatshirt/-/A-1002083667",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000633249",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-garfield-try-to-keep-up-graphic-long-sleeve-fleece-sweatshirt/-/A-1000786288",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-lol-surprise-catch-some-rays-graphic-long-sleeve-fleece-sweatshirt/-/A-1001999149",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-building-future-recycle-graphic-long-sleeve-fleece-sweatshirt/-/A-1000722890",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000794934",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-mickey-friends-graphic-long-sleeve-fleece-sweatshirt/-/A-1000824465",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-baby-shark-sharktastic-graphic-long-sleeve-fleece-sweatshirt/-/A-1000588347",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-spongebob-squarepants-spongebob-slugger-pants-graphic-long-sleeve-fleece-sweatshirt/-/A-1000593471",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000662726",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-mickey-friends-graphic-long-sleeve-fleece-sweatshirt/-/A-1000822842",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-monster-high-frankiestein-voltageous-graphic-long-sleeve-fleece-sweatshirt/-/A-1002008360",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-lilo-stitch-graphic-long-sleeve-fleece-sweatshirt/-/A-1000617532",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000591920",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-lol-surprise-always-extra-graphic-long-sleeve-fleece-sweatshirt/-/A-1002005007",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-mickey-and-minnie-merry-and-bright-christmas-graphic-long-sleeve-fleece-sweatshirt/-/A-1000640193",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-hey-arnold-arnold-gerald-and-abner-graphic-long-sleeve-fleece-sweatshirt/-/A-1000855610",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-filmore-says-chill-dude-graphic-long-sleeve-fleece-sweatshirt/-/A-1000808777",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-race-to-finish-line-graphic-long-sleeve-fleece-sweatshirt/-/A-1000667304",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-blue-s-clues-you-magenta-excited-graphic-long-sleeve-fleece-sweatshirt/-/A-1000752029",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-barbie-easter-graphic-long-sleeve-fleece-sweatshirt/-/A-1002074880",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-hot-wheels-i-wheelie-love-4th-of-july-graphic-long-sleeve-fleece-sweatshirt/-/A-1002105163",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-pretty-and-punk-graphic-long-sleeve-fleece-sweatshirt/-/A-1000615785",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-mickey-wave-form-graphic-long-sleeve-fleece-sweatshirt/-/A-1000616042",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-hot-wheels-rolling-into-pre-k-graphic-long-sleeve-fleece-sweatshirt/-/A-1002093712",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-instant-message-graphic-long-sleeve-fleece-sweatshirt/-/A-1002035824",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-mickey-pluto-goofy-gift-wrapping-crew-christmas-graphic-long-sleeve-fleece-sweatshirt/-/A-1000640298",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-garfield-top-o-the-whatever-graphic-long-sleeve-fleece-sweatshirt/-/A-1000835680",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000792629",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-santiago-of-the-sea-mermaid-magic-graphic-long-sleeve-fleece-sweatshirt/-/A-1000772017",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000719006",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-aliens-triple-threat-graphic-long-sleeve-fleece-sweatshirt/-/A-1000646119",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000747239",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-paw-patrol-team-paw-chase-graphic-long-sleeve-fleece-sweatshirt/-/A-1000666025",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-no-gps-graphic-long-sleeve-fleece-sweatshirt/-/A-1000793604",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-instant-message-fall-graphic-long-sleeve-fleece-sweatshirt/-/A-1004513816",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-fierce-kind-creative-graphic-long-sleeve-fleece-sweatshirt/-/A-1000638743",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-garfield-garfield-odie-game-on-graphic-long-sleeve-fleece-sweatshirt/-/A-1000625711",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-ariel-sea-beauty-graphic-long-sleeve-fleece-sweatshirt/-/A-1000638833",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-garfield-do-you-think-i-actually-care-graphic-long-sleeve-fleece-sweatshirt/-/A-1000634565",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/the-juniper-shop-brother-squad-toddler-graphic-sweatshirt/-/A-92171097",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-fairytale-friends-graphic-long-sleeve-fleece-sweatshirt/-/A-1000657298",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-playdate-material-graphic-long-sleeve-fleece-sweatshirt/-/A-1000722818",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-hot-wheels-dashing-through-the-snow-graphic-long-sleeve-fleece-sweatshirt/-/A-1001977366",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-too-cute-to-pinch-graphic-long-sleeve-fleece-sweatshirt/-/A-1000691534",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-quackateer-graphic-long-sleeve-fleece-sweatshirt/-/A-1000624757",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-mickey-and-friends-time-to-get-festive-christmas-graphic-long-sleeve-fleece-sweatshirt/-/A-1000640156",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-valentino-goat-graphic-long-sleeve-fleece-sweatshirt/-/A-1000796266",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-wheres-the-fire-graphic-long-sleeve-fleece-sweatshirt/-/A-1000670051",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-garfield-garfield-panel-logo-graphic-long-sleeve-fleece-sweatshirt/-/A-1000786252",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-spongebob-squarepants-1st-grade-squad-graphic-long-sleeve-fleece-sweatshirt/-/A-1000618970",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000662595",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-blue-s-clues-you-blue-you-and-halloween-boo-graphic-long-sleeve-fleece-sweatshirt/-/A-1000761783",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-spongebob-squarepants-fly-on-the-4th-of-july-graphic-long-sleeve-fleece-sweatshirt/-/A-1000593833",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-mickey-iconic-graphic-long-sleeve-fleece-sweatshirt/-/A-1000624515",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-barbie-easter-graphic-long-sleeve-fleece-sweatshirt/-/A-1002074987",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-garfield-garf-laying-graphic-long-sleeve-fleece-sweatshirt/-/A-1000625695",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-mickey-and-minnie-heart-graphic-long-sleeve-fleece-sweatshirt/-/A-1000645391",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-latso-graphic-long-sleeve-fleece-sweatshirt/-/A-1000646248",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-garfield-i-m-fine-this-is-fine-graphic-long-sleeve-fleece-sweatshirt/-/A-1000786282",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000577965",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-nickelodeon-paw-patrol-graphic-long-sleeve-fleece-sweatshirt/-/A-1000828720",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-teenage-muntant-ninja-turtles-santas-helpers-in-a-half-shell-graphic-long-sleeve-fleece-sweatshirt/-/A-1000844399",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-lol-surprise-boogie-babe-palm-trees-graphic-long-sleeve-fleece-sweatshirt/-/A-1001999431",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000628967",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-rugrats-reptar-tokyo-graphic-long-sleeve-fleece-sweatshirt/-/A-1000784838",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-blue-s-clues-you-can-t-have-rainbow-without-blue-graphic-long-sleeve-fleece-sweatshirt/-/A-1000766730",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-garfield-resting-cat-face-graphic-long-sleeve-fleece-sweatshirt/-/A-1000585939",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-despicable-me-minions-mine-mine-mine-graphic-long-sleeve-fleece-sweatshirt/-/A-1000799155",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-spongebob-squarepants-merry-beachmas-graphic-long-sleeve-fleece-sweatshirt/-/A-1000840268",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-paw-patrol-rubble-crew-graphic-long-sleeve-fleece-sweatshirt/-/A-1000748881",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-paw-patrol-happy-halloween-graphic-long-sleeve-fleece-sweatshirt/-/A-1000730680",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-snoopy-and-linus-cozy-and-cuddly-graphic-long-sleeve-fleece-sweatshirt/-/A-1000850522",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000715943",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/the-juniper-shop-little-monster-toddler-graphic-sweatshirt/-/A-92725993",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000820153",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-one-wish-can-change-the-world-graphic-long-sleeve-fleece-sweatshirt/-/A-1000657215",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-the-lion-king-graphic-long-sleeve-fleece-sweatshirt/-/A-1000623498",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/the-juniper-shop-checkered-groovy-bunny-toddler-graphic-sweatshirt/-/A-91373244",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/paw-patrol-patrol-squad/-/A-1000780996",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-hot-wheels-race-crew-5-yrs-graphic-long-sleeve-fleece-sweatshirt/-/A-1002085315",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-field-day-fun-day-graphic-long-sleeve-fleece-sweatshirt/-/A-1000828235",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000591705",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-blue-s-clues-you-boo-s-clues-graphic-long-sleeve-fleece-sweatshirt/-/A-1000761700",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000622250",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000788818",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/the-juniper-shop-embroidered-love-typewriter-toddler-graphic-sweatshirt/-/A-1001709887",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-blue-s-clues-you-chillin-with-my-snowmies-graphic-long-sleeve-fleece-sweatshirt/-/A-1000757359",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-garfield-friends-graphic-long-sleeve-fleece-sweatshirt/-/A-1000587151",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-garfield-start-my-diet-tomorrow-graphic-long-sleeve-fleece-sweatshirt/-/A-1000634700",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-hot-head-donald-duck-graphic-long-sleeve-fleece-sweatshirt/-/A-1000624546",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-hey-arnold-since-96-graphic-long-sleeve-fleece-sweatshirt/-/A-1000854111",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-christmas-botanical-butterfly-graphic-long-sleeve-fleece-sweatshirt/-/A-1000808220",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-polly-pocket-believe-in-the-little-things-graphic-long-sleeve-fleece-sweatshirt/-/A-1002021394",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-the-sword-and-the-stone-graphic-long-sleeve-fleece-sweatshirt/-/A-1000673444",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-dr-seuss-don-t-worry-go-along-graphic-long-sleeve-fleece-sweatshirt/-/A-1000588956",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-spongebob-squarepants-patrick-sparkers-flag-graphic-long-sleeve-fleece-sweatshirt/-/A-1000817152",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-trolls-trick-or-troll-branch-and-poppy-graphic-long-sleeve-fleece-sweatshirt/-/A-1000797380",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000789283",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-polly-pocket-polly-pocket-pink-logo-graphic-long-sleeve-fleece-sweatshirt/-/A-1002015220",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/the-juniper-shop-in-my-football-era-green-toddler-graphic-sweatshirt/-/A-1001806076",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-spongebob-squarepants-squidward-nope-not-today-graphic-long-sleeve-fleece-sweatshirt/-/A-1000619105",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-roarsome-rex-graphic-long-sleeve-fleece-sweatshirt/-/A-1000646057",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/the-juniper-shop-lucky-retro-stars-toddler-graphic-sweatshirt/-/A-1002277207",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-hot-wheels-oh-what-fun-it-is-to-race-graphic-long-sleeve-fleece-sweatshirt/-/A-1001975565",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-mike-yeah-maybe-graphic-long-sleeve-fleece-sweatshirt/-/A-1000795796",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-character-panels-graphic-long-sleeve-fleece-sweatshirt/-/A-1000796089",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000803394",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-blue-s-clues-you-blue-outline-graphic-long-sleeve-fleece-sweatshirt/-/A-1000766888",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/disney-mickey-mouse-sketches/-/A-1000783404",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-classic-doc-hudson-car-show-ready-graphic-long-sleeve-fleece-sweatshirt/-/A-1000664924",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-garfield-only-a-morning-person-on-christmas-graphic-long-sleeve-fleece-sweatshirt/-/A-1000706615",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-stitch-happy-halloween-graphic-long-sleeve-fleece-sweatshirt/-/A-1000712833",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-cars-tow-ready-graphic-long-sleeve-fleece-sweatshirt/-/A-1000659377",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-lilo-stitch-graphic-long-sleeve-fleece-sweatshirt/-/A-1000799924",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-monster-high-draculara-graphic-long-sleeve-fleece-sweatshirt/-/A-1002008343",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-nickelodeon-paw-patrol-graphic-long-sleeve-fleece-sweatshirt/-/A-1000828797",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-hot-wheels-christmas-crew-graphic-long-sleeve-fleece-sweatshirt/-/A-1001975647",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-mickey-friends-graphic-long-sleeve-fleece-sweatshirt/-/A-1000825673",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-blue-s-clues-you-clue-into-kindness-graphic-long-sleeve-fleece-sweatshirt/-/A-1000753220",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/the-juniper-shop-smell-my-feet-puff-print-toddler-graphic-sweatshirt/-/A-93019554",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-dr-seuss-batty-for-halloween-thing-1-and-thing-2-graphic-long-sleeve-fleece-sweatshirt/-/A-1000585320",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-lol-surprise-lol-dance-graphic-long-sleeve-fleece-sweatshirt/-/A-1002002797",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-instant-message-gingerbread-men-cookie-sheets-christmas-graphic-long-sleeve-fleece-sweatshirt/-/A-1000853764",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-bubble-guppies-deema-graphic-long-sleeve-fleece-sweatshirt/-/A-1000759279",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-hot-wheels-revved-up-for-1st-grade-graphic-long-sleeve-fleece-sweatshirt/-/A-1002094098",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-do-you-even-lift-graphic-long-sleeve-fleece-sweatshirt/-/A-1000646019",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000788822",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-teenage-muntant-ninja-turtles-gaming-group-and-logo-graphic-long-sleeve-fleece-sweatshirt/-/A-1000837050",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-snoopy-woodstock-ski-stripes-graphic-long-sleeve-fleece-sweatshirt/-/A-1000840457",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-peanuts-graphic-long-sleeve-fleece-sweatshirt/-/A-1000826167",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-baby-shark-fish-friends-forever-graphic-long-sleeve-fleece-sweatshirt/-/A-1000588486",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-ferris-bueller-s-day-off-bueller-bueller-bueller-graphic-long-sleeve-fleece-sweatshirt/-/A-1002031421",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-positive-vibes-graphic-long-sleeve-fleece-sweatshirt/-/A-1000630108",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-trolls-merry-trollsmas-poppy-graphic-long-sleeve-fleece-sweatshirt/-/A-1000797139",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-its-fun-to-explore-graphic-long-sleeve-fleece-sweatshirt/-/A-1000793875",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/the-juniper-shop-trick-or-treat-lightning-bolt-toddler-graphic-sweatshirt/-/A-92546821",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-dr-seuss-abc-book-characters-graphic-long-sleeve-fleece-sweatshirt/-/A-1003966087",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-cars-vintage-graphic-long-sleeve-fleece-sweatshirt/-/A-1000659483",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-minnie-mickey-graphic-long-sleeve-fleece-sweatshirt/-/A-1000658934",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-disney-peter-pan-graphic-long-sleeve-fleece-sweatshirt/-/A-1000713977",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-mattel-mh-the-movie-logo-graphic-long-sleeve-fleece-sweatshirt/-/A-1001972702",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
+        }
+      },
+      {
+        "url": "https://www.target.com/p/boys-paw-patrol-pawfect-pals-graphic-long-sleeve-fleece-sweatshirt/-/A-1000665977",
+        "tags": "Hoodies & Sweatshirts, Pullover Sweatshirts, Toddler Boys’ Clothing, Toddler Clothing, Tops",
+        "filters": {
+          "type": "Pullover Sweatshirts"
         }
       }
     ]
-
   let allShopifyRows = [];
   let failedUrls = [];
   let currentIndex = 0;
